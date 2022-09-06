@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<etcitem id="22100" name="Spiritshot Pack - C grade">
+		<set name="name-ru" value="Пакет Зарядов Духа (C)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="C"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_pack_of_spiritshot_c_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26069" level="2"/>
+		</skills>
+		<set name="weight" value="500"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22101" name="Spiritshot Pack -  B grade">
+		<set name="name-ru" value="Пакет Зарядов Духа (B)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="B"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_pack_of_spiritshot_b_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26069" level="3"/>
+		</skills>
+		<set name="weight" value="500"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22102" name="Spiritshot Pack - A grade">
+		<set name="name-ru" value="Пакет Зарядов Духа (A)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="A"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_pack_of_spiritshot_a_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26069" level="4"/>
+		</skills>
+		<set name="weight" value="500"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22103" name="Spiritshot Pack - S grade">
+		<set name="name-ru" value="Пакет Зарядов Духа (S)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_pack_of_spiritshot_s_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26069" level="5"/>
+		</skills>
+		<set name="weight" value="500"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22104" name="Soulshot Pack - D grade">
+		<set name="name-ru" value="Пакет Зарядов Души (D)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="D"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_pack_of_soulshot_d_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26070" level="1"/>
+		</skills>
+		<set name="weight" value="500"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22105" name="Soulshot Pack - C grade">
+		<set name="name-ru" value="Пакет Зарядов Души (C)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="C"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_pack_of_soulshot_c_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26070" level="2"/>
+		</skills>
+		<set name="weight" value="500"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22106" name="Soulshot Pack -  B grade">
+		<set name="name-ru" value="Пакет Зарядов Души (B)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="B"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_pack_of_soulshot_b_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26070" level="3"/>
+		</skills>
+		<set name="weight" value="500"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22107" name="Soulshot Pack - A grade">
+		<set name="name-ru" value="Пакет Зарядов Души (A)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="A"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_pack_of_soulshot_a_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26070" level="4"/>
+		</skills>
+		<set name="weight" value="500"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22108" name="Soulshot Pack - S grade">
+		<set name="name-ru" value="Пакет Зарядов Души (S)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_pack_of_soulshot_s_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26070" level="5"/>
+		</skills>
+		<set name="weight" value="500"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22109" name="Blessed Spiritshot Large Pack - D grade">
+		<set name="name-ru" value="Упаковка Благ. Зарядов Духа (D)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="D"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_large_pack_of_blessed_spiritshot_d_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26068" level="6"/>
+		</skills>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22110" name="Blessed Spiritshot Large Pack - C grade">
+		<set name="name-ru" value="Упаковка Благ. Зарядов Духа (C)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="C"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_large_pack_of_blessed_spiritshot_c_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26068" level="7"/>
+		</skills>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22111" name="Blessed Spiritshot Large Pack - B grade">
+		<set name="name-ru" value="Упаковка Благ. Зарядов Духа (B)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="B"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_large_pack_of_blessed_spiritshot_b_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26068" level="8"/>
+		</skills>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22112" name="Blessed Spiritshot Large Pack - A grade">
+		<set name="name-ru" value="Упаковка Благ. Зарядов Духа (A)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="A"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_large_pack_of_blessed_spiritshot_a_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26068" level="9"/>
+		</skills>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22113" name="Blessed Spiritshot Large Pack - S grade">
+		<set name="name-ru" value="Упаковка Благ. Зарядов Духа (S)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_large_pack_of_blessed_spiritshot_s_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26068" level="10"/>
+		</skills>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22114" name="Spiritshot Large Pack - D grade">
+		<set name="name-ru" value="Упаковка Зарядов Духа (D)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="D"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_large_pack_of_spiritshot_d_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26069" level="6"/>
+		</skills>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22115" name="Spiritshot Large Pack - C grade">
+		<set name="name-ru" value="Упаковка Зарядов Духа (C)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="C"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_large_pack_of_spiritshot_c_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26069" level="7"/>
+		</skills>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22116" name="Spiritshot Large Pack -  B grade">
+		<set name="name-ru" value="Упаковка Зарядов Духа (B)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="B"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_large_pack_of_spiritshot_b_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26069" level="8"/>
+		</skills>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22117" name="Spiritshot Large Pack - A grade">
+		<set name="name-ru" value="Упаковка Зарядов Духа (A)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="A"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_large_pack_of_spiritshot_a_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26069" level="9"/>
+		</skills>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22118" name="Spiritshot Large Pack - S grade">
+		<set name="name-ru" value="Упаковка Зарядов Духа (S)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_large_pack_of_spiritshot_s_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26069" level="10"/>
+		</skills>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22119" name="Soulshot Large Pack - D grade">
+		<set name="name-ru" value="Упаковка Зарядов Души (D)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="D"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_large_pack_of_soulshot_d_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26070" level="6"/>
+		</skills>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22120" name="Soulshot Large Pack - C grade">
+		<set name="name-ru" value="Упаковка Зарядов Души (C)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="C"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_large_pack_of_soulshot_c_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26070" level="7"/>
+		</skills>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22121" name="Soulshot Large Pack -  B grade">
+		<set name="name-ru" value="Упаковка Зарядов Души (B)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="B"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_large_pack_of_soulshot_b_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26070" level="8"/>
+		</skills>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22122" name="Soulshot Large Pack - A grade">
+		<set name="name-ru" value="Упаковка Зарядов Души (A)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="A"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_large_pack_of_soulshot_a_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26070" level="9"/>
+		</skills>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22123" name="Soulshot Large Pack - S grade">
+		<set name="name-ru" value="Упаковка Зарядов Души (S)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_large_pack_of_soulshot_s_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26070" level="10"/>
+		</skills>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22124" name="Wrapped daisy hairpin">
+		<set name="name-ru" value="Заколка Маргаритка"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_wrapped_accessary_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26071" level="1"/>
+		</skills>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22125" name="Wrapped forget-me-not hairpin">
+		<set name="name-ru" value="Заколка Незабудка"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_wrapped_accessary_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26071" level="2"/>
+		</skills>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22126" name="Wrapped outlaw's eyepatch">
+		<set name="name-ru" value="Глазная Повязка Бандита"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_wrapped_accessary_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26071" level="3"/>
+		</skills>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22127" name="Wrapped pirate's eyepatch">
+		<set name="name-ru" value="Глазная Повязка Пирата"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_wrapped_accessary_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26071" level="4"/>
+		</skills>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22128" name="Wrapped Monocle">
+		<set name="name-ru" value="Упакованный Монокль"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_wrapped_accessary_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26071" level="5"/>
+		</skills>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22129" name="Wrapped Red Mask of Victory">
+		<set name="name-ru" value="Маска Духов"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_wrapped_accessary_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26071" level="6"/>
+		</skills>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22130" name="Wrapped Red Horn of Victory">
+		<set name="name-ru" value="Рога Демона"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_wrapped_accessary_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26071" level="7"/>
+		</skills>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22131" name="Wrapped Party Mask">
+		<set name="name-ru" value="Карнавальная Маска"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_wrapped_accessary_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26071" level="8"/>
+		</skills>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22132" name="Wrapped Red Party Mask">
+		<set name="name-ru" value="Красная Карнавальная Маска"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_wrapped_accessary_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26071" level="9"/>
+		</skills>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22133" name="Wrapped Cat Ear">
+		<set name="name-ru" value="Кошачьи Ушки"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_wrapped_accessary_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26071" level="10"/>
+		</skills>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22134" name="Wrapped Noblewoman's Hairpin">
+		<set name="name-ru" value="Заколка Леди"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_wrapped_accessary_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26071" level="11"/>
+		</skills>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22135" name="Wrapped Raccoon Ear">
+		<set name="name-ru" value="Ушки Енота"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_wrapped_accessary_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26071" level="12"/>
+		</skills>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22136" name="Wrapped Rabbit Ear">
+		<set name="name-ru" value="Ушки Кролика"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_wrapped_accessary_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26071" level="13"/>
+		</skills>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22137" name="Wrapped Little Angel's Wings">
+		<set name="name-ru" value="Крылышко Ангела"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_wrapped_accessary_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26071" level="14"/>
+		</skills>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22138" name="Wrapped Fairy's Tentacle">
+		<set name="name-ru" value="Антенки Феи"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_wrapped_accessary_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26071" level="15"/>
+		</skills>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22139" name="Wrapped Dandy's Chapeau">
+		<set name="name-ru" value="Украшенная Перьями Шляпа"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_wrapped_accessary_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26071" level="16"/>
+		</skills>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22140" name="Wrapped Artisan's Goggles">
+		<set name="name-ru" value="Защитные Очки Ремесленника"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_wrapped_accessary_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26071" level="17"/>
+		</skills>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22141" name="Wrapped Pet Exchange Ticket - Buffalo">
+		<set name="name-ru" value="Билет Питомца: Буйвол"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_wrapped_pet_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26072" level="1"/>
+		</skills>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22142" name="Wrapped Pet Exchange Ticket - Cougar">
+		<set name="name-ru" value="Билет Питомца: Кугуар"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_wrapped_pet_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26072" level="2"/>
+		</skills>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22143" name="Wrapped Pet Exchange Ticket - kookaburra">
+		<set name="name-ru" value="Билет Питомца: Кукабарра"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_wrapped_pet_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26072" level="3"/>
+		</skills>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22144" name="Bone Bolt">
+		<set name="name-ru" value="Костяной Болт"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="crystal_type" value="D"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_bone_bolt_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="BOLT"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</etcitem>
+	<etcitem id="22145" name="Steel Bolt">
+		<set name="name-ru" value="Стальной Болт"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="crystal_type" value="C"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_fine_steel_bolt_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="BOLT"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</etcitem>
+	<etcitem id="22146" name="Silver Bolt">
+		<set name="name-ru" value="Серебряный Болт"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="crystal_type" value="B"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_silver_bolt_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="BOLT"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="SILVER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</etcitem>
+	<etcitem id="22147" name="Mithril Bolt">
+		<set name="name-ru" value="Мифриловый Болт"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="crystal_type" value="A"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_mithril_bolt_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="BOLT"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="MITHRIL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</etcitem>
+	<etcitem id="22148" name="Bolt of Light">
+		<set name="name-ru" value="Сверкающий Болт"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="crystal_type" value="S"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_shining_bolt_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="BOLT"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</etcitem>
+	<etcitem id="22149" name="Bone Bolt Container">
+		<set name="name-ru" value="Колчан Костяных Болтов"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="D"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_quiver_of_bone_bolts_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26073" level="1"/>
+		</skills>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22150" name="Steel Bolt Container">
+		<set name="name-ru" value="Колчан Стальных Болтов"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="C"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_quiver_of_fine_steel_bolts_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26073" level="2"/>
+		</skills>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22151" name="Silver Bolt Container">
+		<set name="name-ru" value="Колчан Серебряных Болтов"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="B"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_quiver_of_silver_bolts_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26073" level="3"/>
+		</skills>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="SILVER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22152" name="Mithril Bolt Container">
+		<set name="name-ru" value="Колчан Мифриловых Болтов"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="A"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_quiver_of_mithril_bolts_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26073" level="4"/>
+		</skills>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="MITHRIL"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="22153" name="Bolt Container of Light">
+		<set name="name-ru" value="Колчан Сверкающих Болтов"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_quiver_of_shining_bolts_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="26073" level="5"/>
+		</skills>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<armor id="22154" name="Shadow Weapon - Wolf Hat " add_name="Blessed Escape">
+		<set name="name-ru" value="Теневой Предмет - Шляпа Волка"/>
+		<set name="add_name-ru" value="Благ. Телепорт"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="1440"/>
+		<set name="icon" value="icon.accessory_wolf_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="22155" name="Shadow Weapon - Wolf Hat " add_name="Blessed Resurrection">
+		<set name="name-ru" value="Теневой Предмет - Шляпа Волка"/>
+		<set name="add_name-ru" value="Благ. Воскрешение"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="1440"/>
+		<set name="icon" value="icon.accessory_wolf_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="22156" name="Daisy Hairpin">
+		<set name="name-ru" value="Заколка Маргаритка"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.accessory_daisy_hairpin_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR"/>
+		</equip>
+		<cond msgId="1518">
+			<player sex="1"/>
+		</cond>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="22157" name="Forget-me-not Hairpin">
+		<set name="name-ru" value="Заколка Незабудка"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.accessory_forget_me_not_hairpin_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR"/>
+		</equip>
+		<cond msgId="1518">
+			<player sex="1"/>
+		</cond>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="22158" name="Outlaw's Eyepatch">
+		<set name="name-ru" value="Глазная Повязка Бандита"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.accessory_outlaw_eyepatch_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FACE"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="22159" name="Pirate's eyepatch">
+		<set name="name-ru" value="Глазная Повязка Пирата"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.accessory_eye_bandage_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FACE"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="22160" name="Monocle">
+		<set name="name-ru" value="Монокль"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.accessory_glasses_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FACE"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="22161" name="Red Mask of Victory">
+		<set name="name-ru" value="Маска Духов"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.accessory_worldcup_mask_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FACE"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="22162" name="Red Horn of Victory">
+		<set name="name-ru" value="Рога Демона"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.accessory_hair_cornu_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="22163" name="Party Mask">
+		<set name="name-ru" value="Карнавальная Маска"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_party_mask_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FACE"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="22164" name="Red Party Mask">
+		<set name="name-ru" value="Красная Карнавальная Маска"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_party_mask_i01"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FACE"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="22165" name="Cat Ear">
+		<set name="name-ru" value="Кошачьи Ушки"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.accessory_cat_ear_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="22166" name="Noblewoman's hairpin">
+		<set name="name-ru" value="Заколка Леди"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.accessory_hairpin_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR"/>
+		</equip>
+		<cond msgId="1518">
+			<player sex="1"/>
+		</cond>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="22167" name="Raccoon Ear">
+		<set name="name-ru" value="Ушки Енота"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.accessory_racoon_ear_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="22168" name="Rabbit Ear">
+		<set name="name-ru" value="Ушки Кролика"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.accessory_rabbit_ear_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="22169" name="Little Angel Wings">
+		<set name="name-ru" value="Крылышко Ангела"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.accessory_hair_ring_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="22170" name="Fairy's Tentacle">
+		<set name="name-ru" value="Антенки Феи"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.accessory_hair_feeler_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="22171" name="Dandy's Chapeau">
+		<set name="name-ru" value="Украшенная Перьями Шляпа"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.accessory_archer_hat_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="22172" name="Artisan's Goggles">
+		<set name="name-ru" value="Защитные Очки Ремесленника"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.accessory_dwarf_goggle_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+</list>

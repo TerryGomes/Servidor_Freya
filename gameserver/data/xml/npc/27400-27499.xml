@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list> 
+	<npc id="27400" name="Shilen's Evil Thoughts" title="" name_ru="Коварство Шилен" title_ru="" pts_name="evil_of_shilen13"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.ru-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="level" value="51"/>
+		<set name="exp" value="45525133"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="etc"/>
+		<set name="sex" value="etc"/>
+		<set name="collision_radius" value="13"/>
+		<set name="collision_height" value="40"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="100"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="1470.41596"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="775.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="321"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="150"/>
+		<set name="baseMAtk" value="219"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="205"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="1"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="Skill01_ID" value="s_ssq_epic_dark_attack1"/>
+			<set name="Skill02_Probablity" value="1000"/>
+			<set name="Skill01_Probablity" value="1000"/>
+			<set name="Skill02_ID" value="s_ssq_epic_dark_storm1"/>
+		</ai_params>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="27401" name="Shilen's Evil Thoughts" title="" name_ru="Коварство Шилен" title_ru="" pts_name="evil_of_shilen14"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.ru-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="level" value="61"/>
+		<set name="exp" value="146308200"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="etc"/>
+		<set name="sex" value="etc"/>
+		<set name="collision_radius" value="13"/>
+		<set name="collision_height" value="40"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="100"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="1985.55926"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1066.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="501"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="185"/>
+		<set name="baseMAtk" value="342"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="252"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="1"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="Skill01_ID" value="s_ssq_epic_dark_attack1"/>
+			<set name="Skill02_Probablity" value="1000"/>
+			<set name="Skill01_Probablity" value="1000"/>
+			<set name="Skill02_ID" value="s_ssq_epic_dark_storm2"/>
+		</ai_params>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="27402" name="Shilen's Evil Thoughts" title="" name_ru="Коварство Шилен" title_ru="" pts_name="evil_of_shilen15"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.ru-->  
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="79"/>
+		<set name="exp" value="2099275834"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="14"/>
+		<set name="collision_height" value="27.5"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="3127.82459333517"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1641"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="930"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="247"/>
+		<set name="baseMAtk" value="635"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="337"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="MoveAroundSocial" value="0"/>
+			<set name="MoveAroundSocial1" value="0"/>
+			<set name="MoveAroundSocial2" value="0"/>
+			<set name="Skill01_ID" value="s_ssq_epic_dark_attack3"/>
+			<set name="Skill02_Probablity" value="1000"/>
+			<set name="Skill01_Probablity" value="1000"/>
+			<set name="Skill02_ID" value="s_ssq_epic_dark_storm3"/>
+		</ai_params>
+		<skills>
+			<skill id="4412" level="11"/>
+			<skill id="5975" level="3"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="5976" level="3"/>
+			<skill id="4413" level="11"/>
+			<skill id="4409" level="1"/>
+			<skill id="5467" level="1"/>
+			<skill id="4408" level="1"/>
+			<skill id="4416" level="9"/>
+			<skill id="4410" level="11"/>
+			<skill id="4411" level="11"/>
+		</skills>
+		<attributes>
+			<attack attribute="unholy" value="200"/>
+			<defence attribute="fire" value="170"/>
+			<defence attribute="water" value="170"/>
+			<defence attribute="wind" value="170"/>
+			<defence attribute="earth" value="170"/>
+			<defence attribute="holy" value="120"/>
+			<defence attribute="unholy" value="200"/>
+		</attributes>
+	</npc> 
+</list>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Squash Seed -->
+<list>
+	<!-- Blessed Scroll -->
+
+
+
+  <!-- Blessed Scroll: Enchant Weapon (Grade D) -->
+  <item id="1">
+    <ingredient id="4357" count="8" enchant="0"/>
+    <production id="6575" count="1" enchant="0"/>
+  </item>
+
+  <!-- Blessed Scroll: Enchant Armor (Grade D) -->
+  <item id="2">
+    <ingredient id="4357" count="4" enchant="0"/>
+    <production id="6576" count="1" enchant="0"/>
+  </item>
+
+  <!-- Blessed Scroll: Enchant Weapon (Grade C) -->
+  <item id="3">
+    <ingredient id="4357" count="20" enchant="0"/>
+    <production id="6573" count="1" enchant="0"/>
+  </item>
+
+  <!-- Blessed Scroll: Enchant Armor (Grade C) -->
+  <item id="4">
+    <ingredient id="4357" count="10" enchant="0"/>
+    <production id="6574" count="1" enchant="0"/>
+  </item>
+
+  <!-- Blessed Scroll: Enchant Weapon (Grade B) -->
+  <item id="5">
+    <ingredient id="4357" count="40" enchant="0"/>
+    <production id="6571" count="1" enchant="0"/>
+  </item>
+
+  <!-- Blessed Scroll: Enchant Armor (Grade B) -->
+  <item id="6">
+    <ingredient id="4357" count="20" enchant="0"/>
+    <production id="6572" count="1" enchant="0"/>
+  </item>
+
+  <!-- Blessed Scroll: Enchant Weapon (Grade A) -->
+  <item id="7">
+    <ingredient id="4357" count="100" enchant="0"/>
+    <production id="6569" count="1" enchant="0"/>
+  </item>
+
+  <!-- Blessed Scroll: Enchant Armor (Grade A) -->
+  <item id="8">
+    <ingredient id="4357" count="50" enchant="0"/>
+    <production id="6570" count="1" enchant="0"/>
+  </item>
+
+  <!-- Blessed Scroll: Enchant Weapon (Grade S) -->
+  <item id="9">
+    <ingredient id="4357" count="300" enchant="0"/>
+    <production id="6577" count="1" enchant="0"/>
+  </item>
+
+  <!-- Blessed Scroll: Enchant Armor (Grade S) -->
+  <item id="10">
+    <ingredient id="4357" count="150" enchant="0"/>
+    <production id="6578" count="1" enchant="0"/>
+  </item>
+
+</list>

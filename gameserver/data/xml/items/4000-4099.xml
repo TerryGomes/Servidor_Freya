@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<etcitem id="4000" name="Mercenary Posting Ticket (Spear/Stationary)">
+		<set name="name-ru" value="Наемник (Копейщик/Неподвижно)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_pole_fix_i00"/>
+		<set name="price" value="60000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4001" name="Mercenary Posting Ticket (Bow/Stationary)">
+		<set name="name-ru" value="Наемник (Лучник/Неподвижно)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_bow_fix_i00"/>
+		<set name="price" value="70000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4002" name="Mercenary Posting Ticket (Cleric/Stationary)">
+		<set name="name-ru" value="Наемник (Целитель/Неподвижно)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_cleric_fix_i00"/>
+		<set name="price" value="170000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4003" name="Mercenary Posting Ticket (Wizard/Stationary)">
+		<set name="name-ru" value="Наемник (Маг/Неподвижно)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_wizard_fix_i00"/>
+		<set name="price" value="170000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4004" name="Mercenary Posting Ticket (Sword/Mobile)">
+		<set name="name-ru" value="Наемник (Мечник/Подвижно)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_sword_move_i00"/>
+		<set name="price" value="50000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4005" name="Mercenary Posting Ticket (Spear/Mobile)">
+		<set name="name-ru" value="Наемник (Копейщик/Подвижно)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_pole_move_i00"/>
+		<set name="price" value="60000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4006" name="Mercenary Posting Ticket (Bow/Mobile)">
+		<set name="name-ru" value="Наемник (Лучник/Подвижно)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_bow_move_i00"/>
+		<set name="price" value="70000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4007" name="Mercenary Posting Ticket (Cleric/Mobile)">
+		<set name="name-ru" value="Наемник (Целитель/Подвижно)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_cleric_move_i00"/>
+		<set name="price" value="170000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4008" name="Mercenary Posting Ticket (Wizard/Mobile)">
+		<set name="name-ru" value="Наемник (Маг/Подвижно)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_wizard_move_i00"/>
+		<set name="price" value="170000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4009" name="Mercenary Posting Ticket (Teleporter1)">
+		<set name="name-ru" value="Наемник (Телепорт-1)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_teleporter_fix_i00"/>
+		<set name="price" value="100000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4010" name="Mercenary Posting Ticket (Teleporter2)">
+		<set name="name-ru" value="Наемник (Телепорт-2)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_teleporter_fix_i00"/>
+		<set name="price" value="100000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4011" name="Mercenary Posting Ticket (Teleporter3)">
+		<set name="name-ru" value="Наемник (Телепорт-3)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_teleporter_fix_i00"/>
+		<set name="price" value="100000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4012" name="Mercenary Posting Ticket (Sword/Stationary)">
+		<set name="name-ru" value="Наемник (Мечник/Неподвижно)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_sword_fix_i00"/>
+		<set name="price" value="50000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4013" name="Mercenary Posting Ticket (Spear/Stationary)">
+		<set name="name-ru" value="Наемник (Копейщик/Неподвижно)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_pole_fix_i00"/>
+		<set name="price" value="60000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4014" name="Mercenary Posting Ticket (Bow/Stationary)">
+		<set name="name-ru" value="Наемник (Лучник/Неподвижно)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_bow_fix_i00"/>
+		<set name="price" value="70000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4015" name="Mercenary Posting Ticket (Cleric/Stationary)">
+		<set name="name-ru" value="Наемник (Целитель/Неподвижно)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_cleric_fix_i00"/>
+		<set name="price" value="170000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4016" name="Mercenary Posting Ticket (Wizard/Stationary)">
+		<set name="name-ru" value="Наемник (Маг/Неподвижно)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_wizard_fix_i00"/>
+		<set name="price" value="170000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4017" name="Mercenary Posting Ticket (Sword/Mobile)">
+		<set name="name-ru" value="Наемник (Мечник/Подвижно)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_sword_move_i00"/>
+		<set name="price" value="50000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4018" name="Mercenary Posting Ticket (Spear/Mobile)">
+		<set name="name-ru" value="Наемник (Копейщик/Подвижно)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_pole_move_i00"/>
+		<set name="price" value="60000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4019" name="Mercenary Posting Ticket (Bow/Mobile)">
+		<set name="name-ru" value="Наемник (Лучник/Подвижно)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_bow_move_i00"/>
+		<set name="price" value="70000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4020" name="Mercenary Posting Ticket (Cleric/Mobile)">
+		<set name="name-ru" value="Наемник (Целитель/Подвижно)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_cleric_move_i00"/>
+		<set name="price" value="170000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4021" name="Mercenary Posting Ticket (Wizard/Mobile)">
+		<set name="name-ru" value="Наемник (Маг/Подвижно)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_wizard_move_i00"/>
+		<set name="price" value="170000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4022" name="Mercenary Posting Ticket (Teleporter1)">
+		<set name="name-ru" value="Наемник (Телепорт-1)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_teleporter_fix_i00"/>
+		<set name="price" value="100000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4023" name="Mercenary Posting Ticket (Teleporter2)">
+		<set name="name-ru" value="Наемник (Телепорт-2)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_teleporter_fix_i00"/>
+		<set name="price" value="100000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4024" name="Mercenary Posting Ticket (Teleporter3)">
+		<set name="name-ru" value="Наемник (Телепорт-3)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_teleporter_fix_i00"/>
+		<set name="price" value="100000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4025" name="Mercenary Posting Ticket (Teleporter4)">
+		<set name="name-ru" value="Наемник (Телепорт-4)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_teleporter_fix_i00"/>
+		<set name="price" value="100000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4026" name="Mercenary Posting Ticket (Teleporter5)">
+		<set name="name-ru" value="Наемник (Телепорт-5)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.mticket_teleporter_fix_i00"/>
+		<set name="price" value="100000"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MERCENARY_TICKET"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<weapon id="4027" name="Bouquet">
+		<set name="name-ru" value="Букет"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_plan_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="SWORD"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="8"/>
+			<add stat="mAtk" order="0x10" value="6"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="4028" name="Giant Cannon">
+		<set name="name-ru" value="Большая Пушка"/>
+		<set name="crystal_count" value="743"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="price" value="409000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="5"/>
+			<add stat="mAtk" order="0x10" value="5"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="300"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<etcitem id="4029" name="Red Paper">
+		<set name="name-ru" value="Красная Бумага"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_paper_red_i00"/>
+		<set name="price" value="1"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4030" name="Orange Paper">
+		<set name="name-ru" value="Оранжевая Бумага"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_paper_red_i00"/>
+		<set name="price" value="1"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4031" name="Yellow Paper">
+		<set name="name-ru" value="Желтая Бумага"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_paper_red_i00"/>
+		<set name="price" value="1"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4032" name="Green Paper">
+		<set name="name-ru" value="Зеленая Бумага"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_paper_red_i00"/>
+		<set name="price" value="1"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4033" name="Blue Paper">
+		<set name="name-ru" value="Синяя Бумага"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_paper_red_i00"/>
+		<set name="price" value="1"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4034" name="Purple Paper">
+		<set name="name-ru" value="Фиолетовая Бумага"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_paper_red_i00"/>
+		<set name="price" value="1"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4035" name="White Paper">
+		<set name="name-ru" value="Белая Бумага"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_paper_red_i00"/>
+		<set name="price" value="1"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4036" name="Black Paper">
+		<set name="name-ru" value="Черная Бумага"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_paper_red_i00"/>
+		<set name="price" value="1"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4037" name="Coin of Luck">
+		<set name="name-ru" value="Монета удачи"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coins_gold_i00"/>
+		<set name="price" value="1"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4038" name="Food For Hatchling">
+		<set name="name-ru" value="Корм Дракончика"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="150"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="PET_FEED"/>
+		<skills>
+			<skill id="2063" level="1"/>
+			<!--Hatchling Food-->
+		</skills>
+		<cond msgId="113">
+			<target is_pet_feed="4038"/>
+		</cond>
+		<cond msgId="1508">
+			<player olympiad="false"/>
+		</cond>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+	<etcitem id="4039" name="Mold Glue">
+		<set name="name-ru" value="Клей"/>
+		<set name="class" value="MATHERIALS"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_reagent_red_i00"/>
+		<set name="price" value="6000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="2"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4040" name="Mold Lubricant">
+		<set name="name-ru" value="Смазка"/>
+		<set name="class" value="MATHERIALS"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_reagent_gold_i00"/>
+		<set name="price" value="10000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="2"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4041" name="Mold Hardener">
+		<set name="name-ru" value="Отвердитель Формы"/>
+		<set name="class" value="MATHERIALS"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_reagent_blue_i00"/>
+		<set name="price" value="23000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="2"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4042" name="Enria">
+		<set name="name-ru" value="Энрия"/>
+		<set name="class" value="MATHERIALS"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_gem_red_i00"/>
+		<set name="price" value="12000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="2"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4043" name="Asofe">
+		<set name="name-ru" value="Азоф"/>
+		<set name="class" value="MATHERIALS"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_gem_blue_i00"/>
+		<set name="price" value="6000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="2"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4044" name="Thons">
+		<set name="name-ru" value="Тонс"/>
+		<set name="class" value="MATHERIALS"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_gem_clear_i00"/>
+		<set name="price" value="6000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="2"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4045" name="Maestro Holder">
+		<set name="name-ru" value="Тиски Мастера"/>
+		<set name="class" value="MATHERIALS"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_lump_yellow_i00"/>
+		<set name="price" value="411000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="2"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4046" name="Maestro Anvil Lock">
+		<set name="name-ru" value="Замок Мастера"/>
+		<set name="class" value="MATHERIALS"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_lump_dark_gray_i00"/>
+		<set name="price" value="90400"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="2"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4047" name="Craftsman Mold">
+		<set name="name-ru" value="Заготовка Работника"/>
+		<set name="class" value="MATHERIALS"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_mold_i00"/>
+		<set name="price" value="710000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="2"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4048" name="Maestro Mold">
+		<set name="name-ru" value="Заготовка Мастера"/>
+		<set name="class" value="MATHERIALS"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_silver_mold_i00"/>
+		<set name="price" value="154000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="2"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4049" name="Adamantite Earring Gemstone">
+		<set name="name-ru" value="Самоцвет Адамантитовой Серьги"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_crystal_ball_gold_i00"/>
+		<set name="price" value="3813"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4050" name="Adamantite Ring Wire">
+		<set name="name-ru" value="Часть Адамантитового Кольца"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_jewel_box_i00"/>
+		<set name="price" value="3228"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4051" name="Adamantite Necklace Chain">
+		<set name="name-ru" value="Цепочка Адамантитового Ожерелья"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_jewel_box_i00"/>
+		<set name="price" value="5157"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4052" name="Earring of Black Ore Piece">
+		<set name="name-ru" value="Часть Черной Серьги"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_broken_crystal_silver_i00"/>
+		<set name="price" value="5649"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4053" name="Ring of Black Ore Gemstone">
+		<set name="name-ru" value="Самоцвет Черного Кольца"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_gem_black_i00"/>
+		<set name="price" value="4666"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4054" name="Necklace of Black Ore Beads">
+		<set name="name-ru" value="Бусина Черного Ожерелья"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bead_silver_i00"/>
+		<set name="price" value="10154"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4055" name="Composite Shield Fragment">
+		<set name="name-ru" value="Часть Композитного Щита"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_plate_silver_i00"/>
+		<set name="price" value="3120"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4056" name="Zubei's Breastplate Part">
+		<set name="name-ru" value="Часть Кирасы Зубея"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_plate_silver_i00"/>
+		<set name="price" value="11050"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4057" name="Zubei's Gaiter Material">
+		<set name="name-ru" value="Материал Набедренников Зубея"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_leather_gray_i00"/>
+		<set name="price" value="7150"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4058" name="Implosion Boots Part">
+		<set name="name-ru" value="Часть Сапог Имплозии"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_plate_silver_i00"/>
+		<set name="price" value="4455"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4059" name="Boots of Silence Fabric">
+		<set name="name-ru" value="Материя Сапог Безмолвия"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_leather_gray_i00"/>
+		<set name="price" value="3843"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4060" name="Guardian's Boots Fabric">
+		<set name="name-ru" value="Материя Сапог Стражника"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_leather_gray_i00"/>
+		<set name="price" value="3843"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4061" name="Paradia Boots Pattern">
+		<set name="name-ru" value="Шаблон Сапог Парадии"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_letter_red_i00"/>
+		<set name="price" value="4455"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4062" name="Elemental Boots Lining">
+		<set name="name-ru" value="Подкладка Сапог Стихии"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_leather_gray_i00"/>
+		<set name="price" value="4455"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4063" name="Boots of Grace Lining">
+		<set name="name-ru" value="Подкладка Сапог Грации"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_leather_gray_i00"/>
+		<set name="price" value="4455"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4064" name="Avadon Breastplate Part">
+		<set name="name-ru" value="Часть Кирасы Авадона"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_plate_silver_i00"/>
+		<set name="price" value="11050"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4065" name="Avadon Gaiters Material">
+		<set name="name-ru" value="Материал Набедренников Авадона"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_leather_gray_i00"/>
+		<set name="price" value="7150"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4066" name="Zubei's Leather Shirt Fabric">
+		<set name="name-ru" value="Материя Кожаной Рубахи Зубея"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_leather_gray_i00"/>
+		<set name="price" value="8483"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4067" name="Zubei's Leather Gaiter Texture">
+		<set name="name-ru" value="Материал Кожаных Набедренников Зубея"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_leather_gray_i00"/>
+		<set name="price" value="5587"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4068" name="Avadon Leather Armor Lining">
+		<set name="name-ru" value="Подкладка Кожаного Доспеха Авадона"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_leather_gray_i00"/>
+		<set name="price" value="11042"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4069" name="Tunic of Zubei Fabric">
+		<set name="name-ru" value="Материя Туники Зубея"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_leather_gray_i00"/>
+		<set name="price" value="8483"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4070" name="Stockings of Zubei Fabric">
+		<set name="name-ru" value="Материя Штанов Зубея"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_leather_gray_i00"/>
+		<set name="price" value="5587"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4071" name="Avadon Robe Fabric">
+		<set name="name-ru" value="Материя Мантии Авадона"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_leather_gray_i00"/>
+		<set name="price" value="11042"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4072" name="Avadon Circlet Pattern">
+		<set name="name-ru" value="Шаблон Венца Авадона"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_letter_red_i00"/>
+		<set name="price" value="4453"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4073" name="Avadon Gloves Part">
+		<set name="name-ru" value="Часть Перчаток Авадона"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_plate_silver_i00"/>
+		<set name="price" value="3843"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4074" name="Chain Gloves of Silence Design">
+		<set name="name-ru" value="Модель Кольчужных Перчаток Безмолвия"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_brown_i00"/>
+		<set name="price" value="3843"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4075" name="Guardian's Gloves Design">
+		<set name="name-ru" value="Выкройка Перчаток Стражника"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_brown_i00"/>
+		<set name="price" value="3843"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4076" name="Gloves of Blessing Pattern">
+		<set name="name-ru" value="Выкройка Перчаток Благословения"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_letter_red_i00"/>
+		<set name="price" value="3843"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4077" name="Doom Shield Fragment">
+		<set name="name-ru" value="Часть Щита Рока"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_plate_silver_i00"/>
+		<set name="price" value="4446"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4078" name="Blue Wolf Breastplate Part">
+		<set name="name-ru" value="Часть Кирасы Синего Волка"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_plate_silver_i00"/>
+		<set name="price" value="13692"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4079" name="Boots of Blessing Design">
+		<set name="name-ru" value="Модель Сапог Благословения"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_brown_i00"/>
+		<set name="price" value="3843"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4080" name="Blue Wolf Gaiters Material">
+		<set name="name-ru" value="Материал Набедренников Синего Волка"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_leather_gray_i00"/>
+		<set name="price" value="9723"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4081" name="Doom Plate Armor Temper">
+		<set name="name-ru" value="Заготовка Латного Доспеха Рока"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_lump_white_i00"/>
+		<set name="price" value="20292"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4082" name="Blue Wolf Leather Armor Texture">
+		<set name="name-ru" value="Материя Кожаного Доспеха Синего Волка"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_leather_gray_i00"/>
+		<set name="price" value="17700"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4083" name="Leather Armor of Doom Design">
+		<set name="name-ru" value="Выкройка Кожаного Доспеха Рока"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_brown_i00"/>
+		<set name="price" value="17700"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4084" name="Blue Wolf Tunic Fabric">
+		<set name="name-ru" value="Материя Туники Синего Волка"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_leather_gray_i00"/>
+		<set name="price" value="11508"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4085" name="Tunic of Doom Pattern">
+		<set name="name-ru" value="Выкройка Туники Рока"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_letter_red_i00"/>
+		<set name="price" value="11508"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4086" name="Blue Wolf Stockings Pattern">
+		<set name="name-ru" value="Выкройка Штанов Синего Волка"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_letter_red_i00"/>
+		<set name="price" value="8523"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4087" name="Stockings of Doom Pattern">
+		<set name="name-ru" value="Выкройка Штанов Рока"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_letter_red_i00"/>
+		<set name="price" value="8523"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4088" name="Blue Wolf Helmet Design">
+		<set name="name-ru" value="Модель Шлема Синего Волка"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_brown_i00"/>
+		<set name="price" value="5292"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4089" name="Doom Helmet Pattern">
+		<set name="name-ru" value="Модель Шлема Рока"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_letter_red_i00"/>
+		<set name="price" value="5292"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4090" name="Blue Wolf Boots Design">
+		<set name="name-ru" value="Модель Сапог Синего Волка"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_brown_i00"/>
+		<set name="price" value="4455"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4091" name="Doom Gloves Part">
+		<set name="name-ru" value="Часть Перчаток Рока"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_plate_silver_i00"/>
+		<set name="price" value="4455"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4092" name="Elemental Gloves Lining">
+		<set name="name-ru" value="Подкладка Перчаток Стихии"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_leather_gray_i00"/>
+		<set name="price" value="4455"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4093" name="Gloves of Grace Lining">
+		<set name="name-ru" value="Подкладка Перчаток Грации"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_leather_gray_i00"/>
+		<set name="price" value="4455"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4094" name="Implosion Gauntlet Fabric">
+		<set name="name-ru" value="Материя Рукавиц Имплозии"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_leather_gray_i00"/>
+		<set name="price" value="4455"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4095" name="Paradia Gloves Pattern">
+		<set name="name-ru" value="Выкройка Перчаток Парадии"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_letter_red_i00"/>
+		<set name="price" value="4455"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4096" name="Blue Wolf Gloves Fabric">
+		<set name="name-ru" value="Материя Перчаток Синего Волка"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_leather_gray_i00"/>
+		<set name="price" value="4455"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4097" name="Zubei's Boots Design">
+		<set name="name-ru" value="Модель Сапог Зубея"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_brown_i00"/>
+		<set name="price" value="3843"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4098" name="Avadon Boots Design">
+		<set name="name-ru" value="Модель Сапог Авадона"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_brown_i00"/>
+		<set name="price" value="3843"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="4099" name="Doom Boots Part">
+		<set name="name-ru" value="Часть Сапог Рока"/>
+		<set name="class" value="PIECES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_plate_silver_i00"/>
+		<set name="price" value="4455"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="MATERIAL"/>
+		<set name="weight" value="60"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+</list>

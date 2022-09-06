@@ -1,0 +1,144 @@
+<html noscrollbar>
+<body>
+<title>Auto Potions.</title>
+<table border=0 cellpadding=0 cellspacing=0 width=292 height=358 background="l2ui_ct1.Windows_DF_TooltipBG">
+    <tr>
+        <td valign="top">
+            <br>
+            <center><font color="e6d440">Automatic use function CP/HP/MP potions</font></center>
+            <br><br>
+            <table>
+                <tr>
+                    <td>
+                        <table width=75 height=58 bgcolor="252525">
+                            <tr>
+                                <td width=50 height=25 align=center><font color="555555">Name</font></td>
+                            </tr>
+                            <tr>
+                                <td width=50 height=25 align=center><font color="e6d440">Auto-CP</font></td>
+                            </tr>
+                            <tr>
+                                <td width=50 height=25 align=center><font color="ff0000">Auto-HP</font></td>
+                            </tr>
+                            <tr>
+                                <td width=50 height=25 align=center><font color="11b3ff">Auto-MP</font></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width=75 height=58 bgcolor="252525">
+                            <tr>
+                                <td width=50 height=25 align=center><font color="555555">Status</font></td>
+                            </tr>
+                            <tr>
+                                <td width=50 height=25 align=center>{auto_cp}</td>
+                            </tr>
+                            <tr>
+                                <td width=50 height=25 align=center>{auto_hp}</td>
+                            </tr>
+                            <tr>
+                                <td width=50 height=25 align=center>{auto_mp}</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width=135 height=58 bgcolor="252525">
+                            <tr>
+                                <td width=50 height=22 align=center><font color="555555">Control</font></td>
+                            </tr>
+                            <tr>
+                                <td width=50 height=27 align=center>
+                                    <table cellpadding=0 cellspacing=0>
+                                        <tr>
+                                            <td width="32">{percent_cp}</td>
+                                            <td>
+                                                <edit var="percent_cp" width=30 length=2 height="10">
+                                            </td>
+                                            <td>{auto_cp_boolean}</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width=50 height=24 align=center>
+                                    <table cellpadding=0 cellspacing=0>
+                                        <tr>
+                                            <td width="32">{percent_hp}</td>
+                                            <td>
+                                                <edit var="percent_hp" width=30 length=2 height="10">
+                                            </td>
+                                            <td>{auto_hp_boolean}</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width=50 height=27 align=center>
+                                    <table cellpadding=0 cellspacing=0>
+                                        <tr>
+                                            <td width="32">{percent_mp}</td>
+                                            <td>
+                                                <edit var="percent_mp" width=30 length=2 height="10">
+                                            </td>
+                                            <td>{auto_mp_boolean}</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <br><br>
+            <center>
+                <table background="l2ui_ct1.Windows_DF_TooltipBG" height="30" border="0">
+                    <tr>
+                        <td>
+                            <button action="bypass -h scripts_services.acp.AcpService:setPercent cp $percent_cp"
+                                    value="% Использования CP" fore="L2UI_CT1.ListCTRL_DF_Title"
+                                    back="l2ui_ct1.ListCTRL_DF_Title_Down" width="200" height="25"/>
+                        </td>
+                    </tr>
+                </table>
+                <table background="l2ui_ct1.Windows_DF_TooltipBG" height="30" border="0">
+                    <tr>
+                        <td>
+                            <button action="bypass -h scripts_services.acp.AcpService:setPercent hp $percent_hp"
+                                    value="% Использования HP" fore="L2UI_CT1.ListCTRL_DF_Title"
+                                    back="l2ui_ct1.ListCTRL_DF_Title_Down" width="200" height="25"/>
+                        </td>
+                    </tr>
+                </table>
+                <table background="l2ui_ct1.Windows_DF_TooltipBG" height="30" border="0">
+                    <tr>
+                        <td>
+                            <button action="bypass -h scripts_services.acp.AcpService:setPercent mp $percent_mp"
+                                    value="% Использования MP" fore="L2UI_CT1.ListCTRL_DF_Title"
+                                    back="l2ui_ct1.ListCTRL_DF_Title_Down" width="200" height="25"/>
+                        </td>
+                    </tr>
+                </table>
+                <table background="l2ui_ct1.Windows_DF_TooltipBG" height="30" border="0">
+                    <tr>
+                        <td>
+                            <button action="bypass -h scripts_services.acp.AcpService:showReuse" value="Задержки"
+                                    fore="L2UI_CT1.ListCTRL_DF_Title" back="l2ui_ct1.ListCTRL_DF_Title_Down" width="200"
+                                    height="25"/>
+                        </td>
+                    </tr>
+                </table>
+                <table background="l2ui_ct1.Windows_DF_TooltipBG" height="30" border="0">
+                    <tr>
+                        <td>
+                            <button action="bypass -h scripts_services.acp.AcpService:showItem" value="Выбор элексиров"
+                                    fore="L2UI_CT1.ListCTRL_DF_Title" back="l2ui_ct1.ListCTRL_DF_Title_Down" width="200"
+                                    height="25"/>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

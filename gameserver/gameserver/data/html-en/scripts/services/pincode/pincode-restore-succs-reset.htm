@@ -1,0 +1,58 @@
+<html>
+<title>Enter the game</title>
+<center>
+<table>
+<tr>
+<td align="center">
+<img src="l2ui_ct1.Icon_DF_MenuWnd_SystemMenu_Over" width="32" height="32" />
+</td>
+<td align="center">
+<font name="hs12">PIN code character </font>
+</td>
+<td align="center">
+<img src="l2ui_ct1.Icon_DF_MenuWnd_SystemMenu_Over" width="32" height="32" />
+</td>
+</tr>
+</table>
+</center>
+<br><br>
+<font color="FF0000">PIN code is changed, enter the.</font>
+<br>
+<!-- Ввод пин кода -->
+<table>
+<tr>
+<td align="left"><br>
+<font color="386dd2">PIN code character: </font>
+</td>
+<td align="center">
+<edit var="pincode" width="120" height="18">
+</td>
+</tr>
+</table>
+<br><button value="Check PIN code" action="bypass -h user_getpincode $pincode" width=170 height=35 back="L2UI_ct1.button_df" fore="L2UI_ct1.Button_DF_Large_Over">
+<br><br>
+<center>
+If you entered 3 times the PIN is incorrect character, then the character will be blocked for 15 minutes.<br>
+<font name="hs12">Try </font><font color="FF0000" name="hs12">%errors%</font><font name="hs12"> on </font><font color="ffff00" name="hs12">%max_errors%</font>.
+</center>
+<br>
+<table width="250">
+<tr>
+<td align="center">
+<img src="l2ui_ct1.ICON_DF_Exclamation" width="32" height="32" />
+</td>
+<td align="center">
+If your account is linked by HWID to your computer, then when re-entering the game to enter the PIN is not required.
+</td>
+</tr>
+</table><br><br><br><br>
+<center>
+<table width="250">
+<tr>
+<td align="center">
+<button value="Restore PIN" action="bypass -h user_restorepin" width=135 height=24 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+</td>
+</tr>
+</table>
+</center>
+</html>

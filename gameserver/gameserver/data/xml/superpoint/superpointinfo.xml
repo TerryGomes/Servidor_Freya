@@ -1,0 +1,5836 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<superpoint name="scribe_leandro" moveType="LENGTH">
+		<point x="-82428" y="245204" z="-3712"/>
+		<point x="-82198" y="245361" z="-3712"/>
+		<point x="-82091" y="245028" z="-3720"/>
+		<point x="-82381" y="244911" z="-3720"/>
+		<point x="-82935" y="244481" z="-3728"/>
+		<point x="-83980" y="242776" z="-3728">
+			<msg id="1010205" chat="ALL" radius="1500"/>
+			<delay sec="10"/>
+		</point>
+		<point x="-85966" y="241371" z="-3728"/>
+		<point x="-86079" y="240868" z="-3720">
+			<msg id="1010206" chat="ALL" radius="1500" />
+			<delay sec="5"/>
+		</point>
+		<point x="-86076" y="240392" z="-3712"/>
+		<point x="-86519" y="240706" z="-3704"/>
+		<point x="-86343" y="241130" z="-3728">
+			<msg id="1010207" chat="ALL" radius="1500" />
+			<delay sec="60"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="porter_remy" moveType="ROUND" running="true">
+		<point x="-81926" y="243894" z="-3712">
+			<delay sec="3"/>
+		</point>
+		<point x="-82134" y="243600" z="-3728"/>
+		<point x="-83182" y="243723" z="-3728"/>
+		<point x="-84486" y="243236" z="-3728">
+			<msg id="1010202"/>
+			<delay sec="5"/>
+		</point>
+		<point x="-85205" y="243187" z="-3728"/>
+		<point x="-86152" y="242898" z="-3728"/>
+		<point x="-86288" y="242962" z="-3720"/>
+		<point x="-86352" y="243207" z="-3720">
+			<msg id="1010203"/>
+			<delay sec="5"/>
+		</point>
+		<point x="-86501" y="242762" z="-3720"/>
+		<point x="-86500" y="242615" z="-3728"/>
+		<point x="-86123" y="241606" z="-3728"/>
+		<point x="-85207" y="240698" z="-3728"/>
+		<point x="-84066" y="241285" z="-3728">
+			<msg id="1010204"/>
+			<delay sec="5"/>
+		</point>
+		<point x="-83215" y="241170" z="-3728"/>
+		<point x="-82364" y="242944" z="-3720"/>
+		<point x="-81674" y="243391" z="-3712">
+			<msg id="1010201"/>
+			<delay sec="60"/>
+		</point>
+		<point x="-81926" y="243894" z="-3712"/>
+	</superpoint>
+
+	<superpoint name="flame_keeper_yakand" moveType="ROUND">
+		<point x="-48820" y="-113748" z="-232"/>
+		<point x="-47365" y="-113618" z="-224"/>
+		<point x="-45678" y="-113635" z="-240"/>
+		<point x="-45168" y="-114038" z="-224"/>
+		<point x="-44671" y="-114185" z="-240"/>
+		<point x="-44199" y="-113763" z="-240"/>
+		<point x="-44312" y="-113201" z="-240"/>
+		<point x="-44844" y="-112958" z="-240"/>
+		<point x="-45717" y="-113564" z="-240"/>
+		<point x="-47370" y="-113588" z="-224"/>
+		<point x="-48821" y="-113496" z="-232">
+			<delay sec="10"/>
+		</point>
+		<point x="-48820" y="-113748" z="-232"/>
+	</superpoint>
+
+	<superpoint name="flame_keeper_lokar" moveType="LENGTH">
+		<point x="-46516" y="-117700" z="-240"/>
+		<point x="-45550" y="-115420" z="-240"/>
+		<point x="-44052" y="-114575" z="-240"/>
+		<point x="-44024" y="-112688" z="-240"/>
+		<point x="-45748" y="-111665" z="-240"/>
+		<point x="-46512" y="-109390" z="-208">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="tetrarch_exec_creed" moveType="ROUND">
+		<point x="23436" y="11164" z="-3720"/>
+		<point x="20256" y="11104" z="-3720"/>
+		<point x="17330" y="13579" z="-3728"/>
+		<point x="17415" y="13044" z="-3736">
+			<msg id="1010214"/>
+			<delay sec="10"/>
+		</point>
+		<point x="20153" y="12880" z="-3712"/>
+		<point x="21621" y="13349" z="-3624"/>
+		<point x="20686" y="10432" z="-3712"/>
+		<point x="22426" y="10260" z="-3648"/>
+		<point x="23436" y="11164" z="-3720"/>
+	</superpoint>
+
+	<superpoint name="bard_casiel" moveType="LENGTH">
+		<point x="43932" y="51096" z="-2992"/>
+		<point x="43304" y="50364" z="-2992"/>
+		<point x="43041" y="49312" z="-2992"/>
+		<point x="43612" y="48322" z="-2992"/>
+		<point x="44009" y="47645" z="-2992"/>
+		<point x="45309" y="47341" z="-2992">
+			<msg id="1010210"/>
+			<delay sec="5"/>
+		</point>
+		<point x="46726" y="47762" z="-2992"/>
+		<point x="47509" y="49004" z="-2992"/>	
+		<point x="47443" y="50456" z="-2992"/>
+		<point x="47013" y="51287" z="-2992">
+			<msg id="1010211"/>
+			<delay sec="60"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="treekeeper_jaradine" moveType="LENGTH">
+		<point x="44964" y="50568" z="-3056"/>
+		<point x="44435" y="50025" z="-3056"/>
+		<point x="44455" y="49078" z="-3056"/>
+		<point x="45402" y="48437" z="-3056">
+			<msg id="1010208"/>
+			<delay sec="5"/>
+		</point>
+		<point x="46104" y="48788" z="-3056">
+			<msg id="1010209"/>
+			<delay sec="5"/>
+		</point>
+		<point x="46452" y="49743" z="-3056"/>
+		<point x="45730" y="50590" z="-3056">
+			<delay sec="60"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="messenger_rogin" moveType="ROUND">
+		<point x="115744" y="-183424" z="-1472">
+			<delay sec="60"/>
+		</point>
+		<point x="115878" y="-183267" z="-1472"/>
+		<point x="116116" y="-183090" z="-1496"/>
+		<point x="116587" y="-184306" z="-1568">
+			<msg id="1010215"/>
+			<delay sec="10"/>
+		</point>
+		<point x="116392" y="-184090" z="-1560"/>
+		<point x="117083" y="-182538" z="-1520"/>
+		<point x="117802" y="-182541" z="-1528">
+			<msg id="1010216"/>
+			<delay sec="10"/>
+		</point>
+		<point x="116720" y="-182479" z="-1512">
+			<msg id="1010217"/>
+			<delay sec="10"/>
+		</point>
+		<point x="115857" y="-183287" z="-1472"/>
+		<point x="115744" y="-183424" z="-1472"/>
+	</superpoint>
+
+	<superpoint name="porter_tate" moveType="ROUND">
+		<point x="115824" y="-181564" z="-1336">
+			<delay sec="20"/>
+		</point>
+		<point x="116048" y="-181575" z="-1352">
+			<msg id="1010218"/>
+		</point>
+		<point x="116521" y="-181476" z="-1384"/>
+		<point x="116632" y="-180022" z="-1160"/>
+		<point x="115355" y="-178617" z="-928"/>
+		<point x="115763" y="-177585" z="-888"/>
+		<point x="115795" y="-177361" z="-880">
+			<msg id="1010219"/>
+		</point>
+		<point x="115877" y="-177338" z="-880">
+			<delay sec="15"/>
+		</point>
+		<point x="115783" y="-177493" z="-880"/>
+		<point x="115112" y="-179836" z="-880"/>
+		<point x="115102" y="-180026" z="-872"/>
+		<point x="114876" y="-180045" z="-872">
+			<msg id="1010220"/>
+			<delay sec="30"/>
+		</point>
+		<point x="114840" y="-179694" z="-872"/>
+		<point x="116322" y="-179602" z="-1088"/>
+		<point x="116792" y="-180386" z="-1200"/>
+		<point x="116319" y="-181573" z="-1384"/>
+		<point x="115824" y="-181564" z="-1336"/>
+	</superpoint>
+
+	<superpoint name="running_boy" moveType="LENGTH">
+		<point x="84416" y="-144052" z="-1528">
+			<delay sec="5"/>
+		</point>
+		<point x="84460" y="-142495" z="-1536"/>
+		<point x="85242" y="-140949" z="-1536"/>
+		<point x="87362" y="-140059" z="-1536">
+			<delay sec="5"/>
+		</point>
+		<point x="89350" y="-140750" z="-1536"/>		
+		<point x="90607" y="-143176" z="-1536"/>
+		<point x="90267" y="-143883" z="-1536">	
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="tetrarch_agent_alhena" moveType="ROUND">
+		<point x="10968" y="14620" z="-4240"/>
+		<point x="11308" y="15847" z="-4584"/>
+		<point x="12119" y="16441" z="-4584"/>
+		<point x="15104" y="15661" z="-4376">
+			<msg id="1010212"/>
+			<delay sec="5"/>
+		</point>
+		<point x="15265" y="16288" z="-4376"/>
+		<point x="12292" y="16934" z="-4584"/>
+		<point x="11777" y="17669" z="-4584"/>
+		<point x="11229" y="17650" z="-4568"/>
+		<point x="10641" y="17282" z="-4584"/>
+		<point x="7683" y="18034" z="-4376">
+			<msg id="1010213"/>
+			<delay sec="5"/>
+		</point>
+		<point x="10551" y="16775" z="-4584"/>
+		<point x="11004" y="15942" z="-4584"/>
+		<point x="10827" y="14757" z="-4240"/>
+		<point x="10968" y="14620" z="-4240"/>
+	</superpoint>
+
+	<superpoint name="rune_ghost1b" moveType="FINISH">
+		<point x="51752" y="-54736" z="-3160"/>
+		<point x="51998" y="-54685" z="-3160"/>
+		<point x="52083" y="-54439" z="-3152"/>
+		<point x="52296" y="-53194" z="-3152"/>
+		<point x="51891" y="-51628" z="-3096">
+			<delay sec="15"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="narsell_fort_a_ordery" moveType="LENGTH">
+		<point x="159403" y="52418" z="-3312"/>
+		<point x="161177" y="54083" z="-3560"/>
+		<point x="162152" y="54365" z="-3632"/>
+		<point x="162703" y="55840" z="-3696"/>
+		<point x="162370" y="58534" z="-3504"/>
+		<point x="160099" y="60034" z="-3224"/>
+		<point x="158048" y="62696" z="-3464"/>
+		<point x="157220" y="63450" z="-3520"/>
+		<point x="155076" y="63731" z="-3544"/>
+		<point x="153893" y="64441" z="-3656"/>
+		<point x="153085" y="62948" z="-3680"/>
+		<point x="153035" y="62296" z="-3688"/>
+		<point x="150866" y="58737" z="-3432"/>
+	</superpoint>
+
+	<superpoint name="antharas_fort_a_ordery" moveType="ROUND">
+		<point x="74810" y="90814" z="-3344"/>
+		<point x="75094" y="92951" z="-3104"/>
+		<point x="75486" y="92906" z="-3072"/>
+		<point x="75765" y="91794" z="-2912"/>
+		<point x="77116" y="90455" z="-2896"/>
+		<point x="77743" y="89119" z="-2896"/>
+		<point x="77118" y="90457" z="-2896"/>
+		<point x="75750" y="91811" z="-2912"/>
+		<point x="75479" y="92904" z="-3072"/>
+		<point x="75094" y="92943" z="-3104"/>
+		<point x="74809" y="90794" z="-3344"/>
+		<point x="76932" y="88297" z="-3296"/>
+		<point x="77882" y="87441" z="-3408"/>
+		<point x="78257" y="85859" z="-3632"/>
+		<point x="80994" y="85866" z="-3472"/>
+		<point x="82676" y="87519" z="-3360"/>
+		<point x="83778" y="88414" z="-3376"/>
+		<point x="83504" y="90378" z="-3120"/>
+		<point x="84431" y="90379" z="-3264"/>
+		<point x="85453" y="90117" z="-3312"/>
+		<point x="85605" y="89708" z="-3296"/>
+		<point x="84894" y="88975" z="-3344"/>
+		<point x="83735" y="88382" z="-3376"/>
+		<point x="82616" y="87485" z="-3360"/>
+		<point x="80971" y="85855" z="-3472"/>
+		<point x="78247" y="85853" z="-3632"/>
+		<point x="77868" y="87463" z="-3408"/>
+		<point x="76916" y="88304" z="-3280"/>
+		<point x="75494" y="89865" z="-3200"/>
+	</superpoint>
+
+	<superpoint name="shanty_fort_a_ordery" moveType="ROUND">
+		<point x="-58672" y="154703" z="-2688"/>
+		<point x="-58672" y="154703" z="-2688"/>
+		<point x="-57522" y="156523" z="-2576"/>
+		<point x="-55226" y="157117" z="-2064"/>
+		<point x="-57528" y="156515" z="-2576"/>
+		<point x="-58660" y="154706" z="-2688"/>
+		<point x="-60174" y="156182" z="-2832"/>
+		<point x="-61834" y="157703" z="-3264"/>
+		<point x="-62761" y="159101" z="-3584"/>
+		<point x="-63472" y="159672" z="-3680"/>
+		<point x="-64072" y="160631" z="-3760"/>
+		<point x="-64387" y="161877" z="-3792"/>
+		<point x="-63842" y="163092" z="-3840"/>
+		<point x="-64397" y="161831" z="-3792"/>
+		<point x="-64055" y="160587" z="-3760"/>
+		<point x="-63461" y="159656" z="-3680"/>
+		<point x="-62744" y="159095" z="-3584"/>
+		<point x="-61831" y="157693" z="-3256"/>
+		<point x="-60152" y="156167" z="-2824"/>
+		<point x="-58652" y="154707" z="-2688"/>
+	</superpoint>
+
+	<superpoint name="aaru_fort_a_ordery" moveType="LENGTH">
+		<point x="71692" y="188004" z="-2616"/>
+		<point x="69326" y="187042" z="-3008"/>
+		<point x="68627" y="185540" z="-2984"/>
+		<point x="69077" y="184566" z="-2976"/>
+		<point x="70642" y="182573" z="-2992"/>
+		<point x="73647" y="181706" z="-3160"/>
+		<point x="74283" y="181756" z="-3152"/>
+		<point x="73655" y="182960" z="-2736"/>
+	</superpoint>
+
+	<superpoint name="archaic_fort_a_ordery" moveType="LENGTH">
+		<point x="105447" y="-139845" z="-3120"/>
+		<point x="104918" y="-140382" z="-3256"/>
+		<point x="105507" y="-142515" z="-3648"/>
+		<point x="106533" y="-143107" z="-3656"/>
+		<point x="106714" y="-143825" z="-3656"/>
+		<point x="107510" y="-144024" z="-3656"/>
+		<point x="108092" y="-144888" z="-3656"/>
+		<point x="109499" y="-145168" z="-3664"/>
+		<point x="110064" y="-146169" z="-3456"/>
+		<point x="110186" y="-147427" z="-3096"/>
+		<point x="112389" y="-147779" z="-3256"/>
+	</superpoint>
+
+	<superpoint name="bayou_fort_a_ordery" moveType="LENGTH">
+		<point x="190423" y="43540" z="-3656"/>
+		<point x="189579" y="45949" z="-4240"/>
+		<point x="187058" y="43551" z="-4808"/>
+		<point x="185916" y="41869" z="-4512"/>
+		<point x="185292" y="39403" z="-4200"/>
+		<point x="185167" y="38401" z="-4200"/>
+		<point x="184984" y="36863" z="-4152"/>
+		<point x="184377" y="36425" z="-4080"/>
+		<point x="185314" y="35866" z="-3936"/>
+		<point x="185781" y="35955" z="-3832"/>
+		<point x="186686" y="35667" z="-3752"/>
+	</superpoint>
+
+	<superpoint name="borderland_fort_a_ordery" moveType="LENGTH">
+		<point x="161876" y="-73407" z="-2984"/>
+		<point x="161795" y="-75288" z="-3088"/>
+		<point x="159678" y="-77671" z="-3584"/>
+		<point x="158917" y="-78117" z="-3760"/>
+		<point x="158989" y="-77130" z="-3720"/>
+		<point x="158757" y="-75951" z="-3720"/>
+		<point x="158157" y="-74161" z="-3592"/>
+		<point x="157547" y="-73326" z="-3400"/>
+		<point x="153815" y="-71497" z="-3392"/>
+		<point x="153086" y="-70701" z="-3488"/>
+		<point x="152262" y="-70352" z="-3568"/>
+		<point x="155193" y="-69617" z="-3008"/>
+	</superpoint>
+
+	<superpoint name="cloud_fort_a_ordery" moveType="LENGTH">
+		<point x="-56032" y="86017" z="-3259"/>
+		<point x="-57329" y="86006" z="-3640"/>
+		<point x="-57470" y="85306" z="-3664"/>
+		<point x="-58892" y="85159" z="-3768"/>
+		<point x="-59030" y="80150" z="-3632"/>
+		<point x="-57642" y="77591" z="-3512"/>
+		<point x="-53971" y="77664" z="-3224"/>
+		<point x="-53271" y="85126" z="-3552"/>
+	</superpoint>
+
+	<superpoint name="demon_fort_a_ordery" moveType="LENGTH">
+		<point x="104150" y="-57163" z="-848"/>
+		<point x="106218" y="-59401" z="-1344"/>
+		<point x="106898" y="-59553" z="-1664"/>
+		<point x="107352" y="-60168" z="-2000"/>
+		<point x="107651" y="-61177" z="-2400"/>
+		<point x="109094" y="-62678" z="-3248"/>
+		<point x="108266" y="-62657" z="-3104"/>
+		<point x="105169" y="-61226" z="-2616"/>
+		<point x="102968" y="-59982" z="-2384"/>
+		<point x="100070" y="-60173" z="-2792"/>
+		<point x="98764" y="-61095" z="-2768"/>
+		<point x="94946" y="-60039" z="-2432"/>
+		<point x="96103" y="-59078" z="-1992"/>
+		<point x="96884" y="-59043" z="-1656"/>
+		<point x="97064" y="-57884" z="-1256"/>
+	</superpoint>
+
+	<superpoint name="dragonspine_fort_a_ordery" moveType="LENGTH">
+		<point x="9318" y="92253" z="-3536"/>
+		<point x="9117" y="91645" z="-3656"/>
+		<point x="9240" y="90149" z="-3592"/>
+		<point x="11509" y="90093" z="-3720"/>
+		<point x="13269" y="90004" z="-3840"/>
+		<point x="14812" y="89578" z="-3832"/>
+		<point x="14450" y="90636" z="-3680"/>
+		<point x="14236" y="91690" z="-3656"/>
+		<point x="13636" y="92359" z="-3480"/>
+	</superpoint>
+
+	<superpoint name="floran_fort_a_ordery" moveType="LENGTH">
+		<point x="14186" y="149947" z="-3352"/>
+		<point x="16180" y="150387" z="-3216"/>
+		<point x="18387" y="151874" z="-3317"/>
+		<point x="18405" y="154770" z="-3616"/>
+		<point x="17655" y="156863" z="-3664"/>
+		<point x="12303" y="153937" z="-2680"/>
+	</superpoint>
+
+	<superpoint name="hive_fort_a_ordery" moveType="LENGTH">
+		<point x="19408" y="189422" z="-3136"/>
+		<point x="20039" y="187700" z="-3416"/>
+		<point x="19016" y="185813" z="-3552"/>
+		<point x="17959" y="181955" z="-3680"/>
+		<point x="16440" y="181635" z="-3616"/>
+		<point x="15679" y="182540" z="-3608"/>
+		<point x="15310" y="182791" z="-3568"/>
+		<point x="15242" y="184507" z="-3112"/>
+	</superpoint>
+
+	<superpoint name="hunters_fort_a_ordery" moveType="LENGTH">
+		<point x="121072" y="93215" z="-2736"/>
+		<point x="122718" y="92355" z="-2320"/>
+		<point x="126171" y="91910" z="-2216"/>
+		<point x="126353" y="90422" z="-2296"/>
+		<point x="125796" y="87720" z="-2432"/>
+		<point x="124803" y="85970" z="-2464"/>
+		<point x="125036" y="83836" z="-2376"/>
+		<point x="128886" y="83331" z="-1416"/>
+		<point x="129697" y="84969" z="-1256"/>
+		<point x="126291" y="86712" z="-2240"/>
+		<point x="126599" y="88950" z="-2325"/>
+		<point x="126847" y="90713" z="-2264"/>
+	</superpoint>
+
+	<superpoint name="ivory_fort_a_ordery" moveType="LENGTH">
+		<point x="74725" y="1671" z="-3128"/>
+		<point x="76651" y="1505" z="-3552"/>
+		<point x="79421" y="4977" z="-3080"/>
+		<point x="77357" y="7197" z="-3208"/>
+		<point x="76287" y="9164" z="-3568"/>
+		<point x="72447" y="8196" z="-3264"/>
+		<point x="71780" y="7467" z="-3160"/>
+	</superpoint>
+
+	<superpoint name="marshland_fort_a_ordery" moveType="LENGTH">
+		<point x="71436" y="-58182" z="-2904"/>
+		<point x="71731" y="-56949" z="-3080"/>
+		<point x="72715" y="-56729" z="-3104"/>
+		<point x="73277" y="-56055" z="-3104"/>
+		<point x="73369" y="-55636" z="-3104"/>
+		<point x="74136" y="-54646" z="-3104"/>
+		<point x="73408" y="-54422" z="-3104"/>
+		<point x="72998" y="-53404" z="-3136"/>
+		<point x="71661" y="-52937" z="-3104"/>
+		<point x="71127" y="-52304" z="-3104"/>
+		<point x="70225" y="-52304" z="-3064"/>
+		<point x="69668" y="-52780" z="-3064"/>
+		<point x="68422" y="-52407" z="-3240"/>
+		<point x="67702" y="-52940" z="-3208"/>
+		<point x="67798" y="-52940" z="-3232"/>
+		<point x="66667" y="-55841" z="-2840"/>
+	</superpoint>
+
+	<superpoint name="monastic_fort_a_ordery" moveType="LENGTH">
+		<point x="69553" y="-91746" z="-1488"/>
+		<point x="70941" y="-89751" z="-2256"/>
+		<point x="71104" y="-89094" z="-2368"/>
+		<point x="73471" y="-91462" z="-2024"/>
+		<point x="74532" y="-92202" z="-1776"/>
+		<point x="74908" y="-93152" z="-1536"/>
+	</superpoint>
+
+	<superpoint name="southern_fort_a_ordery" moveType="LENGTH">
+		<point x="-28169" y="216864" z="-3544"/>
+		<point x="-29028" y="215089" z="-3672"/>
+		<point x="-30888" y="213455" z="-3656"/>
+		<point x="-31937" y="211656" z="-3656"/>
+		<point x="-30880" y="211006" z="-3552"/>
+		<point x="-27690" y="210004" z="-3272"/>
+		<point x="-25784" y="210108" z="-3272"/>
+		<point x="-21682" y="211459" z="-3272"/>
+		<point x="-18430" y="212927" z="-3704"/>
+		<point x="-16247" y="212795" z="-3664"/>
+		<point x="-16868" y="214267" z="-3648"/>
+		<point x="-17263" y="215887" z="-3552"/>
+		<point x="-18352" y="216841" z="-3504"/>
+	</superpoint>
+
+	<superpoint name="tanor_fort_a_ordery" moveType="LENGTH">
+		<point x="58314" y="136319" z="-2000"/>
+		<point x="57078" y="137124" z="-2216"/>
+		<point x="54644" y="137366" z="-2600"/>
+		<point x="58696" y="134202" z="-3096"/>
+		<point x="60967" y="134154" z="-3416"/>
+		<point x="62813" y="134744" z="-3592"/>
+		<point x="65158" y="135007" z="-3728"/>
+		<point x="64278" y="139384" z="-3176"/>
+		<point x="63711" y="140599" z="-2720"/>
+		<point x="63187" y="141192" z="-2440"/>
+		<point x="62811" y="142466" z="-2064"/>
+	</superpoint>
+
+	<superpoint name="valley_fort_a_ordery" moveType="LENGTH">
+		<point x="123383" y="121093" z="-2864"/>
+		<point x="122670" y="120890" z="-3088"/>
+		<point x="124617" y="119069" z="-3088"/>
+		<point x="126177" y="118273" z="-3080"/>
+		<point x="125979" y="119528" z="-2728"/>
+	</superpoint>
+
+	<superpoint name="western_fort_a_ordery" moveType="LENGTH">
+		<point x="114221" y="-18762" z="-1768"/>
+		<point x="115920" y="-19177" z="-2120"/>
+		<point x="117105" y="-19759" z="-2400"/>
+		<point x="118417" y="-20135" z="-2632"/>
+		<point x="118881" y="-20011" z="-2712"/>
+		<point x="117210" y="-18329" z="-1816"/>
+	</superpoint>
+
+	<superpoint name="white_fort_a_ordery" moveType="LENGTH">
+		<point x="114436" y="202528" z="-3408"/>
+		<point x="113809" y="200514" z="-3720"/>
+		<point x="116035" y="199822" z="-3664"/>
+		<point x="117017" y="199876" z="-3632"/>
+		<point x="119959" y="201032" z="-3608"/>
+		<point x="121849" y="200614" z="-3384"/>
+		<point x="122868" y="200874" z="-3168"/>
+		<point x="123130" y="202427" z="-3128"/>
+		<point x="122427" y="204162" z="-3488"/>
+		<point x="122661" y="204842" z="-3576"/>
+		<point x="124051" y="205402" z="-3576"/>
+		<point x="124211" y="206023" z="-3504"/>
+		<point x="124948" y="206778" z="-3400"/>
+		<point x="124483" y="207777" z="-3200"/>
+	</superpoint>
+
+	<superpoint name="gordon" moveType="ROUND">
+		<point x="147408" y="-43552" z="-2296"/>
+		<point x="147927" y="-43264" z="-2296"/>
+		<point x="148668" y="-43435" z="-2312"/>
+		<point x="149308" y="-43910" z="-2464"/>
+		<point x="150447" y="-44190" z="-2608"/>
+		<point x="151346" y="-44070" z="-2736">
+			<delay sec="4"/>
+		</point>
+		<point x="152074" y="-43362" z="-2816"/>
+		<point x="152721" y="-42632" z="-2824"/>
+		<point x="153326" y="-41826" z="-2936"/>
+		<point x="153733" y="-41173" z="-3000"/>
+		<point x="154295" y="-40347" z="-3112">
+			<delay sec="4"/>
+		</point>
+		<point x="154700" y="-39687" z="-3200"/>
+		<point x="155474" y="-39961" z="-3272"/>
+		<point x="155882" y="-40436" z="-3296"/>
+		<point x="156629" y="-41452" z="-3472"/>
+		<point x="156846" y="-42484" z="-3600">
+			<delay sec="4"/>
+		</point>
+		<point x="156786" y="-44059" z="-3760"/>
+		<point x="157820" y="-45121" z="-3544"/>
+		<point x="158808" y="-45454" z="-3464"/>
+		<point x="159675" y="-46178" z="-3544"/>
+		<point x="160320" y="-46947" z="-3648">
+			<delay sec="4"/>
+		</point>
+		<point x="159841" y="-47765" z="-3656"/>
+		<point x="158963" y="-48596" z="-3648"/>
+		<point x="159399" y="-49889" z="-3632"/>
+		<point x="159433" y="-51854" z="-3392"/>
+		<point x="159280" y="-53297" z="-3240">
+			<delay sec="4"/>
+		</point>
+		<point x="159946" y="-54651" z="-3080"/>
+		<point x="160696" y="-55985" z="-2856"/>
+		<point x="160991" y="-57416" z="-2704"/>
+		<point x="160936" y="-58715" z="-2616"/>
+		<point x="160371" y="-59892" z="-2640">
+			<delay sec="4"/>
+		</point>
+		<point x="158884" y="-60114" z="-2672"/>
+		<point x="157476" y="-59727" z="-2648"/>
+		<point x="155709" y="-59670" z="-2616"/>
+		<point x="155076" y="-59988" z="-2640"/>
+		<point x="154278" y="-60389" z="-2688">
+			<delay sec="4"/>
+		</point>
+		<point x="153611" y="-61611" z="-2816"/>
+		<point x="153553" y="-62292" z="-2832"/>
+		<point x="153104" y="-63694" z="-2968"/>
+		<point x="151460" y="-64204" z="-3144"/>
+		<point x="149179" y="-64630" z="-3280">
+			<delay sec="4"/>
+		</point>
+		<point x="147461" y="-64792" z="-3432"/>
+		<point x="145659" y="-64514" z="-3360"/>
+		<point x="144096" y="-64402" z="-3392"/>
+		<point x="141323" y="-62083" z="-3144"/>
+		<point x="140157" y="-61442" z="-3064">
+			<delay sec="4"/>
+		</point>
+		<point x="138438" y="-61664" z="-3040"/>
+		<point x="138168" y="-61294" z="-3000"/>
+		<point x="138402" y="-60920" z="-3056"/>
+		<point x="138656" y="-59869" z="-3280"/>
+		<point x="138910" y="-58621" z="-3440">
+			<delay sec="4"/>
+		</point>
+		<point x="138096" y="-57667" z="-3504"/>
+		<point x="138096" y="-56967" z="-3504"/>
+		<point x="138878" y="-56655" z="-3456"/>
+		<point x="139660" y="-56120" z="-3288"/>
+		<point x="139101" y="-54466" z="-3216">
+			<delay sec="4"/>
+		</point>
+		<point x="139848" y="-52589" z="-2832"/>
+		<point x="139222" y="-51369" z="-2688"/>
+		<point x="139705" y="-50039" z="-2496"/>
+		<point x="139959" y="-48987" z="-2256"/>
+		<point x="140283" y="-47506" z="-2208">
+			<delay sec="4"/>
+		</point>
+		<point x="140162" y="-46243" z="-2336"/>
+		<point x="142508" y="-45584" z="-2416"/>
+		<point x="143183" y="-44563" z="-2392"/>
+		<point x="144382" y="-43528" z="-2344"/>
+		<point x="145382" y="-43318" z="-2296">
+			<delay sec="4"/>
+		</point>
+		<point x="147265" y="-43588" z="-2296"/>
+	</superpoint>
+
+	<superpoint name="gludio_airport1" moveType="LENGTH">
+		<point x="-149268" y="254124" z="-184"/>
+		<point x="-148700" y="254399" z="-184"/>
+		<point x="-148313" y="254841" z="-184"/>
+		<point x="-148256" y="255338" z="-184"/>
+	</superpoint>
+
+	<superpoint name="gludio_airport2" moveType="LENGTH">
+		<point x="-149469" y="254124" z="-184"/>
+		<point x="-150054" y="254373" z="-184"/>
+		<point x="-150431" y="254837" z="-184"/>
+		<point x="-150473" y="255335" z="-184"/>
+	</superpoint>
+
+	<superpoint name="gludio_airport3" moveType="LENGTH">
+		<point x="-149239" y="254100" z="-184"/>
+		<point x="-148671" y="254375" z="-184"/>
+		<point x="-148284" y="254817" z="-184"/>
+		<point x="-148227" y="255314" z="-184"/>
+	</superpoint>
+
+	<superpoint name="gludio_airport4" moveType="LENGTH">
+		<point x="-149499" y="254101" z="-184"/>
+		<point x="-150085" y="254350" z="-184"/>
+		<point x="-150462" y="254813" z="-184"/>
+		<point x="-150504" y="255312" z="-184"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone01_01" moveType="LENGTH">
+		<point x="-75650" y="212107" z="-7312"/>
+		<point x="-75373" y="212107" z="-7312"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone01_02" moveType="LENGTH">
+		<point x="-74854" y="212107" z="-7312"/>
+		<point x="-75046" y="212107" z="-7312"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone01_03" moveType="LENGTH">
+		<point x="-74532" y="212108" z="-7312"/>
+		<point x="-74255" y="212108" z="-7312"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone01_04" moveType="LENGTH">
+		<point x="-75200" y="211178" z="-7312"/>
+		<point x="-75200" y="211465" z="-7312"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone01_05" moveType="LENGTH">
+		<point x="-74701" y="211460" z="-7312"/>
+		<point x="-74701" y="211172" z="-7312"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone02_01" moveType="LENGTH">
+		<point x="-75190" y="210175" z="-7408"/>
+		<point x="-74750" y="210174" z="-7408"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone02_02" moveType="LENGTH">
+		<point x="-74743" y="209820" z="-7408"/>
+		<point x="-75168" y="209820" z="-7408"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone03_01" moveType="LENGTH">
+		<point x="-75559" y="207860" z="-7504"/>
+		<point x="-75559" y="208813" z="-7504"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone03_02" moveType="LENGTH">
+		<point x="-74227" y="208290" z="-7504"/>
+		<point x="-74508" y="208290" z="-7504"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone03_03" moveType="LENGTH">
+		<point x="-74522" y="207063" z="-7504"/>
+		<point x="-74206" y="207064" z="-7504"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone03_04" moveType="LENGTH">
+		<point x="-74956" y="206348" z="-7504"/>
+		<point x="-74956" y="206686" z="-7504"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone03_05" moveType="LENGTH">
+		<point x="-75402" y="206939" z="-7504"/>
+		<point x="-75693" y="206939" z="-7504"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone03_06" moveType="LENGTH">
+		<point x="-74246" y="206515" z="-7504"/>
+		<point x="-75668" y="206515" z="-7504"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone04_01" moveType="LENGTH">
+		<point x="-76378" y="207852" z="-7600"/>
+		<point x="-76628" y="207852" z="-7600"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone04_02" moveType="LENGTH">
+		<point x="-76628" y="208151" z="-7600"/>
+		<point x="-76367" y="208151" z="-6400"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone04_03" moveType="LENGTH">
+		<point x="-76374" y="208848" z="-7600"/>
+		<point x="-76632" y="208848" z="-7600"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone04_04" moveType="LENGTH">
+		<point x="-76928" y="209189" z="-7600"/>
+		<point x="-76928" y="209446" z="-7600"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone04_05" moveType="LENGTH">
+		<point x="-77183" y="209443" z="-7600"/>
+		<point x="-77183" y="209188" z="-7600"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone05_01" moveType="LENGTH">
+		<point x="-78054" y="208464" z="-7696"/>
+		<point x="-77361" y="208464" z="-7696"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone05_02" moveType="LENGTH">
+		<point x="-78521" y="208035" z="-7696"/>
+		<point x="-78065" y="208036" z="-7696"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone05_03" moveType="LENGTH">
+		<point x="-76881" y="208037" z="-7696"/>
+		<point x="-77340" y="208036" z="-7696"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone05_04" moveType="LENGTH">
+		<point x="-78335" y="207793" z="-7696"/>
+		<point x="-77060" y="207793" z="-7696"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone05_05" moveType="LENGTH">
+		<point x="-77702" y="207414" z="-7696"/>
+		<point x="-77702" y="208184" z="-7696"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone05_06" moveType="LENGTH">
+		<point x="-77336" y="207428" z="-7696"/>
+		<point x="-77013" y="207105" z="-7696"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone06_01" moveType="LENGTH">
+		<point x="-78930" y="206101" z="-7888"/>
+		<point x="-78710" y="206306" z="-7872"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone06_02" moveType="LENGTH">
+		<point x="-78855" y="206443" z="-7888"/>
+		<point x="-79066" y="206237" z="-7888"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone06_03" moveType="LENGTH">
+		<point x="-79357" y="206713" z="-7888"/>
+		<point x="-79357" y="206330" z="-7888"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone06_04" moveType="LENGTH">
+		<point x="-79656" y="206246" z="-7888"/>
+		<point x="-79858" y="206454" z="-7872"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone06_05" moveType="LENGTH">
+		<point x="-79999" y="206302" z="-7888"/>
+		<point x="-79787" y="206104" z="-7888"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone06_06" moveType="LENGTH">
+		<point x="-79781" y="205602" z="-7888"/>
+		<point x="-79991" y="205392" z="-7888"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone06_07" moveType="LENGTH">
+		<point x="-79849" y="205260" z="-7888"/>
+		<point x="-79641" y="205466" z="-7888"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone06_08" moveType="LENGTH">
+		<point x="-79363" y="205379" z="-7888"/>
+		<point x="-79364" y="204964" z="-7888"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone06_09" moveType="LENGTH">
+		<point x="-78870" y="205253" z="-7888"/>
+		<point x="-79085" y="205454" z="-7888"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone06_10" moveType="LENGTH">
+		<point x="-78942" y="205599" z="-7888"/>
+		<point x="-78731" y="205386" z="-7872"/>
+	</superpoint>
+
+	<superpoint name="iz111_zone07_01" moveType="LENGTH">
+		<point x="-81938" y="205856" z="-7984"/>
+		<point x="-81125" y="205855" z="-7984"/>
+	</superpoint>
+
+	<superpoint name="giant_sp_24" moveType="ROUND">
+		<point x="192391" y="60460" z="-6096"/>
+		<point x="192369" y="62825" z="-6096"/>
+		<point x="193729" y="62806" z="-6096"/>
+		<point x="193769" y="61647" z="-6096"/>
+		<point x="189415" y="61641" z="-6104"/>
+		<point x="193777" y="61573" z="-6096"/>
+		<point x="193794" y="60448" z="-6096"/>
+	</superpoint>
+
+	<superpoint name="giant_sp_27" moveType="ROUND">
+		<point x="187126" y="62637" z="-7232"/>
+		<point x="187918" y="62709" z="-7232"/>
+		<point x="187880" y="59989" z="-7232"/>
+		<point x="186858" y="59997" z="-7232"/>
+		<point x="187188" y="60445" z="-7232"/>
+	</superpoint>
+
+	<superpoint name="giant_sp_28" moveType="ROUND">
+		<point x="186348" y="60158" z="-7232"/>
+		<point x="182591" y="60217" z="-7232"/>
+		<point x="182537" y="59724" z="-7232"/>
+		<point x="186183" y="59787" z="-7232"/>
+	</superpoint>
+
+	<superpoint name="giant_sp_36" moveType="ROUND">
+		<point x="190221" y="60035" z="-7232"/>
+		<point x="190193" y="61829" z="-7232"/>
+		<point x="191916" y="61811" z="-7232"/>
+		<point x="191963" y="59719" z="-7232"/>
+		<point x="193536" y="59724" z="-7232"/>
+		<point x="193649" y="61768" z="-7232"/>
+		<point x="191848" y="61768" z="-7232"/>
+		<point x="192061" y="59796" z="-7232"/>
+		<point x="190223" y="59791" z="-7232"/>
+	</superpoint>
+
+	<superpoint name="giant_sp_38" moveType="ROUND">
+		<point x="187740" y="55516" z="-7232"/>
+		<point x="187028" y="55338" z="-7232"/>
+		<point x="185995" y="55483" z="-7232"/>
+		<point x="185818" y="56887" z="-7232"/>
+		<point x="186652" y="57316" z="-7232"/>
+		<point x="187806" y="57075" z="-7232"/>
+		<point x="188054" y="56055" z="-7232"/>
+	</superpoint>
+
+	<superpoint name="ancient_01" moveType="ROUND" running="true">
+		<point x="6399" y="-20468" z="-3520"/>
+		<point x="7753" y="-20336" z="-3512"/>
+		<point x="7744" y="-21236" z="-3392"/>
+		<point x="6363" y="-21683" z="-3360"/>
+		<point x="5269" y="-21747" z="-3304"/>
+		<point x="4717" y="-21265" z="-3376"/>
+		<point x="5550" y="-20663" z="-3464"/>
+		<point x="6099" y="-21055" z="-3424"/>
+	</superpoint>
+
+	<superpoint name="ancient_02" moveType="ROUND" running="true">
+		<point x="6479" y="-18420" z="-3680"/>
+		<point x="7628" y="-18239" z="-3568"/>
+		<point x="8115" y="-18833" z="-3600"/>
+		<point x="7519" y="-19737" z="-3608"/>
+		<point x="6312" y="-19807" z="-3616"/>
+		<point x="6996" y="-18989" z="-3704"/>
+	</superpoint>
+
+	<superpoint name="ancient_03" moveType="ROUND" running="true">
+		<point x="3195" y="-18932" z="-3376"/>
+		<point x="4991" y="-18235" z="-3680"/>
+		<point x="5472" y="-19055" z="-3640"/>
+		<point x="4579" y="-19234" z="-3608"/>
+		<point x="4748" y="-19989" z="-3544"/>
+		<point x="3951" y="-20098" z="-3408"/>
+	</superpoint>
+
+	<superpoint name="ancient_04" moveType="ROUND" running="true">
+		<point x="7375" y="-17284" z="-3632"/>
+		<point x="8089" y="-16713" z="-3640"/>
+		<point x="7712" y="-16078" z="-3656"/>
+		<point x="7750" y="-15403" z="-3680"/>
+		<point x="6591" y="-15421" z="-3696"/>
+		<point x="6706" y="-17124" z="-3640"/>
+		<point x="7224" y="-16331" z="-3672"/>
+	</superpoint>
+
+	<superpoint name="ancient_05" moveType="ROUND" running="true">
+		<point x="4592" y="-15226" z="-3576"/>
+		<point x="4017" y="-15522" z="-3552"/>
+		<point x="3900" y="-16177" z="-3608"/>
+		<point x="4382" y="-16330" z="-3648"/>
+		<point x="4813" y="-16223" z="-3624"/>
+		<point x="5320" y="-15751" z="-3600"/>
+		<point x="5387" y="-15363" z="-3608"/>
+		<point x="4884" y="-15030" z="-3608"/>
+	</superpoint>
+
+	<superpoint name="ancient_06" moveType="ROUND" running="true">
+		<point x="2675" y="-16816" z="-3472"/>
+		<point x="2591" y="-15979" z="-3368"/>
+		<point x="3289" y="-16235" z="-3536"/>
+		<point x="3333" y="-17048" z="-3712"/>
+		<point x="2780" y="-16902" z="-3520"/>
+		<point x="2464" y="-17518" z="-3464"/>
+		<point x="2812" y="-18124" z="-3512"/>
+		<point x="2702" y="-17288" z="-3520"/>
+	</superpoint>
+
+	<superpoint name="ancient_07" moveType="ROUND" running="true">
+		<point x="2199" y="-15224" z="-3264"/>
+		<point x="2406" y="-15674" z="-3320"/>
+		<point x="2531" y="-15021" z="-3352"/>
+		<point x="2952" y="-14884" z="-3424"/>
+		<point x="3085" y="-13505" z="-3560"/>
+		<point x="2290" y="-13569" z="-3400"/>
+		<point x="2055" y="-14014" z="-3288"/>
+		<point x="2646" y="-14298" z="-3376"/>
+		<point x="2103" y="-14759" z="-3256"/>
+	</superpoint>
+
+	<superpoint name="ancient_08" moveType="ROUND" running="true">
+		<point x="3455" y="-14884" z="-3480"/>
+		<point x="4300" y="-15109" z="-3576"/>
+		<point x="4900" y="-14728" z="-3624"/>
+		<point x="5213" y="-14037" z="-3688"/>
+		<point x="4948" y="-13068" z="-3656"/>
+		<point x="4581" y="-13429" z="-3656"/>
+		<point x="4432" y="-14229" z="-3600"/>
+		<point x="3910" y="-14614" z="-3528"/>
+		<point x="3640" y="-13685" z="-3600"/>
+	</superpoint>
+
+	<superpoint name="ancient_09" moveType="ROUND" running="true">
+		<point x="6175" y="-14244" z="-3704"/>
+		<point x="6507" y="-13635" z="-3696"/>
+		<point x="6746" y="-12879" z="-3672"/>
+		<point x="7168" y="-13299" z="-3712"/>
+		<point x="7997" y="-13421" z="-3704"/>
+		<point x="7116" y="-13849" z="-3720"/>
+		<point x="6376" y="-14056" z="-3704"/>
+	</superpoint>
+
+	<superpoint name="ancient_10" moveType="ROUND" running="true">
+		<point x="6127" y="-11252" z="-3632"/>
+		<point x="6080" y="-12271" z="-3640"/>
+		<point x="5561" y="-12526" z="-3632"/>
+		<point x="4320" y="-12404" z="-3544"/>
+		<point x="2858" y="-12579" z="-3576"/>
+		<point x="2370" y="-11686" z="-3528"/>
+		<point x="3321" y="-11912" z="-3664"/>
+		<point x="4290" y="-11650" z="-3624"/>
+		<point x="5267" y="-12101" z="-3632"/>
+		<point x="5773" y="-11767" z="-3632"/>
+	</superpoint>
+
+	<superpoint name="ancient_11" moveType="ROUND" running="true">
+		<point x="4397" y="-10851" z="-3688"/>
+		<point x="4040" y="-11296" z="-3752"/>
+		<point x="4168" y="-11778" z="-3656"/>
+		<point x="4519" y="-12088" z="-3552"/>
+		<point x="4650" y="-11758" z="-3600"/>
+		<point x="4397" y="-11254" z="-3640"/>
+		<point x="4694" y="-10854" z="-3656"/>
+	</superpoint>
+
+	<superpoint name="ancient_12" moveType="ROUND" running="true">
+		<point x="2511" y="-9092" z="-3576"/>
+		<point x="3289" y="-8891" z="-3576"/>
+		<point x="4599" y="-8920" z="-3584"/>
+		<point x="5358" y="-9214" z="-3624"/>
+		<point x="4484" y="-9395" z="-3624"/>
+		<point x="4007" y="-9724" z="-3640"/>
+		<point x="3617" y="-9316" z="-3616"/>
+		<point x="2886" y="-9480" z="-3688"/>
+	</superpoint>
+
+	<superpoint name="ancient_13" moveType="ROUND" running="true">
+		<point x="7055" y="-10116" z="-3656"/>
+		<point x="6457" y="-10645" z="-3632"/>
+		<point x="5555" y="-10838" z="-3632"/>
+		<point x="5568" y="-10073" z="-3624"/>
+		<point x="5039" y="-9096" z="-3624"/>
+		<point x="5891" y="-8821" z="-3632"/>
+		<point x="6045" y="-10012" z="-3640"/>
+		<point x="6942" y="-9821" z="-3656"/>
+		<point x="6795" y="-8890" z="-3664"/>
+		<point x="7647" y="-9107" z="-3592"/>
+		<point x="7571" y="-9689" z="-3592"/>
+	</superpoint>
+
+	<superpoint name="ancient_14" moveType="ROUND" running="true">
+		<point x="5151" y="-6260" z="-3296"/>
+		<point x="5539" y="-6701" z="-3448"/>
+		<point x="5223" y="-7422" z="-3504"/>
+		<point x="4538" y="-6194" z="-3192"/>
+		<point x="3846" y="-6193" z="-3112"/>
+		<point x="3432" y="-7269" z="-3360"/>
+		<point x="2767" y="-8506" z="-3472"/>
+		<point x="4083" y="-6956" z="-3336"/>
+	</superpoint>
+
+	<superpoint name="ancient_15" moveType="ROUND" running="true">
+		<point x="3567" y="-8516" z="-3512"/>
+		<point x="2720" y="-7968" z="-3344"/>
+		<point x="3242" y="-7314" z="-3368"/>
+		<point x="4485" y="-6898" z="-3376"/>
+		<point x="4069" y="-7716" z="-3472"/>
+		<point x="4539" y="-8428" z="-3544"/>
+		<point x="3528" y="-7874" z="-3424"/>
+	</superpoint>
+
+	<superpoint name="ancient_16" moveType="ROUND" running="true">
+		<point x="7391" y="-8276" z="-3632"/>
+		<point x="7220" y="-9207" z="-3632"/>
+		<point x="6113" y="-8600" z="-3640"/>
+		<point x="5855" y="-7792" z="-3648"/>
+		<point x="5959" y="-6991" z="-3536"/>
+		<point x="6664" y="-6443" z="-3424"/>
+		<point x="7335" y="-7183" z="-3576"/>
+		<point x="6905" y="-7563" z="-3624"/>
+		<point x="6818" y="-8207" z="-3704"/>
+		<point x="7725" y="-7514" z="-3592"/>
+	</superpoint>
+
+	<superpoint name="ancient_17" moveType="ROUND" running="true">
+		<point x="5603" y="-21452" z="-3368"/>
+		<point x="5757" y="-20644" z="-3448"/>
+		<point x="4419" y="-19799" z="-3520"/>
+		<point x="4733" y="-18697" z="-3664"/>
+		<point x="6729" y="-18219" z="-3664"/>
+		<point x="7389" y="-19411" z="-3656"/>
+		<point x="6592" y="-20179" z="-3568"/>
+		<point x="6205" y="-19235" z="-3648"/>
+		<point x="7667" y="-20225" z="-3528"/>
+		<point x="6315" y="-20902" z="-3464"/>
+	</superpoint>
+
+	<superpoint name="ancient_18" moveType="ROUND" running="true">
+		<point x="8175" y="-18772" z="-3600"/>
+		<point x="7119" y="-19325" z="-3688"/>
+		<point x="6442" y="-18098" z="-3672"/>
+		<point x="6812" y="-17361" z="-3640"/>
+		<point x="6515" y="-16490" z="-3672"/>
+		<point x="6800" y="-15671" z="-3680"/>
+		<point x="7790" y="-16366" z="-3648"/>
+		<point x="7499" y="-17481" z="-3632"/>
+		<point x="7781" y="-18271" z="-3544"/>
+	</superpoint>
+
+	<superpoint name="ancient_19" moveType="ROUND" running="true">
+		<point x="3487" y="-19396" z="-3408"/>
+		<point x="4414" y="-18442" z="-3632"/>
+		<point x="4353" y="-17434" z="-3632"/>
+		<point x="3166" y="-16426" z="-3544"/>
+		<point x="2519" y="-17191" z="-3456"/>
+		<point x="2954" y="-18259" z="-3512"/>
+		<point x="4047" y="-19236" z="-3528"/>
+	</superpoint>
+
+	<superpoint name="ancient_20" moveType="ROUND" running="true">
+		<point x="5868" y="-15273" z="-3664"/>
+		<point x="5507" y="-15755" z="-3616"/>
+		<point x="4328" y="-15744" z="-3568"/>
+		<point x="3691" y="-15016" z="-3512"/>
+		<point x="3135" y="-14634" z="-3432"/>
+		<point x="4280" y="-14111" z="-3648"/>
+		<point x="5011" y="-14834" z="-3640"/>
+		<point x="5871" y="-15045" z="-3672"/>
+	</superpoint>
+
+	<superpoint name="ancient_21" moveType="ROUND" running="true">
+		<point x="4943" y="-14308" z="-3648"/>
+		<point x="5169" y="-15357" z="-3608"/>
+		<point x="4567" y="-16332" z="-3648"/>
+		<point x="4869" y="-17203" z="-3680"/>
+		<point x="2821" y="-16444" z="-3480"/>
+		<point x="2176" y="-15383" z="-3248"/>
+		<point x="2749" y="-14568" z="-3384"/>
+		<point x="3438" y="-13837" z="-3544"/>
+		<point x="4254" y="-14814" z="-3568"/>
+	</superpoint>
+
+	<superpoint name="ancient_22" moveType="ROUND" running="true">
+		<point x="1935" y="-13524" z="-3280"/>
+		<point x="2538" y="-12238" z="-3520"/>
+		<point x="3392" y="-12187" z="-3680"/>
+		<point x="2878" y="-13014" z="-3568"/>
+		<point x="3451" y="-14125" z="-3512"/>
+		<point x="2203" y="-14983" z="-3264"/>
+		<point x="2625" y="-13883" z="-3424"/>
+	</superpoint>
+
+	<superpoint name="ancient_23" moveType="ROUND" running="true">
+		<point x="4175" y="-12132" z="-3544"/>
+		<point x="4632" y="-13129" z="-3656"/>
+		<point x="5195" y="-13228" z="-3664"/>
+		<point x="5595" y="-12989" z="-3656"/>
+		<point x="6491" y="-12905" z="-3672"/>
+		<point x="6600" y="-12276" z="-3640"/>
+		<point x="6116" y="-11581" z="-3632"/>
+		<point x="6415" y="-11135" z="-3632"/>
+		<point x="5755" y="-10940" z="-3632"/>
+		<point x="5567" y="-12024" z="-3632"/>
+		<point x="5766" y="-12360" z="-3640"/>
+		<point x="4920" y="-12410" z="-3616"/>
+	</superpoint>
+
+	<superpoint name="ancient_24" moveType="ROUND" running="true">
+		<point x="6799" y="-13012" z="-3664"/>
+		<point x="5706" y="-12901" z="-3648"/>
+		<point x="5154" y="-12336" z="-3632"/>
+		<point x="5803" y="-11616" z="-3632"/>
+		<point x="6071" y="-12169" z="-3640"/>
+		<point x="6625" y="-11990" z="-3640"/>
+		<point x="6477" y="-12548" z="-3656"/>
+	</superpoint>
+
+	<superpoint name="ancient_25" moveType="ROUND" running="true">
+		<point x="2399" y="-10564" z="-3576"/>
+		<point x="2062" y="-11061" z="-3464"/>
+		<point x="2051" y="-11495" z="-3480"/>
+		<point x="2757" y="-11956" z="-3592"/>
+		<point x="3507" y="-11804" z="-3712"/>
+		<point x="3770" y="-10986" z="-3696"/>
+		<point x="3909" y="-9871" z="-3648"/>
+		<point x="3078" y="-9261" z="-3640"/>
+		<point x="2317" y="-9171" z="-3568"/>
+		<point x="1843" y="-9489" z="-3472"/>
+		<point x="2399" y="-10156" z="-3624"/>
+	</superpoint>
+
+	<superpoint name="ancient_26" moveType="ROUND" running="true">
+		<point x="5391" y="-10244" z="-3632"/>
+		<point x="5055" y="-10633" z="-3648"/>
+		<point x="5636" y="-10984" z="-3632"/>
+		<point x="5818" y="-11448" z="-3632"/>
+		<point x="6716" y="-11060" z="-3632"/>
+		<point x="6202" y="-10352" z="-3624"/>
+		<point x="6084" y="-10840" z="-3632"/>
+		<point x="5655" y="-10232" z="-3624"/>
+	</superpoint>
+
+	<superpoint name="ancient_27" moveType="ROUND" running="true">
+		<point x="3551" y="-9924" z="-3656"/>
+		<point x="2902" y="-9101" z="-3600"/>
+		<point x="1873" y="-9054" z="-3424"/>
+		<point x="3404" y="-8130" z="-3440"/>
+		<point x="4031" y="-8553" z="-3552"/>
+		<point x="4940" y="-8934" z="-3592"/>
+		<point x="4605" y="-9181" z="-3600"/>
+		<point x="3920" y="-9351" z="-3624"/>
+	</superpoint>
+
+	<superpoint name="ancient_28" moveType="ROUND" running="true">
+		<point x="4543" y="-7284" z="-3432"/>
+		<point x="3887" y="-7835" z="-3472"/>
+		<point x="3126" y="-7823" z="-3376"/>
+		<point x="3381" y="-6843" z="-3296"/>
+		<point x="4190" y="-6284" z="-3168"/>
+		<point x="5097" y="-6592" z="-3384"/>
+		<point x="6784" y="-6142" z="-3360"/>
+		<point x="7550" y="-6790" z="-3520"/>
+		<point x="7114" y="-7648" z="-3624"/>
+		<point x="6535" y="-7452" z="-3616"/>
+		<point x="6088" y="-8172" z="-3664"/>
+		<point x="5352" y="-7371" z="-3520"/>
+	</superpoint>
+
+	<superpoint name="ancient_29" moveType="ROUND" running="true">
+		<point x="5823" y="-8660" z="-3608"/>
+		<point x="5468" y="-9186" z="-3672"/>
+		<point x="5466" y="-10032" z="-3624"/>
+		<point x="6705" y="-10691" z="-3664"/>
+		<point x="7336" y="-10246" z="-3656"/>
+		<point x="7468" y="-9325" z="-3600"/>
+		<point x="7062" y="-8877" z="-3656"/>
+		<point x="7396" y="-7940" z="-3640"/>
+		<point x="6299" y="-8239" z="-3720"/>
+	</superpoint>
+
+	<superpoint name="lost_01" moveType="ROUND" running="true">
+		<point x="14700" y="-18660" z="-3168">
+			<delay sec="5"/>
+		</point>
+		<point x="14834" y="-18218" z="-3184">
+			<delay sec="5"/>
+		</point>
+		<point x="14454" y="-18025" z="-3128">
+			<delay sec="5"/>
+		</point>
+		<point x="14066" y="-17702" z="-3080">
+			<delay sec="5"/>
+		</point>
+		<point x="13678" y="-18006" z="-3048">
+			<delay sec="5"/>
+		</point>
+		<point x="14097" y="-18428" z="-3144">
+			<delay sec="5"/>
+		</point>
+		<point x="14397" y="-18246" z="-3152">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_02" moveType="ROUND" running="true">
+		<point x="13596" y="-17588" z="-2920">
+			<delay sec="5"/>
+		</point>
+		<point x="14062" y="-17448" z="-3048">
+			<delay sec="5"/>
+		</point>
+		<point x="14317" y="-18026" z="-3136">
+			<delay sec="5"/>
+		</point>
+		<point x="13946" y="-18411" z="-3112">
+			<delay sec="5"/>
+		</point>
+		<point x="13913" y="-17813" z="-3056">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_03" moveType="ROUND" running="true">
+		<point x="16108" y="-18516" z="-3192">
+			<delay sec="5"/>
+		</point>
+		<point x="16365" y="-17807" z="-3208">
+			<delay sec="5"/>
+		</point>
+		<point x="15341" y="-17594" z="-3208">
+			<delay sec="5"/>
+		</point>
+		<point x="14384" y="-16984" z="-3096">
+			<delay sec="5"/>
+		</point>
+		<point x="15211" y="-16815" z="-3192">
+			<delay sec="5"/>
+		</point>
+		<point x="15865" y="-17047" z="-3224">
+			<delay sec="5"/>
+		</point>
+		<point x="15952" y="-17634" z="-3216">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_04" moveType="ROUND" running="true">
+		<point x="16428" y="-16468" z="-3224">
+			<delay sec="5"/>
+		</point>
+		<point x="17262" y="-16344" z="-3216">
+			<delay sec="5"/>
+		</point>
+		<point x="16623" y="-17032" z="-3224">
+			<delay sec="5"/>
+		</point>
+		<point x="15842" y="-16710" z="-3216">
+			<delay sec="5"/>
+		</point>
+		<point x="15287" y="-17032" z="-3208">
+			<delay sec="5"/>
+		</point>
+		<point x="15674" y="-17420" z="-3216">
+			<delay sec="5"/>
+		</point>
+		<point x="16550" y="-17421" z="-3216">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_05" moveType="ROUND" running="true">
+		<point x="17932" y="-18484" z="-3208">
+			<delay sec="5"/>
+		</point>
+		<point x="17361" y="-17654" z="-3208">
+			<delay sec="5"/>
+		</point>
+		<point x="17493" y="-16916" z="-3208">
+			<delay sec="5"/>
+		</point>
+		<point x="18092" y="-16349" z="-3152">
+			<delay sec="5"/>
+		</point>
+		<point x="18915" y="-16756" z="-3152">
+			<delay sec="5"/>
+		</point>
+		<point x="18599" y="-17658" z="-3216">
+			<delay sec="5"/>
+		</point>
+		<point x="17949" y="-17526" z="-3224">
+			<delay sec="5"/>
+		</point>
+		<point x="18069" y="-17924" z="-3208">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_06" moveType="ROUND" running="true">
+		<point x="19052" y="-17220" z="-3192">
+			<delay sec="5"/>
+		</point>
+		<point x="18348" y="-17352" z="-3216">
+			<delay sec="5"/>
+		</point>
+		<point x="18209" y="-18197" z="-3208">
+			<delay sec="5"/>
+		</point>
+		<point x="18616" y="-18639" z="-3240">
+			<delay sec="5"/>
+		</point>
+		<point x="19111" y="-18166" z="-3224">
+			<delay sec="5"/>
+		</point>
+		<point x="18823" y="-17812" z="-3208">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_07" moveType="ROUND" running="true">
+		<point x="20140" y="-17876" z="-3168">
+			<delay sec="5"/>
+		</point>
+		<point x="20261" y="-18344" z="-3224">
+			<delay sec="5"/>
+		</point>
+		<point x="19998" y="-18674" z="-3256">
+			<delay sec="5"/>
+		</point>
+		<point x="19471" y="-18401" z="-3264">
+			<delay sec="5"/>
+		</point>
+		<point x="19343" y="-18002" z="-3240">
+			<delay sec="5"/>
+		</point>
+		<point x="19000" y="-17800" z="-3208">
+			<delay sec="5"/>
+		</point>
+		<point x="19621" y="-17800" z="-3200">
+			<delay sec="5"/>
+		</point>
+		<point x="19855" y="-18203" z="-3224">
+			<delay sec="5"/>
+		</point>
+		<point x="19894" y="-17471" z="-3136">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_08" moveType="ROUND" running="true">
+		<point x="17932" y="-19396" z="-3240">
+			<delay sec="5"/>
+		</point>
+		<point x="18080" y="-19608" z="-3264">
+			<delay sec="5"/>
+		</point>
+		<point x="18399" y="-19408" z="-3272">
+			<delay sec="5"/>
+		</point>
+		<point x="18630" y="-19000" z="-3264">
+			<delay sec="5"/>
+		</point>
+		<point x="18412" y="-18763" z="-3224">
+			<delay sec="5"/>
+		</point>
+		<point x="18183" y="-18918" z="-3208">
+			<delay sec="5"/>
+		</point>
+		<point x="18228" y="-19156" z="-3240">
+			<delay sec="5"/>
+		</point>
+		<point x="18147" y="-19324" z="-3224">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_09" moveType="ROUND" running="true">
+		<point x="19036" y="-19972" z="-3296">
+			<delay sec="5"/>
+		</point>
+		<point x="18588" y="-19850" z="-3280">
+			<delay sec="5"/>
+		</point>
+		<point x="18494" y="-19487" z="-3280">
+			<delay sec="5"/>
+		</point>
+		<point x="18825" y="-19027" z="-3288">
+			<delay sec="5"/>
+		</point>
+		<point x="19276" y="-19214" z="-3328">
+			<delay sec="5"/>
+		</point>
+		<point x="18917" y="-19494" z="-3304">
+			<delay sec="5"/>
+		</point>
+		<point x="19220" y="-19673" z="-3320">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_10" moveType="ROUND" running="true">
+		<point x="19836" y="-19476" z="-3320">
+			<delay sec="5"/>
+		</point>
+		<point x="20095" y="-19526" z="-3304">
+			<delay sec="5"/>
+		</point>
+		<point x="19988" y="-20038" z="-3280">
+			<delay sec="5"/>
+		</point>
+		<point x="19779" y="-20276" z="-3240">
+			<delay sec="5"/>
+		</point>
+		<point x="19627" y="-20056" z="-3280">
+			<delay sec="5"/>
+		</point>
+		<point x="19279" y="-19907" z="-3296">
+			<delay sec="5"/>
+		</point>
+		<point x="19503" y="-19777" z="-3304">
+			<delay sec="5"/>
+		</point>
+		<point x="19452" y="-19534" z="-3320">
+			<delay sec="5"/>
+		</point>
+		<point x="19838" y="-19781" z="-3312">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_11" moveType="ROUND" running="true">
+		<point x="20316" y="-21156" z="-3024">
+			<delay sec="5"/>
+		</point>
+		<point x="20097" y="-20772" z="-3104">
+			<delay sec="5"/>
+		</point>
+		<point x="20346" y="-20133" z="-3296">
+			<delay sec="5"/>
+		</point>
+		<point x="21016" y="-20014" z="-3296">
+			<delay sec="5"/>
+		</point>
+		<point x="21020" y="-20880" z="-3032">
+			<delay sec="5"/>
+		</point>
+		<point x="20576" y="-20748" z="-3088">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_12" moveType="ROUND" running="true">
+		<point x="21144" y="-19184" z="-3240">
+			<delay sec="5"/>
+		</point>
+		<point x="21226" y="-19092" z="-3240">
+			<delay sec="5"/>
+		</point>
+		<point x="21014" y="-18418" z="-3216">
+			<delay sec="5"/>
+		</point>
+		<point x="20676" y="-18312" z="-3200">
+			<delay sec="5"/>
+		</point>
+		<point x="20363" y="-18420" z="-3216">
+			<delay sec="5"/>
+		</point>
+		<point x="20797" y="-18573" z="-3248">
+			<delay sec="5"/>
+		</point>
+		<point x="20845" y="-19076" z="-3256">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_13" moveType="ROUND" running="true">
+		<point x="21052" y="-19764" z="-3280">
+			<delay sec="5"/>
+		</point>
+		<point x="20914" y="-19984" z="-3296">
+			<delay sec="5"/>
+		</point>
+		<point x="20233" y="-19918" z="-3304">
+			<delay sec="5"/>
+		</point>
+		<point x="20314" y="-19697" z="-3296">
+			<delay sec="5"/>
+		</point>
+		<point x="20723" y="-19603" z="-3272">
+			<delay sec="5"/>
+		</point>
+		<point x="20886" y="-19435" z="-3248">
+			<delay sec="5"/>
+		</point>
+		<point x="21116" y="-19466" z="-3248">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_14" moveType="ROUND" running="true">
+		<point x="23868" y="-21572" z="-2512">
+			<delay sec="5"/>
+		</point>
+		<point x="23025" y="-21395" z="-2552">
+			<delay sec="5"/>
+		</point>
+		<point x="22687" y="-20963" z="-2496">
+			<delay sec="5"/>
+		</point>
+		<point x="22814" y="-20274" z="-2640">
+			<delay sec="5"/>
+		</point>
+		<point x="23629" y="-20807" z="-2696">
+			<delay sec="5"/>
+		</point>
+		<point x="24254" y="-20608" z="-2664">
+			<delay sec="5"/>
+		</point>
+		<point x="24235" y="-21170" z="-2584">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_15" moveType="ROUND" running="true">
+		<point x="23540" y="-20036" z="-2768">
+			<delay sec="5"/>
+		</point>
+		<point x="23131" y="-19501" z="-2624">
+			<delay sec="5"/>
+		</point>
+		<point x="22675" y="-19556" z="-2624">
+			<delay sec="5"/>
+		</point>
+		<point x="22646" y="-20178" z="-2616">
+			<delay sec="5"/>
+		</point>
+		<point x="23029" y="-20823" z="-2632">
+			<delay sec="5"/>
+		</point>
+		<point x="23691" y="-20688" z="-2704">
+			<delay sec="5"/>
+		</point>
+		<point x="23164" y="-20239" z="-2672">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_16" moveType="ROUND" running="true">
+		<point x="24780" y="-20420" z="-2624">
+			<delay sec="5"/>
+		</point>
+		<point x="24297" y="-20046" z="-2728">
+			<delay sec="5"/>
+		</point>
+		<point x="24214" y="-19323" z="-2768">
+			<delay sec="5"/>
+		</point>
+		<point x="25001" y="-18986" z="-2648">
+			<delay sec="5"/>
+		</point>
+		<point x="25081" y="-18514" z="-2712">
+			<delay sec="5"/>
+		</point>
+		<point x="25848" y="-18720" z="-2608">
+			<delay sec="5"/>
+		</point>
+		<point x="25645" y="-19416" z="-2544">
+			<delay sec="5"/>
+		</point>
+		<point x="24936" y="-19442" z="-2648">
+			<delay sec="5"/>
+		</point>
+		<point x="24984" y="-19912" z="-2616">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_17" moveType="ROUND" running="true">
+		<point x="23148" y="-19188" z="-920">
+			<delay sec="5"/>
+		</point>
+		<point x="23681" y="-19466" z="-2784">
+			<delay sec="5"/>
+		</point>
+		<point x="24375" y="-18888" z="-2744">
+			<delay sec="5"/>
+		</point>
+		<point x="24374" y="-18312" z="-2712">
+			<delay sec="5"/>
+		</point>
+		<point x="23572" y="-18170" z="-2688">
+			<delay sec="5"/>
+		</point>
+		<point x="23049" y="-18694" z="-912">
+			<delay sec="5"/>
+		</point>
+		<point x="23568" y="-18791" z="-2776">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_18" moveType="ROUND" running="true">
+		<point x="23900" y="-19892" z="-2784">
+			<delay sec="5"/>
+		</point>
+		<point x="24538" y="-19677" z="-2696">
+			<delay sec="5"/>
+		</point>
+		<point x="23875" y="-20474" z="-2736">
+			<delay sec="5"/>
+		</point>
+		<point x="22909" y="-19841" z="-2672">
+			<delay sec="5"/>
+		</point>
+		<point x="23537" y="-19083" z="-2752">
+			<delay sec="5"/>
+		</point>
+		<point x="24439" y="-19038" z="-2744">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_19" moveType="ROUND" running="true">
+		<point x="23708" y="-17748" z="-2728">
+			<delay sec="5"/>
+		</point>
+		<point x="24150" y="-18486" z="-2720">
+			<delay sec="5"/>
+		</point>
+		<point x="24842" y="-18214" z="-2728">
+			<delay sec="5"/>
+		</point>
+		<point x="24935" y="-17794" z="-2736">
+			<delay sec="5"/>
+		</point>
+		<point x="25530" y="-17551" z="-2752">
+			<delay sec="5"/>
+		</point>
+		<point x="24763" y="-16997" z="-2776">
+			<delay sec="5"/>
+		</point>
+		<point x="24178" y="-17335" z="-2768">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_20" moveType="ROUND" running="true">
+		<point x="24668" y="-16452" z="-2768">
+			<delay sec="5"/>
+		</point>
+		<point x="25230" y="-16244" z="-2768">
+			<delay sec="5"/>
+		</point>
+		<point x="26004" y="-16464" z="-2704">
+			<delay sec="5"/>
+		</point>
+		<point x="25994" y="-17136" z="-2752">
+			<delay sec="5"/>
+		</point>
+		<point x="25251" y="-17475" z="-2768">
+			<delay sec="5"/>
+		</point>
+		<point x="25305" y="-16912" z="-2776">
+			<delay sec="5"/>
+		</point>
+		<point x="24727" y="-17176" z="-2776">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_21" moveType="ROUND" running="false">
+		<point x="27452" y="-16564" z="-2664">
+			<delay sec="5"/>
+		</point>
+		<point x="26905" y="-16338" z="-2672">
+			<delay sec="5"/>
+		</point>
+		<point x="26245" y="-16290" z="-2672">
+			<delay sec="5"/>
+		</point>
+		<point x="26115" y="-16722" z="-2704">
+			<delay sec="5"/>
+		</point>
+		<point x="26361" y="-17308" z="-2728">
+			<delay sec="5"/>
+		</point>
+		<point x="26837" y="-17189" z="-2728">
+			<delay sec="5"/>
+		</point>
+		<point x="27289" y="-17133" z="-2680">
+			<delay sec="5"/>
+		</point>
+		<point x="26658" y="-16919" z="-2712">
+			<delay sec="5"/>
+		</point>
+		<point x="26740" y="-16596" z="-2688">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_22" moveType="ROUND" running="true">
+		<point x="27788" y="-17284" z="-2568">
+			<delay sec="5"/>
+		</point>
+		<point x="27672" y="-16633" z="-2656">
+			<delay sec="5"/>
+		</point>
+		<point x="27309" y="-16885" z="-2656">
+			<delay sec="5"/>
+		</point>
+		<point x="27270" y="-17292" z="-2688">
+			<delay sec="5"/>
+		</point>
+		<point x="28049" y="-17659" z="-2560">
+			<delay sec="5"/>
+		</point>
+		<point x="28100" y="-17155" z="-2544">
+			<delay sec="5"/>
+		</point>
+		<point x="27631" y="-16876" z="-2632">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_23" moveType="ROUND" running="true">
+		<point x="24844" y="-16756" z="-2768">
+			<delay sec="5"/>
+		</point>
+		<point x="24115" y="-16985" z="-2776">
+			<delay sec="5"/>
+		</point>
+		<point x="25319" y="-17128" z="-2784">
+			<delay sec="5"/>
+		</point>
+		<point x="25694" y="-16696" z="-2744">
+			<delay sec="5"/>
+		</point>
+		<point x="26623" y="-16433" z="-2680">
+			<delay sec="5"/>
+		</point>
+		<point x="27258" y="-16633" z="-2664">
+			<delay sec="5"/>
+		</point>
+		<point x="27623" y="-17035" z="-2624">
+			<delay sec="5"/>
+		</point>
+		<point x="27191" y="-17318" z="-2688">
+			<delay sec="5"/>
+		</point>
+		<point x="26487" y="-16943" z="-2728">
+			<delay sec="5"/>
+		</point>
+		<point x="25546" y="-16403" z="-2752">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_24" moveType="ROUND" running="true">
+		<point x="28092" y="-15332" z="-2592">
+			<delay sec="5"/>
+		</point>
+		<point x="27834" y="-16019" z="-2688">
+			<delay sec="5"/>
+		</point>
+		<point x="26877" y="-15830" z="-2640">
+			<delay sec="5"/>
+		</point>
+		<point x="26965" y="-15350" z="-2496">
+			<delay sec="5"/>
+		</point>
+		<point x="27308" y="-14769" z="-2440">
+			<delay sec="5"/>
+		</point>
+		<point x="27455" y="-15455" z="-2624">
+			<delay sec="5"/>
+		</point>
+		<point x="27811" y="-14943" z="-2568">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_25" moveType="ROUND" running="true">
+		<point x="24652" y="-15668" z="-2768">
+			<delay sec="5"/>
+		</point>
+		<point x="25001" y="-15249" z="-2744">
+			<delay sec="5"/>
+		</point>
+		<point x="25133" y="-14833" z="-2736">
+			<delay sec="5"/>
+		</point>
+		<point x="25664" y="-14752" z="-2712">
+			<delay sec="5"/>
+		</point>
+		<point x="25759" y="-15234" z="-2720">
+			<delay sec="5"/>
+		</point>
+		<point x="25526" y="-15600" z="-2736">
+			<delay sec="5"/>
+		</point>
+		<point x="25233" y="-15218" z="-2736">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_26" moveType="ROUND" running="true">
+		<point x="25692" y="-15908" z="-2728">
+			<delay sec="5"/>
+		</point>
+		<point x="25712" y="-15546" z="-2712">
+			<delay sec="5"/>
+		</point>
+		<point x="25107" y="-15744" z="-2760">
+			<delay sec="5"/>
+		</point>
+		<point x="25315" y="-16313" z="-2768">
+			<delay sec="5"/>
+		</point>
+		<point x="25819" y="-16306" z="-2712">
+			<delay sec="5"/>
+		</point>
+		<point x="26420" y="-16423" z="-2680">
+			<delay sec="5"/>
+		</point>
+		<point x="26583" y="-15987" z="-2664">
+			<delay sec="5"/>
+		</point>
+		<point x="26337" y="-15759" z="-2680">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_27" moveType="ROUND" running="true">
+		<point x="27356" y="-15940" z="-2672">
+			<delay sec="5"/>
+		</point>
+		<point x="27137" y="-16495" z="-2672">
+			<delay sec="5"/>
+		</point>
+		<point x="26388" y="-16176" z="-2664">
+			<delay sec="5"/>
+		</point>
+		<point x="26722" y="-15297" z="-2688">
+			<delay sec="5"/>
+		</point>
+		<point x="27188" y="-15210" z="-2344">
+			<delay sec="5"/>
+		</point>
+		<point x="27699" y="-15539" z="-2648">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_28" moveType="ROUND" running="true">
+		<point x="23692" y="-15332" z="-2984">
+			<delay sec="5"/>
+		</point>
+		<point x="24112" y="-14936" z="-2968">
+			<delay sec="5"/>
+		</point>
+		<point x="22876" y="-14890" z="-3056">
+			<delay sec="5"/>
+		</point>
+		<point x="22480" y="-15749" z="-3016">
+			<delay sec="5"/>
+		</point>
+		<point x="22678" y="-16792" z="-3000">
+			<delay sec="5"/>
+		</point>
+		<point x="23267" y="-16605" z="-2976">
+			<delay sec="5"/>
+		</point>
+		<point x="22981" y="-15941" z="-3024">
+			<delay sec="5"/>
+		</point>
+		<point x="23588" y="-15869" z="-2960">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_29" moveType="ROUND" running="true">
+		<point x="22124" y="-16468" z="-2976">
+			<delay sec="5"/>
+		</point>
+		<point x="22711" y="-16240" z="-3008">
+			<delay sec="5"/>
+		</point>
+		<point x="22899" y="-15499" z="-3040">
+			<delay sec="5"/>
+		</point>
+		<point x="22360" y="-15116" z="-3048">
+			<delay sec="5"/>
+		</point>
+		<point x="21769" y="-15238" z="-3048">
+			<delay sec="5"/>
+		</point>
+		<point x="21954" y="-15675" z="-3032">
+			<delay sec="5"/>
+		</point>
+		<point x="22364" y="-15996" z="-3000">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_30" moveType="ROUND" running="true">
+		<point x="22444" y="-17508" z="-2968">
+			<delay sec="5"/>
+		</point>
+		<point x="22912" y="-17308" z="-2976">
+			<delay sec="5"/>
+		</point>
+		<point x="23179" y="-16787" z="-2976">
+			<delay sec="5"/>
+		</point>
+		<point x="23188" y="-16194" z="-3000">
+			<delay sec="5"/>
+		</point>
+		<point x="22876" y="-16169" z="-3016">
+			<delay sec="5"/>
+		</point>
+		<point x="22484" y="-16539" z="-2984">
+			<delay sec="5"/>
+		</point>
+		<point x="22256" y="-16936" z="-2976">
+			<delay sec="5"/>
+		</point>
+		<point x="22660" y="-16978" z="-2992">
+			<delay sec="5"/>
+		</point>
+		<point x="22681" y="-17176" z="-2984">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_31" moveType="ROUND" running="true">
+		<point x="21004" y="-15092" z="-3048">
+			<delay sec="5"/>
+		</point>
+		<point x="20208" y="-14738" z="-3032">
+			<delay sec="5"/>
+		</point>
+		<point x="19297" y="-14905" z="-3032">
+			<delay sec="5"/>
+		</point>
+		<point x="19098" y="-15703" z="-3080">
+			<delay sec="5"/>
+		</point>
+		<point x="19454" y="-16598" z="-3128">
+			<delay sec="5"/>
+		</point>
+		<point x="20210" y="-16350" z="-3064">
+			<delay sec="5"/>
+		</point>
+		<point x="19795" y="-15659" z="-3080">
+			<delay sec="5"/>
+		</point>
+		<point x="20199" y="-15376" z="-3072">
+			<delay sec="5"/>
+		</point>
+		<point x="20581" y="-15799" z="-3040">
+			<delay sec="5"/>
+		</point>
+		<point x="19696" y="-15233" z="-3072">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_32" moveType="ROUND" running="true">
+		<point x="18652" y="-14948" z="-3040">
+			<delay sec="5"/>
+		</point>
+		<point x="19147" y="-14681" z="-3000">
+			<delay sec="5"/>
+		</point>
+		<point x="19915" y="-14856" z="-3040">
+			<delay sec="5"/>
+		</point>
+		<point x="19931" y="-15474" z="-3088">
+			<delay sec="5"/>
+		</point>
+		<point x="19493" y="-15883" z="-3080">
+			<delay sec="5"/>
+		</point>
+		<point x="19024" y="-15868" z="-3080">
+			<delay sec="5"/>
+		</point>
+		<point x="19324" y="-15376" z="-3072">
+			<delay sec="5"/>
+		</point>
+		<point x="19115" y="-15121" z="-3056">
+			<delay sec="5"/>
+		</point>
+		<point x="18864" y="-15481" z="-3072">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_33" moveType="ROUND" running="true">
+		<point x="20028" y="-17236" z="-3096">
+			<delay sec="5"/>
+		</point>
+		<point x="19386" y="-16783" z="-3144">
+			<delay sec="5"/>
+		</point>
+		<point x="18807" y="-16615" z="-3144">
+			<delay sec="5"/>
+		</point>
+		<point x="19178" y="-16159" z="-3096">
+			<delay sec="5"/>
+		</point>
+		<point x="19646" y="-16060" z="-3080">
+			<delay sec="5"/>
+		</point>
+		<point x="20038" y="-16331" z="-3072">
+			<delay sec="5"/>
+		</point>
+		<point x="20099" y="-16677" z="-3048">
+			<delay sec="5"/>
+		</point>
+		<point x="19580" y="-16612" z="-3112">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_34" moveType="ROUND" running="true">
+		<point x="21372" y="-15060" z="-3056">
+			<delay sec="5"/>
+		</point>
+		<point x="22151" y="-14881" z="-3064">
+			<delay sec="5"/>
+		</point>
+		<point x="21924" y="-15817" z="-3016">
+			<delay sec="5"/>
+		</point>
+		<point x="21463" y="-15554" z="-3040">
+			<delay sec="5"/>
+		</point>
+		<point x="20872" y="-15778" z="-3040">
+			<delay sec="5"/>
+		</point>
+		<point x="20383" y="-15499" z="-3056">
+			<delay sec="5"/>
+		</point>
+		<point x="20640" y="-15136" z="-3048">
+			<delay sec="5"/>
+		</point>
+		<point x="21040" y="-14911" z="-3048">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_35" moveType="ROUND" running="true">
+		<point x="20428" y="-17188" z="-3056">
+			<delay sec="5"/>
+		</point>
+		<point x="20020" y="-17716" z="-3160">
+			<delay sec="5"/>
+		</point>
+		<point x="19992" y="-18416" z="-3232">
+			<delay sec="5"/>
+		</point>
+		<point x="20736" y="-18474" z="-3224">
+			<delay sec="5"/>
+		</point>
+		<point x="20858" y="-18057" z="-3104">
+			<delay sec="5"/>
+		</point>
+		<point x="20361" y="-17729" z="-3120">
+			<delay sec="5"/>
+		</point>
+		<point x="20366" y="-16872" z="-3040">
+			<delay sec="5"/>
+		</point>
+		<point x="19817" y="-16936" z="-3104">
+			<delay sec="5"/>
+		</point>
+		<point x="20059" y="-17471" z="-3128">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_36" moveType="ROUND" running="true">
+		<point x="17356" y="-16264" z="-3216">
+			<delay sec="5"/>
+		</point>
+		<point x="17889" y="-16386" z="-3176">
+			<delay sec="5"/>
+		</point>
+		<point x="17543" y="-17021" z="-3208">
+			<delay sec="5"/>
+		</point>
+		<point x="17029" y="-16797" z="-3208">
+			<delay sec="5"/>
+		</point>
+		<point x="16775" y="-16319" z="-3216">
+			<delay sec="5"/>
+		</point>
+		<point x="17320" y="-16445" z="-3208">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_37" moveType="ROUND" running="true">
+		<point x="16828" y="-15716" z="-3184">
+			<delay sec="5"/>
+		</point>
+		<point x="16601" y="-16695" z="-3232">
+			<delay sec="5"/>
+		</point>
+		<point x="16342" y="-16225" z="-3208">
+			<delay sec="5"/>
+		</point>
+		<point x="15753" y="-16002" z="-3192">
+			<delay sec="5"/>
+		</point>
+		<point x="15936" y="-15699" z="-3184">
+			<delay sec="5"/>
+		</point>
+		<point x="16376" y="-15486" z="-3184">
+			<delay sec="5"/>
+		</point>
+		<point x="16319" y="-15920" z="-3192">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_38" moveType="ROUND" running="true">
+		<point x="17452" y="-15764" z="-3184">
+			<delay sec="5"/>
+		</point>
+		<point x="17094" y="-16009" z="-3208">
+			<delay sec="5"/>
+		</point>
+		<point x="16527" y="-15896" z="-3200">
+			<delay sec="5"/>
+		</point>
+		<point x="16433" y="-15076" z="-3176">
+			<delay sec="5"/>
+		</point>
+		<point x="16966" y="-14846" z="-3168">
+			<delay sec="5"/>
+		</point>
+		<point x="17183" y="-14850" z="-3128">
+			<delay sec="5"/>
+		</point>
+		<point x="17696" y="-15292" z="-3128">
+			<delay sec="5"/>
+		</point>
+		<point x="17160" y="-15412" z="-3152">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_39" moveType="ROUND" running="false">
+		<point x="16668" y="-14532" z="-3176">
+			<delay sec="5"/>
+		</point>
+		<point x="17049" y="-14652" z="-3160">
+			<delay sec="5"/>
+		</point>
+		<point x="16952" y="-15275" z="-3168">
+			<delay sec="5"/>
+		</point>
+		<point x="16552" y="-15357" z="-3184">
+			<delay sec="5"/>
+		</point>
+		<point x="16067" y="-15224" z="-3168">
+			<delay sec="5"/>
+		</point>
+		<point x="15928" y="-14789" z="-3144">
+			<delay sec="5"/>
+		</point>
+		<point x="16256" y="-14501" z="-3168">
+			<delay sec="5"/>
+		</point>
+		<point x="16433" y="-14860" z="-3176">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_40" moveType="ROUND" running="true">
+		<point x="15548" y="-15508" z="-3160">
+			<delay sec="5"/>
+		</point>
+		<point x="15225" y="-15485" z="-3160">
+			<delay sec="5"/>
+		</point>
+		<point x="14903" y="-15087" z="-3152">
+			<delay sec="5"/>
+		</point>
+		<point x="14902" y="-14538" z="-3160">
+			<delay sec="5"/>
+		</point>
+		<point x="15391" y="-14051" z="-3176">
+			<delay sec="5"/>
+		</point>
+		<point x="15970" y="-14304" z="-3168">
+			<delay sec="5"/>
+		</point>
+		<point x="16136" y="-14836" z="-3160">
+			<delay sec="5"/>
+		</point>
+		<point x="15519" y="-15150" z="-3152">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_41" moveType="ROUND" running="true">
+		<point x="14572" y="-14020" z="-3208">
+			<delay sec="5"/>
+		</point>
+		<point x="15069" y="-13822" z="-3192">
+			<delay sec="5"/>
+		</point>
+		<point x="15350" y="-14245" z="-3160">
+			<delay sec="5"/>
+		</point>
+		<point x="14968" y="-14706" z="-3152">
+			<delay sec="5"/>
+		</point>
+		<point x="14675" y="-14708" z="-3160">
+			<delay sec="5"/>
+		</point>
+		<point x="14465" y="-14912" z="-3144">
+			<delay sec="5"/>
+		</point>
+		<point x="14064" y="-14781" z="-3128">
+			<delay sec="5"/>
+		</point>
+		<point x="14156" y="-14226" z="-3200">
+			<delay sec="5"/>
+		</point>
+		<point x="14525" y="-14420" z="-3192">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_42" moveType="ROUND" running="true">
+		<point x="13820" y="-13732" z="-3200">
+			<delay sec="5"/>
+		</point>
+		<point x="14188" y="-13536" z="-3192">
+			<delay sec="5"/>
+		</point>
+		<point x="14519" y="-13728" z="-3208">
+			<delay sec="5"/>
+		</point>
+		<point x="14645" y="-14219" z="-3200">
+			<delay sec="5"/>
+		</point>
+		<point x="14291" y="-14485" z="-3168">
+			<delay sec="5"/>
+		</point>
+		<point x="13842" y="-14275" z="-3184">
+			<delay sec="5"/>
+		</point>
+		<point x="14171" y="-13927" z="-3208">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_43" moveType="ROUND" running="true">
+		<point x="14508" y="-13444" z="-3200">
+			<delay sec="5"/>
+		</point>
+		<point x="14302" y="-13854" z="-3208">
+			<delay sec="5"/>
+		</point>
+		<point x="14692" y="-14048" z="-3200">
+			<delay sec="5"/>
+		</point>
+		<point x="14976" y="-13679" z="-3192">
+			<delay sec="5"/>
+		</point>
+		<point x="14777" y="-13323" z="-3168">
+			<delay sec="5"/>
+		</point>
+		<point x="14693" y="-13590" z="-3200">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_44" moveType="ROUND" running="true">
+		<point x="14404" y="-12804" z="-3152">
+			<delay sec="5"/>
+		</point>
+		<point x="14687" y="-13177" z="-3152">
+			<delay sec="5"/>
+		</point>
+		<point x="14792" y="-13016" z="-3152">
+			<delay sec="5"/>
+		</point>
+		<point x="14743" y="-12752" z="-3144">
+			<delay sec="5"/>
+		</point>
+		<point x="14564" y="-13059" z="-3152">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_45" moveType="ROUND" running="true">
+		<point x="13296" y="-12980" z="-3104">
+			<delay sec="5"/>
+		</point>
+		<point x="13243" y="-12371" z="-2984">
+			<delay sec="5"/>
+		</point>
+		<point x="13774" y="-11919" z="-2928">
+			<delay sec="5"/>
+		</point>
+		<point x="13988" y="-11540" z="-2856">
+			<delay sec="5"/>
+		</point>
+		<point x="14134" y="-12048" z="-3024">
+			<delay sec="5"/>
+		</point>
+		<point x="13661" y="-12332" z="-3032">
+			<delay sec="5"/>
+		</point>
+		<point x="13687" y="-12634" z="-3088">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_46" moveType="ROUND" running="true">
+		<point x="14444" y="-11956" z="-3024">
+			<delay sec="5"/>
+		</point>
+		<point x="13957" y="-11793" z="-2912">
+			<delay sec="5"/>
+		</point>
+		<point x="14046" y="-11401" z="-2984">
+			<delay sec="5"/>
+		</point>
+		<point x="14291" y="-11100" z="-3264">
+			<delay sec="5"/>
+		</point>
+		<point x="15007" y="-11401" z="-3184">
+			<delay sec="5"/>
+		</point>
+		<point x="14385" y="-11391" z="-3184">
+			<delay sec="5"/>
+		</point>
+		<point x="14291" y="-11718" z="-3000">
+			<delay sec="5"/>
+		</point>
+		<point x="14639" y="-11840" z="-3056">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_47" moveType="ROUND" running="true">
+		<point x="14444" y="-12244" z="-3072">
+			<delay sec="5"/>
+		</point>
+		<point x="14673" y="-11813" z="-3080">
+			<delay sec="5"/>
+		</point>
+		<point x="14981" y="-11905" z="-3056">
+			<delay sec="5"/>
+		</point>
+		<point x="15193" y="-12245" z="-3080">
+			<delay sec="5"/>
+		</point>
+		<point x="15067" y="-12480" z="-3120">
+			<delay sec="5"/>
+		</point>
+		<point x="14929" y="-12185" z="-3088">
+			<delay sec="5"/>
+		</point>
+		<point x="14713" y="-12320" z="-3112">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_48" moveType="ROUND" running="true">
+		<point x="14876" y="-13252" z="-3168">
+			<delay sec="5"/>
+		</point>
+		<point x="15047" y="-13530" z="-3184">
+			<delay sec="5"/>
+		</point>
+		<point x="14622" y="-13249" z="-3160">
+			<delay sec="5"/>
+		</point>
+		<point x="14657" y="-12889" z="-3152">
+			<delay sec="5"/>
+		</point>
+		<point x="15149" y="-13110" z="-3160">
+			<delay sec="5"/>
+		</point>
+		<point x="15257" y="-13397" z="-3176">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_49" moveType="ROUND" running="true">
+		<point x="15260" y="-12772" z="-3152">
+			<delay sec="5"/>
+		</point>
+		<point x="15148" y="-13095" z="-3160">
+			<delay sec="5"/>
+		</point>
+		<point x="15094" y="-13379" z="-3176">
+			<delay sec="5"/>
+		</point>
+		<point x="15229" y="-13636" z="-3184">
+			<delay sec="5"/>
+		</point>
+		<point x="15468" y="-13409" z="-3176">
+			<delay sec="5"/>
+		</point>
+		<point x="15290" y="-13234" z="-3168">
+			<delay sec="5"/>
+		</point>
+		<point x="15345" y="-13014" z="-3152">
+			<delay sec="5"/>
+		</point>
+		<point x="15205" y="-12981" z="-3152">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_50" moveType="ROUND" running="true">
+		<point x="15420" y="-13732" z="-3176">
+			<delay sec="5"/>
+		</point>
+		<point x="15464" y="-13109" z="-3168">
+			<delay sec="5"/>
+		</point>
+		<point x="16007" y="-12811" z="-3144">
+			<delay sec="5"/>
+		</point>
+		<point x="16312" y="-13144" z="-3144">
+			<delay sec="5"/>
+		</point>
+		<point x="16186" y="-13704" z="-3184">
+			<delay sec="5"/>
+		</point>
+		<point x="15818" y="-13446" z="-3184">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_51" moveType="ROUND" running="true">
+		<point x="15980" y="-13380" z="-3184">
+			<delay sec="5"/>
+		</point>
+		<point x="15723" y="-13810" z="-3176">
+			<delay sec="5"/>
+		</point>
+		<point x="15760" y="-14410" z="-3160">
+			<delay sec="5"/>
+		</point>
+		<point x="16434" y="-14637" z="-3176">
+			<delay sec="5"/>
+		</point>
+		<point x="16951" y="-14394" z="-3168">
+			<delay sec="5"/>
+		</point>
+		<point x="17053" y="-13807" z="-3144">
+			<delay sec="5"/>
+		</point>
+		<point x="16719" y="-13499" z="-3144">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_52" moveType="ROUND" running="true">
+		<point x="16092" y="-13332" z="-3176">
+			<delay sec="5"/>
+		</point>
+		<point x="16774" y="-13812" z="-3152">
+			<delay sec="5"/>
+		</point>
+		<point x="17266" y="-13403" z="-3136">
+			<delay sec="5"/>
+		</point>
+		<point x="16972" y="-12765" z="-3112">
+			<delay sec="5"/>
+		</point>
+		<point x="16856" y="-13293" z="-3136">
+			<delay sec="5"/>
+		</point>
+		<point x="16208" y="-12873" z="-3136">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_53" moveType="ROUND" running="true">
+		<point x="16796" y="-12484" z="-3112">
+			<delay sec="5"/>
+		</point>
+		<point x="16826" y="-11980" z="-3144">
+			<delay sec="5"/>
+		</point>
+		<point x="17523" y="-11924" z="-3120">
+			<delay sec="5"/>
+		</point>
+		<point x="17684" y="-12848" z="-3120">
+			<delay sec="5"/>
+		</point>
+		<point x="17083" y="-13234" z="-3128">
+			<delay sec="5"/>
+		</point>
+		<point x="17233" y="-12484" z="-3112">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_54" moveType="ROUND" running="true">
+		<point x="17820" y="-13588" z="-3112">
+			<delay sec="5"/>
+		</point>
+		<point x="17295" y="-14032" z="-3144">
+			<delay sec="5"/>
+		</point>
+		<point x="16778" y="-13953" z="-3168">
+			<delay sec="5"/>
+		</point>
+		<point x="17363" y="-12688" z="-3120">
+			<delay sec="5"/>
+		</point>
+		<point x="17833" y="-13014" z="-3120">
+			<delay sec="5"/>
+		</point>
+		<point x="17387" y="-13255" z="-3128">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_55" moveType="ROUND" running="true">
+		<point x="18940" y="-13956" z="-3008">
+			<delay sec="5"/>
+		</point>
+		<point x="18481" y="-14401" z="-2952">
+			<delay sec="5"/>
+		</point>
+		<point x="18412" y="-14767" z="-3008">
+			<delay sec="5"/>
+		</point>
+		<point x="18920" y="-14994" z="-3048">
+			<delay sec="5"/>
+		</point>
+		<point x="19299" y="-14656" z="-3000">
+			<delay sec="5"/>
+		</point>
+		<point x="19289" y="-14250" z="-2944">
+			<delay sec="5"/>
+		</point>
+		<point x="18895" y="-14436" z="-2968">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_56" moveType="ROUND" running="true">
+		<point x="19904" y="-14040" z="-2944">
+			<delay sec="5"/>
+		</point>
+		<point x="19214" y="-14116" z="-2944">
+			<delay sec="5"/>
+		</point>
+		<point x="19174" y="-14446" z="-2968">
+			<delay sec="5"/>
+		</point>
+		<point x="19398" y="-14831" z="-3016">
+			<delay sec="5"/>
+		</point>
+		<point x="19746" y="-14709" z="-3008">
+			<delay sec="5"/>
+		</point>
+		<point x="19635" y="-14362" z="-2976">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_57" moveType="ROUND" running="true">
+		<point x="20892" y="-14308" z="-3048">
+			<delay sec="5"/>
+		</point>
+		<point x="20617" y="-14020" z="-2992">
+			<delay sec="5"/>
+		</point>
+		<point x="20858" y="-13524" z="-2936">
+			<delay sec="5"/>
+		</point>
+		<point x="21125" y="-13833" z="-3072">
+			<delay sec="5"/>
+		</point>
+		<point x="20468" y="-14269" z="-2984">
+			<delay sec="5"/>
+		</point>
+		<point x="21014" y="-14673" z="-3056">
+			<delay sec="5"/>
+		</point>
+		<point x="20641" y="-14959" z="-3048">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_58" moveType="ROUND" running="true">
+		<point x="22236" y="-14132" z="-3120">
+			<delay sec="5"/>
+		</point>
+		<point x="22748" y="-14444" z="-3096">
+			<delay sec="5"/>
+		</point>
+		<point x="22602" y="-14874" z="-3056">
+			<delay sec="5"/>
+		</point>
+		<point x="21972" y="-14853" z="-3064">
+			<delay sec="5"/>
+		</point>
+		<point x="21690" y="-14546" z="-3088">
+			<delay sec="5"/>
+		</point>
+		<point x="22301" y="-14478" z="-3080">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_59" moveType="ROUND" running="true">
+		<point x="21760" y="-14056" z="-3128">
+			<delay sec="5"/>
+		</point>
+		<point x="21987" y="-14372" z="-3104">
+			<delay sec="5"/>
+		</point>
+		<point x="21738" y="-14887" z="-3064">
+			<delay sec="5"/>
+		</point>
+		<point x="21270" y="-14922" z="-3056">
+			<delay sec="5"/>
+		</point>
+		<point x="21165" y="-14428" z="-3080">
+			<delay sec="5"/>
+		</point>
+		<point x="21526" y="-14486" z="-3088">
+			<delay sec="5"/>
+		</point>
+		<point x="21654" y="-13364" z="-3096">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_60" moveType="ROUND" running="true">
+		<point x="25292" y="-12884" z="-2552">
+			<delay sec="5"/>
+		</point>
+		<point x="26023" y="-12226" z="-2528">
+			<delay sec="5"/>
+		</point>
+		<point x="25631" y="-11546" z="-2488">
+			<delay sec="5"/>
+		</point>
+		<point x="25074" y="-12044" z="-2528">
+			<delay sec="5"/>
+		</point>
+		<point x="25610" y="-12286" z="-2552">
+			<delay sec="5"/>
+		</point>
+		<point x="25108" y="-12388" z="-2536">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_61" moveType="ROUND" running="true">
+		<point x="26028" y="-11860" z="-2504">
+			<delay sec="5"/>
+		</point>
+		<point x="25892" y="-12513" z="-2544">
+			<delay sec="5"/>
+		</point>
+		<point x="26648" y="-12479" z="-2464">
+			<delay sec="5"/>
+		</point>
+		<point x="26991" y="-11802" z="-2424">
+			<delay sec="5"/>
+		</point>
+		<point x="26729" y="-11319" z="-2448">
+			<delay sec="5"/>
+		</point>
+		<point x="26506" y="-12088" z="-2472">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_62" moveType="ROUND" running="true">
+		<point x="27148" y="-11204" z="-2400">
+			<delay sec="5"/>
+		</point>
+		<point x="26966" y="-10584" z="-2400">
+			<delay sec="5"/>
+		</point>
+		<point x="26180" y="-10780" z="-2464">
+			<delay sec="5"/>
+		</point>
+		<point x="26367" y="-11535" z="-2488">
+			<delay sec="5"/>
+		</point>
+		<point x="27000" y="-11565" z="-2408">
+			<delay sec="5"/>
+		</point>
+		<point x="26685" y="-11087" z="-2456">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_63" moveType="ROUND" running="true">
+		<point x="27708" y="-12676" z="-2288">
+			<delay sec="5"/>
+		</point>
+		<point x="27973" y="-12362" z="-2288">
+			<delay sec="5"/>
+		</point>
+		<point x="27629" y="-11835" z="-2304">
+			<delay sec="5"/>
+		</point>
+		<point x="27201" y="-11595" z="-2376">
+			<delay sec="5"/>
+		</point>
+		<point x="26736" y="-11839" z="-2456">
+			<delay sec="5"/>
+		</point>
+		<point x="27021" y="-12424" z="-2384">
+			<delay sec="5"/>
+		</point>
+		<point x="27336" y="-12125" z="-2376">
+			<delay sec="5"/>
+		</point>
+		<point x="27412" y="-12406" z="-2344">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_64" moveType="ROUND" running="true">
+		<point x="27068" y="-12740" z="-2384">
+			<delay sec="5"/>
+		</point>
+		<point x="26930" y="-12440" z="-2400">
+			<delay sec="5"/>
+		</point>
+		<point x="27198" y="-12124" z="-2384">
+			<delay sec="5"/>
+		</point>
+		<point x="27674" y="-12402" z="-2312">
+			<delay sec="5"/>
+		</point>
+		<point x="27613" y="-12986" z="-2264">
+			<delay sec="5"/>
+		</point>
+		<point x="27299" y="-12511" z="-2352">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_65" moveType="ROUND" running="true">
+		<point x="26348" y="-12900" z="-2472">
+			<delay sec="5"/>
+		</point>
+		<point x="26467" y="-13423" z="-2384">
+			<delay sec="5"/>
+		</point>
+		<point x="26927" y="-13358" z="-2320">
+			<delay sec="5"/>
+		</point>
+		<point x="27247" y="-12938" z="-2312">
+			<delay sec="5"/>
+		</point>
+		<point x="26845" y="-12470" z="-2424">
+			<delay sec="5"/>
+		</point>
+		<point x="26734" y="-12967" z="-2392">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_66" moveType="ROUND" running="true">
+		<point x="26172" y="-10532" z="-2456">
+			<delay sec="5"/>
+		</point>
+		<point x="26494" y="-10969" z="-2464">
+			<delay sec="5"/>
+		</point>
+		<point x="26232" y="-11484" z="-2488">
+			<delay sec="5"/>
+		</point>
+		<point x="25640" y="-11265" z="-2480">
+			<delay sec="5"/>
+		</point>
+		<point x="25695" y="-10721" z="-2464">
+			<delay sec="5"/>
+		</point>
+		<point x="26011" y="-11050" z="-2472">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_67" moveType="ROUND" running="true">
+		<point x="25084" y="-10516" z="-2488">
+			<delay sec="5"/>
+		</point>
+		<point x="25367" y="-10187" z="-2448">
+			<delay sec="5"/>
+		</point>
+		<point x="25923" y="-10500" z="-2464">
+			<delay sec="5"/>
+		</point>
+		<point x="25744" y="-11444" z="-2480">
+			<delay sec="5"/>
+		</point>
+		<point x="25152" y="-11442" z="-2488">
+			<delay sec="5"/>
+		</point>
+		<point x="25377" y="-10913" z="-2480">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_68" moveType="ROUND" running="true">
+		<point x="24220" y="-10580" z="-2544">
+			<delay sec="5"/>
+		</point>
+		<point x="24701" y="-10115" z="-2472">
+			<delay sec="5"/>
+		</point>
+		<point x="25204" y="-10735" z="-2496">
+			<delay sec="5"/>
+		</point>
+		<point x="24828" y="-11588" z="-2528">
+			<delay sec="5"/>
+		</point>
+		<point x="24291" y="-11409" z="-2544">
+			<delay sec="5"/>
+		</point>
+		<point x="24646" y="-10808" z="-2528">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_69" moveType="ROUND" running="true">
+		<point x="24300" y="-12260" z="-2520">
+			<delay sec="5"/>
+		</point>
+		<point x="24109" y="-11614" z="-2528">
+			<delay sec="5"/>
+		</point>
+		<point x="24812" y="-11299" z="-2536">
+			<delay sec="5"/>
+		</point>
+		<point x="25382" y="-11664" z="-2488">
+			<delay sec="5"/>
+		</point>
+		<point x="25194" y="-12212" z="-2536">
+			<delay sec="5"/>
+		</point>
+		<point x="24861" y="-11909" z="-2528">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_70" moveType="ROUND" running="true">
+		<point x="24556" y="-12388" z="-2520">
+			<delay sec="5"/>
+		</point>
+		<point x="24403" y="-12930" z="-2480">
+			<delay sec="5"/>
+		</point>
+		<point x="23537" y="-13030" z="-2496">
+			<delay sec="5"/>
+		</point>
+		<point x="23434" y="-12375" z="-800">
+			<delay sec="5"/>
+		</point>
+		<point x="23898" y="-12302" z="-2520">
+			<delay sec="5"/>
+		</point>
+		<point x="24111" y="-12741" z="-2496">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_71" moveType="ROUND" running="true">
+		<point x="23468" y="-11972" z="-2528">
+			<delay sec="5"/>
+		</point>
+		<point x="23496" y="-11412" z="-2552">
+			<delay sec="5"/>
+		</point>
+		<point x="24296" y="-11642" z="-2536">
+			<delay sec="5"/>
+		</point>
+		<point x="24377" y="-11948" z="-2528">
+			<delay sec="5"/>
+		</point>
+		<point x="23906" y="-11699" z="-2528">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_72" moveType="ROUND" running="true">
+		<point x="23868" y="-10804" z="-2560">
+			<delay sec="5"/>
+		</point>
+		<point x="24326" y="-10729" z="-2536">
+			<delay sec="5"/>
+		</point>
+		<point x="24217" y="-10120" z="-2512">
+			<delay sec="5"/>
+		</point>
+		<point x="23293" y="-10090" z="-2640">
+			<delay sec="5"/>
+		</point>
+		<point x="22829" y="-10595" z="-2680">
+			<delay sec="5"/>
+		</point>
+		<point x="23806" y="-10350" z="-2584">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_73" moveType="ROUND" running="true">
+		<point x="22732" y="-11316" z="-2648">
+			<delay sec="5"/>
+		</point>
+		<point x="23251" y="-11154" z="-2632">
+			<delay sec="5"/>
+		</point>
+		<point x="23061" y="-10165" z="-2656">
+			<delay sec="5"/>
+		</point>
+		<point x="22540" y="-10152" z="-2736">
+			<delay sec="5"/>
+		</point>
+		<point x="22820" y="-10983" z="-2664">
+			<delay sec="5"/>
+		</point>
+		<point x="23989" y="-10966" z="-2552">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_74" moveType="ROUND" running="true">
+		<point x="22672" y="-9468" z="-2712">
+			<delay sec="5"/>
+		</point>
+		<point x="22921" y="-9975" z="-2664">
+			<delay sec="5"/>
+		</point>
+		<point x="22260" y="-10661" z="-2776">
+			<delay sec="5"/>
+		</point>
+		<point x="21553" y="-10215" z="-2816">
+			<delay sec="5"/>
+		</point>
+		<point x="21952" y="-9568" z="-2792">
+			<delay sec="5"/>
+		</point>
+		<point x="22147" y="-10103" z="-2784">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_75" moveType="ROUND" running="true">
+		<point x="22140" y="-11940" z="-2640">
+			<delay sec="5"/>
+		</point>
+		<point x="22744" y="-11662" z="-2616">
+			<delay sec="5"/>
+		</point>
+		<point x="22645" y="-10895" z="-2688">
+			<delay sec="5"/>
+		</point>
+		<point x="21724" y="-11239" z="-2760">
+			<delay sec="5"/>
+		</point>
+		<point x="22277" y="-11493" z="-2664">
+			<delay sec="5"/>
+		</point>
+		<point x="21408" y="-11769" z="-2736">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_76" moveType="ROUND" running="true">
+		<point x="21340" y="-11092" z="-2784">
+			<delay sec="5"/>
+		</point>
+		<point x="21661" y="-11549" z="-2744">
+			<delay sec="5"/>
+		</point>
+		<point x="22158" y="-10939" z="-2760">
+			<delay sec="5"/>
+		</point>
+		<point x="21791" y="-10137" z="-2808">
+			<delay sec="5"/>
+		</point>
+		<point x="21029" y="-9777" z="-2848">
+			<delay sec="5"/>
+		</point>
+		<point x="20628" y="-10780" z="-2824">
+			<delay sec="5"/>
+		</point>
+		<point x="20961" y="-11761" z="-2776">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_77" moveType="ROUND" running="true">
+		<point x="21068" y="-11700" z="-2768">
+			<delay sec="5"/>
+		</point>
+		<point x="20900" y="-12446" z="-2696">
+			<delay sec="5"/>
+		</point>
+		<point x="19865" y="-11852" z="-2784">
+			<delay sec="5"/>
+		</point>
+		<point x="20372" y="-10947" z="-2832">
+			<delay sec="5"/>
+		</point>
+		<point x="20871" y="-10822" z="-2824">
+			<delay sec="5"/>
+		</point>
+		<point x="20482" y="-11426" z="-2824">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_78" moveType="ROUND" running="true">
+		<point x="21324" y="-8836" z="-2760">
+			<delay sec="5"/>
+		</point>
+		<point x="21454" y="-9510" z="-2792">
+			<delay sec="5"/>
+		</point>
+		<point x="21135" y="-10012" z="-2840">
+			<delay sec="5"/>
+		</point>
+		<point x="20339" y="-9589" z="-2832">
+			<delay sec="5"/>
+		</point>
+		<point x="20276" y="-8878" z="-2760">
+			<delay sec="5"/>
+		</point>
+		<point x="20756" y="-8534" z="-2712">
+			<delay sec="5"/>
+		</point>
+		<point x="20642" y="-9246" z="-2800">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_79" moveType="ROUND" running="false">
+		<point x="19836" y="-8884" z="-2736">
+			<delay sec="5"/>
+		</point>
+		<point x="19275" y="-9312" z="-2744">
+			<delay sec="5"/>
+		</point>
+		<point x="19542" y="-10053" z="-2840">
+			<delay sec="5"/>
+		</point>
+		<point x="20037" y="-10471" z="-2824">
+			<delay sec="5"/>
+		</point>
+		<point x="20688" y="-9525" z="-2840">
+			<delay sec="5"/>
+		</point>
+		<point x="19894" y="-9470" z="-2800">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_80" moveType="ROUND" running="true">
+		<point x="18684" y="-11444" z="-2824">
+			<delay sec="5"/>
+		</point>
+		<point x="19031" y="-10585" z="-2800">
+			<delay sec="5"/>
+		</point>
+		<point x="19369" y="-10373" z="-2800">
+			<delay sec="5"/>
+		</point>
+		<point x="20017" y="-10903" z="-2832">
+			<delay sec="5"/>
+		</point>
+		<point x="19841" y="-11684" z="-2800">
+			<delay sec="5"/>
+		</point>
+		<point x="19175" y="-11788" z="-2768">
+			<delay sec="5"/>
+		</point>
+		<point x="19266" y="-11153" z="-2808">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_81" moveType="ROUND" running="true">
+		<point x="19292" y="-10868" z="-2808">
+			<delay sec="5"/>
+		</point>
+		<point x="19477" y="-10235" z="-2824">
+			<delay sec="5"/>
+		</point>
+		<point x="19958" y="-10188" z="-2824">
+			<delay sec="5"/>
+		</point>
+		<point x="20347" y="-10620" z="-2832">
+			<delay sec="5"/>
+		</point>
+		<point x="19886" y="-10557" z="-2824">
+			<delay sec="5"/>
+		</point>
+		<point x="19916" y="-11127" z="-2832">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_82" moveType="ROUND" running="true">
+		<point x="18812" y="-9476" z="-2744">
+			<delay sec="5"/>
+		</point>
+		<point x="19480" y="-8804" z="-2704">
+			<delay sec="5"/>
+		</point>
+		<point x="19952" y="-9071" z="-2776">
+			<delay sec="5"/>
+		</point>
+		<point x="19965" y="-9741" z="-2840">
+			<delay sec="5"/>
+		</point>
+		<point x="19350" y="-10029" z="-2832">
+			<delay sec="5"/>
+		</point>
+		<point x="19554" y="-9369" z="-2776">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_83" moveType="ROUND" running="true">
+		<point x="16172" y="-11508" z="-3232">
+			<delay sec="5"/>
+		</point>
+		<point x="16667" y="-11487" z="-3192">
+			<delay sec="5"/>
+		</point>
+		<point x="16320" y="-10556" z="-3288">
+			<delay sec="5"/>
+		</point>
+		<point x="15451" y="-11430" z="-3192">
+			<delay sec="5"/>
+		</point>
+		<point x="15224" y="-10360" z="-3304">
+			<delay sec="5"/>
+		</point>
+		<point x="15660" y="-9943" z="-3272">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_84" moveType="ROUND" running="true">
+		<point x="14732" y="-11044" z="-3256">
+			<delay sec="5"/>
+		</point>
+		<point x="15653" y="-10939" z="-3288">
+			<delay sec="5"/>
+		</point>
+		<point x="16103" y="-9990" z="-3288">
+			<delay sec="5"/>
+		</point>
+		<point x="15260" y="-9315" z="-3264">
+			<delay sec="5"/>
+		</point>
+		<point x="14012" y="-9574" z="-3232">
+			<delay sec="5"/>
+		</point>
+		<point x="14667" y="-9818" z="-3288">
+			<delay sec="5"/>
+		</point>
+		<point x="15123" y="-10594" z="-3304">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_85" moveType="ROUND" running="true">
+		<point x="16908" y="-9940" z="-3224">
+			<delay sec="5"/>
+		</point>
+		<point x="16554" y="-10619" z="-3264">
+			<delay sec="5"/>
+		</point>
+		<point x="15647" y="-10383" z="-3304">
+			<delay sec="5"/>
+		</point>
+		<point x="15338" y="-9561" z="-3264">
+			<delay sec="5"/>
+		</point>
+		<point x="15800" y="-8980" z="-3264">
+			<delay sec="5"/>
+		</point>
+		<point x="16644" y="-9294" z="-3248">
+			<delay sec="5"/>
+		</point>
+		<point x="15977" y="-9882" z="-3272">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_86" moveType="ROUND" running="true">
+		<point x="16316" y="-8436" z="-3256">
+			<delay sec="5"/>
+		</point>
+		<point x="16867" y="-9092" z="-3224">
+			<delay sec="5"/>
+		</point>
+		<point x="15866" y="-9459" z="-3256">
+			<delay sec="5"/>
+		</point>
+		<point x="15094" y="-9050" z="-3272">
+			<delay sec="5"/>
+		</point>
+		<point x="15188" y="-8033" z="-3184">
+			<delay sec="5"/>
+		</point>
+		<point x="15678" y="-8487" z="-3256">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="lost_87" moveType="ROUND" running="true">
+		<point x="15276" y="-7764" z="-3160">
+			<delay sec="5"/>
+		</point>
+		<point x="16389" y="-8070" z="-3232">
+			<delay sec="5"/>
+		</point>
+		<point x="16165" y="-8626" z="-3264">
+			<delay sec="5"/>
+		</point>
+		<point x="15353" y="-8810" z="-3264">
+			<delay sec="5"/>
+		</point>
+		<point x="14903" y="-8569" z="-3248">
+			<delay sec="5"/>
+		</point>
+		<point x="15517" y="-8220" z="-3224">
+			<delay sec="5"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="tyrano_sp_new" moveType="ROUND">
+		<point x="21008" y="-14568" z="-3064"/>
+		<point x="22558" y="-14534" z="-3080"/>
+		<point x="23642" y="-15288" z="-2992"/>
+		<point x="22999" y="-16906" z="-2984"/>
+		<point x="21900" y="-17852" z="-2912"/>
+		<point x="22008" y="-19227" z="-2920"/>
+		<point x="21840" y="-20364" z="-3032"/>
+		<point x="21016" y="-20954" z="-3104"/>
+		<point x="19517" y="-19405" z="-3328"/>
+		<point x="18852" y="-18678" z="-3272"/>
+		<point x="17811" y="-17972" z="-3216"/>
+		<point x="17562" y="-15985" z="-3184"/>
+		<point x="16742" y="-14016" z="-3168"/>
+		<point x="17147" y="-12015" z="-3136"/>
+		<point x="18101" y="-11656" z="-3048"/>
+		<point x="18941" y="-11183" z="-2880"/>
+		<point x="20213" y="-10652" z="-2840"/>
+		<point x="21890" y="-10955" z="-2776"/>
+		<point x="22661" y="-11502" z="-2672"/>
+		<point x="21930" y="-12466" z="-2720"/>
+		<point x="21004" y="-13335" z="-2920"/>
+		<point x="20505" y="-13970" z="-2968"/>
+		<point x="20690" y="-14419" z="-3024"/>
+	</superpoint>
+
+	<superpoint name="deco_01" moveType="ROUND">
+		<point x="25996" y="-28172" z="-2420"/>
+		<point x="20953" y="-30284" z="-2420"/>
+		<point x="12748" y="-30000" z="-2504">
+			<delay sec="2"/>
+		</point>
+		<point x="8305" y="-29167" z="-3780"/>
+		<point x="4277" y="-25698" z="-2700"/>
+		<point x="8227" y="-23426" z="-2420"/>
+		<point x="17408" y="-25980" z="-2420"/>
+	</superpoint>
+
+	<superpoint name="deco_02" moveType="ROUND">
+		<point x="23672" y="-28116" z="-2388"/>
+		<point x="20055" y="-25450" z="-2388"/>
+		<point x="15519" y="-25191" z="-2780">
+			<delay sec="2"/>
+		</point>
+		<point x="12979" y="-26725" z="-3780"/>
+		<point x="13058" y="-29807" z="-2780"/>
+		<point x="16925" y="-31174" z="-2388"/>
+		<point x="20126" y="-30973" z="-2388"/>
+	</superpoint>
+
+	<superpoint name="deco_03" moveType="ROUND">
+		<point x="19372" y="-28104" z="-2380"/>
+		<point x="16964" y="-30887" z="-2380"/>
+		<point x="10565" y="-31500" z="-2800">
+			<delay sec="2"/>
+		</point>
+		<point x="7278" y="-27914" z="-3780"/>
+		<point x="9831" y="-24162" z="-2800"/>
+		<point x="14511" y="-24298" z="-1440"/>
+		<point x="18770" y="-26063" z="-2800"/>
+	</superpoint>
+
+	<superpoint name="deco_04" moveType="ROUND">
+		<point x="19376" y="-26376" z="-2320"/>
+		<point x="17285" y="-25262" z="-2320"/>
+		<point x="13597" y="-25154" z="-2500">
+			<delay sec="2"/>
+		</point>
+		<point x="9699" y="-28398" z="-3780"/>
+		<point x="13312" y="-31185" z="-2500"/>
+		<point x="15906" y="-31278" z="-2320"/>
+		<point x="19052" y="-29835" z="-2320"/>
+	</superpoint>
+
+	<superpoint name="deco_05" moveType="ROUND">
+		<point x="14976" y="-23388" z="-848"/>
+		<point x="13301" y="-26899" z="-2400"/>
+		<point x="10149" y="-28711" z="-2400">
+			<delay sec="2"/>
+		</point>
+		<point x="6904" y="-25301" z="-3780"/>
+		<point x="7706" y="-23357" z="-2400"/>
+		<point x="10751" y="-21795" z="-948"/>
+		<point x="12912" y="-22109" z="324"/>
+	</superpoint>
+
+	<superpoint name="deco_06" moveType="ROUND">
+		<point x="10752" y="-19152" z="-692"/>
+		<point x="9295" y="-21759" z="-1800"/>
+		<point x="6384" y="-22093" z="-1800"/>
+		<point x="4923" y="-20438" z="-2400"/>
+		<point x="4682" y="-17837" z="-2400"/>
+		<point x="6849" y="-14989" z="-1800"/>
+		<point x="9563" y="-17646" z="-2000"/>
+	</superpoint>
+
+	<superpoint name="deco_07" moveType="ROUND">
+		<point x="10544" y="-7616" z="-208"/>
+		<point x="9908" y="-9301" z="-800"/>
+		<point x="9437" y="-10691" z="-1600">
+			<delay sec="2"/>
+		</point>
+		<point x="8135" y="-12114" z="-3780"/>
+		<point x="5746" y="-12050" z="-2500"/>
+		<point x="4096" y="-9078" z="-1800"/>
+		<point x="7441" y="-6059" z="-800"/>
+	</superpoint>
+
+	<superpoint name="deco_08" moveType="ROUND">
+		<point x="14000" y="-7748" z="-720"/>
+		<point x="16052" y="-8284" z="-1700"/>
+		<point x="17760" y="-10173" z="-1700"/>
+		<point x="17286" y="-12230" z="-1700"/>
+		<point x="15175" y="-13418" z="-1700"/>
+		<point x="13757" y="-11035" z="-1700"/>
+		<point x="13085" y="-8628" z="-1000"/>
+	</superpoint>
+
+	<superpoint name="deco_09" moveType="ROUND">
+		<point x="17224" y="-5976" z="-1668"/>
+		<point x="19315" y="-8116" z="-1328"/>
+		<point x="19597" y="-11215" z="-1400"/>
+		<point x="18095" y="-13234" z="-1800"/>
+		<point x="15483" y="-12340" z="-1800"/>
+		<point x="13777" y="-10215" z="-1800"/>
+		<point x="15579" y="-7218" z="-1800"/>
+	</superpoint>
+
+	<superpoint name="deco_10" moveType="ROUND">
+		<point x="20672" y="-6940" z="-1360"/>
+		<point x="21845" y="-7732" z="-1360"/>
+		<point x="22507" y="-9081" z="-1360"/>
+		<point x="21598" y="-10647" z="-1360"/>
+		<point x="20172" y="-11004" z="-1360"/>
+		<point x="19180" y="-9746" z="-1360"/>
+		<point x="19583" y="-7852" z="-1360"/>
+	</superpoint>
+
+	<superpoint name="deco_11" moveType="ROUND">
+		<point x="11064" y="-5924" z="144"/>
+		<point x="7872" y="-7292" z="-2600"/>
+		<point x="5373" y="-6026" z="-2000">
+			<delay sec="2"/>
+		</point>
+		<point x="3498" y="-3714" z="-3780"/>
+		<point x="4008" y="-600" z="-2400"/>
+		<point x="8655" y="-1721" z="-1800"/>
+		<point x="12722" y="-3880" z="-500"/>
+	</superpoint>
+
+	<superpoint name="deco_12" moveType="ROUND">
+		<point x="10396" y="-12932" z="-2000"/>
+		<point x="7049" y="-15082" z="-2300"/>
+		<point x="3559" y="-14649" z="-2300"/>
+		<point x="2630" y="-11326" z="-2300"/>
+		<point x="5134" y="-8427" z="-2300"/>
+		<point x="6959" y="-8536" z="-2300"/>
+		<point x="8824" y="-9372" z="-2300"/>
+	</superpoint>
+
+	<superpoint name="deco_13" moveType="ROUND">
+		<point x="9572" y="-15560" z="-1700"/>
+		<point x="7393" y="-17864" z="-1900"/>
+		<point x="4864" y="-17979" z="-1900"/>
+		<point x="3477" y="-16075" z="-1900"/>
+		<point x="3505" y="-13000" z="-1900"/>
+		<point x="5596" y="-12536" z="-1900"/>
+		<point x="8395" y="-12987" z="-1900"/>
+	</superpoint>
+
+	<superpoint name="deco_14" moveType="ROUND">
+		<point x="26552" y="-8872" z="-564"/>
+		<point x="27629" y="-10787" z="-700"/>
+		<point x="27644" y="-12294" z="-700"/>
+		<point x="26097" y="-13455" z="-700"/>
+		<point x="23845" y="-11954" z="-700"/>
+		<point x="23646" y="-10692" z="-700"/>
+		<point x="24845" y="-9546" z="-700"/>
+	</superpoint>
+
+	<superpoint name="deco_15" moveType="ROUND">
+		<point x="22548" y="-13076" z="-628"/>
+		<point x="23895" y="-14234" z="-628"/>
+		<point x="23707" y="-16244" z="-628"/>
+		<point x="21915" y="-17100" z="-628"/>
+		<point x="19455" y="-16318" z="-628"/>
+		<point x="18770" y="-15216" z="-628"/>
+		<point x="19592" y="-13689" z="-628"/>
+	</superpoint>
+
+	<superpoint name="deco_16" moveType="ROUND">
+		<point x="19640" y="-12260" z="-836"/>
+		<point x="17915" y="-12202" z="-836"/>
+		<point x="16348" y="-12683" z="-836"/>
+		<point x="17063" y="-15696" z="-836"/>
+		<point x="19585" y="-16390" z="-836"/>
+		<point x="21541" y="-15378" z="-836"/>
+		<point x="20649" y="-13004" z="-836"/>
+	</superpoint>
+
+	<superpoint name="deco_17" moveType="ROUND">
+		<point x="28604" y="-13224" z="-752"/>
+		<point x="27638" y="-11281" z="-900"/>
+		<point x="26008" y="-11280" z="-900"/>
+		<point x="24726" y="-12574" z="-900"/>
+		<point x="24345" y="-14545" z="-900"/>
+		<point x="25429" y="-15963" z="-900"/>
+		<point x="27174" y="-15434" z="-900"/>
+	</superpoint>
+
+	<superpoint name="deco_18" moveType="ROUND">
+		<point x="22472" y="-12516" z="-692"/>
+		<point x="21660" y="-10961" z="-800"/>
+		<point x="20438" y="-10831" z="-800"/>
+		<point x="18434" y="-11482" z="-800"/>
+		<point x="18278" y="-13814" z="-800"/>
+		<point x="19414" y="-15070" z="-800"/>
+		<point x="20985" y="-14537" z="-800"/>
+	</superpoint>
+
+	<superpoint name="deco_19" moveType="ROUND">
+		<point x="29620" y="-16416" z="-1392"/>
+		<point x="27933" y="-18073" z="-1400"/>
+		<point x="26257" y="-18226" z="-1400"/>
+		<point x="25005" y="-16985" z="-1400"/>
+		<point x="26046" y="-15035" z="-1400"/>
+		<point x="28025" y="-14213" z="-1400"/>
+		<point x="29124" y="-14851" z="-1400"/>
+	</superpoint>
+
+	<superpoint name="deco_20" moveType="ROUND">
+		<point x="28912" y="-19312" z="-1004"/>
+		<point x="26647" y="-19756" z="-1100"/>
+		<point x="24859" y="-18781" z="-1100"/>
+		<point x="24248" y="-16772" z="-1100"/>
+		<point x="26219" y="-14616" z="-1100"/>
+		<point x="28197" y="-14515" z="-1100"/>
+		<point x="29483" y="-16554" z="-1100"/>
+	</superpoint>
+
+	<superpoint name="deco_21" moveType="ROUND">
+		<point x="26396" y="-20996" z="164"/>
+		<point x="27622" y="-19076" z="-1000"/>
+		<point x="26820" y="-17535" z="-1000"/>
+		<point x="24954" y="-16899" z="-1000"/>
+		<point x="23540" y="-17472" z="-1000"/>
+		<point x="22930" y="-19309" z="-1000"/>
+		<point x="24446" y="-20895" z="-1000"/>
+	</superpoint>
+
+	<superpoint name="deco_22" moveType="ROUND">
+		<point x="23548" y="-22832" z="-834"/>
+		<point x="24656" y="-21219" z="-900"/>
+		<point x="24316" y="-18630" z="-900"/>
+		<point x="22291" y="-17538" z="-900"/>
+		<point x="20472" y="-19046" z="-900"/>
+		<point x="20341" y="-20808" z="-900"/>
+		<point x="21934" y="-22230" z="-900"/>
+	</superpoint>
+
+	<superpoint name="deco_23" moveType="ROUND">
+		<point x="20204" y="-22152" z="-1308"/>
+		<point x="21715" y="-20295" z="-1300"/>
+		<point x="21663" y="-18718" z="-1300"/>
+		<point x="19364" y="-17626" z="-1300"/>
+		<point x="18171" y="-18453" z="-1300"/>
+		<point x="17977" y="-19913" z="-1300"/>
+		<point x="19138" y="-21443" z="-1300"/>
+	</superpoint>
+
+	<superpoint name="deco_24" moveType="ROUND">
+		<point x="17332" y="-21296" z="-950"/>
+		<point x="19609" y="-20492" z="-1000"/>
+		<point x="19477" y="-18046" z="-1000"/>
+		<point x="18172" y="-16680" z="-1000"/>
+		<point x="15995" y="-16198" z="-1000"/>
+		<point x="14505" y="-17450" z="-1000"/>
+		<point x="15904" y="-20046" z="-1000"/>
+	</superpoint>
+
+	<superpoint name="deco_25" moveType="ROUND">
+		<point x="15036" y="-20296" z="-1700"/>
+		<point x="16945" y="-19393" z="-1500"/>
+		<point x="17852" y="-17215" z="-1600"/>
+		<point x="16622" y="-15668" z="-1500"/>
+		<point x="15237" y="-15609" z="-1800"/>
+		<point x="13819" y="-17188" z="-1700"/>
+		<point x="13872" y="-19112" z="-1700"/>
+	</superpoint>
+
+	<superpoint name="deco_26" moveType="ROUND">
+		<point x="12068" y="-17392" z="-788"/>
+		<point x="13157" y="-14717" z="-2000"/>
+		<point x="15492" y="-14342" z="-2000"/>
+		<point x="17797" y="-15050" z="-2000"/>
+		<point x="18033" y="-17248" z="-2000"/>
+		<point x="16803" y="-18422" z="-2000"/>
+		<point x="14506" y="-18453" z="-2000"/>
+	</superpoint>
+
+	<superpoint name="deco_27" moveType="ROUND">
+		<point x="12684" y="-14916" z="-2000"/>
+		<point x="14111" y="-16584" z="-2000"/>
+		<point x="15372" y="-15848" z="-2000"/>
+		<point x="15970" y="-14007" z="-2000"/>
+		<point x="15377" y="-12352" z="-2000"/>
+		<point x="14270" y="-12261" z="-2000"/>
+		<point x="13162" y="-13023" z="-2000"/>
+	</superpoint>
+
+	<superpoint name="deco_28" moveType="ROUND">
+		<point x="13280" y="-11612" z="-1800"/>
+		<point x="13777" y="-13921" z="-1800"/>
+		<point x="15971" y="-14112" z="-1800"/>
+		<point x="17088" y="-12591" z="1800"/>
+		<point x="16830" y="-10368" z="-1800"/>
+		<point x="16045" y="-9148" z="-1800"/>
+		<point x="14505" y="-9353" z="-1800"/>
+	</superpoint>
+
+	<superpoint name="deco_29" moveType="ROUND">
+		<point x="5432" y="-22628" z="-950"/>
+		<point x="8586" y="-25312" z="-1500"/>
+		<point x="9312" y="-28455" z="-2500">
+			<delay sec="2"/>
+		</point>
+		<point x="7005" y="-31328" z="-3780"/>
+		<point x="3182" y="-32010" z="-2400"/>
+		<point x="1205" y="-28936" z="-1500"/>
+		<point x="1981" y="-24901" z="-1200"/>
+	</superpoint>
+
+	<superpoint name="deco_30" moveType="ROUND">
+		<point x="2144" y="-18228" z="-1250"/>
+		<point x="3911" y="-19921" z="-1600"/>
+		<point x="6070" y="-20241" z="-1800"/>
+		<point x="7700" y="-18771" z="-2000"/>
+		<point x="7377" y="-16605" z="-1700"/>
+		<point x="5616" y="-15280" z="-1500"/>
+		<point x="3533" y="-15870" z="-1300"/>
+	</superpoint>
+
+	<superpoint name="deco_31" moveType="ROUND">
+		<point x="1532" y="-13976" z="-950"/>
+		<point x="2384" y="-16325" z="-1200"/>
+		<point x="4399" y="-17308" z="-1600"/>
+		<point x="6213" y="-16532" z="-1800"/>
+		<point x="6250" y="-13608" z="-2000"/>
+		<point x="5165" y="-12095" z="-1700"/>
+		<point x="3178" y="-11585" z="-1500"/>
+	</superpoint>
+
+	<superpoint name="deco_32" moveType="ROUND">
+		<point x="2000" y="-8504" z="-1450"/>
+		<point x="2581" y="-10953" z="-1700"/>
+		<point x="4416" y="-12032" z="-1900"/>
+		<point x="6485" y="-10914" z="-1700"/>
+		<point x="7396" y="-8769" z="-1800"/>
+		<point x="6113" y="-7231" z="-2000"/>
+		<point x="4452" y="-7114" z="-1700"/>
+	</superpoint>
+
+	<superpoint name="deco_33" moveType="ROUND">
+		<point x="3876" y="-5572" z="-1150"/>
+		<point x="2839" y="-7120" z="-1400"/>
+		<point x="3891" y="-8783" z="-1600"/>
+		<point x="7069" y="-8583" z="-2100"/>
+		<point x="7561" y="-5946" z="-2000"/>
+		<point x="6685" y="-3843" z="-1800"/>
+		<point x="5037" y="-3357" z="-1400"/>
+	</superpoint>
+
+	<superpoint name="deco_34" moveType="ROUND">
+		<point x="3440" y="-20708" z="-1250"/>
+		<point x="1196" y="-24944" z="-1800"/>
+		<point x="1002" y="-28762" z="-2200"/>
+		<point x="3280" y="-31410" z="-2500"/>
+		<point x="7645" y="-30585" z="-2300"/>
+		<point x="9181" y="-26149" z="-2000"/>
+		<point x="7505" y="-21979" z="-1400"/>
+	</superpoint>
+
+	<superpoint name="Formation_FreeWay" moveType="ROUND">
+		<point x="-250065" y="234905" z="4211"/>
+		<point x="-250045" y="235805" z="4138"/>
+		<point x="-250677" y="236246" z="4103"/>
+		<point x="-253055" y="235610" z="4499"/>
+		<point x="-254496" y="236194" z="4104"/>
+		<point x="-254834" y="237081" z="4611"/>
+		<point x="-253686" y="237335" z="5085"/>
+		<point x="-252077" y="236614" z="5171"/>
+		<point x="-251845" y="235117" z="5372"/>
+		<point x="-250972" y="234746" z="5423"/>
+	</superpoint>
+
+	<superpoint name="cooker_01" moveType="LENGTH">
+		<point x="84463" y="63007" z="-3576"/>
+		<point x="85669" y="63026" z="-3624"/>
+		<point x="86420" y="62661" z="-3680"/>
+		<point x="86529" y="61661" z="-3616"/>
+		<point x="87300" y="61489" z="-3656"/>
+	</superpoint>
+
+	<superpoint name="cooker_02" moveType="ROUND">
+		<point x="87967" y="60334" z="-3568"/>
+		<point x="88379" y="60689" z="-3632"/>
+		<point x="89299" y="60265" z="-3656"/>
+		<point x="90084" y="60663" z="-3632"/>
+		<point x="91007" y="59913" z="-3632"/>
+		<point x="93435" y="59901" z="-3304"/>
+		<point x="92321" y="60291" z="-3384"/>
+		<point x="90966" y="60218" z="-3600"/>
+		<point x="90051" y="59869" z="-3664"/>
+		<point x="88796" y="59984" z="-3584"/>
+	</superpoint>
+
+	<superpoint name="cooker_03" moveType="LENGTH">
+		<point x="88405" y="60253" z="-3584"/>
+		<point x="87379" y="61104" z="-3624"/>
+		<point x="86659" y="60527" z="-3512"/>
+		<point x="87016" y="59568" z="-3560"/>
+		<point x="87242" y="59282" z="-3560"/>
+		<point x="88830" y="58516" z="-3584"/>
+		<point x="89981" y="58624" z="-3680"/>
+		<point x="90736" y="58534" z="-3776"/>
+		<point x="90848" y="58141" z="-3792"/>
+		<point x="91119" y="57845" z="-3744"/>
+	</superpoint>
+
+	<superpoint name="cooker_04" moveType="LENGTH">
+		<point x="85774" y="54317" z="-3656"/>
+		<point x="86676" y="54005" z="-3704"/>
+		<point x="87246" y="54542" z="-3664"/>
+		<point x="88953" y="53970" z="-3696"/>
+		<point x="89922" y="54159" z="-3760"/>
+		<point x="90631" y="54175" z="-3776"/>
+		<point x="91321" y="54979" z="-3760"/>
+	</superpoint>
+
+	<superpoint name="cooker_05" moveType="ROUND">
+		<point x="94292" y="54810" z="-3568"/>
+		<point x="94064" y="54348" z="-3616"/>
+		<point x="91685" y="54871" z="-3744"/>
+		<point x="91806" y="55607" z="-3640"/>
+		<point x="91865" y="56637" z="-3560"/>
+		<point x="91225" y="57716" z="-3712"/>
+		<point x="91862" y="56677" z="-3560"/>
+		<point x="91677" y="54851" z="-3744"/>
+		<point x="92716" y="54590" z="-3680"/>
+		<point x="94053" y="54324" z="-3616"/>
+		<point x="94353" y="54689" z="-3576"/>
+	</superpoint>
+
+	<superpoint name="cooker_06" moveType="LENGTH">
+		<point x="93149" y="61631" z="-3240"/>
+		<point x="93403" y="62180" z="-3264"/>
+		<point x="93484" y="62942" z="-3288"/>
+		<point x="93229" y="63952" z="-3344"/>
+		<point x="92005" y="64642" z="-3552"/>
+		<point x="91555" y="65165" z="-3592"/>
+		<point x="88043" y="65236" z="-3720"/>
+		<point x="87888" y="64708" z="-3720"/>
+		<point x="87292" y="64467" z="-3688"/>
+		<point x="86612" y="64943" z="-3524"/>
+	</superpoint>
+
+	<superpoint name="cooker_07" moveType="LENGTH">
+		<point x="78943" y="63731" z="-3608"/>
+		<point x="79261" y="64127" z="-3496"/>
+		<point x="79108" y="65257" z="-3304"/>
+		<point x="81538" y="64977" z="-3396"/>
+		<point x="81710" y="63835" z="-3576"/>
+		<point x="82370" y="63802" z="-3584"/>
+		<point x="83313" y="63943" z="-3568"/>
+		<point x="83886" y="63293" z="-3584"/>
+		<point x="85272" y="63502" z="-3688"/>
+		<point x="85943" y="64604" z="-3624"/>
+	</superpoint>
+
+	<superpoint name="cooker_08" moveType="LENGTH">
+		<point x="77947" y="69568" z="-3096"/>
+		<point x="78532" y="69881" z="-3168"/>
+		<point x="79217" y="69404" z="-3304"/>
+		<point x="79598" y="68964" z="-3320"/>
+		<point x="80082" y="69330" z="-3384"/>
+		<point x="80591" y="68680" z="-3448"/>
+		<point x="80723" y="67896" z="-3432"/>
+		<point x="80960" y="66017" z="-3384"/>
+	</superpoint>
+
+	<superpoint name="cooker_09" moveType="LENGTH">
+		<point x="83620" y="66128" z="-3040"/>
+		<point x="84046" y="65817" z="-3112"/>
+		<point x="84697" y="65768" z="-3192"/>
+		<point x="85285" y="65780" z="-3232"/>
+		<point x="85825" y="66115" z="-3320"/>
+		<point x="86709" y="65765" z="-3576"/>
+		<point x="88189" y="65712" z="-3720"/>
+	</superpoint>
+
+	<superpoint name="cooker_10" moveType="LENGTH">
+		<point x="90259" y="67364" z="-3696"/>
+		<point x="90652" y="67132" z="-3664"/>
+		<point x="91697" y="67336" z="-3648"/>
+		<point x="91870" y="67871" z="-3592"/>
+		<point x="91382" y="68349" z="-3536"/>
+		<point x="90880" y="68217" z="-3560"/>
+		<point x="89976" y="68368" z="-3656"/>
+		<point x="89652" y="69429" z="-3424"/>
+		<point x="88961" y="69714" z="-3344"/>
+		<point x="88311" y="68961" z="-3176"/>
+		<point x="87851" y="68766" z="-3128"/>
+		<point x="87426" y="69389" z="-3064"/>
+		<point x="86066" y="69477" z="-3064"/>
+		<point x="85776" y="69137" z="-3064"/>
+		<point x="85717" y="67833" z="-3064"/>
+		<point x="86025" y="67590" z="-3064"/>
+		<point x="86486" y="67765" z="-3064"/>
+		<point x="86984" y="67651" z="-3080"/>
+	</superpoint>
+
+	<superpoint name="cooker_11" moveType="LENGTH">
+		<point x="95956" y="68593" z="-3312"/>
+		<point x="95050" y="68002" z="-3368"/>
+		<point x="93787" y="67812" z="-3664"/>
+		<point x="92648" y="68459" z="-3592"/>
+		<point x="92474" y="69689" z="-3544"/>
+		<point x="91158" y="69736" z="-3472"/>
+		<point x="89903" y="69628" z="-3432"/>
+		<point x="88393" y="69991" z="-3280"/>
+		<point x="88697" y="70361" z="-3360"/>
+		<point x="90512" y="70604" z="-3536"/>
+		<point x="91422" y="70372" z="-3488"/>
+		<point x="93749" y="71098" z="-3616"/>
+		<point x="93950" y="70395" z="-3664"/>
+		<point x="93227" y="69030" z="-3608"/>
+		<point x="94106" y="68265" z="-3640"/>
+		<point x="94973" y="68298" z="-3424"/>
+	</superpoint>
+
+	<superpoint name="cooker_12" moveType="LENGTH">
+		<point x="82557" y="69945" z="-3248"/>
+		<point x="81715" y="69852" z="-3344"/>
+		<point x="81114" y="69390" z="-3400"/>
+		<point x="80736" y="68741" z="-3448"/>
+		<point x="81024" y="65948" z="-3368"/>
+	</superpoint>
+
+	<superpoint name="daimon_eyed" moveType="ROUND">
+		<point x="191276" y="-49556" z="-2960"/>
+		<point x="193537" y="-47182" z="-2984"/>
+		<point x="194317" y="-43736" z="-2872"/>
+		<point x="193336" y="-42510" z="-2888"/>
+		<point x="194633" y="-40843" z="-2872"/>
+		<point x="194498" y="-39516" z="-2912"/>
+		<point x="191985" y="-35868" z="-2904"/>
+		<point x="190083" y="-35015" z="-2912"/>
+		<point x="187815" y="-36733" z="-3146"/>
+		<point x="186256" y="-35136" z="-3072"/>
+		<point x="184477" y="-36749" z="-3080"/>
+		<point x="180834" y="-37288" z="-3104"/>
+		<point x="179653" y="-38946" z="-3176"/>
+		<point x="179854" y="-42412" z="-3248"/>
+		<point x="177627" y="-43341" z="-3336"/>
+		<point x="177842" y="-45723" z="-3456"/>
+		<point x="180459" y="-47145" z="-3256"/>
+		<point x="175858" y="-51288" z="-3496"/>
+		<point x="173028" y="-49337" z="-3520"/>
+		<point x="171936" y="-46364" z="-3472"/>
+		<point x="173074" y="-44264" z="-3488"/>
+		<point x="172575" y="-42937" z="-3464"/>
+		<point x="170964" y="-41753" z="-3464"/>
+		<point x="170428" y="-39132" z="-3432"/>
+	</superpoint>
+
+	<superpoint name="parade_a2" moveType="DELETE">
+		<point x="-55840" y="-58760" z="-2008"/>
+		<point x="-60771" y="-58758" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="parade_a3" moveType="DELETE">
+		<point x="-55840" y="-58800" z="-2008"/>
+		<point x="-60773" y="-58798" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="parade_a4" moveType="DELETE">
+		<point x="-55841" y="-58843" z="-2008"/>
+		<point x="-60773" y="-58838" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="parade_a5" moveType="DELETE">
+		<point x="-55843" y="-58880" z="-2008"/>
+		<point x="-60772" y="-58876" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="parade_a6" moveType="DELETE">
+		<point x="-55841" y="-58915" z="-2008"/>
+		<point x="-60769" y="-58912" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="parade_b2" moveType="DELETE">
+		<point x="-61638" y="-57883" z="-2008"/>
+		<point x="-61640" y="-54689" z="-2016"/>
+		<point x="-61640" y="-53955" z="-2104"/>
+	</superpoint>
+
+	<superpoint name="parade_b3" moveType="DELETE">
+		<point x="-61677" y="-57883" z="-2008"/>
+		<point x="-61672" y="-54688" z="-2016"/>
+		<point x="-61676" y="-53953" z="-2104"/>
+	</superpoint>
+
+	<superpoint name="parade_b4" moveType="DELETE">
+		<point x="-61716" y="-57881" z="-2008"/>
+		<point x="-61710" y="-54686" z="-2016"/>
+		<point x="-61711" y="-53952" z="-2104"/>
+	</superpoint>
+
+	<superpoint name="parade_b5" moveType="DELETE">
+		<point x="-61759" y="-57879" z="-2008"/>
+		<point x="-61745" y="-54688" z="-2016"/>
+		<point x="-61744" y="-53951" z="-2104"/>
+	</superpoint>
+
+	<superpoint name="parade_b6" moveType="DELETE">
+		<point x="-61798" y="-57874" z="-2008"/>
+		<point x="-61780" y="-54687" z="-2016"/>
+		<point x="-61774" y="-53950" z="-2104"/>
+	</superpoint>
+
+	<superpoint name="parade_c2" moveType="DELETE">
+		<point x="-60744" y="-53142" z="-2096"/>
+		<point x="-59156" y="-53144" z="-2040"/>
+		<point x="-58654" y="-53148" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="parade_c3" moveType="DELETE">
+		<point x="-60743" y="-53107" z="-2096"/>
+		<point x="-59157" y="-53108" z="-2040"/>
+		<point x="-58660" y="-53111" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="parade_c4" moveType="DELETE">
+		<point x="-60746" y="-53071" z="-2096"/>
+		<point x="-59159" y="-53064" z="-2040"/>
+		<point x="-58659" y="-53067" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="parade_c5" moveType="DELETE">
+		<point x="-60745" y="-53037" z="-2096"/>
+		<point x="-59153" y="-53025" z="-2040"/>
+		<point x="-58662" y="-53027" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="parade_c6" moveType="DELETE">
+		<point x="-60742" y="-53004" z="-2096"/>
+		<point x="-59151" y="-52997" z="-2040"/>
+		<point x="-58666" y="-52994" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="parade_d2" moveType="DELETE">
+		<point x="-57291" y="-53729" z="-2008"/>
+		<point x="-55473" y="-55521" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="parade_d3" moveType="DELETE">
+		<point x="-57261" y="-53701" z="-2008"/>
+		<point x="-55451" y="-55496" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="parade_d4" moveType="DELETE">
+		<point x="-57232" y="-53670" z="-2008"/>
+		<point x="-55426" y="-55470" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="parade_d5" moveType="DELETE">
+		<point x="-57206" y="-53646" z="-2008"/>
+		<point x="-55401" y="-55441" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="parade_d6" moveType="DELETE">
+		<point x="-57182" y="-53620" z="-2008"/>
+		<point x="-55378" y="-55414" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="parade_e2" moveType="DELETE">
+		<point x="-54941" y="-56897" z="-2008"/>
+		<point x="-54940" y="-57974" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="parade_e3" moveType="DELETE">
+		<point x="-54905" y="-56894" z="-2008"/>
+		<point x="-54906" y="-57976" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="parade_e4" moveType="DELETE">
+		<point x="-54866" y="-56895" z="-2008"/>
+		<point x="-54868" y="-57982" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="parade_e5" moveType="DELETE">
+		<point x="-54828" y="-56895" z="-2008"/>
+		<point x="-54829" y="-57981" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="parade_e6" moveType="DELETE">
+		<point x="-54791" y="-56894" z="-2008"/>
+		<point x="-54789" y="-57984" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="show_skillteam_a1" moveType="ROUND">
+		<point x="-56494" y="-56383" z="-2008"/>
+		<point x="-56546" y="-56384" z="-2008"/>
+		<point x="-56597" y="-56384" z="-2008"/>
+		<point x="-56596" y="-56428" z="-2008"/>
+		<point x="-56593" y="-56474" z="-2008"/>
+		<point x="-56542" y="-56474" z="-2008"/>
+		<point x="-56493" y="-56473" z="-2008"/>
+		<point x="-56495" y="-56425" z="-2008"/>
+		<point x="-56495" y="-56398" z="-2008"/>
+		<point x="-56549" y="-56361" z="-2008"/>
+		<point x="-56596" y="-56381" z="-2008"/>
+		<point x="-56647" y="-56383" z="-2008"/>
+		<point x="-56646" y="-56428" z="-2008"/>
+		<point x="-56645" y="-56475" z="-2008"/>
+		<point x="-56592" y="-56477" z="-2008"/>
+		<point x="-56542" y="-56478" z="-2008"/>
+		<point x="-56485" y="-56476" z="-2008"/>
+		<point x="-56488" y="-56425" z="-2008"/>
+		<point x="-56492" y="-56383" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="show_skillteam_a2" moveType="ROUND">
+		<point x="-56503" y="-56291" z="-2008"/>
+		<point x="-56550" y="-56291" z="-2008"/>
+		<point x="-56601" y="-56293" z="-2008"/>
+		<point x="-56603" y="-56247" z="-2008"/>
+		<point x="-56605" y="-56203" z="-2008"/>
+		<point x="-56553" y="-56202" z="-2008"/>
+		<point x="-56504" y="-56200" z="-2008"/>
+		<point x="-56503" y="-56243" z="-2008"/>
+		<point x="-56500" y="-56274" z="-2008"/>
+		<point x="-56550" y="-56310" z="-2008"/>
+		<point x="-56600" y="-56295" z="-2008"/>
+		<point x="-56651" y="-56294" z="-2008"/>
+		<point x="-56654" y="-56249" z="-2008"/>
+		<point x="-56654" y="-56204" z="-2008"/>
+		<point x="-56606" y="-56202" z="-2008"/>
+		<point x="-56554" y="-56198" z="-2008"/>
+		<point x="-56501" y="-56196" z="-2008"/>
+		<point x="-56500" y="-56243" z="-2008"/>
+		<point x="-56496" y="-56290" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="show_skillteam_b1" moveType="ROUND">
+		<point x="-56493" y="-56426" z="-2008"/>
+		<point x="-56495" y="-56381" z="-2008"/>
+		<point x="-56548" y="-56383" z="-2008"/>
+		<point x="-56597" y="-56383" z="-2008"/>
+		<point x="-56594" y="-56428" z="-2008"/>
+		<point x="-56593" y="-56473" z="-2008"/>
+		<point x="-56541" y="-56473" z="-2008"/>
+		<point x="-56491" y="-56471" z="-2008"/>
+		<point x="-56491" y="-56429" z="-2008"/>
+		<point x="-56492" y="-56380" z="-2008"/>
+		<point x="-56547" y="-56361" z="-2008"/>
+		<point x="-56598" y="-56380" z="-2008"/>
+		<point x="-56648" y="-56385" z="-2008"/>
+		<point x="-56645" y="-56429" z="-2008"/>
+		<point x="-56644" y="-56474" z="-2008"/>
+		<point x="-56592" y="-56476" z="-2008"/>
+		<point x="-56542" y="-56475" z="-2008"/>
+		<point x="-56491" y="-56476" z="-2008"/>
+		<point x="-56488" y="-56429" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="show_skillteam_b2" moveType="ROUND">
+		<point x="-56506" y="-56246" z="-2008"/>
+		<point x="-56500" y="-56288" z="-2008"/>
+		<point x="-56551" y="-56292" z="-2008"/>
+		<point x="-56601" y="-56293" z="-2008"/>
+		<point x="-56602" y="-56248" z="-2008"/>
+		<point x="-56605" y="-56202" z="-2008"/>
+		<point x="-56554" y="-56202" z="-2008"/>
+		<point x="-56503" y="-56201" z="-2008"/>
+		<point x="-56502" y="-56245" z="-2008"/>
+		<point x="-56500" y="-56290" z="-2008"/>
+		<point x="-56551" y="-56313" z="-2008"/>
+		<point x="-56601" y="-56293" z="-2008"/>
+		<point x="-56651" y="-56294" z="-2008"/>
+		<point x="-56653" y="-56250" z="-2008"/>
+		<point x="-56654" y="-56204" z="-2008"/>
+		<point x="-56605" y="-56203" z="-2008"/>
+		<point x="-56554" y="-56202" z="-2008"/>
+		<point x="-56503" y="-56200" z="-2008"/>
+		<point x="-56502" y="-56244" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="show_skillteam_e1" moveType="ROUND">
+		<point x="-56492" y="-56468" z="-2008"/>
+		<point x="-56493" y="-56426" z="-2008"/>
+		<point x="-56497" y="-56381" z="-2008"/>
+		<point x="-56544" y="-56381" z="-2008"/>
+		<point x="-56596" y="-56383" z="-2008"/>
+		<point x="-56594" y="-56428" z="-2008"/>
+		<point x="-56645" y="-56429" z="-2008"/>
+		<point x="-56647" y="-56384" z="-2008"/>
+		<point x="-56649" y="-56362" z="-2008"/>
+		<point x="-56655" y="-56384" z="-2008"/>
+		<point x="-56654" y="-56429" z="-2008"/>
+		<point x="-56644" y="-56474" z="-2008"/>
+		<point x="-56593" y="-56473" z="-2008"/>
+		<point x="-56543" y="-56472" z="-2008"/>
+		<point x="-56491" y="-56471" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="show_skillteam_e2" moveType="ROUND">
+		<point x="-56508" y="-56205" z="-2008"/>
+		<point x="-56505" y="-56246" z="-2008"/>
+		<point x="-56504" y="-56291" z="-2008"/>
+		<point x="-56550" y="-56291" z="-2008"/>
+		<point x="-56600" y="-56292" z="-2008"/>
+		<point x="-56603" y="-56248" z="-2008"/>
+		<point x="-56653" y="-56249" z="-2008"/>
+		<point x="-56651" y="-56294" z="-2008"/>
+		<point x="-56650" y="-56316" z="-2008"/>
+		<point x="-56657" y="-56295" z="-2008"/>
+		<point x="-56660" y="-56250" z="-2008"/>
+		<point x="-56656" y="-56205" z="-2008"/>
+		<point x="-56606" y="-56204" z="-2008"/>
+		<point x="-56554" y="-56203" z="-2008"/>
+		<point x="-56506" y="-56203" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="show_skillteam_d1" moveType="ROUND">
+		<point x="-56550" y="-56425" z="-2008"/>
+		<point x="-56595" y="-56428" z="-2008"/>
+		<point x="-56596" y="-56383" z="-2008"/>
+		<point x="-56648" y="-56384" z="-2008"/>
+		<point x="-56645" y="-56429" z="-2008"/>
+		<point x="-56644" y="-56475" z="-2008"/>
+		<point x="-56595" y="-56473" z="-2008"/>
+		<point x="-56542" y="-56473" z="-2008"/>
+		<point x="-56492" y="-56472" z="-2008"/>
+		<point x="-56495" y="-56426" z="-2008"/>
+		<point x="-56540" y="-56426" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="show_skillteam_d2" moveType="ROUND">
+		<point x="-56554" y="-56247" z="-2008"/>
+		<point x="-56603" y="-56249" z="-2008"/>
+		<point x="-56601" y="-56294" z="-2008"/>
+		<point x="-56651" y="-56295" z="-2008"/>
+		<point x="-56653" y="-56248" z="-2008"/>
+		<point x="-56655" y="-56206" z="-2008"/>
+		<point x="-56605" y="-56203" z="-2008"/>
+		<point x="-56554" y="-56202" z="-2008"/>
+		<point x="-56504" y="-56201" z="-2008"/>
+		<point x="-56502" y="-56247" z="-2008"/>
+		<point x="-56549" y="-56248" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="show_skillteam_c1" moveType="ROUND">
+		<point x="-56516" y="-56334" z="-2008"/>
+		<point x="-56549" y="-56335" z="-2008"/>
+		<point x="-56599" y="-56337" z="-2008"/>
+		<point x="-56649" y="-56341" z="-2008"/>
+		<point x="-56600" y="-56341" z="-2008"/>
+		<point x="-56553" y="-56338" z="-2008"/>
+		<point x="-56508" y="-56331" z="-2008"/>
+	</superpoint>
+
+	<superpoint name="adept_sinister_gludio" moveType="ROUND">
+		<point x="-14562" y="121253" z="-2984">
+			<delay sec="2"/>
+		</point>
+		<point x="-14163" y="121253" z="-2984">
+			<delay sec="20"/>
+		</point>
+		<point x="-14562" y="121253" z="-2984">
+			<msg id="1010223"/>
+		</point>
+		<point x="-13670" y="121248" z="-2984"/>
+		<point x="-14147" y="121246" z="-2984">
+			<delay sec="7"/>
+		</point>
+		<point x="-14149" y="121694" z="-2984">
+			<msg id="1010222"/>
+			<delay sec="2"/>
+		</point>
+		<point x="-13890" y="122263" z="-2984">
+			<delay sec="7"/>
+		</point>
+		<point x="-13109" y="122268" z="-2984">
+			<msg id="1010221"/>
+		</point>
+		<point x="-13890" y="122263" z="-2984">
+			<delay sec="7"/>
+		</point>
+		<point x="-14149" y="121694" z="-2984">
+			<msg id="1010221"/>
+			<delay sec="2"/>
+		</point>
+		<point x="-14147" y="121246" z="-2984">
+			<delay sec="7"/>
+		</point>
+		<point x="-13670" y="121248" z="-2984">
+			<msg id="1010222"/>
+		</point>
+		<point x="-14562" y="121253" z="-2984"/>
+	</superpoint>
+
+	<superpoint name="adept_sinister_giran" moveType="ROUND">
+		<point x="84871" y="147758" z="-3400">
+			<delay sec="30"/>
+		</point>
+		<point x="83688" y="147702" z="-3400">
+			<delay sec="7"/>
+		</point>
+		<point x="83511" y="148633" z="-3400">
+			<msg id="1010221"/>
+			<delay sec="1"/>
+		</point>
+		<point x="83688" y="147702" z="-3400">
+			<delay sec="7"/>
+		</point>
+		<point x="84871" y="147758" z="-3400">
+			<msg id="1010221"/>
+			<delay sec="30"/>
+		</point>
+		<point x="83617" y="147705" z="-3400">
+			<delay sec="1"/>
+		</point>
+		<point x="83621" y="149545" z="-3400">
+			<msg id="1010222"/>
+			<delay sec="10"/>
+		</point>
+		<point x="83803" y="149547" z="-3400"/>
+		<point x="83642" y="149555" z="-3400"/>
+		<point x="83617" y="147720" z="-3400">
+			<delay sec="1"/>
+		</point>
+		<point x="84871" y="147758" z="-3400">
+			<msg id="1010222"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="adept_sinister_aden" moveType="ROUND">
+		<point x="146353" y="24141" z="-2008">
+			<delay sec="10"/>
+		</point>
+		<point x="146351" y="25798" z="-2008">
+			<delay sec="7"/>
+		</point>
+		<point x="147422" y="25808" z="-2008">
+			<msg id="1010221"/>
+			<delay sec="1"/>
+		</point>
+		<point x="146376" y="25808" z="-2008">
+			<delay sec="5"/>
+		</point>
+		<point x="146360" y="24146" z="-2008">
+			<msg id="1010221"/>
+			<delay sec="20"/>
+		</point>
+		<point x="146336" y="25816" z="-2008">
+			<delay sec="1"/>
+		</point>
+		<point x="148531" y="25819" z="-2008">
+			<msg id="1010222"/>
+			<delay sec="20"/>
+		</point>
+		<point x="146336" y="25829" z="-2008">
+			<delay sec="1"/>
+		</point>
+		<point x="146353" y="24141" z="-2008">
+			<msg id="1010222"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="adept_sinister_rune" moveType="ROUND">
+		<point x="45917" y="-48182" z="-792"/>
+		<point x="45210" y="-47979" z="-792"/>
+		<point x="43512" y="-48112" z="-792"/>
+		<point x="43322" y="-47417" z="-792">
+			<msg id="1010223"/>
+		</point>
+		<point x="43382" y="-46854" z="-792"/>
+		<point x="43322" y="-47417" z="-792"/>
+		<point x="43512" y="-48112" z="-792"/>
+		<point x="45210" y="-47979" z="-792">
+			<msg id="1010223"/>
+		</point>
+		<point x="45917" y="-48182" z="-792"/>
+		<point x="45210" y="-47979" z="-792"/>
+		<point x="43512" y="-48112" z="-792">
+			<msg id="1010222"/>
+		</point>
+		<point x="43322" y="-47417" z="-792"/>
+		<point x="43382" y="-46854" z="-792">
+			<msg id="1010221"/>
+		</point>
+		<point x="43322" y="-47417" z="-792"/>
+		<point x="43512" y="-48112" z="-792">
+			<msg id="1010221"/>
+		</point>
+		<point x="45210" y="-47979" z="-792"/>
+		<point x="45917" y="-48182" z="-792">
+			<msg id="1010222"/>
+		</point>
+	</superpoint>
+
+	<superpoint name="24_21_course1" moveType="LENGTH" running="true">
+		<point x="140604" y="114508" z="-3720"/>
+		<point x="141213" y="114571" z="-3720"/>
+		<point x="142089" y="114339" z="-3720"/>
+		<point x="142576" y="113686" z="-3720"/>
+		<point x="143010" y="113831" z="-3720"/>
+		<point x="143602" y="114477" z="-3720"/>
+		<point x="143991" y="114774" z="-3720"/>
+		<point x="144817" y="114949" z="-3720"/>
+		<point x="145290" y="115368" z="-3720"/>
+		<point x="145585" y="115841" z="-3720"/>
+		<point x="146135" y="116140" z="-3720"/>
+		<point x="146707" y="116377" z="-3720"/>
+		<point x="147285" y="116135" z="-3720"/>
+		<point x="148116" y="116153" z="-3720"/>
+		<point x="148834" y="115673" z="-3720"/>
+		<point x="149253" y="114841" z="-3720"/>
+		<point x="149268" y="114236" z="-3720"/>
+		<point x="149118" y="113220" z="-3720"/>
+		<point x="148658" y="112282" z="-3720"/>
+		<point x="148093" y="112008" z="-3720"/>
+		<point x="147011" y="112399" z="-3720"/>
+		<point x="145848" y="112771" z="-3720"/>
+		<point x="145003" y="113763" z="-3720"/>
+		<point x="145123" y="114965" z="-3720"/>
+		<point x="145672" y="115854" z="-3720"/>
+		<point x="146267" y="116153" z="-3720"/>
+		<point x="146862" y="116277" z="-3720"/>
+		<point x="147254" y="117077" z="-3712"/>
+		<point x="148486" y="117838" z="-3712"/>
+	</superpoint>
+
+	<superpoint name="24_21_course2" moveType="LENGTH" running="true">
+		<point x="143820" y="110172" z="-3936"/>
+		<point x="142599" y="110060" z="-3944"/>
+		<point x="142477" y="110686" z="-3944"/>
+		<point x="142736" y="111263" z="-3944"/>
+		<point x="143154" y="111808" z="-3944"/>
+		<point x="143567" y="112067" z="-3944"/>
+		<point x="142814" y="111870" z="-3944"/>
+		<point x="142081" y="112055" z="-3800"/>
+		<point x="141859" y="112305" z="-3720"/>
+		<point x="141448" y="112739" z="-3720"/>
+		<point x="140917" y="113042" z="-3720"/>
+		<point x="140686" y="112332" z="-3720"/>
+		<point x="140641" y="111953" z="-3720"/>
+		<point x="140545" y="111532" z="-3840"/>
+		<point x="140581" y="110501" z="-3944"/>
+		<point x="141167" y="109649" z="-3944"/>
+		<point x="142038" y="109301" z="-3944"/>
+		<point x="142990" y="108693" z="-3944"/>
+		<point x="142849" y="108131" z="-3944"/>
+		<point x="142639" y="107729" z="-3944"/>
+		<point x="142548" y="107332" z="-3944"/>
+		<point x="143270" y="107225" z="-3944"/>
+		<point x="144648" y="107664" z="-3944"/>
+		<point x="144471" y="108299" z="-3944"/>
+		<point x="145009" y="108670" z="-3944"/>
+		<point x="146240" y="109339" z="-3944"/>
+		<point x="147700" y="109819" z="-3944"/>
+	</superpoint>
+
+	<superpoint name="24_21_course3" moveType="LENGTH" running="true">
+		<point x="146460" y="109809" z="-3424"/>
+		<point x="146523" y="109139" z="-3472"/>
+		<point x="146565" y="108198" z="-3704"/>
+		<point x="146959" y="107785" z="-3920"/>
+		<point x="147629" y="107309" z="-4040"/>
+		<point x="148344" y="107544" z="-4176"/>
+		<point x="149032" y="108402" z="-4352"/>
+		<point x="149869" y="108299" z="-4568"/>
+		<point x="150297" y="107596" z="-4680"/>
+		<point x="151286" y="107257" z="-4872"/>
+		<point x="152409" y="107695" z="-5072"/>
+		<point x="153554" y="107857" z="-5152"/>
+		<point x="153552" y="108326" z="-5152"/>
+		<point x="153496" y="108810" z="-5152"/>
+		<point x="152927" y="109267" z="-5152"/>
+		<point x="151702" y="109307" z="-5152"/>
+		<point x="151116" y="109293" z="-5136"/>
+		<point x="150287" y="109522" z="-5120"/>
+		<point x="149574" y="109763" z="-5224"/>
+		<point x="149387" y="110508" z="-5400"/>
+		<point x="149404" y="110880" z="-5464"/>
+		<point x="149815" y="111397" z="-5504"/>
+		<point x="151689" y="111304" z="-5520"/>
+		<point x="153164" y="111658" z="-5520"/>
+		<point x="153551" y="111249" z="-5520"/>
+		<point x="153437" y="110763" z="-5520"/>
+		<point x="152339" y="110422" z="-5520"/>
+	</superpoint>
+
+	<superpoint name="24_21_course4" moveType="LENGTH" running="true">
+		<point x="145484" y="120220" z="-3912"/>
+		<point x="146262" y="121372" z="-3912"/>
+		<point x="146180" y="121825" z="-3912"/>
+		<point x="145691" y="121944" z="-3912"/>
+		<point x="144585" y="121464" z="-3912"/>
+		<point x="143985" y="121211" z="-3904"/>
+		<point x="143526" y="121078" z="-3912"/>
+		<point x="141770" y="121528" z="-3912"/>
+		<point x="140740" y="120742" z="-3896"/>
+		<point x="140174" y="119815" z="-3912"/>
+		<point x="140492" y="119201" z="-3912"/>
+		<point x="141119" y="117931" z="-3912"/>
+		<point x="142105" y="117257" z="-3912"/>
+		<point x="143028" y="117334" z="-3912"/>
+		<point x="142917" y="118083" z="-3904"/>
+		<point x="142349" y="118750" z="-3896"/>
+		<point x="142659" y="119882" z="-3912"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_22_21_01_01event" moveType="DELETE" running="true">
+		<point x="90737" y="106363" z="-3104"/>
+		<point x="90524" y="106650" z="-3144"/>
+		<point x="90496" y="106913" z="-3128"/>
+		<point x="90737" y="107344" z="-3104"/>
+		<point x="91274" y="107553" z="-3056"/>
+		<point x="91812" y="107715" z="-3056"/>
+		<point x="92228" y="107718" z="-3032"/>
+		<point x="92863" y="107632" z="-3008"/>
+		<point x="93416" y="107596" z="-3008"/>
+		<point x="94176" y="107581" z="-3024"/>
+		<point x="94865" y="107658" z="-3048"/>
+		<point x="95431" y="107742" z="-3096"/>
+		<point x="95928" y="107962" z="-3160"/>
+		<point x="96411" y="108545" z="-3328"/>
+		<point x="96855" y="108958" z="-3480"/>
+		<point x="97088" y="109292" z="-3624"/>
+		<point x="96982" y="109625" z="-3696"/>
+		<point x="96552" y="110089" z="-3696"/>
+		<point x="96110" y="110172" z="-3664"/>
+		<point x="95731" y="109993" z="-3648"/>
+		<point x="95107" y="109864" z="-3664"/>
+		<point x="94636" y="109801" z="-3696"/>
+		<point x="93718" y="109662" z="-3672"/>
+		<point x="93130" y="109575" z="-3696"/>
+		<point x="92509" y="109390" z="-3776"/>
+		<point x="92041" y="109427" z="-3808"/>
+		<point x="91668" y="109497" z="-3768"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_22_21_01_02event" moveType="DELETE" running="true">
+		<point x="90731" y="106491" z="-3104"/>
+		<point x="90584" y="106686" z="-3144"/>
+		<point x="90568" y="107013" z="-3128"/>
+		<point x="90821" y="107476" z="-3088"/>
+		<point x="91358" y="107653" z="-3056"/>
+		<point x="91896" y="107815" z="-3048"/>
+		<point x="92404" y="107686" z="-3032"/>
+		<point x="92947" y="107660" z="-3040"/>
+		<point x="93580" y="107648" z="-3024"/>
+		<point x="94272" y="107725" z="-3016"/>
+		<point x="94949" y="107730" z="-3056"/>
+		<point x="95515" y="107794" z="-3104"/>
+		<point x="96012" y="108006" z="-3176"/>
+		<point x="96495" y="108601" z="-3328"/>
+		<point x="96939" y="109058" z="-3528"/>
+		<point x="97172" y="109392" z="-3656"/>
+		<point x="97066" y="109725" z="-3704"/>
+		<point x="96636" y="110161" z="-3696"/>
+		<point x="96194" y="110340" z="-3720"/>
+		<point x="95815" y="110153" z="-3664"/>
+		<point x="95191" y="109980" z="-3680"/>
+		<point x="94584" y="109705" z="-3696"/>
+		<point x="93562" y="109738" z="-3664"/>
+		<point x="93170" y="109639" z="-3696"/>
+		<point x="92589" y="109490" z="-3752"/>
+		<point x="92125" y="109527" z="-3800"/>
+		<point x="91752" y="109597" z="-3760"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_22_21_01_03event" moveType="DELETE" running="true">
+		<point x="90681" y="106284" z="-3128"/>
+		<point x="90472" y="106506" z="-3168"/>
+		<point x="90408" y="106861" z="-3160"/>
+		<point x="90721" y="107256" z="-3104"/>
+		<point x="91246" y="107473" z="-3072"/>
+		<point x="91784" y="107635" z="-3040"/>
+		<point x="92292" y="107638" z="-3008"/>
+		<point x="92835" y="107560" z="-3008"/>
+		<point x="93468" y="107560" z="-3008"/>
+		<point x="94196" y="107657" z="-3016"/>
+		<point x="94837" y="107598" z="-3040"/>
+		<point x="95403" y="107698" z="-3096"/>
+		<point x="95900" y="107898" z="-3144"/>
+		<point x="96383" y="108397" z="-3288"/>
+		<point x="96827" y="108878" z="-3448"/>
+		<point x="96916" y="109144" z="-3568"/>
+		<point x="96954" y="109545" z="-3672"/>
+		<point x="96524" y="109981" z="-3640"/>
+		<point x="96082" y="110096" z="-3664"/>
+		<point x="95703" y="109913" z="-3648"/>
+		<point x="95079" y="109784" z="-3680"/>
+		<point x="94608" y="109633" z="-3688"/>
+		<point x="93786" y="109558" z="-3672"/>
+		<point x="93058" y="109487" z="-3720"/>
+		<point x="92481" y="109310" z="-3792"/>
+		<point x="92013" y="109347" z="-3808"/>
+		<point x="91640" y="109417" z="-3768"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_22_21_01_04event" moveType="DELETE" running="true">
+		<point x="91612" y="109648" z="-3760"/>
+		<point x="92049" y="109568" z="-3808"/>
+		<point x="92467" y="109554" z="-3768"/>
+		<point x="92877" y="109614" z="-3720"/>
+		<point x="93378" y="109734" z="-3672"/>
+		<point x="94287" y="109728" z="-3688"/>
+		<point x="95081" y="109820" z="-3680"/>
+		<point x="95552" y="109956" z="-3640"/>
+		<point x="96066" y="110197" z="-3664"/>
+		<point x="96622" y="110252" z="-3720"/>
+		<point x="96945" y="109905" z="-3720"/>
+		<point x="97114" y="109449" z="-3664"/>
+		<point x="96968" y="109007" z="-3504"/>
+		<point x="96685" y="108732" z="-3400"/>
+		<point x="96376" y="108392" z="-3288"/>
+		<point x="96120" y="108109" z="-3192"/>
+		<point x="95820" y="107788" z="-3120"/>
+		<point x="95574" y="107688" z="-3088"/>
+		<point x="95041" y="107664" z="-3056"/>
+		<point x="94428" y="107588" z="-3032"/>
+		<point x="93862" y="107637" z="-3024"/>
+		<point x="93102" y="107595" z="-3008"/>
+		<point x="92343" y="107667" z="-3032"/>
+		<point x="91736" y="107666" z="-3056"/>
+		<point x="91261" y="107511" z="-3072"/>
+		<point x="90805" y="107318" z="-3096"/>
+		<point x="90632" y="107189" z="-3104"/>
+		<point x="90481" y="107001" z="-3152"/>
+		<point x="90464" y="106772" z="-3160"/>
+		<point x="90529" y="106535" z="-3160"/>
+		<point x="90911" y="106187" z="-3080"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_22_21_01_05event" moveType="DELETE" running="true">
+		<point x="91612" y="109732" z="-3760"/>
+		<point x="92081" y="109692" z="-3784"/>
+		<point x="92467" y="109638" z="-3760"/>
+		<point x="92877" y="109698" z="-3712"/>
+		<point x="93378" y="109818" z="-3664"/>
+		<point x="94287" y="109812" z="-3688"/>
+		<point x="95081" y="109904" z="-3680"/>
+		<point x="95552" y="110040" z="-3640"/>
+		<point x="96066" y="110281" z="-3704"/>
+		<point x="96622" y="110336" z="-3720"/>
+		<point x="96945" y="109989" z="-3720"/>
+		<point x="97186" y="109425" z="-3664"/>
+		<point x="96968" y="109091" z="-3544"/>
+		<point x="96685" y="108816" z="-3432"/>
+		<point x="96376" y="108476" z="-3312"/>
+		<point x="96120" y="108161" z="-3192"/>
+		<point x="95820" y="107872" z="-3120"/>
+		<point x="95574" y="107772" z="-3112"/>
+		<point x="95041" y="107748" z="-3056"/>
+		<point x="94428" y="107732" z="-3024"/>
+		<point x="93862" y="107685" z="-3016"/>
+		<point x="93102" y="107703" z="-3032"/>
+		<point x="92343" y="107703" z="-3024"/>
+		<point x="91736" y="107750" z="-3056"/>
+		<point x="91261" y="107595" z="-3064"/>
+		<point x="90805" y="107402" z="-3088"/>
+		<point x="90632" y="107273" z="-3104"/>
+		<point x="90481" y="107085" z="-3144"/>
+		<point x="90464" y="106856" z="-3160"/>
+		<point x="90529" y="106619" z="-3160"/>
+		<point x="90831" y="106319" z="-3088"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_22_21_01_06event" moveType="DELETE" running="true">
+		<point x="91612" y="109544" z="-3744"/>
+		<point x="92081" y="109504" z="-3808"/>
+		<point x="92467" y="109450" z="-3768"/>
+		<point x="92877" y="109510" z="-3728"/>
+		<point x="93378" y="109630" z="-3680"/>
+		<point x="94287" y="109624" z="-3688"/>
+		<point x="95081" y="109716" z="-3680"/>
+		<point x="95552" y="109884" z="-3632"/>
+		<point x="96066" y="110097" z="-3664"/>
+		<point x="96622" y="110148" z="-3696"/>
+		<point x="96945" y="109801" z="-3704"/>
+		<point x="97162" y="109433" z="-3664"/>
+		<point x="96968" y="109207" z="-3592"/>
+		<point x="96685" y="108884" z="-3456"/>
+		<point x="96376" y="108520" z="-3320"/>
+		<point x="96120" y="108213" z="-3208"/>
+		<point x="95820" y="107920" z="-3128"/>
+		<point x="95574" y="107844" z="-3104"/>
+		<point x="95041" y="107808" z="-3064"/>
+		<point x="94428" y="107644" z="-3032"/>
+		<point x="93974" y="107565" z="-3016"/>
+		<point x="93102" y="107675" z="-3032"/>
+		<point x="92343" y="107603" z="-3008"/>
+		<point x="91736" y="107562" z="-3056"/>
+		<point x="91261" y="107407" z="-3072"/>
+		<point x="90805" y="107214" z="-3096"/>
+		<point x="90632" y="107085" z="-3104"/>
+		<point x="90481" y="106897" z="-3152"/>
+		<point x="90464" y="106668" z="-3160"/>
+		<point x="90529" y="106431" z="-3160"/>
+		<point x="90851" y="106111" z="-3104"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_22_21_02_01event" moveType="DELETE" running="true">
+		<point x="93112" y="111824" z="-2984"/>
+		<point x="93230" y="112062" z="-2968"/>
+		<point x="93604" y="112918" z="-3056"/>
+		<point x="93912" y="113759" z="-3120"/>
+		<point x="94147" y="114588" z="-3072"/>
+		<point x="94330" y="115005" z="-3128"/>
+		<point x="94733" y="115410" z="-3104"/>
+		<point x="95038" y="115987" z="-3056"/>
+		<point x="94883" y="116774" z="-3056"/>
+		<point x="94468" y="117539" z="-3032"/>
+		<point x="93760" y="118146" z="-3008"/>
+		<point x="93033" y="118565" z="-3008"/>
+		<point x="92263" y="118660" z="-3040"/>
+		<point x="91298" y="118824" z="-3048"/>
+		<point x="90689" y="119591" z="-3040"/>
+		<point x="90595" y="120335" z="-3016"/>
+		<point x="90579" y="120571" z="-3024"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_22_21_02_02event" moveType="DELETE" running="true">
+		<point x="93464" y="112052" z="-2968"/>
+		<point x="93586" y="112286" z="-3008"/>
+		<point x="93920" y="112926" z="-3056"/>
+		<point x="93996" y="113571" z="-3104"/>
+		<point x="94011" y="114096" z="-3104"/>
+		<point x="94106" y="114649" z="-3072"/>
+		<point x="94909" y="115398" z="-3080"/>
+		<point x="95138" y="115987" z="-3032"/>
+		<point x="95019" y="116774" z="-3056"/>
+		<point x="94628" y="117539" z="-3040"/>
+		<point x="93920" y="118146" z="-2992"/>
+		<point x="93193" y="118529" z="-2992"/>
+		<point x="92423" y="118548" z="-3024"/>
+		<point x="91458" y="118920" z="-3016"/>
+		<point x="90849" y="119591" z="-3024"/>
+		<point x="90755" y="120335" z="-2992"/>
+		<point x="90739" y="120567" z="-3000"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_22_21_02_03event" moveType="DELETE" running="true">
+		<point x="93328" y="111952" z="-2968"/>
+		<point x="93490" y="112274" z="-3000"/>
+		<point x="93708" y="112782" z="-3056"/>
+		<point x="93752" y="113399" z="-3096"/>
+		<point x="93879" y="113984" z="-3136"/>
+		<point x="94078" y="114685" z="-3088"/>
+		<point x="94453" y="115042" z="-3112"/>
+		<point x="94890" y="115879" z="-3056"/>
+		<point x="94763" y="116754" z="-3048"/>
+		<point x="94372" y="117431" z="-3008"/>
+		<point x="93664" y="118106" z="-3024"/>
+		<point x="92937" y="118457" z="-3016"/>
+		<point x="92167" y="118440" z="-3056"/>
+		<point x="91202" y="118716" z="-3056"/>
+		<point x="90593" y="119483" z="-3056"/>
+		<point x="90499" y="120227" z="-3016"/>
+		<point x="90483" y="120583" z="-3008"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_22_21_02_04event" moveType="DELETE" running="true">
+		<point x="90620" y="120748" z="-2976"/>
+		<point x="90737" y="119749" z="-3016"/>
+		<point x="91132" y="119172" z="-3040"/>
+		<point x="91560" y="118646" z="-3056"/>
+		<point x="92114" y="118535" z="-3056"/>
+		<point x="92635" y="118519" z="-3032"/>
+		<point x="93443" y="118273" z="-3008"/>
+		<point x="94179" y="117709" z="-2992"/>
+		<point x="94743" y="117081" z="-3048"/>
+		<point x="95013" y="116285" z="-3056"/>
+		<point x="94777" y="115443" z="-3096"/>
+		<point x="94444" y="115030" z="-3112"/>
+		<point x="94006" y="114657" z="-3088"/>
+		<point x="94021" y="114265" z="-3088"/>
+		<point x="94004" y="113684" z="-3112"/>
+		<point x="93853" y="113116" z="-3064"/>
+		<point x="93588" y="112544" z="-3040"/>
+		<point x="93418" y="112132" z="-2976"/>
+		<point x="93256" y="111875" z="-2968"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_22_21_02_05event" moveType="DELETE" running="true">
+		<point x="90804" y="120748" z="-2968"/>
+		<point x="90921" y="119765" z="-3000"/>
+		<point x="91316" y="119172" z="-3000"/>
+		<point x="91744" y="118646" z="-3056"/>
+		<point x="92298" y="118627" z="-3040"/>
+		<point x="92819" y="118539" z="-3016"/>
+		<point x="93627" y="118273" z="-3000"/>
+		<point x="94363" y="117709" z="-3024"/>
+		<point x="94863" y="117041" z="-3056"/>
+		<point x="95125" y="116285" z="-3056"/>
+		<point x="94933" y="115455" z="-3072"/>
+		<point x="94488" y="114986" z="-3104"/>
+		<point x="94142" y="114669" z="-3072"/>
+		<point x="93989" y="114285" z="-3088"/>
+		<point x="93928" y="113684" z="-3120"/>
+		<point x="93957" y="113116" z="-3056"/>
+		<point x="93688" y="112540" z="-3040"/>
+		<point x="93502" y="112256" z="-3000"/>
+		<point x="93408" y="112067" z="-2968"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_22_21_02_06event" moveType="DELETE" running="true">
+		<point x="90468" y="120696" z="-3008"/>
+		<point x="90585" y="119697" z="-3040"/>
+		<point x="90980" y="119120" z="-3056"/>
+		<point x="91408" y="118594" z="-3056"/>
+		<point x="91978" y="118503" z="-3056"/>
+		<point x="92483" y="118467" z="-3040"/>
+		<point x="93291" y="118221" z="-3024"/>
+		<point x="94027" y="117733" z="-2968"/>
+		<point x="94591" y="117149" z="-3000"/>
+		<point x="94929" y="116293" z="-3056"/>
+		<point x="94685" y="115507" z="-3096"/>
+		<point x="94384" y="115038" z="-3112"/>
+		<point x="94070" y="114641" z="-3088"/>
+		<point x="93893" y="114233" z="-3104"/>
+		<point x="93872" y="113632" z="-3112"/>
+		<point x="93749" y="113064" z="-3064"/>
+		<point x="93440" y="112384" z="-3024"/>
+		<point x="93334" y="112128" z="-2976"/>
+		<point x="93184" y="111855" z="-2968"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_01_01event" moveType="DELETE" running="true">
+		<point x="101704" y="110644" z="-3672"/>
+		<point x="101701" y="111325" z="-3672"/>
+		<point x="101712" y="112314" z="-3680"/>
+		<point x="101491" y="114036" z="-3720"/>
+		<point x="101230" y="115280" z="-3704"/>
+		<point x="101337" y="116844" z="-3688"/>
+		<point x="102091" y="118065" z="-3664"/>
+		<point x="102437" y="119546" z="-3632"/>
+		<point x="102722" y="120698" z="-3624"/>
+		<point x="102594" y="121855" z="-3664"/>
+		<point x="102983" y="123031" z="-3648"/>
+		<point x="103456" y="123892" z="-3720"/>
+		<point x="104736" y="123968" z="-3712"/>
+		<point x="105809" y="123573" z="-3656"/>
+		<point x="107046" y="122694" z="-3672"/>
+		<point x="107951" y="122278" z="-3672"/>
+		<point x="109211" y="121890" z="-3712"/>
+		<point x="110009" y="121875" z="-3680"/>
+		<point x="110183" y="121815" z="-3688"/>
+		<point x="110486" y="121858" z="-3688"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_01_02event" moveType="DELETE" running="true">
+		<point x="101836" y="110692" z="-3672"/>
+		<point x="101809" y="111329" z="-3680"/>
+		<point x="101876" y="112314" z="-3672"/>
+		<point x="101555" y="114048" z="-3720"/>
+		<point x="101294" y="114920" z="-3720"/>
+		<point x="101425" y="116844" z="-3696"/>
+		<point x="101971" y="117961" z="-3664"/>
+		<point x="102209" y="119530" z="-3600"/>
+		<point x="102558" y="120842" z="-3616"/>
+		<point x="102574" y="122127" z="-3640"/>
+		<point x="102779" y="122899" z="-3640"/>
+		<point x="103664" y="123988" z="-3720"/>
+		<point x="104928" y="124084" z="-3712"/>
+		<point x="106017" y="123573" z="-3656"/>
+		<point x="107254" y="122694" z="-3680"/>
+		<point x="108439" y="122386" z="-3664"/>
+		<point x="109635" y="122366" z="-3672"/>
+		<point x="110045" y="122171" z="-3664"/>
+		<point x="110483" y="121931" z="-3688"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_01_03event" moveType="DELETE" running="true">
+		<point x="101580" y="110640" z="-3672"/>
+		<point x="101621" y="111273" z="-3672"/>
+		<point x="101668" y="112314" z="-3680"/>
+		<point x="101443" y="113956" z="-3720"/>
+		<point x="101198" y="115188" z="-3712"/>
+		<point x="101261" y="116844" z="-3688"/>
+		<point x="102191" y="118065" z="-3672"/>
+		<point x="102337" y="119466" z="-3632"/>
+		<point x="102874" y="120822" z="-3696"/>
+		<point x="102666" y="121855" z="-3672"/>
+		<point x="102651" y="122899" z="-3640"/>
+		<point x="103452" y="123992" z="-3720"/>
+		<point x="104820" y="124052" z="-3712"/>
+		<point x="105809" y="123625" z="-3656"/>
+		<point x="107158" y="122694" z="-3680"/>
+		<point x="108067" y="122302" z="-3664"/>
+		<point x="109271" y="121850" z="-3712"/>
+		<point x="110209" y="121743" z="-3688"/>
+		<point x="110411" y="121615" z="-3712"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_01_04event" moveType="DELETE" running="true">
+		<point x="110389" y="121672" z="-3704"/>
+		<point x="110268" y="121714" z="-3704"/>
+		<point x="109936" y="121793" z="-3696"/>
+		<point x="109632" y="121830" z="-3704"/>
+		<point x="108375" y="122123" z="-3664"/>
+		<point x="107085" y="122971" z="-3688"/>
+		<point x="105820" y="123561" z="-3656"/>
+		<point x="104693" y="124022" z="-3712"/>
+		<point x="103828" y="124233" z="-3704"/>
+		<point x="103255" y="123922" z="-3704"/>
+		<point x="102820" y="123416" z="-3672"/>
+		<point x="102484" y="122894" z="-3640"/>
+		<point x="102394" y="122239" z="-3624"/>
+		<point x="102699" y="121544" z="-3696"/>
+		<point x="103066" y="120613" z="-3712"/>
+		<point x="102897" y="119775" z="-3608"/>
+		<point x="102206" y="118009" z="-3672"/>
+		<point x="101402" y="116732" z="-3696"/>
+		<point x="101189" y="115145" z="-3712"/>
+		<point x="101358" y="114519" z="-3720"/>
+		<point x="101962" y="112444" z="-3688"/>
+		<point x="101884" y="111206" z="-3680"/>
+		<point x="101891" y="110772" z="-3688"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_01_05event" moveType="DELETE" running="true">
+		<point x="110425" y="121806" z="-3696"/>
+		<point x="110249" y="121847" z="-3688"/>
+		<point x="109976" y="121796" z="-3688"/>
+		<point x="109582" y="121783" z="-3704"/>
+		<point x="108359" y="122435" z="-3664"/>
+		<point x="107085" y="122767" z="-3672"/>
+		<point x="105820" y="123701" z="-3664"/>
+		<point x="104693" y="124162" z="-3712"/>
+		<point x="103828" y="124073" z="-3712"/>
+		<point x="103255" y="124062" z="-3712"/>
+		<point x="102820" y="123556" z="-3672"/>
+		<point x="102440" y="123098" z="-3648"/>
+		<point x="102462" y="122379" z="-3624"/>
+		<point x="102699" y="121684" z="-3680"/>
+		<point x="102842" y="120709" z="-3664"/>
+		<point x="102705" y="119791" z="-3600"/>
+		<point x="102206" y="118149" z="-3664"/>
+		<point x="101382" y="116872" z="-3688"/>
+		<point x="101205" y="115613" z="-3704"/>
+		<point x="101270" y="114487" z="-3720"/>
+		<point x="101850" y="112584" z="-3688"/>
+		<point x="101836" y="111346" z="-3680"/>
+		<point x="101775" y="110716" z="-3672"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_01_06event" moveType="DELETE" running="true">
+		<point x="110467" y="121911" z="-3688"/>
+		<point x="110249" y="121981" z="-3680"/>
+		<point x="109976" y="122199" z="-3664"/>
+		<point x="109632" y="122334" z="-3672"/>
+		<point x="108359" y="122287" z="-3664"/>
+		<point x="107085" y="123111" z="-3704"/>
+		<point x="105820" y="123637" z="-3656"/>
+		<point x="104693" y="124274" z="-3712"/>
+		<point x="103828" y="124361" z="-3688"/>
+		<point x="103255" y="124174" z="-3720"/>
+		<point x="102820" y="123668" z="-3672"/>
+		<point x="102264" y="123166" z="-3664"/>
+		<point x="102394" y="122491" z="-3624"/>
+		<point x="102699" y="121796" z="-3672"/>
+		<point x="102950" y="121021" z="-3720"/>
+		<point x="102873" y="119539" z="-3648"/>
+		<point x="102206" y="118261" z="-3664"/>
+		<point x="101334" y="116848" z="-3688"/>
+		<point x="101233" y="115509" z="-3704"/>
+		<point x="101258" y="114839" z="-3720"/>
+		<point x="101742" y="112696" z="-3688"/>
+		<point x="101736" y="111330" z="-3672"/>
+		<point x="101775" y="110828" z="-3680"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_02_01event" moveType="DELETE" running="true">
+		<point x="108642" y="112876" z="-3048"/>
+		<point x="108827" y="112841" z="-3048"/>
+		<point x="109701" y="112505" z="-3048"/>
+		<point x="109929" y="111521" z="-3048"/>
+		<point x="110698" y="111111" z="-3128"/>
+		<point x="111712" y="110450" z="-3040"/>
+		<point x="112779" y="110427" z="-2992"/>
+		<point x="114072" y="110293" z="-3024"/>
+		<point x="115349" y="110175" z="-3024"/>
+		<point x="116624" y="110409" z="-3000"/>
+		<point x="118523" y="110649" z="-3000"/>
+		<point x="120064" y="109649" z="-3008"/>
+		<point x="121146" y="108548" z="-2984"/>
+		<point x="122322" y="108190" z="-2976"/>
+		<point x="124432" y="109057" z="-3064"/>
+		<point x="125066" y="110224" z="-3080"/>
+		<point x="125600" y="110803" z="-3080"/>
+		<point x="125993" y="111017" z="-3040"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_02_02event" moveType="DELETE" running="true">
+		<point x="108634" y="112978" z="-3048"/>
+		<point x="108959" y="112881" z="-3048"/>
+		<point x="109789" y="112393" z="-3048"/>
+		<point x="110173" y="111433" z="-3112"/>
+		<point x="110630" y="110843" z="-3064"/>
+		<point x="111644" y="110394" z="-3040"/>
+		<point x="112519" y="110195" z="-2976"/>
+		<point x="114004" y="110237" z="-3032"/>
+		<point x="115281" y="110099" z="-3032"/>
+		<point x="116556" y="110153" z="-3016"/>
+		<point x="118455" y="109993" z="-2952"/>
+		<point x="120080" y="109457" z="-2976"/>
+		<point x="121106" y="108948" z="-2960"/>
+		<point x="122542" y="107994" z="-2976"/>
+		<point x="124376" y="109197" z="-3104"/>
+		<point x="125170" y="110168" z="-3080"/>
+		<point x="125632" y="110747" z="-3072"/>
+		<point x="125925" y="110893" z="-3056"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_02_03event" moveType="DELETE" running="true">
+		<point x="108611" y="113068" z="-3040"/>
+		<point x="108879" y="113029" z="-3040"/>
+		<point x="109865" y="112533" z="-3048"/>
+		<point x="109981" y="111617" z="-3072"/>
+		<point x="110926" y="110855" z="-3064"/>
+		<point x="111764" y="110546" z="-3032"/>
+		<point x="112639" y="110323" z="-2968"/>
+		<point x="114124" y="110389" z="-3032"/>
+		<point x="115401" y="110271" z="-3016"/>
+		<point x="116676" y="110293" z="-3000"/>
+		<point x="118543" y="109909" z="-2952"/>
+		<point x="120116" y="109853" z="-3040"/>
+		<point x="121158" y="108736" z="-2984"/>
+		<point x="122734" y="108202" z="-3024"/>
+		<point x="124368" y="109141" z="-3072"/>
+		<point x="125046" y="110320" z="-3096"/>
+		<point x="125636" y="110959" z="-3088"/>
+		<point x="125889" y="111157" z="-3064"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_02_04event" moveType="DELETE" running="true">
+		<point x="125756" y="111164" z="-3088"/>
+		<point x="125318" y="110685" z="-3072"/>
+		<point x="124805" y="109974" z="-3096"/>
+		<point x="124331" y="109223" z="-3104"/>
+		<point x="124005" y="108964" z="-3048"/>
+		<point x="122523" y="108140" z="-2984"/>
+		<point x="121836" y="108550" z="-2960"/>
+		<point x="120931" y="109322" z="-2968"/>
+		<point x="120108" y="109340" z="-2960"/>
+		<point x="119009" y="109736" z="-2976"/>
+		<point x="118220" y="109994" z="-2944"/>
+		<point x="117234" y="110353" z="-2976"/>
+		<point x="116009" y="110070" z="-3032"/>
+		<point x="114167" y="110269" z="-3024"/>
+		<point x="112505" y="110492" z="-2976"/>
+		<point x="111514" y="110566" z="-3048"/>
+		<point x="110171" y="111234" z="-3120"/>
+		<point x="109970" y="112298" z="-3056"/>
+		<point x="108988" y="113035" z="-3048"/>
+		<point x="108643" y="112960" z="-3048"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_02_05event" moveType="DELETE" running="true">
+		<point x="125784" y="111008" z="-3072"/>
+		<point x="125346" y="110529" z="-3064"/>
+		<point x="124833" y="109822" z="-3088"/>
+		<point x="124367" y="109067" z="-3072"/>
+		<point x="124033" y="108944" z="-3048"/>
+		<point x="122499" y="108080" z="-2984"/>
+		<point x="121472" y="108598" z="-2968"/>
+		<point x="120959" y="109006" z="-2976"/>
+		<point x="120136" y="110024" z="-3048"/>
+		<point x="119037" y="110620" z="-3024"/>
+		<point x="118248" y="110558" z="-2976"/>
+		<point x="117262" y="110197" z="-2952"/>
+		<point x="116049" y="110190" z="-3032"/>
+		<point x="114235" y="110149" z="-3008"/>
+		<point x="112533" y="110176" z="-2976"/>
+		<point x="111542" y="110410" z="-3048"/>
+		<point x="110203" y="111482" z="-3112"/>
+		<point x="109882" y="112682" z="-3056"/>
+		<point x="108816" y="113095" z="-3040"/>
+		<point x="108583" y="113028" z="-3040"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_02_06event" moveType="DELETE" running="true">
+		<point x="125660" y="111308" z="-3104"/>
+		<point x="125222" y="110829" z="-3096"/>
+		<point x="124709" y="110118" z="-3104"/>
+		<point x="124223" y="109031" z="-3080"/>
+		<point x="123909" y="108848" z="-3032"/>
+		<point x="122643" y="108116" z="-3000"/>
+		<point x="121904" y="108590" z="-2960"/>
+		<point x="120835" y="109910" z="-3008"/>
+		<point x="120012" y="110324" z="-3056"/>
+		<point x="118921" y="110468" z="-3008"/>
+		<point x="118124" y="110602" z="-2992"/>
+		<point x="117138" y="110497" z="-2992"/>
+		<point x="115961" y="110342" z="-3016"/>
+		<point x="114915" y="110061" z="-3016"/>
+		<point x="112409" y="110340" z="-2968"/>
+		<point x="111418" y="110710" z="-3032"/>
+		<point x="110075" y="111414" z="-3080"/>
+		<point x="109542" y="112726" z="-3048"/>
+		<point x="109104" y="112827" z="-3048"/>
+		<point x="108891" y="112804" z="-3048"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_03_01event" moveType="DELETE" running="true">
+		<point x="108012" y="117472" z="-3056"/>
+		<point x="108386" y="117821" z="-3056"/>
+		<point x="108967" y="118407" z="-3144"/>
+		<point x="109707" y="119222" z="-3088"/>
+		<point x="110175" y="119514" z="-3056"/>
+		<point x="111310" y="119372" z="-3048"/>
+		<point x="111871" y="118865" z="-3096"/>
+		<point x="112412" y="118087" z="-3056"/>
+		<point x="113157" y="117337" z="-3144"/>
+		<point x="113483" y="116458" z="-3184"/>
+		<point x="114166" y="115505" z="-3264"/>
+		<point x="115228" y="114994" z="-3176"/>
+		<point x="116261" y="114452" z="-3072"/>
+		<point x="117009" y="113804" z="-3056"/>
+		<point x="117328" y="113297" z="-3056"/>
+		<point x="117407" y="112622" z="-3056"/>
+		<point x="117452" y="111736" z="-3048"/>
+		<point x="117785" y="110891" z="-3040"/>
+		<point x="117938" y="110145" z="-2944"/>
+		<point x="117944" y="109594" z="-2864"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_03_02event" moveType="DELETE" running="true">
+		<point x="108100" y="117460" z="-3056"/>
+		<point x="108454" y="117801" z="-3040"/>
+		<point x="108963" y="118311" z="-3120"/>
+		<point x="109687" y="119166" z="-3104"/>
+		<point x="110107" y="119406" z="-3056"/>
+		<point x="111302" y="119276" z="-3056"/>
+		<point x="111867" y="118769" z="-3088"/>
+		<point x="112408" y="117995" z="-3040"/>
+		<point x="113153" y="117241" z="-3128"/>
+		<point x="113475" y="116190" z="-3216"/>
+		<point x="114162" y="115701" z="-3288"/>
+		<point x="115228" y="115094" z="-3176"/>
+		<point x="116257" y="114524" z="-3072"/>
+		<point x="117005" y="113708" z="-3056"/>
+		<point x="117336" y="113201" z="-3056"/>
+		<point x="117463" y="112566" z="-3056"/>
+		<point x="117420" y="111224" z="-3056"/>
+		<point x="117781" y="110443" z="-2960"/>
+		<point x="117954" y="109929" z="-2928"/>
+		<point x="118036" y="109662" z="-2896"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_03_03event" moveType="DELETE" running="true">
+		<point x="107992" y="117528" z="-3056"/>
+		<point x="108330" y="117805" z="-3056"/>
+		<point x="108963" y="118427" z="-3152"/>
+		<point x="109655" y="119142" z="-3104"/>
+		<point x="110075" y="119434" z="-3064"/>
+		<point x="111246" y="119360" z="-3048"/>
+		<point x="111851" y="118921" z="-3088"/>
+		<point x="112392" y="118167" z="-3064"/>
+		<point x="113225" y="117353" z="-3144"/>
+		<point x="113447" y="116738" z="-3152"/>
+		<point x="114146" y="115909" z="-3248"/>
+		<point x="115212" y="115274" z="-3168"/>
+		<point x="116241" y="114508" z="-3072"/>
+		<point x="116989" y="113860" z="-3056"/>
+		<point x="117400" y="113273" z="-3040"/>
+		<point x="117503" y="112718" z="-3056"/>
+		<point x="117512" y="111792" z="-3056"/>
+		<point x="117765" y="110683" z="-3000"/>
+		<point x="117866" y="110081" z="-2944"/>
+		<point x="117816" y="109726" z="-2888"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_03_04event" moveType="DELETE" running="true">
+		<point x="117780" y="109703" z="-2880"/>
+		<point x="117906" y="110168" z="-2944"/>
+		<point x="117636" y="111063" z="-3056"/>
+		<point x="117476" y="111846" z="-3048"/>
+		<point x="117469" y="112467" z="-3056"/>
+		<point x="117376" y="113293" z="-3056"/>
+		<point x="116900" y="114001" z="-3056"/>
+		<point x="116173" y="114528" z="-3072"/>
+		<point x="115024" y="115326" z="-3200"/>
+		<point x="114157" y="115719" z="-3272"/>
+		<point x="113652" y="116508" z="-3176"/>
+		<point x="113357" y="116853" z="-3144"/>
+		<point x="113105" y="117481" z="-3120"/>
+		<point x="112676" y="117904" z="-3072"/>
+		<point x="112106" y="118586" z="-3080"/>
+		<point x="111613" y="119053" z="-3056"/>
+		<point x="111321" y="119296" z="-3048"/>
+		<point x="110894" y="119384" z="-3056"/>
+		<point x="110548" y="119405" z="-3056"/>
+		<point x="110135" y="119373" z="-3056"/>
+		<point x="109847" y="119416" z="-3072"/>
+		<point x="109202" y="118690" z="-3152"/>
+		<point x="108491" y="117947" z="-3040"/>
+		<point x="108061" y="117527" z="-3056"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_03_05event" moveType="DELETE" running="true">
+		<point x="117680" y="109661" z="-2856"/>
+		<point x="117802" y="110144" z="-2944"/>
+		<point x="117564" y="111055" z="-3048"/>
+		<point x="117404" y="111838" z="-3048"/>
+		<point x="117397" y="112459" z="-3056"/>
+		<point x="117304" y="113285" z="-3056"/>
+		<point x="116828" y="113993" z="-3056"/>
+		<point x="116101" y="114696" z="-3088"/>
+		<point x="114952" y="115318" z="-3200"/>
+		<point x="114085" y="115647" z="-3288"/>
+		<point x="113528" y="116328" z="-3200"/>
+		<point x="113285" y="116845" z="-3144"/>
+		<point x="113033" y="117473" z="-3120"/>
+		<point x="112604" y="117896" z="-3056"/>
+		<point x="112034" y="118578" z="-3080"/>
+		<point x="111541" y="119045" z="-3056"/>
+		<point x="111249" y="119288" z="-3056"/>
+		<point x="110814" y="119352" z="-3056"/>
+		<point x="110476" y="119365" z="-3056"/>
+		<point x="110063" y="119329" z="-3072"/>
+		<point x="109679" y="119292" z="-3088"/>
+		<point x="109130" y="118682" z="-3160"/>
+		<point x="108419" y="117935" z="-3040"/>
+		<point x="108029" y="117563" z="-3056"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_03_06event" moveType="DELETE" running="true">
+		<point x="117861" y="109697" z="-2888"/>
+		<point x="118014" y="110192" z="-2944"/>
+		<point x="117712" y="111087" z="-3056"/>
+		<point x="117552" y="111870" z="-3056"/>
+		<point x="117545" y="112491" z="-3056"/>
+		<point x="117452" y="113333" z="-3056"/>
+		<point x="116976" y="114025" z="-3056"/>
+		<point x="116249" y="114728" z="-3080"/>
+		<point x="115100" y="115350" z="-3176"/>
+		<point x="114233" y="115743" z="-3280"/>
+		<point x="113648" y="116380" z="-3184"/>
+		<point x="113433" y="116877" z="-3152"/>
+		<point x="113181" y="117505" z="-3144"/>
+		<point x="112752" y="117928" z="-3072"/>
+		<point x="112182" y="118610" z="-3088"/>
+		<point x="111689" y="119077" z="-3064"/>
+		<point x="111397" y="119320" z="-3056"/>
+		<point x="110970" y="119408" z="-3056"/>
+		<point x="110624" y="119429" z="-3056"/>
+		<point x="110211" y="119429" z="-3056"/>
+		<point x="109827" y="119288" z="-3080"/>
+		<point x="109278" y="118714" z="-3144"/>
+		<point x="108567" y="117967" z="-3056"/>
+		<point x="108137" y="117547" z="-3056"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_04_01event" moveType="DELETE" running="true">
+		<point x="112230" y="122831" z="-3720"/>
+		<point x="112316" y="122609" z="-3720"/>
+		<point x="112925" y="122113" z="-3696"/>
+		<point x="113548" y="121582" z="-3720"/>
+		<point x="113800" y="120780" z="-3768"/>
+		<point x="114490" y="120414" z="-3736"/>
+		<point x="115377" y="119966" z="-3656"/>
+		<point x="116086" y="119364" z="-3704"/>
+		<point x="116453" y="118637" z="-3720"/>
+		<point x="116660" y="117768" z="-3720"/>
+		<point x="117120" y="117226" z="-3720"/>
+		<point x="117716" y="116860" z="-3720"/>
+		<point x="118375" y="116609" z="-3720"/>
+		<point x="119026" y="116449" z="-3736"/>
+		<point x="119642" y="116093" z="-3784"/>
+		<point x="119919" y="115580" z="-3736"/>
+		<point x="120168" y="114808" z="-3656"/>
+		<point x="120445" y="114296" z="-3688"/>
+		<point x="120081" y="113448" z="-3776"/>
+		<point x="120107" y="112965" z="-3784"/>
+		<point x="120264" y="112449" z="-3728"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_04_02event" moveType="DELETE" running="true">
+		<point x="112164" y="122824" z="-3720"/>
+		<point x="112236" y="122617" z="-3720"/>
+		<point x="112649" y="122073" z="-3720"/>
+		<point x="113404" y="121542" z="-3720"/>
+		<point x="113656" y="120924" z="-3744"/>
+		<point x="114346" y="120566" z="-3760"/>
+		<point x="115233" y="119926" z="-3664"/>
+		<point x="115798" y="119552" z="-3672"/>
+		<point x="116309" y="118597" z="-3720"/>
+		<point x="116516" y="117728" z="-3720"/>
+		<point x="116976" y="117186" z="-3720"/>
+		<point x="117792" y="116512" z="-3720"/>
+		<point x="118331" y="116309" z="-3728"/>
+		<point x="118882" y="116409" z="-3736"/>
+		<point x="119498" y="116053" z="-3776"/>
+		<point x="119775" y="115540" z="-3744"/>
+		<point x="119924" y="115144" z="-3688"/>
+		<point x="120581" y="114264" z="-3728"/>
+		<point x="120321" y="113408" z="-3792"/>
+		<point x="120379" y="112925" z="-3792"/>
+		<point x="120472" y="112453" z="-3752"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_04_03event" moveType="DELETE" running="true">
+		<point x="112091" y="122852" z="-3720"/>
+		<point x="112192" y="122593" z="-3720"/>
+		<point x="112701" y="122205" z="-3720"/>
+		<point x="113324" y="121430" z="-3720"/>
+		<point x="113912" y="120788" z="-3768"/>
+		<point x="114266" y="120510" z="-3784"/>
+		<point x="115153" y="120062" z="-3672"/>
+		<point x="115862" y="119396" z="-3696"/>
+		<point x="116361" y="118641" z="-3720"/>
+		<point x="116468" y="117720" z="-3720"/>
+		<point x="116896" y="117074" z="-3720"/>
+		<point x="117492" y="116708" z="-3720"/>
+		<point x="118255" y="116505" z="-3728"/>
+		<point x="118802" y="116297" z="-3736"/>
+		<point x="119418" y="115941" z="-3784"/>
+		<point x="119695" y="115428" z="-3720"/>
+		<point x="120120" y="115096" z="-3688"/>
+		<point x="120465" y="114352" z="-3680"/>
+		<point x="120241" y="113296" z="-3792"/>
+		<point x="120271" y="112897" z="-3784"/>
+		<point x="120392" y="112433" z="-3744"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_04_04event" moveType="DELETE" running="true">
+		<point x="120528" y="112448" z="-3760"/>
+		<point x="120325" y="112876" z="-3784"/>
+		<point x="120058" y="113525" z="-3752"/>
+		<point x="120461" y="114352" z="-3680"/>
+		<point x="120129" y="115260" z="-3696"/>
+		<point x="119855" y="115499" z="-3736"/>
+		<point x="119498" y="115884" z="-3784"/>
+		<point x="119067" y="116297" z="-3744"/>
+		<point x="118284" y="116590" z="-3728"/>
+		<point x="117695" y="116806" z="-3720"/>
+		<point x="117059" y="116941" z="-3720"/>
+		<point x="116601" y="117654" z="-3720"/>
+		<point x="116216" y="118466" z="-3720"/>
+		<point x="115946" y="119044" z="-3712"/>
+		<point x="115555" y="119683" z="-3656"/>
+		<point x="114863" y="120204" z="-3688"/>
+		<point x="114229" y="120454" z="-3784"/>
+		<point x="113676" y="120731" z="-3760"/>
+		<point x="113443" y="121503" z="-3720"/>
+		<point x="112840" y="121916" z="-3712"/>
+		<point x="112251" y="122540" z="-3720"/>
+		<point x="112043" y="122928" z="-3720"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_04_05event" moveType="DELETE" running="true">
+		<point x="120604" y="112448" z="-3752"/>
+		<point x="120269" y="112920" z="-3784"/>
+		<point x="120218" y="113441" z="-3792"/>
+		<point x="120317" y="113888" z="-3776"/>
+		<point x="120533" y="114624" z="-3648"/>
+		<point x="120095" y="115175" z="-3688"/>
+		<point x="119690" y="116012" z="-3784"/>
+		<point x="119143" y="116349" z="-3744"/>
+		<point x="118360" y="116626" z="-3720"/>
+		<point x="117771" y="116914" z="-3720"/>
+		<point x="117147" y="117149" z="-3720"/>
+		<point x="116677" y="117654" z="-3720"/>
+		<point x="116480" y="118466" z="-3720"/>
+		<point x="116106" y="119188" z="-3720"/>
+		<point x="115631" y="119683" z="-3664"/>
+		<point x="114939" y="120244" z="-3688"/>
+		<point x="114345" y="120490" z="-3760"/>
+		<point x="113800" y="120719" z="-3768"/>
+		<point x="113519" y="121555" z="-3720"/>
+		<point x="112916" y="122072" z="-3704"/>
+		<point x="112327" y="122672" z="-3720"/>
+		<point x="112119" y="122860" z="-3720"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_04_06event" moveType="DELETE" running="true">
+		<point x="120448" y="112416" z="-3744"/>
+		<point x="120405" y="112892" z="-3784"/>
+		<point x="120086" y="113393" z="-3784"/>
+		<point x="120513" y="114388" z="-3688"/>
+		<point x="120005" y="115176" z="-3688"/>
+		<point x="119843" y="115623" z="-3752"/>
+		<point x="119630" y="115880" z="-3784"/>
+		<point x="118987" y="116237" z="-3736"/>
+		<point x="118204" y="116382" z="-3728"/>
+		<point x="117615" y="116718" z="-3720"/>
+		<point x="116991" y="117117" z="-3720"/>
+		<point x="116521" y="117622" z="-3720"/>
+		<point x="116324" y="118434" z="-3720"/>
+		<point x="115950" y="119156" z="-3712"/>
+		<point x="115387" y="119767" z="-3656"/>
+		<point x="114783" y="120212" z="-3704"/>
+		<point x="114149" y="120626" z="-3792"/>
+		<point x="113516" y="121115" z="-3728"/>
+		<point x="113363" y="121471" z="-3720"/>
+		<point x="112852" y="122040" z="-3712"/>
+		<point x="112083" y="122740" z="-3720"/>
+		<point x="111963" y="122988" z="-3720"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_05_01event" moveType="DELETE" running="true">
+		<point x="122382" y="113416" z="-3800"/>
+		<point x="122604" y="113363" z="-3824"/>
+		<point x="122876" y="113529" z="-3808"/>
+		<point x="123176" y="113854" z="-3792"/>
+		<point x="123539" y="114539" z="-3704"/>
+		<point x="123938" y="114833" z="-3656"/>
+		<point x="124384" y="115080" z="-3672"/>
+		<point x="125059" y="115176" z="-3720"/>
+		<point x="125627" y="115078" z="-3720"/>
+		<point x="125964" y="115137" z="-3720"/>
+		<point x="126316" y="115235" z="-3720"/>
+		<point x="126560" y="115311" z="-3720"/>
+		<point x="126943" y="115639" z="-3720"/>
+		<point x="127430" y="116101" z="-3736"/>
+		<point x="127913" y="116277" z="-3760"/>
+		<point x="128256" y="116160" z="-3752"/>
+		<point x="128599" y="115882" z="-3760"/>
+		<point x="129034" y="115311" z="-3784"/>
+		<point x="129288" y="114403" z="-3744"/>
+		<point x="128492" y="113400" z="-3680"/>
+		<point x="127858" y="113116" z="-3680"/>
+		<point x="127210" y="112870" z="-3608"/>
+		<point x="126572" y="112821" z="-3512"/>
+		<point x="126023" y="112640" z="-3384"/>
+		<point x="125696" y="112448" z="-3288"/>
+		<point x="125312" y="112500" z="-3216"/>
+		<point x="124854" y="112332" z="-3112"/>
+		<point x="124508" y="112267" z="-3064"/>
+		<point x="124124" y="112125" z="-3056"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_05_02event" moveType="DELETE" running="true">
+		<point x="122455" y="113494" z="-3800"/>
+		<point x="122517" y="113472" z="-3816"/>
+		<point x="122808" y="113618" z="-3800"/>
+		<point x="123128" y="113914" z="-3792"/>
+		<point x="123599" y="114395" z="-3712"/>
+		<point x="123890" y="114893" z="-3664"/>
+		<point x="124336" y="115236" z="-3680"/>
+		<point x="125011" y="115116" z="-3720"/>
+		<point x="125579" y="115138" z="-3720"/>
+		<point x="125916" y="115197" z="-3720"/>
+		<point x="126268" y="115391" z="-3704"/>
+		<point x="126736" y="115519" z="-3720"/>
+		<point x="126895" y="115699" z="-3720"/>
+		<point x="127314" y="116089" z="-3752"/>
+		<point x="127865" y="116337" z="-3752"/>
+		<point x="128208" y="116240" z="-3744"/>
+		<point x="128535" y="115938" z="-3760"/>
+		<point x="129134" y="115387" z="-3800"/>
+		<point x="129160" y="114299" z="-3712"/>
+		<point x="128444" y="113704" z="-3680"/>
+		<point x="127810" y="113176" z="-3672"/>
+		<point x="127162" y="113046" z="-3632"/>
+		<point x="126524" y="112881" z="-3520"/>
+		<point x="125975" y="112700" z="-3384"/>
+		<point x="125648" y="112508" z="-3280"/>
+		<point x="125264" y="112284" z="-3192"/>
+		<point x="124806" y="112196" z="-3112"/>
+		<point x="124460" y="112155" z="-3064"/>
+		<point x="124200" y="112121" z="-3056"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_05_03event" moveType="DELETE" running="true">
+		<point x="122497" y="113603" z="-3816"/>
+		<point x="122524" y="113597" z="-3816"/>
+		<point x="122698" y="113704" z="-3808"/>
+		<point x="123076" y="113990" z="-3792"/>
+		<point x="123439" y="114471" z="-3712"/>
+		<point x="123838" y="114969" z="-3656"/>
+		<point x="124284" y="115312" z="-3664"/>
+		<point x="124959" y="115296" z="-3720"/>
+		<point x="125527" y="115214" z="-3720"/>
+		<point x="125864" y="115273" z="-3720"/>
+		<point x="126216" y="115251" z="-3720"/>
+		<point x="126460" y="115431" z="-3712"/>
+		<point x="126843" y="115715" z="-3720"/>
+		<point x="127262" y="116133" z="-3744"/>
+		<point x="127813" y="116413" z="-3744"/>
+		<point x="128156" y="116348" z="-3744"/>
+		<point x="128483" y="115946" z="-3760"/>
+		<point x="128918" y="115495" z="-3800"/>
+		<point x="129220" y="114423" z="-3720"/>
+		<point x="128344" y="113264" z="-3680"/>
+		<point x="127758" y="112972" z="-3680"/>
+		<point x="127110" y="112890" z="-3608"/>
+		<point x="126472" y="112957" z="-3512"/>
+		<point x="125923" y="112776" z="-3384"/>
+		<point x="125596" y="112584" z="-3264"/>
+		<point x="125212" y="112360" z="-3184"/>
+		<point x="124754" y="112260" z="-3112"/>
+		<point x="124604" y="112231" z="-3088"/>
+		<point x="124288" y="112229" z="-3056"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_05_04event" moveType="DELETE" running="true">
+		<point x="124748" y="112064" z="-3104"/>
+		<point x="124951" y="112145" z="-3128"/>
+		<point x="125204" y="112205" z="-3176"/>
+		<point x="125425" y="112233" z="-3200"/>
+		<point x="125895" y="112814" z="-3376"/>
+		<point x="126481" y="113065" z="-3536"/>
+		<point x="127122" y="113170" z="-3640"/>
+		<point x="127803" y="113259" z="-3672"/>
+		<point x="128342" y="113427" z="-3680"/>
+		<point x="128747" y="113710" z="-3680"/>
+		<point x="129238" y="114282" z="-3712"/>
+		<point x="128853" y="115001" z="-3752"/>
+		<point x="128711" y="115557" z="-3800"/>
+		<point x="128594" y="115831" z="-3776"/>
+		<point x="128148" y="116191" z="-3752"/>
+		<point x="127709" y="116232" z="-3736"/>
+		<point x="127249" y="115924" z="-3752"/>
+		<point x="126928" y="115596" z="-3720"/>
+		<point x="126476" y="115317" z="-3720"/>
+		<point x="125908" y="115158" z="-3720"/>
+		<point x="125212" y="115230" z="-3720"/>
+		<point x="124483" y="115253" z="-3696"/>
+		<point x="123910" y="114973" z="-3656"/>
+		<point x="123527" y="114471" z="-3704"/>
+		<point x="123152" y="113784" z="-3784"/>
+		<point x="122891" y="113486" z="-3800"/>
+		<point x="122578" y="113293" z="-3824"/>
+		<point x="122251" y="113311" z="-3800"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_05_05event" moveType="DELETE" running="true">
+		<point x="124720" y="112176" z="-3104"/>
+		<point x="124935" y="112249" z="-3128"/>
+		<point x="125212" y="112277" z="-3176"/>
+		<point x="125405" y="112337" z="-3216"/>
+		<point x="125875" y="112522" z="-3336"/>
+		<point x="126461" y="112873" z="-3504"/>
+		<point x="127102" y="112942" z="-3600"/>
+		<point x="127783" y="113171" z="-3672"/>
+		<point x="128322" y="113531" z="-3680"/>
+		<point x="129075" y="113950" z="-3696"/>
+		<point x="129134" y="114322" z="-3712"/>
+		<point x="128809" y="114977" z="-3752"/>
+		<point x="128735" y="115625" z="-3792"/>
+		<point x="128574" y="116023" z="-3760"/>
+		<point x="128128" y="116347" z="-3744"/>
+		<point x="127689" y="116312" z="-3736"/>
+		<point x="127229" y="115964" z="-3744"/>
+		<point x="126900" y="115800" z="-3720"/>
+		<point x="126456" y="115573" z="-3704"/>
+		<point x="125888" y="115262" z="-3720"/>
+		<point x="125192" y="115334" z="-3720"/>
+		<point x="124463" y="115061" z="-3680"/>
+		<point x="124010" y="114901" z="-3656"/>
+		<point x="123507" y="114575" z="-3696"/>
+		<point x="123184" y="114060" z="-3776"/>
+		<point x="122821" y="113603" z="-3800"/>
+		<point x="122521" y="113424" z="-3816"/>
+		<point x="122318" y="113426" z="-3800"/>
+	</superpoint>
+
+	<superpoint name="dragonvalley_2321_05_06event" moveType="DELETE" running="true">
+		<point x="124704" y="112280" z="-3112"/>
+		<point x="124875" y="112321" z="-3112"/>
+		<point x="125088" y="112357" z="-3160"/>
+		<point x="125361" y="112413" z="-3216"/>
+		<point x="125831" y="112666" z="-3344"/>
+		<point x="126417" y="112949" z="-3512"/>
+		<point x="127058" y="113018" z="-3600"/>
+		<point x="127739" y="113335" z="-3664"/>
+		<point x="128278" y="113607" z="-3680"/>
+		<point x="128827" y="113746" z="-3688"/>
+		<point x="129174" y="114458" z="-3736"/>
+		<point x="128765" y="115053" z="-3744"/>
+		<point x="128651" y="115581" z="-3800"/>
+		<point x="128530" y="115971" z="-3760"/>
+		<point x="128084" y="116319" z="-3752"/>
+		<point x="127661" y="116372" z="-3728"/>
+		<point x="127185" y="116016" z="-3752"/>
+		<point x="126980" y="115752" z="-3728"/>
+		<point x="126412" y="115501" z="-3704"/>
+		<point x="125844" y="115338" z="-3712"/>
+		<point x="125148" y="115410" z="-3720"/>
+		<point x="124419" y="115433" z="-3696"/>
+		<point x="123846" y="115153" z="-3648"/>
+		<point x="123463" y="114651" z="-3696"/>
+		<point x="123140" y="114136" z="-3776"/>
+		<point x="122699" y="113731" z="-3808"/>
+		<point x="122428" y="113563" z="-3800"/>
+		<point x="122374" y="113528" z="-3800"/>
+	</superpoint>
+
+	<superpoint name="2221_44" moveType="LENGTH" running="true">
+		<point x="80892" y="109452" z="-3056"/>
+		<point x="81895" y="109326" z="-3112"/>
+		<point x="83264" y="108801" z="-3096"/>
+		<point x="86112" y="107618" z="-3192"/>
+	</superpoint>
+
+	<superpoint name="2221_46" moveType="LENGTH" running="true">
+		<point x="86716" y="108236" z="-3120"/>
+		<point x="85003" y="108727" z="-3200"/>
+		<point x="80733" y="109807" z="-3056"/>
+	</superpoint>
+
+	<superpoint name="2221_25" moveType="LENGTH" running="true">
+		<point x="81661" y="114385" z="-3320"/>
+		<point x="81905" y="114135" z="-3232"/>
+		<point x="82366" y="113725" z="-3096"/>
+		<point x="82392" y="113108" z="-3048"/>
+		<point x="83346" y="112987" z="-3048"/>
+		<point x="84190" y="112573" z="-3048"/>
+		<point x="84932" y="111924" z="-3096"/>
+		<point x="86098" y="111684" z="-3112"/>
+	</superpoint>
+
+	<superpoint name="2221_21" moveType="LENGTH" running="true">
+		<point x="88268" y="112044" z="-3272"/>
+		<point x="87316" y="112086" z="-3288"/>
+		<point x="86082" y="111866" z="-3112"/>
+		<point x="84342" y="112220" z="-3040"/>
+		<point x="82579" y="113287" z="-3056"/>
+	</superpoint>
+
+	<superpoint name="2221_05" moveType="LENGTH" running="true">
+		<point x="83436" y="119240" z="-2984"/>
+		<point x="84443" y="120446" z="-2960"/>
+		<point x="85633" y="120687" z="-3016"/>
+		<point x="86980" y="120934" z="-3040"/>
+		<point x="88200" y="120082" z="-3056"/>
+		<point x="88343" y="119201" z="-3056"/>
+	</superpoint>
+
+	<superpoint name="2221_08" moveType="LENGTH" running="true">
+		<point x="88316" y="120508" z="-3056"/>
+		<point x="87222" y="120466" z="-3048"/>
+		<point x="85940" y="119897" z="-2992"/>
+		<point x="84982" y="118441" z="-3032"/>
+		<point x="83970" y="117984" z="-2984"/>
+		<point x="82966" y="117722" z="-3032"/>
+	</superpoint>
+
+	<superpoint name="2221_47" moveType="LENGTH" running="true">
+		<point x="88040" y="106648" z="-3168"/>
+		<point x="88526" y="107853" z="-3056"/>
+		<point x="89602" y="108262" z="-3032"/>
+		<point x="90440" y="107955" z="-3056"/>
+		<point x="91697" y="108141" z="-3040"/>
+	</superpoint>
+
+	<superpoint name="2221_50" moveType="LENGTH" running="true">
+		<point x="94092" y="107564" z="-3024"/>
+		<point x="91246" y="107748" z="-3056"/>
+		<point x="89123" y="106549" z="-3200"/>
+	</superpoint>
+
+	<superpoint name="2321_24_recon" moveType="LENGTH" running="true">
+		<point x="116956" y="110272" z="-2984"/>
+		<point x="118031" y="110859" z="-3040"/>
+		<point x="118892" y="110612" z="-3008"/>
+		<point x="119507" y="110762" z="-3048"/>
+		<point x="119915" y="110701" z="-3056"/>
+		<point x="120167" y="110360" z="-3056"/>
+		<point x="120504" y="109907" z="-3024"/>
+		<point x="120892" y="109722" z="-3000"/>
+		<point x="121513" y="109523" z="-2912"/>
+		<point x="122015" y="109213" z="-2888"/>
+		<point x="122306" y="108716" z="-2976"/>
+	</superpoint>
+
+	<superpoint name="2321_20_recon" moveType="LENGTH" running="true">
+		<point x="124768" y="109220" z="-3056"/>
+		<point x="124984" y="109744" z="-3088"/>
+		<point x="125122" y="110324" z="-3080"/>
+		<point x="125037" y="111114" z="-3144"/>
+		<point x="125421" y="111935" z="-3184"/>
+		<point x="125988" y="112332" z="-3320"/>
+		<point x="126276" y="112725" z="-3440"/>
+		<point x="126497" y="113375" z="-3552"/>
+	</superpoint>
+
+	<superpoint name="2321_45_recon" moveType="LENGTH" running="true">
+		<point x="115676" y="114476" z="-3096"/>
+		<point x="114608" y="115028" z="-3192"/>
+		<point x="113306" y="115184" z="-3208"/>
+		<point x="112167" y="115573" z="-3216"/>
+		<point x="111821" y="116526" z="-3024"/>
+		<point x="111713" y="117411" z="-3016"/>
+	</superpoint>
+
+	<superpoint name="2321_32_searcher" moveType="LENGTH" running="true">
+		<point x="110556" y="111224" z="-3128"/>
+		<point x="111754" y="110583" z="-3032"/>
+		<point x="112597" y="110407" z="-2968"/>
+		<point x="113241" y="110284" z="-3000"/>
+		<point x="115279" y="110133" z="-3032"/>
+		<point x="116442" y="110352" z="-2984"/>
+	</superpoint>
+
+	<superpoint name="2321_43" moveType="LENGTH" running="true">
+		<point x="112452" y="118372" z="-3072"/>
+		<point x="113144" y="117561" z="-3128"/>
+		<point x="113377" y="117171" z="-3152"/>
+		<point x="113410" y="116752" z="-3152"/>
+		<point x="113663" y="116274" z="-3200"/>
+		<point x="114178" y="115847" z="-3264"/>
+		<point x="114607" y="115568" z="-3248"/>
+		<point x="115735" y="115076" z="-3104"/>
+	</superpoint>
+
+	<superpoint name="2321_36" moveType="LENGTH" running="true">
+		<point x="108508" y="117164" z="-3056"/>
+		<point x="109126" y="116701" z="-3056"/>
+		<point x="109329" y="115546" z="-3112"/>
+		<point x="109588" y="113845" z="-3040"/>
+		<point x="109474" y="113328" z="-3064"/>
+	</superpoint>
+
+	<superpoint name="2321_27" moveType="LENGTH" running="true">
+		<point x="111720" y="110228" z="-3024"/>
+		<point x="114292" y="109846" z="-2992"/>
+		<point x="115327" y="109775" z="-3032"/>
+		<point x="116721" y="110033" z="-3024"/>
+		<point x="118567" y="109784" z="-2952"/>
+		<point x="120260" y="109097" z="-2936"/>
+	</superpoint>
+
+	<superpoint name="2321_26" moveType="LENGTH" running="true">
+		<point x="114348" y="110080" z="-3000"/>
+		<point x="113987" y="110854" z="-3080"/>
+		<point x="114423" y="112148" z="-3096"/>
+		<point x="113658" y="113149" z="-3016"/>
+		<point x="112942" y="113113" z="-2824"/>
+		<point x="111814" y="112708" z="-2776"/>
+		<point x="111894" y="111702" z="-2760"/>
+	</superpoint>
+
+	<superpoint name="2321_22" moveType="LENGTH" running="true">
+		<point x="120496" y="108532" z="-2944"/>
+		<point x="121254" y="108336" z="-2992"/>
+		<point x="121866" y="108211" z="-2960"/>
+		<point x="122250" y="107988" z="-2952"/>
+		<point x="122638" y="107953" z="-2976"/>
+		<point x="123140" y="108106" z="-3016"/>
+		<point x="123612" y="108445" z="-3008"/>
+		<point x="123826" y="108831" z="-3032"/>
+		<point x="124288" y="109184" z="-3104"/>
+		<point x="124651" y="109584" z="-3088"/>
+	</superpoint>
+
+	<superpoint name="anta01" moveType="ROUND" running="true">
+		<point x="144588" y="114415" z="-3712"/>
+		<point x="145028" y="113964" z="-3720"/>
+		<point x="145565" y="112796" z="-3720"/>
+		<point x="147292" y="112298" z="-3720"/>
+		<point x="148870" y="112879" z="-3720"/>
+		<point x="149289" y="114446" z="-3720"/>
+		<point x="148699" y="115797" z="-3720"/>
+		<point x="147622" y="116455" z="-3696"/>
+		<point x="146089" y="116189" z="-3720"/>
+		<point x="145478" y="115466" z="-3720"/>
+	</superpoint>
+
+	<superpoint name="anta07" moveType="ROUND" running="true">
+		<point x="147470" y="112233" z="-3720"/>
+		<point x="148062" y="112676" z="-3720"/>
+		<point x="148825" y="112787" z="-3720"/>
+		<point x="149111" y="114411" z="-3720"/>
+		<point x="149144" y="115414" z="-3720"/>
+		<point x="147399" y="116543" z="-3696"/>
+		<point x="146176" y="116041" z="-3720"/>
+		<point x="144933" y="115060" z="-3720"/>
+		<point x="145177" y="113945" z="-3720"/>
+		<point x="145195" y="113291" z="-3720"/>
+		<point x="146235" y="112582" z="-3720"/>
+		<point x="147183" y="112277" z="-3720"/>
+	</superpoint>
+
+	<superpoint name="anta03" moveType="ROUND" running="true">
+		<point x="149046" y="115713" z="-3704"/>
+		<point x="148057" y="116273" z="-3720"/>
+		<point x="146962" y="116166" z="-3720"/>
+		<point x="146389" y="116343" z="-3720"/>
+		<point x="145427" y="115902" z="-3720"/>
+		<point x="145046" y="115063" z="-3720"/>
+		<point x="144970" y="114122" z="-3720"/>
+		<point x="145268" y="113186" z="-3720"/>
+		<point x="145917" y="112638" z="-3720"/>
+		<point x="147622" y="112236" z="-3720"/>
+		<point x="148443" y="111807" z="-3720"/>
+		<point x="149182" y="113166" z="-3720"/>
+		<point x="149326" y="114798" z="-3720"/>
+	</superpoint>
+
+	<superpoint name="anta02" moveType="ROUND" running="true">
+		<point x="147121" y="116447" z="-3704"/>
+		<point x="145821" y="116127" z="-3720"/>
+		<point x="145068" y="115317" z="-3720"/>
+		<point x="145179" y="114573" z="-3720"/>
+		<point x="145000" y="113473" z="-3720"/>
+		<point x="145932" y="112608" z="-3720"/>
+		<point x="146666" y="112633" z="-3720"/>
+		<point x="147091" y="112393" z="-3720"/>
+		<point x="148426" y="111834" z="-3720"/>
+		<point x="149058" y="112739" z="-3720"/>
+		<point x="149142" y="114352" z="-3720"/>
+		<point x="149043" y="115349" z="-3720"/>
+		<point x="148261" y="116040" z="-3720"/>
+	</superpoint>
+
+	<superpoint name="anta08" moveType="ROUND" running="true">
+		<point x="148061" y="115909" z="-3720"/>
+		<point x="147307" y="116433" z="-3704"/>
+		<point x="146655" y="116399" z="-3720"/>
+		<point x="146032" y="115995" z="-3720"/>
+		<point x="145633" y="116057" z="-3720"/>
+		<point x="144925" y="115154" z="-3720"/>
+		<point x="144808" y="114123" z="-3720"/>
+		<point x="145036" y="113883" z="-3720"/>
+		<point x="145096" y="113268" z="-3720"/>
+		<point x="145787" y="112631" z="-3720"/>
+		<point x="146682" y="112832" z="-3720"/>
+		<point x="147141" y="112184" z="-3720"/>
+		<point x="148343" y="111922" z="-3720"/>
+		<point x="149016" y="112619" z="-3720"/>
+		<point x="149372" y="114234" z="-3720"/>
+		<point x="149286" y="115316" z="-3720"/>
+		<point x="148599" y="115938" z="-3720"/>
+	</superpoint>
+
+	<superpoint name="anta06" moveType="ROUND" running="true">
+		<point x="145243" y="115607" z="-3720"/>
+		<point x="144847" y="115093" z="-3720"/>
+		<point x="144861" y="114199" z="-3720"/>
+		<point x="145144" y="113171" z="-3720"/>
+		<point x="145911" y="112548" z="-3720"/>
+		<point x="146522" y="112680" z="-3720"/>
+		<point x="147183" y="112253" z="-3720"/>
+		<point x="148265" y="111844" z="-3720"/>
+		<point x="148866" y="112217" z="-3720"/>
+		<point x="149181" y="113493" z="-3720"/>
+		<point x="149235" y="115266" z="-3720"/>
+		<point x="148119" y="116207" z="-3720"/>
+		<point x="146757" y="116484" z="-3712"/>
+		<point x="145609" y="115952" z="-3720"/>
+	</superpoint>
+
+	<superpoint name="anta09" moveType="ROUND" running="true">
+		<point x="149090" y="114015" z="-3720"/>
+		<point x="149261" y="115199" z="-3720"/>
+		<point x="148620" y="116040" z="-3720"/>
+		<point x="147369" y="116408" z="-3704"/>
+		<point x="146526" y="116372" z="-3720"/>
+		<point x="145452" y="115861" z="-3720"/>
+		<point x="144951" y="115161" z="-3720"/>
+		<point x="145011" y="113841" z="-3720"/>
+		<point x="145332" y="113052" z="-3720"/>
+		<point x="146005" y="112544" z="-3720"/>
+		<point x="146795" y="112506" z="-3720"/>
+		<point x="148371" y="111951" z="-3720"/>
+		<point x="149008" y="112730" z="-3720"/>
+		<point x="149184" y="113764" z="-3720"/>
+	</superpoint>
+
+	<superpoint name="anta05" moveType="ROUND" running="true">
+		<point x="146396" y="112467" z="-3720"/>
+		<point x="147275" y="112366" z="-3720"/>
+		<point x="148404" y="111708" z="-3720"/>
+		<point x="149011" y="112200" z="-3720"/>
+		<point x="148978" y="112976" z="-3720"/>
+		<point x="149389" y="114042" z="-3720"/>
+		<point x="149190" y="115059" z="-3720"/>
+		<point x="148757" y="115760" z="-3720"/>
+		<point x="148243" y="115972" z="-3720"/>
+		<point x="147309" y="116338" z="-3704"/>
+		<point x="146711" y="116448" z="-3720"/>
+		<point x="146132" y="116125" z="-3720"/>
+		<point x="145514" y="115844" z="-3720"/>
+		<point x="144996" y="114996" z="-3720"/>
+		<point x="144919" y="114193" z="-3720"/>
+		<point x="145296" y="113303" z="-3720"/>
+		<point x="145900" y="112548" z="-3720"/>
+	</superpoint>
+
+	<superpoint name="anta04" moveType="ROUND" running="true">
+		<point x="148969" y="112462" z="-3720"/>
+		<point x="149307" y="114122" z="-3720"/>
+		<point x="149288" y="115027" z="-3720"/>
+		<point x="149201" y="115569" z="-3704"/>
+		<point x="147999" y="116333" z="-3720"/>
+		<point x="147147" y="116334" z="-3712"/>
+		<point x="146400" y="116303" z="-3720"/>
+		<point x="145724" y="116099" z="-3720"/>
+		<point x="145416" y="115539" z="-3720"/>
+		<point x="144759" y="115017" z="-3720"/>
+		<point x="145048" y="114051" z="-3720"/>
+		<point x="145052" y="113345" z="-3720"/>
+		<point x="145976" y="112652" z="-3720"/>
+		<point x="146742" y="112671" z="-3720"/>
+		<point x="147298" y="112206" z="-3720"/>
+		<point x="148285" y="111836" z="-3720"/>
+		<point x="148868" y="112217" z="-3720"/>
+	</superpoint>
+
+	<superpoint name="castletownguard01" moveType="RANDOM" running="false">
+		<point x="14840" y="251949" z="-1992"/>
+		<point x="14679" y="253399" z="-2016"/>
+	</superpoint>
+
+	<superpoint name="castletownguard02" moveType="RANDOM" running="false">
+		<point x="16082" y="251790" z="-1992"/>
+		<point x="16388" y="252456" z="-2000"/>
+		<point x="16093" y="254443" z="-2064"/>
+	</superpoint>
+
+	<superpoint name="castletownguard03" moveType="RANDOM" running="false">
+		<point x="16524" y="255244" z="-2072"/>
+		<point x="17211" y="256290" z="-2064"/>
+		<point x="18805" y="256302" z="-2088"/>
+	</superpoint>
+
+	<superpoint name="castletownguard04" moveType="RANDOM" running="false">
+		<point x="17670" y="252256" z="-2016"/>
+		<point x="17344" y="251070" z="-1952"/>
+		<point x="18708" y="250659" z="-1992"/>
+		<point x="19533" y="250667" z="-2016"/>
+	</superpoint>
+</list>

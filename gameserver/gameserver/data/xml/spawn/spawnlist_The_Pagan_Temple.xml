@@ -1,0 +1,3023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Done by JunkyFunky-->
+<list>
+	<!--Дилетант Тироля Level : 78 Territory : rune14_1916_rb01-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22142"/>
+		<point x="-19992" y="-37953" z="-10761" h="0"/>
+	</spawn>
+	<!--Зомби Рабочий Level : 78 Territory : rune14_1916_01-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22140"/>
+		<territory>
+			<add x="-20536" y="-38219" zmin="-10801" zmax="-10501"/>
+			<add x="-19470" y="-38222" zmin="-10801" zmax="-10501"/>
+			<add x="-19475" y="-37683" zmin="-10801" zmax="-10501"/>
+			<add x="-20538" y="-37691" zmin="-10801" zmax="-10501"/>
+		</territory>
+	</spawn>
+	<!--Забытая Жертва Level : 78 Territory : rune14_1916_01-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22141"/>
+		<territory>
+			<add x="-20536" y="-38219" zmin="-10801" zmax="-10501"/>
+			<add x="-19470" y="-38222" zmin="-10801" zmax="-10501"/>
+			<add x="-19475" y="-37683" zmin="-10801" zmax="-10501"/>
+			<add x="-20538" y="-37691" zmin="-10801" zmax="-10501"/>
+		</territory>
+	</spawn>
+	<!--Солдат Старого Аристократа Level : 78 Territory : rune14_1916_01-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22139"/>
+		<territory>
+			<add x="-20536" y="-38219" zmin="-10801" zmax="-10501"/>
+			<add x="-19470" y="-38222" zmin="-10801" zmax="-10501"/>
+			<add x="-19475" y="-37683" zmin="-10801" zmax="-10501"/>
+			<add x="-20538" y="-37691" zmin="-10801" zmax="-10501"/>
+		</territory>
+	</spawn>
+	<!--Верующий Тироля Level : 78 Territory : rune14_1916_rb02-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22143"/>
+		<point x="-23024" y="-37952" z="-10954" h="0"/>
+	</spawn>
+	<!--Воскресший Рыцарь Храма Level : 78 Territory : rune14_1916_02-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22144"/>
+		<territory>
+			<add x="-23568" y="-38236" zmin="-10988" zmax="-10738"/>
+			<add x="-22478" y="-38237" zmin="-10988" zmax="-10738"/>
+			<add x="-22478" y="-37682" zmin="-10988" zmax="-10738"/>
+			<add x="-23573" y="-37679" zmin="-10988" zmax="-10738"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_02-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22145"/>
+		<territory>
+			<add x="-23568" y="-38236" zmin="-10988" zmax="-10738"/>
+			<add x="-22478" y="-38237" zmin="-10988" zmax="-10738"/>
+			<add x="-22478" y="-37682" zmin="-10988" zmax="-10738"/>
+			<add x="-23573" y="-37679" zmin="-10988" zmax="-10738"/>
+		</territory>
+	</spawn>
+	<!--Дилетант Тироля Level : 78 Territory : rune14_1916_02-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22142"/>
+		<territory>
+			<add x="-23568" y="-38236" zmin="-10988" zmax="-10738"/>
+			<add x="-22478" y="-38237" zmin="-10988" zmax="-10738"/>
+			<add x="-22478" y="-37682" zmin="-10988" zmax="-10738"/>
+			<add x="-23573" y="-37679" zmin="-10988" zmax="-10738"/>
+		</territory>
+	</spawn>
+	<!--Дилетант Тироля Level : 78 Territory : rune14_1916_rb03-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22142"/>
+		<point x="-19989" y="-39813" z="-10761" h="0"/>
+	</spawn>
+	<!--Зомби Рабочий Level : 78 Territory : rune14_1916_03-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22140"/>
+		<territory>
+			<add x="-20537" y="-40099" zmin="-10801" zmax="-10451"/>
+			<add x="-19433" y="-40099" zmin="-10801" zmax="-10451"/>
+			<add x="-19438" y="-39527" zmin="-10801" zmax="-10451"/>
+			<add x="-20541" y="-39528" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Забытая Жертва Level : 78 Territory : rune14_1916_03-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22141"/>
+		<territory>
+			<add x="-20537" y="-40099" zmin="-10801" zmax="-10451"/>
+			<add x="-19433" y="-40099" zmin="-10801" zmax="-10451"/>
+			<add x="-19438" y="-39527" zmin="-10801" zmax="-10451"/>
+			<add x="-20541" y="-39528" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Солдат Старого Аристократа Level : 78 Territory : rune14_1916_03-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22139"/>
+		<territory>
+			<add x="-20537" y="-40099" zmin="-10801" zmax="-10451"/>
+			<add x="-19433" y="-40099" zmin="-10801" zmax="-10451"/>
+			<add x="-19438" y="-39527" zmin="-10801" zmax="-10451"/>
+			<add x="-20541" y="-39528" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Верующий Тироля Level : 78 Territory : rune14_1916_rb04-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22143"/>
+		<point x="-23021" y="-39822" z="-10954" h="0"/>
+	</spawn>
+	<!--Воскресший Рыцарь Храма Level : 78 Territory : rune14_1916_04-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22144"/>
+		<territory>
+			<add x="-23571" y="-40101" zmin="-10981" zmax="-10731"/>
+			<add x="-22472" y="-40104" zmin="-10981" zmax="-10731"/>
+			<add x="-22472" y="-39535" zmin="-10981" zmax="-10731"/>
+			<add x="-23565" y="-39535" zmin="-10981" zmax="-10731"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_04-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22145"/>
+		<territory>
+			<add x="-23571" y="-40101" zmin="-10981" zmax="-10731"/>
+			<add x="-22472" y="-40104" zmin="-10981" zmax="-10731"/>
+			<add x="-22472" y="-39535" zmin="-10981" zmax="-10731"/>
+			<add x="-23565" y="-39535" zmin="-10981" zmax="-10731"/>
+		</territory>
+	</spawn>
+	<!--Дилетант Тироля Level : 78 Territory : rune14_1916_04-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22142"/>
+		<territory>
+			<add x="-23571" y="-40101" zmin="-10981" zmax="-10731"/>
+			<add x="-22472" y="-40104" zmin="-10981" zmax="-10731"/>
+			<add x="-22472" y="-39535" zmin="-10981" zmax="-10731"/>
+			<add x="-23565" y="-39535" zmin="-10981" zmax="-10731"/>
+		</territory>
+	</spawn>
+	<!--Дилетант Тироля Level : 78 Territory : rune14_1916_rb05-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22142"/>
+		<point x="-19986" y="-41702" z="-10761" h="0"/>
+	</spawn>
+	<!--Зомби Рабочий Level : 78 Territory : rune14_1916_05-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22140"/>
+		<territory>
+			<add x="-20533" y="-41978" zmin="-10801" zmax="-10451"/>
+			<add x="-19440" y="-41990" zmin="-10801" zmax="-10451"/>
+			<add x="-19443" y="-41417" zmin="-10801" zmax="-10451"/>
+			<add x="-20535" y="-41411" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Забытая Жертва Level : 78 Territory : rune14_1916_05-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22141"/>
+		<territory>
+			<add x="-20533" y="-41978" zmin="-10801" zmax="-10451"/>
+			<add x="-19440" y="-41990" zmin="-10801" zmax="-10451"/>
+			<add x="-19443" y="-41417" zmin="-10801" zmax="-10451"/>
+			<add x="-20535" y="-41411" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Солдат Старого Аристократа Level : 78 Territory : rune14_1916_05-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22139"/>
+		<territory>
+			<add x="-20533" y="-41978" zmin="-10801" zmax="-10451"/>
+			<add x="-19440" y="-41990" zmin="-10801" zmax="-10451"/>
+			<add x="-19443" y="-41417" zmin="-10801" zmax="-10451"/>
+			<add x="-20535" y="-41411" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Верующий Тироля Level : 78 Territory : rune14_1916_rb06-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22143"/>
+		<point x="-23024" y="-41693" z="-10954" h="0"/>
+	</spawn>
+	<!--Воскресший Рыцарь Храма Level : 78 Territory : rune14_1916_06-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22144"/>
+		<territory>
+			<add x="-23571" y="-41977" zmin="-10997" zmax="-10747"/>
+			<add x="-22469" y="-41980" zmin="-10997" zmax="-10747"/>
+			<add x="-22467" y="-41406" zmin="-10997" zmax="-10747"/>
+			<add x="-23571" y="-41420" zmin="-10997" zmax="-10747"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_06-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22145"/>
+		<territory>
+			<add x="-23571" y="-41977" zmin="-10997" zmax="-10747"/>
+			<add x="-22469" y="-41980" zmin="-10997" zmax="-10747"/>
+			<add x="-22467" y="-41406" zmin="-10997" zmax="-10747"/>
+			<add x="-23571" y="-41420" zmin="-10997" zmax="-10747"/>
+		</territory>
+	</spawn>
+	<!--Дилетант Тироля Level : 78 Territory : rune14_1916_06-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22142"/>
+		<territory>
+			<add x="-23571" y="-41977" zmin="-10997" zmax="-10747"/>
+			<add x="-22469" y="-41980" zmin="-10997" zmax="-10747"/>
+			<add x="-22467" y="-41406" zmin="-10997" zmax="-10747"/>
+			<add x="-23571" y="-41420" zmin="-10997" zmax="-10747"/>
+		</territory>
+	</spawn>
+	<!--Дилетант Тироля Level : 78 Territory : rune14_1916_rb07-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22142"/>
+		<point x="-19992" y="-43562" z="-10761" h="0"/>
+	</spawn>
+	<!--Зомби Рабочий Level : 78 Territory : rune14_1916_07-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22140"/>
+		<territory>
+			<add x="-20532" y="-43837" zmin="-10801" zmax="-10451"/>
+			<add x="-19443" y="-43838" zmin="-10801" zmax="-10451"/>
+			<add x="-19457" y="-43287" zmin="-10801" zmax="-10451"/>
+			<add x="-20536" y="-43287" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Забытая Жертва Level : 78 Territory : rune14_1916_07-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22141"/>
+		<territory>
+			<add x="-20532" y="-43837" zmin="-10801" zmax="-10451"/>
+			<add x="-19443" y="-43838" zmin="-10801" zmax="-10451"/>
+			<add x="-19457" y="-43287" zmin="-10801" zmax="-10451"/>
+			<add x="-20536" y="-43287" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Солдат Старого Аристократа Level : 78 Territory : rune14_1916_07-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22139"/>
+		<territory>
+			<add x="-20532" y="-43837" zmin="-10801" zmax="-10451"/>
+			<add x="-19443" y="-43838" zmin="-10801" zmax="-10451"/>
+			<add x="-19457" y="-43287" zmin="-10801" zmax="-10451"/>
+			<add x="-20536" y="-43287" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Верующий Тироля Level : 78 Territory : rune14_1916_rb08-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22143"/>
+		<point x="-23022" y="-43556" z="-10954" h="0"/>
+	</spawn>
+	<!--Воскресший Рыцарь Храма Level : 78 Territory : rune14_1916_08-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22144"/>
+		<territory>
+			<add x="-23567" y="-43834" zmin="-10981" zmax="-10731"/>
+			<add x="-22474" y="-43839" zmin="-10981" zmax="-10731"/>
+			<add x="-22481" y="-43275" zmin="-10981" zmax="-10731"/>
+			<add x="-23570" y="-43273" zmin="-10981" zmax="-10731"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_08-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22145"/>
+		<territory>
+			<add x="-23567" y="-43834" zmin="-10981" zmax="-10731"/>
+			<add x="-22474" y="-43839" zmin="-10981" zmax="-10731"/>
+			<add x="-22481" y="-43275" zmin="-10981" zmax="-10731"/>
+			<add x="-23570" y="-43273" zmin="-10981" zmax="-10731"/>
+		</territory>
+	</spawn>
+	<!--Дилетант Тироля Level : 78 Territory : rune14_1916_08-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22142"/>
+		<territory>
+			<add x="-23567" y="-43834" zmin="-10981" zmax="-10731"/>
+			<add x="-22474" y="-43839" zmin="-10981" zmax="-10731"/>
+			<add x="-22481" y="-43275" zmin="-10981" zmax="-10731"/>
+			<add x="-23570" y="-43273" zmin="-10981" zmax="-10731"/>
+		</territory>
+	</spawn>
+	<!--Дилетант Тироля Level : 78 Territory : rune14_1916_rb09-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22142"/>
+		<point x="-12735" y="-37938" z="-10761" h="0"/>
+	</spawn>
+	<!--Зомби Рабочий Level : 78 Territory : rune14_1916_09-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22140"/>
+		<territory>
+			<add x="-13280" y="-38221" zmin="-10801" zmax="-10451"/>
+			<add x="-12178" y="-38227" zmin="-10801" zmax="-10451"/>
+			<add x="-12185" y="-37656" zmin="-10801" zmax="-10451"/>
+			<add x="-13287" y="-37659" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Забытая Жертва Level : 78 Territory : rune14_1916_09-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22141"/>
+		<territory>
+			<add x="-13280" y="-38221" zmin="-10801" zmax="-10451"/>
+			<add x="-12178" y="-38227" zmin="-10801" zmax="-10451"/>
+			<add x="-12185" y="-37656" zmin="-10801" zmax="-10451"/>
+			<add x="-13287" y="-37659" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Солдат Старого Аристократа Level : 78 Territory : rune14_1916_09-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22139"/>
+		<territory>
+			<add x="-13280" y="-38221" zmin="-10801" zmax="-10451"/>
+			<add x="-12178" y="-38227" zmin="-10801" zmax="-10451"/>
+			<add x="-12185" y="-37656" zmin="-10801" zmax="-10451"/>
+			<add x="-13287" y="-37659" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Верующий Тироля Level : 78 Territory : rune14_1916_rb10-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22143"/>
+		<point x="-9708" y="-37943" z="-10954" h="0"/>
+	</spawn>
+	<!--Воскресший Рыцарь Храма Level : 78 Territory : rune14_1916_10-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22144"/>
+		<territory>
+			<add x="-10239" y="-38207" zmin="-10997" zmax="-10647"/>
+			<add x="-9171" y="-38208" zmin="-10997" zmax="-10647"/>
+			<add x="-9178" y="-37674" zmin="-10997" zmax="-10647"/>
+			<add x="-10241" y="-37673" zmin="-10997" zmax="-10647"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_10-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22145"/>
+		<territory>
+			<add x="-10239" y="-38207" zmin="-10997" zmax="-10647"/>
+			<add x="-9171" y="-38208" zmin="-10997" zmax="-10647"/>
+			<add x="-9178" y="-37674" zmin="-10997" zmax="-10647"/>
+			<add x="-10241" y="-37673" zmin="-10997" zmax="-10647"/>
+		</territory>
+	</spawn>
+	<!--Дилетант Тироля Level : 78 Territory : rune14_1916_10-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22142"/>
+		<territory>
+			<add x="-10239" y="-38207" zmin="-10997" zmax="-10647"/>
+			<add x="-9171" y="-38208" zmin="-10997" zmax="-10647"/>
+			<add x="-9178" y="-37674" zmin="-10997" zmax="-10647"/>
+			<add x="-10241" y="-37673" zmin="-10997" zmax="-10647"/>
+		</territory>
+	</spawn>
+	<!--Дилетант Тироля Level : 78 Territory : rune14_1916_rb11-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22142"/>
+		<point x="-12737" y="-39810" z="-10761" h="0"/>
+	</spawn>
+	<!--Зомби Рабочий Level : 78 Territory : rune14_1916_11-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22140"/>
+		<territory>
+			<add x="-13283" y="-40090" zmin="-10801" zmax="-10451"/>
+			<add x="-12190" y="-40096" zmin="-10801" zmax="-10451"/>
+			<add x="-12188" y="-39538" zmin="-10801" zmax="-10451"/>
+			<add x="-13287" y="-39536" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Забытая Жертва Level : 78 Territory : rune14_1916_11-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22141"/>
+		<territory>
+			<add x="-13283" y="-40090" zmin="-10801" zmax="-10451"/>
+			<add x="-12190" y="-40096" zmin="-10801" zmax="-10451"/>
+			<add x="-12188" y="-39538" zmin="-10801" zmax="-10451"/>
+			<add x="-13287" y="-39536" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Солдат Старого Аристократа Level : 78 Territory : rune14_1916_11-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22139"/>
+		<territory>
+			<add x="-13283" y="-40090" zmin="-10801" zmax="-10451"/>
+			<add x="-12190" y="-40096" zmin="-10801" zmax="-10451"/>
+			<add x="-12188" y="-39538" zmin="-10801" zmax="-10451"/>
+			<add x="-13287" y="-39536" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Верующий Тироля Level : 78 Territory : rune14_1916_rb12-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22143"/>
+		<point x="-9707" y="-39820" z="-10954" h="0"/>
+	</spawn>
+	<!--Воскресший Рыцарь Храма Level : 78 Territory : rune14_1916_12-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22144"/>
+		<territory>
+			<add x="-10209" y="-40060" zmin="-10997" zmax="-10647"/>
+			<add x="-9186" y="-40059" zmin="-10997" zmax="-10647"/>
+			<add x="-9189" y="-39571" zmin="-10997" zmax="-10647"/>
+			<add x="-10212" y="-39573" zmin="-10997" zmax="-10647"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_12-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22145"/>
+		<territory>
+			<add x="-10209" y="-40060" zmin="-10997" zmax="-10647"/>
+			<add x="-9186" y="-40059" zmin="-10997" zmax="-10647"/>
+			<add x="-9189" y="-39571" zmin="-10997" zmax="-10647"/>
+			<add x="-10212" y="-39573" zmin="-10997" zmax="-10647"/>
+		</territory>
+	</spawn>
+	<!--Дилетант Тироля Level : 78 Territory : rune14_1916_12-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22142"/>
+		<territory>
+			<add x="-10209" y="-40060" zmin="-10997" zmax="-10647"/>
+			<add x="-9186" y="-40059" zmin="-10997" zmax="-10647"/>
+			<add x="-9189" y="-39571" zmin="-10997" zmax="-10647"/>
+			<add x="-10212" y="-39573" zmin="-10997" zmax="-10647"/>
+		</territory>
+	</spawn>
+	<!--Дилетант Тироля Level : 78 Territory : rune14_1916_rb13-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22142"/>
+		<point x="-12736" y="-41694" z="-10760" h="0"/>
+	</spawn>
+	<!--Зомби Рабочий Level : 78 Territory : rune14_1916_13-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22140"/>
+		<territory>
+			<add x="-13283" y="-41969" zmin="-10801" zmax="-10451"/>
+			<add x="-12186" y="-41975" zmin="-10801" zmax="-10451"/>
+			<add x="-12191" y="-41416" zmin="-10801" zmax="-10451"/>
+			<add x="-13279" y="-41413" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Забытая Жертва Level : 78 Territory : rune14_1916_13-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22141"/>
+		<territory>
+			<add x="-13283" y="-41969" zmin="-10801" zmax="-10451"/>
+			<add x="-12186" y="-41975" zmin="-10801" zmax="-10451"/>
+			<add x="-12191" y="-41416" zmin="-10801" zmax="-10451"/>
+			<add x="-13279" y="-41413" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Солдат Старого Аристократа Level : 78 Territory : rune14_1916_13-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22139"/>
+		<territory>
+			<add x="-13283" y="-41969" zmin="-10801" zmax="-10451"/>
+			<add x="-12186" y="-41975" zmin="-10801" zmax="-10451"/>
+			<add x="-12191" y="-41416" zmin="-10801" zmax="-10451"/>
+			<add x="-13279" y="-41413" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Верующий Тироля Level : 78 Territory : rune14_1916_rb14-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22143"/>
+		<point x="-9708" y="-41687" z="-10954" h="0"/>
+	</spawn>
+	<!--Воскресший Рыцарь Храма Level : 78 Territory : rune14_1916_14-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22144"/>
+		<territory>
+			<add x="-10222" y="-41941" zmin="-10997" zmax="-10647"/>
+			<add x="-9176" y="-41944" zmin="-10997" zmax="-10647"/>
+			<add x="-9184" y="-41440" zmin="-10997" zmax="-10647"/>
+			<add x="-10226" y="-41441" zmin="-10997" zmax="-10647"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_14-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22145"/>
+		<territory>
+			<add x="-10222" y="-41941" zmin="-10997" zmax="-10647"/>
+			<add x="-9176" y="-41944" zmin="-10997" zmax="-10647"/>
+			<add x="-9184" y="-41440" zmin="-10997" zmax="-10647"/>
+			<add x="-10226" y="-41441" zmin="-10997" zmax="-10647"/>
+		</territory>
+	</spawn>
+	<!--Дилетант Тироля Level : 78 Territory : rune14_1916_14-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22142"/>
+		<territory>
+			<add x="-10222" y="-41941" zmin="-10997" zmax="-10647"/>
+			<add x="-9176" y="-41944" zmin="-10997" zmax="-10647"/>
+			<add x="-9184" y="-41440" zmin="-10997" zmax="-10647"/>
+			<add x="-10226" y="-41441" zmin="-10997" zmax="-10647"/>
+		</territory>
+	</spawn>
+	<!--Дилетант Тироля Level : 78 Territory : rune14_1916_rb15-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22142"/>
+		<point x="-12739" y="-43552" z="-10761" h="0"/>
+	</spawn>
+	<!--Зомби Рабочий Level : 78 Territory : rune14_1916_15-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22140"/>
+		<territory>
+			<add x="-13271" y="-43814" zmin="-10801" zmax="-10451"/>
+			<add x="-12213" y="-43811" zmin="-10801" zmax="-10451"/>
+			<add x="-12215" y="-43287" zmin="-10801" zmax="-10451"/>
+			<add x="-13273" y="-43285" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Забытая Жертва Level : 78 Territory : rune14_1916_15-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22141"/>
+		<territory>
+			<add x="-13271" y="-43814" zmin="-10801" zmax="-10451"/>
+			<add x="-12213" y="-43811" zmin="-10801" zmax="-10451"/>
+			<add x="-12215" y="-43287" zmin="-10801" zmax="-10451"/>
+			<add x="-13273" y="-43285" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Солдат Старого Аристократа Level : 78 Territory : rune14_1916_15-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22139"/>
+		<territory>
+			<add x="-13271" y="-43814" zmin="-10801" zmax="-10451"/>
+			<add x="-12213" y="-43811" zmin="-10801" zmax="-10451"/>
+			<add x="-12215" y="-43287" zmin="-10801" zmax="-10451"/>
+			<add x="-13273" y="-43285" zmin="-10801" zmax="-10451"/>
+		</territory>
+	</spawn>
+	<!--Верующий Тироля Level : 78 Territory : rune14_1916_rb16-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22143"/>
+		<point x="-9708" y="-43545" z="-10954" h="0"/>
+	</spawn>
+	<!--Воскресший Рыцарь Храма Level : 78 Territory : rune14_1916_16-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22144"/>
+		<territory>
+			<add x="-10244" y="-43813" zmin="-10997" zmax="-10697"/>
+			<add x="-9168" y="-43815" zmin="-10997" zmax="-10697"/>
+			<add x="-9166" y="-43271" zmin="-10997" zmax="-10697"/>
+			<add x="-10249" y="-43270" zmin="-10997" zmax="-10697"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_16-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22145"/>
+		<territory>
+			<add x="-10244" y="-43813" zmin="-10997" zmax="-10697"/>
+			<add x="-9168" y="-43815" zmin="-10997" zmax="-10697"/>
+			<add x="-9166" y="-43271" zmin="-10997" zmax="-10697"/>
+			<add x="-10249" y="-43270" zmin="-10997" zmax="-10697"/>
+		</territory>
+	</spawn>
+	<!--Дилетант Тироля Level : 78 Territory : rune14_1916_16-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22142"/>
+		<territory>
+			<add x="-10244" y="-43813" zmin="-10997" zmax="-10697"/>
+			<add x="-9168" y="-43815" zmin="-10997" zmax="-10697"/>
+			<add x="-9166" y="-43271" zmin="-10997" zmax="-10697"/>
+			<add x="-10249" y="-43270" zmin="-10997" zmax="-10697"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_17-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22146"/>
+		<point x="-17436" y="-45169" z="-10767" h="0"/>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_17-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22147"/>
+		<territory>
+			<add x="-17989" y="-45575" zmin="-10784" zmax="-10434"/>
+			<add x="-17076" y="-45573" zmin="-10784" zmax="-10434"/>
+			<add x="-17077" y="-44557" zmin="-10784" zmax="-10434"/>
+			<add x="-17993" y="-44560" zmin="-10784" zmax="-10434"/>
+		</territory>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_17-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22149"/>
+		<territory>
+			<add x="-17989" y="-45575" zmin="-10784" zmax="-10434"/>
+			<add x="-17076" y="-45573" zmin="-10784" zmax="-10434"/>
+			<add x="-17077" y="-44557" zmin="-10784" zmax="-10434"/>
+			<add x="-17993" y="-44560" zmin="-10784" zmax="-10434"/>
+		</territory>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_17-->
+	<spawn count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22149"/>
+		<territory>
+			<add x="-17989" y="-45575" zmin="-10784" zmax="-10434"/>
+			<add x="-17076" y="-45573" zmin="-10784" zmax="-10434"/>
+			<add x="-17077" y="-44557" zmin="-10784" zmax="-10434"/>
+			<add x="-17993" y="-44560" zmin="-10784" zmax="-10434"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_18-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22146"/>
+		<point x="-19049" y="-45334" z="-10774" h="0"/>
+	</spawn>
+	<!--Дилетант Тироля Level : 78 Territory : rune14_1916_18-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22142"/>
+		<territory>
+			<add x="-19611" y="-45842" zmin="-10774" zmax="-10424"/>
+			<add x="-18561" y="-45843" zmin="-10774" zmax="-10424"/>
+			<add x="-18569" y="-44697" zmin="-10774" zmax="-10424"/>
+			<add x="-19617" y="-44693" zmin="-10774" zmax="-10424"/>
+		</territory>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_18-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22147"/>
+		<territory>
+			<add x="-19611" y="-45842" zmin="-10774" zmax="-10424"/>
+			<add x="-18561" y="-45843" zmin="-10774" zmax="-10424"/>
+			<add x="-18569" y="-44697" zmin="-10774" zmax="-10424"/>
+			<add x="-19617" y="-44693" zmin="-10774" zmax="-10424"/>
+		</territory>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_18-->
+	<spawn count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22147"/>
+		<territory>
+			<add x="-19611" y="-45842" zmin="-10774" zmax="-10424"/>
+			<add x="-18561" y="-45843" zmin="-10774" zmax="-10424"/>
+			<add x="-18569" y="-44697" zmin="-10774" zmax="-10424"/>
+			<add x="-19617" y="-44693" zmin="-10774" zmax="-10424"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_19-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22146"/>
+		<point x="-20505" y="-45221" z="-10774" h="0"/>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_19-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22147"/>
+		<territory>
+			<add x="-21009" y="-45601" zmin="-10774" zmax="-10424"/>
+			<add x="-20116" y="-45601" zmin="-10774" zmax="-10424"/>
+			<add x="-20130" y="-44424" zmin="-10774" zmax="-10424"/>
+			<add x="-21020" y="-44421" zmin="-10774" zmax="-10424"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_20-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22146"/>
+		<point x="-15242" y="-45142" z="-10767" h="0"/>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_20-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22147"/>
+		<territory>
+			<add x="-15806" y="-45600" zmin="-10767" zmax="-10417"/>
+			<add x="-14757" y="-45602" zmin="-10767" zmax="-10417"/>
+			<add x="-14754" y="-44346" zmin="-10767" zmax="-10417"/>
+			<add x="-15802" y="-44342" zmin="-10767" zmax="-10417"/>
+		</territory>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_20-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22149"/>
+		<territory>
+			<add x="-15806" y="-45600" zmin="-10767" zmax="-10417"/>
+			<add x="-14757" y="-45602" zmin="-10767" zmax="-10417"/>
+			<add x="-14754" y="-44346" zmin="-10767" zmax="-10417"/>
+			<add x="-15802" y="-44342" zmin="-10767" zmax="-10417"/>
+		</territory>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_20-->
+	<spawn count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22149"/>
+		<territory>
+			<add x="-15806" y="-45600" zmin="-10767" zmax="-10417"/>
+			<add x="-14757" y="-45602" zmin="-10767" zmax="-10417"/>
+			<add x="-14754" y="-44346" zmin="-10767" zmax="-10417"/>
+			<add x="-15802" y="-44342" zmin="-10767" zmax="-10417"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_21-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22146"/>
+		<point x="-13679" y="-45329" z="-10774" h="0"/>
+	</spawn>
+	<!--Дилетант Тироля Level : 78 Territory : rune14_1916_21-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22142"/>
+		<territory>
+			<add x="-14241" y="-45836" zmin="-10774" zmax="-10424"/>
+			<add x="-13191" y="-45838" zmin="-10774" zmax="-10424"/>
+			<add x="-13194" y="-44623" zmin="-10774" zmax="-10424"/>
+			<add x="-14241" y="-44619" zmin="-10774" zmax="-10424"/>
+		</territory>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_21-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22147"/>
+		<territory>
+			<add x="-14241" y="-45836" zmin="-10774" zmax="-10424"/>
+			<add x="-13191" y="-45838" zmin="-10774" zmax="-10424"/>
+			<add x="-13194" y="-44623" zmin="-10774" zmax="-10424"/>
+			<add x="-14241" y="-44619" zmin="-10774" zmax="-10424"/>
+		</territory>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_21-->
+	<spawn count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22147"/>
+		<territory>
+			<add x="-14241" y="-45836" zmin="-10774" zmax="-10424"/>
+			<add x="-13191" y="-45838" zmin="-10774" zmax="-10424"/>
+			<add x="-13194" y="-44623" zmin="-10774" zmax="-10424"/>
+			<add x="-14241" y="-44619" zmin="-10774" zmax="-10424"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_22-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22146"/>
+		<point x="-12079" y="-45203" z="-10774" h="0"/>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_22-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22147"/>
+		<territory>
+			<add x="-12641" y="-45667" zmin="-10774" zmax="-10424"/>
+			<add x="-11760" y="-45670" zmin="-10774" zmax="-10424"/>
+			<add x="-11760" y="-44409" zmin="-10774" zmax="-10424"/>
+			<add x="-12639" y="-44404" zmin="-10774" zmax="-10424"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_23-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22146"/>
+		<point x="-17464" y="-47182" z="-10878" h="0"/>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_23-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22147"/>
+		<territory>
+			<add x="-18026" y="-47606" zmin="-10878" zmax="-10528"/>
+			<add x="-16976" y="-47608" zmin="-10878" zmax="-10528"/>
+			<add x="-16976" y="-46386" zmin="-10878" zmax="-10528"/>
+			<add x="-18024" y="-46382" zmin="-10878" zmax="-10528"/>
+		</territory>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_23-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22149"/>
+		<territory>
+			<add x="-18026" y="-47606" zmin="-10878" zmax="-10528"/>
+			<add x="-16976" y="-47608" zmin="-10878" zmax="-10528"/>
+			<add x="-16976" y="-46386" zmin="-10878" zmax="-10528"/>
+			<add x="-18024" y="-46382" zmin="-10878" zmax="-10528"/>
+		</territory>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_23-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22149"/>
+		<territory>
+			<add x="-18026" y="-47606" zmin="-10878" zmax="-10528"/>
+			<add x="-16976" y="-47608" zmin="-10878" zmax="-10528"/>
+			<add x="-16976" y="-46386" zmin="-10878" zmax="-10528"/>
+			<add x="-18024" y="-46382" zmin="-10878" zmax="-10528"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_24-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22146"/>
+		<point x="-19119" y="-47395" z="-10885" h="0"/>
+	</spawn>
+	<!--Дилетант Тироля Level : 78 Territory : rune14_1916_24-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22142"/>
+		<territory>
+			<add x="-19681" y="-47902" zmin="-10885" zmax="-10535"/>
+			<add x="-18631" y="-47904" zmin="-10885" zmax="-10535"/>
+			<add x="-18639" y="-46757" zmin="-10885" zmax="-10535"/>
+			<add x="-19686" y="-46754" zmin="-10885" zmax="-10535"/>
+		</territory>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_24-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22147"/>
+		<territory>
+			<add x="-19681" y="-47902" zmin="-10885" zmax="-10535"/>
+			<add x="-18631" y="-47904" zmin="-10885" zmax="-10535"/>
+			<add x="-18639" y="-46757" zmin="-10885" zmax="-10535"/>
+			<add x="-19686" y="-46754" zmin="-10885" zmax="-10535"/>
+		</territory>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_24-->
+	<spawn count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22147"/>
+		<territory>
+			<add x="-19681" y="-47902" zmin="-10885" zmax="-10535"/>
+			<add x="-18631" y="-47904" zmin="-10885" zmax="-10535"/>
+			<add x="-18639" y="-46757" zmin="-10885" zmax="-10535"/>
+			<add x="-19686" y="-46754" zmin="-10885" zmax="-10535"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_25-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22146"/>
+		<point x="-20493" y="-47204" z="-10885" h="0"/>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_25-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22147"/>
+		<territory>
+			<add x="-21009" y="-47637" zmin="-10885" zmax="-10535"/>
+			<add x="-20111" y="-47636" zmin="-10885" zmax="-10535"/>
+			<add x="-20118" y="-46407" zmin="-10885" zmax="-10535"/>
+			<add x="-21014" y="-46405" zmin="-10885" zmax="-10535"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_26-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22146"/>
+		<point x="-15250" y="-47142" z="-10875" h="0"/>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_26-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22147"/>
+		<territory>
+			<add x="-15815" y="-47600" zmin="-10875" zmax="-10525"/>
+			<add x="-14765" y="-47602" zmin="-10875" zmax="-10525"/>
+			<add x="-14762" y="-46346" zmin="-10875" zmax="-10525"/>
+			<add x="-15810" y="-46342" zmin="-10875" zmax="-10525"/>
+		</territory>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_26-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22149"/>
+		<territory>
+			<add x="-15815" y="-47600" zmin="-10875" zmax="-10525"/>
+			<add x="-14765" y="-47602" zmin="-10875" zmax="-10525"/>
+			<add x="-14762" y="-46346" zmin="-10875" zmax="-10525"/>
+			<add x="-15810" y="-46342" zmin="-10875" zmax="-10525"/>
+		</territory>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_26-->
+	<spawn count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22149"/>
+		<territory>
+			<add x="-15815" y="-47600" zmin="-10875" zmax="-10525"/>
+			<add x="-14765" y="-47602" zmin="-10875" zmax="-10525"/>
+			<add x="-14762" y="-46346" zmin="-10875" zmax="-10525"/>
+			<add x="-15810" y="-46342" zmin="-10875" zmax="-10525"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_27-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22146"/>
+		<point x="-13676" y="-47395" z="-10882" h="0"/>
+	</spawn>
+	<!--Дилетант Тироля Level : 78 Territory : rune14_1916_27-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22142"/>
+		<territory>
+			<add x="-14238" y="-47902" zmin="-10882" zmax="-10532"/>
+			<add x="-13188" y="-47904" zmin="-10882" zmax="-10532"/>
+			<add x="-13190" y="-46689" zmin="-10882" zmax="-10532"/>
+			<add x="-14238" y="-46685" zmin="-10882" zmax="-10532"/>
+		</territory>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_27-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22147"/>
+		<territory>
+			<add x="-14238" y="-47902" zmin="-10882" zmax="-10532"/>
+			<add x="-13188" y="-47904" zmin="-10882" zmax="-10532"/>
+			<add x="-13190" y="-46689" zmin="-10882" zmax="-10532"/>
+			<add x="-14238" y="-46685" zmin="-10882" zmax="-10532"/>
+		</territory>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_27-->
+	<spawn count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22147"/>
+		<territory>
+			<add x="-14238" y="-47902" zmin="-10882" zmax="-10532"/>
+			<add x="-13188" y="-47904" zmin="-10882" zmax="-10532"/>
+			<add x="-13190" y="-46689" zmin="-10882" zmax="-10532"/>
+			<add x="-14238" y="-46685" zmin="-10882" zmax="-10532"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_28-->
+	<spawn count="1" respawn="30" respawn_random="20" period_of_day="none">
+		<npc id="22146"/>
+		<point x="-12088" y="-47203" z="-10882" h="0"/>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_28-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22147"/>
+		<territory>
+			<add x="-12649" y="-47667" zmin="-10882" zmax="-10532"/>
+			<add x="-11768" y="-47668" zmin="-10882" zmax="-10532"/>
+			<add x="-11768" y="-46406" zmin="-10882" zmax="-10532"/>
+			<add x="-12647" y="-46404" zmin="-10882" zmax="-10532"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_29-->
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22151"/>
+		<point x="-17440" y="-49230" z="-10912" h="0"/>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_29-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-18002" y="-49655" zmin="-10961" zmax="-10611"/>
+			<add x="-17077" y="-49650" zmin="-10961" zmax="-10611"/>
+			<add x="-16953" y="-48434" zmin="-10961" zmax="-10611"/>
+			<add x="-18000" y="-48430" zmin="-10961" zmax="-10611"/>
+		</territory>
+	</spawn>
+	<!--Начальник Стражи Храма Level : 78 Territory : rune14_1916_29-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22153"/>
+		<territory>
+			<add x="-18002" y="-49655" zmin="-10961" zmax="-10611"/>
+			<add x="-17077" y="-49650" zmin="-10961" zmax="-10611"/>
+			<add x="-16953" y="-48434" zmin="-10961" zmax="-10611"/>
+			<add x="-18000" y="-48430" zmin="-10961" zmax="-10611"/>
+		</territory>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_29-->
+	<spawn count="4" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-18002" y="-49655" zmin="-10961" zmax="-10611"/>
+			<add x="-17077" y="-49650" zmin="-10961" zmax="-10611"/>
+			<add x="-16953" y="-48434" zmin="-10961" zmax="-10611"/>
+			<add x="-18000" y="-48430" zmin="-10961" zmax="-10611"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_29-->
+	<spawn count="2" respawn="600" respawn_random="400" period_of_day="none">
+		<npc id="22154"/>
+		<territory>
+			<add x="-18002" y="-49655" zmin="-10961" zmax="-10611"/>
+			<add x="-17077" y="-49650" zmin="-10961" zmax="-10611"/>
+			<add x="-16953" y="-48434" zmin="-10961" zmax="-10611"/>
+			<add x="-18000" y="-48430" zmin="-10961" zmax="-10611"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_30-->
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22151"/>
+		<point x="-19063" y="-49441" z="-10912" h="0"/>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_30-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-19625" y="-49949" zmin="-10968" zmax="-10618"/>
+			<add x="-18576" y="-49951" zmin="-10968" zmax="-10618"/>
+			<add x="-18583" y="-48804" zmin="-10968" zmax="-10618"/>
+			<add x="-19631" y="-48800" zmin="-10968" zmax="-10618"/>
+		</territory>
+	</spawn>
+	<!--Начальник Стражи Храма Level : 78 Territory : rune14_1916_30-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22153"/>
+		<territory>
+			<add x="-19625" y="-49949" zmin="-10968" zmax="-10618"/>
+			<add x="-18576" y="-49951" zmin="-10968" zmax="-10618"/>
+			<add x="-18583" y="-48804" zmin="-10968" zmax="-10618"/>
+			<add x="-19631" y="-48800" zmin="-10968" zmax="-10618"/>
+		</territory>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_30-->
+	<spawn count="4" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-19625" y="-49949" zmin="-10968" zmax="-10618"/>
+			<add x="-18576" y="-49951" zmin="-10968" zmax="-10618"/>
+			<add x="-18583" y="-48804" zmin="-10968" zmax="-10618"/>
+			<add x="-19631" y="-48800" zmin="-10968" zmax="-10618"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_30-->
+	<spawn count="2" respawn="600" respawn_random="400" period_of_day="none">
+		<npc id="22154"/>
+		<territory>
+			<add x="-19625" y="-49949" zmin="-10968" zmax="-10618"/>
+			<add x="-18576" y="-49951" zmin="-10968" zmax="-10618"/>
+			<add x="-18583" y="-48804" zmin="-10968" zmax="-10618"/>
+			<add x="-19631" y="-48800" zmin="-10968" zmax="-10618"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_31-->
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22151"/>
+		<point x="-20501" y="-49230" z="-10912" h="0"/>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_31-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-21002" y="-49661" zmin="-10968" zmax="-10618"/>
+			<add x="-20119" y="-49663" zmin="-10968" zmax="-10618"/>
+			<add x="-20126" y="-48433" zmin="-10968" zmax="-10618"/>
+			<add x="-21008" y="-48429" zmin="-10968" zmax="-10618"/>
+		</territory>
+	</spawn>
+	<!--Начальник Стражи Храма Level : 78 Territory : rune14_1916_31-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22153"/>
+		<territory>
+			<add x="-21002" y="-49661" zmin="-10968" zmax="-10618"/>
+			<add x="-20119" y="-49663" zmin="-10968" zmax="-10618"/>
+			<add x="-20126" y="-48433" zmin="-10968" zmax="-10618"/>
+			<add x="-21008" y="-48429" zmin="-10968" zmax="-10618"/>
+		</territory>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_31-->
+	<spawn count="4" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-21002" y="-49661" zmin="-10968" zmax="-10618"/>
+			<add x="-20119" y="-49663" zmin="-10968" zmax="-10618"/>
+			<add x="-20126" y="-48433" zmin="-10968" zmax="-10618"/>
+			<add x="-21008" y="-48429" zmin="-10968" zmax="-10618"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_31-->
+	<spawn count="2" respawn="600" respawn_random="400" period_of_day="none">
+		<npc id="22154"/>
+		<territory>
+			<add x="-21002" y="-49661" zmin="-10968" zmax="-10618"/>
+			<add x="-20119" y="-49663" zmin="-10968" zmax="-10618"/>
+			<add x="-20126" y="-48433" zmin="-10968" zmax="-10618"/>
+			<add x="-21008" y="-48429" zmin="-10968" zmax="-10618"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_32-->
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22151"/>
+		<point x="-15178" y="-49165" z="-10912" h="0"/>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_32-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-15564" y="-49623" zmin="-10958" zmax="-10608"/>
+			<add x="-14693" y="-49625" zmin="-10958" zmax="-10608"/>
+			<add x="-14690" y="-48369" zmin="-10958" zmax="-10608"/>
+			<add x="-15738" y="-48365" zmin="-10958" zmax="-10608"/>
+		</territory>
+	</spawn>
+	<!--Начальник Стражи Храма Level : 78 Territory : rune14_1916_32-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22153"/>
+		<territory>
+			<add x="-15564" y="-49623" zmin="-10958" zmax="-10608"/>
+			<add x="-14693" y="-49625" zmin="-10958" zmax="-10608"/>
+			<add x="-14690" y="-48369" zmin="-10958" zmax="-10608"/>
+			<add x="-15738" y="-48365" zmin="-10958" zmax="-10608"/>
+		</territory>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_32-->
+	<spawn count="4" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-15564" y="-49623" zmin="-10958" zmax="-10608"/>
+			<add x="-14693" y="-49625" zmin="-10958" zmax="-10608"/>
+			<add x="-14690" y="-48369" zmin="-10958" zmax="-10608"/>
+			<add x="-15738" y="-48365" zmin="-10958" zmax="-10608"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_32-->
+	<spawn count="2" respawn="600" respawn_random="400" period_of_day="none">
+		<npc id="22154"/>
+		<territory>
+			<add x="-15564" y="-49623" zmin="-10958" zmax="-10608"/>
+			<add x="-14693" y="-49625" zmin="-10958" zmax="-10608"/>
+			<add x="-14690" y="-48369" zmin="-10958" zmax="-10608"/>
+			<add x="-15738" y="-48365" zmin="-10958" zmax="-10608"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_33-->
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22151"/>
+		<point x="-13679" y="-49431" z="-10912" h="0"/>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_33-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-14241" y="-49938" zmin="-10965" zmax="-10615"/>
+			<add x="-13192" y="-49940" zmin="-10965" zmax="-10615"/>
+			<add x="-13194" y="-48725" zmin="-10965" zmax="-10615"/>
+			<add x="-14242" y="-48721" zmin="-10965" zmax="-10615"/>
+		</territory>
+	</spawn>
+	<!--Начальник Стражи Храма Level : 78 Territory : rune14_1916_33-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22153"/>
+		<territory>
+			<add x="-14241" y="-49938" zmin="-10965" zmax="-10615"/>
+			<add x="-13192" y="-49940" zmin="-10965" zmax="-10615"/>
+			<add x="-13194" y="-48725" zmin="-10965" zmax="-10615"/>
+			<add x="-14242" y="-48721" zmin="-10965" zmax="-10615"/>
+		</territory>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_33-->
+	<spawn count="4" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-14241" y="-49938" zmin="-10965" zmax="-10615"/>
+			<add x="-13192" y="-49940" zmin="-10965" zmax="-10615"/>
+			<add x="-13194" y="-48725" zmin="-10965" zmax="-10615"/>
+			<add x="-14242" y="-48721" zmin="-10965" zmax="-10615"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_33-->
+	<spawn count="2" respawn="600" respawn_random="400" period_of_day="none">
+		<npc id="22154"/>
+		<territory>
+			<add x="-14241" y="-49938" zmin="-10965" zmax="-10615"/>
+			<add x="-13192" y="-49940" zmin="-10965" zmax="-10615"/>
+			<add x="-13194" y="-48725" zmin="-10965" zmax="-10615"/>
+			<add x="-14242" y="-48721" zmin="-10965" zmax="-10615"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_34-->
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22151"/>
+		<point x="-12089" y="-49226" z="-10912" h="0"/>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_34-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-12651" y="-49690" zmin="-10965" zmax="-10615"/>
+			<add x="-11764" y="-49684" zmin="-10965" zmax="-10615"/>
+			<add x="-11764" y="-48423" zmin="-10965" zmax="-10615"/>
+			<add x="-12649" y="-48427" zmin="-10965" zmax="-10615"/>
+		</territory>
+	</spawn>
+	<!--Начальник Стражи Храма Level : 78 Territory : rune14_1916_34-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22153"/>
+		<territory>
+			<add x="-12651" y="-49690" zmin="-10965" zmax="-10615"/>
+			<add x="-11764" y="-49684" zmin="-10965" zmax="-10615"/>
+			<add x="-11764" y="-48423" zmin="-10965" zmax="-10615"/>
+			<add x="-12649" y="-48427" zmin="-10965" zmax="-10615"/>
+		</territory>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_34-->
+	<spawn count="4" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-12651" y="-49690" zmin="-10965" zmax="-10615"/>
+			<add x="-11764" y="-49684" zmin="-10965" zmax="-10615"/>
+			<add x="-11764" y="-48423" zmin="-10965" zmax="-10615"/>
+			<add x="-12649" y="-48427" zmin="-10965" zmax="-10615"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_34-->
+	<spawn count="2" respawn="600" respawn_random="400" period_of_day="none">
+		<npc id="22154"/>
+		<territory>
+			<add x="-12651" y="-49690" zmin="-10965" zmax="-10615"/>
+			<add x="-11764" y="-49684" zmin="-10965" zmax="-10615"/>
+			<add x="-11764" y="-48423" zmin="-10965" zmax="-10615"/>
+			<add x="-12649" y="-48427" zmin="-10965" zmax="-10615"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_35-->
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22151"/>
+		<point x="-18976" y="-51454" z="-11008" h="0"/>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_35-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-19538" y="-51961" zmin="-11075" zmax="-10725"/>
+			<add x="-18488" y="-51963" zmin="-11075" zmax="-10725"/>
+			<add x="-18496" y="-50817" zmin="-11075" zmax="-10725"/>
+			<add x="-19544" y="-50813" zmin="-11075" zmax="-10725"/>
+		</territory>
+	</spawn>
+	<!--Начальник Стражи Храма Level : 78 Territory : rune14_1916_35-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22153"/>
+		<territory>
+			<add x="-19538" y="-51961" zmin="-11075" zmax="-10725"/>
+			<add x="-18488" y="-51963" zmin="-11075" zmax="-10725"/>
+			<add x="-18496" y="-50817" zmin="-11075" zmax="-10725"/>
+			<add x="-19544" y="-50813" zmin="-11075" zmax="-10725"/>
+		</territory>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_35-->
+	<spawn count="4" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-19538" y="-51961" zmin="-11075" zmax="-10725"/>
+			<add x="-18488" y="-51963" zmin="-11075" zmax="-10725"/>
+			<add x="-18496" y="-50817" zmin="-11075" zmax="-10725"/>
+			<add x="-19544" y="-50813" zmin="-11075" zmax="-10725"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_35-->
+	<spawn count="2" respawn="600" respawn_random="400" period_of_day="none">
+		<npc id="22154"/>
+		<territory>
+			<add x="-19538" y="-51961" zmin="-11075" zmax="-10725"/>
+			<add x="-18488" y="-51963" zmin="-11075" zmax="-10725"/>
+			<add x="-18496" y="-50817" zmin="-11075" zmax="-10725"/>
+			<add x="-19544" y="-50813" zmin="-11075" zmax="-10725"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_36-->
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22151"/>
+		<point x="-20488" y="-51386" z="-11008" h="0"/>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_36-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-21012" y="-51687" zmin="-11075" zmax="-10725"/>
+			<add x="-20106" y="-51687" zmin="-11075" zmax="-10725"/>
+			<add x="-20113" y="-50589" zmin="-11075" zmax="-10725"/>
+			<add x="-21018" y="-50587" zmin="-11075" zmax="-10725"/>
+		</territory>
+	</spawn>
+	<!--Начальник Стражи Храма Level : 78 Territory : rune14_1916_36-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22153"/>
+		<territory>
+			<add x="-21012" y="-51687" zmin="-11075" zmax="-10725"/>
+			<add x="-20106" y="-51687" zmin="-11075" zmax="-10725"/>
+			<add x="-20113" y="-50589" zmin="-11075" zmax="-10725"/>
+			<add x="-21018" y="-50587" zmin="-11075" zmax="-10725"/>
+		</territory>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_36-->
+	<spawn count="4" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-21012" y="-51687" zmin="-11075" zmax="-10725"/>
+			<add x="-20106" y="-51687" zmin="-11075" zmax="-10725"/>
+			<add x="-20113" y="-50589" zmin="-11075" zmax="-10725"/>
+			<add x="-21018" y="-50587" zmin="-11075" zmax="-10725"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_36-->
+	<spawn count="2" respawn="600" respawn_random="400" period_of_day="none">
+		<npc id="22154"/>
+		<territory>
+			<add x="-21012" y="-51687" zmin="-11075" zmax="-10725"/>
+			<add x="-20106" y="-51687" zmin="-11075" zmax="-10725"/>
+			<add x="-20113" y="-50589" zmin="-11075" zmax="-10725"/>
+			<add x="-21018" y="-50587" zmin="-11075" zmax="-10725"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_37-->
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22151"/>
+		<point x="-13741" y="-51489" z="-11008" h="0"/>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_37-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-14303" y="-51996" zmin="-11062" zmax="-10712"/>
+			<add x="-13253" y="-51998" zmin="-11062" zmax="-10712"/>
+			<add x="-13255" y="-50783" zmin="-11062" zmax="-10712"/>
+			<add x="-14303" y="-50779" zmin="-11062" zmax="-10712"/>
+		</territory>
+	</spawn>
+	<!--Начальник Стражи Храма Level : 78 Territory : rune14_1916_37-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22153"/>
+		<territory>
+			<add x="-14303" y="-51996" zmin="-11062" zmax="-10712"/>
+			<add x="-13253" y="-51998" zmin="-11062" zmax="-10712"/>
+			<add x="-13255" y="-50783" zmin="-11062" zmax="-10712"/>
+			<add x="-14303" y="-50779" zmin="-11062" zmax="-10712"/>
+		</territory>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_37-->
+	<spawn count="4" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-14303" y="-51996" zmin="-11062" zmax="-10712"/>
+			<add x="-13253" y="-51998" zmin="-11062" zmax="-10712"/>
+			<add x="-13255" y="-50783" zmin="-11062" zmax="-10712"/>
+			<add x="-14303" y="-50779" zmin="-11062" zmax="-10712"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_37-->
+	<spawn count="2" respawn="600" respawn_random="400" period_of_day="none">
+		<npc id="22154"/>
+		<territory>
+			<add x="-14303" y="-51996" zmin="-11062" zmax="-10712"/>
+			<add x="-13253" y="-51998" zmin="-11062" zmax="-10712"/>
+			<add x="-13255" y="-50783" zmin="-11062" zmax="-10712"/>
+			<add x="-14303" y="-50779" zmin="-11062" zmax="-10712"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_38-->
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22151"/>
+		<point x="-12080" y="-51308" z="-11008" h="0"/>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_38-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-12642" y="-51771" zmin="-11064" zmax="-10714"/>
+			<add x="-11763" y="-51768" zmin="-11064" zmax="-10714"/>
+			<add x="-11763" y="-50507" zmin="-11064" zmax="-10714"/>
+			<add x="-12640" y="-50508" zmin="-11064" zmax="-10714"/>
+		</territory>
+	</spawn>
+	<!--Начальник Стражи Храма Level : 78 Territory : rune14_1916_38-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="22153"/>
+		<territory>
+			<add x="-12642" y="-51771" zmin="-11064" zmax="-10714"/>
+			<add x="-11763" y="-51768" zmin="-11064" zmax="-10714"/>
+			<add x="-11763" y="-50507" zmin="-11064" zmax="-10714"/>
+			<add x="-12640" y="-50508" zmin="-11064" zmax="-10714"/>
+		</territory>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_38-->
+	<spawn count="4" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-12642" y="-51771" zmin="-11064" zmax="-10714"/>
+			<add x="-11763" y="-51768" zmin="-11064" zmax="-10714"/>
+			<add x="-11763" y="-50507" zmin="-11064" zmax="-10714"/>
+			<add x="-12640" y="-50508" zmin="-11064" zmax="-10714"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_38-->
+	<spawn count="2" respawn="600" respawn_random="400" period_of_day="none">
+		<npc id="22154"/>
+		<territory>
+			<add x="-12642" y="-51771" zmin="-11064" zmax="-10714"/>
+			<add x="-11763" y="-51768" zmin="-11064" zmax="-10714"/>
+			<add x="-11763" y="-50507" zmin="-11064" zmax="-10714"/>
+			<add x="-12640" y="-50508" zmin="-11064" zmax="-10714"/>
+		</territory>
+	</spawn>
+	<!--Верховный Жрец Тироля Level : 78 Territory : rune14_1916_39-->
+	<spawn count="1" respawn="100" respawn_random="40" period_of_day="none">
+		<npc id="22155">
+			<set name="privates" value="22156:1:0;22156:1:0;22157:1:0;22158:1:0"/>
+		</npc>
+		<territory>
+			<add x="-20580" y="-52990" zmin="-10974" zmax="-10674"/>
+			<add x="-19621" y="-52991" zmin="-10974" zmax="-10674"/>
+			<add x="-19622" y="-52373" zmin="-10974" zmax="-10674"/>
+			<add x="-20578" y="-52372" zmin="-10974" zmax="-10674"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_39-->
+	<spawn count="1" respawn="420" respawn_random="220" period_of_day="none">
+		<npc id="22154"/>
+		<territory>
+			<add x="-20580" y="-52990" zmin="-10974" zmax="-10674"/>
+			<add x="-19621" y="-52991" zmin="-10974" zmax="-10674"/>
+			<add x="-19622" y="-52373" zmin="-10974" zmax="-10674"/>
+			<add x="-20578" y="-52372" zmin="-10974" zmax="-10674"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_39-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22151"/>
+		<territory>
+			<add x="-20580" y="-52990" zmin="-10974" zmax="-10674"/>
+			<add x="-19621" y="-52991" zmin="-10974" zmax="-10674"/>
+			<add x="-19622" y="-52373" zmin="-10974" zmax="-10674"/>
+			<add x="-20578" y="-52372" zmin="-10974" zmax="-10674"/>
+		</territory>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_39-->
+	<spawn count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22147"/>
+		<territory>
+			<add x="-20580" y="-52990" zmin="-10974" zmax="-10674"/>
+			<add x="-19621" y="-52991" zmin="-10974" zmax="-10674"/>
+			<add x="-19622" y="-52373" zmin="-10974" zmax="-10674"/>
+			<add x="-20578" y="-52372" zmin="-10974" zmax="-10674"/>
+		</territory>
+	</spawn>
+	<!--Верховный Жрец Тироля Level : 78 Territory : rune14_1916_40-->
+	<spawn count="1" respawn="100" respawn_random="40" period_of_day="none">
+		<npc id="22155">
+			<set name="privates" value="22156:1:0;22156:1:0;22157:1:0;22158:1:0"/>
+		</npc>
+		<territory>
+			<add x="-20601" y="-54679" zmin="-11170" zmax="-10870"/>
+			<add x="-19642" y="-54680" zmin="-11170" zmax="-10870"/>
+			<add x="-19643" y="-54062" zmin="-11170" zmax="-10870"/>
+			<add x="-20599" y="-54061" zmin="-11170" zmax="-10870"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_40-->
+	<spawn count="1" respawn="420" respawn_random="220" period_of_day="none">
+		<npc id="22154"/>
+		<territory>
+			<add x="-20601" y="-54679" zmin="-11170" zmax="-10870"/>
+			<add x="-19642" y="-54680" zmin="-11170" zmax="-10870"/>
+			<add x="-19643" y="-54062" zmin="-11170" zmax="-10870"/>
+			<add x="-20599" y="-54061" zmin="-11170" zmax="-10870"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_40-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22151"/>
+		<territory>
+			<add x="-20601" y="-54679" zmin="-11170" zmax="-10870"/>
+			<add x="-19642" y="-54680" zmin="-11170" zmax="-10870"/>
+			<add x="-19643" y="-54062" zmin="-11170" zmax="-10870"/>
+			<add x="-20599" y="-54061" zmin="-11170" zmax="-10870"/>
+		</territory>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_40-->
+	<spawn count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-20601" y="-54679" zmin="-11170" zmax="-10870"/>
+			<add x="-19642" y="-54680" zmin="-11170" zmax="-10870"/>
+			<add x="-19643" y="-54062" zmin="-11170" zmax="-10870"/>
+			<add x="-20599" y="-54061" zmin="-11170" zmax="-10870"/>
+		</territory>
+	</spawn>
+	<!--Начальник Стражи Храма Level : 78 Territory : rune14_1916_40-->
+	<spawn count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22153"/>
+		<territory>
+			<add x="-20601" y="-54679" zmin="-11170" zmax="-10870"/>
+			<add x="-19642" y="-54680" zmin="-11170" zmax="-10870"/>
+			<add x="-19643" y="-54062" zmin="-11170" zmax="-10870"/>
+			<add x="-20599" y="-54061" zmin="-11170" zmax="-10870"/>
+		</territory>
+	</spawn>
+	<!--Верховный Жрец Тироля Level : 78 Territory : rune14_1916_41-->
+	<spawn count="1" respawn="100" respawn_random="40" period_of_day="none">
+		<npc id="22155">
+			<set name="privates" value="22156:1:0;22156:1:0;22157:1:0;22158:1:0"/>
+		</npc>
+		<territory>
+			<add x="-13173" y="-52984" zmin="-10974" zmax="-10674"/>
+			<add x="-12214" y="-52985" zmin="-10974" zmax="-10674"/>
+			<add x="-12215" y="-52367" zmin="-10974" zmax="-10674"/>
+			<add x="-13171" y="-52366" zmin="-10974" zmax="-10674"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_41-->
+	<spawn count="1" respawn="420" respawn_random="220" period_of_day="none">
+		<npc id="22154"/>
+		<territory>
+			<add x="-13173" y="-52984" zmin="-10974" zmax="-10674"/>
+			<add x="-12214" y="-52985" zmin="-10974" zmax="-10674"/>
+			<add x="-12215" y="-52367" zmin="-10974" zmax="-10674"/>
+			<add x="-13171" y="-52366" zmin="-10974" zmax="-10674"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_41-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22151"/>
+		<territory>
+			<add x="-13173" y="-52984" zmin="-10974" zmax="-10674"/>
+			<add x="-12214" y="-52985" zmin="-10974" zmax="-10674"/>
+			<add x="-12215" y="-52367" zmin="-10974" zmax="-10674"/>
+			<add x="-13171" y="-52366" zmin="-10974" zmax="-10674"/>
+		</territory>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_41-->
+	<spawn count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22147"/>
+		<territory>
+			<add x="-13173" y="-52984" zmin="-10974" zmax="-10674"/>
+			<add x="-12214" y="-52985" zmin="-10974" zmax="-10674"/>
+			<add x="-12215" y="-52367" zmin="-10974" zmax="-10674"/>
+			<add x="-13171" y="-52366" zmin="-10974" zmax="-10674"/>
+		</territory>
+	</spawn>
+	<!--Верховный Жрец Тироля Level : 78 Territory : rune14_1916_42-->
+	<spawn count="1" respawn="100" respawn_random="40" period_of_day="none">
+		<npc id="22155">
+			<set name="privates" value="22156:1:0;22156:1:0;22157:1:0;22158:1:0"/>
+		</npc>
+		<territory>
+			<add x="-13123" y="-54687" zmin="-11170" zmax="-10870"/>
+			<add x="-12164" y="-54688" zmin="-11170" zmax="-10870"/>
+			<add x="-12165" y="-54070" zmin="-11170" zmax="-10870"/>
+			<add x="-13121" y="-54069" zmin="-11170" zmax="-10870"/>
+		</territory>
+	</spawn>
+	<!--Ритуальная Жертва Level : 78 Territory : rune14_1916_42-->
+	<spawn count="1" respawn="420" respawn_random="220" period_of_day="none">
+		<npc id="22154"/>
+		<territory>
+			<add x="-13123" y="-54687" zmin="-11170" zmax="-10870"/>
+			<add x="-12164" y="-54688" zmin="-11170" zmax="-10870"/>
+			<add x="-12165" y="-54070" zmin="-11170" zmax="-10870"/>
+			<add x="-13121" y="-54069" zmin="-11170" zmax="-10870"/>
+		</territory>
+	</spawn>
+	<!--Жрец Тироля Level : 78 Territory : rune14_1916_42-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22151"/>
+		<territory>
+			<add x="-13123" y="-54687" zmin="-11170" zmax="-10870"/>
+			<add x="-12164" y="-54688" zmin="-11170" zmax="-10870"/>
+			<add x="-12165" y="-54070" zmin="-11170" zmax="-10870"/>
+			<add x="-13121" y="-54069" zmin="-11170" zmax="-10870"/>
+		</territory>
+	</spawn>
+	<!--Страж Храма Level : 78 Territory : rune14_1916_42-->
+	<spawn count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22152"/>
+		<territory>
+			<add x="-13123" y="-54687" zmin="-11170" zmax="-10870"/>
+			<add x="-12164" y="-54688" zmin="-11170" zmax="-10870"/>
+			<add x="-12165" y="-54070" zmin="-11170" zmax="-10870"/>
+			<add x="-13121" y="-54069" zmin="-11170" zmax="-10870"/>
+		</territory>
+	</spawn>
+	<!--Начальник Стражи Храма Level : 78 Territory : rune14_1916_42-->
+	<spawn count="2" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22153"/>
+		<territory>
+			<add x="-13123" y="-54687" zmin="-11170" zmax="-10870"/>
+			<add x="-12164" y="-54688" zmin="-11170" zmax="-10870"/>
+			<add x="-12165" y="-54070" zmin="-11170" zmax="-10870"/>
+			<add x="-13121" y="-54069" zmin="-11170" zmax="-10870"/>
+		</territory>
+	</spawn>
+	<!--Верховный Жрец Тироля Level : 78 Territory : rune14_1916_43;rune14_1916_44-->
+	<spawn count="2" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22155">
+			<set name="privates" value="22156:1:0;22156:1:0;22157:1:0;22158:1:0"/>
+		</npc>
+		<territory>
+			<add x="-17720" y="-54900" zmin="-11627" zmax="-11277"/>
+			<add x="-16402" y="-54902" zmin="-11627" zmax="-11277"/>
+			<add x="-16417" y="-52878" zmin="-11627" zmax="-11277"/>
+			<add x="-18127" y="-52876" zmin="-11627" zmax="-11277"/>
+			<add x="-18136" y="-54120" zmin="-11627" zmax="-11277"/>
+		</territory>
+		<territory>
+			<add x="-15081" y="-54893" zmin="-11627" zmax="-11277"/>
+			<add x="-14595" y="-54156" zmin="-11627" zmax="-11277"/>
+			<add x="-14652" y="-52880" zmin="-11627" zmax="-11277"/>
+			<add x="-16452" y="-52881" zmin="-11627" zmax="-11277"/>
+			<add x="-16440" y="-54907" zmin="-11627" zmax="-11277"/>
+		</territory>
+	</spawn>
+	<!--Верховный Жрец Тироля Level : 78 Territory : rune14_1916_43;rune14_1916_44-->
+	<spawn count="2" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22159">
+			<set name="privates" value="22160:1:0;22161:1:0;22161:1:0;22162:1:0"/>
+		</npc>
+		<territory>
+			<add x="-17720" y="-54900" zmin="-11627" zmax="-11277"/>
+			<add x="-16402" y="-54902" zmin="-11627" zmax="-11277"/>
+			<add x="-16417" y="-52878" zmin="-11627" zmax="-11277"/>
+			<add x="-18127" y="-52876" zmin="-11627" zmax="-11277"/>
+			<add x="-18136" y="-54120" zmin="-11627" zmax="-11277"/>
+		</territory>
+		<territory>
+			<add x="-15081" y="-54893" zmin="-11627" zmax="-11277"/>
+			<add x="-14595" y="-54156" zmin="-11627" zmax="-11277"/>
+			<add x="-14652" y="-52880" zmin="-11627" zmax="-11277"/>
+			<add x="-16452" y="-52881" zmin="-11627" zmax="-11277"/>
+			<add x="-16440" y="-54907" zmin="-11627" zmax="-11277"/>
+		</territory>
+	</spawn>
+	<!--Верховный Жрец Тироля Level : 78 Territory : rune14_1916_43;rune14_1916_44-->
+	<spawn count="2" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22163">
+			<set name="privates" value="22164:1:0;22164:1:0;22165:1:0;22166:1:0"/>
+		</npc>
+		<territory>
+			<add x="-17720" y="-54900" zmin="-11627" zmax="-11277"/>
+			<add x="-16402" y="-54902" zmin="-11627" zmax="-11277"/>
+			<add x="-16417" y="-52878" zmin="-11627" zmax="-11277"/>
+			<add x="-18127" y="-52876" zmin="-11627" zmax="-11277"/>
+			<add x="-18136" y="-54120" zmin="-11627" zmax="-11277"/>
+		</territory>
+		<territory>
+			<add x="-15081" y="-54893" zmin="-11627" zmax="-11277"/>
+			<add x="-14595" y="-54156" zmin="-11627" zmax="-11277"/>
+			<add x="-14652" y="-52880" zmin="-11627" zmax="-11277"/>
+			<add x="-16452" y="-52881" zmin="-11627" zmax="-11277"/>
+			<add x="-16440" y="-54907" zmin="-11627" zmax="-11277"/>
+		</territory>
+	</spawn>
+	<!--Верховный Жрец Тироля Level : 78 Territory : rune14_1916_43;rune14_1916_44-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22167">
+			<set name="privates" value="22168:1:0;22169:1:0;22170:1:0;22170:1:0"/>
+		</npc>
+		<territory>
+			<add x="-17720" y="-54900" zmin="-11627" zmax="-11277"/>
+			<add x="-16402" y="-54902" zmin="-11627" zmax="-11277"/>
+			<add x="-16417" y="-52878" zmin="-11627" zmax="-11277"/>
+			<add x="-18127" y="-52876" zmin="-11627" zmax="-11277"/>
+			<add x="-18136" y="-54120" zmin="-11627" zmax="-11277"/>
+		</territory>
+		<territory>
+			<add x="-15081" y="-54893" zmin="-11627" zmax="-11277"/>
+			<add x="-14595" y="-54156" zmin="-11627" zmax="-11277"/>
+			<add x="-14652" y="-52880" zmin="-11627" zmax="-11277"/>
+			<add x="-16452" y="-52881" zmin="-11627" zmax="-11277"/>
+			<add x="-16440" y="-54907" zmin="-11627" zmax="-11277"/>
+		</territory>
+	</spawn>
+	<!--Верховный Жрец Тироля Level : 78 Territory : rune14_1916_43;rune14_1916_44-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22171">
+			<set name="privates" value="22172:1:0;22172:1:0;22173:1:0;22174:1:0"/>
+		</npc>
+		<territory>
+			<add x="-17720" y="-54900" zmin="-11627" zmax="-11277"/>
+			<add x="-16402" y="-54902" zmin="-11627" zmax="-11277"/>
+			<add x="-16417" y="-52878" zmin="-11627" zmax="-11277"/>
+			<add x="-18127" y="-52876" zmin="-11627" zmax="-11277"/>
+			<add x="-18136" y="-54120" zmin="-11627" zmax="-11277"/>
+		</territory>
+		<territory>
+			<add x="-15081" y="-54893" zmin="-11627" zmax="-11277"/>
+			<add x="-14595" y="-54156" zmin="-11627" zmax="-11277"/>
+			<add x="-14652" y="-52880" zmin="-11627" zmax="-11277"/>
+			<add x="-16452" y="-52881" zmin="-11627" zmax="-11277"/>
+			<add x="-16440" y="-54907" zmin="-11627" zmax="-11277"/>
+		</territory>
+	</spawn>
+	<!--Верховный Жрец Тироля Level : 78 Territory : rune14_1916_48;rune14_1916_91;rune14_1916_92-->
+	<spawn count="1" respawn="90" respawn_random="50" period_of_day="none">
+		<npc id="22167">
+			<set name="privates" value="22168:1:0;22169:1:0;22170:1:0;22170:1:0"/>
+		</npc>
+		<rndPoints>
+			<randomPoint x="-15009" y="-57012" z="-10851" h="0" chance="33"/>
+			<randomPoint x="-16422" y="-56497" z="-10851" h="0" chance="33"/>
+			<randomPoint x="-17868" y="-56511" z="-10851" h="0" chance="34"/>
+		</rndPoints>
+	</spawn>
+	<!--Верховный Жрец Тироля Level : 78 Territory : rune14_1916_48;rune14_1916_91;rune14_1916_92-->
+	<spawn count="1" respawn="90" respawn_random="50" period_of_day="none">
+		<npc id="22171">
+			<set name="privates" value="22172:1:0;22172:1:0;22173:1:0;22174:1:0"/>
+		</npc>
+		<rndPoints>
+			<randomPoint x="-17681" y="-57028" z="-10851" h="0" chance="33"/>
+			<randomPoint x="-16710" y="-56761" z="-10851" h="0" chance="33"/>
+			<randomPoint x="-15518" y="-56630" z="-10851" h="0" chance="34"/>
+		</rndPoints>
+	</spawn>
+	<!--Верховный Жрец Тироля Level : 78 Territory : rune14_1916_48;rune14_1916_91;rune14_1916_92-->
+	<spawn count="1" respawn="60" respawn_random="40" period_of_day="none">
+		<npc id="22155">
+			<set name="privates" value="22156:1:0;22156:1:0;22157:1:0;22158:1:0"/>
+		</npc>
+		<territory>
+			<add x="-18116" y="-57241" zmin="-10890" zmax="-10590"/>
+			<add x="-14637" y="-57250" zmin="-10890" zmax="-10590"/>
+			<add x="-14634" y="-56273" zmin="-10890" zmax="-10590"/>
+			<add x="-18155" y="-56273" zmin="-10890" zmax="-10590"/>
+		</territory>
+		<territory>
+			<add x="-19055" y="-57207" zmin="-10901" zmax="-10701"/>
+			<add x="-18089" y="-57205" zmin="-10901" zmax="-10701"/>
+			<add x="-18086" y="-56870" zmin="-10901" zmax="-10701"/>
+			<add x="-19055" y="-56873" zmin="-10901" zmax="-10701"/>
+		</territory>
+		<territory>
+			<add x="-14696" y="-57210" zmin="-10900" zmax="-10700"/>
+			<add x="-13728" y="-57208" zmin="-10900" zmax="-10700"/>
+			<add x="-13760" y="-56872" zmin="-10900" zmax="-10700"/>
+			<add x="-14698" y="-56866" zmin="-10900" zmax="-10700"/>
+		</territory>
+	</spawn>
+	<!--Верховный Жрец Тироля Level : 78 Territory : rune14_1916_48;rune14_1916_91;rune14_1916_92-->
+	<spawn count="2" respawn="90" respawn_random="50" period_of_day="none">
+		<npc id="22159">
+			<set name="privates" value="22160:1:0;22161:1:0;22161:1:0;22162:1:0"/>
+		</npc>
+		<territory>
+			<add x="-18116" y="-57241" zmin="-10890" zmax="-10590"/>
+			<add x="-14637" y="-57250" zmin="-10890" zmax="-10590"/>
+			<add x="-14634" y="-56273" zmin="-10890" zmax="-10590"/>
+			<add x="-18155" y="-56273" zmin="-10890" zmax="-10590"/>
+		</territory>
+		<territory>
+			<add x="-19055" y="-57207" zmin="-10901" zmax="-10701"/>
+			<add x="-18089" y="-57205" zmin="-10901" zmax="-10701"/>
+			<add x="-18086" y="-56870" zmin="-10901" zmax="-10701"/>
+			<add x="-19055" y="-56873" zmin="-10901" zmax="-10701"/>
+		</territory>
+		<territory>
+			<add x="-14696" y="-57210" zmin="-10900" zmax="-10700"/>
+			<add x="-13728" y="-57208" zmin="-10900" zmax="-10700"/>
+			<add x="-13760" y="-56872" zmin="-10900" zmax="-10700"/>
+			<add x="-14698" y="-56866" zmin="-10900" zmax="-10700"/>
+		</territory>
+	</spawn>
+	<!--Верховный Жрец Тироля Level : 78 Territory : rune14_1916_48;rune14_1916_91;rune14_1916_92-->
+	<spawn count="2" respawn="90" respawn_random="50" period_of_day="none">
+		<npc id="22163">
+			<set name="privates" value="22164:1:0;22164:1:0;22165:1:0;22166:1:0"/>
+		</npc>
+		<territory>
+			<add x="-18116" y="-57241" zmin="-10890" zmax="-10590"/>
+			<add x="-14637" y="-57250" zmin="-10890" zmax="-10590"/>
+			<add x="-14634" y="-56273" zmin="-10890" zmax="-10590"/>
+			<add x="-18155" y="-56273" zmin="-10890" zmax="-10590"/>
+		</territory>
+		<territory>
+			<add x="-19055" y="-57207" zmin="-10901" zmax="-10701"/>
+			<add x="-18089" y="-57205" zmin="-10901" zmax="-10701"/>
+			<add x="-18086" y="-56870" zmin="-10901" zmax="-10701"/>
+			<add x="-19055" y="-56873" zmin="-10901" zmax="-10701"/>
+		</territory>
+		<territory>
+			<add x="-14696" y="-57210" zmin="-10900" zmax="-10700"/>
+			<add x="-13728" y="-57208" zmin="-10900" zmax="-10700"/>
+			<add x="-13760" y="-56872" zmin="-10900" zmax="-10700"/>
+			<add x="-14698" y="-56866" zmin="-10900" zmax="-10700"/>
+		</territory>
+	</spawn>
+	<!--Зомби Рабочий Level : 78 Territory : rune14_1916_75-->
+	<spawn count="3" respawn="1800" respawn_random="600" period_of_day="none">
+		<npc id="22140"/>
+		<territory>
+			<add x="-17768" y="-42146" zmin="-10768" zmax="-10418"/>
+			<add x="-14964" y="-42091" zmin="-10768" zmax="-10418"/>
+			<add x="-14945" y="-39386" zmin="-10768" zmax="-10418"/>
+			<add x="-17734" y="-39403" zmin="-10768" zmax="-10418"/>
+		</territory>
+	</spawn>
+	<!--Ритуальное Подношение Level : 78 Territory : rune14_1916_75-->
+	<spawn count="3" respawn="1800" respawn_random="600" period_of_day="none">
+		<npc id="22149"/>
+		<territory>
+			<add x="-17768" y="-42146" zmin="-10768" zmax="-10418"/>
+			<add x="-14964" y="-42091" zmin="-10768" zmax="-10418"/>
+			<add x="-14945" y="-39386" zmin="-10768" zmax="-10418"/>
+			<add x="-17734" y="-39403" zmin="-10768" zmax="-10418"/>
+		</territory>
+	</spawn>
+	<!--Зомби Рабочий Level : 78 Territory : rune14_1916_51-->
+	<spawn count="3" respawn="800" respawn_random="200" period_of_day="none">
+		<npc id="22140"/>
+		<territory>
+			<add x="-18857" y="-38081" zmin="-10771" zmax="-10421"/>
+			<add x="-17661" y="-38081" zmin="-10771" zmax="-10421"/>
+			<add x="-17662" y="-37832" zmin="-10771" zmax="-10421"/>
+			<add x="-18856" y="-37831" zmin="-10771" zmax="-10421"/>
+		</territory>
+	</spawn>
+	<!--Зомби Рабочий Level : 78 Territory : rune14_1916_62-->
+	<spawn count="3" respawn="800" respawn_random="200" period_of_day="none">
+		<npc id="22140"/>
+		<territory>
+			<add x="-18817" y="-43681" zmin="-10766" zmax="-10466"/>
+			<add x="-17655" y="-43681" zmin="-10766" zmax="-10466"/>
+			<add x="-17655" y="-43418" zmin="-10766" zmax="-10466"/>
+			<add x="-18817" y="-43419" zmin="-10766" zmax="-10466"/>
+		</territory>
+	</spawn>
+	<!--Зомби Рабочий Level : 78 Territory : rune14_1916_63-->
+	<spawn count="3" respawn="800" respawn_random="200" period_of_day="none">
+		<npc id="22140"/>
+		<territory>
+			<add x="-14976" y="-43684" zmin="-10766" zmax="-10466"/>
+			<add x="-13815" y="-43684" zmin="-10766" zmax="-10466"/>
+			<add x="-13815" y="-43422" zmin="-10766" zmax="-10466"/>
+			<add x="-14976" y="-43422" zmin="-10766" zmax="-10466"/>
+		</territory>
+	</spawn>
+	<!--Зомби Рабочий Level : 78 Territory : rune14_1916_64-->
+	<spawn count="3" respawn="800" respawn_random="200" period_of_day="none">
+		<npc id="22140"/>
+		<territory>
+			<add x="-15013" y="-38073" zmin="-10771" zmax="-10421"/>
+			<add x="-13817" y="-38073" zmin="-10771" zmax="-10421"/>
+			<add x="-13819" y="-37823" zmin="-10771" zmax="-10421"/>
+			<add x="-15013" y="-37822" zmin="-10771" zmax="-10421"/>
+		</territory>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_52-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-21520" y="-37855" z="-10804" h="0"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_52-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-21520" y="-37920" z="-10804" h="0"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_52-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-21520" y="-37984" z="-10804" h="0"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_52-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-21520" y="-38052" z="-10804" h="0"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_53-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-21520" y="-39721" z="-10804" h="0"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_53-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-21520" y="-39787" z="-10804" h="0"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_53-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-21520" y="-39853" z="-10804" h="0"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_53-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-21520" y="-39918" z="-10804" h="0"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_54-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-21536" y="-41590" z="-10804" h="0"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_54-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-21536" y="-41656" z="-10804" h="0"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_54-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-21536" y="-41720" z="-10804" h="0"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_54-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-21536" y="-41783" z="-10804" h="0"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_55-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-21522" y="-43457" z="-10804" h="0"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_55-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-21522" y="-43526" z="-10804" h="0"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_55-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-21522" y="-43588" z="-10804" h="0"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_55-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-21522" y="-43656" z="-10804" h="0"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_56-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-20495" y="-42600" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_56-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-20429" y="-42600" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_56-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-20362" y="-42599" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_56-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-20297" y="-42598" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_57-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-19681" y="-40745" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_57-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-19613" y="-40745" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_57-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-19550" y="-40744" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_57-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-19486" y="-40743" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_58-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-20494" y="-38893" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_58-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-20428" y="-38893" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_58-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-20363" y="-38892" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_58-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-20296" y="-38891" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_59-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-23231" y="-38893" z="-10911" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_59-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-23166" y="-38892" z="-10911" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_59-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-23099" y="-38891" z="-10911" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_59-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-23031" y="-38891" z="-10911" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_60-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-22519" y="-40750" z="-10911" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_60-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-22453" y="-40750" z="-10911" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_60-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-22385" y="-40749" z="-10911" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_60-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-22320" y="-40748" z="-10911" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_61-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-23228" y="-42602" z="-10911" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_61-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-23163" y="-42601" z="-10911" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_61-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-23094" y="-42600" z="-10911" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_61-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-23027" y="-42600" z="-10911" h="49264"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_65-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-11196" y="-37849" z="-10818" h="32768"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_65-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-11196" y="-37914" z="-10818" h="32768"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_65-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-11196" y="-37981" z="-10818" h="32768"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_65-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-11196" y="-38048" z="-10818" h="32768"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_66-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-11195" y="-39717" z="-10818" h="32768"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_66-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-11195" y="-39783" z="-10818" h="32768"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_66-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-11195" y="-39847" z="-10818" h="32768"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_66-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-11195" y="-39917" z="-10818" h="32768"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_67-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-11197" y="-41589" z="-10818" h="32768"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_67-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-11197" y="-41654" z="-10818" h="32768"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_67-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-11197" y="-41720" z="-10818" h="32768"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_67-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-11197" y="-41786" z="-10818" h="32768"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_68-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-11200" y="-43454" z="-10818" h="32768"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_68-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-11200" y="-43520" z="-10818" h="32768"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_68-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-11200" y="-43587" z="-10818" h="32768"/>
+	</spawn>
+	<!--Стражник Возмездия Level : 78 Territory : rune14_1916_68-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22194"/>
+		<point x="-11200" y="-43652" z="-10818" h="32768"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_69-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-12441" y="-42594" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_69-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-12376" y="-42593" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_69-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-12311" y="-42593" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_69-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-12248" y="-42592" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_70-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-9693" y="-42612" z="-10909" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_70-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-9626" y="-42611" z="-10909" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_70-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-9559" y="-42610" z="-10909" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_70-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-9495" y="-42610" z="-10909" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_71-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-13241" y="-40727" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_71-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-13174" y="-40727" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_71-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-13106" y="-40726" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_71-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-13041" y="-40726" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_72-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-10409" y="-40756" z="-10909" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_72-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-10344" y="-40755" z="-10909" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_72-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-10279" y="-40754" z="-10909" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_72-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-10213" y="-40754" z="-10909" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_73-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-12429" y="-38897" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_73-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-12363" y="-38896" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_73-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-12296" y="-38895" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_73-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-12230" y="-38895" z="-10716" h="16384"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_74-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-9689" y="-38907" z="-10909" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_74-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-9624" y="-38907" z="-10909" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_74-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-9558" y="-38906" z="-10909" h="49264"/>
+	</spawn>
+	<!--Страж Комнаты Покаяния Level : 78 Territory : rune14_1916_74-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22137"/>
+		<point x="-9491" y="-38905" z="-10909" h="49264"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-19888" y="-45547" z="-10720" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-19888" y="-45619" z="-10720" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-19888" y="-45691" z="-10720" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-18324" y="-44438" z="-10720" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-18324" y="-44582" z="-10720" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-18324" y="-44516" z="-10720" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-14477" y="-44437" z="-10720" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-14477" y="-44511" z="-10720" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-14477" y="-44582" z="-10720" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-12929" y="-45549" z="-10720" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-12930" y="-45619" z="-10720" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-12929" y="-45688" z="-10720" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-19884" y="-47598" z="-10816" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-19885" y="-47667" z="-10816" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-19883" y="-47740" z="-10816" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-18329" y="-46501" z="-10816" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-18330" y="-46571" z="-10816" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-18329" y="-46643" z="-10816" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-14479" y="-46506" z="-10816" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-14480" y="-46576" z="-10816" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-14479" y="-46643" z="-10816" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-12925" y="-47599" z="-10816" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-12925" y="-47669" z="-10816" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-12925" y="-47740" z="-10816" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-19883" y="-49658" z="-10912" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-19884" y="-49719" z="-10912" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-19883" y="-49780" z="-10912" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-18340" y="-48560" z="-10912" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-18341" y="-48623" z="-10912" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-18340" y="-48684" z="-10912" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-14483" y="-48552" z="-10912" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-14484" y="-48620" z="-10912" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-14483" y="-48693" z="-10912" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-12922" y="-49647" z="-10912" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-12922" y="-49720" z="-10912" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-12922" y="-49787" z="-10912" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-19893" y="-51687" z="-11008" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-19894" y="-51759" z="-11008" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-19893" y="-51831" z="-11008" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-12928" y="-51686" z="-11008" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-12928" y="-51758" z="-11008" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-12928" y="-51830" z="-11008" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-16814" y="-45742" z="-10720" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-16814" y="-45827" z="-10720" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-16814" y="-45910" z="-10720" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-16814" y="-45993" z="-10720" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-15936" y="-45732" z="-10720" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-15936" y="-45813" z="-10720" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-15936" y="-45896" z="-10720" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-15936" y="-45976" z="-10720" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-16805" y="-47800" z="-10816" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-16805" y="-47879" z="-10816" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-16805" y="-47957" z="-10816" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-16805" y="-48037" z="-10816" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-15935" y="-47790" z="-10816" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-15936" y="-47868" z="-10816" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-15935" y="-47949" z="-10816" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-15935" y="-48028" z="-10816" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-16859" y="-49890" z="-10912" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-16896" y="-49967" z="-10912" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-16927" y="-50045" z="-10912" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-16952" y="-50127" z="-10912" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-15899" y="-49871" z="-10912" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-15870" y="-49949" z="-10912" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-15842" y="-50026" z="-10912" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-15812" y="-50107" z="-10912" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-18325" y="-50610" z="-11008" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-18326" y="-50684" z="-11008" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-18325" y="-50757" z="-11008" h="0"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-14466" y="-50612" z="-11008" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-14466" y="-50684" z="-11008" h="32768"/>
+	</spawn>
+	<!--Страж Часовни Level : 78 Territory : rune14_1916_77;rune14_1916_771;rune14_1916_772-->
+	<spawn count="1" respawn="90" respawn_random="40" period_of_day="none">
+		<npc id="22138"/>
+		<point x="-14466" y="-50759" z="-11008" h="32768"/>
+	</spawn>
+	<!--Откровение Тироля Level : 70 Territory : rune14_mb1916_02-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="32068"/>
+		<point x="-16395" y="-54055" z="-10439" h="15992"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-18008" y="-53394" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-17653" y="-53399" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-17827" y="-53575" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-18008" y="-53749" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-17653" y="-53754" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-17827" y="-53930" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-18008" y="-54100" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-17653" y="-54105" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-17275" y="-52577" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-16917" y="-52577" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-16738" y="-52577" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-17003" y="-52404" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-17353" y="-52404" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-17362" y="-52752" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-17006" y="-52752" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-17721" y="-52752" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-17648" y="-52968" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-17292" y="-52968" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-16374" y="-52577" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-16648" y="-52404" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-16284" y="-52404" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-16013" y="-52577" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-15658" y="-52577" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-15306" y="-52577" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-15923" y="-52404" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-15568" y="-52404" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-15216" y="-52404" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-15745" y="-52752" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-15394" y="-52752" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-15475" y="-52969" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-15119" y="-52969" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-15149" y="-53411" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-14794" y="-53416" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-14968" y="-53592" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-15149" y="-53766" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-14794" y="-53771" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-14968" y="-53947" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-15149" y="-54117" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22175"/>
+		<point x="-14794" y="-54122" z="-10594" h="16384"/>
+	</spawn>
+	<!--Капитан Королевской Стражи Андреаса Level : 78 Territory : rune14_mb1916_03;rune14_mb1916_04;rune14_mb1916_05;rune14_mb1916_06;rune14_mb1916_07-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22188">
+			<set name="privates" value="22189:1:0;22189:1:0"/>
+		</npc>
+		<point x="-16392" y="-52124" z="-10592" h="0"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16380" y="-45796" z="-10726" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16290" y="-45796" z="-10726" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16471" y="-45796" z="-10726" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16380" y="-45514" z="-10726" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16290" y="-45514" z="-10726" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16471" y="-45514" z="-10726" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16380" y="-45243" z="-10726" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16290" y="-45243" z="-10726" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16471" y="-45243" z="-10726" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16380" y="-44973" z="-10726" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16290" y="-44973" z="-10726" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16471" y="-44973" z="-10726" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16380" y="-44703" z="-10726" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16290" y="-44703" z="-10726" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16471" y="-44703" z="-10726" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16471" y="-44443" z="-10726" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16382" y="-47685" z="-10822" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16292" y="-47685" z="-10822" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16474" y="-47685" z="-10822" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16382" y="-47404" z="-10822" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16292" y="-47404" z="-10822" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16474" y="-47404" z="-10822" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16382" y="-47133" z="-10822" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16292" y="-47133" z="-10822" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16474" y="-47133" z="-10822" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16382" y="-46862" z="-10822" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16292" y="-46862" z="-10822" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16474" y="-46862" z="-10822" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16382" y="-46593" z="-10822" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16292" y="-46593" z="-10822" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16474" y="-46593" z="-10822" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16382" y="-46333" z="-10822" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16292" y="-46333" z="-10822" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16474" y="-46333" z="-10822" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16381" y="-49743" z="-10918" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16291" y="-49743" z="-10918" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16473" y="-49743" z="-10918" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16381" y="-49461" z="-10918" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16291" y="-49461" z="-10918" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16473" y="-49461" z="-10918" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16381" y="-49191" z="-10918" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16291" y="-49191" z="-10918" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16473" y="-49191" z="-10918" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16381" y="-48920" z="-10918" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16291" y="-48920" z="-10918" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16473" y="-48920" z="-10918" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16381" y="-48650" z="-10918" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16291" y="-48650" z="-10918" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16473" y="-48650" z="-10918" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16381" y="-48391" z="-10918" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16291" y="-48391" z="-10918" h="16384"/>
+	</spawn>
+	<!--Королевский Стражник Андреаса Level : 78 Territory : rune14_mb1916_09-->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22176"/>
+		<point x="-16473" y="-48391" z="-10918" h="16384"/>
+	</spawn>
+</list>

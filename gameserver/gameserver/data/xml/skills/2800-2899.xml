@@ -1,0 +1,2315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="2800" levels="1" name="Stone of Ease" >
+		<table name="#abnormal_lv">3 </table>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="max_hp_up"/>
+		<set name="name-ru" val="Камень Равновесия" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.stone_4_i00" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2801" levels="1" name="Stone of Abundance" >
+		<table name="#abnormal_lv">3 </table>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="max_mp_up"/>
+		<set name="name-ru" val="Камень Богатства" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.stone_5_i00" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2802" levels="1" name="Recovery Stone" >
+		<set name="name-ru" val="Камень Восстановления" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.stone_1_i00" />
+		<set name="reuse_delay" val="2000" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2803" levels="1" name="Seed of Revenge" >
+		<set name="name-ru" val="Семя Возмездия" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2804" levels="1" name="Hell Scream" >
+		<set name="name-ru" val="Крик Ада" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2805" levels="1" name="Spirit of the Phoenix" >
+		<set name="name-ru" val="Дух Феникса" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2806" levels="1" name="Eva's Will" >
+		<set name="name-ru" val="Воля Евы" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2807" levels="1" name="Pain of Shilen" >
+		<set name="name-ru" val="Боль Шилен" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2808" levels="1" name="Exciting Adventure" >
+		<set name="name-ru" val="Увлекательное Приключение" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2809" levels="1" name="Wind Riding" >
+		<set name="name-ru" val="Оседлать Ветер" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2810" levels="1" name="Ghost Walking" >
+		<set name="name-ru" val="Походка Призрака" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2811" levels="1" name="Flame Hawk" >
+		<set name="name-ru" val="Пламенный Ястреб" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2812" levels="1" name="Rain of Arrows" >
+		<set name="name-ru" val="Дождь Стрел" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2813" levels="1" name="Ghost Piercing" >
+		<set name="name-ru" val="Невидимое Проникновение" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2814" levels="1" name="Dread Pool" >
+		<set name="name-ru" val="Прилив Ужаса" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2815" levels="1" name="Post of Destruction" >
+		<set name="name-ru" val="Сила Разрушения" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2816" levels="1" name="Demolition Impact" >
+		<set name="name-ru" val="Удар Низвержения" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2817" levels="1" name="Golem Armor" >
+		<set name="name-ru" val="Броня Голема" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2818" levels="1" name="Wild Shot" >
+		<set name="name-ru" val="Яростный Выстрел" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2819" levels="1" name="Lightning Shock" >
+		<set name="name-ru" val="Оглушение светом" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2820" levels="1" name="Flame Armor" >
+		<set name="name-ru" val="Броня Пламени" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2821" levels="1" name="Frost Armor" >
+		<set name="name-ru" val="Броня Мороза" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2822" levels="1" name="Hurricane Armor" >
+		<set name="name-ru" val="Броня Урагана" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2823" levels="1" name="Vampiric Mist" >
+		<set name="name-ru" val="Туман Вампира" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2824" levels="1" name="Meteor" >
+		<set name="name-ru" val="Метеор" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2825" levels="1" name="Starfall" >
+		<set name="name-ru" val="Падение Звезды" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2826" levels="1" name="Sublime Self-Sacrifice" >
+		<set name="name-ru" val="Великая Жертва" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2827" levels="1" name="Blessing of Eva" >
+		<set name="name-ru" val="Благословение Евы" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2828" levels="1" name="Lord of Vampires" >
+		<set name="name-ru" val="Повелитель Вампиров" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2829" levels="1" name="Throne Route" >
+		<set name="name-ru" val="Корни Престола" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2830" levels="1" name="Seal of Limit" >
+		<set name="name-ru" val="Печать Предела" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2831" levels="1" name="Weapon Blockade" >
+		<set name="name-ru" val="Блокада Оружия" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2832" levels="1" name="S80 Weapon Chest" >
+		<set name="name-ru" val="Ящик с Оружием Ранга S80" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="13988"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="8.3333">
+				<extract item_id="9442" count="1"/>
+				<!--Dynasty Sword-->
+			</group>
+			<group chance="8.3333">
+				<extract item_id="9443" count="1"/>
+				<!--Dynasty Blade-->
+			</group>
+			<group chance="8.3333">
+				<extract item_id="9444" count="1"/>
+				<!--Dynasty Phantom-->
+			</group>
+			<group chance="8.3333">
+				<extract item_id="9445" count="1"/>
+				<!--Dynasty Bow-->
+			</group>
+			<group chance="8.3333">
+				<extract item_id="9446" count="1"/>
+				<!--Dynasty Knife-->
+			</group>
+			<group chance="8.3333">
+				<extract item_id="9447" count="1"/>
+				<!--Dynasty Halberd-->
+			</group>
+			<group chance="8.3333">
+				<extract item_id="9448" count="1"/>
+				<!--Dynasty Cudgel-->
+			</group>
+			<group chance="8.3333">
+				<extract item_id="9449" count="1"/>
+				<!--Dynasty Mace-->
+			</group>
+			<group chance="8.3333">
+				<extract item_id="9450" count="1"/>
+				<!--Dynasty Bagh-Nakh-->
+			</group>
+			<group chance="8.3333">
+				<extract item_id="10252" count="1"/>
+				<!--Dynasty Staff-->
+			</group>
+			<group chance="8.3333">
+				<extract item_id="10004" count="1"/>
+				<!--Dynasty Dual Sword-->
+			</group>
+			<group chance="8.3333">
+				<extract item_id="10253" count="1"/>
+				<!--Dynasty Crusher-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2833" levels="1" name="S80 Armor Chest" >
+		<set name="name-ru" val="Ящик с Броней Ранга S80" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="13989"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="6.25">
+				<extract item_id="9514" count="1"/>
+				<!--Sealed Dynasty Breast Plate-->
+			</group>
+			<group chance="6.25">
+				<extract item_id="9515" count="1"/>
+				<!--Sealed Dynasty Gaiter-->
+			</group>
+			<group chance="6.25">
+				<extract item_id="9516" count="1"/>
+				<!--Sealed Dynasty Helmet-->
+			</group>
+			<group chance="6.25">
+				<extract item_id="9517" count="1"/>
+				<!--Sealed Dynasty Gauntlets-->
+			</group>
+			<group chance="6.25">
+				<extract item_id="9518" count="1"/>
+				<!--Sealed Dynasty Boots-->
+			</group>
+			<group chance="6.25">
+				<extract item_id="9519" count="1"/>
+				<!--Sealed Dynasty Leather Armor-->
+			</group>
+			<group chance="6.25">
+				<extract item_id="9520" count="1"/>
+				<!--Sealed Dynasty Leather Leggings-->
+			</group>
+			<group chance="6.25">
+				<extract item_id="9521" count="1"/>
+				<!--Sealed Dynasty Leather Helmet-->
+			</group>
+			<group chance="6.25">
+				<extract item_id="9522" count="1"/>
+				<!--Sealed Dynasty Leather Gloves-->
+			</group>
+			<group chance="6.25">
+				<extract item_id="9523" count="1"/>
+				<!--Sealed Dynasty Leather Boots-->
+			</group>
+			<group chance="6.25">
+				<extract item_id="9524" count="1"/>
+				<!--Sealed Dynasty Tunic-->
+			</group>
+			<group chance="6.25">
+				<extract item_id="9525" count="1"/>
+				<!--Sealed Dynasty Stockings-->
+			</group>
+			<group chance="6.25">
+				<extract item_id="9526" count="1"/>
+				<!--Sealed Dynasty Circlet-->
+			</group>
+			<group chance="6.25">
+				<extract item_id="9527" count="1"/>
+				<!--Sealed Dynasty Gloves-->
+			</group>
+			<group chance="6.25">
+				<extract item_id="9528" count="1"/>
+				<!--Sealed Dynasty Shoes-->
+			</group>
+			<group chance="6.25">
+				<extract item_id="9529" count="1"/>
+				<!--Sealed Dynasty Shield-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2834" levels="1" name="S Weapon Chest" >
+		<set name="name-ru" val="Ящик с Оружием Ранга S" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="13990"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="9.0909">
+				<extract item_id="7575" count="1"/>
+				<!--Draconic Bow-->
+			</group>
+			<group chance="9.0909">
+				<extract item_id="6364" count="1"/>
+				<!--Forgotten Blade-->
+			</group>
+			<group chance="9.0909">
+				<extract item_id="6365" count="1"/>
+				<!--Basalt Battlehammer-->
+			</group>
+			<group chance="9.0909">
+				<extract item_id="6366" count="1"/>
+				<!--Imperial Staff-->
+			</group>
+			<group chance="9.0909">
+				<extract item_id="6367" count="1"/>
+				<!--Angel Slayer-->
+			</group>
+			<group chance="9.0909">
+				<extract item_id="6369" count="1"/>
+				<!--Dragon Hunter Axe-->
+			</group>
+			<group chance="9.0909">
+				<extract item_id="6370" count="1"/>
+				<!--Saint Spear-->
+			</group>
+			<group chance="9.0909">
+				<extract item_id="6371" count="1"/>
+				<!--Demon Splinter-->
+			</group>
+			<group chance="9.0909">
+				<extract item_id="6372" count="1"/>
+				<!--Heaven's Divider-->
+			</group>
+			<group chance="9.0909">
+				<extract item_id="6579" count="1"/>
+				<!--Arcana Mace-->
+			</group>
+			<group chance="9.0909">
+				<extract item_id="6580" count="1"/>
+				<!--Tallum Blade*Dark Legion's Edge-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2835" levels="1" name="S Armor Chest" >
+		<set name="name-ru" val="Ящик с Броней Ранга S" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="13991"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="7.142857">
+				<extract item_id="6674" count="1"/>
+				<!--Sealed Imperial Crusader Breastplate-->
+			</group>
+			<group chance="7.142857">
+				<extract item_id="6675" count="1"/>
+				<!--Sealed Imperial Crusader Gaiters-->
+			</group>
+			<group chance="7.142857">
+				<extract item_id="6676" count="1"/>
+				<!--Sealed Imperial Crusader Gauntlet-->
+			</group>
+			<group chance="7.142857">
+				<extract item_id="6677" count="1"/>
+				<!--Sealed Imperial Crusader Boots-->
+			</group>
+			<group chance="7.142857">
+				<extract item_id="6678" count="1"/>
+				<!--Sealed Imperial Crusader Shield-->
+			</group>
+			<group chance="7.142857">
+				<extract item_id="6679" count="1"/>
+				<!--Sealed Imperial Crusader Helmet-->
+			</group>
+			<group chance="7.142857">
+				<extract item_id="6680" count="1"/>
+				<!--Sealed Draconic Leather Armor-->
+			</group>
+			<group chance="7.142857">
+				<extract item_id="6681" count="1"/>
+				<!--Sealed Draconic Leather Glove-->
+			</group>
+			<group chance="7.142857">
+				<extract item_id="6682" count="1"/>
+				<!--Sealed Draconic Leather Boots-->
+			</group>
+			<group chance="7.142857">
+				<extract item_id="6683" count="1"/>
+				<!--Sealed Draconic Leather Helmet-->
+			</group>
+			<group chance="7.142857">
+				<extract item_id="6684" count="1"/>
+				<!--Sealed Major Arcana Robe-->
+			</group>
+			<group chance="7.142857">
+				<extract item_id="6685" count="1"/>
+				<!--Sealed Major Arcana Glove-->
+			</group>
+			<group chance="7.142857">
+				<extract item_id="6686" count="1"/>
+				<!--Sealed Major Arcana Boots-->
+			</group>
+			<group chance="7.142857">
+				<extract item_id="6687" count="1"/>
+				<!--Sealed Major Arcana Circlet-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2836" levels="1" name="S Accessory Chest" >
+		<set name="name-ru" val="Ящик с Аксессуарами Ранга S" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="13992"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="33.3333">
+				<extract item_id="6724" count="1"/>
+				<!--Sealed Tateossian Earring-->
+			</group>
+			<group chance="33.3333">
+				<extract item_id="6725" count="1"/>
+				<!--Sealed Tateossian Ring-->
+			</group>
+			<group chance="33.3333">
+				<extract item_id="6726" count="1"/>
+				<!--Sealed Tateossian Necklace-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2837" levels="1" name="Gracia Key" >
+		<set name="name-ru" val="Ключ Грации" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="600000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="HARDCODED" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2838" levels="1" name="Treasure Sack of the Ancient Giants" >
+		<set name="name-ru" val="Мешочек с Древними Сокровищами" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<!-- todo: item consume -->
+		<set name="itemConsumeId" val="14841"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="35.0">
+				<extract item_id="9628" count="1"/>
+				<!--Leonard-->
+			</group>
+			<group chance="30.0">
+				<extract item_id="9629" count="1"/>
+				<!--Adamantine-->
+			</group>
+			<group chance="35.0">
+				<extract item_id="9630" count="1"/>
+				<!--Orichalcum-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2839" levels="1" name="Holy Light Fragment" >
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="attribute_potion"/>
+		<set name="name-ru" val="Камень Божественного Света" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_piece_holy_light" />
+		<set name="reuse_delay" val="10000" />
+		<set name="power" val="21000" />
+		<set name="magic_level" val="99" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="2000" />
+		<set name="effect_point" val="400" />
+		<set name="activate_rate" val="100" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="itemConsumeId" val="13855"/>
+		<set name="itemConsumeCount" val="1"/>
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="attribute_potion" time="15" val="0" />
+		</for>
+		<cond msgId="144">
+			<target mobId="29163" />
+		</cond>
+	</skill>
+	<skill id="2840" levels="1" name="Star Stone Gathering" >
+		<set name="name-ru" val="Сбор Звездных Камней" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="100" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2841" levels="1" name="PC Cafe Points" >
+		<set name="name-ru" val="Фишка PC-клуба" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="10000" />
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="14559" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="ADD_PC_BANG" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="power" val="7000" />
+		<set name="altUse" val="true" />
+	</skill>
+	<skill id="2842" levels="1" name="Duel Supplies" >
+		<set name="name-ru" val="Боеприпасы" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="13777"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="86.5">
+				<extract item_id="8627" count="6"/>
+				<!--Elixir of Life (S-Grade)-->
+				<extract item_id="8633" count="6"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<extract item_id="8639" count="6"/>
+				<!--Elixir of CP (S-Grade)-->
+				<extract item_id="9628" count="4"/>
+				<!--Leonard-->
+				<extract item_id="9630" count="3"/>
+				<!--Orichalcum-->
+				<extract item_id="9629" count="3"/>
+				<!--Adamantine-->
+			</group>
+			<group chance="1.92">
+				<extract item_id="10554" count="1"/>
+				<!--Forgotten Scroll - Anti-Magic Armor-->
+			</group>
+			<group chance="1.93">
+				<extract item_id="14213" count="1"/>
+				<!--Forgotten Scroll - Enlightenment - Healer-->
+			</group>
+			<group chance="1.93">
+				<extract item_id="10577" count="1"/>
+				<!--Forgotten Scroll - Excessive Loyalty-->
+			</group>
+			<group chance="1.93">
+				<extract item_id="14209" count="1"/>
+				<!--Forgotten Scroll - Hide-->
+			</group>
+			<group chance="1.93">
+				<extract item_id="14208" count="1"/>
+				<!--Forgotten Scroll - Final Secret-->
+			</group>
+			<group chance="1.93">
+				<extract item_id="14212" count="1"/>
+				<!--Forgotten Scroll - Enlightenment - Wizard-->
+			</group>
+			<group chance="1.93">
+				<extract item_id="14027" count="1"/>
+				<!--Collection Agathion Summon Bracelet-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2843" levels="1" name="Duel Supplies" >
+		<set name="name-ru" val="Боеприпасы" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="13778"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="92.5">
+				<extract item_id="8627" count="6"/>
+				<!--Elixir of Life (S-Grade)-->
+				<extract item_id="8633" count="6"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<extract item_id="8639" count="6"/>
+				<!--Elixir of CP (S-Grade)-->
+				<extract item_id="9628" count="4"/>
+				<!--Leonard-->
+				<extract item_id="9630" count="3"/>
+				<!--Orichalcum-->
+				<extract item_id="9629" count="3"/>
+				<!--Adamantine-->
+			</group>
+			<group chance="1.07">
+				<extract item_id="10554" count="1"/>
+				<!--Forgotten Scroll - Anti-Magic Armor-->
+			</group>
+			<group chance="1.07">
+				<extract item_id="14213" count="1"/>
+				<!--Forgotten Scroll - Enlightenment - Healer-->
+			</group>
+			<group chance="1.07">
+				<extract item_id="10577" count="1"/>
+				<!--Forgotten Scroll - Excessive Loyalty-->
+			</group>
+			<group chance="1.07">
+				<extract item_id="14209" count="1"/>
+				<!--Forgotten Scroll - Hide-->
+			</group>
+			<group chance="1.07">
+				<extract item_id="14208" count="1"/>
+				<!--Forgotten Scroll - Final Secret-->
+			</group>
+			<group chance="1.07">
+				<extract item_id="14212" count="1"/>
+				<!--Forgotten Scroll - Enlightenment - Wizard-->
+			</group>
+			<group chance="1.08">
+				<extract item_id="14027" count="1"/>
+				<!--Collection Agathion Summon Bracelet-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2844" levels="1" name="Duel Supplies" >
+		<set name="name-ru" val="Боеприпасы" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="13779"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="39.0">
+				<extract item_id="8627" count="6"/>
+				<!--Elixir of Life (S-Grade)-->
+				<extract item_id="8633" count="6"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<extract item_id="8639" count="6"/>
+				<!--Elixir of CP (S-Grade)-->
+				<extract item_id="9628" count="4"/>
+				<!--Leonard-->
+				<extract item_id="9630" count="3"/>
+				<!--Orichalcum-->
+			</group>
+			<group chance="60.0">
+				<extract item_id="8627" count="6"/>
+				<!--Elixir of Life (S-Grade)-->
+				<extract item_id="8633" count="6"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<extract item_id="8639" count="6"/>
+				<!--Elixir of CP (S-Grade)-->
+				<extract item_id="9628" count="4"/>
+				<!--Leonard-->
+				<extract item_id="9630" count="3"/>
+				<!--Orichalcum-->
+				<extract item_id="9629" count="3"/>
+				<!--Adamantine-->
+			</group>
+			<group chance="1.0">
+				<extract item_id="14027" count="1"/>
+				<!--Collection Agathion Summon Bracelet-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2845" levels="1" name="Duel Supplies" >
+		<set name="name-ru" val="Боеприпасы" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="13780"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="80.0">
+				<extract item_id="8627" count="6"/>
+				<!--Elixir of Life (S-Grade)-->
+				<extract item_id="8633" count="6"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<extract item_id="8639" count="6"/>
+				<!--Elixir of CP (S-Grade)-->
+				<extract item_id="9628" count="4"/>
+				<!--Leonard-->
+				<extract item_id="9630" count="3"/>
+				<!--Orichalcum-->
+			</group>
+			<group chance="19.5">
+				<extract item_id="8627" count="6"/>
+				<!--Elixir of Life (S-Grade)-->
+				<extract item_id="8633" count="6"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<extract item_id="8639" count="6"/>
+				<!--Elixir of CP (S-Grade)-->
+				<extract item_id="9628" count="4"/>
+				<!--Leonard-->
+				<extract item_id="9630" count="3"/>
+				<!--Orichalcum-->
+				<extract item_id="9629" count="3"/>
+				<!--Adamantine-->
+			</group>
+			<group chance="0.5">
+				<extract item_id="14027" count="1"/>
+				<!--Collection Agathion Summon Bracelet-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2846" levels="1" name="Duel Supplies" >
+		<set name="name-ru" val="Боеприпасы" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="13781"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="25.44">
+				<extract item_id="8627" count="6"/>
+				<!--Elixir of Life (S-Grade)-->
+				<extract item_id="8633" count="6"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<extract item_id="8639" count="6"/>
+				<!--Elixir of CP (S-Grade)-->
+				<extract item_id="9628" count="4"/>
+				<!--Leonard-->
+			</group>
+			<group chance="74.56">
+				<extract item_id="8627" count="6"/>
+				<!--Elixir of Life (S-Grade)-->
+				<extract item_id="8633" count="6"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<extract item_id="8639" count="6"/>
+				<!--Elixir of CP (S-Grade)-->
+				<extract item_id="9628" count="4"/>
+				<!--Leonard-->
+				<extract item_id="9630" count="3"/>
+				<!--Orichalcum-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2847" levels="1" name="Duel Supplies" >
+		<set name="name-ru" val="Боеприпасы" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="13782"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="75.44">
+				<extract item_id="8627" count="6"/>
+				<!--Elixir of Life (S-Grade)-->
+				<extract item_id="8633" count="6"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<extract item_id="8639" count="6"/>
+				<!--Elixir of CP (S-Grade)-->
+				<extract item_id="9628" count="4"/>
+				<!--Leonard-->
+			</group>
+			<group chance="24.56">
+				<extract item_id="8627" count="6"/>
+				<!--Elixir of Life (S-Grade)-->
+				<extract item_id="8633" count="6"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<extract item_id="8639" count="6"/>
+				<!--Elixir of CP (S-Grade)-->
+				<extract item_id="9628" count="4"/>
+				<!--Leonard-->
+				<extract item_id="9630" count="3"/>
+				<!--Orichalcum-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2848" levels="1" name="Duel Supplies" >
+		<set name="name-ru" val="Боеприпасы" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="13783"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="19.0">
+				<extract item_id="8627" count="6"/>
+				<!--Elixir of Life (S-Grade)-->
+				<extract item_id="8633" count="6"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<extract item_id="8639" count="6"/>
+				<!--Elixir of CP (S-Grade)-->
+			</group>
+			<group chance="81.0">
+				<extract item_id="8627" count="6"/>
+				<!--Elixir of Life (S-Grade)-->
+				<extract item_id="8633" count="6"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<extract item_id="8639" count="6"/>
+				<!--Elixir of CP (S-Grade)-->
+				<extract item_id="9628" count="4"/>
+				<!--Leonard-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2849" levels="1" name="Duel Supplies" >
+		<set name="name-ru" val="Боеприпасы" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="13784"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="100.0">
+				<extract item_id="8627" count="6"/>
+				<!--Elixir of Life (S-Grade)-->
+				<extract item_id="8633" count="6"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<extract item_id="8639" count="6"/>
+				<!--Elixir of CP (S-Grade)-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2850" levels="1" name="Duel Supplies" >
+		<set name="name-ru" val="Боеприпасы" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="13785"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="100.0">
+				<extract item_id="8627" count="5"/>
+				<!--Elixir of Life (S-Grade)-->
+				<extract item_id="8633" count="5"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<extract item_id="8639" count="5"/>
+				<!--Elixir of CP (S-Grade)-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2851" levels="1" name="Duel Supplies" >
+		<set name="name-ru" val="Боеприпасы" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="13786"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="100.0">
+				<extract item_id="8627" count="4"/>
+				<!--Elixir of Life (S-Grade)-->
+				<extract item_id="8633" count="4"/>
+				<!--Elixir of Mental Strength (S-Grade)-->
+				<extract item_id="8639" count="4"/>
+				<!--Elixir of CP (S-Grade)-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2852" levels="1" name="Duel Reward Box" >
+		<set name="name-ru" val="Коробка с Боевой Наградой" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="14635"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="90.0">
+				<extract item_id="57" count="583000"/>
+				<!--Adena-->
+			</group>
+			<group chance="10.0">
+				<extract item_id="57" count="524700"/>
+				<!--Adena-->
+				<extract item_id="9628" count="2"/>
+				<!--Leonard-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2853" levels="1" name="Duel Reward Box" >
+		<set name="name-ru" val="Коробка с Боевой Наградой" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="14636"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="80.0">
+				<extract item_id="57" count="605000"/>
+				<!--Adena-->
+			</group>
+			<group chance="20.0">
+				<extract item_id="57" count="484000"/>
+				<!--Adena-->
+				<extract item_id="9630" count="3"/>
+				<!--Orichalcum-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2854" levels="1" name="Duel Reward Box" >
+		<set name="name-ru" val="Коробка с Боевой Наградой" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="14637"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="70.0">
+				<extract item_id="57" count="626000"/>
+				<!--Adena-->
+			</group>
+			<group chance="30.0">
+				<extract item_id="57" count="438200"/>
+				<!--Adena-->
+				<extract item_id="9629" count="4"/>
+				<!--Adamantine-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2855" levels="1" name="Duel Reward Box" >
+		<set name="name-ru" val="Коробка с Боевой Наградой" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="14638"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="60.0">
+				<extract item_id="57" count="697000"/>
+				<!--Adena-->
+			</group>
+			<group chance="30.0">
+				<extract item_id="57" count="418200"/>
+				<!--Adena-->
+				<extract item_id="9628" count="2"/>
+				<!--Leonard-->
+				<extract item_id="9630" count="2"/>
+				<!--Orichalcum-->
+				<extract item_id="9629" count="2"/>
+				<!--Adamantine-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2856" levels="1" name="Santa's Buff Gift Set" >
+		<!-- todo: Сделать скилл привязать к итему -->
+		<table name="#abnormal_lv">4 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="multi_buff"/>
+		<set name="name-ru" val="Новогодний Набор Положительных Эффектов" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_scroll_white_i00" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2857" levels="1" name="Christmas Event - Magic Use Enhancement Scroll" >
+		<!-- todo: Сделать скилл привязать к итему -->
+		<table name="#abnormal_lv">4 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="multi_buff"/>
+		<set name="name-ru" val="Новогодний Свиток Усиления Магии" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_scroll_white_i00" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2858" levels="1" name="Christmas Red Sock" >
+		<set name="name-ru" val="Новогодние Красные Носки" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="14616"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="17.665">
+				<extract item_id="14611" count="1"/>
+				<!--Rudolph's Nose-->
+				<extract item_id="14619" count="1"/>
+				<!--Santa Claus' Weapon Exchange Ticket-->
+			</group>
+			<group chance="17.665">
+				<extract item_id="14611" count="1"/>
+				<!--Rudolph's Nose-->
+				<extract item_id="14614" count="1"/>
+				<!--Santa's Buff Gift Set-->
+			</group>
+			<group chance="23.665">
+				<extract item_id="5561" count="1"/>
+				<!--Special Christmas Tree-->
+				<extract item_id="14619" count="1"/>
+				<!--Santa Claus' Weapon Exchange Ticket-->
+			</group>
+			<group chance="23.665">
+				<extract item_id="5561" count="1"/>
+				<!--Special Christmas Tree-->
+				<extract item_id="14614" count="1"/>
+				<!--Santa's Buff Gift Set-->
+			</group>
+			<group chance="8.665">
+				<extract item_id="14617" count="1"/>
+				<!--Agathion Seal Bracelet - Rudolph-->
+				<extract item_id="14619" count="1"/>
+				<!--Santa Claus' Weapon Exchange Ticket-->
+			</group>
+			<group chance="8.665">
+				<extract item_id="14617" count="1"/>
+				<!--Agathion Seal Bracelet - Rudolph-->
+				<extract item_id="14614" count="1"/>
+				<!--Santa's Buff Gift Set-->
+			</group>
+			<group chance="0.01">
+				<extract item_id="14620" count="1"/>
+				<!--Santa Claus' Weapon Exchange Ticket-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2859" levels="1" name="Christmas Gift" >
+		<!-- todo: Сделать скилл привязать к итему -->
+		<set name="name-ru" val="Новогодний Набор Положительных Эффектов" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="10000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2860" levels="6" name="Highest Power No-grade Secret Medicine of Life" >
+		<set name="name-ru" val="Великий Эликсир Жизни (Без ранга)" />
+		<table name="#itemConsumeId">14682 14683 14684 14685 14686 14687</table>
+		<table name="#levelMin">1 20 40 52 61 76</table>
+		<table name="#levelMax">19 39 51 60 75 90</table>
+		<table name="#power">500 1300 2200 3000 3800 4600</table>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="600000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="#itemConsumeId" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="altUse" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="HEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1902">
+			<and>
+				<player minLevel="#levelMin" />
+				<player maxLevel="#levelMax" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2861" levels="6" name="Highest Power No-grade Secret Medicine of Mind" >
+		<set name="name-ru" val="Великий Эликсир Ментальной Силы (Без ранга)" />
+		<table name="#itemConsumeId">14688 14689 14690 14691 14692 14693</table>
+		<table name="#levelMin">1 20 40 52 61 76</table>
+		<table name="#levelMax">19 39 51 60 75 90</table>
+		<table name="#power">120 280 440 580 720 840</table>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="600000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="#itemConsumeId" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="altUse" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="MANAHEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1902">
+			<and>
+				<player minLevel="#levelMin" />
+				<player maxLevel="#levelMax" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2862" levels="6" name="Highest Power No-grade Secret Medicine of Will" >
+		<set name="name-ru" val="Великий Эликсир CP (Без ранга)" />
+		<table name="#itemConsumeId">14694 14695 14696 14697 14698 14699</table>
+		<table name="#levelMin">1 20 40 52 61 76</table>
+		<table name="#levelMax">19 39 51 60 75 90</table>
+		<table name="#power">300 700 1200 1600 2000 2400</table>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="600000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="#itemConsumeId" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="altUse" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="COMBATPOINTHEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1902">
+			<and>
+				<player minLevel="#levelMin" />
+				<player maxLevel="#levelMax" />
+			</and>
+		</cond>
+	</skill>
+	<skill id="2863" levels="1" name="Highest Power Healing Potion" >
+		<table name="#abnormal_lv">4 </table>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="hp_recover"/>
+		<set name="name-ru" val="Великое Зелье Исцеления" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_reagent_white_i00" />
+		<set name="power" val="6" />
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="14700" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="HOT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="altUse" val="true" />
+		<for>
+			<effect count="5" name="HealOverTime" stackOrder="4" stackType="hp_recover" time="3" val="360" />
+		</for>
+	</skill>
+	<skill id="2864" levels="1" name="Highest Power Quick Healing Potion" >
+		<set name="name-ru" val="Великое Быстродействующее Зелье Исцеления" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="435" />
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="14701" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="HEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="altUse" val="true" />
+	</skill>
+	<skill id="2865" levels="1" name="Agathion's New Year's Gift 1" >
+		<set name="name-ru" val="Новогодний Подарок 1 - Агатион" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="14676"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="40.0">
+				<extract item_id="14700" count="3"/>
+				<!--Greater Healing Potion-->
+			</group>
+			<group chance="26.0">
+				<extract item_id="14701" count="3"/>
+				<!--Greater Quick Healing Potion-->
+			</group>
+			<group chance="4.0">
+				<extract item_id="9625" count="1"/>
+				<!--Giant's Codex - Oblivion-->
+			</group>
+			<group chance="4.0">
+				<extract item_id="9626" count="1"/>
+				<!--Giant's Codex - Discipline-->
+			</group>
+			<group chance="6.0">
+				<extract item_id="14716" count="1"/>
+				<!--Greater Elixir Gift Box (B-Grade)-->
+			</group>
+			<group chance="6.0">
+				<extract item_id="14717" count="1"/>
+				<!--Greater Elixir Gift Box (A-Grade)-->
+			</group>
+			<group chance="6.0">
+				<extract item_id="14718" count="1"/>
+				<!--Greater Elixir Gift Box (S-Grade)-->
+			</group>
+			<group chance="3.9">
+				<extract item_id="14709" count="1"/>
+				<!--Agathion Auxiliary Stone: Enchant Armor (B-Grade)-->
+			</group>
+			<group chance="1.95">
+				<extract item_id="14710" count="1"/>
+				<!--Agathion Auxiliary Stone: Enchant Armor (A-Grade)-->
+			</group>
+			<group chance="0.15">
+				<extract item_id="14711" count="1"/>
+				<!--Agathion Auxiliary Stone: Enchant Armor (S-Grade)-->
+			</group>
+			<group chance="0.65">
+				<extract item_id="14704" count="1"/>
+				<!--Agathion Auxiliary Stone: Enchant Weapon (B-Grade)-->
+			</group>
+			<group chance="0.325">
+				<extract item_id="14705" count="1"/>
+				<!--Agathion Auxiliary Stone: Enchant Weapon (A-Grade)-->
+			</group>
+			<group chance="0.025">
+				<extract item_id="14706" count="1"/>
+				<!--Agathion Auxiliary Stone: Enchant Weapon (S-Grade)-->
+			</group>
+			<group chance="0.6">
+				<extract item_id="14678" count="1"/>
+				<!--Neolithic Crystal - B-->
+			</group>
+			<group chance="0.26">
+				<extract item_id="14679" count="1"/>
+				<!--Neolithic Crystal - A-->
+			</group>
+			<group chance="0.13">
+				<extract item_id="14680" count="1"/>
+				<!--Neolithic Crystal - S-->
+			</group>
+			<group chance="0.01">
+				<extract item_id="14681" count="1"/>
+				<!--Neolithic Crystal - S80-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2866" levels="1" name="Agathion's New Year's Gift 2" >
+		<set name="name-ru" val="Новогодний Подарок 2 - Агатион" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="14677"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="40.0">
+				<extract item_id="14700" count="3"/>
+				<!--Greater Healing Potion-->
+			</group>
+			<group chance="26.0">
+				<extract item_id="14701" count="3"/>
+				<!--Greater Quick Healing Potion-->
+			</group>
+			<group chance="4.0">
+				<extract item_id="9625" count="1"/>
+				<!--Giant's Codex - Oblivion-->
+			</group>
+			<group chance="4.0">
+				<extract item_id="9626" count="1"/>
+				<!--Giant's Codex - Discipline-->
+			</group>
+			<group chance="6.0">
+				<extract item_id="14716" count="1"/>
+				<!--Greater Elixir Gift Box (B-Grade)-->
+			</group>
+			<group chance="6.0">
+				<extract item_id="14717" count="1"/>
+				<!--Greater Elixir Gift Box (A-Grade)-->
+			</group>
+			<group chance="6.0">
+				<extract item_id="14718" count="1"/>
+				<!--Greater Elixir Gift Box (S-Grade)-->
+			</group>
+			<group chance="3.9">
+				<extract item_id="14709" count="1"/>
+				<!--Agathion Auxiliary Stone: Enchant Armor (B-Grade)-->
+			</group>
+			<group chance="1.95">
+				<extract item_id="14710" count="1"/>
+				<!--Agathion Auxiliary Stone: Enchant Armor (A-Grade)-->
+			</group>
+			<group chance="0.15">
+				<extract item_id="14711" count="1"/>
+				<!--Agathion Auxiliary Stone: Enchant Armor (S-Grade)-->
+			</group>
+			<group chance="0.65">
+				<extract item_id="14704" count="1"/>
+				<!--Agathion Auxiliary Stone: Enchant Weapon (B-Grade)-->
+			</group>
+			<group chance="0.325">
+				<extract item_id="14705" count="1"/>
+				<!--Agathion Auxiliary Stone: Enchant Weapon (A-Grade)-->
+			</group>
+			<group chance="0.025">
+				<extract item_id="14706" count="1"/>
+				<!--Agathion Auxiliary Stone: Enchant Weapon (S-Grade)-->
+			</group>
+			<group chance="0.6">
+				<extract item_id="14678" count="1"/>
+				<!--Neolithic Crystal - B-->
+			</group>
+			<group chance="0.26">
+				<extract item_id="14679" count="1"/>
+				<!--Neolithic Crystal - A-->
+			</group>
+			<group chance="0.13">
+				<extract item_id="14680" count="1"/>
+				<!--Neolithic Crystal - S-->
+			</group>
+			<group chance="0.01">
+				<extract item_id="14681" count="1"/>
+				<!--Neolithic Crystal - S80-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2867" levels="1" name="Cupid's Cure" >
+		<!-- todo сделать скилл привязать к итему -->
+		<set name="name-ru" val="Лекарство Купидона" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill3260" />
+		<set name="reuse_delay" val="1000" />
+		<set name="magic_level" val="1" />
+		<set name="cast_range" val="500" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2868" levels="1" name="Cupid's Enhanced Cure" >
+		<!-- todo сделать скилл привязать к итему -->
+		<set name="name-ru" val="Сильное Лекарство Купидона" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill3260" />
+		<set name="reuse_delay" val="4000" />
+		<set name="magic_level" val="1" />
+		<set name="cast_range" val="500" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2869" levels="1" name="Event - Milk Cow Summon Scroll" >
+		<!-- todo сделать скилл привязать к итему -->
+		<set name="name-ru" val="Ивент - Свиток Призыва Коровы" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="reuse_delay" val="10000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="1500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2870" levels="1" name="Event - Head Milk Cow Summon Scroll" >
+		<!-- todo сделать скилл привязать к итему -->
+		<set name="name-ru" val="Ивент - Свиток Призыва Тучной Коровы" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="reuse_delay" val="10000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="1500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2871" levels="1" name="Summon Gloomy Milk Cow" >
+		<!-- todo сделать скилл привязать к итему -->
+		<set name="name-ru" val="Призыв Грустной Коровы" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_cancel_time" val="1500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2872" levels="1" name="Summon Head Gloomy Milk Cow" >
+		<!-- todo сделать скилл привязать к итему -->
+		<set name="name-ru" val="Призыв Грустной Тучной Коровы" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_cancel_time" val="1500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2873" levels="1" name="Might" >
+		<table name="#abnormal_lv">4 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="pa_up"/>
+		<set name="name-ru" val="Сила" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.etc_fresh_milk_i00" />
+		<set name="magic_level" val="20" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="4" stackType="pa_up" time="3600" val="0">
+				<mul order="0x30" stat="pAtk" val="1.15" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2874" levels="1" name="Wind Walk" >
+		<table name="#abnormal_lv">3 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="speed_up"/>
+		<set name="name-ru" val="Легкая Походка" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.etc_fresh_milk_i00" />
+		<set name="magic_level" val="30" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="3" stackType="speed_up" time="3600" val="0">
+				<add order="0x40" stat="runSpd" val="33" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2875" levels="1" name="Haste" >
+		<table name="#abnormal_lv">2 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="attack_time_down"/>
+		<set name="name-ru" val="Ускорение" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.etc_fresh_milk_i00" />
+		<set name="magic_level" val="44" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="3" stackType="attack_time_down" time="3600" val="0">
+				<mul order="0x30" stat="pAtkSpd" val="1.33" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2876" levels="1" name="Vampiric Rage" >
+		<table name="#abnormal_lv">4 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="vampiric_attack"/>
+		<set name="name-ru" val="Ярость Вампира" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.etc_fresh_milk_i00" />
+		<set name="magic_level" val="44" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="4" stackType="vampiric_attack" time="3600" val="0">
+				<add order="0x40" stat="absorbDam" val="9" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2877" levels="1" name="Berserker Spirit" >
+		<table name="#abnormal_lv">3 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="berserker"/>
+		<set name="name-ru" val="Дух Берсерка" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.etc_fresh_milk_i00" />
+		<set name="magic_level" val="35" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="3" stackType="berserker" time="3600" val="0">
+				<mul order="0x30" stat="mAtk" val="1.16" />
+				<mul order="0x30" stat="pAtk" val="1.08" />
+				<mul order="0x30" stat="pDef" val="0.92" />
+				<mul order="0x30" stat="mDef" val="0.84" />
+				<mul order="0x30" stat="mAtkSpd" val="1.08" />
+				<mul order="0x30" stat="pAtkSpd" val="1.08" />
+				<add order="0x40" stat="runSpd" val="8" />
+				<sub order="0x40" stat="rEvas" val="4" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2878" levels="1" name="Empower" >
+		<table name="#abnormal_lv">4 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="ma_up"/>
+		<set name="name-ru" val="Воодушевление" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.etc_fresh_milk_i00" />
+		<set name="magic_level" val="44" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="4" stackType="ma_up" time="3600" val="0">
+				<mul order="0x30" stat="mAtk" val="1.75" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2879" levels="1" name="Acumen" >
+		<table name="#abnormal_lv">4 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="casting_time_down"/>
+		<set name="name-ru" val="Проницательность" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.etc_fresh_milk_i00" />
+		<set name="magic_level" val="35" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="4" stackType="casting_time_down" time="3600" val="0">
+				<mul order="0x30" stat="mAtkSpd" val="1.3" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2880" levels="1" name="Event - Gloomy Milk Cow Summon Scroll" >
+		<!-- todo сделать скилл привязать к итему -->
+		<set name="name-ru" val="Свиток Призыва Грустной Коровы - для ивента" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="reuse_delay" val="10000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="1500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2881" levels="1" name="Event - Gloomy Head Milk Cow Summon Scroll" >
+		<!-- todo сделать скилл привязать к итему -->
+		<set name="name-ru" val="Свиток Призыва Грустной Тучной Коровы - для ивента" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="reuse_delay" val="10000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="1500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2882" levels="1" name="Crystal Cube" >
+		<set name="name-ru" val="Кристальный Куб" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="14729"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="35.1">
+				<extract item_id="14733" count="1"/>
+				<!--Event - Black Crystal Cube Fragment-->
+			</group>
+			<group chance="22.1">
+				<extract item_id="14737" count="1"/>
+				<!--Event - Dark Brown Crystal Cube Fragment-->
+			</group>
+			<group chance="22.1">
+				<extract item_id="14736" count="1"/>
+				<!--Event - Pink Crystal Cube Fragment-->
+			</group>
+			<group chance="10.1">
+				<extract item_id="14735" count="1"/>
+				<!--Event - Purple Crystal Cube Fragment-->
+			</group>
+			<group chance="6.1">
+				<extract item_id="14734" count="1"/>
+				<!--Event - Clear Crystal Cube Fragment-->
+			</group>
+			<group chance="3.0">
+				<extract item_id="14731" count="1"/>
+				<!--Event - Silver Crystal Cube Fragment-->
+			</group>
+			<group chance="1.5">
+				<extract item_id="14730" count="1"/>
+				<!--Event - Gold Crystal Cube Fragment-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2883" levels="1" name="Energy Replenishing Herb Tea" >
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="vp_up"/>
+		<set name="name-ru" val="Травяная Настойка" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="reuse_delay" val="10000" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Vitality" stackType="vp_up" stackOrder="1" time="600" val="0" />
+		</for>
+	</skill>
+	<skill id="2884" levels="1" name="Energy Replenishing Herb Tea" >
+		<table name="#abnormal_lv">2 </table>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="vp_up"/>
+		<set name="name-ru" val="Травяная Настойка" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="reuse_delay" val="10000" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Vitality" stackType="vp_up" stackOrder="1" time="1200" val="0" />
+		</for>
+	</skill>
+	<skill id="2885" levels="1" name="Shield" >
+		<table name="#abnormal_lv">4 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="pd_up"/>
+		<set name="name-ru" val="Щит" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.etc_fresh_milk_i00" />
+		<set name="magic_level" val="25" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="4" stackType="pd_up" time="3600" val="0">
+				<mul order="0x30" stat="pDef" val="1.15" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2886" levels="1" name="Focus" >
+		<table name="#abnormal_lv">4 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="critical_prob_up"/>
+		<set name="name-ru" val="Фокусировка" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.etc_fresh_milk_i00" />
+		<set name="magic_level" val="44" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="4" stackType="critical_prob_up" time="3600" val="0">
+				<add order="0x40" stat="rCrit" val="30" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2887" levels="1" name="Death Whisper" >
+		<table name="#abnormal_lv">4 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="critical_dmg_up"/>
+		<set name="name-ru" val="Смертельный Шепот" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.etc_fresh_milk_i00" />
+		<set name="magic_level" val="48" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="4" stackType="critical_dmg_up" time="3600" val="0">
+				<mul order="0x30" stat="cAtk" val="1.35" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2888" levels="1" name="Guidance" >
+		<table name="#abnormal_lv">4 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="hit_up"/>
+		<set name="name-ru" val="Наведение" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.etc_fresh_milk_i00" />
+		<set name="magic_level" val="48" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="4" stackType="hit_up" time="3600" val="0">
+				<add order="0x40" stat="accCombat" val="4" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2889" levels="1" name="Clarity" >
+		<table name="#abnormal_lv">3 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="cheap_magic"/>
+		<set name="name-ru" val="Чистота" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.etc_fresh_milk_i00" />
+		<set name="magic_level" val="58" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="3" stackType="cheap_magic" time="3600" val="0">
+				<mul order="0x30" stat="mpConsum" val="0.9" />
+				<mul order="0x30" stat="mpConsumePhysical" val="0.8" />
+				<mul order="0x30" stat="mpDanceConsume" val="0.8" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2890" levels="1" name="Wild Magic" >
+		<table name="#abnormal_lv">3 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="magic_critical_up"/>
+		<set name="name-ru" val="Яростная Магия" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.etc_fresh_milk_i00" />
+		<set name="magic_level" val="70" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="3" stackType="magic_critical_up" time="3600" val="0">
+				<add order="0x40" stat="mCritRate" val="2" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2891" levels="6" name="Concentration" >
+		<table name="#abnormal_lv">7 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="cancel_prob_down"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.etc_fresh_milk_i00" />
+		<set name="magic_level" val="68" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="7" stackType="cancel_prob_down" time="3600" val="0">
+				<mul order="0x30" stat="concentration" val="0.47" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2892" levels="1" name="Event - Extra Entrance Pass - Rim Kamaloka" >
+		<set name="name-ru" val="Дополнительный Билет: Окрестности Камалоки - для ивента" />
+		<!-- todo: сделать скилл привязать к итему -->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2893" levels="1" name="Solo Escape Petition" >
+		<set name="name-ru" val="Свеча Спасения от Одиночества" />
+		<!-- todo: сделать скилл привязать к итему -->
+		<table name="#abnormal_lv">2 </table>
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="vp_keep"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_candle_yellow_i00" />
+		<set name="reuse_delay" val="1800000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2894" levels="1" name="White Day Candy" >
+		<set name="name-ru" val="Конфета Светлого Дня" />
+		<!-- todo: сделать скилл привязать к итему -->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2895" levels="1" name="Special White Day Candy Basket" >
+		<set name="name-ru" val="Большая Корзина Конфет Светлого Дня" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="14766"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="10.0">
+				<extract item_id="14769" count="5"/>
+				<!--White Day Candy-->
+				<extract item_id="14772" count="1"/>
+				<!--Coronet-->
+			</group>
+			<group chance="40.0">
+				<extract item_id="14769" count="5"/>
+				<!--White Day Candy-->
+				<extract item_id="14773" count="1"/>
+				<!--Suit-->
+			</group>
+			<group chance="50.0">
+				<extract item_id="14769" count="5"/>
+				<!--White Day Candy-->
+				<extract item_id="14776" count="1"/>
+				<!--Agathion Seal Bracelet - Juju-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2896" levels="1" name="White Day Candy Basket" >
+		<set name="name-ru" val="Корзина Конфет Светлого Дня" />
+		<set name="magicType" val="SPECIAL"/>
+		<set name="icon" val="icon.skill0000"/>
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="14767"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="EXTRACT"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113" addName="1">
+			<player encumbered="20;10"/>
+		</cond>
+		<extractlist level="1">
+			<group chance="10.0">
+				<extract item_id="14769" count="5"/>
+				<!--White Day Candy-->
+				<extract item_id="14772" count="1"/>
+				<!--Coronet-->
+			</group>
+			<group chance="40.0">
+				<extract item_id="14769" count="5"/>
+				<!--White Day Candy-->
+				<extract item_id="14773" count="1"/>
+				<!--Suit-->
+			</group>
+			<group chance="50.0">
+				<extract item_id="14769" count="5"/>
+				<!--White Day Candy-->
+				<extract item_id="14776" count="1"/>
+				<!--Agathion Seal Bracelet - Juju-->
+			</group>
+		</extractlist>
+	</skill>
+	<skill id="2897" levels="1" name="Baguette's Herb" >
+		<set name="name-ru" val="Настойка - Багет" />
+		<!-- todo: сделать скилл привязать к итему -->
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="wp_change_event"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_herb_of_baguette" />
+		<set name="reuse_delay" val="2000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2898" levels="1" name="Fresh Cream Herb" >
+		<set name="name-ru" val="Настойка - Эклер" />
+		<!-- todo: сделать скилл привязать к итему -->
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="wp_change_event"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_herb_of_cream" />
+		<set name="reuse_delay" val="2000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="2899" levels="1" name="Cheesecake Herb" >
+		<set name="name-ru" val="Настойка - Сырный Пирог" />
+		<!-- todo: сделать скилл привязать к итему -->
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="wp_change_event"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_herb_of_cheesecake" />
+		<set name="reuse_delay" val="2000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+</list>

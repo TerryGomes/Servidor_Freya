@@ -1,0 +1,27 @@
+2022-08-31 12:37:05,510 INFO l.l.LoginServer [main] - =======================================================
+2022-08-31 12:37:05,512 INFO l.l.LoginServer [main] - Team: .................... DevHibrido
+2022-08-31 12:37:05,512 INFO l.l.LoginServer [main] - Site: .................... www.l2multverso.com.br
+2022-08-31 12:37:05,512 INFO l.l.LoginServer [main] - =======================================================
+2022-08-31 12:37:05,513 INFO l.l.LoginServer [main] - Revision: ................ Freya 3.0
+2022-08-31 12:37:05,513 INFO l.l.LoginServer [main] - Version: ................. 3.0
+2022-08-31 12:37:05,513 INFO l.l.LoginServer [main] - Build date: .............. 2022.08.31 12:35
+2022-08-31 12:37:05,514 INFO l.l.LoginServer [main] - Compiler version: ........ 18.0.1.1+2-6 (Oracle Corporation)
+2022-08-31 12:37:05,514 INFO l.l.LoginServer [main] - =======================================================
+2022-08-31 12:37:05,567 INFO l.l.Config [main] - Loaded 127 server names
+2022-08-31 12:37:05,574 INFO l.l.LoginServer [main] - Initialize database: ........
+2022-08-31 12:37:05,667 INFO l.l.d.DatabaseFactory [main] - Database connection working, started HikariDataSource (HikariPool-1).
+2022-08-31 12:37:05,670 INFO l.l.LoginServer [main] - Checking database: ........
+2022-08-31 12:37:05,703 INFO l.l.GameServerManager [main] - Loaded 0 registered GameServer(s).
+2022-08-31 12:37:05,703 INFO l.l.GameServerManager [main] - Loaded 0 proxy server(s).
+2022-08-31 12:37:05,706 INFO l.l.Config [main] - Loaded whirlpool2 as default crypt.
+2022-08-31 12:37:06,120 INFO l.l.Config [main] - Cached 10 KeyPairs for RSA communication
+2022-08-31 12:37:06,121 INFO l.l.Config [main] - Stored 20 keys for Blowfish communication
+2022-08-31 12:37:06,139 INFO l.l.LoginServer [main] - Listening for gameservers on *:9014
+2022-08-31 12:37:06,141 INFO l.l.LoginServer [main] - Listening for clients on *:2106
+2022-08-31 12:37:06,141 INFO l.l.LoginServer [main] - =================================================
+2022-08-31 12:37:06,158 INFO l.l.LoginServer [main] - =================================================
+2022-08-31 12:38:34,566 INFO l.l.g.g.AuthRequest [pool-3-thread-1] - Trying to register gameserver: 1 [127.0.0.1]
+2022-08-31 12:38:34,567 INFO l.l.g.g.AuthRequest [pool-3-thread-1] - Gameserver registration successful.
+2022-08-31 12:41:24,975 ERROR l.l.g.GameServerCommunication [Thread-1] - Gameserver I/O error: Connection reset
+2022-08-31 12:41:24,976 INFO l.l.g.GameServerConnection [Thread-1] - Connection with gameserver 1 [Bartz] lost.
+2022-08-31 12:41:24,980 INFO l.l.g.GameServerConnection [Thread-1] - Setting gameserver down.

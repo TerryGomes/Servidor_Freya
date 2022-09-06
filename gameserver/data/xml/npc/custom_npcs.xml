@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list> 
+	<npc id="36600" name="Archangel" title="Soul Collector"> 
+		<set name="name-ru" value="Архангел"/>  
+		<set name="title-ru" value="Спаситель душ"/>  
+		<set name="displayId" value="27335"/>  
+		<set name="aggroRange" value="150"/>  
+		<set name="ai_type" value="CharacterAI"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="43"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="30"/>  
+		<set name="baseHpMax" value="2916.899"/>  
+		<set name="baseHpRate" value="1"/>  
+		<set name="baseHpReg" value="8.5"/>  
+		<set name="baseINT" value="21"/>  
+		<set name="baseMAtk" value="1183"/>  
+		<set name="baseMAtkSpd" value="500"/>  
+		<set name="baseMDef" value="477"/>  
+		<set name="baseMEN" value="20"/>  
+		<set name="baseMpMax" value="1708.8"/>  
+		<set name="baseMpReg" value="3"/>  
+		<set name="basePAtk" value="1848"/>  
+		<set name="basePAtkSpd" value="253"/>  
+		<set name="basePDef" value="588"/>  
+		<set name="baseRunSpd" value="120"/>  
+		<set name="baseSTR" value="40"/>  
+		<set name="baseShldDef" value="0"/>  
+		<set name="baseShldRate" value="0"/>  
+		<set name="baseWIT" value="20"/>  
+		<set name="baseWalkSpd" value="80"/>  
+		<set name="collision_height" value="50.0"/>  
+		<set name="collision_radius" value="12.0"/>  
+		<set name="corpse_time" value="2"/>  
+		<set name="level" value="81"/>  
+		<set name="race" value="humanoid"/>  
+		<set name="baseRndDam" value="40"/>  
+		<set name="sex" value="male"/>  
+		<set name="baseAtkType" value="need_pars"/>  
+		<set name="isAgro" value="0"/>  
+		<set name="rewardExp" value="0"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="0"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="spiritshot_count" value="2"/>  
+		<set name="soulshot_count" value="2"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="Npc"/>  
+		<equip> 
+			<rhand item_id="97"/> 
+		</equip>  
+		<skills/>  
+		<attributes> 
+			<defence attribute="fire" value="20"/>  
+			<defence attribute="water" value="20"/>  
+			<defence attribute="wind" value="20"/>  
+			<defence attribute="earth" value="20"/>  
+			<defence attribute="holy" value="20"/>  
+			<defence attribute="unholy" value="20"/> 
+		</attributes> 
+	</npc>  
+	<npc id="36601" name="Soul" title=""> 
+		<set name="name-ru" value="Душа"/>  
+		<set name="displayId" value="21000"/>  
+		<set name="aggroRange" value="500"/>  
+		<set name="ai_type" value="SoulFolowerAI"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="43"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="30"/>  
+		<set name="baseHpMax" value="1621.756"/>  
+		<set name="baseHpRate" value="1"/>  
+		<set name="baseHpReg" value="6.5"/>  
+		<set name="baseINT" value="21"/>  
+		<set name="baseMAtk" value="340"/>  
+		<set name="baseMAtkSpd" value="500"/>  
+		<set name="baseMDef" value="231"/>  
+		<set name="baseMEN" value="20"/>  
+		<set name="baseMpMax" value="861"/>  
+		<set name="baseMpReg" value="2.4"/>  
+		<set name="basePAtk" value="631"/>  
+		<set name="basePAtkSpd" value="253"/>  
+		<set name="basePDef" value="313"/>  
+		<set name="baseRunSpd" value="174"/>  
+		<set name="baseSTR" value="40"/>  
+		<set name="baseShldDef" value="0"/>  
+		<set name="baseShldRate" value="0"/>  
+		<set name="baseWIT" value="20"/>  
+		<set name="baseWalkSpd" value="80"/>  
+		<set name="collision_height" value="22.0"/>  
+		<set name="collision_radius" value="8.0"/>  
+		<set name="corpse_time" value="2"/>  
+		<set name="level" value="54"/>  
+		<set name="race" value="humanoid"/>  
+		<set name="baseRndDam" value="40"/>  
+		<set name="sex" value="male"/>  
+		<set name="baseAtkType" value="need_pars"/>  
+		<set name="isAgro" value="0"/>  
+		<set name="rewardExp" value="5191"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="414"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="spiritshot_count" value="2"/>  
+		<set name="soulshot_count" value="2"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="Npc"/>  
+		<skills/>  
+		<attributes> 
+			<attack attribute="unholy" value="20"/>  
+			<defence attribute="fire" value="20"/>  
+			<defence attribute="water" value="20"/>  
+			<defence attribute="wind" value="20"/>  
+			<defence attribute="earth" value="20"/>  
+			<defence attribute="unholy" value="53"/> 
+		</attributes> 
+	</npc>  
+	<npc id="36602" name="Soul" title="Mercenary"> 
+		<set name="name-ru" value="Душа"/>  
+		<set name="title-ru" value="Наёмник"/>  
+		<set name="displayId" value="21000"/>  
+		<set name="aggroRange" value="0"/>  
+		<set name="ai_type" value="FakeAssistant"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="43"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="30"/>  
+		<set name="baseHpMax" value="1621.756"/>  
+		<set name="baseHpRate" value="1"/>  
+		<set name="baseHpReg" value="6.5"/>  
+		<set name="baseINT" value="21"/>  
+		<set name="baseMAtk" value="340"/>  
+		<set name="baseMAtkSpd" value="500"/>  
+		<set name="baseMDef" value="231"/>  
+		<set name="baseMEN" value="20"/>  
+		<set name="baseMpMax" value="861"/>  
+		<set name="baseMpReg" value="2.4"/>  
+		<set name="basePAtk" value="631"/>  
+		<set name="basePAtkSpd" value="253"/>  
+		<set name="basePDef" value="313"/>  
+		<set name="baseRunSpd" value="174"/>  
+		<set name="baseSTR" value="40"/>  
+		<set name="baseShldDef" value="0"/>  
+		<set name="baseShldRate" value="0"/>  
+		<set name="baseWIT" value="20"/>  
+		<set name="baseWalkSpd" value="80"/>  
+		<set name="collision_height" value="22.0"/>  
+		<set name="collision_radius" value="8.0"/>  
+		<set name="corpse_time" value="2"/>  
+		<set name="level" value="54"/>  
+		<set name="race" value="humanoid"/>  
+		<set name="baseRndDam" value="40"/>  
+		<set name="sex" value="male"/>  
+		<set name="baseAtkType" value="need_pars"/>  
+		<set name="isAgro" value="0"/>  
+		<set name="rewardExp" value="5191"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="414"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="spiritshot_count" value="2"/>  
+		<set name="soulshot_count" value="2"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="Monster"/>  
+		<skills/>  
+		<attributes> 
+			<attack attribute="unholy" value="20"/>  
+			<defence attribute="fire" value="20"/>  
+			<defence attribute="water" value="20"/>  
+			<defence attribute="wind" value="20"/>  
+			<defence attribute="earth" value="20"/>  
+			<defence attribute="unholy" value="53"/> 
+		</attributes> 
+	</npc>  
+	<npc id="36610" name="Great White Shark" title="Event Hunting for Sharks"> 
+		<set name="name-ru" value="Опасная Белая Акула"/>  
+		<set name="title-ru" value="Кровожадная Акула"/>  
+		<set name="displayId" value="20314"/>  
+		<set name="aggroRange" value="0"/>  
+		<set name="ai_type" value="Event.HuntingforSharks.Shark86"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="43"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="30"/>  
+		<set name="baseHpMax" value="74744.817"/>  
+		<set name="baseHpRate" value="2"/>  
+		<set name="baseHpReg" value="110.577"/>  
+		<set name="baseINT" value="21"/>  
+		<set name="baseMAtk" value="527"/>  
+		<set name="baseMAtkSpd" value="333"/>  
+		<set name="baseMDef" value="3502"/>  
+		<set name="baseMEN" value="20"/>  
+		<set name="baseMpMax" value="1812"/>  
+		<set name="baseMpReg" value="3"/>  
+		<set name="basePAtk" value="21019"/>  
+		<set name="basePAtkSpd" value="358"/>  
+		<set name="basePDef" value="991"/>  
+		<set name="baseRunSpd" value="250"/>  
+		<set name="baseSTR" value="40"/>  
+		<set name="baseShldDef" value="0"/>  
+		<set name="baseShldRate" value="0"/>  
+		<set name="baseWIT" value="20"/>  
+		<set name="baseWalkSpd" value="120"/>  
+		<set name="collision_height" value="7.0"/>  
+		<set name="collision_radius" value="20.0"/>  
+		<set name="corpse_time" value="2"/>  
+		<set name="level" value="86"/>  
+		<set name="race" value="humanoid"/>  
+		<set name="baseRndDam" value="40"/>  
+		<set name="sex" value="male"/>  
+		<set name="baseAtkType" value="need_pars"/>  
+		<set name="isAgro" value="0"/>  
+		<set name="rewardExp" value="0"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="0"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="spiritshot_count" value="2"/>  
+		<set name="soulshot_count" value="2"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="Monster"/>  
+		<skills/>  
+		<rewardlist type="RATED_GROUPED"> 
+			<group chance="98.0"> 
+				<reward chance="100.0000" item_id="57" max="298750" min="165043"/> 
+			</group> 
+		</rewardlist>  
+		<rewardlist type="SWEEP"> 
+			<reward chance="0.7556" item_id="4356" max="1" min="1"/>  
+			<reward chance="0.7556" item_id="4357" max="1" min="1"/>  
+			<reward chance="29.12" item_id="14167" max="1" min="1"/>  
+			<reward chance="2.887" item_id="14168" max="1" min="1"/>  
+			<reward chance="1" item_id="14169" max="1" min="1"/> 
+		</rewardlist>  
+		<attributes> 
+			<defence attribute="fire" value="70"/>  
+			<defence attribute="water" value="70"/>  
+			<defence attribute="wind" value="70"/>  
+			<defence attribute="earth" value="70"/>  
+			<defence attribute="holy" value="70"/>  
+			<defence attribute="unholy" value="70"/> 
+		</attributes> 
+	</npc>  
+	<npc id="36611" name="The Fluffy Cat" title="Shark Event Manager"> 
+		<set name="name-ru" value="The Fluffy Cat"/>  
+		<set name="title-ru" value="Ивент Охота на Акул"/>  
+		<set name="displayId" value="32423"/>  
+		<set name="aggroRange" value="0"/>  
+		<set name="ai_type" value="CharacterAI"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="43"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="30"/>  
+		<set name="baseHpMax" value="680"/>  
+		<set name="baseHpRate" value="1"/>  
+		<set name="baseHpReg" value="0"/>  
+		<set name="baseINT" value="21"/>  
+		<set name="baseMAtk" value="11"/>  
+		<set name="baseMAtkSpd" value="253"/>  
+		<set name="baseMDef" value="375180"/>  
+		<set name="baseMEN" value="20"/>  
+		<set name="baseMpMax" value="2000"/>  
+		<set name="baseMpReg" value="0.9"/>  
+		<set name="basePAtk" value="17"/>  
+		<set name="basePAtkSpd" value="253"/>  
+		<set name="basePDef" value="101400"/>  
+		<set name="baseRunSpd" value="120"/>  
+		<set name="baseSTR" value="40"/>  
+		<set name="baseShldDef" value="0"/>  
+		<set name="baseShldRate" value="0"/>  
+		<set name="baseWIT" value="20"/>  
+		<set name="baseWalkSpd" value="30"/>  
+		<set name="collision_height" value="22.0"/>  
+		<set name="collision_radius" value="11.0"/>  
+		<set name="corpse_time" value="2"/>  
+		<set name="level" value="80"/>  
+		<set name="race" value="humanoid"/>  
+		<set name="baseRndDam" value="40"/>  
+		<set name="sex" value="male"/>  
+		<set name="baseAtkType" value="need_pars"/>  
+		<set name="isAgro" value="0"/>  
+		<set name="rewardExp" value="0"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="0"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="spiritshot_count" value="2"/>  
+		<set name="soulshot_count" value="2"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="Npc"/>  
+		<attributes> 
+			<defence attribute="fire" value="20"/>  
+			<defence attribute="water" value="20"/>  
+			<defence attribute="wind" value="20"/>  
+			<defence attribute="earth" value="20"/>  
+			<defence attribute="holy" value="20"/>  
+			<defence attribute="unholy" value="20"/> 
+		</attributes> 
+	</npc>  
+	<npc id="36612" name="Kandins" title="Arena 1 (55-60) Manager"> 
+		<set name="displayId" value="22346"/>  
+		<set name="aggroRange" value="0"/>  
+		<set name="ai_type" value="CharacterAI"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="43"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="30"/>  
+		<set name="baseHpMax" value="2444.468"/>  
+		<set name="baseHpRate" value="1"/>  
+		<set name="baseHpReg" value="7.5"/>  
+		<set name="baseINT" value="21"/>  
+		<set name="baseMAtk" value="780"/>  
+		<set name="baseMAtkSpd" value="500"/>  
+		<set name="baseMDef" value="382"/>  
+		<set name="baseMEN" value="20"/>  
+		<set name="baseMpMax" value="1345.8"/>  
+		<set name="baseMpReg" value="2.7"/>  
+		<set name="basePAtk" value="1303"/>  
+		<set name="basePAtkSpd" value="253"/>  
+		<set name="basePDef" value="471"/>  
+		<set name="baseRunSpd" value="120"/>  
+		<set name="baseSTR" value="40"/>  
+		<set name="baseShldDef" value="0"/>  
+		<set name="baseShldRate" value="0"/>  
+		<set name="baseWIT" value="20"/>  
+		<set name="baseWalkSpd" value="50"/>  
+		<set name="collision_height" value="43.0"/>  
+		<set name="collision_radius" value="22.0"/>  
+		<set name="corpse_time" value="2"/>  
+		<set name="level" value="70"/>  
+		<set name="race" value="humanoid"/>  
+		<set name="baseRndDam" value="40"/>  
+		<set name="sex" value="male"/>  
+		<set name="baseAtkType" value="need_pars"/>  
+		<set name="isAgro" value="0"/>  
+		<set name="rewardExp" value="0"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="0"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="spiritshot_count" value="2"/>  
+		<set name="soulshot_count" value="2"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="Npc"/>  
+		<equip> 
+			<rhand item_id="8686"/> 
+		</equip>  
+		<skills/>  
+		<attributes> 
+			<defence attribute="fire" value="150"/>  
+			<defence attribute="water" value="150"/>  
+			<defence attribute="wind" value="150"/>  
+			<defence attribute="earth" value="150"/>  
+			<defence attribute="holy" value="150"/>  
+			<defence attribute="unholy" value="150"/> 
+		</attributes> 
+	</npc>  
+	<npc id="36613" name="Rio" title="Arena 2 (61-69) Manager"> 
+		<set name="displayId" value="22346"/>  
+		<set name="aggroRange" value="0"/>  
+		<set name="ai_type" value="CharacterAI"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="43"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="30"/>  
+		<set name="baseHpMax" value="2444.468"/>  
+		<set name="baseHpRate" value="1"/>  
+		<set name="baseHpReg" value="7.5"/>  
+		<set name="baseINT" value="21"/>  
+		<set name="baseMAtk" value="780"/>  
+		<set name="baseMAtkSpd" value="500"/>  
+		<set name="baseMDef" value="382"/>  
+		<set name="baseMEN" value="20"/>  
+		<set name="baseMpMax" value="1345.8"/>  
+		<set name="baseMpReg" value="2.7"/>  
+		<set name="basePAtk" value="1303"/>  
+		<set name="basePAtkSpd" value="253"/>  
+		<set name="basePDef" value="471"/>  
+		<set name="baseRunSpd" value="120"/>  
+		<set name="baseSTR" value="40"/>  
+		<set name="baseShldDef" value="0"/>  
+		<set name="baseShldRate" value="0"/>  
+		<set name="baseWIT" value="20"/>  
+		<set name="baseWalkSpd" value="50"/>  
+		<set name="collision_height" value="43.0"/>  
+		<set name="collision_radius" value="22.0"/>  
+		<set name="corpse_time" value="2"/>  
+		<set name="level" value="70"/>  
+		<set name="race" value="humanoid"/>  
+		<set name="baseRndDam" value="40"/>  
+		<set name="sex" value="male"/>  
+		<set name="baseAtkType" value="need_pars"/>  
+		<set name="isAgro" value="0"/>  
+		<set name="rewardExp" value="0"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="0"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="spiritshot_count" value="2"/>  
+		<set name="soulshot_count" value="2"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="Npc"/>  
+		<equip> 
+			<rhand item_id="8686"/> 
+		</equip>  
+		<skills/>  
+		<attributes> 
+			<defence attribute="fire" value="150"/>  
+			<defence attribute="water" value="150"/>  
+			<defence attribute="wind" value="150"/>  
+			<defence attribute="earth" value="150"/>  
+			<defence attribute="holy" value="150"/>  
+			<defence attribute="unholy" value="150"/> 
+		</attributes> 
+	</npc>  
+	<npc id="36614" name="Tarion" title="Arena 3 (70-75) Manager"> 
+		<set name="displayId" value="22346"/>  
+		<set name="aggroRange" value="0"/>  
+		<set name="ai_type" value="CharacterAI"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="43"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="30"/>  
+		<set name="baseHpMax" value="2444.468"/>  
+		<set name="baseHpRate" value="1"/>  
+		<set name="baseHpReg" value="7.5"/>  
+		<set name="baseINT" value="21"/>  
+		<set name="baseMAtk" value="780"/>  
+		<set name="baseMAtkSpd" value="500"/>  
+		<set name="baseMDef" value="382"/>  
+		<set name="baseMEN" value="20"/>  
+		<set name="baseMpMax" value="1345.8"/>  
+		<set name="baseMpReg" value="2.7"/>  
+		<set name="basePAtk" value="1303"/>  
+		<set name="basePAtkSpd" value="253"/>  
+		<set name="basePDef" value="471"/>  
+		<set name="baseRunSpd" value="120"/>  
+		<set name="baseSTR" value="40"/>  
+		<set name="baseShldDef" value="0"/>  
+		<set name="baseShldRate" value="0"/>  
+		<set name="baseWIT" value="20"/>  
+		<set name="baseWalkSpd" value="50"/>  
+		<set name="collision_height" value="43.0"/>  
+		<set name="collision_radius" value="22.0"/>  
+		<set name="corpse_time" value="2"/>  
+		<set name="level" value="70"/>  
+		<set name="race" value="humanoid"/>  
+		<set name="baseRndDam" value="40"/>  
+		<set name="sex" value="male"/>  
+		<set name="baseAtkType" value="need_pars"/>  
+		<set name="isAgro" value="0"/>  
+		<set name="rewardExp" value="0"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="0"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="spiritshot_count" value="2"/>  
+		<set name="soulshot_count" value="2"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="Npc"/>  
+		<equip> 
+			<rhand item_id="8686"/> 
+		</equip>  
+		<skills/>  
+		<attributes> 
+			<defence attribute="fire" value="150"/>  
+			<defence attribute="water" value="150"/>  
+			<defence attribute="wind" value="150"/>  
+			<defence attribute="earth" value="150"/>  
+			<defence attribute="holy" value="150"/>  
+			<defence attribute="unholy" value="150"/> 
+		</attributes> 
+	</npc>  
+	<npc id="36615" name="Koon" title="Arena 4 (76-80) Manager"> 
+		<set name="displayId" value="22346"/>  
+		<set name="aggroRange" value="0"/>  
+		<set name="ai_type" value="CharacterAI"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="43"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="30"/>  
+		<set name="baseHpMax" value="2444.468"/>  
+		<set name="baseHpRate" value="1"/>  
+		<set name="baseHpReg" value="7.5"/>  
+		<set name="baseINT" value="21"/>  
+		<set name="baseMAtk" value="780"/>  
+		<set name="baseMAtkSpd" value="500"/>  
+		<set name="baseMDef" value="382"/>  
+		<set name="baseMEN" value="20"/>  
+		<set name="baseMpMax" value="1345.8"/>  
+		<set name="baseMpReg" value="2.7"/>  
+		<set name="basePAtk" value="1303"/>  
+		<set name="basePAtkSpd" value="253"/>  
+		<set name="basePDef" value="471"/>  
+		<set name="baseRunSpd" value="120"/>  
+		<set name="baseSTR" value="40"/>  
+		<set name="baseShldDef" value="0"/>  
+		<set name="baseShldRate" value="0"/>  
+		<set name="baseWIT" value="20"/>  
+		<set name="baseWalkSpd" value="50"/>  
+		<set name="collision_height" value="43.0"/>  
+		<set name="collision_radius" value="22.0"/>  
+		<set name="corpse_time" value="2"/>  
+		<set name="level" value="70"/>  
+		<set name="race" value="humanoid"/>  
+		<set name="baseRndDam" value="40"/>  
+		<set name="sex" value="male"/>  
+		<set name="baseAtkType" value="need_pars"/>  
+		<set name="isAgro" value="0"/>  
+		<set name="rewardExp" value="0"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="0"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="spiritshot_count" value="2"/>  
+		<set name="soulshot_count" value="2"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="Npc"/>  
+		<equip> 
+			<rhand item_id="8686"/> 
+		</equip>  
+		<skills/>  
+		<attributes> 
+			<defence attribute="fire" value="150"/>  
+			<defence attribute="water" value="150"/>  
+			<defence attribute="wind" value="150"/>  
+			<defence attribute="earth" value="150"/>  
+			<defence attribute="holy" value="150"/>  
+			<defence attribute="unholy" value="150"/> 
+		</attributes> 
+	</npc>  
+	<npc id="36616" name="Kuram" title="Arena 5 (81-85) Manager"> 
+		<set name="displayId" value="22346"/>  
+		<set name="aggroRange" value="0"/>  
+		<set name="ai_type" value="CharacterAI"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="43"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="30"/>  
+		<set name="baseHpMax" value="2444.468"/>  
+		<set name="baseHpRate" value="1"/>  
+		<set name="baseHpReg" value="7.5"/>  
+		<set name="baseINT" value="21"/>  
+		<set name="baseMAtk" value="780"/>  
+		<set name="baseMAtkSpd" value="500"/>  
+		<set name="baseMDef" value="382"/>  
+		<set name="baseMEN" value="20"/>  
+		<set name="baseMpMax" value="1345.8"/>  
+		<set name="baseMpReg" value="2.7"/>  
+		<set name="basePAtk" value="1303"/>  
+		<set name="basePAtkSpd" value="253"/>  
+		<set name="basePDef" value="471"/>  
+		<set name="baseRunSpd" value="120"/>  
+		<set name="baseSTR" value="40"/>  
+		<set name="baseShldDef" value="0"/>  
+		<set name="baseShldRate" value="0"/>  
+		<set name="baseWIT" value="20"/>  
+		<set name="baseWalkSpd" value="50"/>  
+		<set name="collision_height" value="43.0"/>  
+		<set name="collision_radius" value="22.0"/>  
+		<set name="corpse_time" value="2"/>  
+		<set name="level" value="70"/>  
+		<set name="race" value="humanoid"/>  
+		<set name="baseRndDam" value="40"/>  
+		<set name="sex" value="male"/>  
+		<set name="baseAtkType" value="need_pars"/>  
+		<set name="isAgro" value="0"/>  
+		<set name="rewardExp" value="0"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="0"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="spiritshot_count" value="2"/>  
+		<set name="soulshot_count" value="2"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="Npc"/>  
+		<equip> 
+			<rhand item_id="8686"/> 
+		</equip>  
+		<skills/>  
+		<attributes> 
+			<defence attribute="fire" value="150"/>  
+			<defence attribute="water" value="150"/>  
+			<defence attribute="wind" value="150"/>  
+			<defence attribute="earth" value="150"/>  
+			<defence attribute="holy" value="150"/>  
+			<defence attribute="unholy" value="150"/> 
+		</attributes> 
+	</npc>  
+	<npc id="36617" name="Tree" title=""> 
+		<set name="name-ru" value="Дерево"/>  
+		<set name="displayId" value="30627"/>  
+		<set name="aggroRange" value="0"/>  
+		<set name="ai_type" value="CharacterAI"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="43"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="30"/>  
+		<set name="baseHpMax" value="2444.468"/>  
+		<set name="baseHpRate" value="1"/>  
+		<set name="baseHpReg" value="7.5"/>  
+		<set name="baseINT" value="21"/>  
+		<set name="baseMAtk" value="780"/>  
+		<set name="baseMAtkSpd" value="500"/>  
+		<set name="baseMDef" value="382"/>  
+		<set name="baseMEN" value="20"/>  
+		<set name="baseMpMax" value="1345.8"/>  
+		<set name="baseMpReg" value="2.7"/>  
+		<set name="basePAtk" value="1303"/>  
+		<set name="basePAtkSpd" value="253"/>  
+		<set name="basePDef" value="471"/>  
+		<set name="baseRunSpd" value="120"/>  
+		<set name="baseSTR" value="40"/>  
+		<set name="baseShldDef" value="0"/>  
+		<set name="baseShldRate" value="0"/>  
+		<set name="baseWIT" value="20"/>  
+		<set name="baseWalkSpd" value="50"/>  
+		<set name="castle_id" value="2"/>  
+		<set name="collision_height" value="90.0"/>  
+		<set name="collision_radius" value="35.0"/>  
+		<set name="corpse_time" value="2"/>  
+		<set name="level" value="70"/>  
+		<set name="race" value="humanoid"/>  
+		<set name="baseRndDam" value="40"/>  
+		<set name="sex" value="male"/>  
+		<set name="baseAtkType" value="need_pars"/>  
+		<set name="isAgro" value="0"/>  
+		<set name="rewardExp" value="0"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="0"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="spiritshot_count" value="2"/>  
+		<set name="soulshot_count" value="2"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="Npc"/>  
+		<ai_params> 
+			<set name="TargetEnabled" value="False"/>  
+			<set name="showName" value="False"/> 
+		</ai_params>  
+		<skills/>  
+		<attributes> 
+			<defence attribute="fire" value="150"/>  
+			<defence attribute="water" value="150"/>  
+			<defence attribute="wind" value="150"/>  
+			<defence attribute="earth" value="150"/>  
+			<defence attribute="holy" value="150"/>  
+			<defence attribute="unholy" value="150"/> 
+		</attributes> 
+	</npc>  
+	<npc id="37777" name="Подруга" template_id="30767" title="Менеджер багрепортов"> 
+		<set name="name-ru" value="Подруга"/>  
+		<set name="title-ru" value="Менеджер багрепортов"/>  
+		<set name="aggroRange" value="0"/>  
+		<set name="ai_type" value="CharacterAI"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="43"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="30"/>  
+		<set name="baseHpMax" value="2444.468"/>  
+		<set name="baseHpRate" value="1"/>  
+		<set name="baseHpReg" value="7.5"/>  
+		<set name="baseINT" value="21"/>  
+		<set name="baseMAtk" value="780"/>  
+		<set name="baseMAtkSpd" value="500"/>  
+		<set name="baseMDef" value="382"/>  
+		<set name="baseMEN" value="20"/>  
+		<set name="baseMpMax" value="1345.8"/>  
+		<set name="baseMpReg" value="2.7"/>  
+		<set name="basePAtk" value="1303"/>  
+		<set name="basePAtkSpd" value="253"/>  
+		<set name="basePDef" value="471"/>  
+		<set name="baseRunSpd" value="180"/>  
+		<set name="baseSTR" value="40"/>  
+		<set name="baseShldDef" value="0"/>  
+		<set name="baseShldRate" value="0"/>  
+		<set name="baseWIT" value="20"/>  
+		<set name="baseWalkSpd" value="110"/>  
+		<set name="collision_height" value="21.5"/>  
+		<set name="collision_radius" value="10.0"/>  
+		<set name="corpse_time" value="2"/>  
+		<set name="level" value="70"/>  
+		<set name="race" value="humanoid"/>  
+		<set name="baseRndDam" value="40"/>  
+		<set name="sex" value="male"/>  
+		<set name="baseAtkType" value="need_pars"/>  
+		<set name="isAgro" value="0"/>  
+		<set name="rewardExp" value="0"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="0"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="spiritshot_count" value="2"/>  
+		<set name="soulshot_count" value="2"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="BugReport"/>  
+		<skills/>  
+		<attributes> 
+			<defence attribute="fire" value="20"/>  
+			<defence attribute="water" value="20"/>  
+			<defence attribute="wind" value="20"/>  
+			<defence attribute="earth" value="20"/>  
+			<defence attribute="holy" value="20"/>  
+			<defence attribute="unholy" value="20"/> 
+		</attributes> 
+	</npc> 
+		<npc id="37977" name="Observando" template_id="30767" title="Observer"> 
+		<set name="name-ru" value="Observer"/>  
+		<set name="title-ru" value="Observer Observer"/>  
+		<set name="aggroRange" value="0"/>  
+		<set name="ai_type" value="CharacterAI"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="43"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="30"/>  
+		<set name="baseHpMax" value="2444.468"/>  
+		<set name="baseHpRate" value="1"/>  
+		<set name="baseHpReg" value="7.5"/>  
+		<set name="baseINT" value="21"/>  
+		<set name="baseMAtk" value="780"/>  
+		<set name="baseMAtkSpd" value="500"/>  
+		<set name="baseMDef" value="382"/>  
+		<set name="baseMEN" value="20"/>  
+		<set name="baseMpMax" value="1345.8"/>  
+		<set name="baseMpReg" value="2.7"/>  
+		<set name="basePAtk" value="1303"/>  
+		<set name="basePAtkSpd" value="253"/>  
+		<set name="basePDef" value="471"/>  
+		<set name="baseRunSpd" value="180"/>  
+		<set name="baseSTR" value="40"/>  
+		<set name="baseShldDef" value="0"/>  
+		<set name="baseShldRate" value="0"/>  
+		<set name="baseWIT" value="20"/>  
+		<set name="baseWalkSpd" value="110"/>  
+		<set name="collision_height" value="21.5"/>  
+		<set name="collision_radius" value="10.0"/>  
+		<set name="corpse_time" value="2"/>  
+		<set name="level" value="70"/>  
+		<set name="race" value="humanoid"/>  
+		<set name="baseRndDam" value="40"/>  
+		<set name="sex" value="male"/>  
+		<set name="baseAtkType" value="need_pars"/>  
+		<set name="isAgro" value="0"/>  
+		<set name="rewardExp" value="0"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="0"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="spiritshot_count" value="2"/>  
+		<set name="soulshot_count" value="2"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="Observation"/>  
+		<skills/>  
+		<attributes> 
+			<defence attribute="fire" value="20"/>  
+			<defence attribute="water" value="20"/>  
+			<defence attribute="wind" value="20"/>  
+			<defence attribute="earth" value="20"/>  
+			<defence attribute="holy" value="20"/>  
+			<defence attribute="unholy" value="20"/> 
+		</attributes> 
+	</npc> 
+</list>

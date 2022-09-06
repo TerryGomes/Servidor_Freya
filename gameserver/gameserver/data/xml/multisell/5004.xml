@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- 5004_weapon Luxery Shop -->
+
+<list>
+    <!-- Внимание: keepenchanted НЕ должно быть установлено в мультиселлах, где в одном блоке возможны два одинаковых нестекуемых предмета (напрмиер dual) -->
+    <!-- ignoreprice не работает с keepencahnted -->
+    <config showall="true" notax="true" keepenchanted="false"/>
+
+    <!-- Great sword for 579 B-Cry + 1737 C-Cry -->
+    <item>
+        <ingredient id="1459" count="1737"/>
+        <ingredient id="1460" count="579"/>
+        <production id="78" count="1"/>
+    </item>
+
+    <!-- Heavy War Axe for 579 B-Cry + 1737 C-Cry -->
+    <item>
+        <ingredient id="1459" count="1737"/>
+        <ingredient id="1460" count="579"/>
+        <production id="91" count="1"/>
+    </item>
+
+    <!-- Sprite's Staff for 579 B-Cry + 1737 C-Cry -->
+    <item>
+        <ingredient id="1459" count="1737"/>
+        <ingredient id="1460" count="579"/>
+        <production id="92" count="1"/>
+    </item>
+
+    <!-- Keshanberk for 579 B-Cry + 1737 C-Cry -->
+    <item>
+        <ingredient id="1459" count="1737"/>
+        <ingredient id="1460" count="579"/>
+        <production id="142" count="1"/>
+    </item>
+
+    <!-- Sword of Valhalla for 579 B-Cry + 1737 C-Cry -->
+    <item>
+        <ingredient id="1459" count="1737"/>
+        <ingredient id="1460" count="579"/>
+        <production id="148" count="1"/>
+    </item>
+
+    <!-- Kris for 579 B-Cry + 1737 C-Cry -->
+    <item>
+        <ingredient id="1459" count="1737"/>
+        <ingredient id="1460" count="579"/>
+        <production id="229" count="1"/>
+    </item>
+
+    <!-- Hell Knife for 579 B-Cry + 1737 C-Cry -->
+    <item>
+        <ingredient id="1459" count="1737"/>
+        <ingredient id="1460" count="579"/>
+        <production id="243" count="1"/>
+    </item>
+
+    <!-- Arthro Nail for 579 B-Cry + 1737 C-Cry -->
+    <item>
+        <ingredient id="1459" count="1737"/>
+        <ingredient id="1460" count="579"/>
+        <production id="267" count="1"/>
+    </item>
+
+    <!-- Dark Elven Long Bow for 579 B-Cry + 1737 C-Cry -->
+    <item>
+        <ingredient id="1459" count="1737"/>
+        <ingredient id="1460" count="579"/>
+        <production id="284" count="1"/>
+    </item>
+
+    <!-- Great Axe for 579 B-Cry + 1737 C-Cry -->
+    <item>
+        <ingredient id="1459" count="1737"/>
+        <ingredient id="1460" count="579"/>
+        <production id="300" count="1"/>
+    </item>
+
+    <!-- Spell Breaker for 579 B-Cry + 1737 C-Cry -->
+    <item>
+        <ingredient id="1459" count="1737"/>
+        <ingredient id="1460" count="579"/>
+        <production id="7892" count="1"/>
+    </item>
+
+    <!-- Ice Storm Hammer for 579 B-Cry + 1737 C-Cry -->
+    <item>
+        <ingredient id="1459" count="1737"/>
+        <ingredient id="1460" count="579"/>
+        <production id="7900" count="1"/>
+    </item>
+</list>

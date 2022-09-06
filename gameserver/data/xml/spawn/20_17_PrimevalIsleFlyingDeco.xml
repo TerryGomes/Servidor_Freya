@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="25996" y="-28172" z="-2420" h="0" superPoint="deco_0"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="23672" y="-28116" z="-2388" h="0" superPoint="deco_1"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="19372" y="-28104" z="-2380" h="0" superPoint="deco_2"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="19376" y="-26376" z="-2320" h="0" superPoint="deco_3"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="14976" y="-23388" z="-848" h="0" superPoint="deco_4"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="10752" y="-19152" z="-692" h="0" superPoint="deco_5"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="10544" y="-7616" z="-208" h="0" superPoint="deco_6"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="14000" y="-7748" z="-720" h="0" superPoint="deco_8"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="17224" y="-5976" z="-1668" h="0" superPoint="deco_9"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="20672" y="-6940" z="-1360" h="0" superPoint="deco_10"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="10396" y="-12932" z="-2000" h="0" superPoint="deco_27"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="9572" y="-15560" z="-1700" h="0" superPoint="deco_23"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="26552" y="-8872" z="-564" h="0" superPoint="deco_11"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="22548" y="-13076" z="-628" h="0" superPoint="deco_12"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="19080" y="-13092" z="-836" h="0" superPoint="deco_13"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="28604" y="-13224" z="-752" h="0" superPoint="deco_14"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="22472" y="-12516" z="-692" h="0" superPoint="deco_15"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="29620" y="-16416" z="-1392" h="0" superPoint="deco_16"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="28912" y="-19312" z="-1004" h="0" superPoint="deco_17"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="26396" y="-20996" z="164" h="0" superPoint="deco_18"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="23548" y="-22832" z="-834" h="0" superPoint="deco_19"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="20204" y="-22152" z="-1308" h="0" superPoint="deco_20"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="17332" y="-21296" z="-950" h="0" superPoint="deco_21"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="15036" y="-20296" z="-1700" h="0" superPoint="deco_22"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="13280" y="-11612" z="-1800" h="0" superPoint="deco_26"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="5432" y="-22628" z="-950" h="0" superPoint="deco_28"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="2144" y="-18228" z="-1250" h="0" superPoint="deco_30"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="1532" y="-13976" z="-950" h="0" superPoint="deco_31"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="2000" y="-8504" z="-1450" h="0" superPoint="deco_32"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="3876" y="-5572" z="-1150" h="0" superPoint="deco_33"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="3440" y="-20708" z="-1250" h="0" superPoint="deco_29"/>
+		<npc id="32108"/>
+		<!--rhamphorhynchus_deco-->
+	</spawn>
+</list>  

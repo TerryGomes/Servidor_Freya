@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+    <!-- Используется для настройки EVERYBODY_HAS_ADMIN_RIGHTS -->
+    <char>
+        <PlayerID set="0"/>								<!-- тут пишем "obj_ID" -->
+        <IsGM set="true"/>								<!-- права ГМа -->
+        <CanUseGMCommand set="true"/>					<!-- разрешает использование амин команд. -->
+        <CanAnnounce set="true"/>						<!-- можно ли использовать "анонсы" в системнов чате -->
+        <CanBan set="true"/>							<!-- можно ли использовать команду "бан" чаров! -->
+        <CanBanChat set="true"/>						<!-- Бан чата с автосозданием аннонса -->
+        <CanUnBanChat set="true"/>						<!-- Разрешить снимать бан -->
+        <BanChatDelay set="-1"/>						
+        <BanChatMaxValue set="-1"/>						<!-- максимальное время на которого может забанить чат (в мин) -->
+        <BanChatCountPerDay set="-1"/>					<!-- количество банов чата в сутки -->
+        <BanChatBonusId set="-1"/>						<!-- ID предмета - бонус за модерирование -->
+        <BanChatBonusCount set="-1"/>					<!-- количество бонусных итемов (вычитается количество штрафов) -->
+        <CanChatPenalty set="true"/>					<!-- разрешать наказывать других за некорректное модерирование -->
+        <UseGMShop set="true"/>							<!-- разрешать использовать gm магазины -->
+        <CanDelete set="true"/>							<!-- удалять NPC -->
+        <CanKick set="true"/>							<!-- Может ли ГМ "кикать с игры" -->
+        <Menu set="true"/>
+        <GodMode set="true"/>							<!-- Может ли ГМ включать неуязвимость -->
+        <CanEditCharAll set="true"/>					<!-- Может ли гм редактировать персонажей -->
+        <CanEditChar set="true"/>						<!-- Может ли гм редактировать персонажа -->
+        <CanEditPledge set="true"/>						<!-- Может ли гм редактировать кланы -->
+        <CanViewChar set="true"/>
+        <CanEditNPC set="true"/>
+        <CanViewNPC set="true"/>
+        <CanTeleport set="true"/>
+        <CanRestart set="true"/>
+        <MonsterRace set="true"/>
+        <Rider set="true"/>
+        <FastUnstuck set="true"/>
+        <ResurectFixed set="true"/>
+        <Door set="true"/>
+        <Res set="true"/>
+        <PeaceAttack set="true"/>
+        <Heal set="true"/>
+        <Unblock set="true"/>
+        <CanChangeClass set="true"/>
+        <!-- блокирует взятие предметов из инвентаря, возможен только дестрой предмета. По умолчанию FALSE -->
+        <BlockInventory set="false"/>
+        <CanGmEdit set="true"/>
+        <IsEventGm set="true"/>
+        <CanReload set="true"/>
+        <CanRename set="true"/>
+        <CanJail set="true"/>
+        <CanPolymorph set="true"/>
+        <!-- По умолчанию TRUE для всех игроков -->
+        <UseInventory set="true"/>
+        <UseTrade set="true"/>
+        <CanAttack set="true"/>
+        <CanEvaluate set="true"/>
+        <CanJoinParty set="true"/>
+        <CanJoinClan set="true"/>
+        <UseWarehouse set="true"/>
+        <UseShop set="true"/>
+    </char>
+</list>

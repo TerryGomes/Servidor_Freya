@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- 5001_armor Luxery Shop -->
+
+<list>
+    <!-- Внимание: keepenchanted НЕ должно быть установлено в мультиселлах, где в одном блоке возможны два одинаковых нестекуемых предмета (напрмиер dual) -->
+    <!-- ignoreprice не работает с keepencahnted -->
+    <config showall="true" notax="true" keepenchanted="false"/>
+
+    <!-- Avadon Breastplate -->
+    <item>
+        <ingredient id="1459" count="415"/>
+        <ingredient id="1460" count="138"/>
+        <production id="2376" count="1"/>
+    </item>
+
+    <!-- Avadon Gaiters -->
+    <item>
+        <ingredient id="1459" count="259"/>
+        <ingredient id="1460" count="86"/>
+        <production id="2379" count="1"/>
+    </item>
+
+    <!-- Avadon Shield -->
+    <item>
+        <ingredient id="1459" count="109"/>
+        <ingredient id="1460" count="36"/>
+        <production id="673" count="1"/>
+    </item>
+
+    <!-- Avadon Leather Armor -->
+    <item>
+        <ingredient id="1459" count="506"/>
+        <ingredient id="1460" count="169"/>
+        <production id="2390" count="1"/>
+    </item>
+
+    <!-- Avadon Robe -->
+    <item>
+        <ingredient id="1459" count="506"/>
+        <ingredient id="1460" count="169"/>
+        <production id="2406" count="1"/>
+    </item>
+
+    <!-- Avadon Boots -->
+    <item>
+        <ingredient id="1459" count="104"/>
+        <ingredient id="1460" count="35"/>
+        <production id="600" count="1"/>
+    </item>
+
+    <!-- Avadon Gloves -->
+    <item>
+        <ingredient id="1459" count="104"/>
+        <ingredient id="1460" count="35"/>
+        <production id="2464" count="1"/>
+    </item>
+
+    <!-- Avadon Circlet -->
+    <item>
+        <ingredient id="1459" count="156"/>
+        <ingredient id="1460" count="52"/>
+        <production id="2415" count="1"/>
+    </item>
+
+    <!-- Zubei Breastplate -->
+    <item>
+        <ingredient id="1459" count="415"/>
+        <ingredient id="1460" count="138"/>
+        <production id="357" count="1"/>
+    </item>
+
+    <!-- Zubei Gaiters -->
+    <item>
+        <ingredient id="1459" count="259"/>
+        <ingredient id="1460" count="86"/>
+        <production id="383" count="1"/>
+    </item>
+
+    <!-- Zubei Shield -->
+    <item>
+        <ingredient id="1459" count="109"/>
+        <ingredient id="1460" count="36"/>
+        <production id="633" count="1"/>
+    </item>
+
+    <!-- Zubei's Leather Shirt -->
+    <item>
+        <ingredient id="1459" count="311"/>
+        <ingredient id="1460" count="104"/>
+        <production id="2384" count="1"/>
+    </item>
+
+    <!-- Zubei's Leather Gaiters -->
+    <item>
+        <ingredient id="1459" count="195"/>
+        <ingredient id="1460" count="65"/>
+        <production id="2388" count="1"/>
+    </item>
+
+    <!-- Tunic of Zubei -->
+    <item>
+        <ingredient id="1459" count="311"/>
+        <ingredient id="1460" count="104"/>
+        <production id="2397" count="1"/>
+    </item>
+
+    <!-- Stockings of Zubei -->
+    <item>
+        <ingredient id="1459" count="195"/>
+        <ingredient id="1460" count="65"/>
+        <production id="2402" count="1"/>
+    </item>
+
+    <!-- Zubei Boots -->
+    <item>
+        <ingredient id="1459" count="104"/>
+        <ingredient id="1460" count="35"/>
+        <production id="554" count="1"/>
+    </item>
+
+    <!-- Zubei Gloves -->
+    <item>
+        <ingredient id="1459" count="104"/>
+        <ingredient id="1460" count="35"/>
+        <production id="612" count="1"/>
+    </item>
+
+    <!-- Zubei Helmet -->
+    <item>
+        <ingredient id="1459" count="156"/>
+        <ingredient id="1460" count="52"/>
+        <production id="503" count="1"/>
+    </item>
+</list>

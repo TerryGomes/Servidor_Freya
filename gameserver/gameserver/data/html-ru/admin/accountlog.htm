@@ -1,0 +1,39 @@
+<html>
+<body>
+	<title>Admin Account Logging...</title>
+	<br>
+	<table width=760 align=center>
+		<tr>
+			<td>New Search</td>
+			<td><edit var="menu_command" width=100 height=12></td>
+			<td width=300><button value="Go"
+					action="bypass -h admin_accountlog $menu_command" width=90
+					height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+			<td><button value="Admin Window" action="bypass -h admin_admin"
+					width=120 height=21 back="L2UI_ct1.button_df"
+					fore="L2UI_ct1.button_df"></td>
+		</tr>
+	</table>
+	<br>
+	<font name=hs12><center>
+			Log info for account - <font name=hs12 color=LEVEL>%accName%</font>
+			%onlineChar%
+		</center></font>
+	<br>
+	<img src="L2UI_CT1.ChatBalloon_DF_TopCenter" width="820" height="1"
+		align="top" />
+	<table width="780" height="15" bgcolor="585858" cellspacing="5"
+		cellpadding="0">
+		<tr>
+			<td width=70>#</td>
+			<td width=150><font color=D7DF01>IP</font></td>
+			<td width=230><font color=01A9DB>HWID</font></td>
+			<td width=200><font color=31B404>Date</font></td>
+	</table>
+	<img src="L2UI_CT1.ChatBalloon_DF_TopCenter" width="820" height="1"
+		align="top" />
+	<table width=760>%data%
+	</table>
+	<br>
+</body>
+</html>

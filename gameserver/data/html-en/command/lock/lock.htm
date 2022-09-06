@@ -1,0 +1,21 @@
+<html><title>Configuring Security</title><body>
+<font color="00ff66">Account lockout options:</font><br1>
+- Blocking by IP address <font color="LEVEL">(%ip_block%)</font><br1>
+- Blocking Hwid address <font color="LEVEL">(%hwid_block%)</font>
+<br>
+<font color="00ff66">Warning precautions:</font><br1>
+- IP changes periodically<br1>
+- HWid - is ID: <font color="LEVEL">%hwid_val%</font><br1>
+- HWid changes when you upgrade your PC
+<br>
+<font color="00ff66">State of the current session:</font><br1>
+IP adress: <font color="LEVEL">%curIP%</font>
+<br>
+<font color="00ff66">You HWID:</font><br1>
+HWID adress: <font color="LEVEL">%curHWID%</font>
+<br>
+<button value="Set IP blocking" action="bypass -h user_lockIp" width=280 height=22 back="L2UI_CT1.Button_DF" fore="L2UI_CT1.Button_DF"/><br1>
+<button value="Set HWID blocking" action="bypass -h user_lockHwid" width=280 height=22 back="L2UI_CT1.Button_DF" fore="L2UI_CT1.Button_DF"/><br1>
+<button value="Remove IP blocking" action="bypass -h user_unlockIp" width=280 height=22 back="L2UI_CT1.Button_DF" fore="L2UI_CT1.Button_DF"/><br1>
+<button value="Remove HWID blocking" action="bypass -h user_unlockHwid" width=280 height=22 back="L2UI_CT1.Button_DF" fore="L2UI_CT1.Button_DF"/>
+</body></html>

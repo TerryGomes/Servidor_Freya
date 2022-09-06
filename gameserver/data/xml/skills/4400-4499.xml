@@ -1,0 +1,1778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="4400" levels="3" name="Acumen">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Концентрация" />
+		<table name="#mAtkSpd">1.15 1.23 1.3</table>
+		<table name="#abnormal_lv">2 3 4</table>
+		<table name="#abnormal_lv">2 3 4 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="casting_time_down"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1085" />
+		<set name="magic_level" val="1" />
+		<set name="cast_range" val="400" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="casting_time_down" time="3600" val="0">
+				<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="4401" levels="3" name="Empower">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Воодушевление" />
+		<table name="#mAtk">1.55 1.65 1.75</table>
+		<table name="#abnormal_lv">2 3 4</table>
+		<table name="#abnormal_lv">2 3 4 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="ma_up"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1059" />
+		<set name="magic_level" val="1" />
+		<set name="cast_range" val="400" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="ma_up" time="3600" val="0">
+				<mul order="0x30" stat="mAtk" val="#mAtk" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="4402" levels="2" name="Haste">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Ускорение" />
+		<table name="#pAtkSpd">1.15 1.33</table>
+		<table name="#abnormal_lv">2 3</table>
+		<table name="#abnormal_lv">2 3 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="attack_time_down"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1086" />
+		<set name="magic_level" val="1" />
+		<set name="cast_range" val="400" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="attack_time_down" time="3600" val="0">
+				<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="4403" levels="3" name="Guidance">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Наведение" />
+		<table name="#accCombat">2 3 4</table>
+		<table name="#abnormal_lv">2 3 4</table>
+		<table name="#abnormal_lv">2 3 4 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="hit_up"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1240" />
+		<set name="magic_level" val="1" />
+		<set name="cast_range" val="400" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="hit_up" time="3600" val="0">
+				<add order="0x40" stat="accCombat" val="#accCombat" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="4404" levels="3" name="Focus">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Фокусировка" />
+		<table name="#rCrit">1.2 1.25 1.3</table>
+		<table name="#abnormal_lv">2 3 4</table>
+		<table name="#abnormal_lv">2 3 4 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="critical_prob_up"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1077" />
+		<set name="magic_level" val="1" />
+		<set name="cast_range" val="400" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="critical_prob_up" time="3600" val="0">
+				<mul order="0x30" stat="baseCrit" val="#rCrit" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="4405" levels="3" name="Death Whisper">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Смертельный Шепот" />
+		<table name="#cAtk">1.25 1.3 1.35</table>
+		<table name="#abnormal_lv">2 3 4</table>
+		<table name="#abnormal_lv">2 3 4 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="critical_dmg_up"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1242" />
+		<set name="magic_level" val="1" />
+		<set name="cast_range" val="400" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="critical_dmg_up" time="3600" val="0">
+				<mul order="0x30" stat="cAtk" val="#cAtk" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="4406" levels="3" name="Agility">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Стремительность" />
+		<table name="#rEvas">2 3 4</table>
+		<table name="#abnormal_lv">2 3 4</table>
+		<table name="#abnormal_lv">2 3 4 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="avoid_up"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1087" />
+		<set name="magic_level" val="1" />
+		<set name="cast_range" val="400" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="avoid_up" time="3600" val="0">
+				<add order="0x40" stat="rEvas" val="#rEvas" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="4407" levels="2" name="Ordinary Monster">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Обычный Монстр" />
+		<!-- это спецскилл для монстров-чемпионов -->
+		<table name="#icons">icon.skill0000 icon.skill4407</table>
+		<table name="#hp">10 50</table>
+		<table name="#mAtk">1.3 2</table>
+		<table name="#pAtk">1.15 1.5</table>
+		<table name="#eff">12.5 50</table>
+		<table name="#drop">10 25</table>
+		<set name="icon" val="#icons" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="maxHp" val="#hp" />
+			<mul order="0x30" stat="maxMp" val="#hp" />
+			<mul order="0x30" stat="mAtk" val="#mAtk" />
+			<mul order="0x30" stat="pAtk" val="#pAtk" />
+			<mul order="0x30" stat="ExpMultiplier" val="#eff" />
+			<mul order="0x30" stat="SpMultiplier" val="#eff" />
+			<mul order="0x30" stat="DropMultiplier" val="#drop" />
+		</for>
+	</skill>
+	<skill id="4408" levels="20" name="HP Increase (1x)">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="HP 1x" />
+		<table name="#val">1 1.1 1.21 1.33 1.46 1.61 1.77 0.25 0.50 2 3 4 5 6 7 8 9 10 11 12</table>
+		<table name="#icons">icon.skill0000 icon.skill0000 icon.skill0000 icon.skill0000 icon.skill0000 icon.skill0000 icon.skill0000 icon.skill4381 icon.skill4311 icon.skill4303 icon.skill4304 icon.skill4305 icon.skill4306 icon.skill4307 icon.skill4308 icon.skill4309 icon.skill4310 icon.skill4408_x10 icon.skill4408_x11 icon.skill4408_x12</table>
+		<set name="icon" val="#icons" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="maxHp" val="#val" />
+			<mul order="0x30" stat="regHp" val="#val" />
+		</for>
+	</skill>
+	<skill id="4409" levels="20" name="MP Increase (1x)">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="MP 1x" />
+		<table name="#icons">icon.skill0000 icon.skill0000 icon.skill0000 icon.skill0000 icon.skill0000 icon.skill0000 icon.skill0000 icon.skill4381 icon.skill4311 icon.skill4303 icon.skill4304 icon.skill4305 icon.skill4306 icon.skill4307 icon.skill4308 icon.skill4309 icon.skill4310 icon.skill4409_x10 icon.skill4409_x11 icon.skill4409_x12</table>
+		<table name="#val">1 1.1 1.21 1.33 1.46 1.61 1.77 0.25 0.5 2 3 4 5 6 7 8 9 10 11 12</table>
+		<set name="icon" val="#icons" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="maxMp" val="#val" />
+			<mul order="0x30" stat="regMp" val="#val" />
+		</for>
+	</skill>
+	<skill id="4410" levels="22" name="Extremely Weak P. Atk.">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Предельно Слабая Физ. Атк." />
+		<table name="#icons">icon.skill0141 icon.skill0141 icon.skill0141 icon.skill0141 icon.skill0141 icon.skill0141 icon.skill0141 icon.skill0141 icon.skill0141 icon.skill0141 icon.skill0000 icon.skill0141 icon.skill0141 icon.skill0141 icon.skill0141 icon.skill0141 icon.skill0141 icon.skill0141 icon.skill0141 icon.skill0141 icon.skill0141 icon.skill4410_max</table>
+		<table name="#patk">0.39 0.43 0.47 0.52 0.57 0.63 0.69 0.76 0.83 0.91 1 1.1 1.21 1.33 1.46 1.61 1.77 1.94 2.14 2.35 2.59 10</table>
+		<set name="icon" val="#icons" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="pAtk" val="#patk" />
+		</for>
+	</skill>
+	<skill id="4411" levels="22" name="Extremely Weak M. Atk.">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Предельно Слабая Маг. Атк." />
+		<table name="#icons">icon.skill4411_normal icon.skill4411_normal icon.skill4411_normal icon.skill4411_normal icon.skill4411_normal icon.skill4411_normal icon.skill4411_normal icon.skill4411_normal icon.skill4411_normal icon.skill4411_normal icon.skill0000 icon.skill4411_normal icon.skill4411_normal icon.skill4411_normal icon.skill4411_normal icon.skill4411_normal icon.skill4411_normal icon.skill4411_normal icon.skill4411_normal icon.skill4411_normal icon.skill4411_normal icon.skill4411_max</table>
+		<table name="#matk">0.15 0.18 0.22 0.27 0.32 0.39 0.47 0.57 0.69 0.83 1 1.21 1.46 1.77 2.14 2.59 3.13 3.79 4.59 5.55 6.72 100</table>
+		<set name="icon" val="#icons" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="mAtk" val="#matk" />
+		</for>
+	</skill>
+	<skill id="4412" levels="22" name="Extremely Weak P. Def.">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Предельно Слабая Физ. Защ." />
+		<table name="#icons">icon.skill0142 icon.skill0142 icon.skill0142 icon.skill0142 icon.skill0142 icon.skill0142 icon.skill0142 icon.skill0142 icon.skill0142 icon.skill0142 icon.skill0000 icon.skill0142 icon.skill0142 icon.skill0142 icon.skill0142 icon.skill0142 icon.skill0142 icon.skill0142 icon.skill0142 icon.skill0142 icon.skill0142 icon.skill4412_new</table>
+		<table name="#pdef">0.39 0.43 0.47 0.52 0.57 0.63 0.69 0.76 0.83 0.91 1 1.1 1.21 1.33 1.46 1.61 1.77 1.94 2.14 2.35 2.59 10</table>
+		<set name="icon" val="#icons" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="pDef" val="#pdef" />
+		</for>
+	</skill>
+	<skill id="4413" levels="22" name="Extremely Weak M. Def.">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Предельно Слабая Маг. Защ." />
+		<table name="#icons">icon.skill4413_normal icon.skill4413_normal icon.skill4413_normal icon.skill4413_normal icon.skill4413_normal icon.skill4413_normal icon.skill4413_normal icon.skill4413_normal icon.skill4413_normal icon.skill4413_normal icon.skill0000 icon.skill4413_normal icon.skill4413_normal icon.skill4413_normal icon.skill4413_normal icon.skill4413_normal icon.skill4413_normal icon.skill4413_normal icon.skill4413_normal icon.skill4413_normal icon.skill4413_normal icon.skill4413_max</table>
+		<table name="#mDef">0.39 0.43 0.47 0.52 0.57 0.63 0.69 0.76 0.83 0.91 1 1.1 1.21 1.33 1.46 1.61 1.77 1.94 2.14 2.35 2.59 10</table>
+		<set name="icon" val="#icons" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="mDef" val="#mDef" />
+		</for>
+	</skill>
+	<skill id="4414" levels="3" name="Heavy Armor Type">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Тяжелая Броня" />
+		<table name="#icons">icon.skill4312 icon.skill0000 icon.skill4313</table>
+		<table name="#pdef">1.15 1 0.85</table>
+		<table name="#evasion">-10 0 10</table>
+		<set name="icon" val="#icons" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="pDef" val="#pdef" />
+			<add order="0x40" stat="rEvas" val="#evasion" />
+		</for>
+	</skill>
+	<skill id="4415" levels="26" name="Bare Hands">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Свободные Руки" />
+		<set name="icon" val="icon.skill0000" />
+		<table name="#pAtk">1 1.38 1 1.38 1 1.38 0.87 1.21 2.22 2.5 1 1.38 1.16 1.62 1.16 1.62 1.16 1.62 1.16 1.62 1.08 1.62 0.93 1.62 1.38 1.62</table>
+		<table name="#pAtkSpd">1 0.71 1 0.71 1 0.71 1.14 0.82 0.89 0.64 1 0.71 0.85 0.61 0.85 0.61 0.85 0.61 0.85 0.61 0.92 0.61 1.07 0.61 0.62 0.61</table>
+		<set name="magic_level" val="1" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<set name="skillType" val="BUFF" />
+		<set name="target_type" val="TARGET_SELF" />
+		<for>
+			<mul order="0x30" stat="pAtk" val="#pAtk" />
+			<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
+		</for>
+	</skill>
+	<skill id="4416" levels="26" name="Race">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Раса" />
+		<table name="#icons">icon.skill4290 icon.skill4291 icon.skill4292 icon.skill4293 icon.skill4294 icon.skill4295 icon.skill4296 icon.skill4297 icon.skill4298 icon.skill4299 icon.skill4300 icon.skill4301 icon.skill4302 icon.skill4416_human icon.skill4416_elf icon.skill4416_darkelf icon.skill4416_orc icon.skill4416_dwarf icon.skill4416_etc icon.skill4416_none icon.skill4416_siegeweapon icon.skill4416_castleguard icon.skill4416_mercenary icon.skill4416_none icon.skill4296 icon.skill4296</table>
+		<table name="#pDefAnimals">1 1 1 0.85 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</table>
+		<table name="#pDefBeasts">1 1 0.85 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</table>
+		<table name="#pDefBlunts">1 1 1 1 1 1 1 1 0.85 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</table>
+		<table name="#pDefBows">1 1 1 0.85 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</table>
+		<table name="#pDefBugs">1 1 1 1 1 1 1 1 1 1 1 0.85 1 1 1 1 1 1 1 1 1 1 1 1 1</table>
+		<table name="#pDefDragons">1 1 1 1 1 1 1 1 1 0.85 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</table>
+		<table name="#pDefDuals">1 1 1 1 1 1 1 1 1 0.85 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</table>
+		<table name="#pDefGiants">1 1 1 1 1 1 1 1 1 1 0.85 1 1 1 1 1 1 1 1 1 1 1 1 1 1</table>
+		<table name="#pDefMagicCreatures">1 0.85 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</table>
+		<table name="#pDefPlants">1 1 1 1 0.85 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</table>
+		<table name="#pDefShocks">0 0 0 0 0 0 0 0 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 0</table>
+		<table name="#pDefSwords">1 1 1 1 1 1 1 1 1 0.85 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</table>
+		<set name="icon" val="#icons" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="pDef" val="#pDefMagicCreatures" >
+				<target race="fairy"/>
+			</mul>
+			<mul order="0x30" stat="pDef" val="#pDefBeasts" >
+				<target race="dragon"/>
+			</mul>
+			<mul order="0x30" stat="pDef" val="#pDefAnimals" >
+				<target race="animal"/>
+			</mul>
+			<mul order="0x30" stat="pDef" val="#pDefPlants" >
+				<target race="plant"/>
+			</mul>
+			<mul order="0x30" stat="pDef" val="#pDefDragons" >
+				<target race="dragon"/>
+			</mul>
+			<mul order="0x30" stat="pDef" val="#pDefGiants" >
+				<target race="giant"/>
+			</mul>
+			<mul order="0x30" stat="pDef" val="#pDefBugs" >
+				<target race="bug"/>
+			</mul>
+			<mul order="0x30" stat="bowWpnVuln" val="#pDefBows" />
+			<mul order="0x30" stat="bluntWpnVuln" val="#pDefBlunts" />
+			<mul order="0x30" stat="poleWpnVuln" val="#pDefBlunts" />
+			<mul order="0x30" stat="swordWpnVuln" val="#pDefSwords" />
+			<mul order="0x30" stat="dualWpnVuln" val="#pDefDuals" />
+			<sub order="0x40" stat="stunResist" val="#pDefShocks" />
+		</for>
+	</skill>
+	<skill id="4417" levels="38" name="Race Types">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Животные" />
+		<table name="#icons">icon.skill4293 icon.skill4292 icon.skill4292 icon.skill4292 icon.skill4292 icon.skill4301 icon.skill4301 icon.skill4301 icon.skill4291 icon.skill4291 icon.skill4291 icon.skill4298 icon.skill4298 icon.skill4298 icon.skill4297 icon.skill4297 icon.skill4297 icon.skill4299 icon.skill4296 icon.skill4296 icon.skill4296 icon.skill4296 icon.skill4296 icon.skill4302 icon.skill4300 icon.skill4295 icon.skill4295 icon.skill4295 icon.skill4295 icon.skill4295 icon.skill4295 icon.skill4295 icon.skill4294 icon.skill4290 icon.skill4290 icon.skill4290 icon.skill4290 icon.skill4290</table>
+		<table name="#Bleed">0 0 0 0 0 0 0 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 0 0 0</table>
+		<table name="#Blunt">0 0 0 0 0 0 0 0 0 -15 0 0 0 0 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 0 0</table>
+		<table name="#Bow">0 0 -15 -15 -15 0 0 -15 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 0 0</table>
+		<table name="#Dagger">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 0 0</table>
+		<table name="#Root">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 0</table>
+		<table name="#Poison">0 0 0 0 0 0 15 15 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 0 0 0</table>
+		<table name="#Sleep">0 0 0 0 0 0 0 0 0 0 0 0 15 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15</table>
+		<set name="icon" val="#icons" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="bowWpnVuln" val="#Bow" />
+			<sub order="0x40" stat="bluntWpnVuln" val="#Blunt" />
+			<sub order="0x40" stat="daggerWpnVuln" val="#Dagger" />
+			<add order="0x40" stat="poisonResist" val="#Poison" />
+			<add order="0x40" stat="bleedResist" val="#Bleed" />
+			<add order="0x40" stat="sleepResist" val="#Sleep" />
+			<add order="0x40" stat="rootResist" val="#Root" />
+		</for>
+	</skill>
+	<skill id="4418" levels="5" name="Fire Attacks">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Атаки Огня" />
+		<table name="#Res">10 20 30 40 50</table>
+		<set name="icon" val="icon.etc_fire_crystal_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="defenceFire" val="#Res" />
+			<set order="0x10" stat="attackFire" val="10" />
+		</for>
+	</skill>
+	<skill id="4419" levels="5" name="Water Attacks">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Атаки Воды" />
+		<table name="#Res">10 20 30 40 50</table>
+		<set name="icon" val="icon.etc_water_crystal_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="defenceWater" val="#Res" />
+			<set order="0x10" stat="attackWater" val="10" />
+		</for>
+	</skill>
+	<skill id="4420" levels="5" name="Wind Attacks">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Атаки Ветра" />
+		<table name="#Res">10 20 30 40 50</table>
+		<set name="icon" val="icon.etc_wind_crystal_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="defenceWind" val="#Res" />
+			<set order="0x10" stat="attackWind" val="10" />
+		</for>
+	</skill>
+	<skill id="4421" levels="5" name="Earth Attacks">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Атаки Земли" />
+		<table name="#Res">10 20 30 40 50</table>
+		<set name="icon" val="icon.etc_earth_crystal_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="defenceEarth" val="#Res" />
+			<set order="0x10" stat="attackEarth" val="10" />
+		</for>
+	</skill>
+	<skill id="4422" levels="5" name="Dark Attacks">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Атаки Тьмы" />
+		<table name="#Res">10 20 30 40 50</table>
+		<set name="icon" val="icon.etc_unholy_crystal_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="defenceUnholy" val="#Res" />
+			<set order="0x10" stat="attackUnholy" val="10" />
+		</for>
+	</skill>
+	<skill id="4423" levels="5" name="Holy Attacks">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Святые Атаки" />
+		<table name="#Res">10 20 30 40 50</table>
+		<set name="icon" val="icon.etc_holy_crystal_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="defenceHoly" val="#Res" />
+			<set order="0x10" stat="attackHoly" val="10" />
+		</for>
+	</skill>
+	<skill id="4424" levels="5" name="Resist Hand-to-hand Weapons">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Устойчивость к Кастетам" />
+		<table name="#fistRcpt">15 20 25 30 35</table>
+		<set name="icon" val="icon.skill4424" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="fistWpnVuln" val="#fistRcpt" />
+		</for>
+	</skill>
+	<skill id="4425" levels="5" name="Resist Blunt Weapons">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Устойчивость к Дробящему Оружию" />
+		<table name="#bluntRcpt">15 20 25 30 35</table>
+		<set name="icon" val="icon.skill4425" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="bluntWpnVuln" val="#bluntRcpt" />
+		</for>
+	</skill>
+	<skill id="4426" levels="5" name="Resist Dual-Sword Weapons">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Устойчивость к Парным Мечам" />
+		<table name="#dualRcpt">5 10 15 20 25</table>
+		<set name="icon" val="icon.skill4426" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="dualWpnVuln" val="#dualRcpt" />
+		</for>
+	</skill>
+	<skill id="4427" levels="5" name="Resist Swords">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Устойчивость к Мечам" />
+		<table name="#swordRcpt">10 15 20 25 30</table>
+		<set name="icon" val="icon.skill4427" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="swordWpnVuln" val="#swordRcpt" />
+		</for>
+	</skill>
+	<skill id="4428" levels="5" name="Resist Two-handed Weapons">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Устойчивость к Двуручным Мечам" />
+		<set name="icon" val="icon.skill4428" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="4429" levels="5" name="Greater Resist Fire Attacks">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Продвинутое Сопротивление Атакам Огня" />
+		<table name="#Res">60 70 80 90 100</table>
+		<set name="icon" val="icon.skill4429" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="defenceFire" val="#Res" />
+		</for>
+	</skill>
+	<skill id="4430" levels="5" name="Greater Resist Water Attacks">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Продвинутое Сопротивление Атакам Воды" />
+		<table name="#Res">60 70 80 90 100</table>
+		<set name="icon" val="icon.skill4430" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="defenceWater" val="#Res" />
+		</for>
+	</skill>
+	<skill id="4431" levels="5" name="Greater Resist Wind Attacks">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Продвинутое Сопротивление Атакам Ветра" />
+		<table name="#Res">60 70 80 90 100</table>
+		<set name="icon" val="icon.skill4431" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="defenceWind" val="#Res" />
+		</for>
+	</skill>
+	<skill id="4432" levels="5" name="Greater Resist Earth Attacks">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Продвинутое Сопротивление Атакам Земли" />
+		<table name="#Res">60 70 80 90 100</table>
+		<set name="icon" val="icon.skill4432" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="defenceEarth" val="#Res" />
+		</for>
+	</skill>
+	<skill id="4433" levels="5" name="Greater Resist Holy Attacks">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Продвинутое Сопротивление Святым Атакам" />
+		<table name="#Res">60 70 80 90 100</table>
+		<set name="icon" val="icon.skill4433" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="defenceHoly" val="#Res" />
+		</for>
+	</skill>
+	<skill id="4434" levels="5" name="Greater Resist Dark Attacks">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Продвинутое Сопротивление к Темным Атакам" />
+		<table name="#Res">60 70 80 90 100</table>
+		<set name="icon" val="icon.skill4434" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="defenceUnholy" val="#Res" />
+		</for>
+	</skill>
+	<skill id="4435" levels="5" name="Greater Resist Stun">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Продвинутое Сопротивление Оглушению" />
+		<table name="#stunResist">60 70 80 90 100</table>
+		<set name="icon" val="icon.skill4435" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="stunResist" val="#stunResist" />
+		</for>
+	</skill>
+	<skill id="4436" levels="5" name="Greater Resist Poison">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Продвинутое Сопротивление Отравлению" />
+		<table name="#poisonResist">60 70 80 90 100</table>
+		<set name="icon" val="icon.skill4436" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="poisonResist" val="#poisonResist" />
+		</for>
+	</skill>
+	<skill id="4437" levels="5" name="Greater Resist Bleeding">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Продвинутое Сопротивление Кровотечению" />
+		<table name="#bleedResist">60 70 80 90 100</table>
+		<set name="icon" val="icon.skill4437" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="bleedResist" val="#bleedResist" />
+		</for>
+	</skill>
+	<skill id="4438" levels="5" name="Greater Resist Sleep">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Продвинутое Сопротивление Усыплению" />
+		<table name="#sleepResist">60 70 80 90 100</table>
+		<set name="icon" val="icon.skill4286" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="sleepResist" val="#sleepResist" />
+		</for>
+	</skill>
+	<skill id="4439" levels="5" name="Greater Resist Hold">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Продвинутое Сопротивление Удержанию" />
+		<table name="#rootResist">60 70 80 90 100</table>
+		<set name="icon" val="icon.skill4288" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="rootResist" val="#rootResist" />
+		</for>
+	</skill>
+	<skill id="4440" levels="5" name="Greater Resist Paralysis">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Продвинутое Сопротивление Параличу" />
+		<table name="#paralyzeResist">60 70 80 90 100</table>
+		<set name="icon" val="icon.skill4440" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="paralyzeResist" val="#paralyzeResist" />
+		</for>
+	</skill>
+	<skill id="4441" levels="5" name="Greater Resist Mental Derangement">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Продвинутое Сопротивление Ментальным Аномалиям" />
+		<table name="#debuffResist">60 70 80 90 100</table>
+		<set name="icon" val="icon.skill4441" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="mentalResist" val="#debuffResist" />
+		</for>
+	</skill>
+	<skill id="4442" levels="5" name="Greater Resist Hand-to-hand Weapons">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Продвинутое Сопротивление Кастетам" />
+		<table name="#fistRcpt">60 70 80 90 100</table>
+		<set name="icon" val="icon.skill4442" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="fistWpnVuln" val="#fistRcpt" />
+		</for>
+	</skill>
+	<skill id="4443" levels="5" name="Greater Resist Blunt Weapons">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Продвинутое Сопротивление Дробящему Оружию" />
+		<table name="#bluntRcpt">60 70 80 90 100</table>
+		<set name="icon" val="icon.skill4443" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="bluntWpnVuln" val="#bluntRcpt" />
+		</for>
+	</skill>
+	<skill id="4444" levels="5" name="Higher Resist Bow/Crossbow Weapons">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Мощное Сопротивление Выстрелам из Лука/Арбалета" />
+		<table name="#bowRcpt">60 70 80 90 100</table>
+		<set name="icon" val="icon.skill4444" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="bowWpnVuln" val="#bowRcpt" />
+			<sub order="0x40" stat="crossbowWpnVuln" val="#bowRcpt" />
+		</for>
+	</skill>
+	<skill id="4445" levels="5" name="Greater Resist Spear Weapons">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Продвинутое Сопротивление Копьям" />
+		<table name="#poleRcpt">60 70 80 90 100</table>
+		<set name="icon" val="icon.skill4445" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="poleWpnVuln" val="#poleRcpt" />
+		</for>
+	</skill>
+	<skill id="4446" levels="5" name="Greater Resist Dual-Sword Weapons">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Продвинутое Сопротивление Парным Мечам" />
+		<table name="#dualRcpt">60 70 80 90 100</table>
+		<set name="icon" val="icon.skill4446" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="dualWpnVuln" val="#dualRcpt" />
+		</for>
+	</skill>
+	<skill id="4447" levels="5" name="Greater Resist Swords">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Продвинутое Сопротивление Мечам" />
+		<table name="#swordRcpt">60 70 80 90 100</table>
+		<set name="icon" val="icon.skill4447" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="swordWpnVuln" val="#swordRcpt" />
+		</for>
+	</skill>
+	<skill id="4448" levels="5" name="Higher resist Daggers/Rapier Weapon">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Продвинутое Сопротивление Кинжалам/Рапирам" />
+		<table name="#daggerRcpt">60 70 80 90 100</table>
+		<set name="icon" val="icon.skill4448" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="daggerWpnVuln" val="#daggerRcpt" />
+		</for>
+	</skill>
+	<skill id="4449" levels="5" name="Greater Resist Two-handed Weapons">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Продвинутое Сопротивление Двуручному Оружию" />
+		<table name="#vuln">0.5 0.4 0.3 0.2 0.1</table>
+		<set name="icon" val="icon.skill4449" />
+		<set name="magic_level" val="1" />
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<set name="skillType" val="BUFF" />
+		<set name="target_type" val="TARGET_SELF" />
+		<for>
+			<!-- TODO: Fixme, должен быть резист только к 2х ручным оружиям. -->
+			<mul order="0x30" stat="swordWpnVuln" val="#vuln" />
+			<mul order="0x30" stat="bluntWpnVuln" val="#vuln" />
+		</for>
+	</skill>
+	<skill id="4450" levels="5" name="Stun Attack Weak Point">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Уязвимость к Оглушению" />
+		<table name="#stunResist">11 25 43 67 100</table>
+		<set name="icon" val="icon.skill4450" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="stunResist" val="#stunResist" />
+		</for>
+	</skill>
+	<skill id="4451" levels="5" name="Poison Attack Weak Point">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Уязвимость к Отравлению" />
+		<table name="#poisonResist">11 25 43 67 100</table>
+		<set name="icon" val="icon.skill4451" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="poisonResist" val="#poisonResist" />
+		</for>
+	</skill>
+	<skill id="4452" levels="5" name="Bleed Attack Weak Point">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Уязвимость к Кровотечению" />
+		<table name="#bleedResist">11 25 43 67 100</table>
+		<set name="icon" val="icon.skill4452" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="bleedResist" val="#bleedResist" />
+		</for>
+	</skill>
+	<skill id="4453" levels="5" name="Sleep Attack Weak Point">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Уязвимость к Усыплению" />
+		<table name="#sleepResist">11 25 43 67 100</table>
+		<set name="icon" val="icon.skill4453" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="sleepResist" val="#sleepResist" />
+		</for>
+	</skill>
+	<skill id="4454" levels="5" name="Hold Attack Weak Point">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Уязвимость к Удержанию" />
+		<table name="#rootResist">11 25 43 67 100</table>
+		<set name="icon" val="icon.skill4454" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="rootResist" val="#rootResist" />
+		</for>
+	</skill>
+	<skill id="4455" levels="5" name="Paralysis Attack Weak Point">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Уязвимость к Параличу" />
+		<table name="#paralyzeResist">11 25 43 67 100</table>
+		<set name="icon" val="icon.skill4455" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="paralyzeResist" val="#paralyzeResist" />
+		</for>
+	</skill>
+	<skill id="4456" levels="5" name="Mental Attack Weak Point">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Уязвимость к Ментальным Аномалиям" />
+		<table name="#debuffResist">11 25 43 67 100</table>
+		<set name="icon" val="icon.skill4456" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="mentalResist" val="#debuffResist" />
+		</for>
+	</skill>
+	<skill id="4457" levels="5" name="Hand-to-hand Weapon Weak Point">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Уязвимость к Кастетам" />
+		<table name="#fistRcpt">11 25 43 67 100</table>
+		<set name="icon" val="icon.skill4457" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="fistWpnVuln" val="#fistRcpt" />
+		</for>
+	</skill>
+	<skill id="4458" levels="5" name="Spear Weapon Weak Point">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Уязвимость к Копьям" />
+		<table name="#poleRcpt">11 25 43 67 100</table>
+		<set name="icon" val="icon.skill4458" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="poleWpnVuln" val="#poleRcpt" />
+		</for>
+	</skill>
+	<skill id="4459" levels="5" name="Dual-Sword Weapon Weak Point">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Уязвимость к Парным Мечам" />
+		<table name="#dualRcpt">11 25 43 67 100</table>
+		<set name="icon" val="icon.skill4459" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="dualWpnVuln" val="#dualRcpt" />
+		</for>
+	</skill>
+	<skill id="4460" levels="5" name="Sword Weak Point">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Уязвимость к Мечам" />
+		<table name="#swordRcpt">11 25 43 67 100</table>
+		<set name="icon" val="icon.skill4460" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="swordWpnVuln" val="#swordRcpt" />
+		</for>
+	</skill>
+	<skill id="4461" levels="5" name="Weak Point against Daggers/Rapier Weapon">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Уязвимость к Кинжалам/Рапирам" />
+		<table name="#daggerRcpt">11 25 43 67 100</table>
+		<set name="icon" val="icon.skill4461" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="daggerWpnVuln" val="#daggerRcpt" />
+		</for>
+	</skill>
+	<skill id="4462" levels="5" name="Two-handed Weapon Weak Point">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Уязвимость к Двуручному Оружию" />
+		<set name="icon" val="icon.skill4462" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="4463" levels="3" name="Surrender To Water">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Предать Воде" />
+		<table name="#abnormal_lv">2 3 4</table>
+		<table name="#waterRcpt">15 25 30</table>
+		<table name="#fireRcpt">7 12 15</table>
+		<table name="#mp_consume2">16 28 52</table>
+		<table name="#mp_consume1">4 7 13</table>
+		<table name="#magic_level">20 40 70</table>
+		<table name="#abnormal_lv">2 3 4 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="armor_water"/>
+		<set name="activate_rate" val="80" />
+		<set name="lv_bonus_rate" val="2" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill4280_new" />
+		<set name="reuse_delay" val="8000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="1500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Debuff" stackOrder="#abnormal_lv" stackType="armor_water" time="30" val="0">
+				<sub order="0x40" stat="defenceWater" val="#waterRcpt" />
+				<add order="0x40" stat="defenceFire" val="#fireRcpt" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="4464" levels="3" name="Surrender To Wind">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Предать Ветру" />
+		<table name="#abnormal_lv">2 3 4</table>
+		<table name="#windRcpt">15 25 30</table>
+		<table name="#earthRcpt">7 12 15</table>
+		<table name="#mp_consume2">16 28 52</table>
+		<table name="#mp_consume1">4 7 13</table>
+		<table name="#magic_level">20 40 70</table>
+		<table name="#abnormal_lv">2 3 4 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="armor_wind"/>
+		<set name="activate_rate" val="80" />
+		<set name="lv_bonus_rate" val="2" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill4281_new" />
+		<set name="reuse_delay" val="8000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="1500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Debuff" stackOrder="#abnormal_lv" stackType="armor_wind" time="30" val="0">
+				<sub order="0x40" stat="defenceWind" val="#windRcpt" />
+				<add order="0x40" stat="defenceEarth" val="#earthRcpt" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="4465" levels="3" name="Surrender To Earth">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Предать Земле" />
+		<table name="#abnormal_lv">2 3 4</table>
+		<table name="#earthRcpt">15 25 30</table>
+		<table name="#windRcpt">7 12 15</table>
+		<table name="#mp_consume2">16 28 52</table>
+		<table name="#mp_consume1">4 7 13</table>
+		<table name="#magic_level">20 40 70</table>
+		<table name="#abnormal_lv">2 3 4 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="armor_earth"/>
+		<set name="activate_rate" val="80" />
+		<set name="lv_bonus_rate" val="2" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill4282_new" />
+		<set name="reuse_delay" val="8000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="1500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Debuff" stackOrder="#abnormal_lv" stackType="armor_earth" time="30" val="0">
+				<sub order="0x40" stat="defenceEarth" val="#earthRcpt" />
+				<add order="0x40" stat="defenceWind" val="#windRcpt" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="4466" levels="3" name="Surrender To Darkness">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Предание Тьме" />
+		<table name="#abnormal_lv">2 3 4</table>
+		<table name="#unholyRcpt">15 25 30</table>
+		<table name="#holyRcpt">7 12 15</table>
+		<table name="#mp_consume2">16 28 52</table>
+		<table name="#mp_consume1">4 7 13</table>
+		<table name="#magic_level">20 40 70</table>
+		<table name="#abnormal_lv">2 3 4 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="armor_unholy"/>
+		<set name="activate_rate" val="80" />
+		<set name="lv_bonus_rate" val="2" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill4336_new" />
+		<set name="reuse_delay" val="8000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="1500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="armor_unholy" time="30" val="0">
+				<sub order="0x40" stat="defenceUnholy" val="#unholyRcpt" />
+				<add order="0x40" stat="defenceHoly" val="#holyRcpt" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="4467" levels="3" name="Surrender To Light">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Предание Свету" />
+		<table name="#abnormal_lv">2 3 4</table>
+		<table name="#holyRcpt">15 25 30</table>
+		<table name="#unholyRcpt">7 12 15</table>
+		<table name="#mp_consume2">16 28 52</table>
+		<table name="#mp_consume1">4 7 13</table>
+		<table name="#magic_level">20 40 70</table>
+		<table name="#abnormal_lv">2 3 4 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="armor_holy"/>
+		<set name="activate_rate" val="80" />
+		<set name="lv_bonus_rate" val="2" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill4275_new" />
+		<set name="reuse_delay" val="8000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="1500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="armor_holy" time="30" val="0">
+				<sub order="0x40" stat="defenceHoly" val="#holyRcpt" />
+				<add order="0x40" stat="defenceUnholy" val="#unholyRcpt" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="4468" levels="2" name="Area Buff - Wind Walk">
+		<!-- TODO -->
+		<set name="name-ru" val="Купол Положительного Эффекта - Легкая Походка" />
+		<table name="#abnormal_lv">1 2</table>
+		<table name="#magic_level">30 70</table>
+		<table name="#speed">20 33</table>
+		<table name="#abnormal_lv">1 2 </table>
+		<set name="abnormal_time" val="5"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="speed_up"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="4469" levels="1" name="Potion Drinking">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Выпить Зелье" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="35" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="4470" levels="1" name="NPC Spoils">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Оценка NPC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="10000" />
+		<set name="magic_level" val="35" />
+		<set name="skill_hit_time" val="1800" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="12" />
+		<set name="target_type" val="TARGET_ONE"/>
+		<set name="skillType" val="SPOIL"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="effectRange" val="400"/>
+	</skill>
+	<skill id="4471" levels="12" name="NPC Anger">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Ярость NPC" />
+		<table name="#abnormal_lv">1 2 3 4 5 6 7 8 9 10 11 12</table>
+		<table name="#rate">1.15 1.3 1.45 1.6 1.9 2.2 2.5 2.8 3.1 3.4 3.7 4</table>
+		<table name="#mp_consume2">10 16 21 28 36 44 52 55 58 60 61 62</table>
+		<table name="#mp_consume1">3 4 6 7 9 11 13 14 15 15 16 16</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#abnormal_lv">1 2 3 4 5 6 7 8 9 10 11 12 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="pa_pd_up"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1800" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" time="300" stackOrder="#abnormal_lv" stackType="pa_pd_up" val="0">
+				<mul order="0x30" stat="pAtk" val="#rate"/>
+				<mul order="0x30" stat="pDef" val="#rate"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="4472" levels="12" name="NPC Strike Golem">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="NPC: Удар Голема" />
+		<table name="#mp_consume2">13 20 28 38 50 61 71 76 80 83 84 85</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#power">46 105 219 417 722 1136 1626 1876 2112 2320 2487 2617</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="6000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="4473" levels="12" name="Stun">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Оглушение" />
+		<table name="#mp_consume2">25 40 56 76 99 121 142 151 159 165 168 170</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#power">46 105 219 417 722 1136 1626 1876 2112 2320 2487 2617</table>
+		<table name="#abnormal_lv">1 1 1 1 1 1 1 1 1 1 1 1 </table>
+		<set name="abnormal_time" val="9"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="stun"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="icon" val="icon.skill0101" />
+		<set name="reuse_delay" val="17000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="700" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="activate_rate" val="50" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="SHOCK" />
+		<set name="basic_property" val="CON" />
+		<for>
+			<effect count="1" name="Stun" stackOrder="1" stackType="stun" time="9" val="0" />
+		</for>
+	</skill>
+	<skill id="4474" levels="5" name="Area Heal - Per">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Массовое Лечение" />
+		<table name="#magic_level">10 20 30 40 50</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="4475" levels="1" name="Perfect Resist Bleeding">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Совершенное Сопротивление Кровотечению" />
+		<table name="#abnormal_lv">10 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="bleeding"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="3000" />
+		<set name="magic_level" val="55" />
+		<set name="cast_range" val="700" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="bleedResist" val="100" />
+		</for>
+	</skill>
+	<skill id="4476" levels="5" name="Silent Move">
+		<!-- TODO: Сделать скилл -->
+		<set name="name-ru" val="Бесшумное Передвижение" />
+		<table name="#mp_consume2">10 16 21 28 36</table>
+		<table name="#mp_consume1">3 4 6 7 9</table>
+		<table name="#magic_level">10 20 30 40 50</table>
+		<table name="#abnormal_lv">1 1 1 1 1 </table>
+		<set name="abnormal_time" val="60"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="stealth"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0221" />
+		<set name="reuse_delay" val="3000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="4477" levels="12" name="NPC Frost Wall">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="NPC: Стена Льда" />
+		<table name="#mp_consume2">14 23 32 42 54 66 78 83 87 90 92 93</table>
+		<table name="#mp_consume1">4 6 8 11 14 17 20 21 22 23 23 24</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#power">18 26 38 52 68 85 102 110 116 122 126 129</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="15000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="5000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_MULTIFACE" />
+		<set name="skillType" val="MDAM" />
+		<set name="element" val="water" />
+		<set name="elementPower" val="20" />
+		<set name="skillRadius" val="200" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="4478" levels="1" name="Ice Fairy Aqua Splash">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Водяные Брызги Ледяной Феи" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="183" />
+		<set name="magic_level" val="64" />
+		<set name="cast_range" val="700" />
+		<set name="skill_hit_time" val="3300" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="23" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="MDAM" />
+		<set name="element" val="water" />
+		<set name="elementPower" val="20" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="4479" levels="1" name="Ice Fairy Resist Cold">
+		<!-- TODO: Сделать скилл -->
+		<set name="name-ru" val="Сопротивление Холоду Ледяной Феи" />
+		<table name="#abnormal_lv">4 </table>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="armor_water"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1182" />
+		<set name="reuse_delay" val="6000" />
+		<set name="magic_level" val="64" />
+		<set name="cast_range" val="700" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="8" />
+		<set name="mp_consume2" val="31" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="4480" levels="1" name="Ice Fairy Curse Gloom">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Проклятие Тумана Ледяной Феи" />
+		<table name="#abnormal_lv">4 </table>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="md_down"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="6000" />
+		<set name="magic_level" val="64" />
+		<set name="cast_range" val="1000" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="24" />
+		<set name="mp_consume2" val="93" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Debuff" stackOrder="4" stackType="md_down" time="1800" val="0">
+				<mul order="0x30" stat="mDef" val="0.8" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="4481" levels="1" name="Ice Fairy Hex">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Сглаз Ледяной Феи" />
+		<table name="#abnormal_lv">4 </table>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="pd_down"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="6000" />
+		<set name="magic_level" val="64" />
+		<set name="cast_range" val="1000" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="24" />
+		<set name="mp_consume2" val="93" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="activate_rate" val="80" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Debuff" stackOrder="4" stackType="pd_down" time="1800" val="0">
+				<mul order="0x30" stat="pDef" val="0.7" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="4482" levels="1" name="Ice Fairy Silence">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Безмолвие Ледяной Феи" />
+		<table name="#abnormal_lv">99 </table>
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="silence_all"/>
+		<set name="icon" val="icon.skill1064" />
+		<set name="cast_range" val="1000" />
+		<set name="skill_hit_time" val="100" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="activate_rate" val="80" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="MuteAll" stackOrder="99" stackType="silence" time="600" val="0" />
+		</for>
+	</skill>
+	<skill id="4483" levels="12" name="Hold">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Удержание" />
+		<table name="#mp_consume2">19 31 42 56 72 88 104 110 116 120 122 124</table>
+		<table name="#mp_consume1">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#magicType">PHYSIC MAGIC MAGIC MAGIC MAGIC MAGIC MAGIC MAGIC MAGIC MAGIC MAGIC MAGIC</table>
+		<table name="#abnormal_lv">1 1 1 1 1 1 1 1 1 1 1 1 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="root_magically"/>
+		<set name="magicType" val="#magicType" />
+		<set name="icon" val="icon.skill4047" />
+		<set name="reuse_delay" val="8000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="3300" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="activate_rate" val="40" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="ROOT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="HOLD" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Root" stackOrder="1" stackType="root_magically" time="30" val="0" />
+		</for>
+	</skill>
+	<skill id="4484" levels="1" name="Eating Follower Heal">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Подпитка от Слуги" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="75" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="100" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="HEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="4485" levels="1" name="Eating Follower">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Съесть Слугу" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="75" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="4486" levels="12" name="Decrease P. Def.">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Понизить Физ. Защ." />
+		<table name="#mp_consume2">19 31 42 56 72 88 104 110 116 120 122 124</table>
+		<table name="#mp_consume1">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#pdef">0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77</table>
+		<table name="#abnormal_lv">1 2 2 3 3 3 3 3 3 3 3 3</table>
+		<table name="#abnormal_lv">1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="pd_down"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0122" />
+		<set name="reuse_delay" val="6000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="activate_rate" val="40" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Debuff" stackOrder="#abnormal_lv" stackType="pd_down" time="30" val="0">
+				<mul order="0x30" stat="pDef" val="#pdef" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="4487" levels="12" name="Decrease M. Def.">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Понизить Маг. Защ." />
+		<table name="#mp_consume2">19 31 42 56 72 88 104 110 116 120 122 124</table>
+		<table name="#mp_consume1">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#mdef">0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77</table>
+		<table name="#abnormal_lv">1 2 2 3 3 3 3 3 3 3 3 3</table>
+		<table name="#abnormal_lv">1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="md_down"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="6000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="activate_rate" val="80" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="md_down" time="30" val="0">
+				<mul order="0x30" stat="mDef" val="#mdef" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="4488" levels="12" name="Hold">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Удержание" />
+		<table name="#mp_consume2">19 30 42 57 74 91 106 114 119 124 126 128</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#abnormal_lv">1 1 1 1 1 1 1 1 1 1 1 1 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="root_magically"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="icon" val="icon.skill4047" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="activate_rate" val="40" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="ROOT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Root" stackOrder="1" stackType="root_magically" time="30" val="0" />
+		</for>
+	</skill>
+	<skill id="4489" levels="12" name="NPC Death MP Bomb">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="NPC: Смертельная MP Бомба" />
+		<table name="#mp_consume2">19 30 42 57 74 91 106 114 119 124 126 128</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#power">52 78 112 155 203 255 305 328 348 364 377 387</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_AURA"/>
+		<set name="skillRadius" val="150"/>
+		<set name="skillType" val="MANADAM"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="effectRange" val="1100"/>
+	</skill>
+	<skill id="4490" levels="12" name="NPC Holy Wall">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="NPC: Святая Стрела" />
+		<table name="#mp_consume2">14 23 32 42 54 66 78 83 87 90 92 93</table>
+		<table name="#mp_consume1">4 6 8 11 14 17 20 21 22 23 23 24</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#power">18 26 38 52 68 85 102 110 116 122 126 129</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="15000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="5000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="power" val="#power" />
+		<set name="element" val="holy" />
+		<set name="elementPower" val="20" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="4491" levels="12" name="Holy Weapon">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Святое Оружие" />
+		<table name="#mp_consume2">37 60 84 114 148 182 212 227 238 247 252 255</table>
+		<table name="#power">31 70 146 278 481 758 1084 1251 1408 1547 1658 1745</table>
+		<table name="#abnormal_lv">1 1 1 1 1 1 1 1 1 1 1 1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="holy_attack"/>
+		<set name="activate_rate" val="40" />
+		<set name="power" val="#power" />
+		<set name="lv_bonus_rate" val="1" />
+		<set name="icon" val="icon.skill1043" />
+		<set name="skill_cool_time" val="800" />
+		<set name="reuse_delay" val="25000" />
+		<set name="cast_range" val="500" />
+		<set name="skill_hit_time" val="3200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="150" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" time="120" stackOrder="1" stackType="holy_attack" val="0">
+				<add order="0x40" stat="attackHoly" val="20" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="4492" levels="12" name="Enlarging Head Curse">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Увеличивающее Голову Проклятие" />
+		<table name="#mp_consume2">13 20 28 38 50 61 71 76 80 83 84 85</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#power">46 105 219 417 722 1136 1626 1876 2112 2320 2487 2617</table>
+		<table name="#abnormal_lv">1 1 1 1 1 1 1 1 1 1 1 1 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="big_head"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="800" />
+		<set name="reuse_delay" val="6000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="power" val="#power" />
+		<set name="activate_rate" val="80" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="4493" levels="12" name="NPC Debuff Shield Slow">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="NPC: Отрицательный Эффект Замедления Щита" />
+		<table name="#mp_consume2">10 16 21 28 36 44 52 55 58 60 61 62</table>
+		<table name="#mp_consume1">3 4 6 7 9 11 13 14 15 15 16 16</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#triggerLevel">1 2 3 4 5 6 7 8 9 10 11 12</table>
+		<table name="#abnormal_lv">1 1 1 1 1 1 1 1 1 1 1 1 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="debuff_shield"/>
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="8000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<triggers>
+			<trigger id="5022" level="#triggerLevel" type="RECEIVE_DAMAGE" chance="50">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="4494" levels="2" name="Raid Boss">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Рейдовый Босс" />
+		<set name="icon" val="icon.skillraid" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="HARDCODED" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="4495" levels="12" name="Boss Power Shot">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Босс: Мощный Выстрел" />
+		<table name="#mp_consume2">32 45 63 83 106 129 150 158 164 168 170 173</table>
+		<table name="#magic_level">14 24 34 44 54 64 74 79 84 89 94 99</table>
+		<table name="#power">352 949 2607 6828 17184 33213 51007 59177 67888 77001 86359 95790</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="4500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="4496" levels="12" name="Stun">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Оглушение" />
+		<table name="#mp_consume2">32 45 63 83 106 129 150 158 164 168 170 173</table>
+		<table name="#magic_level">14 24 34 44 54 64 74 79 84 89 94 99</table>
+		<table name="#power">176 475 1304 3414 8592 16607 25504 29589 33944 38501 43180 47895</table>
+		<table name="#abnormal_lv">1 1 1 1 1 1 1 1 1 1 1 1 </table>
+		<set name="abnormal_time" val="9"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="stun"/>
+		<set name="icon" val="icon.skill0101" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="4500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="activate_rate" val="80" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="nextAction" val="attack" />
+		<set name="trait" val="SHOCK" />
+		<set name="basic_property" val="CON" />
+		<for>
+			<effect count="1" name="Stun" stackOrder="1" stackType="stun" time="9" val="0" />
+		</for>
+	</skill>
+	<skill id="4497" levels="1" name="Treasure Chest - Level 21">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Сундук с Сокровищами - Уровень 21" />
+		<set name="icon" val="icon.skill0042" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="4498" levels="1" name="Treasure Chest - Level 22">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Сундук с Сокровищами - Уровень 22" />
+		<set name="icon" val="icon.skill0042" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="4499" levels="1" name="Treasure Chest - Level 25">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Сундук с Сокровищами - Уровень 25" />
+		<set name="icon" val="icon.skill0042" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+</list>

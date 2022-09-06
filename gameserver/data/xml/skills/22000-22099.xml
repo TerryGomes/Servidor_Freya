@@ -1,0 +1,1881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="22000" levels="1" name="Spicy Kimchee">
+		<set name="name-ru" val="Острое Кимчхи" />
+		<!--  Automatically generated from The Gracia part II client files. Description: Temporarily increases regeneration. Effect 1. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 04-11-2008  23:21	-->
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="br_event_buf1"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.etc_kimchi_power_i00" />
+		<set name="reuse_delay" val="2000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22001" levels="1" name="Spicy Kimchee">
+		<set name="name-ru" val="Острое Кимчхи" />
+		<!--  Automatically generated from The Gracia part II client files. Description: Temporarily increases regeneration and power. Effect 2. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 04-11-2008  23:21	-->
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="br_event_buf1"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.etc_kimchi_power_i00" />
+		<set name="reuse_delay" val="2000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22002" levels="1" name="Spicy Kimchee">
+		<set name="name-ru" val="Острое Кимчхи" />
+		<!--  Automatically generated from The Gracia part II client files. Description: "Temporarily increases regeneration, power and power speed. Effect 3." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 04-11-2008  23:21	-->
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="br_event_buf1"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.etc_kimchi_power_i00" />
+		<set name="reuse_delay" val="2000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22003" levels="1" name="Sweet-and-Sour White Kimchee">
+		<set name="name-ru" val="Свежее Кимчхи" />
+		<!--  Automatically generated from The Gracia part II client files. Description: Increases the effective time of Spicy Kimchee. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 04-11-2008  23:21	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.etc_kimchi_time_i00" />
+		<set name="reuse_delay" val="2000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22004" levels="1" name="Energy Ginseng">
+		<set name="name-ru" val="Женьшень" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="br_event_buf2"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.etc_ginseng_recovery_i00" />
+		<set name="reuse_delay" val="2000" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22005" levels="1" name="Energy Red Ginseng">
+		<set name="name-ru" val="Красный Женьшень" />
+		<!--  Automatically generated from The Gracia part II client files. Description: Restores a certain amount of vitality. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 04-11-2008  23:21	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.etc_ginseng_recovery_i00" />
+		<set name="reuse_delay" val="2000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22006" levels="1" name="Halloween Candy" >
+		<set name="name-ru" val="Конфета на Хэллоуин" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="100" />
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="20034" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<!-- Dafault: 100% = 20000 points -->
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="VITALITY_HEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="altUse" val="true" />
+	</skill>
+	<skill id="22007" levels="1" name="Good Luck Lucky Bag" >
+		<set name="name-ru" val="Мешок Удачи" />
+		<!--  Automatically generated from The Gracia part II client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 28-1-2009  22:00	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22008" levels="1" name="Lucky Four-leaf Clover" >
+		<set name="name-ru" val="Четырехлистный Клевер" />
+		<!--  Automatically generated from The Gracia part II client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 28-1-2009  22:00	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22009" levels="1" name="Holiday Miracle" >
+		<set name="name-ru" val="Новогоднее Чудо" />
+		<!--  Automatically generated from The Gracia part II client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 28-1-2009  22:00	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22010" levels="1" name="Mysterious Formal Dress" >
+		<set name="name-ru" val="Удивительные Одеяния" />
+		<!--  Automatically generated from The Gracia part II client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 28-1-2009  22:00	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22011" levels="1" name="Santa Claus' Gift - Joy" >
+		<set name="name-ru" val="Подарок Деда Мороза - Радость" />
+		<!--  Automatically generated from The Gracia part II client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 28-1-2009  22:00	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22012" levels="1" name="Santa Claus' Gift - Enjoyment" >
+		<set name="name-ru" val="Подарок Деда Мороза - Интерес" />
+		<!--  Automatically generated from The Gracia part II client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 28-1-2009  22:00	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22013" levels="1" name="Holiday Festival" >
+		<set name="name-ru" val="Новогодний Фестиваль" />
+		<!--  Automatically generated from The Gracia part II client files. Description: "Max HP/MP/CP, Physical/Defense Power, Moving Speed and P. Atk. are increased, and MP consumption for skills is decreased. Effect 3." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 28-1-2009  22:00	-->
+		<table name="#abnormal_lv">3 </table>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="br_event_buf1"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_xmas_scroll_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22014" levels="1" name="Holiday Festival" >
+		<set name="name-ru" val="Новогодний Фестиваль" />
+		<!--  Automatically generated from The Gracia part II client files. Description: "Max HP/MP/CP, Physical/Defense Power, Moving Speed and P. Atk. are increased, and MP consumption for skills is decreased. Effect 3." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 28-1-2009  22:00	-->
+		<table name="#abnormal_lv">3 </table>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="br_event_buf1"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_xmas_scroll_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22015" levels="1" name="Holiday Festival" >
+		<set name="name-ru" val="Новогодний Фестиваль" />
+		<!--  Automatically generated from The Gracia part II client files. Description: "Max HP/MP/CP, Physical/Defense Power and Moving Speed are increased, and MP consumption for skills is decreased. Effect 3." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 28-1-2009  22:00	-->
+		<table name="#abnormal_lv">3 </table>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="br_event_buf1"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_xmas_scroll_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22016" levels="1" name="Holiday Festival" >
+		<set name="name-ru" val="Новогодний Фестиваль" />
+		<!--  Automatically generated from The Gracia part II client files. Description: "Max HP/MP/CP, Physical/Defense Power, Moving Speed and M. Atk. are increased, and MP consumption for skills is decreased. Effect 3." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 28-1-2009  22:00	-->
+		<table name="#abnormal_lv">3 </table>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="br_event_buf1"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_xmas_scroll_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22017" levels="1" name="Santa Claus' Gift - Luck" >
+		<set name="name-ru" val="Подарок Деда Мороза - Удача" />
+		<!--  Automatically generated from The Gracia part II client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 28-1-2009  22:00	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22018" levels="1" name="Santa Claus' Gift - Luck" >
+		<set name="name-ru" val="Подарок Деда Мороза - Удача" />
+		<!--  Automatically generated from The Gracia part II client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 28-1-2009  22:00	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22019" levels="1" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss)" >
+		<set name="name-ru" val="Билет в Зал Камалоки" />
+		<!--  Automatically generated from The Gracia part II client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 28-1-2009  22:00	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22020" levels="1" name="Extra Entrance Pass - Near Kamaloka" >
+		<set name="name-ru" val="Билет в Окрестности Камалоки" />
+		<!--  Automatically generated from The Gracia part II client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 28-1-2009  22:00	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22021" levels="1" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss)" >
+		<set name="name-ru" val="Билет в Дворец Камалоки" />
+		<!--  Automatically generated from The Gracia part II client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 28-1-2009  22:00	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22022" levels="1" name="Premium Valentine Decoration" >
+		<set name="name-ru" val="Декорации Валентина - Премиум" />
+		<!--  Automatically generated from The Gracia part II client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 14-2-2009  21:42	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22023" levels="1" name="Simple Valentine Cake" >
+		<set name="name-ru" val="Невзрачный Торт Валентина" />
+		<!--  Automatically generated from The Gracia part II client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 14-2-2009  21:42	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22024" levels="1" name="Velvety Valentine Cake" >
+		<set name="name-ru" val="Простой Торт Валентина" />
+		<!--  Automatically generated from The Gracia part II client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 14-2-2009  21:42	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22025" levels="1" name="Delectable Valentine Cake" >
+		<set name="name-ru" val="Вкусный Торт Валентина" />
+		<!--  Automatically generated from The Gracia part II client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 14-2-2009  21:42	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22026" levels="1" name="Decadent Valentine Cake" >
+		<set name="name-ru" val="Совершенный Торт Валентина" />
+		<!--  Automatically generated from The Gracia part II client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 14-2-2009  21:42	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22027" levels="1" name="Heavenly Valentine Cake" >
+		<set name="name-ru" val="Фантастический Торт Валентина" />
+		<!--  Automatically generated from The Gracia part II client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 14-2-2009  21:42	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22028" levels="1" name="Chocolate Cookie" >
+		<set name="name-ru" val="Шоколадное Печенье" />
+		<!--Edit by Nika 16.05.2012-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="100" />
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="20214" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="VITALITY_HEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="altUse" val="true" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22029" levels="1" name="Baguette Herb" >
+		<set name="name-ru" val="Настойка - Багет" />
+		<!--  Automatically generated from The Gracia part II client files. Description: Temporarily increases Atk. Spd. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 14-2-2009  21:42	-->
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="br_event_buf1"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_herb_of_baguette_i00" />
+		<set name="reuse_delay" val="2000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22030" levels="1" name="Cream Puff Herb" >
+		<set name="name-ru" val="Настойка - Эклер" />
+		<!--  Automatically generated from The Gracia part II client files. Description: Recovers Vitality upon acquiring Exp. points. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 14-2-2009  21:42	-->
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="br_event_buf1"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_herb_of_cream_i00" />
+		<set name="reuse_delay" val="2000" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22031" levels="1" name="Buttery Herb" >
+		<set name="name-ru" val="Настойка - Сырный Пирог" />
+		<!--  Automatically generated from The Gracia part II client files. Description: Temporarily increases Magic Casting Speed. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 14-2-2009  21:42	-->
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="br_event_buf1"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_herb_of_cheesecake_i00" />
+		<set name="reuse_delay" val="2000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22032" levels="1" name="Baguette Legacy" >
+		<set name="name-ru" val="Наследие Багета" />
+		<!--  Automatically generated from The Gracia part II client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 14-2-2009  21:42	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22033" levels="1" name="Baguette Legacy - Kamael" >
+		<set name="name-ru" val="Наследие Багета - Для Камаэлей" />
+		<!--  Automatically generated from The Gracia part II client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 14-2-2009  21:42	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22034" levels="1" name="Birthday Cake" >
+		<set name="name-ru" val="Праздничный Торт" />
+		<!--  Automatically generated from The Gracia Final client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 16-4-2009  22:35	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22035" levels="1" name="Birthday Cake Effect" >
+		<set name="name-ru" val="Эффект Праздничного Торта" />
+		<!--	Last modify:	15.02.2010	Description: Birthday Cake Energy Effect. Energy is recovered upon acquiring Exp. points.	-->
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="vp_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_birthday_cake_i00" />
+		<set name="target_type" val="TARGET_PARTY" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="altUse" val="true" />
+		<set name="isHandler" val="true" />
+		<set name="isCancelable" val="false" />
+		<set name="itemConsumeId" val="21595" />
+		<set name="itemConsumeCount" val="1" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Vitality" stackType="vp_up" stackOrder="1" time="300" val="0" />
+		</for>
+	</skill>
+	<skill id="22036" levels="1" name="Beast Soulshot" >
+		<set name="name-ru" val="Заряд Души Зверя" />
+		<!--  Automatically generated from The Gracia Final client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 16-4-2009  22:35	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22037" levels="1" name="Beast Spiritshot" >
+		<set name="name-ru" val="Заряд Духа Зверя" />
+		<!--  Automatically generated from The Gracia Final client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 16-4-2009  22:35	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22038" levels="1" name="Blessed Beast Spiritshot" >
+		<set name="name-ru" val="Благословенный Заряд Духа Зверя" />
+		<!--  Automatically generated from The Gracia Final client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 16-4-2009  22:35	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22039" levels="2" name="Rune of Experience Points 30%" >
+		<set name="name-ru" val="Руна Опыта 30%" />
+		<!-- Description: Acquired Experience Points increase by 30%,50%.	-->
+		<table name="#power">3 5</table>
+		<table name="#icons">br_cashtex.skill.br_cash_rune_of_exp_buff_3 br_cashtex.skill.br_cash_rune_of_exp_buff_5</table>
+		<set name="icon" val="#icons" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="ExpMultiplier" val="#power" />
+		</for>
+	</skill>
+	<skill id="22040" levels="2" name="Rune of SP 30%" >
+		<set name="name-ru" val="Руна SP 30%" />
+		<!-- Description: Acquired SP increase by 30%,50%.	-->
+		<table name="#power">3 5</table>
+		<table name="#icons">br_cashtex.skill.br_cash_rune_of_sp_buff_3 br_cashtex.skill.br_cash_rune_of_sp_buff_5</table>
+		<set name="icon" val="#icons" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="SpMultiplier" val="#power" />
+		</for>
+	</skill>
+	<skill id="22041" levels="2" name="Rune of Crystal Form Level 3" >
+		<set name="name-ru" val="Руна Кристалла 3 ур." />
+		<!-- Description: One's Grade Penalty decreases by 3,5 level.	-->
+		<table name="#power">3 5</table>
+		<table name="#icons">br_cashtex.skill.br_cash_rune_of_rp_buff_3 br_cashtex.skill.br_cash_rune_of_rp_buff_5</table>
+		<set name="icon" val="#icons" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="gradeExpertiseLevel" val="#power" />
+		</for>
+	</skill>
+	<skill id="22042" levels="1" name="High Grade Potion of Will" >
+		<set name="name-ru" val="Большой Эликсир CP" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="100" />
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="20353" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="COMBATPOINTHEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="altUse" val="true" />
+		<set name="isHandler" val="true" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22043" levels="6" name="Secret medicine of Will" >
+		<table name="#itemConsumeId">0 20354 20355 20356 20357 20358</table>
+		<table name="#levelMin">1 20 40 52 61 76</table>
+		<table name="#levelMax">19 39 51 60 75 90</table>
+		<table name="#power">800 1500 2000 2500 3000</table>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="#itemConsumeId" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="altUse" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="COMBATPOINTHEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1902">
+			<and>
+				<player minLevel="#levelMin" />
+				<player maxLevel="#levelMax" />
+			</and>
+		</cond>
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22044" levels="6" name="Secret medicine of Life" >
+		<table name="#itemConsumeId">0 20359 20360 20361 20362 20363</table>
+		<table name="#levelMin">1 20 40 52 61 76</table>
+		<table name="#levelMax">19 39 51 60 75 90</table>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="50" />
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="#itemConsumeId" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="altUse" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="HEAL_PERCENT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1902">
+			<and>
+				<player minLevel="#levelMin" />
+				<player maxLevel="#levelMax" />
+			</and>
+		</cond>
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22045" levels="1" name="Omen Beast Transformation Scroll" >
+		<set name="name-ru" val="Трансформация: Зверь Знамения" />
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="transform"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skilltransform1" />
+		<set name="itemConsumeId" val="20364" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="TRANSFORMATION" />
+		<set name="addSkills" val="584;1;585;1;619;1;5491;1" />
+		<set name="isHandler" val="true" />
+		<set name="npcId" val="13077" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Transformation" time="1800" val="1">
+				<set order="0x40" stat="STR" val="40" />
+				<set order="0x40" stat="DEX" val="30" />
+				<set order="0x40" stat="CON" val="43" />
+				<set order="0x40" stat="INT" val="21" />
+				<set order="0x40" stat="WIT" val="11" />
+				<set order="0x40" stat="MEN" val="25" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="22046" levels="1" name="Death Blader Transformation Scroll" >
+		<set name="name-ru" val="Трансформация: Роковое Видение" />
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="transform"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skilltransform1" />
+		<set name="itemConsumeId" val="20365" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="TRANSFORMATION" />
+		<set name="isHandler" val="true" />
+		<set name="addSkills" val="586;1;587;1;589;1;588;1;619;1;5491;1" />
+		<set name="npcId" val="13078" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Transformation" time="1800" val="2">
+				<set order="0x40" stat="STR" val="40" />
+				<set order="0x40" stat="DEX" val="30" />
+				<set order="0x40" stat="CON" val="43" />
+				<set order="0x40" stat="INT" val="21" />
+				<set order="0x40" stat="WIT" val="11" />
+				<set order="0x40" stat="MEN" val="25" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="22047" levels="1" name="Grail Apostle Transformation Scroll" >
+		<set name="name-ru" val="Трансформация: Апостол Грааля" />
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="transform"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skilltransform2" />
+		<set name="itemConsumeId" val="20366" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="TRANSFORMATION" />
+		<set name="addSkills" val="560;3;559;3;561;3;562;3;619;1;5491;1" />
+		<set name="npcId" val="13079" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Transformation" time="1800" val="201">
+				<set order="0x40" stat="STR" val="40" />
+				<set order="0x40" stat="DEX" val="30" />
+				<set order="0x40" stat="CON" val="43" />
+				<set order="0x40" stat="INT" val="21" />
+				<set order="0x40" stat="WIT" val="11" />
+				<set order="0x40" stat="MEN" val="25" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="22048" levels="1" name="Unicorn Transformation Scroll" >
+		<set name="name-ru" val="Трансформация: Единорог" />
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="transform"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skilltransform2" />
+		<set name="itemConsumeId" val="20367" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="TRANSFORMATION" />
+		<set name="addSkills" val="563;3;565;3;564;3;567;3;619;1;5491;1" />
+		<set name="npcId" val="13081" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Transformation" time="1800" val="204">
+				<set order="0x40" stat="STR" val="36" />
+				<set order="0x40" stat="DEX" val="33" />
+				<set order="0x40" stat="CON" val="38" />
+				<set order="0x40" stat="INT" val="23" />
+				<set order="0x40" stat="WIT" val="14" />
+				<set order="0x40" stat="MEN" val="26" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="22049" levels="1" name="Lilim Knight Transformation Scroll" >
+		<set name="name-ru" val="Трансформация: Рыцарь Лилим" />
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="transform"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skilltransform2" />
+		<set name="itemConsumeId" val="20368" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="TRANSFORMATION" />
+		<set name="addSkills" val="568;3;569;3;570;3;571;3;619;1;5491;1" />
+		<set name="npcId" val="13082" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Transformation" time="1800" val="207">
+				<set order="0x40" stat="STR" val="41" />
+				<set order="0x40" stat="DEX" val="34" />
+				<set order="0x40" stat="CON" val="32" />
+				<set order="0x40" stat="INT" val="25" />
+				<set order="0x40" stat="WIT" val="12" />
+				<set order="0x40" stat="MEN" val="26" />
+			</effect>
+		</for>
+	</skill>><skill id="22050" levels="1" name="Golem Guardian Transformation Scroll" >
+		<set name="name-ru" val="Трансформация: Голем Стражник" />
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="transform"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skilltransform2" />
+		<set name="itemConsumeId" val="20369" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="TRANSFORMATION" />
+		<set name="addSkills" val="572;3;573;3;574;3;575;3;619;1;5491;1" />
+		<set name="npcId" val="13083" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Transformation" time="1800" val="210">
+				<set order="0x40" stat="STR" val="39" />
+				<set order="0x40" stat="DEX" val="29" />
+				<set order="0x40" stat="CON" val="45" />
+				<set order="0x40" stat="INT" val="20" />
+				<set order="0x40" stat="WIT" val="10" />
+				<set order="0x40" stat="MEN" val="27" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="22051" levels="1" name="Inferno Drake Transformation Scroll" >
+		<set name="name-ru" val="Трансформация: Инфернальный Дрейк" />
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="transform"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skilltransform2" />
+		<set name="itemConsumeId" val="20370" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="TRANSFORMATION" />
+		<set name="addSkills" val="576;3;577;3;578;3;579;3;619;1;5491;1" />
+		<set name="npcId" val="13084" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Transformation" time="1800" val="213">
+				<set order="0x40" stat="STR" val="40" />
+				<set order="0x40" stat="DEX" val="26" />
+				<set order="0x40" stat="CON" val="47" />
+				<set order="0x40" stat="INT" val="18" />
+				<set order="0x40" stat="WIT" val="12" />
+				<set order="0x40" stat="MEN" val="27" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="22052" levels="1" name="Dragon Bomber Transformation Scroll" >
+		<set name="name-ru" val="Трансформация: Панцирный Дракон" />
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="transform"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skilltransform2" />
+		<set name="itemConsumeId" val="20371" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="TRANSFORMATION" />
+		<set name="addSkills" val="580;3;581;3;582;3;583;3;619;1;5491;1" />
+		<set name="npcId" val="13085" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Transformation" time="1800" val="216">
+				<set order="0x40" stat="STR" val="41" />
+				<set order="0x40" stat="DEX" val="33" />
+				<set order="0x40" stat="CON" val="31" />
+				<set order="0x40" stat="INT" val="29" />
+				<set order="0x40" stat="WIT" val="11" />
+				<set order="0x40" stat="MEN" val="25" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="22053" levels="19" name="Escape - Talking Island Village" >
+		<set name="name-ru" val="Телепорт: Говорящий Остров" />
+		<!-- Last modify: 29.07.2009 Description: 1. Escape - Talking Island Village 2. Escape - Elven Village 3. Escape - Dark Elven Village 4. Escape - Orc Village 5. Escape - Dwarven Village 6. Escape - Gludin Village 7. Escape - Town of Gludio 8. Escape - Town of Dion 9. Escape - Floran Village 10. Escape - Giran Castle Town 11. Escape - Hardin's Academy 12. Escape - Heine 13. Escape - Town of Oren 14. Escape - Ivory Tower 15. Escape - Hunters Village 16. Escape - Town of Aden 17. Escape - Town of Goddard 18. Escape - Rune Township 19. Escape - Town of Schuttgart	-->
+		<table name="#itemConsumeId">20372 20373 20374 20375 20376 20377 20378 20379 20380 20381 20382 20383 20384 20385 20386 20387 20388 20389 20390</table>
+		<table name="#townId">1 2 3 4 5 7 6 8 19 9 9 13 10 10 12 11 15 14 16</table>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="20000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="townId" val="#townId" />
+		<set name="itemConsumeId" val="#itemConsumeId" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="RECALL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22054" levels="1" name="Potion of Energy Maintenance" >
+		<set name="name-ru" val="Эликсир Поддержания Энергии" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="vp_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skilltransform4" />
+		<set name="itemConsumeId" val="20391" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="altUse" val="true" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Vitality" stackType="vp_up" stackOrder="1" time="1800" val="0" />
+		</for>
+	</skill>
+	<skill id="22055" levels="1" name="Potion of Energy Replenishing" >
+		<set name="name-ru" val="Эликсир Всплеска Энергии" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="25" />
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="20392" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<!-- Dafault: 25% = 5000 points -->
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="VITALITY_HEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="altUse" val="true" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22056" levels="1" name="Wind Walk" >
+		<set name="name-ru" val="Легкая Походка" />
+		<!--  Automatically generated from The Gracia Final client files. Description: State in which Moving Speed has increased. Effect 2. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 16-4-2009  22:35	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="speed_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22057" levels="1" name="Haste" >
+		<set name="name-ru" val="Ускорение" />
+		<!--  Automatically generated from The Gracia Final client files. Description: State in which Attack Speed has increased. Effect 2. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 16-4-2009  22:35	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="attack_time_down"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22058" levels="1" name="Might" >
+		<set name="name-ru" val="Могущество" />
+		<!--  Automatically generated from The Gracia Final client files. Description: State in which Attack Power has increased. Effect 3. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 16-4-2009  22:35	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="pa_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22059" levels="1" name="Shield" >
+		<set name="name-ru" val="Щит" />
+		<!--  Automatically generated from The Gracia Final client files. Description: State in which Defense Power has increased. Effect 3. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 16-4-2009  22:35	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="pd_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22060" levels="1" name="Death Whisper" >
+		<set name="name-ru" val="Смертельный Шепот" />
+		<!--  Automatically generated from The Gracia Final client files. Description: State in which Critical Attack Power has increased. Effect 3. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 16-4-2009  22:35	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="critical_dmg_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22061" levels="1" name="Guidance" >
+		<set name="name-ru" val="Наведение" />
+		<!--  Automatically generated from The Gracia Final client files. Description: State in which Accuracy has increased. Effect 3. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 16-4-2009  22:35	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="hit_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22062" levels="1" name="Empower" >
+		<set name="name-ru" val="Благо" />
+		<!--  Automatically generated from The Gracia Final client files. Description: State in which Magic Power has increased. Effect 3. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 16-4-2009  22:35	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="ma_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22063" levels="1" name="Grater Acumen" >
+		<set name="name-ru" val="Великая Проницательность" />
+		<!--  Automatically generated from The Gracia Final client files. Description: State in which Magic Speed has increased. Effect 3. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 16-4-2009  22:35	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="casting_time_down"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22064" levels="1" name="Vampiric Rage" >
+		<set name="name-ru" val="Ярость Вампира" />
+		<!--  Automatically generated from The Gracia Final client files. Description: State in which the ability to regenerate HP by using some of the damage inflicted on the enemy has been bestowed. Excludes damage caused by skills and long-range attacks. Effect 4. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 16-4-2009  22:35	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="vampiric_attack"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22065" levels="1" name="Bless the Body" >
+		<set name="name-ru" val="Благословение Тела" />
+		<!--  Automatically generated from The Gracia Final client files. Description: State in which Maximum HP has increased. Effect 6. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 16-4-2009  22:35	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="max_hp_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22066" levels="1" name="Berserker Spirit" >
+		<set name="name-ru" val="Дух Берсерка" />
+		<!--  Automatically generated from The Gracia Final client files. Description: "State in which Defense Power, Magic Resistance and Evasion have decreased, but Attack Power, Magic Power, Attack Speed, Magic Speed and Moving Speed have increased. Effect 2." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 16-4-2009  22:35	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="berserker"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22067" levels="1" name="Magic Barrier" >
+		<set name="name-ru" val="Магический Барьер" />
+		<!--  Automatically generated from The Gracia Final client files. Description: State in which Magic Resistance has increased. Effect 3. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 16-4-2009  22:35	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="md_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22068" levels="1" name="Bless the Soul" >
+		<set name="name-ru" val="Благословение Души" />
+		<!--  Automatically generated from The Gracia Final client files. Description: State in which Maximum MP has increased. Effect 6. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 16-4-2009  22:35	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="max_mp_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22069" levels="1" name="Clarity" >
+		<set name="name-ru" val="Чистота" />
+		<!--  Automatically generated from The Gracia Final client files. Description: State in which MP Consumption per skill for a target has decreased. Effect 3. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 16-4-2009  22:35	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="cheap_magic"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22070" levels="1" name="Wild Magic" >
+		<set name="name-ru" val="Дикая Магия" />
+		<!--  Automatically generated from The Gracia Final client files. Description: State in which probability to cause exceptional damage by the Damage Magic has increased. Effect 2. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 16-4-2009  22:35	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="magic_critical_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22071" levels="1" name="Huge Fortuna Box" >
+		<set name="name-ru" val="Большой Сундук Удачи" />
+		<!--  Automatically generated from The Gracia Epilogue client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 15-12-2009  19:13	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22072" levels="1" name="Huge Fortuna Cube" >
+		<set name="name-ru" val="Большой Куб Удачи" />
+		<!--  Automatically generated from The Gracia Epilogue client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 15-12-2009  19:13	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22073" levels="1" name="Weapon Enchant Scroll - S Grade" >
+		<set name="name-ru" val="Свиток: Зачаровать Оружие (S)" />
+		<!--  Automatically generated from The Gracia Epilogue client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 15-12-2009  19:13	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22074" levels="1" name="Armor Enchant Scroll - S Grade" >
+		<set name="name-ru" val="Свиток: Зачаровать Доспех (S)" />
+		<!--  Automatically generated from The Gracia Epilogue client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 15-12-2009  19:13	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22075" levels="1" name="Ancient Weapon Enchant Crystal - S grade" >
+		<set name="name-ru" val="Кристалл: Зачаровать Доспех (S)" />
+		<!--  Automatically generated from The Gracia Epilogue client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 15-12-2009  19:13	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22076" levels="1" name="Ancient Armor Enchant Crystal - S grade" >
+		<set name="name-ru" val="Кристалл: Зачаровать Доспех (S)" />
+		<!--  Automatically generated from The Gracia Epilogue client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 15-12-2009  19:13	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22077" levels="1" name="Divine Weapon Enchant Crystal - S grade" >
+		<set name="name-ru" val="Алмазный Свиток: Зачаровать Оружие (S)" />
+		<!--  Automatically generated from The Gracia Epilogue client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 15-12-2009  19:13	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22078" levels="1" name="Divine Armor Enchant Crystal - S grade" >
+		<set name="name-ru" val="Алмазный Свиток: Зачаровать Доспех (S)" />
+		<!--  Automatically generated from The Gracia Epilogue client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 15-12-2009  19:13	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="22079" levels="1" name="Resist Aqua" >
+		<set name="name-ru" val="Сопротивление Воде" />
+		<!-- Last modify: 18.01.2010 Description: Increases resistance to water type attacks by 20% for 1 hour.	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="armor_water"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="br_cashtex.item.br_cash_scroll_of_wind_walk_i00" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="itemConsumeId" val="20523" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" time="3600" val="0">
+				<add order="0x40" stat="defenceWater" val="20" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="22080" levels="1" name="Resist Wind" >
+		<set name="name-ru" val="Сопротивление Ветру" />
+		<!-- Last modify: 18.01.2010 Description: Increases resistance to wind type attacks by 20% for 1 hour.	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="armor_wind"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="br_cashtex.item.br_cash_scroll_of_wind_walk_i00" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="itemConsumeId" val="20524" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" time="3600" val="0">
+				<add order="0x40" stat="defenceWind" val="20" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="22081" levels="1" name="Resist Fire" >
+		<set name="name-ru" val="Сопротивление Огню" />
+		<!-- Last modify: 18.01.2010 Description: Increases resistance to fire type attacks by 20% for 1 hour.	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="armor_fire"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="br_cashtex.item.br_cash_scroll_of_wind_walk_i00" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="itemConsumeId" val="20525" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" time="3600" val="0">
+				<add order="0x40" stat="defenceFire" val="20" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="22082" levels="1" name="Resist Holy" >
+		<set name="name-ru" val="Устойчивость к Святости" />
+		<!-- Last modify: 18.01.2010 Description: Increases resistance to divinity type attacks by 23% for 1 hour.	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="armor_holy"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="br_cashtex.item.br_cash_scroll_of_wind_walk_i00" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="itemConsumeId" val="20526" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" time="3600" val="0">
+				<add order="0x40" stat="defenceHoly" val="23" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="22083" levels="1" name="Resist Unholy" >
+		<set name="name-ru" val="Устойчивость к Тьме" />
+		<!-- Last modify: 18.01.2010 Description: Increases resistance to darkness type attacks by 23% for 1 hour.	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="armor_unholy"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="br_cashtex.item.br_cash_scroll_of_wind_walk_i00" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="itemConsumeId" val="20527" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" time="3600" val="0">
+				<add order="0x40" stat="defenceUnholy" val="23" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="22084" levels="1" name="Mental Shield" >
+		<set name="name-ru" val="Ментальный Щит" />
+		<!-- Last modify: 18.01.2010 Description: Increases resistance to hold/sleep/abnormal mental attacks by 40 for 1 hour.	-->
+		<table name="#mentalResist">40</table>
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="resist_derangement"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="br_cashtex.item.br_cash_scroll_of_wind_walk_i00" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="itemConsumeId" val="20528" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" stackOrder="3" stackType="resist_derangement" time="3600" val="0">
+				<add order="0x40" stat="rootResist" val="#mentalResist" />
+				<add order="0x40" stat="sleepResist" val="#mentalResist" />
+				<add order="0x40" stat="mentalResist" val="#mentalResist" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="22085" levels="1" name="Focus" >
+		<set name="name-ru" val="Фокусировка" />
+		<!-- Last modify: 18.01.2010 Description: Increases Critical attack rate by 30 for 1 hour.	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="critical_prob_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="br_cashtex.item.br_cash_scroll_of_wind_walk_i00" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="itemConsumeId" val="20529" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" stackOrder="3" stackType="critical_prob_up" time="3600" val="0">
+				<add order="0x40" stat="rCrit" val="30" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="22086" levels="1" name="Concentration" >
+		<set name="name-ru" val="Концентрация" />
+		<!-- Last modify: 18.01.2010 Description: Decreases magic cancel damage by 36 for 1 hour.	-->
+		<table name="#concentration">0.64</table>
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="cancel_prob_down"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="br_cashtex.item.br_cash_scroll_of_wind_walk_i00" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="itemConsumeId" val="20530" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" stackOrder="3" stackType="cancel_prob_down" time="3600" val="0">
+				<mul order="0x30" stat="concentration" val="#concentration" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="22087" levels="1" name="Blessing Shield" >
+		<set name="name-ru" val="Благословленный Щит" />
+		<!-- Last modify: 18.01.2010 Description: Increases Shield defense rate by 15 for 1 hour.	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="shield_prob_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="br_cashtex.item.br_cash_scroll_of_wind_walk_i00" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="itemConsumeId" val="20531" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" stackOrder="2" stackType="shieldProbUp" time="3600" val="0">
+				<mul order="0x30" stat="rShld" val="1.15" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="22088" levels="1" name="Agility" >
+		<set name="name-ru" val="Стремительность" />
+		<!-- Last modify: 18.01.2010 Description: Increases evasion rate by 4 for 1 hour.	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="avoid_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="br_cashtex.item.br_cash_scroll_of_wind_walk_i00" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="itemConsumeId" val="20532" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" stackOrder="3" stackType="avoid_up" time="3600" val="0">
+				<add order="0x40" stat="rEvas" val="4" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="22089" levels="1" name="Regeneration" >
+		<set name="name-ru" val="Регенерация" />
+		<!-- Last modify: 18.01.2010 Description: Increases HP Regeneration by 20% for 1 hour.	-->
+		<table name="#rate">1.2</table>
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="hp_regen_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="br_cashtex.item.br_cash_scroll_of_wind_walk_i00" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="itemConsumeId" val="20533" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" stackOrder="3" stackType="hp_regen_up" time="3600" val="0">
+				<mul order="0x30" stat="regHp" val="#rate" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="22090" levels="1" name="Advanced Block" >
+		<set name="name-ru" val="Усиленная Блокировка" />
+		<!-- Last modify: 18.01.2010 Description: Increases Shield P. Def. by 40% for 1 hour. -->
+		<table name="#sDef">1.4</table>
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="shield_defence_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="br_cashtex.item.br_cash_scroll_of_wind_walk_i00" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="itemConsumeId" val="20534" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" stackOrder="2" stackType="shield_defence_up" time="3600" val="0">
+				<mul order="0x30" stat="sDef" val="#sDef" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="22091" levels="1" name="Eva's Rune" >
+		<set name="name-ru" val="Руна Евы" />
+		<!--  Automatically generated from The Gracia Epilogue client files. Description: "With the power of Eva, increases max HP by 10%, and decreases skill reuse time by 20%. Reflects partial damage received back to the emeny. Excludes damage caused by skills and long-range attack." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 15-12-2009  19:13 -->
+		<set name="icon" val="BranchSys.icon.br_rune_of_eva_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="22092" levels="1" name="Scroll Master 1" >
+		<set name="name-ru" val="Свиток Мастера 1" />
+		<!--  Automatically generated from The Gracia Epilogue client files. Description: "Thank you gift for helping the girl. For 2 minutes, increases Max HP by 60%, Max MP by 60%, Max CP by 60%, physical P. Def. by 30%, M. Def. by 30%, moving speed by 30, and physical P. Atk. by 20%. Decreases MP consumption during skill use by 10%." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 15-12-2009  19:13 -->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22093" levels="1" name="Scroll Master 2" >
+		<set name="name-ru" val="Свиток Мастера 2" />
+		<!--  Automatically generated from The Gracia Epilogue client files. Description: "Thank you gift for helping the boy. For 2 minutes, increases Max HP by 40%, Max MP by 40%, Max CP by 40%, physical P. Def. by 30%, M. Def. by 30%, moving speed by 20, and M. Atk. by 45%. Decreases MP consumption during skill use by 10%." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 15-12-2009  19:13 -->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22094" levels="1" name="Exp. Master" >
+		<set name="name-ru" val="Очки Опыта Мастера" />
+		<!--  Automatically generated from The Gracia Epilogue client files. Description: "When using a monster's corpse, comforts the monster's soul to borrow the monster's power temporarily. For 2 minutes, increases Max HP by 60%, Max MP by 60%, Max CP by 60%, physical P. Def. by 30%, M. Def. by 30%, moving speed by 30, and physical P. Atk. by 20%. Decreases MP consumption during skill use by 10%." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 15-12-2009  19:13 -->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22095" levels="1" name="Summon Spirit of Fire" >
+		<set name="name-ru" val="Призвать Огненного Духа" />
+		<!--  Automatically generated from The Gracia Epilogue client files. Description: "When using a monster's corpse, comforts the monster's soul to borrow the monster's power temporarily. For 2 minutes, increases Max HP by 40%, Max MP by 40%, Max CP by 40%, physical P. Def. by 30%, M. Def. by 30%, moving speed by 20, and M. Atk. by 45%. Decreases MP consumption during skill use by 10%." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 15-12-2009  19:13 -->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22096" levels="1" name="Summon Reckless Spirit of Fire" >
+		<set name="name-ru" val="Призвать Духа Пламени" />
+		<!--  Automatically generated from The Gracia Epilogue client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 15-12-2009  19:13 -->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22097" levels="1" name="Girl's Gift of Gratitude" >
+		<set name="name-ru" val="Подарок Девочки" />
+		<!--  Automatically generated from The Gracia Epilogue client files. Description: "Thank you gift for helping the girl. For 2 minutes, increases Max HP by 60%, Max MP by 60%, Max CP by 60%, physical P. Def. by 30%, M. Def. by 30%, moving speed by 30, and physical P. Atk. by 20%. Decreases MP consumption during skill use by 10%." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 15-12-2009  19:13 -->
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="br_event_buf5"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_sevenlove_girlpresent_i00" />
+		<set name="reuse_delay" val="2000" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22098" levels="1" name="Boy's Gift of Gratitude" >
+		<set name="name-ru" val="Подарок Девочки" />
+		<!--  Automatically generated from The Gracia Epilogue client files. Description: "Thank you gift for helping the boy. For 2 minutes, increases Max HP by 40%, Max MP by 40%, Max CP by 40%, physical P. Def. by 30%, M. Def. by 30%, moving speed by 20, and M. Atk. by 45%. Decreases MP consumption during skill use by 10%." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 15-12-2009  19:13 -->
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="br_event_buf5"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_sevenlove_boypresent_i00" />
+		<set name="reuse_delay" val="2000" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="22099" levels="1" name="Soul Silver Foil" >
+		<set name="name-ru" val="Благодать" />
+		<!--  Automatically generated from The Gracia Epilogue client files. Description: "When using a monster's corpse, comforts the monster's soul to borrow the monster's power temporarily. For 2 minutes, increases Max HP by 60%, Max MP by 60%, Max CP by 60%, physical P. Def. by 30%, M. Def. by 30%, moving speed by 30, and physical P. Atk. by 20%. Decreases MP consumption during skill use by 10%." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 15-12-2009  19:13 -->
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="br_event_buf6"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_ghost_silverpaper_i00" />
+		<set name="reuse_delay" val="5000" />
+		<set name="magic_level" val="1" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+</list>

@@ -1,0 +1,47 @@
+<html>
+<table width=260>
+	<tr>
+		<td width=40><button value="Main" action="bypass -h admin_admin"
+				width=40 height=21 back="L2UI_ct1.button_df"
+				fore="L2UI_ct1.button_df"></td>
+		<td width=180><center>Augment Menu</center></td>
+		<td width=40><button value="Back" action="bypass -h admin_admin"
+				width=40 height=21 back="L2UI_ct1.button_df"
+				fore="L2UI_ct1.button_df"></td>
+	</tr>
+</table>
+<center>
+	<br> <font color="LEVEL">Augmentation Menu:</font><br>
+	<table width=300>
+		<tr>
+			<td><font color="LEVEL">Put the Augment Id (you can find
+					it at augmentation_skillmap.xml)</font></td>
+		</tr>
+		<tr>
+			<td>Example: 16270 - Item Skill: Duel Might: Chance level 10</td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<table>
+		<tr>
+			<td width=150>Augment Id</td>
+			<td><edit var="augment" width=80 height=15></td>
+		</tr>
+	</table>
+	<br>
+	<table width=260>
+		<tr>
+			<td><button value="Put Augment"
+					action="bypass -h admin_augment $augment" width=120 height=25
+					back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+		</tr>
+		<tr>
+			<td><button value="Remove Augment"
+					action="bypass -h admin_removeaugment" width=120 height=25
+					back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+		</tr>
+	</table>
+</center>
+</body>
+</html>

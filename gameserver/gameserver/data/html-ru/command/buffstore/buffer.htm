@@ -1,0 +1,101 @@
+<html>
+<head>
+<body scroll="no">
+<title>%bufferClass%, Level: %bufferLvl%+</title>
+<table border=0 cellpadding=0 cellspacing=0 width=292 height=358 background="l2ui_ct1.Windows_DF_TooltipBG">
+	<tr>
+		<td valign="top">
+			<table width=290 height=10>
+				<tr>
+					<td height=29 align=center valign=top>
+						<table border=0 cellspacing=1 cellpadding=1 width=286 height=26 bgcolor=FF3300>
+							<tr>
+								<td width=110 height=26 align=center valign=top>
+									<table width=84 height=18 background="l2ui_ct1.Windows_DF_TooltipBG">
+										<tr>
+											<td width=82 height=16 align=center valign=top>
+												<button value="Для игрока" action="bypass -h offbuff bufflist %bufferId% player %page%" width=80 height=16 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+											</td>
+										</tr>
+									</table>
+								</td>
+								<td width=90 height=26 align=center valign=center>
+									<table width=60 height=18 background="l2ui_ct1.Windows_DF_TooltipBG">
+										<tr>
+											<td width=20 height=16 align=center valign=center>
+												<button width=15 height=15 action="%previousPageButton%" back="L2UI_CT1.Button_DF_Left_Down" fore="L2UI_CT1.Button_DF_Left">
+											</td>
+											<td width=36 height=16 align=center valign=center>
+												%pageCount%
+											</td>
+											<td width=20 height=16 align=center valign=center>
+												<button width=15 height=15 action="%nextPageButton%" back="L2UI_CT1.Button_DF_Right_Down" fore="L2UI_CT1.Button_DF_Right">
+											</td>
+										</tr>
+									</table>
+								</td>
+								<td width=110 height=26 align=center valign=top>
+									<table width=84 height=18 background="l2ui_ct1.Windows_DF_TooltipBG">
+										<tr>
+											<td width=82 height=16 align=center valign=top>
+												<button value="Для суммона" action="bypass -h offbuff bufflist %bufferId% summon %page%" width=80 height=16 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height=23 valign="top" align="center">
+						<table border=0 cellspacing=1 cellpadding=1 width=286 height=20 bgcolor=339900>
+							<tr>
+								<td width=290 align=center valign=center>
+									<font name="hs7">Цена баффа:</font> <font name="hs7" color=f3ef8e>%buffPrice%</font> - <font name="hs7">Цель:</font> <font name="hs7">%target%</font>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height=26 valign="top" align="center">
+						<table border=0 cellspacing=1 cellpadding=1 width=286 height=17 bgcolor=333333>
+							<tr>
+								<td width=156 height=10 align=center valign=center>
+									<table cellspacing=0 cellpadding=0 width=89 height=3 background="L2UI_CT1.HeadDisplay_DF_Gage_HP_Bg">
+										<tr>
+											<td align=left valign=center>
+												<img src="L2UI_CT1.HeadDisplay_DF_Gage_HP" width="%hpstat%" height="8" />
+											</td>
+										</tr>
+									</table>
+								</td>
+								<td width=150 height=10 align=center valign=center>
+									<table cellspacing=0 cellpadding=0 width=89 height=3 background="L2UI_CT1.HeadDisplay_DF_Gage_MP_Bg">
+										<tr>
+											<td align=left valign=center>
+												<img src="L2UI_CT1.HeadDisplay_DF_Gage_MP" width="%mpstat%" height="8" />
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td width=156 height=12 align=center valign=center>
+									<font name="hs">HP: %Hp%/%MaxHp%</font>
+								</td>
+								<td width=150 height=12 align=center valign=center>
+									<font name="hs">MP: %Mp%/%MaxMp%</font>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				%buffs%
+			</table>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

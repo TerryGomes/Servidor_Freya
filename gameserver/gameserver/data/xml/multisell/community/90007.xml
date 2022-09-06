@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<list>
+	<config showall="true" notax="true" />
+	<!-- necklace of devotion -->
+	<item id="1">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="910" count="1" enchant="0" />
+	</item>
+	<!-- enchanted necklace -->
+	<item id="2">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="911" count="1" enchant="0" />
+	</item>
+	<!-- near forest necklace -->
+	<item id="3">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="912" count="1" enchant="0" />
+	</item>
+	<!-- elven necklace -->
+	<item id="4">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="913" count="1" enchant="0" />
+	</item>
+	<!-- necklace of darkness -->
+	<item id="5">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="914" count="1" enchant="0" />
+	</item>
+	<!-- necklace of devotion -->
+	<item id="6">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="10123" count="1" enchant="0" />
+	</item>
+	<!-- shadow item - necklace of devotion -->
+	<item id="7">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="10472" count="1" enchant="0" />
+	</item>
+	<!-- common item - necklace of devotion -->
+	<item id="8">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="12312" count="1" enchant="0" />
+	</item>
+	<!-- common item - enchanted necklace -->
+	<item id="9">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="12315" count="1" enchant="0" />
+	</item>
+	<!-- common item - near forest necklace -->
+	<item id="10">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="12317" count="1" enchant="0" />
+	</item>
+	<!-- common item - elven necklace -->
+	<item id="11">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="12320" count="1" enchant="0" />
+	</item>
+	<!-- common item - necklace of darkness -->
+	<item id="12">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="12324" count="1" enchant="0" />
+	</item>
+	<!-- red crescent earring -->
+	<item id="13">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="847" count="1" enchant="0" />
+	</item>
+	<!-- enchanted earring -->
+	<item id="14">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="848" count="1" enchant="0" />
+	</item>
+	<!-- tiger's eye earring -->
+	<item id="15">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="849" count="1" enchant="0" />
+	</item>
+	<!-- elven earring -->
+	<item id="16">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="850" count="1" enchant="0" />
+	</item>
+	<!-- omen beast's eye earring -->
+	<item id="17">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="851" count="1" enchant="0" />
+	</item>
+	<!-- red crescent earring -->
+	<item id="18">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="10122" count="1" enchant="0" />
+	</item>
+	<!-- shadow item - red crescent -->
+	<item id="19">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="10470" count="1" enchant="0" />
+	</item>
+	<!-- common item - red crescent -->
+	<item id="20">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="12311" count="1" enchant="0" />
+	</item>
+	<!-- common item - enchanted earring -->
+	<item id="21">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="12314" count="1" enchant="0" />
+	</item>
+	<!-- common item - tiger's eye -->
+	<item id="22">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="12318" count="1" enchant="0" />
+	</item>
+	<!-- common item - elven earring -->
+	<item id="23">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="12322" count="1" enchant="0" />
+	</item>
+	<!-- common item - omen beast's eye -->
+	<item id="24">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="12325" count="1" enchant="0" />
+	</item>
+	<!-- enchanted ring -->
+	<item id="25">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="879" count="1" enchant="0" />
+	</item>
+	<!-- black pearl ring -->
+	<item id="26">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="880" count="1" enchant="0" />
+	</item>
+	<!-- elven ring -->
+	<item id="27">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="881" count="1" enchant="0" />
+	</item>
+	<!-- mithril ring -->
+	<item id="28">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="882" count="1" enchant="0" />
+	</item>
+	<!-- ring of devotion -->
+	<item id="29">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="890" count="1" enchant="0" />
+	</item>
+	<!-- ring of devotion -->
+	<item id="30">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="10124" count="1" enchant="0" />
+	</item>
+	<!-- shadow item - ring of devotion -->
+	<item id="31">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="10471" count="1" enchant="0" />
+	</item>
+	<!-- common item - ring of devotion -->
+	<item id="32">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="12313" count="1" enchant="0" />
+	</item>
+	<!-- common item - enchanted ring -->
+	<item id="33">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="12316" count="1" enchant="0" />
+	</item>
+	<!-- common item - black pearl ring -->
+	<item id="34">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="12319" count="1" enchant="0" />
+	</item>
+	<!-- common item - elven ring -->
+	<item id="35">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="12321" count="1" enchant="0" />
+	</item>
+	<!-- common item - mithril ring -->
+	<item id="36">
+		<ingredient id="57" count="1000000" enchant="0" />
+		<production id="12323" count="1" enchant="0" />
+	</item>
+</list>

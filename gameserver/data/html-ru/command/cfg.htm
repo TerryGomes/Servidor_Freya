@@ -1,0 +1,80 @@
+<html noscrollbar><title>Конфигурация</title><body>
+<table border=0 cellpadding=0 cellspacing=0 width=292 height=358 background="l2ui_ct1.Windows_DF_TooltipBG">
+<tr>
+	<td valign="top" align="center"><br>
+		<table width=292>
+			<tr>
+				<td width=292>
+					<center>
+						<font color="FFFF00">Ваши персональные настройки</font>
+						<br1><img src="L2UI_CH3.herotower_deco" width=256 height=32><br1>
+					</center>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr><td align=center><br>
+<table width="270" border="1" cellspacing="3" cellpadding="3">
+	<tr>
+		<td width="125" align=center>Язык: %lang%</td>
+		<td width="55" align=center><combobox width=50 height=10 var="lang" list="ru;en"/></td>
+		<td width="55" align=center><button width=30 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h user_cfg lang $lang" value="OK"></td>
+	</tr>
+	<tr>
+		<td width="125" align=center>Картинки в дроплисте: %dli%</td>
+		<td width="55" align=center><button width=30 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h user_cfg dli on" value="On"></td>
+		<td width="55" align=center><button width=30 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h user_cfg dli off" value="Off"></td>
+	</tr>
+	<tr>
+		<td width="125" align=center>Блок. опыта: %noe%</td>
+		<td width="55" align=center><button width=30 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h user_cfg noe on" value="On"></td>
+		<td width="55" align=center><button width=30 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h user_cfg noe of" value="Off"></td>
+	</tr>
+	<tr>
+		<td width="125" align=center>Шанс скила: %ssc%</td>
+		<td width="55" align=center><button width=30 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h user_cfg ssc on" value="On"></td>
+		<td width="55" align=center><button width=30 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h user_cfg ssc of" value="Off"></td>
+	</tr>
+	<tr>
+		<td width="125" align=center>Отображение урона в старом виде: %osdmsg%</td>
+		<td width="55" align=center><button width=30 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h user_cfg osdmsg on" value="On"></td>
+		<td width="55" align=center><button width=30 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h user_cfg osdmsg of" value="Off"></td>
+	</tr>
+	<tr>
+		<td width="125" align=center>Показ. торговцев: %notraders%</td>
+		<td width="55" align=center><button width=30 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h user_cfg notraders on" value="On"></td>
+		<td width="55" align=center><button width=30 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h user_cfg notraders of" value="Off"></td>
+	</tr>
+	<tr>
+		<td width="125" align=center>Анимация бафов: %notShowBuffAnim%</td>
+		<td width="55" align=center><button width=30 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h user_cfg notShowBuffAnim on" value="On"></td>
+		<td width="55" align=center><button width=30 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h user_cfg notShowBuffAnim of" value="Off"></td>
+	</tr>
+	<tr>
+		<td width="125" align=center>Анимация бафов: %notShowBuffAnim%</td>
+		<td width="55" align=center><button width=30 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h user_cfg notShowBuffAnim on" value="On"></td>
+		<td width="55" align=center><button width=30 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h user_cfg notShowBuffAnim of" value="Off"></td>
+	</tr>
+	<tr>
+		<td width="125" align=center>No Carrier: %noCarrier%</td>
+		<td width="55" align=center align=center valign=middle><edit var="set" width=30 height=12 align=center valign=top></td>
+		<td width="55" align=center><button width=30 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h user_cfg noCarrier $set" value="OK"></td>
+	</tr>
+</table>
+<table width="270" border="1" cellspacing="3" cellpadding="3">
+	<tr>
+		<td width="128" colspan="3" align=center>Транслит: %translit%</td>
+		<td width="42" align=center><button width=30 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h user_cfg translit on" value="On"></td>
+		<td width="42" align=center><button width=30 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h user_cfg translit of" value="Off"></td>
+		<td width="42" align=center><button width=30 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h user_cfg translit la" value="Lt"></td>
+	</tr>
+</table>
+<table width="269" border="1" cellspacing="3" cellpadding="3">
+	<tr>
+		<td width="115" height="40" align=center>%additional%</td>
+	</tr>
+</table>
+</td></tr>
+</table>
+</body></html>

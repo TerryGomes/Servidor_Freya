@@ -1,0 +1,59 @@
+<title>Community Board - Commission Shop</title>
+<html><body><center>
+<br>
+<table width=660 height=410><tr><td valign=top>
+
+
+    <table width=660 height=25 border=0>
+        <tr>
+            <td width=330 align=center valign=top>
+                <table width=330 height=25 border=0>
+                    <tr>
+                        <td align=center><font color=LEVEL><?category_name?>:</font><br1></td>
+                    </tr>
+                </table><br>
+                <?content?>
+                <?pages?>
+            </td>
+            <td width=270 align=center valign=top>
+                <table width=260 height=250>
+                    <tr>
+                        <td align=center>
+                            <table width=220 height=25 border=0>
+                                <tr>
+                                    <td align=center><br><font color=LEVEL>Search for name:</font><br1></td>
+                                </tr>
+                                <tr>
+                                    <td align=center><edit var="search_name" width=180 height=15></td>
+                                </tr>
+                                <tr>
+                                    <td align=center><button value="Search" action="bypass _bbscommission:search- $search_name -1" width=185 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td>
+                                </tr>
+                            </table><br>
+                            <table width=220 height=25 border=0>
+                                <tr><td align=center><font color=LEVEL>Select by Category:</font><br1></td></tr>
+                                <tr><td align=center><button value="All Products" action="bypass _bbscommission:list-all-1" width=180 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td></tr>
+                                <tr><td align=center><button value="Material's" action="bypass _bbscommission:list-matherials-1" width=180 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td></tr>
+                                <tr><td align=center><button value="Pieces" action="bypass _bbscommission:list-pieces-1" width=180 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td></tr>
+                                <tr><td align=center><button value="Recipe" action="bypass _bbscommission:list-recipe-1" width=180 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td></tr>
+                                <tr><td align=center><button value="Weapon" action="bypass _bbscommission:list-weapon-1" width=180 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td></tr>
+                                <tr><td align=center><button value="Armor" action="bypass _bbscommission:list-armor-1" width=180 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td></tr>
+                                <tr><td align=center><button value="Jewelry" action="bypass _bbscommission:list-jewelry-1" width=180 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td></tr>
+                                <tr><td align=center><button value="Other" action="bypass _bbscommission:list-other-1" width=180 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td></tr>
+                            </table><br>
+                            <table width=220 height=25 border=0>
+                                <tr><td align=center><font color=LEVEL>Панель управления:</font><br1></td></tr>
+
+                                <tr><td align=center><button value="Your Products" action="bypass _bbscommission:list-myitems-1" width=180 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td></tr>
+                                <tr><td align=center><button value="Add item" action="bypass _bbscommission:add-1" width=180 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df"></td></tr>
+                            </table>
+                            <br>
+                            <br>
+                        </td>
+                    </tr>
+                </table><br>
+            </td>
+        </tr>
+    </table>
+
+</td></tr></table></center></body></html>

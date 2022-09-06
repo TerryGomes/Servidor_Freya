@@ -1,0 +1,1429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="3400" levels="1" name="Traits Strengthen Earring">
+		<set name="name-ru" val="Серьги Сильной Черты" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="80" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="mentalPower" val="6" />
+		</for>
+	</skill>
+	<skill id="3401" levels="1" name="Dynasty Resistance Necklace">
+		<set name="name-ru" val="Ожерелье Сопротивления Династии" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="80" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="mentalResist" val="9" />
+		</for>
+	</skill>
+	<skill id="3402" levels="1" name="Dynasty Resistance Ring">
+		<set name="name-ru" val="Кольцо Сопротивления Династии" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="80" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="mentalResist" val="4" />
+		</for>
+	</skill>
+	<skill id="3403" levels="1" name="Dynasty Resistance Earring">
+		<set name="name-ru" val="Серьги Сопротивления Династии" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="80" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="mentalResist" val="6" />
+		</for>
+	</skill>
+	<skill id="3404" levels="1" name="Mystery Effect">
+		<set name="name-ru" val="Загадочный Эффект" />
+		<!--	TODO: сделать эффект	-->
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="big_head"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="1800000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="ETC" />
+	</skill>
+	<skill id="3405" levels="1" name="Large Firecracker Effect">
+		<set name="name-ru" val="Создать Большой Фейерверк" />
+		<!--	TODO: сделать эффект	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="1200000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="3406" levels="1" name="Weight Decrease Ring">
+		<set name="name-ru" val="Кольцо Уменьшения Веса" />
+		<!--	TODO: сделать эффект	-->
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="3407" levels="1" name="Stealth Ring">
+		<set name="name-ru" val="Кольцо Незаметности" />
+		<!--	TODO: сделать эффект	-->
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_type" val="stealth"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="600000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="3408" levels="1" name="Blessed Ring of Escape">
+		<set name="name-ru" val="Освященное Кольцо Побега" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="60000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="200" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="3409" levels="1" name="Blessed Ring of Resurrection">
+		<set name="name-ru" val="Освященное Кольцо Воскрешения" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="300000" />
+		<set name="magic_level" val="1" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="3410" levels="1" name="Blue Talisman of Reflection">
+		<set name="name-ru" val="Синий Талисман Отражения" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="reuse_delay" val="360000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="referenceItemId" val="9919" />
+		<set name="referenceItemMpConsume" val="6" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="talisman" time="120" val="0">
+				<add order="0x40" stat="reflectDam" val="10" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3411" levels="1" name="Special Ability: Focus">
+		<set name="name-ru" val="Особое Умение: Фокусировка" />
+		<set name="icon" val="icon.skill1077" />
+		<set name="magic_level" val="80" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="baseCrit" val="109" />
+			<mul order="0x30" stat="maxHp" val="1.1" />
+			<mul order="0x30" stat="pvpMagicSkillDmgBonus" val="1.05" />
+			<mul order="0x30" stat="pvpPhysSkillDmgBonus" val="1.05" />
+			<mul order="0x30" stat="pvpPhysDmgBonus" val="1.05" />
+		</for>
+	</skill>
+	<skill id="3412" levels="1" name="Dynasty Breast Plate">
+		<set name="name-ru" val="Кираса Династии" />
+		<set name="icon" val="icon.armor_t91_u_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="CON" val="1" />
+			<add order="0x40" stat="STR" val="1" />
+			<mul order="0x30" stat="pDef" val="1.046" />
+			<add order="0x40" stat="maxHp" val="418" />
+			<add order="0x40" stat="defenceUnholy" val="6" />
+			<add order="0x10" stat="openCloakSlot" val="1" />
+		</for>
+	</skill>
+	<skill id="3413" levels="1" name="Dynasty Leather Armor">
+		<set name="name-ru" val="Кожаный Доспех Династии" />
+		<set name="icon" val="icon.armor_t92_u_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="CON" val="1" />
+			<add order="0x40" stat="DEX" val="1" />
+			<add order="0x40" stat="accCombat" val="1.72" />
+			<add order="0x40" stat="rEvas" val="1.72" />
+			<add order="0x40" stat="maxHp" val="418" />
+			<add order="0x40" stat="defenceUnholy" val="6" />
+			<add order="0x10" stat="openCloakSlot" val="1" />
+		</for>
+	</skill>
+	<skill id="3414" levels="1" name="Dynasty Leather Armor">
+		<set name="name-ru" val="Кожаный Доспех Династии" />
+		<set name="icon" val="icon.armor_t92_ud_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="STR" val="1" />
+			<add order="0x40" stat="DEX" val="1" />
+			<sub order="0x40" stat="CON" val="2" />
+			<mul order="0x30" stat="pAtk" val="1.054" />
+			<add order="0x40" stat="maxHp" val="492" />
+			<add order="0x40" stat="defenceUnholy" val="8" />
+			<mul order="0x30" stat="mpConsumePhysical" val="0.95" />
+			<add order="0x10" stat="openCloakSlot" val="1" />
+		</for>
+	</skill>
+	<skill id="3415" levels="1" name="Dynasty Leather Armor">
+		<set name="name-ru" val="Кожаный Доспех Династии" />
+		<set name="icon" val="icon.armor_t92_ub_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="CON" val="2" />
+			<add order="0x40" stat="STR" val="1" />
+			<add order="0x40" stat="DEX" val="1" />
+			<mul order="0x30" stat="pAtk" val="1.054" />
+			<add order="0x40" stat="maxHp" val="492" />
+			<add order="0x40" stat="defenceUnholy" val="8" />
+			<add order="0x40" stat="cAtkStatic" val="234" />
+			<add order="0x40" stat="baseCrit" val="24.6" />
+			<add order="0x10" stat="openCloakSlot" val="1" />
+		</for>
+	</skill>
+	<skill id="3416" levels="1" name="Dynasty Tunic">
+		<set name="name-ru" val="Туника Династии" />
+		<set name="icon" val="icon.armor_t93_u_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="INT" val="1" />
+			<add order="0x40" stat="MEN" val="1" />
+			<mul order="0x30" stat="mAtkSpd" val="1.12" />
+			<add order="0x40" stat="maxMp" val="257" />
+			<add order="0x40" stat="defenceUnholy" val="6" />
+			<add order="0x10" stat="openCloakSlot" val="1" />
+		</for>
+	</skill>
+	<skill id="3417" levels="1" name="Equipped with Shield">
+		<set name="name-ru" val="Экипировка со Щитом" />
+		<set name="icon" val="icon.shield_dynasty_shield_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="rShld" val="1.05" />
+		</for>
+	</skill>
+	<skill id="3418" levels="1" name="Active Skill: Transform Pig">
+		<set name="name-ru" val="Активное Умение: Превращение в Свинью" />
+		<!--	TODO: Сделать скилл	-->
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="transform"/>
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="600000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="3419" levels="1" name="Magic Immunity">
+		<set name="name-ru" val="Магический Иммунитет" />
+		<set name="icon" val="icon.etc_stripe_shirts_s_i05" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="3420" levels="1" name="Dynasty Leather Armor">
+		<set name="name-ru" val="Кожаный Доспех Династии" />
+		<set name="icon" val="icon.armor_t92_u_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<sub order="0x40" stat="STR" val="2" />
+			<add order="0x40" stat="CON" val="2" />
+			<mul order="0x30" stat="pAtkSpd" val="1.05" />
+			<mul order="0x30" stat="pAtk" val="1.05" />
+			<mul order="0x30" stat="pDef" val="1.05" />
+			<add order="0x40" stat="maxHp" val="492" />
+			<add order="0x40" stat="defenceUnholy" val="8" />
+			<add order="0x10" stat="openCloakSlot" val="1" />
+		</for>
+	</skill>
+	<skill id="3421" levels="1" name="Wolf Mount">
+		<set name="name-ru" val="Оседлать Волка" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0083" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="RIDE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="npcId" val="16041" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="3422" levels="1" name="Wolf Dismount">
+		<set name="name-ru" val="Спешиться с Волка" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0083" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="RIDE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="npcId" val="0" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="3423" levels="1" name="Little Angel Agathion - Summon (or Release)">
+		<set name="name-ru" val="Маленький Ангел Агатион - Призыв (или Освобождение)" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="5;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3424" levels="1" name="Little Devil Agathion - Summon (or Release)">
+		<set name="name-ru" val="Маленький Дьявол Агатион - Призыв (или Освобождение)" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="6;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3425" levels="1" name="Rudolph Agathion - Summon (or Release)">
+		<set name="name-ru" val="Рудольф Агатион - Призыв (или Освобождение)" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="7;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3426" levels="1" name="Maximum Ability">
+		<set name="name-ru" val="Предельный Навык" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_PARTY" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<triggers>
+			<trigger id="5547" level="1" type="CRIT" chance="5" />
+		</triggers>
+	</skill>
+	<skill id="3427" levels="1" name="Special Ability: Infinity Rapier">
+		<set name="name-ru" val="Особое Умение: Рапира Вечности" />
+		<set name="icon" val="icon.weapon_infinity_rapier_i00" />
+		<set name="magic_level" val="80" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<triggers>
+			<trigger id="5547" level="1" type="ATTACK" chance="5" />
+		</triggers>
+		<for>
+			<mul val="1.25" order="0x30" stat="maxHp" />
+			<mul val="1.30" order="0x30" stat="maxMp" />
+			<mul val="1.50" order="0x30" stat="maxCp" />
+			<add val="9" order="0x40" stat="reflectDam" />
+			<mul order="0x30" stat="pvpMagicSkillDmgBonus" val="1.1" />
+			<mul order="0x30" stat="pvpPhysSkillDmgBonus" val="1.1" />
+			<mul order="0x30" stat="pvpPhysDmgBonus" val="1.1" />
+		</for>
+	</skill>
+	<skill id="3428" levels="1" name="Blue Talisman - Explosion">
+		<set name="name-ru" val="Синий Талисман - Взрыв" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="reuse_delay" val="600000" />
+		<set name="magic_level" val="75" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="10416" />
+		<set name="referenceItemMpConsume" val="6" />
+		<for>
+			<effect count="1" name="Buff" time="10" stackOrder="1" stackType="talisman" val="0">
+				<mul order="0x30" stat="pAtk" val="1.2" />
+				<mul order="0x30" stat="pAtkSpd" val="1.1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3429" levels="1" name="Red Talisman - Life Force">
+		<set name="name-ru" val="Красный Талисман - Жизненная Сила" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i00" />
+		<set name="reuse_delay" val="1800000" />
+		<set name="magic_level" val="75" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="10518" />
+		<set name="referenceItemMpConsume" val="30" />
+		<for>
+			<effect count="1" name="HealPercent" time="0" val="100" applyOnSummon="false" />
+			<effect count="1" name="ManaHealPercent" time="0" val="100" applyOnSummon="false" />
+		</for>
+	</skill>
+	<skill id="3430" levels="1" name="White Talisman - Darkness">
+		<set name="name-ru" val="Белый Талисман - Тьма" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i06" />
+		<set name="reuse_delay" val="600000" />
+		<set name="magic_level" val="75" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="10419" />
+		<set name="referenceItemMpConsume" val="6" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="talisman" time="10" val="0">
+				<add order="0x40" stat="defenceUnholy" val="50" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3431" levels="1" name="White Talisman - Storm">
+		<set name="name-ru" val="Белый Талисман - Шторм" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i06" />
+		<set name="reuse_delay" val="600000" />
+		<set name="magic_level" val="75" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="10418" />
+		<set name="referenceItemMpConsume" val="6" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="talisman" time="10" val="0">
+				<add order="0x40" stat="defenceWind" val="50" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3432" levels="1" name="White Talisman - Water">
+		<set name="name-ru" val="Белый Талисман - Вода" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i06" />
+		<set name="reuse_delay" val="600000" />
+		<set name="magic_level" val="75" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="10420" />
+		<set name="referenceItemMpConsume" val="6" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="talisman" time="10" val="0">
+				<add order="0x40" stat="defenceWater" val="50" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3433" levels="1" name="White Talisman - Fire">
+		<set name="name-ru" val="Белый Талисман - Огонь" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i06" />
+		<set name="reuse_delay" val="600000" />
+		<set name="magic_level" val="75" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="10421" />
+		<set name="referenceItemMpConsume" val="6" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="talisman" time="10" val="0">
+				<add order="0x40" stat="defenceFire" val="50" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3434" levels="1" name="White Talisman - Earth">
+		<set name="name-ru" val="Белый Талисман - Земля" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i06" />
+		<set name="reuse_delay" val="600000" />
+		<set name="magic_level" val="75" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="10519" />
+		<set name="referenceItemMpConsume" val="10" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="talisman" time="10" val="0">
+				<add order="0x40" stat="defenceEarth" val="50" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3435" levels="1" name="White Talisman - Light">
+		<set name="name-ru" val="Белый Талисман - Свет" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i06" />
+		<set name="reuse_delay" val="600000" />
+		<set name="magic_level" val="75" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="10422" />
+		<set name="referenceItemMpConsume" val="6" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="talisman" time="10" val="0">
+				<add order="0x40" stat="defenceHoly" val="50" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3436" levels="1" name="Blue Talisman - Self destruction">
+		<set name="name-ru" val="Синий Талисман - Самоуничтожение" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="affect_limit" val="6;12" />
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="power" val="200" />
+		<set name="magic_level" val="75" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="hpConsume" val="800" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="referenceItemId" val="10423" />
+		<set name="referenceItemMpConsume" val="1" />
+	</skill>
+	<skill id="3437" levels="1" name="Blue Talisman - Magic Explosive Power">
+		<set name="name-ru" val="Синий Талисман - Магическая Взрывная Сила" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="reuse_delay" val="600000" />
+		<set name="magic_level" val="75" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="referenceItemId" val="10417" />
+		<set name="referenceItemMpConsume" val="6" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="talisman" time="10" val="0">
+				<mul order="0x30" stat="mAtk" val="1.55" />
+				<add order="0x40" stat="mCritRate" val="4" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3438" levels="1" name="Blue Talisman - Great Healing">
+		<set name="name-ru" val="Синий Талисман - Великое Исцеление" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="reuse_delay" val="600000" />
+		<set name="magic_level" val="75" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="referenceItemId" val="10424" />
+		<set name="referenceItemMpConsume" val="6" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="talisman" time="10" val="0">
+				<add order="0x40" stat="hpEff" val="1000" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3439" levels="1" name="Silk Shirt">
+		<set name="name-ru" val="Шелковая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="49" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="118" />
+		</for>
+	</skill>
+	<skill id="3440" levels="1" name="Silk Shirt">
+		<set name="name-ru" val="Шелковая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="49" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxMp" val="51" />
+		</for>
+	</skill>
+	<skill id="3441" levels="1" name="Silk Shirt">
+		<set name="name-ru" val="Шелковая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="49" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxCp" val="354" />
+		</for>
+	</skill>
+	<skill id="3442" levels="1" name="Silk Shirt">
+		<set name="name-ru" val="Шелковая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="49" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="118" />
+			<add order="0x60" stat="maxMp" val="51" />
+		</for>
+	</skill>
+	<skill id="3443" levels="1" name="Silk Shirt">
+		<set name="name-ru" val="Шелковая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="49" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="118" />
+			<add order="0x60" stat="maxCp" val="354" />
+		</for>
+	</skill>
+	<skill id="3444" levels="1" name="Silk Shirt">
+		<set name="name-ru" val="Шелковая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="49" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxMp" val="51" />
+			<add order="0x60" stat="maxCp" val="354" />
+		</for>
+	</skill>
+	<skill id="3445" levels="1" name="Thin Leather Shirt">
+		<set name="name-ru" val="Рубаха из Тонкой Кожи" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="58" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="147" />
+		</for>
+	</skill>
+	<skill id="3446" levels="1" name="Thin Leather Shirt">
+		<set name="name-ru" val="Рубаха из Тонкой Кожи" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="58" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxMp" val="72" />
+		</for>
+	</skill>
+	<skill id="3447" levels="1" name="Thin Leather Shirt">
+		<set name="name-ru" val="Рубаха из Тонкой Кожи" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="58" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxCp" val="441" />
+		</for>
+	</skill>
+	<skill id="3448" levels="1" name="Thin Leather Shirt">
+		<set name="name-ru" val="Рубаха из Тонкой Кожи" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="58" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="147" />
+			<add order="0x60" stat="maxMp" val="72" />
+		</for>
+	</skill>
+	<skill id="3449" levels="1" name="Thin Leather Shirt">
+		<set name="name-ru" val="Рубаха из Тонкой Кожи" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="58" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="147" />
+			<add order="0x60" stat="maxCp" val="441" />
+		</for>
+	</skill>
+	<skill id="3450" levels="1" name="Thin Leather Shirt">
+		<set name="name-ru" val="Рубаха из Тонкой Кожи" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="58" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxMp" val="72" />
+			<add order="0x60" stat="maxCp" val="441" />
+		</for>
+	</skill>
+	<skill id="3451" levels="1" name="Scale Shirt">
+		<set name="name-ru" val="Чешуйчатая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="64" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="172" />
+		</for>
+	</skill>
+	<skill id="3452" levels="1" name="Scale Shirt">
+		<set name="name-ru" val="Чешуйчатая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="64" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxMp" val="85" />
+		</for>
+	</skill>
+	<skill id="3453" levels="1" name="Scale Shirt">
+		<set name="name-ru" val="Чешуйчатая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="64" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxCp" val="516" />
+		</for>
+	</skill>
+	<skill id="3454" levels="1" name="Scale Shirt">
+		<set name="name-ru" val="Чешуйчатая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="64" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="172" />
+			<add order="0x60" stat="maxMp" val="85" />
+		</for>
+	</skill>
+	<skill id="3455" levels="1" name="Scale Shirt">
+		<set name="name-ru" val="Чешуйчатая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="64" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="172" />
+			<add order="0x60" stat="maxCp" val="515" />
+		</for>
+	</skill>
+	<skill id="3456" levels="1" name="Scale Shirt">
+		<set name="name-ru" val="Чешуйчатая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="64" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxMp" val="85" />
+			<add order="0x60" stat="maxCp" val="516" />
+		</for>
+	</skill>
+	<skill id="3457" levels="1" name="Mithril Shirt">
+		<set name="name-ru" val="Мифриловая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="75" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="224" />
+		</for>
+	</skill>
+	<skill id="3458" levels="1" name="Mithril Shirt">
+		<set name="name-ru" val="Мифриловая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="75" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxMp" val="111" />
+		</for>
+	</skill>
+	<skill id="3459" levels="1" name="Mithril Shirt">
+		<set name="name-ru" val="Мифриловая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="75" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxCp" val="672" />
+		</for>
+	</skill>
+	<skill id="3460" levels="1" name="Mithril Shirt">
+		<set name="name-ru" val="Мифриловая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="75" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="224" />
+			<add order="0x60" stat="maxMp" val="111" />
+		</for>
+	</skill>
+	<skill id="3461" levels="1" name="Mithril Shirt">
+		<set name="name-ru" val="Мифриловая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="75" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="224" />
+			<add order="0x60" stat="maxCp" val="672" />
+		</for>
+	</skill>
+	<skill id="3462" levels="1" name="Mithril Shirt">
+		<set name="name-ru" val="Мифриловая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="75" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxMp" val="111" />
+			<add order="0x60" stat="maxCp" val="672" />
+		</for>
+	</skill>
+	<skill id="3463" levels="1" name="Striped Silk Shirt">
+		<set name="name-ru" val="Полосатая Шелковая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="135" />
+		</for>
+	</skill>
+	<skill id="3464" levels="1" name="Striped Silk Shirt">
+		<set name="name-ru" val="Полосатая Шелковая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxMp" val="66" />
+		</for>
+	</skill>
+	<skill id="3465" levels="1" name="Striped Silk Shirt">
+		<set name="name-ru" val="Полосатая Шелковая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxCp" val="405" />
+		</for>
+	</skill>
+	<skill id="3466" levels="1" name="Striped Silk Shirt">
+		<set name="name-ru" val="Полосатая Шелковая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="135" />
+			<add order="0x60" stat="maxMp" val="66" />
+		</for>
+	</skill>
+	<skill id="3467" levels="1" name="Striped Silk Shirt">
+		<set name="name-ru" val="Полосатая Шелковая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="135" />
+			<add order="0x60" stat="maxCp" val="405" />
+		</for>
+	</skill>
+	<skill id="3468" levels="1" name="Striped Silk Shirt">
+		<set name="name-ru" val="Полосатая Шелковая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxMp" val="66" />
+			<add order="0x60" stat="maxCp" val="354" />
+		</for>
+	</skill>
+	<skill id="3469" levels="1" name="Thin Stripe Leather Shirt">
+		<set name="name-ru" val="Полосатая Рубаха из Тонкой Кожи" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="61" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="160" />
+		</for>
+	</skill>
+	<skill id="3470" levels="1" name="Thin Stripe Leather Shirt">
+		<set name="name-ru" val="Полосатая Рубаха из Тонкой Кожи" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="61" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxMp" val="78" />
+		</for>
+	</skill>
+	<skill id="3471" levels="1" name="Thin Stripe Leather Shirt">
+		<set name="name-ru" val="Полосатая Рубаха из Тонкой Кожи" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="61" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxCp" val="480" />
+		</for>
+	</skill>
+	<skill id="3472" levels="1" name="Thin Stripe Leather Shirt">
+		<set name="name-ru" val="Полосатая Рубаха из Тонкой Кожи" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="61" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="160" />
+			<add order="0x60" stat="maxMp" val="78" />
+		</for>
+	</skill>
+	<skill id="3473" levels="1" name="Thin Stripe Leather Shirt">
+		<set name="name-ru" val="Полосатая Рубаха из Тонкой Кожи" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="61" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="147" />
+			<add order="0x60" stat="maxCp" val="480" />
+		</for>
+	</skill>
+	<skill id="3474" levels="1" name="Thin Stripe Leather Shirt">
+		<set name="name-ru" val="Полосатая Рубаха из Тонкой Кожи" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="61" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxMp" val="78" />
+			<add order="0x60" stat="maxCp" val="480" />
+		</for>
+	</skill>
+	<skill id="3475" levels="1" name="Striped Scale Shirt">
+		<set name="name-ru" val="Полосатая Чешуйчатая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="67" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="186" />
+		</for>
+	</skill>
+	<skill id="3476" levels="1" name="Striped Scale Shirt">
+		<set name="name-ru" val="Полосатая Чешуйчатая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="67" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxMp" val="92" />
+		</for>
+	</skill>
+	<skill id="3477" levels="1" name="Striped Scale Shirt">
+		<set name="name-ru" val="Полосатая Чешуйчатая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="67" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxCp" val="564" />
+		</for>
+	</skill>
+	<skill id="3478" levels="1" name="Striped Scale Shirt">
+		<set name="name-ru" val="Полосатая Чешуйчатая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="67" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="186" />
+			<add order="0x60" stat="maxMp" val="92" />
+		</for>
+	</skill>
+	<skill id="3479" levels="1" name="Striped Scale Shirt">
+		<set name="name-ru" val="Полосатая Чешуйчатая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="67" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="186" />
+			<add order="0x60" stat="maxCp" val="564" />
+		</for>
+	</skill>
+	<skill id="3480" levels="1" name="Striped Scale Shirt">
+		<set name="name-ru" val="Полосатая Чешуйчатая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="67" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxMp" val="92" />
+			<add order="0x60" stat="maxCp" val="564" />
+		</for>
+	</skill>
+	<skill id="3481" levels="1" name="Striped Mithril Shirt">
+		<set name="name-ru" val="Полосатая Мифриловая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="80" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="246" />
+		</for>
+	</skill>
+	<skill id="3482" levels="1" name="Striped Mithril Shirt">
+		<set name="name-ru" val="Полосатая Мифриловая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="80" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxMp" val="122" />
+		</for>
+	</skill>
+	<skill id="3483" levels="1" name="Striped Mithril Shirt">
+		<set name="name-ru" val="Полосатая Мифриловая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="80" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxCp" val="744" />
+		</for>
+	</skill>
+	<skill id="3484" levels="1" name="Striped Mithril Shirt">
+		<set name="name-ru" val="Полосатая Мифриловая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="80" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="246" />
+			<add order="0x60" stat="maxMp" val="122" />
+		</for>
+	</skill>
+	<skill id="3485" levels="1" name="Striped Mithril Shirt">
+		<set name="name-ru" val="Полосатая Мифриловая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="80" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxHp" val="246" />
+			<add order="0x60" stat="maxCp" val="744" />
+		</for>
+	</skill>
+	<skill id="3486" levels="1" name="Striped Mithril Shirt">
+		<set name="name-ru" val="Полосатая Мифриловая Рубаха" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="80" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="maxMp" val="122" />
+			<add order="0x60" stat="maxCp" val="744" />
+		</for>
+	</skill>
+	<skill id="3487" levels="1" name="Blue Talisman of Power">
+		<set name="name-ru" val="Синий Талисман Силы" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="reuse_delay" val="360000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="10533" />
+		<set name="referenceItemMpConsume" val="6" />
+		<for>
+			<effect count="1" name="Buff" time="120" stackType="talisman" val="0">
+				<add order="0x60" stat="pAtk" val="100" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3488" levels="1" name="Blue Talisman of Protection">
+		<set name="name-ru" val="Синий Талисман Защиты" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="reuse_delay" val="360000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="10534" />
+		<set name="referenceItemMpConsume" val="6" />
+		<for>
+			<effect count="1" name="Buff" time="120" stackOrder="1" stackType="talisman" val="0">
+				<add order="0x60" stat="sDef" val="100" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3489" levels="1" name="Yellow Talisman of Arcane Power">
+		<set name="name-ru" val="Желтый Талисман Мистической Силы" />
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="mAtk" val="12" />
+		</for>
+	</skill>
+	<skill id="3490" levels="1" name="Yellow Talisman of Defense">
+		<set name="name-ru" val="Желтый Талисман Обороны" />
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="pDef" val="19" />
+		</for>
+	</skill>
+	<skill id="3491" levels="1" name="Yellow Talisman of Evasion">
+		<set name="name-ru" val="Желтый Талисман Уклонения" />
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="rEvas" val="1" />
+		</for>
+	</skill>
+	<skill id="3492" levels="1" name="Yellow Talisman of Speed">
+		<set name="name-ru" val="Желтый Талисман Скорости" />
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="runSpd" val="3" />
+		</for>
+	</skill>
+	<skill id="3493" levels="1" name="Yellow Talisman of Regeneration">
+		<set name="name-ru" val="Желтый Талисман Регенерации" />
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="regHp" val="3" />
+		</for>
+	</skill>
+	<skill id="3494" levels="1" name="Yellow Talisman of CP Regeneration">
+		<set name="name-ru" val="Желтый Талисман Регенерации CP" />
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="regCp" val="3" />
+		</for>
+	</skill>
+	<skill id="3495" levels="1" name="Yellow Talisman of Healing">
+		<set name="name-ru" val="Желтый Талисман Исцеления" />
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="healPower" val="30" />
+		</for>
+	</skill>
+	<skill id="3496" levels="1" name="Red Talisman of Recovery">
+		<set name="name-ru" val="Красный Талисман Восстановления" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i00" />
+		<set name="reuse_delay" val="300000" />
+		<set name="power" val="100" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="COMBATPOINTHEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="10542" />
+		<set name="referenceItemMpConsume" val="5" />
+		<for>
+			<effect count="1" name="Heal" time="0" val="100" />
+		</for>
+	</skill>
+	<skill id="3497" levels="1" name="Yellow Talisman of MP Regeneration">
+		<set name="name-ru" val="Желтый Талисман Регенерации MP" />
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="regMp" val="1" />
+		</for>
+	</skill>
+	<skill id="3498" levels="1" name="Special Ability Light">
+		<set name="name-ru" val="Особое Умение Света" />
+		<set name="icon" val="icon.skill0150" />
+		<set name="magic_level" val="46" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="maxLoad" val="1.2" />
+		</for>
+	</skill>
+	<skill id="3499" levels="1" name="Transform Dispel">
+		<set name="name-ru" val="Отмена Превращения" />
+		<set name="icon" val="icon.skilltransform2" />
+		<set name="magic_level" val="56" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+</list>

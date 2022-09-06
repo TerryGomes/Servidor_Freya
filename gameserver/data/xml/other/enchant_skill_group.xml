@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<enchantGroup name="secondBuffs">
+		<enchant level="1" adena="74250" sp="575980" success_rate="82,92,97,97,97,97,97,97,97,97" />
+		<enchant level="2" adena="74250" sp="575980" success_rate="80,90,95,95,95,95,95,95,95,95" />
+		<enchant level="3" adena="74250" sp="575980" success_rate="78,88,93,93,93,93,93,93,93,93" />
+		<enchant level="4" adena="112050" sp="604535" success_rate="52,76,86,91,91,91,91,91,91,91" />
+		<enchant level="5" adena="112050" sp="604535" success_rate="50,74,84,89,89,89,89,89,89,89" />
+		<enchant level="6" adena="112050" sp="604535" success_rate="48,72,82,87,87,87,87,87,87,87" />
+		<enchant level="7" adena="150300" sp="634020" success_rate="36,46,70,80,85,85,85,85,85,85" />
+		<enchant level="8" adena="150300" sp="634020" success_rate="34,44,68,78,83,83,83,83,83,83" />
+		<enchant level="9" adena="150300" sp="634020" success_rate="32,42,66,76,81,81,81,81,81,81" />
+		<enchant level="10" adena="189000" sp="680020" success_rate="20,30,40,64,74,79,79,79,79,79" />
+		<enchant level="11" adena="189000" sp="680020" success_rate="18,28,38,62,72,77,77,77,77,77" />
+		<enchant level="12" adena="189000" sp="680020" success_rate="16,26,36,60,70,75,75,75,75,75" />
+		<enchant level="13" adena="228150" sp="711890" success_rate="4,14,24,34,58,68,73,73,73,73" />
+		<enchant level="14" adena="228150" sp="711890" success_rate="2,12,22,32,56,66,71,71,71,71" />
+		<enchant level="15" adena="228150" sp="711890" success_rate="1,10,20,30,54,64,69,69,69,69" />
+		<enchant level="16" adena="267750" sp="761540" success_rate="1,1,8,18,28,52,62,67,67,67" />
+		<enchant level="17" adena="267750" sp="761540" success_rate="1,1,6,16,26,50,60,65,65,65" />
+		<enchant level="18" adena="267750" sp="761540" success_rate="1,1,4,14,24,48,58,63,63,63" />
+		<enchant level="19" adena="307800" sp="795890" success_rate="1,1,1,2,12,22,46,56,61,61" />
+		<enchant level="20" adena="307800" sp="795890" success_rate="1,1,1,1,10,20,44,54,59,59" />
+		<enchant level="21" adena="307800" sp="795890" success_rate="1,1,1,1,8,18,42,52,57,57" />
+		<enchant level="22" adena="348300" sp="849330" success_rate="1,1,1,1,1,6,16,40,50,55" />
+		<enchant level="23" adena="348300" sp="849330" success_rate="1,1,1,1,1,4,14,38,48,53" />
+		<enchant level="24" adena="348300" sp="849330" success_rate="1,1,1,1,1,2,12,36,46,46" />
+		<enchant level="25" adena="389250" sp="886255" success_rate="1,1,1,1,1,1,1,10,34,44" />
+		<enchant level="26" adena="389250" sp="886255" success_rate="1,1,1,1,1,1,1,8,32,42" />
+		<enchant level="27" adena="389250" sp="886255" success_rate="1,1,1,1,1,1,1,6,30,40" />
+		<enchant level="28" adena="430650" sp="943620" success_rate="1,1,1,1,1,1,1,1,4,28" />
+		<enchant level="29" adena="430650" sp="943620" success_rate="1,1,1,1,1,1,1,1,2,26" />
+		<enchant level="30" adena="430650" sp="943620" success_rate="1,1,1,1,1,1,1,1,1,24" />
+	</enchantGroup>
+	<enchantGroup name="secondAttack">
+		<enchant level="1" adena="133650" sp="1036764" success_rate="82,92,97,97,97,97,97,97,97,97" />
+		<enchant level="2" adena="133650" sp="1036764" success_rate="80,90,95,95,95,95,95,95,95,95" />
+		<enchant level="3" adena="133650" sp="1036764" success_rate="78,88,93,93,93,93,93,93,93,93" />
+		<enchant level="4" adena="201690" sp="1088163" success_rate="52,76,86,91,91,91,91,91,91,91" />
+		<enchant level="5" adena="201690" sp="1088163" success_rate="50,74,84,89,89,89,89,89,89,89" />
+		<enchant level="6" adena="201690" sp="1088163" success_rate="48,72,82,87,87,87,87,87,87,87" />
+		<enchant level="7" adena="270540" sp="1141236" success_rate="36,46,70,80,85,85,85,85,85,85" />
+		<enchant level="8" adena="270540" sp="1141236" success_rate="34,44,68,78,83,83,83,83,83,83" />
+		<enchant level="9" adena="270540" sp="1141236" success_rate="32,42,66,76,81,81,81,81,81,81" />
+		<enchant level="10" adena="340200" sp="1224036" success_rate="20,30,40,64,74,79,79,79,79,79" />
+		<enchant level="11" adena="340200" sp="1224036" success_rate="18,28,38,62,72,77,77,77,77,77" />
+		<enchant level="12" adena="340200" sp="1224036" success_rate="16,26,36,60,70,75,75,75,75,75" />
+		<enchant level="13" adena="410670" sp="1281402" success_rate="4,14,24,34,58,68,73,73,73,73" />
+		<enchant level="14" adena="410670" sp="1281402" success_rate="2,12,22,32,56,66,71,71,71,71" />
+		<enchant level="15" adena="410670" sp="1281402" success_rate="1,10,20,30,54,64,69,69,69,69" />
+		<enchant level="16" adena="481950" sp="1370772" success_rate="1,1,8,18,28,52,62,67,67,67" />
+		<enchant level="17" adena="481950" sp="1370772" success_rate="1,1,6,16,26,50,60,65,65,65" />
+		<enchant level="18" adena="481950" sp="1370772" success_rate="1,1,4,14,24,48,58,63,63,63" />
+		<enchant level="19" adena="554040" sp="1432602" success_rate="1,1,1,2,12,22,46,56,61,61" />
+		<enchant level="20" adena="554040" sp="1432602" success_rate="1,1,1,1,10,20,44,54,59,59" />
+		<enchant level="21" adena="554040" sp="1432602" success_rate="1,1,1,1,8,18,42,52,57,57" />
+		<enchant level="22" adena="626940" sp="1528794" success_rate="1,1,1,1,1,6,16,40,50,55" />
+		<enchant level="23" adena="626940" sp="1528794" success_rate="1,1,1,1,1,4,14,38,48,53" />
+		<enchant level="24" adena="626940" sp="1528794" success_rate="1,1,1,1,1,2,12,36,46,46" />
+		<enchant level="25" adena="700650" sp="1595259" success_rate="1,1,1,1,1,1,1,10,34,44" />
+		<enchant level="26" adena="700650" sp="1595259" success_rate="1,1,1,1,1,1,1,8,32,42" />
+		<enchant level="27" adena="700650" sp="1595259" success_rate="1,1,1,1,1,1,1,6,30,40" />
+		<enchant level="28" adena="775170" sp="1698516" success_rate="1,1,1,1,1,1,1,1,4,28" />
+		<enchant level="29" adena="775170" sp="1698516" success_rate="1,1,1,1,1,1,1,1,2,26" />
+		<enchant level="30" adena="775170" sp="1698516" success_rate="1,1,1,1,1,1,1,1,1,24" />
+	</enchantGroup>
+	<enchantGroup name="thirdBuffs">
+		<enchant level="1" adena="481950" sp="1370772" success_rate="18,28,38,48,58,82,92,97,97,97" />
+		<enchant level="2" adena="481950" sp="1370772" success_rate="16,26,36,46,56,80,90,95,95,95" />
+		<enchant level="3" adena="481950" sp="1370772" success_rate="14,24,34,44,54,78,88,93,93,93" />
+		<enchant level="4" adena="554040" sp="1432602" success_rate="2,12,22,32,42,52,76,86,91,91" />
+		<enchant level="5" adena="554040" sp="1432602" success_rate="1,10,20,30,40,50,74,84,89,89" />
+		<enchant level="6" adena="554040" sp="1432602" success_rate="1,8,18,28,38,48,72,82,87,87" />
+		<enchant level="7" adena="626940" sp="1528794" success_rate="1,1,6,16,26,36,46,70,80,85" />
+		<enchant level="8" adena="626940" sp="1528794" success_rate="1,1,4,14,24,34,44,68,78,83" />
+		<enchant level="9" adena="626940" sp="1528794" success_rate="1,1,2,12,22,32,42,66,76,81" />
+		<enchant level="10" adena="700650" sp="1595259" success_rate="1,1,1,1,10,20,30,40,64,74" />
+		<enchant level="11" adena="700650" sp="1595259" success_rate="1,1,1,1,8,18,28,38,62,72" />
+		<enchant level="12" adena="700650" sp="1595259" success_rate="1,1,1,1,6,16,26,36,60,70" />
+		<enchant level="13" adena="775170" sp="1698516" success_rate="1,1,1,1,1,4,14,24,34,58" />
+		<enchant level="14" adena="775170" sp="1698516" success_rate="1,1,1,1,1,2,12,22,32,56" />
+		<enchant level="15" adena="775170" sp="1698516" success_rate="1,1,1,1,1,1,10,20,30,54" />
+	</enchantGroup>
+	<enchantGroup name="thirdAttack">
+		<enchant level="1" adena="481950" sp="1370772" success_rate="18,28,38,48,58,82,92,97,97,97" />
+		<enchant level="2" adena="481950" sp="1370772" success_rate="16,26,36,46,56,80,90,95,95,95" />
+		<enchant level="3" adena="481950" sp="1370772" success_rate="14,24,34,44,54,78,88,93,93,93" />
+		<enchant level="4" adena="554040" sp="1432602" success_rate="2,12,22,32,42,52,76,86,91,91" />
+		<enchant level="5" adena="554040" sp="1432602" success_rate="1,10,20,30,40,50,74,84,89,89" />
+		<enchant level="6" adena="554040" sp="1432602" success_rate="1,8,18,28,38,48,72,82,87,87" />
+		<enchant level="7" adena="626940" sp="1528794" success_rate="1,1,6,16,26,36,46,70,80,85" />
+		<enchant level="8" adena="626940" sp="1528794" success_rate="1,1,4,14,24,34,44,68,78,83" />
+		<enchant level="9" adena="626940" sp="1528794" success_rate="1,1,2,12,22,32,42,66,76,81" />
+		<enchant level="10" adena="700650" sp="1595259" success_rate="1,1,1,1,10,20,30,40,64,74" />
+		<enchant level="11" adena="700650" sp="1595259" success_rate="1,1,1,1,8,18,28,38,62,72" />
+		<enchant level="12" adena="700650" sp="1595259" success_rate="1,1,1,1,6,16,26,36,60,70" />
+		<enchant level="13" adena="775170" sp="1698516" success_rate="1,1,1,1,1,4,14,24,34,58" />
+		<enchant level="14" adena="775170" sp="1698516" success_rate="1,1,1,1,1,2,12,22,32,56" />
+		<enchant level="15" adena="775170" sp="1698516" success_rate="1,1,1,1,1,1,10,20,30,54" />
+	</enchantGroup>
+</list>

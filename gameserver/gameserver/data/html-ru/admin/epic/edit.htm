@@ -1,0 +1,218 @@
+<html>
+<head>
+<body scroll="no">
+	<title>Epic: <?name?></title>
+	<table border=0 cellpadding=0 cellspacing=0 width=292 height=358
+		background="l2ui_ct1.Windows_DF_TooltipBG">
+		<tr>
+			<td valign="top">
+				<table width=290 height=330>
+					<tr>
+						<td valign="top" align="center"><br>
+							<table width=270 height=100>
+								<tr>
+									<td width=270 height=52 align=center valign=top>
+										<table border=0 width=277 height=48 cellspacing=1
+											cellpadding=0 background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
+											<tr>
+												<td valign=top align=center>
+													<table width=277 height=26 cellspacing=1 cellpadding=1
+														bgcolor=111111>
+														<tr>
+															<td width=281 align=center valign=center><font
+																color=FF6600>Epic Boss Respawn panel</font></td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td valign=top align=center>
+													<table width=279 height=20 cellspacing=1 cellpadding=1
+														bgcolor=444444>
+														<tr>
+															<td valign="top" align="center" width=26>
+																<table border=0 width=270>
+																	<tr>
+																		<td width=140 align=center valign=center>
+																			*Current Status*</td>
+																		<td width=140 align=center valign=center>
+																			*Respawn Date*</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td width=270 height=28 align=center valign=top>
+										<table border=0 width=277 height=24 cellspacing=1
+											cellpadding=0 background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
+											<tr>
+												<td valign=top align=center>
+													<table width=279 height=22 cellspacing=1 cellpadding=1
+														bgcolor=444444>
+														<tr>
+															<td valign="top" align="center" width=26>
+																<table border=0 width=270>
+																	<tr>
+																		<td width=140 align=center valign=center>
+																			<?state?>
+																		</td>
+																		<td width=140 align=center valign=center>
+																			<?resp?>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td width=270 height=84 align=center valign=top>
+										<table border=0 width=277 height=77 cellspacing=1
+											cellpadding=0 background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
+											<tr>
+												<td valign=top align=center>
+													<table width=277 height=26 cellspacing=1 cellpadding=1
+														bgcolor=111111>
+														<tr>
+															<td width=281 align=center valign=center><font
+																color=FF6600>Edit Respawn Time</font></td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td valign=top align=center>
+													<table width=279 height=26 cellspacing=1 cellpadding=1
+														bgcolor=666666>
+														<tr>
+															<td valign="top" align="center" width=26>
+																<table border=0 width=270>
+																	<tr>
+																		<td width=54 align=center valign=center>Hour</td>
+																		<td width=54 align=center valign=center>Minute</td>
+																		<td width=54 align=center valign=center>Day</td>
+																		<td width=54 align=center valign=center>Month</td>
+																		<td width=56 align=center valign=center>Year</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td valign=top align=center>
+													<table width=279 height=26 cellspacing=1 cellpadding=1
+														bgcolor=444444>
+														<tr>
+															<td valign="top" align="center" width=26>
+																<table border=0 width=270>
+																	<tr>
+																		<td width=54 align=center valign=center><edit
+																				var="hour" height=11 width=40></td>
+																		<td width=54 align=center valign=center><edit
+																				var="minute" height=11 width=40></td>
+																		<td width=54 align=center valign=center><edit
+																				var="day" height=11 width=40></td>
+																		<td width=54 align=center valign=center><edit
+																				var="month" height=11 width=40></td>
+																		<td width=56 align=center valign=center><edit
+																				var="year" height=11 width=50></td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td width=270 height=40 align=center valign=top>
+										<table border=0 width=281 height=32 cellspacing=0
+											cellpadding=0>
+											<tr>
+												<td width=274 height=30 align=center valign=top>
+													<table width=270 height=28
+														background="l2ui_ct1.Windows_DF_TooltipBG">
+														<tr>
+															<td width=268 height=26 align=center valign=top>
+																<button value="Update '<?name?>' Respawn Time"
+																	action="bypass -h admin_epic_edit <?id?> $hour $minute $day $month $year"
+																	width=266 height=24
+																	back="L2UI_CT1.ListCTRL_DF_Title_Down"
+																	fore="L2UI_CT1.ListCTRL_DF_Title">
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td width=270 height=52 align=center valign=top>
+										<table border=0 width=281 height=32 cellspacing=0
+											cellpadding=0>
+											<tr>
+												<td width=134 height=30 align=center valign=top>
+													<table width=130 height=28
+														background="l2ui_ct1.Windows_DF_TooltipBG">
+														<tr>
+															<td width=128 height=26 align=center valign=top>
+																<button value="Epic List" action="bypass -h admin_epic"
+																	width=126 height=24
+																	back="L2UI_CT1.ListCTRL_DF_Title_Down"
+																	fore="L2UI_CT1.ListCTRL_DF_Title">
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td width=134 height=30 align=center valign=top>
+													<table width=130 height=28
+														background="l2ui_ct1.Windows_DF_TooltipBG">
+														<tr>
+															<td width=128 height=26 align=center valign=top>
+																<button value="Refresh"
+																	action="bypass -h admin_epic <?id?>" width=126
+																	height=24 back="L2UI_CT1.ListCTRL_DF_Title_Down"
+																	fore="L2UI_CT1.ListCTRL_DF_Title">
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td width=270 height=52 align=center valign=top>
+										<table border=0 width=270>
+											<tr>
+												<td width=35 align=left valign=top><br> *NOTE:*</td>
+												<td width=235 align=left valign=top><br> If you
+													leave the fields blank, it means that%% the epic will be
+													resurected!</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

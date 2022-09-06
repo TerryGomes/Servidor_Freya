@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<etcitem id="12400" name="Foundation Kaim Vanul's Bones">
+		<set name="name-ru" value="Редкие Кости Каим Ванула"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_bone_of_kaim_vanul_i00"/>
+		<set name="price" value="10091400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1570"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12401" name="Foundation Colichemarde">
+		<set name="name-ru" value="Редкий Колишмард"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_colichemarde_i00"/>
+		<set name="price" value="10091400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1350"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12402" name="Foundation Wizard's Tear">
+		<set name="name-ru" value="Редкие Слезы Чародея"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_tears_of_wizard_i00"/>
+		<set name="price" value="10091400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1350"/>
+		<set name="material_type" value="ORIHARUKON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12403" name="Foundation Bow of Peril">
+		<set name="name-ru" value="Редкий Лук Угрозы"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_hazard_bow_i00"/>
+		<set name="price" value="10091400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1700"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12404" name="Foundation Hell Hound">
+		<set name="name-ru" value="Редкий Цербер"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_hell_hound_i00"/>
+		<set name="price" value="10091400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1700"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12405" name="Foundation Dasparion's Staff">
+		<set name="name-ru" value="Редкий Посох Даспариона"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dasparions_staff_i00"/>
+		<set name="price" value="14098000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="920"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12406" name="Foundation Doomchanter">
+		<set name="name-ru" value="Редкий Певец Судьбы"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_doom_singer_i00"/>
+		<set name="price" value="14098000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1670"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12407" name="Foundation White Lightning">
+		<set name="name-ru" value="Редкая Белая Молния"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_lightning_blaze_i00"/>
+		<set name="price" value="14098000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1330"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12408" name="Foundation Meteor Shower">
+		<set name="name-ru" value="Редкий Метеоритный Дождь"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_meteor_shower_i00"/>
+		<set name="price" value="14098000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1600"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12409" name="Foundation Blood Tornado">
+		<set name="name-ru" value="Редкое Кровавое Торнадо"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_blood_tornado_i00"/>
+		<set name="price" value="14098000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1370"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12410" name="Foundation Bloody Orchid">
+		<set name="name-ru" value="Редкая Кровавая Орхидея"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_bloody_orchid_i00"/>
+		<set name="price" value="14098000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="960"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12411" name="Foundation Elemental Sword">
+		<set name="name-ru" value="Редкий Меч Стихий"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_elemental_sword_i00"/>
+		<set name="price" value="14098000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="830"/>
+		<set name="material_type" value="MITHRIL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12412" name="Foundation Spiritual Eye">
+		<set name="name-ru" value="Редкий Глаз Духа"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_eye_of_soul_i00"/>
+		<set name="price" value="14098000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1550"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12413" name="Foundation Infernal Master">
+		<set name="name-ru" value="Редкий Мастер Инферно"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_inferno_master_i00"/>
+		<set name="price" value="14098000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1900"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12414" name="Foundation Carnage Bow">
+		<set name="name-ru" value="Редкий Кровавый Лук"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_carnium_bow_i00"/>
+		<set name="price" value="14098000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1670"/>
+		<set name="material_type" value="DAMASCUS"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12415" name="Foundation Tallum Blade">
+		<set name="name-ru" value="Редкий Клинок Таллума"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_tallum_blade_i00"/>
+		<set name="price" value="14098000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1330"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12416" name="Foundation Destroyer Hammer">
+		<set name="name-ru" value="Редкий Молот Разрушителя"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_hammer_of_destroyer_i00"/>
+		<set name="price" value="14098000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1910"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12417" name="Foundation Divine Pain">
+		<set name="name-ru" value="Редкая Священная Боль"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_pain_of_godness_i00"/>
+		<set name="price" value="14098000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1900"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12418" name="Foundation Halberd">
+		<set name="name-ru" value="Редкая Алебарда"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_halbard_i00"/>
+		<set name="price" value="14098000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1900"/>
+		<set name="material_type" value="ORIHARUKON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12419" name="Foundation Lacerator">
+		<set name="name-ru" value="Редкий Протыкатель"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_greed_stinger_i00"/>
+		<set name="price" value="20741000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1320"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12420" name="Foundation Dark Legion">
+		<set name="name-ru" value="Редкий Темный Легион"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dark_legions_edge_i00"/>
+		<set name="price" value="20741000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1320"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12421" name="Foundation Undertaker">
+		<set name="name-ru" value="Редкий Гробовщик"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_death_bringer_i00"/>
+		<set name="price" value="20741000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1840"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12422" name="Foundation Doom Crusher">
+		<set name="name-ru" value="Редкий Крушитель Рока"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_doom_crusher_i00"/>
+		<set name="price" value="20741000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1900"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12423" name="Foundation Dragon Grinder">
+		<set name="name-ru" value="Редкая Погибель Дракона"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dragon_grinder_i00"/>
+		<set name="price" value="20741000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1350"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12424" name="Foundation Dragon Slayer">
+		<set name="name-ru" value="Редкий Убийца Драконов"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dragon_slayer_i00"/>
+		<set name="price" value="20741000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1840"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12425" name="Foundation Flaming Dragon Skull">
+		<set name="name-ru" value="Редкий Пылающий Череп Дракона"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dragon_flame_head_i00"/>
+		<set name="price" value="20741000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1530"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12426" name="Foundation Branch of the Mother Tree">
+		<set name="name-ru" value="Редкая Ветвь Древа Жизни"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_worldtrees_branch_i00"/>
+		<set name="price" value="20741000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="900"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12427" name="Foundation Sword of Miracles">
+		<set name="name-ru" value="Редкий Легендарный Меч"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_sword_of_miracle_i00"/>
+		<set name="price" value="20741000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="840"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12428" name="Foundation Reaper">
+		<set name="name-ru" value="Редкий Жнец"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_soul_shooter_i00"/>
+		<set name="price" value="20741000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1660"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12429" name="Foundation Soul Separator">
+		<set name="name-ru" value="Редкий Душегуб"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_soul_separator_i00"/>
+		<set name="price" value="20741000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="950"/>
+		<set name="material_type" value="ORIHARUKON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12430" name="Foundation Elysian">
+		<set name="name-ru" value="Редкий Элизиум"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_elysian_i00"/>
+		<set name="price" value="20741000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1580"/>
+		<set name="material_type" value="ORIHARUKON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12431" name="Foundation Soul Bow">
+		<set name="name-ru" value="Редкий Пронзатель Душ"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_soul_bow_i00"/>
+		<set name="price" value="20741000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1660"/>
+		<set name="material_type" value="ORIHARUKON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12432" name="Foundation Tallum Glaive">
+		<set name="name-ru" value="Редкая Глефа Таллума"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_tallum_glaive_i00"/>
+		<set name="price" value="20741000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1840"/>
+		<set name="material_type" value="CHRYSOLITE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12433" name="Foundation Naga Storm">
+		<set name="name-ru" value="Редкая Буря Наги"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_naga_storm_i00"/>
+		<set name="price" value="26968400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="930"/>
+		<set name="material_type" value="ORIHARUKON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12434" name="Foundation Daimon Crystal">
+		<set name="name-ru" value="Редкий Кристалл Дэймона"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_crystal_of_deamon_i00"/>
+		<set name="price" value="26968400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="880"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12435" name="Foundation Barakiel's Axe">
+		<set name="name-ru" value="Редкий Топор Баракиэля"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_barakiel_axe_i00"/>
+		<set name="price" value="26968400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1550"/>
+		<set name="material_type" value="ORIHARUKON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12436" name="Foundation Screaming Vengeance">
+		<set name="name-ru" value="Редкая Песня Мести"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_soul_shooter_i00"/>
+		<set name="price" value="26968400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1640"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12437" name="Foundation Behemoth's Tuning Fork">
+		<set name="name-ru" value="Редкий Трезубец Чудовища"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_tuning_fork_of_behemoth_i00"/>
+		<set name="price" value="26968400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1890"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12438" name="Foundation Durendal">
+		<set name="name-ru" value="Редкий Дюрандаль"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_death_bringer_i00"/>
+		<set name="price" value="26968400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1820"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12439" name="Foundation Shyeed's Bow">
+		<set name="name-ru" value="Редкий Лук Шиид"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_shyid_bow_i00"/>
+		<set name="price" value="26968400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1640"/>
+		<set name="material_type" value="ORIHARUKON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12440" name="Foundation Sword of Ipos">
+		<set name="name-ru" value="Редкий Меч Ипоса"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_sword_of_ipos_i00"/>
+		<set name="price" value="26968400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1820"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12441" name="Foundation Sobekk's Hurricane">
+		<set name="name-ru" value="Редкий Ураган Собекка"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_sobekk_hurricane_i00"/>
+		<set name="price" value="26968400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1330"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12442" name="Foundation Sirra's Blade">
+		<set name="name-ru" value="Редкий Клинок Сирры"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_sirr_blade_i00"/>
+		<set name="price" value="26968400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1300"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12443" name="Foundation Eclair Bijou">
+		<set name="name-ru" value="Редкая Гравированная Рапира"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_greed_stinger_i00"/>
+		<set name="price" value="26968400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1300"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12444" name="Foundation Tiphon's Spear">
+		<set name="name-ru" value="Редкое Копье Тифона"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_tiphon_spear_i00"/>
+		<set name="price" value="26968400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1820"/>
+		<set name="material_type" value="CHRYSOLITE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12445" name="Foundation Themis' Tongue">
+		<set name="name-ru" value="Редкий Язык Темиса"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_tongue_of_themis_i00"/>
+		<set name="price" value="26968400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="820"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12446" name="Foundation Cabrio's Hand">
+		<set name="name-ru" value="Редкая Рука Кабрио"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_hand_of_cabrio_i00"/>
+		<set name="price" value="26968400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1510"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12447" name="Foundation Gram">
+		<set name="name-ru" value="Редкий Грам"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_gram_i00"/>
+		<set name="price" value="42759400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1800"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12448" name="Foundation Demon Splinter">
+		<set name="name-ru" value="Редкий Демон Одиночка"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_demon_splinter_i00"/>
+		<set name="price" value="42759400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1350"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12449" name="Foundation Draconic Bow">
+		<set name="name-ru" value="Редкий Лук Драконов"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_draconic_bow_i00"/>
+		<set name="price" value="42759400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1650"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12450" name="Foundation Dragon Hunter Axe">
+		<set name="name-ru" value="Редкий Топор Охотника на Драконов"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dragon_hunter_axe_i00"/>
+		<set name="price" value="42759400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1820"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12451" name="Foundation Laevateinn">
+		<set name="name-ru" value="Редкий Леветайн"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_leavatein_i00"/>
+		<set name="price" value="42759400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1300"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12452" name="Foundation Basalt Battlehammer">
+		<set name="name-ru" value="Редкий Базальтовый Боевой Молот"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_basalt_battlehammer_i00"/>
+		<set name="price" value="42759400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1570"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12453" name="Foundation Sarnga">
+		<set name="name-ru" value="Редкая Шарнга"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_sarnga_i00"/>
+		<set name="price" value="42759400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1600"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12454" name="Foundation Saint Spear">
+		<set name="name-ru" value="Редкое Святое Копье"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_saint_spear_i00"/>
+		<set name="price" value="42759400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1800"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12455" name="Foundation Arcana Mace">
+		<set name="name-ru" value="Редкий Посох Тайн"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_arcana_mace_i00"/>
+		<set name="price" value="42759400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1300"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12456" name="Foundation Angel Slayer">
+		<set name="name-ru" value="Редкий Убийца Ангелов"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_angel_slayer_i00"/>
+		<set name="price" value="42759400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="950"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12457" name="Foundation Imperial Staff">
+		<set name="name-ru" value="Редкий Имперский Посох"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_imperial_staff_i00"/>
+		<set name="price" value="42759400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="910"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12458" name="Foundation Forgotten Blade">
+		<set name="name-ru" value="Редкий Забытый Клинок"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_forgotten_blade_i00"/>
+		<set name="price" value="42759400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1300"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12459" name="Foundation Heaven's Divider">
+		<set name="name-ru" value="Редкий Разделитель Небес"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_heavens_divider_i00"/>
+		<set name="price" value="42759400"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1380"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12460" name="Foundation Dynasty Ancient Sword">
+		<set name="name-ru" value="Редкий Древний Меч Династии"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dynasty_ancient_sword_i00"/>
+		<set name="price" value="74946000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1800"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12461" name="Foundation Dynasty Knife">
+		<set name="name-ru" value="Редкий Нож Династии"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dynasty_dagger_i00"/>
+		<set name="price" value="74946000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1520"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12462" name="Foundation Dynasty Rapier">
+		<set name="name-ru" value="Редкая Рапира Династии"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dynasty_rapier_i00"/>
+		<set name="price" value="74946000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1280"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12463" name="Foundation Dynasty Mace">
+		<set name="name-ru" value="Редкая Булава Династии"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dynasty_staff_i00"/>
+		<set name="price" value="74946000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1080"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12464" name="Foundation Dynasty Bagh-Nakh">
+		<set name="name-ru" value="Редкий Коготь Тигра Династии"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dynasty_jamadhr_i00"/>
+		<set name="price" value="74946000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1550"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12465" name="Foundation Dynasty Bow">
+		<set name="name-ru" value="Редкий Лук Династии"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dynasty_bow_i00"/>
+		<set name="price" value="74946000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1520"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12466" name="Foundation Dynasty Blade">
+		<set name="name-ru" value="Редкий Клинок Династии"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dynasty_twohand_sword_i00"/>
+		<set name="price" value="74946000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1740"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12467" name="Foundation Dynasty Sword">
+		<set name="name-ru" value="Редкий Меч Династии"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dynasty_blade_i00"/>
+		<set name="price" value="74946000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1520"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12468" name="Foundation Dynasty Staff">
+		<set name="name-ru" value="Редкий Посох Династии"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dynasty_twohand_staff_i00"/>
+		<set name="price" value="74946000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1080"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12469" name="Foundation Dynasty Cudgel">
+		<set name="name-ru" value="Редкая Дубина Династии"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dynasty_hammer_i00"/>
+		<set name="price" value="74946000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1740"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12470" name="Foundation Dynasty Crusher">
+		<set name="name-ru" value="Редкий Крушитель Династии"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dynasty_crusher_i00"/>
+		<set name="price" value="74946000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1740"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12471" name="Foundation Dynasty Crossbow">
+		<set name="name-ru" value="Редкий Арбалет Династии"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dynasty_crossbow_i00"/>
+		<set name="price" value="74946000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1580"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12472" name="Foundation Dynasty Phantom">
+		<set name="name-ru" value="Редкий Фантом Династии"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dynasty_magic_sword_i00"/>
+		<set name="price" value="74946000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1520"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12473" name="Foundation Dynasty Halberd">
+		<set name="name-ru" value="Редкая Алебарда Династии"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dynasty_spear_i00"/>
+		<set name="price" value="74946000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="2010"/>
+		<set name="material_type" value="BRONZE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12474" name="Foundation Icarus Disperser">
+		<set name="name-ru" value="Редкий Распылитель Икара"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_icarus_disperser_i00"/>
+		<set name="price" value="103439000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1520"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12475" name="Foundation Icarus Sawsword">
+		<set name="name-ru" value="Редкий Зазубренный Меч Икара"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_icarus_sowsword_i00"/>
+		<set name="price" value="103439000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1520"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12476" name="Foundation Icarus Shooter">
+		<set name="name-ru" value="Редкий Арбалет Икара"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_icarus_shooter_i00"/>
+		<set name="price" value="103439000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1580"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12477" name="Foundation Icarus Stinger">
+		<set name="name-ru" value="Редкий Кинжал Икара"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_icarus_stinger_i00"/>
+		<set name="price" value="103439000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1280"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12478" name="Foundation Icarus Spirit">
+		<set name="name-ru" value="Редкий Дух Икара"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_icarus_spirits_i00"/>
+		<set name="price" value="103439000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1520"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12479" name="Foundation Icarus Spitter">
+		<set name="name-ru" value="Редкий Лук Икара"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_icarus_spiter_i00"/>
+		<set name="price" value="103439000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1520"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12480" name="Foundation Icarus Wingblade">
+		<set name="name-ru" value="Редкий Крылатый Клинок Икара"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_icarus_wing_blade_i00"/>
+		<set name="price" value="103439000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1800"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12481" name="Foundation Icarus Trident">
+		<set name="name-ru" value="Редкий Трезубец Икара"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_icarus_trident_i00"/>
+		<set name="price" value="103439000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="2010"/>
+		<set name="material_type" value="BRONZE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12482" name="Foundation Icarus Hammer">
+		<set name="name-ru" value="Редкий Молот Икара"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_icarus_hammer_i00"/>
+		<set name="price" value="103439000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1740"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12483" name="Foundation Icarus Hand">
+		<set name="name-ru" value="Редкая Рука Икара"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_icarus_knuckle_i00"/>
+		<set name="price" value="103439000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1550"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12484" name="Foundation Icarus Heavy Arms">
+		<set name="name-ru" value="Редкие Тяжелые Руки Икара"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_icarus_heavy_arms_i00"/>
+		<set name="price" value="103439000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1740"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12485" name="Foundation Icarus Hall">
+		<set name="name-ru" value="Редкий Холл Икара"/>
+		<set name="class" value="WEAPON"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_icarus_stick_i00"/>
+		<set name="price" value="103439000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1080"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12486" name="Foundation Sealed Zubei's Gauntlet">
+		<set name="name-ru" value="Редкие Запечатанные Рукавицы Зубея"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t64_g_i02"/>
+		<set name="price" value="399100"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="590"/>
+		<set name="material_type" value="MITHRIL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12487" name="Foundation Sealed Zubei's Boots">
+		<set name="name-ru" value="Редкие Запечатанные Сапоги Зубея"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t64_b_i02"/>
+		<set name="price" value="399100"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1180"/>
+		<set name="material_type" value="MITHRIL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12488" name="Foundation Sealed Avadon Gloves">
+		<set name="name-ru" value="Редкие Запечатанные Перчатки Авадона"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t66_g_i02"/>
+		<set name="price" value="399100"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="590"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12489" name="Foundation Sealed Avadon Boots">
+		<set name="name-ru" value="Редкие Запечатанные Сапоги Авадона"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t66_b_i02"/>
+		<set name="price" value="399100"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1170"/>
+		<set name="material_type" value="DAMASCUS"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12490" name="Foundation Zubei's Leather Gaiters">
+		<set name="name-ru" value="Редкие Кожаные Набедренники Зубея "/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t65_l_i00"/>
+		<set name="price" value="748300"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1480"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12491" name="Foundation Zubei's Leather Shirt">
+		<set name="name-ru" value="Редкая Кожаная Рубаха Зубея"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t65_u_i00"/>
+		<set name="price" value="1197000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="4330"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12492" name="Foundation Zubei's Gaiters">
+		<set name="name-ru" value="Редкие Набедренники Зубея"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t64_l_i00"/>
+		<set name="price" value="997700"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="3570"/>
+		<set name="material_type" value="MITHRIL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12493" name="Foundation Zubei's Gauntlet">
+		<set name="name-ru" value="Редкие Рукавицы Зубея"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t64_g_i00"/>
+		<set name="price" value="399100"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="590"/>
+		<set name="material_type" value="MITHRIL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12494" name="Foundation Zubei's Gauntlet">
+		<set name="name-ru" value="Редкие Рукавицы Зубея"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t65_g_i00"/>
+		<set name="price" value="399100"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="590"/>
+		<set name="material_type" value="MITHRIL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12495" name="Foundation Zubei's Gauntlet">
+		<set name="name-ru" value="Редкие Рукавицы Зубея"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t56_g_i00"/>
+		<set name="price" value="399100"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="590"/>
+		<set name="material_type" value="MITHRIL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12496" name="Foundation Zubei's Boots">
+		<set name="name-ru" value="Редкие Сапоги Зубея"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t64_b_i00"/>
+		<set name="price" value="399100"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1180"/>
+		<set name="material_type" value="MITHRIL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12497" name="Foundation Zubei's Boots">
+		<set name="name-ru" value="Редкие Сапоги Зубея"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t65_b_i00"/>
+		<set name="price" value="399100"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1180"/>
+		<set name="material_type" value="MITHRIL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12498" name="Foundation Zubei's Boots">
+		<set name="name-ru" value="Редкие Сапоги Зубея"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t56_b_i00"/>
+		<set name="price" value="399100"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1180"/>
+		<set name="material_type" value="MITHRIL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12499" name="Foundation Zubei's Shield">
+		<set name="name-ru" value="Редкий Щит Зубея"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.shield_shrnoens_shield_i00"/>
+		<set name="price" value="419000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1210"/>
+		<set name="material_type" value="MITHRIL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+</list>

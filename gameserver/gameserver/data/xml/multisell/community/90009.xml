@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<list>
+	<config showall="true" notax="true" />
+	<!-- necklace of black ore -->
+	<item>
+		<ingredient id="57" count="1750000"/>
+		<production id="926" count="1"/>
+	</item>
+	<!-- earring of black ore -->
+	<item>
+		<ingredient id="57" count="1000000"/>
+		<production id="864" count="1"/>
+	</item>
+	<!-- ring of black ore -->
+	<item>
+		<ingredient id="57" count="750000"/>
+		<production id="895" count="1"/>
+	</item>
+</list>

@@ -1,0 +1,1889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="5000" levels="1" name="Alfred - Super Strike">
+		<set name="name-ru" val="Альфред - Супер Удар" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="10000000" />
+		<set name="magic_level" val="76" />
+		<set name="cast_range" val="1000" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="mp_consume2" val="108" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="effectRange" val="1500" />
+	</skill>
+	<skill id="5001" levels="1" name="Alfred - Life Drain">
+		<set name="name-ru" val="Альфред - Кража Жизни" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="111" />
+		<set name="magic_level" val="76" />
+		<set name="cast_range" val="750" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="181" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DRAIN" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="absorbPart" val="0.8" />
+		<set name="effectRange" val="1500" />
+	</skill>
+	<skill id="5002" levels="1" name="Giselle - Vampiric Rage">
+		<set name="name-ru" val="Гизель - Ярость Вампира" />
+		<table name="#abnormal_lv">4 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="vampiric_attack"/>
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="8000" />
+		<set name="magic_level" val="76" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="49" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect name="Buff" time="1200" count="1" val="0" stackOrder="9" stackType="vampiric_attack">
+				<add order="0x40" stat="absorbDam" val="9" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5003" levels="1" name="Giselle - Tempest">
+		<set name="name-ru" val="Гизель - Буря" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="15000" />
+		<set name="power" val="111" />
+		<set name="magic_level" val="76" />
+		<set name="cast_range" val="500" />
+		<set name="skill_hit_time" val="5000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="103" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="200" />
+		<set name="element" val="wind" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="effectRange" val="1000" />
+	</skill>
+	<skill id="5004" levels="1" name="Dimensional Stun">
+		<set name="name-ru" val="Пространственное Оглушение" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="2"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="fly_away"/>
+		<set name="icon" val="icon.skill0100" />
+		<set name="element" val="unholy" />
+		<!-- Dark -->
+		<set name="elementPower" val="180" />
+		<set name="flyRadius" val="300" />
+		<set name="flyType" val="THROW_UP" />
+		<set name="skill_hit_time" val="5800" />
+		<set name="isIgnoreResists" val="true" />
+		<set name="isDebuff" val="true" />
+		<set name="magicLvl" val="85" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="power" val="5964" />
+		<set name="skillRadius" val="300" />
+		<set name="skillType" val="PDAM" />
+		<set name="target_type" val="TARGET_AURA" />
+		<for>
+			<effect name="ThrowUp" val="0" />
+			<effect count="1" name="Stun" stackOrder="1" stackType="stun" time="9" val="0" />
+		</for>
+	</skill>
+	<skill id="5005" levels="1" name="Frintezza's Ghost Summoning">
+		<set name="name-ru" val="Принтесс: Призыв Призрака" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="1"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="paralyze"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="85" />
+		<set name="cast_range" val="900" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="HARDCODED" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5006" levels="1" name="Frintezza's Melody">
+		<set name="name-ru" val="Принтесс: Мелодия" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="34000" />
+		<set name="skill_hit_cancel_time" val="34000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5007" levels="5" name="Frintezza's Healing Rhapsody">
+		<set name="name-ru" val="Принтесс: Целительная Рапсодия" />
+		<!--	Description:	Lvl 1: Frintezza's Healing Rhapsody (Music to soothe the soul.).	Lvl 2: Frintezza's Rampaging Opus (A Consecutive Dash + Portrait Replay Performance).	Lvl 3: Frintezza's Power Concerto (A powerful tune affecting Attack/Speed.).	Lvl 4: Frintezza's Plagued Concerto (A triumphant ballad of Heal Suppressing.).	Lvl 5: Frintezza's Psycho Symphony (Two Can Dance + Cancel Performance.).	-->
+		<table name="#skill_hit_cancel_time">32000 32000 32000 31000 35000</table>
+		<table name="#skill_hit_time">32000 32000 32000 31000 35000</table>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="#skill_hit_time" />
+		<set name="skill_hit_cancel_time" val="#skill_hit_cancel_time" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5008" levels="5" name="Frintezza's Concert Hall Melody">
+		<set name="name-ru" val="Принтесс: Мелодия Концертного Зала" />
+		<!--	Last modify:	12.01.2010	Description:	Lvl 1: Frintezza's Concert Hall Melody (Music that makes you feel oh so good inside).	Lvl 2: Frintezza's Rampaging Opus en masse (Consecutive Dash + Portrait Replay Performance).	Lvl 3: Frintezza Power Encore (Attack/Speed Performance).	Lvl 4: Mournful Chorale Prelude (Instantly decreases the effect of HP regeneration magic).	Lvl 5: Hypnotic Mazurka (Instantly immobilizes the target by making it dance involuntarily).	-->
+		<table name="#lvl1">3 0 0 0 0</table>
+		<table name="#lvl2">0 1 0 0 0</table>
+		<table name="#lvl3">0 0 1 0 0</table>
+		<table name="#lvl4">0 0 0 1 0</table>
+		<table name="#lvl5">0 0 0 0 1</table>
+		<table name="#attackAndSpeed">1 1 1.2 1 1</table>
+		<table name="#rate">-1 -1 -1 80 50</table>
+		<table name="#save">NONE NONE NONE MEN MEN</table>
+		<table name="#lv_bonus_rate">0 0 0 1 1</table>
+		<table name="#stackType">none none ultimate_buff heal_effect_down stun</table>
+		<table name="#effectname1">Buff Buff Buff Buff Stun</table>
+		<table name="#abnormal_lv">1 1 1 </table>
+		<set name="abnormal_time" val="5"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="ultimate_buff"/>
+		<set name="lv_bonus_rate" val="#lv_bonus_rate" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="85" />
+		<set name="activate_rate" val="#rate" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="DERANGEMENT" />
+		<set name="basic_property" val="#save" />
+		<for>
+			<effect count="#lvl1" name="HealOverTime" time="1" val="25000" />
+			<effect count="#lvl2" name="Buff" time="300" val="0">
+				<add order="0x40" stat="runSpd" val="66" />
+			</effect>
+			<effect count="#lvl3" name="Buff" time="300" val="0">
+				<mul order="0x30" stat="pAtkSpd" val="#attackAndSpeed" />
+				<mul order="0x30" stat="mAtkSpd" val="#attackAndSpeed" />
+				<mul order="0x30" stat="pAtk" val="#attackAndSpeed" />
+				<mul order="0x30" stat="mAtk" val="#attackAndSpeed" />
+				<mul order="0x30" stat="runSpd" val="#attackAndSpeed" />
+			</effect>
+			<effect count="#lvl4" name="Buff" time="30" val="0">
+				<mul order="0x30" stat="hpEff" val="0.5" />
+			</effect>
+			<effect count="#lvl5" abnormal="dancestun" name="Stun" stackOrder="1" stackType="#stackType" time="15" val="0" />
+		</for>
+	</skill>
+	<skill id="5009" levels="1" name="Frintezza's Ghostly Fighter">
+		<set name="name-ru" val="Принтесс: Призрачный Воин" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="6400" />
+		<set name="mpConsume" val="140" />
+		<set name="baseStat" val="CON" />
+		<set name="skill_hit_time" val="830" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillTime" val="4500" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="cast_range" val="900" />
+		<set name="aggroPoints" val="1400" />
+		<set name="elementPower" val="180" />
+		<set name="element" val="unholy" />
+	</skill>
+	<skill id="5010" levels="1" name="Frintezza's Ghostly Mage">
+		<set name="name-ru" val="Принтесс: Призрачный Маг" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="mpConsume" val="20" />
+		<set name="baseStat" val="MEN" />
+		<set name="power" val="1060" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skill_hit_time" val="4500" />
+		<set name="skillTime" val="4000" />
+		<set name="skillType" val="MDAM" />
+		<set name="isMagic" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="cast_range" val="400" />
+		<set name="aggroPoints" val="900" />
+		<set name="elementPower" val="180" />
+		<set name="element" val="unholy" />
+	</skill>
+	<skill id="5011" levels="1" name="Frintezza's Bomber Ghost">
+		<set name="name-ru" val="Принтесс: Призрак Самоубийца" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="3640" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond>
+			<player percentHP="25" />
+		</cond>
+	</skill>
+	<skill id="5012" levels="1" name="Breath of Scarlet">
+		<set name="name-ru" val="Алое Дыхание" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="9"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="stun"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="icon" val="icon.skill5012" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="activate_rate" val="90" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="ROOT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="SHOCK" />
+		<set name="basic_property" val="CON" />
+		<for>
+			<effect count="1" name="Stun" stackOrder="1" stackType="stun" time="9" val="0" />
+		</for>
+	</skill>
+	<skill id="5013" levels="1" name="Frintezza Ghost Drain">
+		<set name="name-ru" val="Принтесс: Поглощающий Призрак" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="1000" />
+		<set name="magic_level" val="85" />
+		<set name="element" val="unholy" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DRAIN" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<!-- Drain-specific: absorb 90% from target's damage -->
+		<set name="absorbPart" val="0.9" />
+		<set name="elementPower" val="20" />
+		<set name="element" val="unholy" />
+	</skill>
+	<skill id="5014" levels="3" name="Frintezza's Daemon Attack">
+		<set name="name-ru" val="Принтесс: Атака Демона" />
+		<table name="#magic_level">85 85 90</table>
+		<table name="#power">15835 19096 16176</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="1200" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="150" />
+		<set name="skill_hit_time" val="1300" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="elementPower" val="180" />
+		<set name="element" val="unholy" />
+	</skill>
+	<skill id="5015" levels="6" name="Frintezza's Daemon Charge">
+		<set name="name-ru" val="Принтесс: Заряд Демона" />
+		<table name="#radius">300 400 500 600 700 800</table>
+		<table name="#power">48671 52970 68074 48671 52970 68074</table>
+		<table name="#skill_cool_time">0 0 0 1500 1500 1500</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="#skill_cool_time" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="85" />
+		<set name="cast_range" val="150" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_TUNNEL" />
+		<set name="skillRadius" val="#radius" />
+		<set name="skillType" val="PDAM" />
+		<set name="flyType" val="CHARGE" />
+		<set name="flyRadius" val="#radius" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="elementPower" val="180" />
+		<set name="element" val="unholy" />
+	</skill>
+	<skill id="5016" levels="1" name="Yoke of Scarlet">
+		<set name="name-ru" val="Алый Хомут" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="20"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="paralyze"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="icon" val="icon.skill5016" />
+		<set name="skill_cool_time" val="1000" />
+		<set name="magic_level" val="85" />
+		<set name="cast_range" val="500" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="300" />
+		<set name="activate_rate" val="20" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="unholy" />
+		<set name="elementPower" val="180" />
+		<set name="static_reuse_time" val="true" />
+		<set name="trait" val="DERANGEMENT" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect abnormal="floatroot" count="1" name="Paralyze" stackOrder="1" stackType="paralyze" time="20" val="0" />
+		</for>
+	</skill>
+	<skill id="5017" levels="1" name="Frintezza's Daemon Morph">
+		<set name="name-ru" val="Принтесс: Форма Демона" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="7200"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="big_body"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="1000" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isNotUsedByAI" val="true" />
+		<for>
+			<effect count="1" name="Buff" time="3600" stackOrder="1" stackType="big_body" val="0">
+				<mul order="0x30" stat="maxHp" val="1.2" />
+				<mul order="0x30" stat="runSpd" val="1.22" />
+				<mul order="0x30" stat="pAtk" val="1.4" />
+				<mul order="0x30" stat="mAtk" val="1.4" />
+				<mul order="0x30" stat="pDef" val="1.4" />
+				<mul order="0x30" stat="mDef" val="1.4" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5018" levels="2" name="Frintezza's Daemon Field">
+		<set name="name-ru" val="Принтесс: Поле Демона" />
+		<table name="#power">607 754</table>
+		<table name="#skillRadius">700 1000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="1000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="7000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="#skillRadius" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="unholy" />
+		<set name="elementPower" val="180" />
+		<set name="static_reuse_time" val="true" />
+	</skill>
+	<skill id="5019" levels="1" name="Frintezza's Daemon Drain">
+		<set name="name-ru" val="Принтесс: Поглощение Демона" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="4000" />
+		<set name="power" val="32864" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="6000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="element" val="unholy" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="500" />
+		<set name="skillType" val="DRAIN" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<!-- Drain-specific: absorb 90% from target's damage -->
+		<set name="absorbPart" val="0.9" />
+		<set name="elementPower" val="180" />
+		<set name="element" val="unholy" />
+		<set name="static_reuse_time" val="true" />
+	</skill>
+	<skill id="5020" levels="1" name="Forced Action">
+		<set name="name-ru" val="Принуждение" />
+		<!-- Description: Crumples to the ground because of unknown power. -->
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="3"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="public_slot"/>
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="5000" />
+		<set name="magic_level" val="1" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="HOLD" />
+	</skill>
+	<skill id="5021" levels="12" name="Inspiration of Einhasad">
+		<set name="name-ru" val="Дыхание Эйнхасад" />
+		<!-- Description: Makes holy attacks. -->
+		<table name="#mp_consume2">10 16 21 28 36 44 52 55 58 60 61 62</table>
+		<table name="#mp_consume1">3 4 6 7 9 11 13 14 15 15 16 16</table>
+		<table name="#abnormal_lv">1 1 1 1 1 1 1 1 1 1 1 1 </table>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="holy_attack"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1043" />
+		<set name="skill_cool_time" val="800" />
+		<set name="reuse_delay" val="25000" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="3200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+	</skill>
+	<skill id="5022" levels="12" name="Decrease Speed">
+		<set name="name-ru" val="Понизить Скорость" />
+		<table name="#abnormal_lv">1 2 3 3 3 3 3 3 3 3 3 3</table>
+		<table name="#spd">0.9 0.8 0.8 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#abnormal_lv">1 2 3 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormal_time" val="5"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="speed_down"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1160" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="activate_rate" val="80" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Debuff" stackOrder="#abnormal_lv" stackType="speed_down" time="5" val="0">
+				<mul order="0x50" stat="runSpd" val="#spd" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5023" levels="12" name="Hold">
+		<set name="name-ru" val="Удержание" />
+		<!-- Description: Temporarily holds and immobilizes target. -->
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#abnormal_lv">1 1 1 1 1 1 1 1 1 1 1 1 </table>
+		<set name="abnormal_time" val="5"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="root_magically"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill4047" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="HOLD" />
+		<set name="basic_property" val="MEN" />
+	</skill>
+	<skill id="5024" levels="12" name="Decrease Atk. Spd.">
+		<set name="name-ru" val="Понизить Скор. Атк." />
+		<table name="#abnormal_lv">1 2 2 3 3 3 3 3 3 3 3 3</table>
+		<table name="#pAtkSpd">0.9 0.7 0.7 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#power">1 3 5 6 7 8 9 10 11 12 13 14</table>
+		<table name="#abnormal_lv">1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormal_time" val="5"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="attack_time_up"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill4038" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Debuff" time="30" stackOrder="#abnormal_lv" stackType="attack_time_up" val="0">
+				<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5025" levels="1" name="Raid Boss - Level 30">
+		<set name="name-ru" val="Рейдовый Босс - Уровень 30" />
+		<!-- Description: His exploits are famous among Wererats. After assigning the South to the Sukar Wererats, he and a group of followers journeyed north in search of wealth. Unlike other Wererats, he possesses an enterprising spirit and began plundering the tombs of Orc tribal chiefs. Chased away by vengeful spirits, now he and his band rob unwary travelers passing through the region. -->
+		<set name="icon" val="icon.skillraid" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="HARDCODED" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="5026" levels="1" name="Raid Boss - Level 39">
+		<set name="name-ru" val="Рейдовый Босс - Уровень 39" />
+		<!-- Description: Once a human magician with an almost Dwarven interest in machinery,he heard about Titan Age Sky Wagon Relic and theorized that a combination of Dwarven skills and magic could reproduce the flying wagon. He died without succeeding in his goal, but his spirit still wanders the area. -->
+		<set name="icon" val="icon.skillraid" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="HARDCODED" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="5027" levels="1" name="Raid Boss - Level 37">
+		<set name="name-ru" val="Рейдовый Босс - Уровень 37" />
+		<!-- Description: This villain preys on adventurers who travel between the Dwarven Village and the Town of Schuttgart. He summoned all the northern Goblin powers to create a great bandit force and rule over them, but he made a serious mistake by stealing tribute intended for Schuttgart. Hearing rumors that the lord was preparing an army to clear out the bandits, he and his followers fled to the mountains. -->
+		<set name="icon" val="icon.skillraid" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="HARDCODED" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="5028" levels="1" name="Raid Boss - Level 53">
+		<set name="name-ru" val="Рейдовый Босс - Уровень 53" />
+		<!-- Description: Once a shaman who worshipped Pa'agrio, he is now consumed by evil and bent on manipulating the powers of the spirit-being Tasha to conquer the world. His growing horde of followers include Ragna Orcs, evil spirits and insects. -->
+		<set name="icon" val="icon.skillraid" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="HARDCODED" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="5029" levels="1" name="Raid Boss - Level 52">
+		<set name="name-ru" val="Рейдовый Босс - Уровень 52" />
+		<!-- Description: This powerful Chaos Golem was made from Starstones gathered from the Ruins of Pavel by the mad scientist Dr. Chaos, who styles himself the Emperor of Evil. Once a Golem Maestro, Dr. Chaos was expelled from the Black Anvil Guild for trying to steal the blueprint from the elders. He swore revenge on the Black Anvil Guild, conquering the Ruins of Pavel with the Horrifying Golem Army he created. He views all outsiders as assassins sent by the Guild and will attack immediately. His ultimate goal is "world domination." -->
+		<set name="icon" val="icon.skillraid" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="HARDCODED" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="5030" levels="1" name="Raid Boss - Level 59">
+		<set name="name-ru" val="Рейдовый Босс - Уровень 59" />
+		<!-- Description: This captain secretly loved the Princess Melissa. Saddened by her disappearance, he set out to learn her fate. Finding her transformed into the Ice Queen, Freya, he was turned into a Gargoyle and now protects the Frozen Labyrinth from interlopers. -->
+		<set name="icon" val="icon.skillraid" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="HARDCODED" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="5031" levels="1" name="Raid Boss - Level 80">
+		<set name="name-ru" val="Рейдовый Босс - Уровень 80" />
+		<!-- Description: This Queen of Spike Stakatos conducts breeding experiments using top-ranking Spike Stakatos. She knows that her life running out and is desperately trying to grow a new Stakato queen in her nest, despite the low chances for success. Nursing her power, she dreams of a resurgence of her weakened race. -->
+		<set name="icon" val="icon.skillraid" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="HARDCODED" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="5032" levels="1" name="Raid Boss - Level 80">
+		<set name="name-ru" val="Рейдовый Босс - Уровень 80" />
+		<!-- Description: Although he appears human, he is actually a high-ranking Angel who directly interacts with Einhasad and worships the Grail. Recently an ancient religious document found in the Tower of Insolence provided proof that the Grail is hidden in the Monastery of Silence. Since then, adherents of the Pagan Temple have frequently tried to steal it, but none has avoided the judgment of the Ruler of Splendor. -->
+		<set name="icon" val="icon.skillraid" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="HARDCODED" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="5033" levels="1" name="Raid Boss - Level 80">
+		<set name="name-ru" val="Рейдовый Босс - Уровень 80" />
+		<!-- Description: This aristocrat of Rune secretly worships Triol, even conducting the occasional bloody worship ceremony in the Temple. Despite his claims of nobility, much of his background is still unknown. -->
+		<set name="icon" val="icon.skillraid" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="HARDCODED" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="5034" levels="1" name="Raid Boss - Level 73">
+		<set name="name-ru" val="Рейдовый Босс - Уровень 73" />
+		<!-- Description: This Golem was originally a follower of Argos during the war between Giants and Humans. He remained with his master after Argos's imprisonment by Einhasad into the cliff wall. He has devolved to the point that he no longer resembles a Titan and isn't sure why he is still there. Even Daimon the White-Eyed cannot harm him in the Wall of Argos. -->
+		<set name="icon" val="icon.skillraid" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="HARDCODED" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="5035" levels="1" name="Raid Boss - Level 76">
+		<set name="name-ru" val="Рейдовый Босс - Уровень 76" />
+		<!-- Description: The result of one of Hardin's magical experiments, he is rather monstrous in appearance, spewing lava from all over his body. Despite his looks, he was in fact a very submissive Golem who followed Hardin like a father. He went mad from the feeling of abandonment after Hardin left the Blazing Swamp. When King Astaire attacked Aden Castle, some of the soldiers of Elmore were caught in the Blazing Swamp, and there they first saw this giant covered in lava. -->
+		<set name="icon" val="icon.skillraid" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="HARDCODED" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="5036" levels="1" name="Raid Boss - Level 60">
+		<set name="name-ru" val="Рейдовый Босс - Уровень 60" />
+		<!-- Description: The Ice Fairy who came to Freya after Princess Melissa was turned, she oversees everything in the Frozen Labyrinth on behalf of Freya. She has watched the movements of the Zinnia Guild ever since the Order of Canna Knights disappeared. -->
+		<set name="icon" val="icon.skillraid" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="HARDCODED" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="5037" levels="3" name="Decrease Casting Spd">
+		<set name="name-ru" val="Понизить Скор. Маг." />
+		<!-- Description: Instantly reduces Casting Speed. Comment: Used in zone debuff at Isle of Prayer. -->
+		<table name="#mAtkSpd">0.85 0.75 0.7</table>
+		<table name="#abnormal_lv">1 2 3</table>
+		<table name="#abnormal_lv">1 2 3 </table>
+		<set name="abnormal_time" val="5"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="casting_time_up"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="icon" val="icon.skill1206" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="casting_time_down" time="5" val="0">
+				<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5038" levels="16" name="Summon PVP Penalty">
+		<set name="name-ru" val="Призвать штраф PVP" />
+		<table name="#pvpDmg">0.98 0.96 0.94 0.92 0.9 0.88 0.86 0.84 0.82 0.8 0.78 0.76 0.74 0.72 0.7 0.5</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<mul order="0x30" stat="pvpPhysDmgBonus" val="#pvpDmg" />
+			<mul order="0x30" stat="pvpPhysSkillDmgBonus" val="#pvpDmg" />
+			<mul order="0x30" stat="pvpMagicSkillDmgBonus" val="#pvpDmg" />
+		</for>
+	</skill>
+	<skill id="5039" levels="1" name="NPC - Ultra Bomb">
+		<set name="name-ru" val="NPC: Сверхмощная Бомба" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="3000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5040" levels="12" name="NPC - Healing Potion">
+		<set name="name-ru" val="NPC: Целительное Зелье" />
+		<table name="#abnormal_lv">1 2 3 4 5 6 7 8 9 10 11 12</table>
+		<table name="#hot">7 12 18 27 37 46 55 58 61 64 66 67</table>
+		<table name="#mp_consume2">1 1 1 1 1 1 1 193 201 207 209 209</table>
+		<table name="#mp_consume1">1 1 1 1 1 1 1 49 51 52 53 53</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#abnormal_lv">1 2 3 4 5 6 7 8 9 10 11 12 </table>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="life_force_others"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="8000" />
+		<set name="power" val="1" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<for>
+			<effect count="15" name="HealOverTime" time="1" stackOrder="#abnormal_lv" stackType="life_force_others" val="#hot"/>
+		</for>
+	</skill>
+	<skill id="5041" levels="6" name="Charm of Courage">
+		<set name="name-ru" val="Чары Храбрости" />
+		<table name="#itemConsumeId">8515 8516 8517 8518 8519 8520</table>
+		<table name="#levelMin">1 20 40 52 61 76</table>
+		<table name="#levelMax">19 39 51 60 75 90</table>
+		<set name="icon" val="icon.skill5041" />
+		<set name="magic_level" val="1" />
+		<set name="itemConsumeId" val="#itemConsumeId" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isHandler" val="true" />
+		<set name="altUse" val="true" />
+		<set name="isPreservedOnDeath" val="true" />
+		<set name="cancelable" val="false" />
+		<cond msgId="113" addName="1">
+			<zone type="SIEGE" />
+		</cond>
+		<cond msgId="1902">
+			<and>
+				<player minLevel="#levelMin" />
+				<player maxLevel="#levelMax" />
+			</and>
+		</cond>
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="CharmOfCourage" time="1200" val="0" displayId="-1" />
+		</for>
+	</skill>
+	<skill id="5042" levels="12" name="NPC Dispel Bomb">
+		<set name="name-ru" val="NPC: Бомба Отмены Колдовства" />
+		<!-- TODO сделать скилл массовый кансел -->
+		<table name="#mp_consume2">19 30 42 57 74 91 106 114 119 124 126 128</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5043" levels="12" name="NPC Super Sonic Blaster">
+		<set name="name-ru" val="NPC: Звуковой Супервзрыв" />
+		<table name="#mp_consume2">7 10 14 19 25 31 36 38 40 42 42 43</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="7000" />
+		<set name="power" val="1827" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1200" />
+		<set name="skill_hit_time" val="1900" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="criticalRate" val="10" />
+	</skill>
+	<skill id="5044" levels="3" name="NPC Ultimate Defense">
+		<set name="name-ru" val="NPC: Предельная Защита" />
+		<table name="#abnormal_lv">1 2 2</table>
+		<table name="#abnormalTime">30 30 5</table>
+		<table name="#pDef">1800 3600 7200</table>
+		<table name="#mDef">1350 2700 5400</table>
+		<table name="#mp_consume2">10 21 0</table>
+		<table name="#magic_level">20 46 1</table>
+		<table name="#reuse_delay">1800000 1800000 5000</table>
+		<table name="#abnormal_lv">1 2 2 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="pd_up_special"/>
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="#reuse_delay" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect abnormal="invul1" count="1" name="Immobilize" stackOrder="#abnormal_lv" stackType="pd_up_special" time="#abnormalTime" val="0">
+				<add order="0x40" stat="pDef" val="#pDef" />
+				<add order="0x40" stat="mDef" val="#mDef" />
+				<add order="0x40" stat="cancelResist" val="80" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5045" levels="12" name="Castle Power Strike">
+		<set name="name-ru" val="Замок: Мощный Удар" />
+		<table name="#mp_consume2">19 22 25 28 31 33 36 38 40 42 42 43</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<table name="#power">40 42 45 56 71 75 81 88 94 107 112 125</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="8000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="overHit" val="true" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="nextAction" val="attack" />
+	</skill>
+	<skill id="5046" levels="12" name="Castle Power Shot">
+		<set name="name-ru" val="Замок: Мощный Выстрел" />
+		<table name="#mp_consume2">19 22 25 28 31 33 36 38 40 42 42 43</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<table name="#power">65 71 78 102 112 132 158 172 187 239 258 279</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="20000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1500" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="overHit" val="true" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5047" levels="12" name="Castle Spinning Slash">
+		<set name="name-ru" val="Замок: Вихрь" />
+		<table name="#mp_consume2">19 22 25 28 31 33 36 38 40 42 42 43</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<table name="#power">56 145 319 517 822 1236 1726 1976 2312 2420 2587 2717</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="15000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5048" levels="12" name="Castle Burst Shot">
+		<set name="name-ru" val="Замок: Взрывной Выстрел" />
+		<table name="#mp_consume2">19 22 25 28 31 33 36 38 40 42 42 43</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<table name="#power">450 470 491 512 534 557 581 606 631 657 684 711</table>
+		<set name="affect_limit" val="5;12" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="25000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1500" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="200" />
+		<set name="overHit" val="true" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5049" levels="12" name="Castle Blow">
+		<set name="name-ru" val="Замок: Импульс" />
+		<table name="#mp_consume2">19 22 25 28 31 33 36 38 40 42 42 43</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="6000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5050" levels="12" name="Castle DD Fire">
+		<set name="name-ru" val="Замок: Направл. Огонь" />
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<table name="#power">65 71 78 102 112 132 158 172 187 239 258 279</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1500" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="200" />
+		<set name="element" val="fire" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5051" levels="12" name="Castle Self AE Fire">
+		<set name="name-ru" val="Замок: Внутренний Купол Огня" />
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<table name="#power">65 71 78 102 112 132 158 172 187 239 258 279</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="element" val="fire" />
+		<set name="elementPower" val="20" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5052" levels="12" name="Castle Long AE Fire">
+		<set name="name-ru" val="Замок: Большой Купол Огня" />
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<table name="#power">450 470 491 512 534 557 581 606 631 657 684 711</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1500" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="element" val="fire" />
+		<set name="elementPower" val="20" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5053" levels="12" name="Castle DD Water">
+		<set name="name-ru" val="Замок: Направл. Вода" />
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<table name="#power">18 26 38 52 68 85 102 110 116 122 126 129</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1500" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="200" />
+		<set name="element" val="water" />
+		<set name="elementPower" val="20" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5054" levels="12" name="Castle Self AE Water">
+		<set name="name-ru" val="Замок: Внутренний Купол Воды" />
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<table name="#power">65 71 78 102 112 132 158 172 187 239 258 279</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="element" val="water" />
+		<set name="elementPower" val="20" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5055" levels="12" name="Castle Long AE Water">
+		<set name="name-ru" val="Замок: Большой Купол Воды" />
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<table name="#power">450 470 491 512 534 557 581 606 631 657 684 711</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1500" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="element" val="water" />
+		<set name="elementPower" val="20" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5056" levels="12" name="Castle DD Wind">
+		<set name="name-ru" val="Замок: Направл. Ветер" />
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<table name="#power">18 26 38 52 68 85 102 110 116 122 126 129</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1500" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="200" />
+		<set name="element" val="wind" />
+		<set name="elementPower" val="20" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5057" levels="12" name="Castle Self AE Wind">
+		<set name="name-ru" val="Замок: Внутренний Купол Ветра" />
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5058" levels="12" name="Castle Long AE Wind">
+		<set name="name-ru" val="Замок: Большой Купол Ветра" />
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1500" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5059" levels="12" name="Castle DD Earth">
+		<set name="name-ru" val="Замок: Направл. Земля" />
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1500" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5060" levels="12" name="Castle Self AE Earth">
+		<set name="name-ru" val="Замок: Внутренний Купол Земли" />
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5061" levels="12" name="Castle Long AE Earth">
+		<set name="name-ru" val="Замок: Большой Купол Земли" />
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1500" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5062" levels="12" name="Castle DD Holy">
+		<set name="name-ru" val="Замок: Направл. Святость" />
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1500" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5063" levels="12" name="Castle Self AE Holy">
+		<set name="name-ru" val="Замок: Внутренний Купол Святости" />
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5064" levels="12" name="Castle Long AE Holy">
+		<set name="name-ru" val="Замок: Большой Купол Святости" />
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1500" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5065" levels="12" name="Castle DD Unholy">
+		<set name="name-ru" val="Замок: Направл. Порок" />
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<table name="#power">18 26 38 52 68 85 102 110 116 122 126 129</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1500" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="element" val="unholy" />
+		<set name="elementPower" val="20" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="effectRange" val="2100" />
+	</skill>
+	<skill id="5066" levels="12" name="Castle Self AE Unholy">
+		<set name="name-ru" val="Замок: Внутренний Купол Порока" />
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5067" levels="12" name="Castle Long AE Unholy">
+		<set name="name-ru" val="Замок: Большой Купол Порока" />
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1500" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5068" levels="12" name="Decrease Speed">
+		<set name="name-ru" val="Понижение Скорости" />
+		<table name="#spd">0.9 0.8 0.8 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7</table>
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<table name="#abnormal_lv">3 3 3 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormal_time" val="60"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="speed_down"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1160" />
+		<set name="reuse_delay" val="7000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1500" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="activate_rate" val="60" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="2" stackType="speed_down" time="30" val="0">
+				<mul order="0x50" stat="runSpd" val="#spd" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5069" levels="12" name="Decrease Atk. Spd.">
+		<set name="name-ru" val="Понижение Скор. Атк." />
+		<!-- Description: Instantly reduces Atk. Spd. -->
+		<table name="#spd">0.9 0.8 0.8 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7</table>
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<table name="#abnormal_lv">3 3 3 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="attack_time_up"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill4038" />
+		<set name="reuse_delay" val="8000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1500" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="activate_rate" val="60" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Buff" time="30" stackOrder="3" stackType="attack_time_up" val="0">
+				<mul order="0x30" stat="pAtkSpd" val="#spd" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5070" levels="12" name="Decrease Casting Spd">
+		<set name="name-ru" val="Понижение Скор. Маг." />
+		<!-- Description: Instantly reduces Casting Spd. -->
+		<table name="#spd">0.9 0.8 0.8 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7</table>
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<table name="#abnormal_lv">3 3 3 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="casting_time_up"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1206" />
+		<set name="reuse_delay" val="8000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1500" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="activate_rate" val="60" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Buff" time="30" val="0">
+				<mul order="0x30" stat="mAtkSpd" val="#spd" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5071" levels="12" name="Decrease P. Atk.">
+		<set name="name-ru" val="Понижение Физ. Атк." />
+		<!-- Description: Instantly reduces P. Atk. -->
+		<table name="#pAtk">0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77</table>
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<table name="#abnormal_lv">3 3 3 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="pa_down"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill4037" />
+		<set name="reuse_delay" val="8000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1500" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="activate_rate" val="80" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Debuff" time="30" val="0">
+				<mul order="0x30" stat="pAtk" val="#pAtk" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5072" levels="12" name="Decrease M. Atk.">
+		<set name="name-ru" val="Понижение Маг. Атк." />
+		<!-- Description: Instantly reduces M. Atk. -->
+		<table name="#mAtk">0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77</table>
+		<table name="#mp_consume2">5 8 11 14 18 22 26 28 29 30 31 31</table>
+		<table name="#mp_consume1">2 2 3 4 5 6 7 7 8 8 8 8</table>
+		<table name="#magic_level">40 45 50 55 60 65 70 75 80 85 90 95</table>
+		<table name="#abnormal_lv">3 3 3 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="ma_down"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="8000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1500" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="activate_rate" val="80" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Debuff" time="120" val="0">
+				<mul order="0x30" stat="mAtk" val="#mAtk" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5073" levels="12" name="Quest Trap -  Power Shot">
+		<set name="name-ru" val="Квест. Ловушка - Мощный Выстрел" />
+		<!-- TODO Сделать скилл -->
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="1500" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5074" levels="1" name="The Victor of War">
+		<set name="name-ru" val="Победитель" />
+		<set name="icon" val="icon.skill5074" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<mul order="0x30" stat="maxCp" val="1.1" />
+		</for>
+	</skill>
+	<skill id="5075" levels="1" name="The Vanquished of War">
+		<set name="name-ru" val="Проигравший" />
+		<set name="icon" val="icon.skill5075" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<mul order="0x30" stat="maxCp" val="0.9" />
+		</for>
+	</skill>
+	<skill id="5076" levels="15" name="Death Penalty">
+		<set name="name-ru" val="Штраф Смерти" />
+		<table name="#icons">icon.skill5076_a icon.skill5076_a icon.skill5076_a icon.skill5076_a icon.skill5076_a icon.skill5076_b icon.skill5076_b icon.skill5076_b icon.skill5076_b icon.skill5076_b icon.skill5076_c icon.skill5076_c icon.skill5076_c icon.skill5076_c icon.skill5076_c</table>
+		<table name="#accCombatrEvas">5 9 13 17 21 25 29 33 37 40 42 44 46 48 50</table>
+		<table name="#pAtkpAtkSpdmAtkmAtkSpd">0.9 0.81 0.73 0.66 0.6 0.55 0.51 0.47 0.44 0.41 0.38 0.35 0.32 0.28 0.25</table>
+		<table name="#pDefmDef">0.91 0.83 0.77 0.72 0.68 0.65 0.62 0.59 0.56 0.53 0.5 0.47 0.44 0.42 0.4</table>
+		<table name="#runSpd">0.95 0.9 0.87 0.83 0.8 0.77 0.74 0.71 0.68 0.66 0.64 0.63 0.62 0.61 0.6</table>
+		<table name="#power">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15</table>
+		<set name="icon" val="#icons" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="pAtk" val="#pAtkpAtkSpdmAtkmAtkSpd" />
+			<mul order="0x30" stat="pAtkSpd" val="#pAtkpAtkSpdmAtkmAtkSpd" />
+			<mul order="0x30" stat="mAtk" val="#pAtkpAtkSpdmAtkmAtkSpd" />
+			<mul order="0x30" stat="mAtkSpd" val="#pAtkpAtkSpdmAtkmAtkSpd" />
+			<sub order="0x40" stat="accCombat" val="#accCombatrEvas" />
+			<sub order="0x40" stat="rEvas" val="#accCombatrEvas" />
+			<mul order="0x30" stat="pDef" val="#pDefmDef" />
+			<mul order="0x30" stat="mDef" val="#pDefmDef" />
+			<mul order="0x30" stat="runSpd" val="#runSpd" />
+		</for>
+	</skill>
+	<skill id="5077" levels="1" name="NPC Remove Death Penalty">
+		<set name="name-ru" val="NPC: Снять Штраф Смерти" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="500" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEATH_PENALTY" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5078" levels="1" name="Frintezza Critical Power">
+		<set name="name-ru" val="Принтесс: Критическая Мощь" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="5079" levels="1" name="NPC Focused Haste">
+		<set name="name-ru" val="NPC: Сфокусированное Ускорение" />
+		<table name="#abnormal_lv">2 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="attack_time_down"/>
+		<set name="icon" val="icon.skill0100" />
+		<set name="reuse_delay" val="20000" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="15" />
+		<set name="mp_consume2" val="60" />
+		<set name="target_type" val="TARGET_CLAN" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" time="120" stackOrder="2" stackType="attack_time_down" val="0">
+				<mul order="0x30" stat="pAtkSpd" val="1.33" />
+				<mul order="0x30" stat="baseCrit" val="1.3" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5080" levels="1" name="NPC Mighty Haste">
+		<set name="name-ru" val="NPC: Мощное Ускорение" />
+		<table name="#pAtk">1.15</table>
+		<table name="#pAtkSpd">1.15</table>
+		<table name="#abnormal_lv">2 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="attack_time_down"/>
+		<set name="icon" val="icon.skill0100" />
+		<set name="reuse_delay" val="20000" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="15" />
+		<set name="mp_consume2" val="60" />
+		<set name="target_type" val="TARGET_CLAN" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" time="120" stackOrder="2" stackType="attack_time_down" val="0">
+				<mul order="0x30" stat="pAtk" val="#pAtk" />
+				<mul order="0x50" stat="pAtkSpd" val="#pAtkSpd" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5081" levels="4" name="Silence">
+		<set name="name-ru" val="Безмолвие" />
+		<table name="#actRate">35 40 45 50</table>
+		<table name="#mp_consume2">60 60 60 5</table>
+		<table name="#power">1715 3540 7306 8602</table>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_type" val="silence_physical"/>
+		<set name="icon" val="icon.skill5081" />
+		<set name="skill_cool_time" val="800" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="15" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="activate_rate" val="#actRate" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="MutePhisycal" time="15" stackOrder="1" stackType="silence_physical" val="0" />
+		</for>
+	</skill>
+	<skill id="5082" levels="4" name="NPC Spinning, Slashing Trick">
+		<set name="name-ru" val="NPC: Трюк Кручения и Рассекания" />
+		<table name="#mp_consume2">60 60 60 5</table>
+		<table name="#power">5686 8732 10131 11622</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="800" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5083" levels="4" name="Stun">
+		<set name="name-ru" val="Оглушение" />
+		<table name="#mp_consume2">93 93 93 5</table>
+		<table name="#power">1715 3540 7305 8602</table>
+		<table name="#abnormal_lv">1 1 1 1 </table>
+		<set name="abnormal_time" val="9"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="stun"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="icon" val="icon.skill5083" />
+		<set name="skill_cool_time" val="800" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="activate_rate" val="50" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="SHOCK" />
+		<set name="basic_property" val="CON" />
+		<for>
+			<effect count="1" name="Stun" stackOrder="1" stackType="stun" time="9" val="0" />
+			<effect count="1" name="RemoveTarget" stackOrder="1" stackType="remove_target" time="0" val="0" chance="10" />
+		</for>
+	</skill>
+	<skill id="5084" levels="4" name="NPC Blinding Blow">
+		<set name="name-ru" val="NPC: Ослепляющий Порыв" />
+		<table name="#power">2751 2850 2950 3050</table>
+		<table name="#abnormal_lv">1 1 1 1 </table>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="speed_up_special"/>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="720" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="1080" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="83" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="onCrit" val="true" />
+		<set name="skillType" val="PDAM" />
+		<set name="blow" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="turner" val="true" />
+		<set name="nextAction" val="attack" />
+		<for>
+			<effect applyOnCaster="true" count="1" name="Buff" stackOrder="1" stackType="speed_up_special" time="10" val="0">
+				<mul order="0x30" stat="runSpd" val="1.4" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5085" levels="1" name="Anesthesia">
+		<set name="name-ru" val="Анестезия" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="anesthesia"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill5085" />
+		<set name="power" val="80" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3300" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="23" />
+		<set name="mpConsume" val="23" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="element" val="UNHOLY" />
+		<set name="skill_hit_time" val="3300" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="effect_point" val="400" />
+		<set name="activate_rate" val="80" />
+		<set name="skillRadius" val="400" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Stun" time="9" val="0" stackOrder="1" stackType="anesthesia" abnormal="stun"/>
+		</for>
+	</skill>
+	<skill id="5086" levels="1" name="Deadly Poison">
+		<set name="name-ru" val="Смертельное Отравление" />
+		<table name="#abnormal_lv">2 </table>
+		<set name="abnormal_time" val="60"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="critical_poison"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill5086" />
+		<set name="power" val="100" />
+		<set name="skill_hit_time" val="3300" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="23" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillType" val="POISON"/>
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillRadius" val="200" />
+		<set name="mpConsume" val="23" />
+		<set name="element" val="HOLY" />
+		<set name="skill_hit_time" val="3300" />
+		<set name="effect_point" val="400" />
+		<set name="skillRadius" val="400" />
+		<set name="trait" val="POISON" />
+		<set name="basic_property" val="CON" />
+		<for>
+			<effect count="12" name="DamOverTimeLethal" time="5" val="12" stackOrder="2" stackType="critical_poison" abnormal="poison"/>
+		</for>
+	</skill>
+	<skill id="5087" levels="2" name="Berserk">
+		<set name="name-ru" val="Берсерк" />
+		<table name="#Berserk">3 4</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="85" />
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="effectRange" val="-1"/>
+		<for>
+			<effect name="Buff" time="90" count="1" val="0">
+				<add order="0x40" stat="accCombat" val="6"/>
+				<mul order="0x30" stat="pAtk" val="#Berserk"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="5088" levels="1" name="Signal">
+		<set name="name-ru" val="Сигнал" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="2000" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="target_type" val="TARGET_AURA"/>
+		<set name="skillRadius" val="1100"/>
+		<set name="skillType" val="AGGRESSION"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="static_reuse_time" val="true"/>
+	</skill>
+	<skill id="5089" levels="1" name="Representation - Enter the Sailren Nest Quest">
+		<set name="name-ru" val="Изображение - Вход в Логово Сэйлрена" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="85" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5090" levels="1" name="Sailren Production">
+		<set name="name-ru" val="Производство Сэйлрена" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5091" levels="1" name="Sailren Production 2">
+		<set name="name-ru" val="Производство Сэйлрена 2" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5092" levels="1" name="Antharas Terror">
+		<set name="name-ru" val="Ужас Антараса" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="20"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="turn_flee"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="icon" val="icon.skill4108" />
+		<set name="skill_cool_time" val="2700" />
+		<set name="magic_level" val="85" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="2300" />
+		<set name="reuse_delay" val="80000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillRadius" val="400" />
+		<set name="trait" val="DERANGEMENT" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Fear" stackOrder="-1" stackType="turn_flee" time="20" val="0" />
+		</for>
+	</skill>
+	<skill id="5093" levels="1" name="Antharas Meteor">
+		<set name="name-ru" val="Метеор Антараса" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="6000" />
+		<set name="power" val="1084" />
+		<set name="magic_level" val="85" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="8000" />
+		<set name="reuse_delay" val="70000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillRadius" val="1100" />
+		<set name="element" val="earth" />
+	</skill>
+	<skill id="5094" levels="1" name="Antharas Subordinate Suicide">
+		<set name="name-ru" val="Самоубийство Слуги Антараса" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="1000" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="skillRadius" val="500" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isSuicideAttack" val="true" />
+	</skill>
+	<skill id="5095" levels="1" name="Antharas Subordinate Melee Attack">
+		<set name="name-ru" val="Ближняя Атака Слуги Антараса" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="23243" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="reuse_delay" val="8000" />
+		<set name="mp_consume2" val="83" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillRadius" val="200" />
+	</skill>
+	<skill id="5096" levels="1" name="Antharas Subordinate Remote Attack">
+		<set name="name-ru" val="Дистанционная Атака Слуги Антараса" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="67888" />
+		<set name="magic_level" val="85" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="reuse_delay" val="25000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="83" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5097" levels="1" name="Antharas Subordinate Suicide (Narrow Range)">
+		<set name="name-ru" val="Самоубийство Слуги Антараса (Узкий Сектор)" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="2000" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="skillRadius" val="250" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isSuicideAttack" val="true" />
+	</skill>
+	<skill id="5098" levels="2" name="Capture Penalty">
+		<set name="name-ru" val="Штраф Захвата" />
+		<table name="#abnormal_lv">1 2 </table>
+		<set name="abnormal_time" val="60"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="seizure_penalty"/>
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="1000" />
+		<set name="magic_level" val="85" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5099" levels="1" name="Cancel Capture A">
+		<set name="name-ru" val="Отменить Захват A" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="1" />
+		<set name="mp_consume2" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+</list>

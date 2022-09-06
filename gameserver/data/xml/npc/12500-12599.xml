@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list> 
+	<npc id="12526" name="Wind Strider" title="" name_ru="Дракон Ветра" title_ru="" pts_name="wind_strider"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.ru-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="55"/>
+		<set name="exp" value="70853089"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="dragon"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="23"/>
+		<set name="collision_height" value="31"/>
+		<set name="HitTimeFactor" value="0.25"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="1673.05473"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="889.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="388"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="164"/>
+		<set name="baseMAtk" value="265"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="224"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="86400"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="Buff" value="s_pet_wild_defence1"/>
+			<set name="PhysicalSpecial" value="s_pet_wild_stun1"/>
+		</ai_params>
+		<skills>
+			<skill id="4412" level="11"/>
+			<skill id="4414" level="2"/>
+			<skill id="4413" level="11"/>
+			<skill id="4415" level="1"/>
+			<skill id="4416" level="10"/>
+			<skill id="4409" level="1"/>
+			<skill id="4408" level="1"/>
+			<skill id="4121" level="1"/>
+			<skill id="4410" level="11"/>
+			<skill id="4411" level="11"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="12527" name="Star Strider" title="" name_ru="Дракон Звезд" title_ru="" pts_name="star_strider"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.ru-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="55"/>
+		<set name="exp" value="70853089"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="dragon"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="23"/>
+		<set name="collision_height" value="31"/>
+		<set name="HitTimeFactor" value="0.25"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="1673.05473"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="889.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="388"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="164"/>
+		<set name="baseMAtk" value="265"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="224"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="86400"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="DDMagic" value="s_pet_bright_burst1"/>
+			<set name="Heal" value="s_pet_bright_heal1"/>
+		</ai_params>
+		<skills>
+			<skill id="4412" level="11"/>
+			<skill id="4414" level="2"/>
+			<skill id="4413" level="11"/>
+			<skill id="4415" level="1"/>
+			<skill id="4416" level="10"/>
+			<skill id="4409" level="1"/>
+			<skill id="4408" level="1"/>
+			<skill id="4121" level="1"/>
+			<skill id="4410" level="11"/>
+			<skill id="4411" level="11"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="12528" name="Twilight Strider" title="" name_ru="Дракон Сумерек" title_ru="" pts_name="twilight_strider"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.ru-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="55"/>
+		<set name="exp" value="70853089"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="dragon"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="23"/>
+		<set name="collision_height" value="31"/>
+		<set name="HitTimeFactor" value="0.25"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="1673.05473"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="889.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="388"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="164"/>
+		<set name="baseMAtk" value="265"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="224"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="86400"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4412" level="11"/>
+			<skill id="4414" level="2"/>
+			<skill id="4413" level="11"/>
+			<skill id="4415" level="1"/>
+			<skill id="4416" level="10"/>
+			<skill id="4409" level="1"/>
+			<skill id="4408" level="1"/>
+			<skill id="4121" level="1"/>
+			<skill id="4410" level="11"/>
+			<skill id="4411" level="11"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="12564" name="Sin Eater" title="" name_ru="Чревоугодник" title_ru="" pts_name="sin_eater"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.ru-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="15"/>
+		<set name="exp" value="254330"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="fairy"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="10"/>
+		<set name="collision_height" value="24"/>
+		<set name="HitTimeFactor" value="0.34"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="125"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="1"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="424.2"/>
+		<set name="baseHpReg" value="7.2513"/>
+		<set name="baseMpMax" value="149.2"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="baseAtkType" value="FIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="30"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="54"/>
+		<set name="baseMAtk" value="20"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="74"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="86400"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4412" level="11"/>
+			<skill id="4414" level="2"/>
+			<skill id="4413" level="11"/>
+			<skill id="4415" level="1"/>
+			<skill id="4416" level="13"/>
+			<skill id="4409" level="1"/>
+			<skill id="4408" level="1"/>
+			<skill id="4121" level="1"/>
+			<skill id="4410" level="11"/>
+			<skill id="4411" level="11"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc> 
+</list>

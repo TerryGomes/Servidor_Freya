@@ -1,0 +1,440 @@
+2022-08-31 12:37:08,448 INFO l.g.GameServer [main] - ======================================================================================================
+2022-08-31 12:37:08,490 INFO l.g.GameServer [main] - Nome Licenciado: ......................................................... null
+2022-08-31 12:37:08,491 INFO l.g.GameServer [main] - Licenciado para IP: ...................................................... 127.0.0.1
+2022-08-31 12:37:08,491 INFO l.g.GameServer [main] - Start: ................................................................... GAME SERVER
+2022-08-31 12:37:08,492 INFO l.g.GameServer [main] - Nome: .................................................................... TerryMaster
+2022-08-31 12:37:08,493 INFO l.g.GameServer [main] - Team: ....................................................................  DevHibrido
+2022-08-31 12:37:08,494 INFO l.g.GameServer [main] - Site: ..................................................................... www.l2multverso.com.br
+2022-08-31 12:37:08,494 INFO l.g.GameServer [main] - =====================================================================================================
+2022-08-31 12:37:08,494 INFO l.g.GameServer [main] - Revision: ................................................................. Freya 3.0
+2022-08-31 12:37:08,494 INFO l.g.GameServer [main] - Version: .................................................................. 3.0
+2022-08-31 12:37:08,495 INFO l.g.GameServer [main] - Build date: ............................................................... 2022.08.31 12:35
+2022-08-31 12:37:08,495 INFO l.g.GameServer [main] - Compiler version: ......................................................... 18.0.1.1+2-6 (Oracle Corporation)
+2022-08-31 12:37:08,495 INFO l.g.GameServer [main] - ====================================================================================================
+2022-08-31 12:37:08,497 INFO l.c.u.SystemUtil [main] - =======================================================
+2022-08-31 12:37:08,497 INFO l.c.u.SystemUtil [main] - System Time: 31-08-2022 12:37:08 PM
+2022-08-31 12:37:08,497 INFO l.c.u.SystemUtil [main] - =======================================================
+2022-08-31 12:37:08,502 INFO l.c.u.SystemUtil [main] - OS: Windows 10 Build: 10.0
+2022-08-31 12:37:08,502 INFO l.c.u.SystemUtil [main] - OS Arch: amd64
+2022-08-31 12:37:08,502 INFO l.c.u.SystemUtil [main] - Process ID: 4500
+2022-08-31 12:37:08,503 INFO l.c.u.SystemUtil [main] - =======================================================
+2022-08-31 12:37:08,503 INFO l.c.u.SystemUtil [main] - Avaible CPU(s): 8
+2022-08-31 12:37:08,503 INFO l.c.u.SystemUtil [main] - Processor(s) Identifier: Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+2022-08-31 12:37:08,503 INFO l.c.u.SystemUtil [main] - =======================================================
+2022-08-31 12:37:08,505 INFO l.c.u.SystemUtil [main] - Runtime Information
+2022-08-31 12:37:08,505 INFO l.c.u.SystemUtil [main] - Current Free Heap Size: 3,0 GB
+2022-08-31 12:37:08,505 INFO l.c.u.SystemUtil [main] - Current Heap Size: 3,0 GB
+2022-08-31 12:37:08,505 INFO l.c.u.SystemUtil [main] - Maximum Heap Size: 3,0 GB
+2022-08-31 12:37:08,506 INFO l.c.u.SystemUtil [main] - =======================================================
+2022-08-31 12:37:08,508 INFO l.c.u.SystemUtil [main] - Java Platform Information
+2022-08-31 12:37:08,509 INFO l.c.u.SystemUtil [main] - Java Runtime  Name: Java(TM) SE Runtime Environment
+2022-08-31 12:37:08,509 INFO l.c.u.SystemUtil [main] - Java Version: 18.0.1.1
+2022-08-31 12:37:08,509 INFO l.c.u.SystemUtil [main] - Java Class Version: 62.0
+2022-08-31 12:37:08,510 INFO l.c.u.SystemUtil [main] - =======================================================
+2022-08-31 12:37:08,511 INFO l.c.u.SystemUtil [main] - Virtual Machine Information (JVM)
+2022-08-31 12:37:08,511 INFO l.c.u.SystemUtil [main] - JVM Name: Java HotSpot(TM) 64-Bit Server VM
+2022-08-31 12:37:08,511 INFO l.c.u.SystemUtil [main] - JVM directory: C:\Program Files\Java\jdk-18.0.1.1
+2022-08-31 12:37:08,512 INFO l.c.u.SystemUtil [main] - JVM version: 18.0.1.1+2-6
+2022-08-31 12:37:08,512 INFO l.c.u.SystemUtil [main] - JVM Vendor: Oracle Corporation
+2022-08-31 12:37:08,513 INFO l.c.u.SystemUtil [main] - JVM Info: mixed mode, sharing
+2022-08-31 12:37:08,513 INFO l.c.u.SystemUtil [main] - =======================================================
+2022-08-31 12:37:08,514 INFO l.g.GameServer [main] - Initialize config: ........
+2022-08-31 12:37:08,586 INFO l.g.Config [main] - Abuse: Loaded 18 abuse words.
+2022-08-31 12:37:08,648 INFO l.g.GameServer [main] - Initialize database: ........
+2022-08-31 12:37:08,730 INFO l.g.d.DatabaseFactory [main] - Database connection working, started HikariDataSource (HikariPool-1).
+2022-08-31 12:37:08,730 INFO l.g.GameServer [main] - Checking database: ........
+2022-08-31 12:37:09,150 INFO l.c.d.DbUtils [main] - DbUtils: Database tables have been repaired.
+2022-08-31 12:37:09,207 INFO l.c.d.DbUtils [main] - DbUtils: Database tables have been checked.
+2022-08-31 12:37:09,222 INFO l.c.d.DbUtils [main] - DbUtils: Database tables have been analyzed.
+2022-08-31 12:37:09,808 INFO l.c.d.DbUtils [main] - DbUtils: Database tables have been optimized.
+2022-08-31 12:37:09,813 INFO l.g.i.BitSetIDFactory [main] - IdFactory: 205824 id's available.
+2022-08-31 12:37:09,818 INFO l.g.d.p.PTSDataLoader [main] - /======== Loading PTS scripts data ========/
+2022-08-31 12:37:10,487 INFO l.g.d.p.d.h.AirshipHolder [main] - AirshipHolder: loaded 35 airship(s) count.
+2022-08-31 12:37:11,019 INFO l.g.d.p.d.h.AreaDataHolder [main] - AreaDataHolder: loaded 2525 area data(s) count.
+2022-08-31 12:37:11,029 INFO l.g.d.p.d.h.ArmorEnchantBonusDataHolder [main] - ArmorEnchantBonusDataHolder: loaded 80 armor enchant bonus data(s) count.
+2022-08-31 12:37:11,044 INFO l.g.d.p.d.h.AuctionDataHolder [main] - AuctionDataHolder: loaded 3 auction data(s) count.
+2022-08-31 12:37:11,056 INFO l.g.d.p.d.h.BuilderCmdAliasHolder [main] - BuilderCmdAliasHolder: loaded 309 builder cmd alias(s) count.
+2022-08-31 12:37:11,193 INFO l.g.d.p.d.h.CastleDataHolder [main] - CastleDataHolder: loaded 180 castle data(s) count.
+2022-08-31 12:37:11,210 INFO l.g.d.p.d.h.CategoryDataHolder [main] - CategoryDataHolder: loaded 114 category data(s) count.
+2022-08-31 12:37:11,229 INFO l.g.d.p.d.h.ConvertDataHolder [main] - ConvertDataHolder: loaded 726 convert data(s) count.
+2022-08-31 12:37:11,274 INFO l.g.d.p.d.h.CubicDataHolder [main] - CubicDataHolder: loaded 189 cubic data(s) count.
+2022-08-31 12:37:11,283 INFO l.g.d.p.d.h.CursedWeaponDataHolder [main] - CursedWeaponDataHolder: loaded 2 cursed weapon data(s) count.
+2022-08-31 12:37:11,294 INFO l.g.d.p.d.h.DecoDataHolder [main] - DecoDataHolder: loaded 84 deco data(s) count.
+2022-08-31 12:37:11,504 INFO l.g.d.p.d.h.DoorDataHolder [main] - DoorDataHolder: loaded 1316 door data(s) count.
+2022-08-31 12:37:11,528 INFO l.g.d.p.d.h.DyeDataHolder [main] - DyeDataHolder: loaded 180 dye data(s) count.
+2022-08-31 12:37:11,538 INFO l.g.d.p.d.h.ExpDataHolder [main] - ExpDataHolder: loaded 100 exp data(s) count.
+2022-08-31 12:37:11,554 INFO l.g.d.p.d.h.FieldCycleHolder [main] - FieldCycleHolder: loaded 3 field cycle(s) count.
+2022-08-31 12:37:11,599 INFO l.g.d.p.d.h.FishingDataHolder [main] - FishingDataHolder: loaded 369 fishing data(s) count.
+2022-08-31 12:37:11,610 INFO l.g.d.p.d.h.FormationInfoHolder [main] - FormationInfoHolder: loaded 1 formation info(s) count.
+2022-08-31 12:37:11,628 INFO l.g.d.p.d.h.FreewayInfoHolder [main] - FreewayInfoHolder: loaded 36 freeway info(s) count.
+2022-08-31 12:37:11,680 INFO l.g.d.p.d.h.FStringHolder [main] - FStringHolder: loaded 5050 f string(s) count.
+2022-08-31 12:37:11,725 INFO l.g.d.p.d.h.InstantZoneDataHolder [main] - InstantZoneDataHolder: loaded 151 instant zone data(s) count.
+2022-08-31 12:37:16,604 INFO l.g.d.p.d.h.ItemDataHolder [main] - ItemDataHolder: loaded 18307 item data(s) count.
+2022-08-31 12:37:16,621 INFO l.g.d.p.d.h.ManorDataHolder [main] - ManorDataHolder: loaded 9 manor data(s) count.
+2022-08-31 12:37:16,632 INFO l.g.d.p.d.h.MinigameHolder [main] - MinigameHolder: loaded 1 minigame(s) count.
+2022-08-31 12:37:16,645 INFO l.g.d.p.d.h.MonraceHolder [main] - MonraceHolder: loaded 33 monrace(s) count.
+2022-08-31 12:37:16,971 INFO l.g.d.p.d.h.MultisellHolder [main] - MultisellHolder: loaded 227 multisell(s) count.
+2022-08-31 12:37:18,878 WARN l.g.d.p.d.c.AbstractDataParser [main] - @bestacon_elite_clan
+java.lang.NoSuchFieldException: @bestacon_elite_clan
+	at l2mv.gameserver.data.pts.data.Parser.doLinkedArray(Parser.java:374) ~[gameserver.jar:?]
+	at l2mv.gameserver.data.pts.data.Parser.parseClass(Parser.java:216) ~[gameserver.jar:?]
+	at l2mv.gameserver.data.pts.data.Parser.parseClass(Parser.java:94) ~[gameserver.jar:?]
+	at l2mv.gameserver.data.pts.data.Parser.doElementAnnotation(Parser.java:1014) ~[gameserver.jar:?]
+	at l2mv.gameserver.data.pts.data.Parser.parseClass(Parser.java:111) ~[gameserver.jar:?]
+	at l2mv.gameserver.data.pts.data.common.AbstractDataParser.parse(AbstractDataParser.java:64) [gameserver.jar:?]
+	at l2mv.commons.data.xml.AbstractParser.load(AbstractParser.java:57) [commons.jar:?]
+	at l2mv.gameserver.data.pts.PTSDataLoader.load(PTSDataLoader.java:89) [gameserver.jar:?]
+	at l2mv.gameserver.GameServer.<init>(GameServer.java:178) [gameserver.jar:?]
+	at l2mv.gameserver.GameServer.main(GameServer.java:332) [gameserver.jar:?]
+2022-08-31 12:37:18,882 INFO l.g.d.p.d.h.NpcDataHolder [main] - NpcDataHolder: loaded 2362 npc data(s) count.
+2022-08-31 12:37:21,915 INFO l.g.d.p.d.h.NpcPosHolder [main] - NpcPosHolder: loaded 16009 npc pos(s) count.
+2022-08-31 12:37:22,193 INFO l.g.d.p.d.h.PetDataHolder [main] - PetDataHolder: loaded 49 pet data(s) count.
+2022-08-31 12:37:22,254 INFO l.g.d.p.d.h.SettingHolder [main] - SettingHolder: loaded 11 setting(s) count.
+2022-08-31 12:37:22,570 INFO l.g.d.p.d.h.TransformHolder [main] - TransformHolder: loaded 98 transform(s) count.
+2022-08-31 12:37:23,344 INFO l.g.d.p.d.h.PCParameterHolder [main] - PCParameterHolder: loaded 103 p c parameter(s) count.
+2022-08-31 12:37:38,701 INFO l.g.d.p.d.h.SkillDataHolder [main] - SkillDataHolder: loaded 64802 skill data(s) count.
+2022-08-31 12:37:40,604 INFO l.g.d.p.d.h.SkillAcquireHolder [main] - SkillAcquireHolder: loaded 103 skill acquire(s) count.
+2022-08-31 12:37:40,631 INFO l.g.d.p.d.h.UserBasicActionHolder [main] - UserBasicActionHolder: loaded 184 user basic action(s) count.
+2022-08-31 12:37:40,829 INFO l.g.d.p.d.h.VariationDataHolder [main] - VariationDataHolder: loaded 894 variation data(s) count.
+2022-08-31 12:37:40,830 INFO l.g.d.p.PTSDataLoader [main] - /======== End loading PTS scripts data ========/
+2022-08-31 12:37:40,870 INFO l.g.s.Scripts [main] - Scripts: Loading compiled scripts...
+2022-08-31 12:37:41,331 INFO l.g.s.Scripts [main] - Scripts: Loaded 1156 classes.
+2022-08-31 12:37:41,342 INFO l.g.g.GeoEngine [main] - GeoEngine: Loading Geodata...
+2022-08-31 12:37:42,956 INFO l.g.g.GeoEngine [main] - GeoEngine: Loaded 196 map(s), max layers: 21
+2022-08-31 12:37:42,973 INFO l.g.u.Strings [main] - Loaded 418 translit entries.
+2022-08-31 12:37:42,974 INFO l.g.GameTimeController [main] - GameTimeController: initialized. Current time is 9:46 in the day.
+2022-08-31 12:37:42,975 INFO l.g.m.w.World [main] - L2World: Creating regions: [256][272][32].
+2022-08-31 12:37:42,994 INFO l.g.c.HtmCache [main] - HtmCache: disabled.
+2022-08-31 12:37:43,056 INFO l.g.d.x.h.StringHolder [main] - StringHolder: load strings: 694 for lang: RUSSIAN
+2022-08-31 12:37:43,056 INFO l.g.d.x.h.StringHolder [main] - StringHolder: load strings: 694 for lang: ENGLISH
+2022-08-31 12:37:43,294 INFO l.g.d.c.h.NpcNameLineHolder [main] - NpcNameLineHolder: load npcname line(s): 10460 for lang: ENGLISH
+2022-08-31 12:37:43,294 INFO l.g.d.c.h.NpcNameLineHolder [main] - NpcNameLineHolder: load npcname line(s): 10456 for lang: RUSSIAN
+2022-08-31 12:37:43,295 INFO l.g.d.c.h.NpcNameLineHolder [main] - NpcNameLineHolder: load 3592 blacklist names
+2022-08-31 12:37:43,301 INFO l.g.d.c.h.TransformDataLineHolder [main] - TransformDataLineHolder: load transformdata line(s): 111 for sex: FEMALE
+2022-08-31 12:37:43,301 INFO l.g.d.c.h.TransformDataLineHolder [main] - TransformDataLineHolder: load transformdata line(s): 111 for sex: MALE
+2022-08-31 12:37:43,323 INFO l.g.d.c.h.ArmorgrpLineHolder [main] - ArmorgrpLineHolder: loaded 3649 armorgrp line(s) count.
+2022-08-31 12:37:43,346 INFO l.g.d.c.h.WeapongrpLineHolder [main] - WeapongrpLineHolder: loaded 4051 weapongrp line(s) count.
+2022-08-31 12:37:43,397 INFO l.g.d.c.h.EtcitemgrpLineHolder [main] - EtcitemgrpLineHolder: loaded 11446 etcitemgrp line(s) count.
+2022-08-31 12:37:43,405 INFO l.g.d.x.h.SkillEnchantGroupHolder [main] - SkillEnchantGroupHolder: loaded 4 skill enchant group(s) count.
+2022-08-31 12:37:45,531 INFO l.g.s.SkillsEngine [main] - SkillsEngine: Loaded 65709 skill templates from XML files. Max id: 90001, max level: 259
+2022-08-31 12:37:46,506 INFO l.g.d.x.h.ItemTemplateHolder [main] - ItemTemplateHolder: loaded 15592 item template(s) count.
+2022-08-31 12:37:46,508 INFO l.g.m.p.ConvertWeaponManager [main] - PTS ConvertWeaponManager initialized with 726 ConvertData
+2022-08-31 12:37:46,511 INFO l.g.d.x.h.DressHolder [main] - DressHolder: load 1 Dress Suite Template
+2022-08-31 12:37:46,512 INFO l.g.d.x.h.DressHolder [main] - DressHolder: load 1 Weapon Suite Template
+2022-08-31 12:37:46,512 INFO l.g.d.x.h.DressHolder [main] - DressHolder: load 1 Shield Suite Template
+2022-08-31 12:37:48,386 INFO l.g.d.x.h.NpcHolder [main] - NpcHolder: loaded 9694 npc(s) count.
+2022-08-31 12:37:48,498 INFO l.g.d.x.h.PetDataHolder [main] - PetDataHolder: loaded 33 pet data(s) count.
+2022-08-31 12:37:48,795 INFO l.g.d.x.h.OptionDataHolder [main] - OptionDataHolder: loaded 24985 option data(s) count.
+2022-08-31 12:37:48,797 INFO l.g.d.x.h.ItemsOnLevelHolder [main] - ItemsOnLevelHolder: loaded 0 items on level(s) count.
+2022-08-31 12:37:48,799 INFO l.g.m.p.CategoryDataManager [main] - PTS CategoryDataManager initialized with 114 CategoryData
+2022-08-31 12:37:48,813 INFO l.g.d.x.h.SuperPointHolder [main] - SuperPointHolder: loaded 357 super point(s) count.
+2022-08-31 12:37:48,819 INFO l.g.d.x.h.HitCondBonusHolder [main] - HitCondBonusHolder: loaded 7 hit cond bonus(s) count.
+2022-08-31 12:37:48,831 INFO l.g.m.MapRegionManager [main] - MapRegionManager: loaded 272 map region manager(s) count.
+2022-08-31 12:37:48,846 INFO l.g.m.MapRegionManager [main] - MapRegionManager: loaded 272 map region manager(s) count.
+2022-08-31 12:37:48,849 INFO l.g.d.x.h.StaticObjectHolder [main] - StaticObjectHolder: loaded 50 static object(s) count.
+2022-08-31 12:37:48,918 INFO l.g.d.x.h.DoorHolder [main] - DoorHolder: loaded 1148 door(s) count.
+2022-08-31 12:37:48,966 INFO l.g.d.x.h.ZoneHolder [main] - ZoneHolder: loaded 1404 zone(s) count.
+2022-08-31 12:37:49,137 INFO l.g.d.x.h.TerritoryHolder [main] - TerritoryHolder: loaded 12741 territory(s) count.
+2022-08-31 12:37:49,531 INFO l.g.d.x.h.SpawnHolder [main] - SpawnHolder: loaded 29477 spawn(s) count.
+2022-08-31 12:37:49,590 INFO l.g.d.x.h.InstantTemplateHolder [main] - InstantTemplateHolder: loaded 119 instant template(s) count.
+2022-08-31 12:37:49,595 INFO l.g.d.x.h.CtFArenaHolder [main] - CtFArenaHolder: loaded 4 ct f arena(s) count.
+2022-08-31 12:37:49,598 INFO l.g.d.x.h.KoreanStyleArenaHolder [main] - KoreanStyleArenaHolder: loaded 4 korean style arena(s) count.
+2022-08-31 12:37:49,603 INFO l.g.d.x.h.LastHeroArenaHolder [main] - LastHeroArenaHolder: loaded 4 last hero arena(s) count.
+2022-08-31 12:37:49,607 INFO l.g.d.x.h.TvTArenaHolder [main] - TvTArenaHolder: loaded 4 tv t arena(s) count.
+2022-08-31 12:37:50,312 INFO l.g.d.x.h.AirshipDockHolder [main] - AirshipDockHolder: loaded 3 airship dock(s) count.
+2022-08-31 12:37:50,367 INFO l.g.d.x.h.SkillAcquireHolder [main] - SkillAcquireHolder: load 56338 skillTrade learns for 103 classes.
+2022-08-31 12:37:50,367 INFO l.g.d.x.h.SkillAcquireHolder [main] - SkillAcquireHolder: load 56338 normal learns for 103 classes.
+2022-08-31 12:37:50,369 INFO l.g.d.x.h.SkillAcquireHolder [main] - SkillAcquireHolder: load 79 transfer learns for 3 classes.
+2022-08-31 12:37:50,369 INFO l.g.d.x.h.SkillAcquireHolder [main] - SkillAcquireHolder: load 120 transformation learns for 6 races.
+2022-08-31 12:37:50,370 INFO l.g.d.x.h.SkillAcquireHolder [main] - SkillAcquireHolder: load 662 fishing learns for 6 races.
+2022-08-31 12:37:50,370 INFO l.g.d.x.h.SkillAcquireHolder [main] - SkillAcquireHolder: load 72 certification learns.
+2022-08-31 12:37:50,371 INFO l.g.d.x.h.SkillAcquireHolder [main] - SkillAcquireHolder: load 3 collection learns.
+2022-08-31 12:37:50,371 INFO l.g.d.x.h.SkillAcquireHolder [main] - SkillAcquireHolder: load 44 pledge learns.
+2022-08-31 12:37:50,372 INFO l.g.d.x.h.SkillAcquireHolder [main] - SkillAcquireHolder: load 18 sub unit learns.
+2022-08-31 12:37:50,440 INFO l.g.d.x.h.ResidenceHolder [main] - ResidenceHolder: total size: 83
+2022-08-31 12:37:50,440 INFO l.g.d.x.h.ResidenceHolder [main] - ResidenceHolder:  - load 9 dominion(s).
+2022-08-31 12:37:50,441 INFO l.g.d.x.h.ResidenceHolder [main] - ResidenceHolder:  - load 9 castle(s).
+2022-08-31 12:37:50,442 INFO l.g.d.x.h.ResidenceHolder [main] - ResidenceHolder:  - load 44 clanhall(s).
+2022-08-31 12:37:50,443 INFO l.g.d.x.h.ResidenceHolder [main] - ResidenceHolder:  - load 21 fortress(s).
+2022-08-31 12:37:50,467 INFO l.g.d.x.h.FStringHolder [main] - FStringHolder: loaded 5912 f string(s) count.
+2022-08-31 12:37:50,519 INFO l.g.m.s.RaidBossSpawnManager [main] - RaidBossSpawnManager: Loaded 0 Statuses
+2022-08-31 12:37:50,536 INFO l.g.m.e.SevenSigns [main] - SevenSigns: Currently in the Competition (Quest Event) period!
+2022-08-31 12:37:50,536 INFO l.g.m.e.SevenSigns [main] - SevenSigns: The Seal of Avarice remains unclaimed.
+2022-08-31 12:37:50,537 INFO l.g.m.e.SevenSigns [main] - SevenSigns: The Seal of Gnosis remains unclaimed.
+2022-08-31 12:37:50,537 INFO l.g.m.e.SevenSigns [main] - SevenSigns: The Seal of Strife remains unclaimed.
+2022-08-31 12:37:50,538 INFO l.g.m.e.SevenSigns [main] - SevenSigns: The Competition this week, if the trend continue, will end with a tie.
+2022-08-31 12:37:50,539 INFO l.g.m.e.SevenSigns [main] - SevenSigns: Next period begins in 5 days, 5 hours and 22 mins.
+2022-08-31 12:37:50,601 INFO l.g.d.x.h.EventHolder [main] - EventHolder: loaded 105 event(s) count.
+2022-08-31 12:37:50,660 INFO l.g.d.x.h.BuyListHolder [main] - TradeController: Loaded 4 file(s).
+2022-08-31 12:37:50,660 INFO l.g.d.x.h.BuyListHolder [main] - TradeController: Loaded 26365 Items.
+2022-08-31 12:37:50,661 INFO l.g.d.x.h.BuyListHolder [main] - TradeController: Loaded 756 Buylists.
+2022-08-31 12:37:50,681 INFO l.g.d.x.h.RecipeHolder [main] - RecipeController: Loaded 935 Recipes.
+2022-08-31 12:37:50,686 INFO l.g.d.x.h.ProductHolder [main] - ProductItemTable: Loaded 190 product item on sale.
+2022-08-31 12:37:50,834 INFO l.g.d.x.h.MultiSellHolder [main] - MultiSellHolder: loaded 246 multi sell(s) count.
+2022-08-31 12:37:50,893 INFO l.g.d.x.h.AugmentationDataHolder [main] - AugmentationDataHolder: loaded 863 augmentation data(s) count.
+2022-08-31 12:37:50,895 INFO l.g.m.p.DyeDataManager [main] - PTS DyeDataManager initialized with 180 Dye's data
+2022-08-31 12:37:50,917 INFO l.g.d.x.h.EnchantItemHolder [main] - EnchantItemHolder: load 47 enchant scroll(s).
+2022-08-31 12:37:50,917 INFO l.g.d.x.h.EnchantItemHolder [main] - EnchantItemHolder: load 20 enchant support(s).
+2022-08-31 12:37:50,917 INFO l.g.d.x.h.EnchantItemHolder [main] - EnchantItemHolder: load 7 enchant variation(s).
+2022-08-31 12:37:50,920 INFO l.g.d.x.h.SoulCrystalHolder [main] - SoulCrystalHolder: loaded 48 soul crystal(s) count.
+2022-08-31 12:37:50,924 INFO l.g.d.x.h.ArmorSetsHolder [main] - ArmorSetsHolder: loaded 198 armor sets(s) count.
+2022-08-31 12:37:50,939 INFO l.g.d.x.h.FishDataHolder [main] - FishDataHolder: load 271 fish(es).
+2022-08-31 12:37:50,939 INFO l.g.d.x.h.FishDataHolder [main] - FishDataHolder: load 30 lure(s).
+2022-08-31 12:37:50,940 INFO l.g.d.x.h.FishDataHolder [main] - FishDataHolder: load 4 distribution(s).
+2022-08-31 12:37:50,943 INFO l.g.d.x.h.PetitionGroupHolder [main] - PetitionGroupHolder: loaded 1 petition group(s) count.
+2022-08-31 12:37:50,950 INFO l.g.d.x.h.CommunityBufferHolder [main] - CommunityBufferHolder: Loaded Community buff's 87 count
+2022-08-31 12:37:50,950 INFO l.g.d.x.h.CommunityBufferHolder [main] - CommunityBufferHolder: Loaded Community Group Fighter : 24 buff's count
+2022-08-31 12:37:50,950 INFO l.g.d.x.h.CommunityBufferHolder [main] - CommunityBufferHolder: Loaded Community Group Mage : 26 buff's count
+2022-08-31 12:37:50,951 INFO l.g.d.x.h.CommunityBufferHolder [main] - CommunityBufferHolder: Loaded Community Group Maximum Speed : 4 buff's count
+2022-08-31 12:37:50,953 INFO l.g.d.x.h.CommunityBufferHolder [main] - CommunityBufferHolder: Loaded Community Fast Group Fighter : 24 buff's count
+2022-08-31 12:37:50,954 INFO l.g.d.x.h.CommunityBufferHolder [main] - CommunityBufferHolder: Loaded Community Fast Group Mage : 26 buff's count
+2022-08-31 12:37:50,956 INFO l.g.d.x.h.CommunityTeleportHolder [main] - CommunityTeleportHolder: loaded 3 community teleport(s) count.
+2022-08-31 12:37:50,958 INFO l.g.c.CrestCache [main] - CrestCache: Loaded PledgeCrests 0 crests
+2022-08-31 12:37:50,958 INFO l.g.c.CrestCache [main] - CrestCache: Loaded PledgeCrestsLarge 0 crests
+2022-08-31 12:37:50,959 INFO l.g.c.CrestCache [main] - CrestCache: Loaded AllyCrest 0 crests
+2022-08-31 12:37:50,969 INFO l.g.t.SkillTreeTable [main] - SkillTreeTable: Loaded 523 enchanted skills.
+2022-08-31 12:37:50,970 INFO l.g.GameServer [main] - =================[banco de Imagens]======================================
+2022-08-31 12:37:50,971 INFO l.g.c.ImagesCache [main] - ImagesCache: Loading images...
+2022-08-31 12:38:20,691 INFO l.g.c.ImagesCache [main] - ImagesCache: Loaded 8611 images
+2022-08-31 12:38:20,692 INFO l.g.t.AugmentationData [main] - Initializing AugmentationData.
+2022-08-31 12:38:20,712 INFO l.g.t.AugmentationData [main] - AugmentationData: 10 bad skill(s) were skipped.
+2022-08-31 12:38:20,726 INFO l.g.t.AugmentationData [main] - AugmentationData: Loaded: 52 augmentation stats.
+2022-08-31 12:38:20,726 INFO l.g.t.AugmentationData [main] - AugmentationData: Loaded: 24 accessory augmentation stats.
+2022-08-31 12:38:20,727 INFO l.g.t.AugmentationData [main] - AugmentationData: Loaded: 17 blue, 106 purple and 54 red skills for lifeStoneLevel 0
+2022-08-31 12:38:20,727 INFO l.g.t.AugmentationData [main] - AugmentationData: Loaded: 17 blue, 106 purple and 54 red skills for lifeStoneLevel 1
+2022-08-31 12:38:20,728 INFO l.g.t.AugmentationData [main] - AugmentationData: Loaded: 17 blue, 106 purple and 54 red skills for lifeStoneLevel 2
+2022-08-31 12:38:20,729 INFO l.g.t.AugmentationData [main] - AugmentationData: Loaded: 17 blue, 106 purple and 54 red skills for lifeStoneLevel 3
+2022-08-31 12:38:20,729 INFO l.g.t.AugmentationData [main] - AugmentationData: Loaded: 17 blue, 106 purple and 54 red skills for lifeStoneLevel 4
+2022-08-31 12:38:20,730 INFO l.g.t.AugmentationData [main] - AugmentationData: Loaded: 17 blue, 106 purple and 54 red skills for lifeStoneLevel 5
+2022-08-31 12:38:20,730 INFO l.g.t.AugmentationData [main] - AugmentationData: Loaded: 17 blue, 106 purple and 54 red skills for lifeStoneLevel 6
+2022-08-31 12:38:20,731 INFO l.g.t.AugmentationData [main] - AugmentationData: Loaded: 17 blue, 106 purple and 54 red skills for lifeStoneLevel 7
+2022-08-31 12:38:20,732 INFO l.g.t.AugmentationData [main] - AugmentationData: Loaded: 17 blue, 106 purple and 54 red skills for lifeStoneLevel 8
+2022-08-31 12:38:20,732 INFO l.g.t.AugmentationData [main] - AugmentationData: Loaded: 17 blue, 106 purple and 54 red skills for lifeStoneLevel 9
+2022-08-31 12:38:20,738 INFO l.g.m.GiftManager [main] - GiftManager loaded : 0 gifted players
+2022-08-31 12:38:20,747 INFO l.g.t.PetSkillsTable [main] - PetSkillsTable: Loaded 2469 skills.
+2022-08-31 12:38:20,758 INFO l.g.m.i.ItemAuctionInstance [main] - ItemAuction: Loaded 30 item(s) and registered 4 auction(s) for instance 32320.
+2022-08-31 12:38:20,759 INFO l.g.m.i.ItemAuctionInstance [main] - ItemAuction: Schedule next auction 10 on 2022.09.06 17:00:00 for instance 32320
+2022-08-31 12:38:20,761 INFO l.g.m.i.ItemAuctionInstance [main] - ItemAuction: Loaded 30 item(s) and registered 3 auction(s) for instance 32321.
+2022-08-31 12:38:20,761 INFO l.g.m.i.ItemAuctionInstance [main] - ItemAuction: Schedule next auction 8 on 2022.09.01 17:00:00 for instance 32321
+2022-08-31 12:38:20,765 INFO l.g.m.i.ItemAuctionInstance [main] - ItemAuction: Loaded 30 item(s) and registered 4 auction(s) for instance 32322.
+2022-08-31 12:38:20,765 INFO l.g.m.i.ItemAuctionInstance [main] - ItemAuction: Schedule next auction 11 on 2022.09.03 17:00:00 for instance 32322
+2022-08-31 12:38:20,765 INFO l.g.m.i.ItemAuctionManager [main] - ItemAuctionManager: Loaded 3 instance(s).
+2022-08-31 12:38:20,767 INFO l.g.d.BoatHolder [main] - BoatHolder: loaded 6 boat(s) count.
+2022-08-31 12:38:20,771 INFO l.g.d.BoatHolder [main] - BoatHolder: Spawning: AdenGracia_Airship
+2022-08-31 12:38:20,772 INFO l.g.d.BoatHolder [main] - BoatHolder: Spawning: GiranTalkin_Vehicle
+2022-08-31 12:38:20,773 INFO l.g.d.BoatHolder [main] - BoatHolder: Spawning: GludinRune_Vehicle
+2022-08-31 12:38:20,774 INFO l.g.d.BoatHolder [main] - BoatHolder: Spawning: InnadrilPleasure_Vehicle
+2022-08-31 12:38:20,774 INFO l.g.d.BoatHolder [main] - BoatHolder: Spawning: RunePrimeval_Vehicle
+2022-08-31 12:38:20,775 INFO l.g.d.BoatHolder [main] - BoatHolder: Spawning: TalkingGludin_Vehicle
+2022-08-31 12:38:20,778 INFO l.g.d.x.h.StaticObjectHolder [main] - StaticObjectHolder: spawned: 50 static object(s).
+2022-08-31 12:38:20,858 INFO l.g.m.Manor [main] - Manor: Loaded 256 Seeds.
+2022-08-31 12:38:20,984 WARN l.g.d.x.h.NpcHolder [main] - NpcHolder: Not defined npc id : 55500, or out of range!
+java.lang.Exception
+	at l2mv.gameserver.data.xml.holder.NpcHolder.getTemplate(NpcHolder.java:48) ~[gameserver.jar:?]
+	at l2mv.gameserver.model.quest.Quest.addEventId(Quest.java:511) ~[gameserver.jar:?]
+	at l2mv.gameserver.model.quest.Quest.addTalkId(Quest.java:669) ~[gameserver.jar:?]
+	at l2mv.gameserver.model.quest.Quest.addStartNpc(Quest.java:638) ~[gameserver.jar:?]
+	at quests._9999_Multiclass.<init>(_9999_Multiclass.java:42) ~[scripts.jar:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at l2mv.gameserver.scripts.Scripts.initClass(Scripts.java:198) ~[gameserver.jar:?]
+	at l2mv.gameserver.scripts.Scripts.lambda$init$1(Scripts.java:181) ~[gameserver.jar:?]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at l2mv.gameserver.scripts.Scripts.init(Scripts.java:179) [gameserver.jar:?]
+	at l2mv.gameserver.GameServer.<init>(GameServer.java:207) [gameserver.jar:?]
+	at l2mv.gameserver.GameServer.main(GameServer.java:332) [gameserver.jar:?]
+2022-08-31 12:38:20,986 WARN l.g.d.x.h.NpcHolder [main] - NpcHolder: Not defined npc id : 55500, or out of range!
+java.lang.Exception
+	at l2mv.gameserver.data.xml.holder.NpcHolder.getTemplate(NpcHolder.java:48) ~[gameserver.jar:?]
+	at l2mv.gameserver.model.quest.Quest.addEventId(Quest.java:511) ~[gameserver.jar:?]
+	at l2mv.gameserver.model.quest.Quest.addStartNpc(Quest.java:639) ~[gameserver.jar:?]
+	at quests._9999_Multiclass.<init>(_9999_Multiclass.java:42) ~[scripts.jar:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at l2mv.gameserver.scripts.Scripts.initClass(Scripts.java:198) ~[gameserver.jar:?]
+	at l2mv.gameserver.scripts.Scripts.lambda$init$1(Scripts.java:181) ~[gameserver.jar:?]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at l2mv.gameserver.scripts.Scripts.init(Scripts.java:179) [gameserver.jar:?]
+	at l2mv.gameserver.GameServer.<init>(GameServer.java:207) [gameserver.jar:?]
+	at l2mv.gameserver.GameServer.main(GameServer.java:332) [gameserver.jar:?]
+2022-08-31 12:38:20,989 WARN l.g.d.x.h.NpcHolder [main] - NpcHolder: Not defined npc id : 55500, or out of range!
+java.lang.Exception
+	at l2mv.gameserver.data.xml.holder.NpcHolder.getTemplate(NpcHolder.java:48) ~[gameserver.jar:?]
+	at l2mv.gameserver.model.quest.Quest.addEventId(Quest.java:511) ~[gameserver.jar:?]
+	at l2mv.gameserver.model.quest.Quest.addTalkId(Quest.java:669) ~[gameserver.jar:?]
+	at quests._9999_Multiclass.<init>(_9999_Multiclass.java:43) ~[scripts.jar:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at l2mv.gameserver.scripts.Scripts.initClass(Scripts.java:198) ~[gameserver.jar:?]
+	at l2mv.gameserver.scripts.Scripts.lambda$init$1(Scripts.java:181) ~[gameserver.jar:?]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at l2mv.gameserver.scripts.Scripts.init(Scripts.java:179) [gameserver.jar:?]
+	at l2mv.gameserver.GameServer.<init>(GameServer.java:207) [gameserver.jar:?]
+	at l2mv.gameserver.GameServer.main(GameServer.java:332) [gameserver.jar:?]
+2022-08-31 12:38:20,992 WARN l.g.d.x.h.NpcHolder [main] - NpcHolder: Not defined npc id : 55500, or out of range!
+java.lang.Exception
+	at l2mv.gameserver.data.xml.holder.NpcHolder.getTemplate(NpcHolder.java:48) ~[gameserver.jar:?]
+	at l2mv.gameserver.model.quest.Quest.addEventId(Quest.java:511) ~[gameserver.jar:?]
+	at l2mv.gameserver.model.quest.Quest.addFirstTalkId(Quest.java:652) ~[gameserver.jar:?]
+	at quests._9999_Multiclass.<init>(_9999_Multiclass.java:44) ~[scripts.jar:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at l2mv.gameserver.scripts.Scripts.initClass(Scripts.java:198) ~[gameserver.jar:?]
+	at l2mv.gameserver.scripts.Scripts.lambda$init$1(Scripts.java:181) ~[gameserver.jar:?]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at l2mv.gameserver.scripts.Scripts.init(Scripts.java:179) [gameserver.jar:?]
+	at l2mv.gameserver.GameServer.<init>(GameServer.java:207) [gameserver.jar:?]
+	at l2mv.gameserver.GameServer.main(GameServer.java:332) [gameserver.jar:?]
+2022-08-31 12:38:20,994 INFO l.g.m.q.Quest [main] - L2jPDT: MultiClass is enabled, NPC loaded.
+2022-08-31 12:38:21,105 INFO l.c.t.RunnableImpl [ScheduledThreadPool-11] - 2022-08-31T12:38:21.105-0300 Atk announce scheduled to 40.0 minute of this hour.
+2022-08-31 12:38:21,570 INFO l.g.m.DimensionalRiftManager [main] - DimensionalRiftManager: Loaded 13 room types with 112 rooms.
+2022-08-31 12:38:21,570 INFO l.g.m.DimensionalRiftManager [main] - DimensionalRiftManager: Loaded 353 dimensional rift spawns, 0 errors.
+2022-08-31 12:38:21,589 INFO l.g.m.s.AutoSpawnManager [main] - AutoSpawnManager: Loaded 50 handlers in total.
+2022-08-31 12:38:21,599 INFO l.g.m.e.o.Olympiad [main] - Olympiad System: Loading Olympiad System....
+2022-08-31 12:38:21,600 INFO l.g.m.e.o.Olympiad [main] - Olympiad System: Currently in Olympiad Period
+2022-08-31 12:38:21,600 INFO l.g.m.e.o.Olympiad [main] - Olympiad System: Period Ends....
+2022-08-31 12:38:21,601 INFO l.g.m.e.o.Olympiad [main] - Olympiad System: In 0 days, 11 hours and 21 mins.
+2022-08-31 12:38:21,601 INFO l.g.m.e.o.Olympiad [main] - Olympiad System: Next Weekly Change is in....
+2022-08-31 12:38:21,602 INFO l.g.m.e.o.Olympiad [main] - Olympiad System: In 6 days, 10 hours and 7 mins.
+2022-08-31 12:38:21,603 INFO l.g.m.e.o.Olympiad [main] - Olympiad System: Loaded 0 Noblesses
+2022-08-31 12:38:21,604 INFO l.g.m.e.o.Olympiad [main] - Olympiad System: Competition Period Starts in 0 days, 5 hours and 21 mins.
+2022-08-31 12:38:21,605 INFO l.g.m.e.o.Olympiad [main] - Olympiad System: Event starts/started: 2022-08-31T18:00:21.603-0300
+2022-08-31 12:38:21,609 INFO l.g.m.e.Hero [main] - Hero System: Loaded 0 Heroes.
+2022-08-31 12:38:21,609 INFO l.g.m.e.Hero [main] - Hero System: Loaded 0 all time Heroes.
+2022-08-31 12:38:21,611 INFO l.g.m.PetitionManager [main] - Initializing PetitionManager
+2022-08-31 12:38:21,617 INFO l.g.m.CursedWeaponsManager [main] - CursedWeaponsManager: Loaded 2 cursed weapon(s).
+2022-08-31 12:38:21,620 INFO l.g.m.CoupleManager [main] - Initializing CoupleManager
+2022-08-31 12:38:21,621 INFO l.g.m.CoupleManager [main] - Loaded: 0 couples(s)
+2022-08-31 12:38:21,621 INFO l.g.GameServer [main] - CoupleManager initialized
+2022-08-31 12:38:21,622 INFO l.g.h.i.ItemHandler [main] - ItemHandler: loaded 38 item handler(s) count.
+2022-08-31 12:38:21,623 INFO l.g.h.a.AdminCommandHandler [main] - AdminCommandHandler: loaded 372 admin command handler(s) count.
+2022-08-31 12:38:21,623 INFO l.g.h.u.UserCommandHandler [main] - UserCommandHandler: loaded 16 user command handler(s) count.
+2022-08-31 12:38:21,624 INFO l.g.h.v.VoicedCommandHandler [main] - VoicedCommandHandler: loaded 42 voiced command handler(s) count.
+2022-08-31 12:38:21,625 INFO l.g.h.b.BypassHolder [main] - BypassHolder: loaded 24 bypass(s) count.
+2022-08-31 12:38:21,626 INFO l.g.GameServer [main] - QuestManager : loaded 479 quest's
+2022-08-31 12:38:21,675 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Crystal Hall time - 19:00 27.08.2022
+2022-08-31 12:38:21,679 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: Monastic Fortress time - undefined
+2022-08-31 12:38:21,682 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: Demon Fortress time - undefined
+2022-08-31 12:38:21,685 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: Aaru Fortress time - undefined
+2022-08-31 12:38:21,687 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: Hunter's Fortress time - undefined
+2022-08-31 12:38:21,689 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: Western Fortress time - undefined
+2022-08-31 12:38:21,691 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: Antharas Fortress time - undefined
+2022-08-31 12:38:21,694 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: Dragonspine Fortress time - undefined
+2022-08-31 12:38:21,696 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: Tanor Fortress time - undefined
+2022-08-31 12:38:21,699 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: Cloud Mountain Fortress time - undefined
+2022-08-31 12:38:21,702 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: Floran Fortress time - undefined
+2022-08-31 12:38:21,704 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: Archaic Fortress time - undefined
+2022-08-31 12:38:21,706 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: Swamp Fortress time - undefined
+2022-08-31 12:38:21,708 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: Borderland Fortress time - undefined
+2022-08-31 12:38:21,710 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: White Sands Fortress time - undefined
+2022-08-31 12:38:21,712 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: Bayou Fortress time - undefined
+2022-08-31 12:38:21,714 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: Narsell Fortress time - undefined
+2022-08-31 12:38:21,715 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: Ivory Fortress time - undefined
+2022-08-31 12:38:21,717 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: Valley Fortress time - undefined
+2022-08-31 12:38:21,721 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: Hive Fortress time - undefined
+2022-08-31 12:38:21,729 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: Southern Fortress time - undefined
+2022-08-31 12:38:21,732 INFO l.g.m.e.e.i.FortressSiegeEvent [main] - FortressSiegeEvent: Shanty Fortress time - undefined
+2022-08-31 12:38:21,737 INFO l.g.m.e.e.i.DominionSiegeEvent [main] - DominionSiegeEvent: Schuttgart Dominion time - undefined
+2022-08-31 12:38:21,741 INFO l.g.m.e.e.i.DominionSiegeEvent [main] - DominionSiegeEvent: Rune Dominion time - undefined
+2022-08-31 12:38:21,743 INFO l.g.m.e.e.i.DominionSiegeEvent [main] - DominionSiegeEvent: Goddard Dominion time - undefined
+2022-08-31 12:38:21,745 INFO l.g.m.e.e.i.DominionSiegeEvent [main] - DominionSiegeEvent: Innadril Dominion time - undefined
+2022-08-31 12:38:21,746 INFO l.g.m.e.e.i.DominionSiegeEvent [main] - DominionSiegeEvent: Aden Dominion time - undefined
+2022-08-31 12:38:21,747 INFO l.g.m.e.e.i.DominionSiegeEvent [main] - DominionSiegeEvent: Oren Dominion time - undefined
+2022-08-31 12:38:21,748 INFO l.g.m.e.e.i.DominionSiegeEvent [main] - DominionSiegeEvent: Giran Dominion time - undefined
+2022-08-31 12:38:21,750 INFO l.g.m.e.e.i.DominionSiegeEvent [main] - DominionSiegeEvent: Dion Dominion time - undefined
+2022-08-31 12:38:21,751 INFO l.g.m.e.e.i.DominionSiegeEvent [main] - DominionSiegeEvent: Gludio Dominion time - undefined
+2022-08-31 12:38:21,753 INFO l.g.m.e.e.i.ClanHallSiegeEvent [main] - ClanHallSiegeEvent: Fortress of Dead time - 20:00 03.09.2022
+2022-08-31 12:38:21,756 INFO l.g.m.e.e.i.ClanHallTeamBattleEvent [main] - ClanHallTeamBattleEvent: Wild Beast Reserve time - 20:00 03.09.2022
+2022-08-31 12:38:21,757 INFO l.g.m.e.e.i.ClanHallMiniGameEvent [main] - ClanHallMiniGameEvent: Rainbow Springs time - 21:00 03.09.2022
+2022-08-31 12:38:21,758 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Titan Hall time - 19:00 27.08.2022
+2022-08-31 12:38:21,759 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Molten Ore Hall time - 19:00 27.08.2022
+2022-08-31 12:38:21,760 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Heavy Metal Hall time - 19:00 27.08.2022
+2022-08-31 12:38:21,760 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Eisen Hall time - 19:00 27.08.2022
+2022-08-31 12:38:21,761 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Traban Chamber time - 19:00 27.08.2022
+2022-08-31 12:38:21,762 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Luna Chamber time - 19:00 27.08.2022
+2022-08-31 12:38:21,762 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Roien Chamber time - 19:00 27.08.2022
+2022-08-31 12:38:21,764 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Yiana Chamber time - 19:00 27.08.2022
+2022-08-31 12:38:21,765 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Aria Chamber time - 19:00 27.08.2022
+2022-08-31 12:38:21,766 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Astaire Chamber time - 19:00 27.08.2022
+2022-08-31 12:38:21,766 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Mont Chamber time - 19:00 27.08.2022
+2022-08-31 12:38:21,767 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Sapphire Hall time - 19:00 27.08.2022
+2022-08-31 12:38:21,767 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Emerald Hall time - 19:00 27.08.2022
+2022-08-31 12:38:21,768 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Onyx Hall time - 19:00 27.08.2022
+2022-08-31 12:38:21,768 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Moonstone Hall time - 19:00 27.08.2022
+2022-08-31 12:38:21,769 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Silver Manor time - 19:00 27.08.2022
+2022-08-31 12:38:21,772 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: The Bronze Chamber time - 19:00 27.08.2022
+2022-08-31 12:38:21,772 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: The Mithril Chamber time - 19:00 27.08.2022
+2022-08-31 12:38:21,773 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: The Silver Chamber time - 19:00 27.08.2022
+2022-08-31 12:38:21,774 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: The Golden Chamber time - 19:00 27.08.2022
+2022-08-31 12:38:21,774 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: The Bronze Chamber time - 19:00 27.08.2022
+2022-08-31 12:38:21,775 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Gold Manor time - 19:00 27.08.2022
+2022-08-31 12:38:21,775 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Silver Manor time - 19:00 27.08.2022
+2022-08-31 12:38:21,776 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: The Mithril Chamber time - 19:00 27.08.2022
+2022-08-31 12:38:21,777 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: The Silver Chamber time - 19:00 27.08.2022
+2022-08-31 12:38:21,778 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: The Golden Chamber time - 19:00 27.08.2022
+2022-08-31 12:38:21,778 INFO l.g.m.e.e.i.ClanHallTeamBattleEvent [main] - ClanHallTeamBattleEvent: Bandit Stronghold time - 20:00 03.09.2022
+2022-08-31 12:38:21,779 INFO l.g.m.e.e.i.ClanHallSiegeEvent [main] - ClanHallSiegeEvent: Devastated Castle time - 20:00 03.09.2022
+2022-08-31 12:38:21,780 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: The Viridian Barracks time - 19:00 27.08.2022
+2022-08-31 12:38:21,781 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: The Scarlet Barracks time - 19:00 27.08.2022
+2022-08-31 12:38:21,782 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: The Atramental Barracks time - 19:00 27.08.2022
+2022-08-31 12:38:21,782 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Emerald Hall time - 19:00 27.08.2022
+2022-08-31 12:38:21,783 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Moonstone Hall time - 19:00 27.08.2022
+2022-08-31 12:38:21,783 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Sapphire Hall time - 19:00 27.08.2022
+2022-08-31 12:38:21,784 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Onyx Hall time - 19:00 27.08.2022
+2022-08-31 12:38:21,789 INFO l.g.m.e.e.i.CastleSiegeEvent [main] - CastleSiegeEvent: Schuttgart Castle time - 16:00 11.09.2022
+2022-08-31 12:38:21,796 INFO l.g.m.e.e.i.CastleSiegeEvent [main] - CastleSiegeEvent: Rune Castle time - 16:00 11.09.2022
+2022-08-31 12:38:21,798 INFO l.g.m.e.e.i.CastleSiegeEvent [main] - CastleSiegeEvent: Goddard Castle time - 20:00 11.09.2022
+2022-08-31 12:38:21,803 INFO l.g.m.e.e.i.CastleSiegeEvent [main] - CastleSiegeEvent: Innadril Castle time - 20:00 11.09.2022
+2022-08-31 12:38:21,807 INFO l.g.m.e.e.i.CastleSiegeEvent [main] - CastleSiegeEvent: Aden Castle time - 16:00 11.09.2022
+2022-08-31 12:38:21,811 INFO l.g.m.e.e.i.CastleSiegeEvent [main] - CastleSiegeEvent: Oren Castle time - 20:00 11.09.2022
+2022-08-31 12:38:21,814 INFO l.g.m.e.e.i.CastleSiegeEvent [main] - CastleSiegeEvent: Giran Castle time - 20:00 11.09.2022
+2022-08-31 12:38:21,818 INFO l.g.m.e.e.i.CastleSiegeEvent [main] - CastleSiegeEvent: Dion Castle time - 16:00 11.09.2022
+2022-08-31 12:38:21,821 INFO l.g.m.e.e.i.CastleSiegeEvent [main] - CastleSiegeEvent: Gludio Castle time - 16:00 11.09.2022
+2022-08-31 12:38:21,823 INFO l.g.m.e.e.i.ClanHallNpcSiegeEvent [main] - ClanHallNpcSiegeEvent: Fortress Of Resistance time - 18:00 12.09.2022
+2022-08-31 12:38:21,824 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Moonstone Hall time - 19:00 27.08.2022
+2022-08-31 12:38:21,825 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Onyx Hall time - 19:00 27.08.2022
+2022-08-31 12:38:21,826 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Topaz Hall time - 19:00 27.08.2022
+2022-08-31 12:38:21,826 INFO l.g.m.e.e.i.ClanHallAuctionEvent [main] - ClanHallAuctionEvent: Ruby Hall time - 19:00 27.08.2022
+2022-08-31 12:38:21,827 INFO l.g.m.e.e.i.FantasiIsleParadEvent [main] - FantasiIsleParadEvent: Fantasi Isle Day Parad time - 12:38 31.08.2022
+2022-08-31 12:38:21,827 INFO l.g.m.e.e.i.FantasiIsleParadEvent [main] - FantasiIsleParadEvent: Fantasi Isle Night Parad time - 12:38 31.08.2022
+2022-08-31 12:38:21,828 INFO l.g.m.e.e.i.March8Event [main] - March8Event: March 8 time - 00:00 08.03.2023
+2022-08-31 12:38:21,831 INFO l.g.m.e.e.i.KrateisCubeEvent [main] - KrateisCubeEvent: Krateis Cube 80-85 Level time - 13:00 31.08.2022
+2022-08-31 12:38:21,833 INFO l.g.m.e.e.i.KrateisCubeEvent [main] - KrateisCubeEvent: Krateis Cube 76-79 Level time - 13:00 31.08.2022
+2022-08-31 12:38:21,833 INFO l.g.m.e.e.i.KrateisCubeEvent [main] - KrateisCubeEvent: Krateis Cube 70-75 Level time - 13:00 31.08.2022
+2022-08-31 12:38:21,836 INFO l.g.m.CastleManorManager [main] - Manor System: Initializing...
+2022-08-31 12:38:21,840 INFO l.g.GameServer [main] - IdFactory: Free ObjectID's remaining: 1879045440
+2022-08-31 12:38:21,844 INFO l.g.GameServer [main] - =[Seed of Destruction]============================
+2022-08-31 12:38:21,845 INFO l.g.m.g.SoDManager [main] - Seed of Destruction Manager: Stage is - Attack Stage
+2022-08-31 12:38:21,846 INFO l.g.GameServer [main] - =[Seed of Infinity]===============================
+2022-08-31 12:38:21,847 INFO l.g.m.g.SoIManager [main] - Seed of Infinity Manager: Loaded. Current stage is: 1
+2022-08-31 12:38:23,707 INFO l.g.m.s.SpawnManager [ThreadPoolExecutor-5] - SpawnManager: spawned 1095 npc; spawns: 121; group: DAY
+2022-08-31 12:38:27,878 INFO l.g.m.s.SpawnManager [main] - SpawnManager: spawned 1959 npc; spawns: 429; group: dawn_spawn
+2022-08-31 12:38:33,983 INFO l.g.m.s.SpawnManager [main] - SpawnManager: spawned 1959 npc; spawns: 429; group: dusk_spawn
+2022-08-31 12:38:33,983 INFO l.g.GameServer [main] - =================================================
+2022-08-31 12:38:34,351 INFO l.g.GameServer [main] - AllowedMemory: ........... 3145728 KB
+2022-08-31 12:38:34,352 INFO l.g.GameServer [main] -      Allocated: .......... 3145728 KB (100.0%)
+2022-08-31 12:38:34,353 INFO l.g.GameServer [main] -      Non-Allocated: ...... 0 KB (0.0%)
+2022-08-31 12:38:34,353 INFO l.g.GameServer [main] - AllocatedMemory: ......... 3145728 KB
+2022-08-31 12:38:34,354 INFO l.g.GameServer [main] -      Used: ............... 1746813 KB (55.5297%)
+2022-08-31 12:38:34,355 INFO l.g.GameServer [main] -      Unused (cached): .... 1398914 KB (44.4703%)
+2022-08-31 12:38:34,355 INFO l.g.GameServer [main] - UseableMemory: ........... 1398914 KB (44.4703%)
+2022-08-31 12:38:34,356 INFO l.g.GameServer [main] - Server Loaded in 85 seconds
+2022-08-31 12:38:34,357 INFO l.g.GameServer [main] - =================================================
+2022-08-31 12:38:34,435 INFO l.c.n.i.IOServer [main] - Waiting for connections at /0.0.0.0:7777
+2022-08-31 12:38:34,552 INFO l.g.GameServer [main] - =================================================
+2022-08-31 12:38:34,552 INFO l.g.n.l.AuthServerCommunication [Thread-33] - Connecting to loginserver on 127.0.0.1:9014
+2022-08-31 12:38:34,555 INFO l.g.Shutdown [main] - Scheduled server restart in 18h 21m 26s.
+2022-08-31 12:38:34,557 INFO l.g.GameServer [main] - Maximum Numbers of Connected Players: 3000
+2022-08-31 12:38:34,574 INFO l.g.n.l.l.AuthResponse [ThreadPoolExecutor-2] - Registered on loginserver as 1 [Bartz]
+2022-08-31 12:38:34,586 INFO l.g.n.m.NpcMakersSpawnManager [main] - NpcMaker Manager : initialized with 0 scheduled respawns.
+2022-08-31 12:38:34,873 WARN l.g.n.m.NpcMakersSpawnManager [main] - Invalid polygon=giran17_tb2322_03
+2022-08-31 12:38:34,873 INFO l.g.n.m.NpcMakersSpawnManager [main] - Corrected polygon: [[x: 116032 y: 139908],[x: 117904 y: 136448],[x: 105008 y: 134864],[x: 103108 y: 135076],[x: 107884 y: 138588],[x: 104556 y: 139632]]
+2022-08-31 12:38:34,882 WARN l.g.n.m.NpcMakersSpawnManager [main] - Invalid polygon=giran06_tb2221_04
+2022-08-31 12:38:34,882 INFO l.g.n.m.NpcMakersSpawnManager [main] - Corrected polygon: [[x: 67832 y: 107136],[x: 71244 y: 105736],[x: 71576 y: 107228],[x: 68120 y: 116168],[x: 69968 y: 104816]]
+2022-08-31 12:38:35,168 INFO l.g.n.m.NpcMakersSpawnManager [main] - NpcMaker Manager : initialized with 0 makers, 975 ex_makers
+2022-08-31 12:39:04,565 INFO l.g.t.t.RestoreOfflineTraders [ScheduledThreadPool-2] - Restored 0 offline traders
+2022-08-31 12:39:16,414 INFO l.g.m.n.NaiaTowerManager [ThreadPoolExecutor-6] - Naia Tower Manager: Loaded 12 rooms

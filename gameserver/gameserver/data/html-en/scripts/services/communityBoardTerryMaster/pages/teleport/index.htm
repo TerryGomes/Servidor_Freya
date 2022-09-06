@@ -1,0 +1,95 @@
+<html>
+	<body><br><br>
+		<center>
+			<table border=0 cellspacing=0 cellpadding=0 fixwidth=755>
+				<tr>
+					<td fixwidth=626 height=469>
+						<center>
+							<img src="l2ui.squaregray" width="626" height="1"><br>
+							<table border=0 cellspacing=0 cellpadding=0>
+								<tr>
+									<td fixwidth=305 height=31 align=center>
+										<font color="LEVEL">По уровню</font>
+									</td>
+									<td fixwidth=305 height=31 align=right>
+										<font color="LEVEL">Телепорт</font>
+									</td>
+									<td fixwidth=305 height=31 align=center>
+										
+									</td>
+								</tr>
+								<tr>
+									<td fixwidth=305 height=31 align=center>
+										<button value="Ivory Tover" action="bypass _bbsteleport:xyz:index:80536 12168 -4913" width=200 height=31 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+										<button value="Outlaw Forest" action="bypass _bbsteleport:xyz:index:91560 -12145 -2440" width=200 height=31 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+										<button value="Forsaken Plains" action="bypass _bbsteleport:xyz:index:174296 45608 -4663" width=200 height=31 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+										<button value="Valley of Saints" action="bypass _bbsteleport:xyz:index:80471 -84022 -3646" width=200 height=31 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+										<button value="Blazing Swamp" action="bypass _bbsteleport:xyz:index:158904 -12776 -2904" width=200 height=31 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+										<button value="Silent Valley" action="bypass _bbsteleport:xyz:index:170802 55691 -5280" width=200 height=31 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+										<button value="Dragon Valley" action="bypass _bbsteleport:xyz:index:73064 118248 -3739" width=200 height=31 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+										<button value="Antharas' Lair" action="bypass _bbsteleport:xyz:index:73064 118248 -3739" width=200 height=31 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+									</td>
+									<td fixwidth=305 height=31 align=center>
+										<button value="Города \ Деревни" action="bypass _bbsteleport:page:towns/index" width=200 height=31 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+										<button value="Замки \ Крепости" action="bypass _bbsteleport:page:castles" width=200 height=31 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+										<button value="Катакомбы \ Некрополисы" action="bypass _bbsteleport:page:catacombs" width=200 height=31 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+										<button value="Локации C4" action="bypass _bbsteleport:page:c4" width=200 height=31 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+										<button value="Локации C5" action="bypass _bbsteleport:page:c5" width=200 height=31 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+										<button value="Hellbound \ Gracia" action="bypass _bbsteleport:page:hellbound" width=200 height=31 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+									</td>
+									<td fixwidth=305 height=31 align=center>
+										<table width=200 height=200>
+											<tr>
+												<td valign=top>
+													<center>
+														<br><font color=LEVEL>Персональные Точки:</font><br1>
+														<img src="L2UI.SquareGray" width=180 height=1>
+														<br><br><font color=68e8ff>Сохраненные Точки:</font><br1>
+														<table>
+															<tr>
+																<td><combobox width=115 height=18 var="point" list="<?save_points?>"></td>
+																<td><button value="$" action="bypass _bbsteleport:restore:index: $point" width=30 height=20 back="L2UI_CT1.Button_DF_Click" fore="L2UI_CT1.Button_DF"></td>
+																<td><button value="-" action="bypass _bbsteleport:remove:index: $point" width=30 height=20 back="L2UI_CT1.Button_DF_Click" fore="L2UI_CT1.Button_DF"></td>
+															</tr>
+														</table>
+														<br><br><font color=68e8ff>Создание Точки:</font><br1>
+														<table>
+															<tr>
+																<td><edit var="name" width=140 height=12 length=10></td>
+																<td><button value="+" action="bypass _bbsteleport:save:index: $name" width=30 height=20 back="L2UI_CT1.Button_DF_Click" fore="L2UI_CT1.Button_DF"></td>
+															</tr>
+														</table>
+													</center>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+							<br><font color="LEVEL">Информация</font><br>
+							<table border=0 cellspacing=0 cellpadding=0>
+								<tr>
+									<td fixwidth=305 height=25 align=left valign=top><font color="999999">Цена телепорта:</font></td>
+									<td fixwidth=305 height=25 align=left valign=top><font color="LEVEL"><?simple_pice?></font></td>
+								</tr>
+								<tr>
+									<td fixwidth=305 height=25 align=left valign=top><font color="999999">Цена сохранения персональной точки:</font></td>
+									<td fixwidth=305 height=25 align=left valign=top><font color="LEVEL"><?save_pice?></font></td>
+								</tr>
+								<tr>
+									<td fixwidth=305 height=25 align=left valign=top><font color="999999">Максимальное количество персоныльных точек:</font></td>
+									<td fixwidth=305 height=25 align=left valign=top><font color="LEVEL"><?count_save_point?></font></td>
+								</tr>
+								<tr>
+									<td fixwidth=305 height=25 align=left valign=top><font color="990000">*Внимание: </font></td>
+									<td fixwidth=305 height=25 align=left valign=top><font color="LEVEL">Телепорт бесплатный до <?free_level?> уровня!</font></td>
+								</tr>
+							</table>
+						</center>
+					</td>
+				</tr>
+			</table>
+			<?copyright?>
+		</center>
+	</body>
+</html>

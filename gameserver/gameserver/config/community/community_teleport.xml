@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+    <teleport>
+        <point id="1" x="113553" y="134553" z="-3640" h="1" prieAdena="0"/>
+        <point id="2" x="147457" y="10843" z="-736" h="1" prieAdena="0"/> <!-- Aden -->
+        <point id="3" x="112122" y="144855" z="-2751" h="1" prieAdena="0"/> <!-- Giran -->
+    </teleport>
+</list>

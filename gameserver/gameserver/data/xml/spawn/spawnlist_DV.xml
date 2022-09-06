@@ -1,0 +1,2595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Done by JunkyFunky-->
+<list>
+	<!--Китска Level : 70 Territory : giran03_npc2321_11-->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<npc id="31045"/>
+		<point x="122716" y="110720" z="-3728" h="16384"/>
+	</spawn>
+	<!--Гальман Level : 70 Territory : giran03_npc2321_11-->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<npc id="31044"/>
+		<point x="122904" y="110828" z="-3728" h="24576"/>
+	</spawn>
+	<!--Труп Флитца Level : 70 Territory : giran03_npc2321_14-->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<npc id="30761"/>
+		<point x="103898" y="116896" z="-3022" h="0"/>
+	</spawn>
+	<!--Труп Флитца Level : 70 Territory : giran03_npc2321_15-->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<npc id="30762"/>
+		<point x="112268" y="112761" z="-2773" h="0"/>
+	</spawn>
+	<!--Труп Флитца Level : 70 Territory : giran03_npc2321_16-->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<npc id="30763"/>
+		<point x="124664" y="110047" z="-3110" h="0"/>
+	</spawn>
+	<!--Каторжник Level : 45 Territory : oren29_2218_26-->
+	<spawn count="7" respawn="24" respawn_random="5" period_of_day="none">
+		<npc id="20235"/>
+		<territory>
+			<add x="79664" y="16248" zmin="-5356" zmax="-5156"/>
+			<add x="85768" y="19076" zmin="-5356" zmax="-5156"/>
+			<add x="81972" y="22128" zmin="-5356" zmax="-5156"/>
+			<add x="79012" y="18196" zmin="-5356" zmax="-5156"/>
+		</territory>
+	</spawn>
+	<!--Каторжник Level : 45 Territory : oren29_2218_27-->
+	<spawn count="4" respawn="24" respawn_random="5" period_of_day="none">
+		<npc id="20235"/>
+		<territory>
+			<add x="87492" y="18724" zmin="-5360" zmax="-5160"/>
+			<add x="88196" y="21964" zmin="-5360" zmax="-5160"/>
+			<add x="85752" y="22296" zmin="-5360" zmax="-5160"/>
+			<add x="81996" y="22184" zmin="-5360" zmax="-5160"/>
+			<add x="85816" y="19128" zmin="-5360" zmax="-5160"/>
+		</territory>
+	</spawn>
+	<!--Каторжник Level : 45 Territory : giran03_2221_02-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20235"/>
+		<territory>
+			<add x="76948" y="116416" zmin="-3880" zmax="-3480"/>
+			<add x="77352" y="116580" zmin="-3880" zmax="-3480"/>
+			<add x="77032" y="117608" zmin="-3880" zmax="-3480"/>
+			<add x="76296" y="118196" zmin="-3880" zmax="-3480"/>
+			<add x="75488" y="117260" zmin="-3880" zmax="-3480"/>
+			<add x="76500" y="116596" zmin="-3880" zmax="-3480"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Level : 46 Territory : giran03_2221_02-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20236"/>
+		<territory>
+			<add x="76948" y="116416" zmin="-3880" zmax="-3480"/>
+			<add x="77352" y="116580" zmin="-3880" zmax="-3480"/>
+			<add x="77032" y="117608" zmin="-3880" zmax="-3480"/>
+			<add x="76296" y="118196" zmin="-3880" zmax="-3480"/>
+			<add x="75488" y="117260" zmin="-3880" zmax="-3480"/>
+			<add x="76500" y="116596" zmin="-3880" zmax="-3480"/>
+		</territory>
+	</spawn>
+	<!--Каторжник Level : 45 Territory : giran03_2221_03-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20235"/>
+		<territory>
+			<add x="77464" y="116616" zmin="-3872" zmax="-3272"/>
+			<add x="79124" y="115396" zmin="-3872" zmax="-3272"/>
+			<add x="80000" y="116880" zmin="-3872" zmax="-3272"/>
+			<add x="78908" y="117384" zmin="-3872" zmax="-3272"/>
+			<add x="77152" y="117520" zmin="-3872" zmax="-3272"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Level : 46 Territory : giran03_2221_03-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20236"/>
+		<territory>
+			<add x="77464" y="116616" zmin="-3872" zmax="-3272"/>
+			<add x="79124" y="115396" zmin="-3872" zmax="-3272"/>
+			<add x="80000" y="116880" zmin="-3872" zmax="-3272"/>
+			<add x="78908" y="117384" zmin="-3872" zmax="-3272"/>
+			<add x="77152" y="117520" zmin="-3872" zmax="-3272"/>
+		</territory>
+	</spawn>
+	<!--Каторжник Level : 45 Territory : giran03_2221_04-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20235"/>
+		<territory>
+			<add x="79128" y="115328" zmin="-3792" zmax="-3192"/>
+			<add x="80616" y="115132" zmin="-3792" zmax="-3192"/>
+			<add x="81652" y="116420" zmin="-3792" zmax="-3192"/>
+			<add x="81324" y="116744" zmin="-3792" zmax="-3192"/>
+			<add x="80052" y="116876" zmin="-3792" zmax="-3192"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Level : 46 Territory : giran03_2221_04-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20236"/>
+		<territory>
+			<add x="79128" y="115328" zmin="-3792" zmax="-3192"/>
+			<add x="80616" y="115132" zmin="-3792" zmax="-3192"/>
+			<add x="81652" y="116420" zmin="-3792" zmax="-3192"/>
+			<add x="81324" y="116744" zmin="-3792" zmax="-3192"/>
+			<add x="80052" y="116876" zmin="-3792" zmax="-3192"/>
+		</territory>
+	</spawn>
+	<!--Каторжник Level : 45 Territory : giran03_2221_05-->
+	<spawn count="3" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20235"/>
+		<territory>
+			<add x="82736" y="117036" zmin="-3112" zmax="-2712"/>
+			<add x="84836" y="116980" zmin="-3112" zmax="-2712"/>
+			<add x="86648" y="119832" zmin="-3112" zmax="-2712"/>
+			<add x="85036" y="121536" zmin="-3112" zmax="-2712"/>
+			<add x="83824" y="121388" zmin="-3112" zmax="-2712"/>
+			<add x="82692" y="120152" zmin="-3112" zmax="-2712"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Level : 46 Territory : giran03_2221_05-->
+	<spawn count="3" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20236"/>
+		<territory>
+			<add x="82736" y="117036" zmin="-3112" zmax="-2712"/>
+			<add x="84836" y="116980" zmin="-3112" zmax="-2712"/>
+			<add x="86648" y="119832" zmin="-3112" zmax="-2712"/>
+			<add x="85036" y="121536" zmin="-3112" zmax="-2712"/>
+			<add x="83824" y="121388" zmin="-3112" zmax="-2712"/>
+			<add x="82692" y="120152" zmin="-3112" zmax="-2712"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Стрелок Level : 47 Territory : giran03_2221_05-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20237"/>
+		<territory>
+			<add x="82736" y="117036" zmin="-3112" zmax="-2712"/>
+			<add x="84836" y="116980" zmin="-3112" zmax="-2712"/>
+			<add x="86648" y="119832" zmin="-3112" zmax="-2712"/>
+			<add x="85036" y="121536" zmin="-3112" zmax="-2712"/>
+			<add x="83824" y="121388" zmin="-3112" zmax="-2712"/>
+			<add x="82692" y="120152" zmin="-3112" zmax="-2712"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Воин Level : 48 Territory : giran03_2221_05-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20238"/>
+		<territory>
+			<add x="82736" y="117036" zmin="-3112" zmax="-2712"/>
+			<add x="84836" y="116980" zmin="-3112" zmax="-2712"/>
+			<add x="86648" y="119832" zmin="-3112" zmax="-2712"/>
+			<add x="85036" y="121536" zmin="-3112" zmax="-2712"/>
+			<add x="83824" y="121388" zmin="-3112" zmax="-2712"/>
+			<add x="82692" y="120152" zmin="-3112" zmax="-2712"/>
+		</territory>
+	</spawn>
+	<!--Каторжник Level : 45 Territory : giran03_2221_06-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20235"/>
+		<territory>
+			<add x="81664" y="116360" zmin="-3336" zmax="-2936"/>
+			<add x="82692" y="116992" zmin="-3336" zmax="-2936"/>
+			<add x="82616" y="118068" zmin="-3336" zmax="-2936"/>
+			<add x="81244" y="116900" zmin="-3336" zmax="-2936"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Level : 46 Territory : giran03_2221_06-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20236"/>
+		<territory>
+			<add x="81664" y="116360" zmin="-3336" zmax="-2936"/>
+			<add x="82692" y="116992" zmin="-3336" zmax="-2936"/>
+			<add x="82616" y="118068" zmin="-3336" zmax="-2936"/>
+			<add x="81244" y="116900" zmin="-3336" zmax="-2936"/>
+		</territory>
+	</spawn>
+	<!--Каторжник Level : 45 Territory : giran03_2221_07-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20235"/>
+		<territory>
+			<add x="82992" y="116984" zmin="-3180" zmax="-2780"/>
+			<add x="86424" y="114588" zmin="-3180" zmax="-2780"/>
+			<add x="86528" y="115248" zmin="-3180" zmax="-2780"/>
+			<add x="84820" y="116944" zmin="-3180" zmax="-2780"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Level : 46 Territory : giran03_2221_07-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20236"/>
+		<territory>
+			<add x="82992" y="116984" zmin="-3180" zmax="-2780"/>
+			<add x="86424" y="114588" zmin="-3180" zmax="-2780"/>
+			<add x="86528" y="115248" zmin="-3180" zmax="-2780"/>
+			<add x="84820" y="116944" zmin="-3180" zmax="-2780"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Level : 46 Territory : giran03_2221_08-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20236"/>
+		<territory>
+			<add x="85480" y="121108" zmin="-3108" zmax="-2908"/>
+			<add x="88060" y="118624" zmin="-3108" zmax="-2908"/>
+			<add x="88876" y="118896" zmin="-3108" zmax="-2908"/>
+			<add x="89600" y="120520" zmin="-3108" zmax="-2908"/>
+			<add x="88112" y="121556" zmin="-3108" zmax="-2908"/>
+			<add x="86556" y="121452" zmin="-3108" zmax="-2908"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Стрелок Level : 47 Territory : giran03_2221_08-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20237"/>
+		<territory>
+			<add x="85480" y="121108" zmin="-3108" zmax="-2908"/>
+			<add x="88060" y="118624" zmin="-3108" zmax="-2908"/>
+			<add x="88876" y="118896" zmin="-3108" zmax="-2908"/>
+			<add x="89600" y="120520" zmin="-3108" zmax="-2908"/>
+			<add x="88112" y="121556" zmin="-3108" zmax="-2908"/>
+			<add x="86556" y="121452" zmin="-3108" zmax="-2908"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Воин Level : 48 Territory : giran03_2221_08-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20238"/>
+		<territory>
+			<add x="85480" y="121108" zmin="-3108" zmax="-2908"/>
+			<add x="88060" y="118624" zmin="-3108" zmax="-2908"/>
+			<add x="88876" y="118896" zmin="-3108" zmax="-2908"/>
+			<add x="89600" y="120520" zmin="-3108" zmax="-2908"/>
+			<add x="88112" y="121556" zmin="-3108" zmax="-2908"/>
+			<add x="86556" y="121452" zmin="-3108" zmax="-2908"/>
+		</territory>
+	</spawn>
+	<!--Старший Пещерный Слуга Level : 49 Territory : giran03_2221_08-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20239"/>
+		<territory>
+			<add x="85480" y="121108" zmin="-3108" zmax="-2908"/>
+			<add x="88060" y="118624" zmin="-3108" zmax="-2908"/>
+			<add x="88876" y="118896" zmin="-3108" zmax="-2908"/>
+			<add x="89600" y="120520" zmin="-3108" zmax="-2908"/>
+			<add x="88112" y="121556" zmin="-3108" zmax="-2908"/>
+			<add x="86556" y="121452" zmin="-3108" zmax="-2908"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Level : 46 Territory : giran03_2221_09-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20236"/>
+		<territory>
+			<add x="88908" y="118876" zmin="-3184" zmax="-2784"/>
+			<add x="91680" y="117772" zmin="-3184" zmax="-2784"/>
+			<add x="92420" y="117964" zmin="-3184" zmax="-2784"/>
+			<add x="92604" y="119884" zmin="-3184" zmax="-2784"/>
+			<add x="91676" y="120892" zmin="-3184" zmax="-2784"/>
+			<add x="90476" y="120840" zmin="-3184" zmax="-2784"/>
+			<add x="89628" y="120516" zmin="-3184" zmax="-2784"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Стрелок Level : 47 Territory : giran03_2221_09-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20237"/>
+		<territory>
+			<add x="88908" y="118876" zmin="-3184" zmax="-2784"/>
+			<add x="91680" y="117772" zmin="-3184" zmax="-2784"/>
+			<add x="92420" y="117964" zmin="-3184" zmax="-2784"/>
+			<add x="92604" y="119884" zmin="-3184" zmax="-2784"/>
+			<add x="91676" y="120892" zmin="-3184" zmax="-2784"/>
+			<add x="90476" y="120840" zmin="-3184" zmax="-2784"/>
+			<add x="89628" y="120516" zmin="-3184" zmax="-2784"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Воин Level : 48 Territory : giran03_2221_09-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20238"/>
+		<territory>
+			<add x="88908" y="118876" zmin="-3184" zmax="-2784"/>
+			<add x="91680" y="117772" zmin="-3184" zmax="-2784"/>
+			<add x="92420" y="117964" zmin="-3184" zmax="-2784"/>
+			<add x="92604" y="119884" zmin="-3184" zmax="-2784"/>
+			<add x="91676" y="120892" zmin="-3184" zmax="-2784"/>
+			<add x="90476" y="120840" zmin="-3184" zmax="-2784"/>
+			<add x="89628" y="120516" zmin="-3184" zmax="-2784"/>
+		</territory>
+	</spawn>
+	<!--Старший Пещерный Слуга Level : 49 Territory : giran03_2221_09-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20239"/>
+		<territory>
+			<add x="88908" y="118876" zmin="-3184" zmax="-2784"/>
+			<add x="91680" y="117772" zmin="-3184" zmax="-2784"/>
+			<add x="92420" y="117964" zmin="-3184" zmax="-2784"/>
+			<add x="92604" y="119884" zmin="-3184" zmax="-2784"/>
+			<add x="91676" y="120892" zmin="-3184" zmax="-2784"/>
+			<add x="90476" y="120840" zmin="-3184" zmax="-2784"/>
+			<add x="89628" y="120516" zmin="-3184" zmax="-2784"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Воин Level : 48 Territory : giran03_2221_15-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20238"/>
+		<territory>
+			<add x="92500" y="117964" zmin="-3092" zmax="-2692"/>
+			<add x="93840" y="117732" zmin="-3092" zmax="-2692"/>
+			<add x="94516" y="117852" zmin="-3092" zmax="-2692"/>
+			<add x="94588" y="118436" zmin="-3092" zmax="-2692"/>
+			<add x="94068" y="118956" zmin="-3092" zmax="-2692"/>
+			<add x="92656" y="119808" zmin="-3092" zmax="-2692"/>
+		</territory>
+	</spawn>
+	<!--Старший Пещерный Слуга Level : 49 Territory : giran03_2221_15-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20239"/>
+		<territory>
+			<add x="92500" y="117964" zmin="-3092" zmax="-2692"/>
+			<add x="93840" y="117732" zmin="-3092" zmax="-2692"/>
+			<add x="94516" y="117852" zmin="-3092" zmax="-2692"/>
+			<add x="94588" y="118436" zmin="-3092" zmax="-2692"/>
+			<add x="94068" y="118956" zmin="-3092" zmax="-2692"/>
+			<add x="92656" y="119808" zmin="-3092" zmax="-2692"/>
+		</territory>
+	</spawn>
+	<!--Безглавый Рыцарь Level : 50 Territory : giran03_2221_15-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20146"/>
+		<territory>
+			<add x="92500" y="117964" zmin="-3092" zmax="-2692"/>
+			<add x="93840" y="117732" zmin="-3092" zmax="-2692"/>
+			<add x="94516" y="117852" zmin="-3092" zmax="-2692"/>
+			<add x="94588" y="118436" zmin="-3092" zmax="-2692"/>
+			<add x="94068" y="118956" zmin="-3092" zmax="-2692"/>
+			<add x="92656" y="119808" zmin="-3092" zmax="-2692"/>
+		</territory>
+	</spawn>
+	<!--Безглавый Рыцарь Level : 50 Territory : giran03_2221_19-->
+	<spawn count="4" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20146"/>
+		<territory>
+			<add x="93184" y="111356" zmin="-3312" zmax="-2912"/>
+			<add x="93972" y="112088" zmin="-3312" zmax="-2912"/>
+			<add x="94280" y="114260" zmin="-3312" zmax="-2912"/>
+			<add x="93760" y="115116" zmin="-3312" zmax="-2912"/>
+			<add x="92648" y="115860" zmin="-3312" zmax="-2912"/>
+			<add x="91240" y="114948" zmin="-3312" zmax="-2912"/>
+			<add x="90548" y="113812" zmin="-3312" zmax="-2912"/>
+			<add x="90752" y="112068" zmin="-3312" zmax="-2912"/>
+			<add x="91848" y="111112" zmin="-3312" zmax="-2912"/>
+		</territory>
+	</spawn>
+	<!--Королевский Пещерный Слуга Level : 51 Territory : giran03_2221_19-->
+	<spawn count="5" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20240"/>
+		<territory>
+			<add x="93184" y="111356" zmin="-3312" zmax="-2912"/>
+			<add x="93972" y="112088" zmin="-3312" zmax="-2912"/>
+			<add x="94280" y="114260" zmin="-3312" zmax="-2912"/>
+			<add x="93760" y="115116" zmin="-3312" zmax="-2912"/>
+			<add x="92648" y="115860" zmin="-3312" zmax="-2912"/>
+			<add x="91240" y="114948" zmin="-3312" zmax="-2912"/>
+			<add x="90548" y="113812" zmin="-3312" zmax="-2912"/>
+			<add x="90752" y="112068" zmin="-3312" zmax="-2912"/>
+			<add x="91848" y="111112" zmin="-3312" zmax="-2912"/>
+		</territory>
+	</spawn>
+	<!--Безглавый Рыцарь Level : 50 Territory : giran03_2221_20-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20146"/>
+		<territory>
+			<add x="89944" y="111952" zmin="-3288" zmax="-2888"/>
+			<add x="90692" y="112044" zmin="-3288" zmax="-2888"/>
+			<add x="90480" y="113772" zmin="-3288" zmax="-2888"/>
+			<add x="89496" y="113408" zmin="-3288" zmax="-2888"/>
+			<add x="88868" y="112656" zmin="-3288" zmax="-2888"/>
+			<add x="88952" y="112228" zmin="-3288" zmax="-2888"/>
+		</territory>
+	</spawn>
+	<!--Королевский Пещерный Слуга Level : 51 Territory : giran03_2221_20-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20240"/>
+		<territory>
+			<add x="89944" y="111952" zmin="-3288" zmax="-2888"/>
+			<add x="90692" y="112044" zmin="-3288" zmax="-2888"/>
+			<add x="90480" y="113772" zmin="-3288" zmax="-2888"/>
+			<add x="89496" y="113408" zmin="-3288" zmax="-2888"/>
+			<add x="88868" y="112656" zmin="-3288" zmax="-2888"/>
+			<add x="88952" y="112228" zmin="-3288" zmax="-2888"/>
+		</territory>
+	</spawn>
+	<!--Безглавый Рыцарь Level : 50 Territory : giran03_2221_21-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20146"/>
+		<territory>
+			<add x="88368" y="111832" zmin="-3408" zmax="-3208"/>
+			<add x="88884" y="112236" zmin="-3408" zmax="-3208"/>
+			<add x="88788" y="112724" zmin="-3408" zmax="-3208"/>
+			<add x="86820" y="112368" zmin="-3408" zmax="-3208"/>
+			<add x="87068" y="111828" zmin="-3408" zmax="-3208"/>
+		</territory>
+	</spawn>
+	<!--Королевский Пещерный Слуга Level : 51 Territory : giran03_2221_21-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20240"/>
+		<territory>
+			<add x="88368" y="111832" zmin="-3408" zmax="-3208"/>
+			<add x="88884" y="112236" zmin="-3408" zmax="-3208"/>
+			<add x="88788" y="112724" zmin="-3408" zmax="-3208"/>
+			<add x="86820" y="112368" zmin="-3408" zmax="-3208"/>
+			<add x="87068" y="111828" zmin="-3408" zmax="-3208"/>
+		</territory>
+	</spawn>
+	<!--Старший Пещерный Слуга Level : 49 Territory : giran03_2221_22-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20239"/>
+		<territory>
+			<add x="86128" y="111472" zmin="-3432" zmax="-3032"/>
+			<add x="87024" y="111800" zmin="-3432" zmax="-3032"/>
+			<add x="86740" y="112376" zmin="-3432" zmax="-3032"/>
+			<add x="85116" y="112384" zmin="-3432" zmax="-3032"/>
+			<add x="84444" y="111776" zmin="-3432" zmax="-3032"/>
+		</territory>
+	</spawn>
+	<!--Королевский Пещерный Слуга Level : 51 Territory : giran03_2221_22-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20240"/>
+		<territory>
+			<add x="86128" y="111472" zmin="-3432" zmax="-3032"/>
+			<add x="87024" y="111800" zmin="-3432" zmax="-3032"/>
+			<add x="86740" y="112376" zmin="-3432" zmax="-3032"/>
+			<add x="85116" y="112384" zmin="-3432" zmax="-3032"/>
+			<add x="84444" y="111776" zmin="-3432" zmax="-3032"/>
+		</territory>
+	</spawn>
+	<!--Старший Пещерный Слуга Level : 49 Territory : giran03_2221_23-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20239"/>
+		<territory>
+			<add x="82500" y="112732" zmin="-3168" zmax="-2768"/>
+			<add x="84224" y="111716" zmin="-3168" zmax="-2768"/>
+			<add x="84984" y="112408" zmin="-3168" zmax="-2768"/>
+			<add x="83100" y="113536" zmin="-3168" zmax="-2768"/>
+		</territory>
+	</spawn>
+	<!--Королевский Пещерный Слуга Level : 51 Territory : giran03_2221_23-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20240"/>
+		<territory>
+			<add x="82500" y="112732" zmin="-3168" zmax="-2768"/>
+			<add x="84224" y="111716" zmin="-3168" zmax="-2768"/>
+			<add x="84984" y="112408" zmin="-3168" zmax="-2768"/>
+			<add x="83100" y="113536" zmin="-3168" zmax="-2768"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Воин Level : 48 Territory : giran03_2221_25-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20238"/>
+		<territory>
+			<add x="81228" y="114188" zmin="-3652" zmax="-3052"/>
+			<add x="82056" y="113852" zmin="-3652" zmax="-3052"/>
+			<add x="82440" y="114096" zmin="-3652" zmax="-3052"/>
+			<add x="81884" y="114620" zmin="-3652" zmax="-3052"/>
+			<add x="81076" y="114556" zmin="-3652" zmax="-3052"/>
+		</territory>
+	</spawn>
+	<!--Каторжник Level : 45 Territory : giran03_2221_26-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20235"/>
+		<territory>
+			<add x="79196" y="114028" zmin="-3792" zmax="-3392"/>
+			<add x="80412" y="113144" zmin="-3792" zmax="-3392"/>
+			<add x="81052" y="114336" zmin="-3792" zmax="-3392"/>
+			<add x="80536" y="115132" zmin="-3792" zmax="-3392"/>
+			<add x="79160" y="115280" zmin="-3792" zmax="-3392"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Level : 46 Territory : giran03_2221_26-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20236"/>
+		<territory>
+			<add x="79196" y="114028" zmin="-3792" zmax="-3392"/>
+			<add x="80412" y="113144" zmin="-3792" zmax="-3392"/>
+			<add x="81052" y="114336" zmin="-3792" zmax="-3392"/>
+			<add x="80536" y="115132" zmin="-3792" zmax="-3392"/>
+			<add x="79160" y="115280" zmin="-3792" zmax="-3392"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Стрелок Level : 47 Territory : giran03_2221_27-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20237"/>
+		<territory>
+			<add x="80788" y="112160" zmin="-3760" zmax="-3460"/>
+			<add x="81388" y="111524" zmin="-3760" zmax="-3460"/>
+			<add x="81636" y="112152" zmin="-3760" zmax="-3460"/>
+			<add x="80680" y="113420" zmin="-3760" zmax="-3460"/>
+			<add x="80448" y="113236" zmin="-3760" zmax="-3460"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Воин Level : 48 Territory : giran03_2221_27-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20238"/>
+		<territory>
+			<add x="80788" y="112160" zmin="-3760" zmax="-3460"/>
+			<add x="81388" y="111524" zmin="-3760" zmax="-3460"/>
+			<add x="81636" y="112152" zmin="-3760" zmax="-3460"/>
+			<add x="80680" y="113420" zmin="-3760" zmax="-3460"/>
+			<add x="80448" y="113236" zmin="-3760" zmax="-3460"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Воин Level : 48 Territory : giran03_2221_28-->
+	<spawn count="3" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20238"/>
+		<territory>
+			<add x="83044" y="109872" zmin="-3848" zmax="-3448"/>
+			<add x="84540" y="110064" zmin="-3848" zmax="-3448"/>
+			<add x="83900" y="111280" zmin="-3848" zmax="-3448"/>
+			<add x="83084" y="112092" zmin="-3848" zmax="-3448"/>
+			<add x="82356" y="112228" zmin="-3848" zmax="-3448"/>
+			<add x="81616" y="112100" zmin="-3848" zmax="-3448"/>
+			<add x="81432" y="111480" zmin="-3848" zmax="-3448"/>
+			<add x="81572" y="110688" zmin="-3848" zmax="-3448"/>
+		</territory>
+	</spawn>
+	<!--Старший Пещерный Слуга Level : 49 Territory : giran03_2221_28-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20239"/>
+		<territory>
+			<add x="83044" y="109872" zmin="-3848" zmax="-3448"/>
+			<add x="84540" y="110064" zmin="-3848" zmax="-3448"/>
+			<add x="83900" y="111280" zmin="-3848" zmax="-3448"/>
+			<add x="83084" y="112092" zmin="-3848" zmax="-3448"/>
+			<add x="82356" y="112228" zmin="-3848" zmax="-3448"/>
+			<add x="81616" y="112100" zmin="-3848" zmax="-3448"/>
+			<add x="81432" y="111480" zmin="-3848" zmax="-3448"/>
+			<add x="81572" y="110688" zmin="-3848" zmax="-3448"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Воин Level : 48 Territory : giran03_2221_29-->
+	<spawn count="3" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20238"/>
+		<territory>
+			<add x="84588" y="110088" zmin="-3852" zmax="-3452"/>
+			<add x="86032" y="109736" zmin="-3852" zmax="-3452"/>
+			<add x="88312" y="110092" zmin="-3852" zmax="-3452"/>
+			<add x="88320" y="111316" zmin="-3852" zmax="-3452"/>
+			<add x="84064" y="111148" zmin="-3852" zmax="-3452"/>
+		</territory>
+	</spawn>
+	<!--Старший Пещерный Слуга Level : 49 Territory : giran03_2221_29-->
+	<spawn count="4" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20239"/>
+		<territory>
+			<add x="84588" y="110088" zmin="-3852" zmax="-3452"/>
+			<add x="86032" y="109736" zmin="-3852" zmax="-3452"/>
+			<add x="88312" y="110092" zmin="-3852" zmax="-3452"/>
+			<add x="88320" y="111316" zmin="-3852" zmax="-3452"/>
+			<add x="84064" y="111148" zmin="-3852" zmax="-3452"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Воин Level : 48 Territory : giran03_2221_30-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20238"/>
+		<territory>
+			<add x="88336" y="110824" zmin="-3824" zmax="-3424"/>
+			<add x="89912" y="110784" zmin="-3824" zmax="-3424"/>
+			<add x="90828" y="111044" zmin="-3824" zmax="-3424"/>
+			<add x="90328" y="111612" zmin="-3824" zmax="-3424"/>
+			<add x="88508" y="111624" zmin="-3824" zmax="-3424"/>
+		</territory>
+	</spawn>
+	<!--Старший Пещерный Слуга Level : 49 Territory : giran03_2221_30-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20239"/>
+		<territory>
+			<add x="88336" y="110824" zmin="-3824" zmax="-3424"/>
+			<add x="89912" y="110784" zmin="-3824" zmax="-3424"/>
+			<add x="90828" y="111044" zmin="-3824" zmax="-3424"/>
+			<add x="90328" y="111612" zmin="-3824" zmax="-3424"/>
+			<add x="88508" y="111624" zmin="-3824" zmax="-3424"/>
+		</territory>
+	</spawn>
+	<!--Безглавый Рыцарь Level : 50 Territory : giran03_2221_31-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20146"/>
+		<territory>
+			<add x="91712" y="109064" zmin="-3880" zmax="-3480"/>
+			<add x="92516" y="109144" zmin="-3880" zmax="-3480"/>
+			<add x="92544" y="110032" zmin="-3880" zmax="-3480"/>
+			<add x="90908" y="110996" zmin="-3880" zmax="-3480"/>
+		</territory>
+	</spawn>
+	<!--Королевский Пещерный Слуга Level : 51 Territory : giran03_2221_31-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20240"/>
+		<territory>
+			<add x="91712" y="109064" zmin="-3880" zmax="-3480"/>
+			<add x="92516" y="109144" zmin="-3880" zmax="-3480"/>
+			<add x="92544" y="110032" zmin="-3880" zmax="-3480"/>
+			<add x="90908" y="110996" zmin="-3880" zmax="-3480"/>
+		</territory>
+	</spawn>
+	<!--Безглавый Рыцарь Level : 50 Territory : giran03_2221_32-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20146"/>
+		<territory>
+			<add x="92464" y="109300" zmin="-3832" zmax="-3532"/>
+			<add x="94044" y="109100" zmin="-3832" zmax="-3532"/>
+			<add x="94120" y="110052" zmin="-3832" zmax="-3532"/>
+			<add x="92476" y="110056" zmin="-3832" zmax="-3532"/>
+		</territory>
+	</spawn>
+	<!--Королевский Пещерный Слуга Level : 51 Territory : giran03_2221_32-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20240"/>
+		<territory>
+			<add x="92464" y="109300" zmin="-3832" zmax="-3532"/>
+			<add x="94044" y="109100" zmin="-3832" zmax="-3532"/>
+			<add x="94120" y="110052" zmin="-3832" zmax="-3532"/>
+			<add x="92476" y="110056" zmin="-3832" zmax="-3532"/>
+		</territory>
+	</spawn>
+	<!--Безглавый Рыцарь Level : 50 Territory : giran03_2221_33-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20146"/>
+		<territory>
+			<add x="94100" y="109176" zmin="-3756" zmax="-3356"/>
+			<add x="95696" y="109288" zmin="-3756" zmax="-3356"/>
+			<add x="95856" y="110252" zmin="-3756" zmax="-3356"/>
+			<add x="95484" y="110636" zmin="-3756" zmax="-3356"/>
+			<add x="94316" y="110636" zmin="-3756" zmax="-3356"/>
+		</territory>
+	</spawn>
+	<!--Королевский Пещерный Слуга Level : 51 Territory : giran03_2221_33-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20240"/>
+		<territory>
+			<add x="94100" y="109176" zmin="-3756" zmax="-3356"/>
+			<add x="95696" y="109288" zmin="-3756" zmax="-3356"/>
+			<add x="95856" y="110252" zmin="-3756" zmax="-3356"/>
+			<add x="95484" y="110636" zmin="-3756" zmax="-3356"/>
+			<add x="94316" y="110636" zmin="-3756" zmax="-3356"/>
+		</territory>
+	</spawn>
+	<!--Безглавый Рыцарь Level : 50 Territory : giran03_2221_34-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20146"/>
+		<territory>
+			<add x="95764" y="109684" zmin="-3820" zmax="-3220"/>
+			<add x="97044" y="109216" zmin="-3820" zmax="-3220"/>
+			<add x="98024" y="109296" zmin="-3820" zmax="-3220"/>
+			<add x="97996" y="109652" zmin="-3820" zmax="-3220"/>
+			<add x="96292" y="110400" zmin="-3820" zmax="-3220"/>
+			<add x="95848" y="110220" zmin="-3820" zmax="-3220"/>
+		</territory>
+	</spawn>
+	<!--Королевский Пещерный Слуга Level : 51 Territory : giran03_2221_34-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20240"/>
+		<territory>
+			<add x="95764" y="109684" zmin="-3820" zmax="-3220"/>
+			<add x="97044" y="109216" zmin="-3820" zmax="-3220"/>
+			<add x="98024" y="109296" zmin="-3820" zmax="-3220"/>
+			<add x="97996" y="109652" zmin="-3820" zmax="-3220"/>
+			<add x="96292" y="110400" zmin="-3820" zmax="-3220"/>
+			<add x="95848" y="110220" zmin="-3820" zmax="-3220"/>
+		</territory>
+	</spawn>
+	<!--Безглавый Рыцарь Level : 50 Territory : giran03_2221_37-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20146"/>
+		<territory>
+			<add x="94668" y="112056" zmin="-3140" zmax="-2740"/>
+			<add x="95508" y="112076" zmin="-3140" zmax="-2740"/>
+			<add x="95704" y="112612" zmin="-3140" zmax="-2740"/>
+			<add x="95316" y="113020" zmin="-3140" zmax="-2740"/>
+			<add x="95116" y="112996" zmin="-3140" zmax="-2740"/>
+		</territory>
+	</spawn>
+	<!--Королевский Пещерный Слуга Level : 51 Territory : giran03_2221_37-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20240"/>
+		<territory>
+			<add x="94668" y="112056" zmin="-3140" zmax="-2740"/>
+			<add x="95508" y="112076" zmin="-3140" zmax="-2740"/>
+			<add x="95704" y="112612" zmin="-3140" zmax="-2740"/>
+			<add x="95316" y="113020" zmin="-3140" zmax="-2740"/>
+			<add x="95116" y="112996" zmin="-3140" zmax="-2740"/>
+		</territory>
+	</spawn>
+	<!--Безглавый Рыцарь Level : 50 Territory : giran03_2221_38-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20146"/>
+		<territory>
+			<add x="93984" y="112092" zmin="-3172" zmax="-2772"/>
+			<add x="94648" y="112056" zmin="-3172" zmax="-2772"/>
+			<add x="95088" y="113008" zmin="-3172" zmax="-2772"/>
+			<add x="94220" y="113840" zmin="-3172" zmax="-2772"/>
+		</territory>
+	</spawn>
+	<!--Королевский Пещерный Слуга Level : 51 Territory : giran03_2221_38-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20240"/>
+		<territory>
+			<add x="93984" y="112092" zmin="-3172" zmax="-2772"/>
+			<add x="94648" y="112056" zmin="-3172" zmax="-2772"/>
+			<add x="95088" y="113008" zmin="-3172" zmax="-2772"/>
+			<add x="94220" y="113840" zmin="-3172" zmax="-2772"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Воин Level : 48 Territory : giran03_2221_44-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20238"/>
+		<territory>
+			<add x="80300" y="109580" zmin="-3264" zmax="-2864"/>
+			<add x="80884" y="109108" zmin="-3264" zmax="-2864"/>
+			<add x="82516" y="108676" zmin="-3264" zmax="-2864"/>
+			<add x="82416" y="109584" zmin="-3264" zmax="-2864"/>
+			<add x="81156" y="110376" zmin="-3264" zmax="-2864"/>
+			<add x="80704" y="110340" zmin="-3264" zmax="-2864"/>
+		</territory>
+	</spawn>
+	<!--Старший Пещерный Слуга Level : 49 Territory : giran03_2221_44-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20239"/>
+		<territory>
+			<add x="80300" y="109580" zmin="-3264" zmax="-2864"/>
+			<add x="80884" y="109108" zmin="-3264" zmax="-2864"/>
+			<add x="82516" y="108676" zmin="-3264" zmax="-2864"/>
+			<add x="82416" y="109584" zmin="-3264" zmax="-2864"/>
+			<add x="81156" y="110376" zmin="-3264" zmax="-2864"/>
+			<add x="80704" y="110340" zmin="-3264" zmax="-2864"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Воин Level : 48 Territory : giran03_2221_45-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20238"/>
+		<territory>
+			<add x="82580" y="109476" zmin="-3284" zmax="-2884"/>
+			<add x="82808" y="108372" zmin="-3284" zmax="-2884"/>
+			<add x="83460" y="108396" zmin="-3284" zmax="-2884"/>
+			<add x="84344" y="109660" zmin="-3284" zmax="-2884"/>
+		</territory>
+	</spawn>
+	<!--Старший Пещерный Слуга Level : 49 Territory : giran03_2221_45-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20239"/>
+		<territory>
+			<add x="82580" y="109476" zmin="-3284" zmax="-2884"/>
+			<add x="82808" y="108372" zmin="-3284" zmax="-2884"/>
+			<add x="83460" y="108396" zmin="-3284" zmax="-2884"/>
+			<add x="84344" y="109660" zmin="-3284" zmax="-2884"/>
+		</territory>
+	</spawn>
+	<!--Пещерный Слуга Воин Level : 48 Territory : giran03_2221_46-->
+	<spawn count="3" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20238"/>
+		<territory>
+			<add x="83572" y="108336" zmin="-3272" zmax="-2872"/>
+			<add x="84840" y="107312" zmin="-3272" zmax="-2872"/>
+			<add x="87048" y="106568" zmin="-3272" zmax="-2872"/>
+			<add x="87364" y="109264" zmin="-3272" zmax="-2872"/>
+			<add x="84372" y="109652" zmin="-3272" zmax="-2872"/>
+		</territory>
+	</spawn>
+	<!--Старший Пещерный Слуга Level : 49 Territory : giran03_2221_46-->
+	<spawn count="3" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20239"/>
+		<territory>
+			<add x="83572" y="108336" zmin="-3272" zmax="-2872"/>
+			<add x="84840" y="107312" zmin="-3272" zmax="-2872"/>
+			<add x="87048" y="106568" zmin="-3272" zmax="-2872"/>
+			<add x="87364" y="109264" zmin="-3272" zmax="-2872"/>
+			<add x="84372" y="109652" zmin="-3272" zmax="-2872"/>
+		</territory>
+	</spawn>
+	<!--Безглавый Рыцарь Level : 50 Territory : giran03_2221_46-->
+	<spawn count="3" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20146"/>
+		<territory>
+			<add x="83572" y="108336" zmin="-3272" zmax="-2872"/>
+			<add x="84840" y="107312" zmin="-3272" zmax="-2872"/>
+			<add x="87048" y="106568" zmin="-3272" zmax="-2872"/>
+			<add x="87364" y="109264" zmin="-3272" zmax="-2872"/>
+			<add x="84372" y="109652" zmin="-3272" zmax="-2872"/>
+		</territory>
+	</spawn>
+	<!--Старший Пещерный Слуга Level : 49 Territory : giran03_2221_47-->
+	<spawn count="3" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20239"/>
+		<territory>
+			<add x="87184" y="106572" zmin="-3328" zmax="-2828"/>
+			<add x="89336" y="104996" zmin="-3328" zmax="-2828"/>
+			<add x="90788" y="105668" zmin="-3328" zmax="-2828"/>
+			<add x="90868" y="108320" zmin="-3328" zmax="-2828"/>
+			<add x="90328" y="109048" zmin="-3328" zmax="-2828"/>
+			<add x="87384" y="108876" zmin="-3328" zmax="-2828"/>
+		</territory>
+	</spawn>
+	<!--Безглавый Рыцарь Level : 50 Territory : giran03_2221_47-->
+	<spawn count="3" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20146"/>
+		<territory>
+			<add x="87184" y="106572" zmin="-3328" zmax="-2828"/>
+			<add x="89336" y="104996" zmin="-3328" zmax="-2828"/>
+			<add x="90788" y="105668" zmin="-3328" zmax="-2828"/>
+			<add x="90868" y="108320" zmin="-3328" zmax="-2828"/>
+			<add x="90328" y="109048" zmin="-3328" zmax="-2828"/>
+			<add x="87384" y="108876" zmin="-3328" zmax="-2828"/>
+		</territory>
+	</spawn>
+	<!--Королевский Пещерный Слуга Level : 51 Territory : giran03_2221_47-->
+	<spawn count="3" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20240"/>
+		<territory>
+			<add x="87184" y="106572" zmin="-3328" zmax="-2828"/>
+			<add x="89336" y="104996" zmin="-3328" zmax="-2828"/>
+			<add x="90788" y="105668" zmin="-3328" zmax="-2828"/>
+			<add x="90868" y="108320" zmin="-3328" zmax="-2828"/>
+			<add x="90328" y="109048" zmin="-3328" zmax="-2828"/>
+			<add x="87384" y="108876" zmin="-3328" zmax="-2828"/>
+		</territory>
+	</spawn>
+	<!--Безглавый Рыцарь Level : 50 Territory : giran03_2221_48-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20146"/>
+		<territory>
+			<add x="90872" y="106408" zmin="-3152" zmax="-2752"/>
+			<add x="91996" y="107432" zmin="-3152" zmax="-2752"/>
+			<add x="92148" y="108612" zmin="-3152" zmax="-2752"/>
+			<add x="91348" y="108560" zmin="-3152" zmax="-2752"/>
+			<add x="90892" y="108372" zmin="-3152" zmax="-2752"/>
+		</territory>
+	</spawn>
+	<!--Королевский Пещерный Слуга Level : 51 Territory : giran03_2221_48-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20240"/>
+		<territory>
+			<add x="90872" y="106408" zmin="-3152" zmax="-2752"/>
+			<add x="91996" y="107432" zmin="-3152" zmax="-2752"/>
+			<add x="92148" y="108612" zmin="-3152" zmax="-2752"/>
+			<add x="91348" y="108560" zmin="-3152" zmax="-2752"/>
+			<add x="90892" y="108372" zmin="-3152" zmax="-2752"/>
+		</territory>
+	</spawn>
+	<!--Безглавый Рыцарь Level : 50 Territory : giran03_2221_49-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20146"/>
+		<territory>
+			<add x="92004" y="107476" zmin="-3140" zmax="-2840"/>
+			<add x="92824" y="107416" zmin="-3140" zmax="-2840"/>
+			<add x="93540" y="107484" zmin="-3140" zmax="-2840"/>
+			<add x="93568" y="107732" zmin="-3140" zmax="-2840"/>
+			<add x="92052" y="107912" zmin="-3140" zmax="-2840"/>
+		</territory>
+	</spawn>
+	<!--Королевский Пещерный Слуга Level : 51 Territory : giran03_2221_49-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20240"/>
+		<territory>
+			<add x="92004" y="107476" zmin="-3140" zmax="-2840"/>
+			<add x="92824" y="107416" zmin="-3140" zmax="-2840"/>
+			<add x="93540" y="107484" zmin="-3140" zmax="-2840"/>
+			<add x="93568" y="107732" zmin="-3140" zmax="-2840"/>
+			<add x="92052" y="107912" zmin="-3140" zmax="-2840"/>
+		</territory>
+	</spawn>
+	<!--Безглавый Рыцарь Level : 50 Territory : giran03_2221_50-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20146"/>
+		<territory>
+			<add x="93540" y="107484" zmin="-3096" zmax="-2896"/>
+			<add x="94460" y="107372" zmin="-3096" zmax="-2896"/>
+			<add x="94868" y="107908" zmin="-3096" zmax="-2896"/>
+			<add x="93860" y="107844" zmin="-3096" zmax="-2896"/>
+			<add x="93568" y="107744" zmin="-3096" zmax="-2896"/>
+		</territory>
+	</spawn>
+	<!--Королевский Пещерный Слуга Level : 51 Territory : giran03_2221_50-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20240"/>
+		<territory>
+			<add x="93540" y="107484" zmin="-3096" zmax="-2896"/>
+			<add x="94460" y="107372" zmin="-3096" zmax="-2896"/>
+			<add x="94868" y="107908" zmin="-3096" zmax="-2896"/>
+			<add x="93860" y="107844" zmin="-3096" zmax="-2896"/>
+			<add x="93568" y="107744" zmin="-3096" zmax="-2896"/>
+		</territory>
+	</spawn>
+	<!--Безглавый Рыцарь Level : 50 Territory : giran03_2221_51-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20146"/>
+		<territory>
+			<add x="94552" y="107508" zmin="-3236" zmax="-2836"/>
+			<add x="96172" y="107624" zmin="-3236" zmax="-2836"/>
+			<add x="96176" y="107888" zmin="-3236" zmax="-2836"/>
+			<add x="95916" y="108172" zmin="-3236" zmax="-2836"/>
+			<add x="94916" y="107920" zmin="-3236" zmax="-2836"/>
+		</territory>
+	</spawn>
+	<!--Королевский Пещерный Слуга Level : 51 Territory : giran03_2221_51-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20240"/>
+		<territory>
+			<add x="94552" y="107508" zmin="-3236" zmax="-2836"/>
+			<add x="96172" y="107624" zmin="-3236" zmax="-2836"/>
+			<add x="96176" y="107888" zmin="-3236" zmax="-2836"/>
+			<add x="95916" y="108172" zmin="-3236" zmax="-2836"/>
+			<add x="94916" y="107920" zmin="-3236" zmax="-2836"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2221_p05-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="82736" y="117036" zmin="-3112" zmax="-2712"/>
+			<add x="84836" y="116980" zmin="-3112" zmax="-2712"/>
+			<add x="86648" y="119832" zmin="-3112" zmax="-2712"/>
+			<add x="85036" y="121536" zmin="-3112" zmax="-2712"/>
+			<add x="83824" y="121388" zmin="-3112" zmax="-2712"/>
+			<add x="82692" y="120152" zmin="-3112" zmax="-2712"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2221_p08-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="85480" y="121108" zmin="-3108" zmax="-2908"/>
+			<add x="88060" y="118624" zmin="-3108" zmax="-2908"/>
+			<add x="88876" y="118896" zmin="-3108" zmax="-2908"/>
+			<add x="89600" y="120520" zmin="-3108" zmax="-2908"/>
+			<add x="88112" y="121556" zmin="-3108" zmax="-2908"/>
+			<add x="86556" y="121452" zmin="-3108" zmax="-2908"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2221_p09-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="88908" y="118876" zmin="-3184" zmax="-2784"/>
+			<add x="91680" y="117772" zmin="-3184" zmax="-2784"/>
+			<add x="92420" y="117964" zmin="-3184" zmax="-2784"/>
+			<add x="92604" y="119884" zmin="-3184" zmax="-2784"/>
+			<add x="91676" y="120892" zmin="-3184" zmax="-2784"/>
+			<add x="90476" y="120840" zmin="-3184" zmax="-2784"/>
+			<add x="89628" y="120516" zmin="-3184" zmax="-2784"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2221_p19-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="93184" y="111356" zmin="-3312" zmax="-2912"/>
+			<add x="93972" y="112088" zmin="-3312" zmax="-2912"/>
+			<add x="94280" y="114260" zmin="-3312" zmax="-2912"/>
+			<add x="93760" y="115116" zmin="-3312" zmax="-2912"/>
+			<add x="92648" y="115860" zmin="-3312" zmax="-2912"/>
+			<add x="91240" y="114948" zmin="-3312" zmax="-2912"/>
+			<add x="90548" y="113812" zmin="-3312" zmax="-2912"/>
+			<add x="90752" y="112068" zmin="-3312" zmax="-2912"/>
+			<add x="91848" y="111112" zmin="-3312" zmax="-2912"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2221_p46-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="83572" y="108336" zmin="-3272" zmax="-2872"/>
+			<add x="84840" y="107312" zmin="-3272" zmax="-2872"/>
+			<add x="87048" y="106568" zmin="-3272" zmax="-2872"/>
+			<add x="87364" y="109264" zmin="-3272" zmax="-2872"/>
+			<add x="84372" y="109652" zmin="-3272" zmax="-2872"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2221_p47-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="87184" y="106572" zmin="-3328" zmax="-2828"/>
+			<add x="89336" y="104996" zmin="-3328" zmax="-2828"/>
+			<add x="90788" y="105668" zmin="-3328" zmax="-2828"/>
+			<add x="90868" y="108320" zmin="-3328" zmax="-2828"/>
+			<add x="90328" y="109048" zmin="-3328" zmax="-2828"/>
+			<add x="87384" y="108876" zmin="-3328" zmax="-2828"/>
+		</territory>
+	</spawn>
+	<!--Горгулья Пыльной Бури Level : 53 Territory : giran03_2321_02-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20242"/>
+		<territory>
+			<add x="99820" y="110104" zmin="-3760" zmax="-3360"/>
+			<add x="102244" y="110580" zmin="-3760" zmax="-3360"/>
+			<add x="100908" y="112768" zmin="-3760" zmax="-3360"/>
+			<add x="99380" y="110712" zmin="-3760" zmax="-3360"/>
+		</territory>
+	</spawn>
+	<!--Горгулья Пыльной Бури Level : 53 Territory : giran03_2321_03-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20242"/>
+		<territory>
+			<add x="102284" y="110576" zmin="-3812" zmax="-3412"/>
+			<add x="102808" y="110408" zmin="-3812" zmax="-3412"/>
+			<add x="103304" y="110888" zmin="-3812" zmax="-3412"/>
+			<add x="103332" y="112332" zmin="-3812" zmax="-3412"/>
+			<add x="102712" y="113340" zmin="-3812" zmax="-3412"/>
+			<add x="100908" y="112828" zmin="-3812" zmax="-3412"/>
+		</territory>
+	</spawn>
+	<!--Горгулья Пыльной Бури Level : 53 Territory : giran03_2321_04-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20242"/>
+		<territory>
+			<add x="101056" y="112876" zmin="-3804" zmax="-3404"/>
+			<add x="102732" y="113364" zmin="-3804" zmax="-3404"/>
+			<add x="102724" y="114296" zmin="-3804" zmax="-3404"/>
+			<add x="101776" y="115100" zmin="-3804" zmax="-3404"/>
+			<add x="100908" y="115064" zmin="-3804" zmax="-3404"/>
+		</territory>
+	</spawn>
+	<!--Громовой Змей Level : 54 Territory : giran03_2321_04-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20243"/>
+		<territory>
+			<add x="101056" y="112876" zmin="-3804" zmax="-3404"/>
+			<add x="102732" y="113364" zmin="-3804" zmax="-3404"/>
+			<add x="102724" y="114296" zmin="-3804" zmax="-3404"/>
+			<add x="101776" y="115100" zmin="-3804" zmax="-3404"/>
+			<add x="100908" y="115064" zmin="-3804" zmax="-3404"/>
+		</territory>
+	</spawn>
+	<!--Горгулья Пыльной Бури Level : 53 Territory : giran03_2321_05-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20242"/>
+		<territory>
+			<add x="100944" y="115124" zmin="-3788" zmax="-3388"/>
+			<add x="101536" y="115128" zmin="-3788" zmax="-3388"/>
+			<add x="101720" y="116444" zmin="-3788" zmax="-3388"/>
+			<add x="101056" y="116460" zmin="-3788" zmax="-3388"/>
+			<add x="100820" y="115376" zmin="-3788" zmax="-3388"/>
+		</territory>
+	</spawn>
+	<!--Громовой Змей Level : 54 Territory : giran03_2321_05-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20243"/>
+		<territory>
+			<add x="100944" y="115124" zmin="-3788" zmax="-3388"/>
+			<add x="101536" y="115128" zmin="-3788" zmax="-3388"/>
+			<add x="101720" y="116444" zmin="-3788" zmax="-3388"/>
+			<add x="101056" y="116460" zmin="-3788" zmax="-3388"/>
+			<add x="100820" y="115376" zmin="-3788" zmax="-3388"/>
+		</territory>
+	</spawn>
+	<!--Горгулья Пыльной Бури Level : 53 Territory : giran03_2321_06-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20242"/>
+		<territory>
+			<add x="100916" y="116628" zmin="-3776" zmax="-3376"/>
+			<add x="101748" y="116500" zmin="-3776" zmax="-3376"/>
+			<add x="102296" y="116772" zmin="-3776" zmax="-3376"/>
+			<add x="102536" y="118024" zmin="-3776" zmax="-3376"/>
+			<add x="100440" y="118412" zmin="-3776" zmax="-3376"/>
+		</territory>
+	</spawn>
+	<!--Громовой Змей Level : 54 Territory : giran03_2321_06-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20243"/>
+		<territory>
+			<add x="100916" y="116628" zmin="-3776" zmax="-3376"/>
+			<add x="101748" y="116500" zmin="-3776" zmax="-3376"/>
+			<add x="102296" y="116772" zmin="-3776" zmax="-3376"/>
+			<add x="102536" y="118024" zmin="-3776" zmax="-3376"/>
+			<add x="100440" y="118412" zmin="-3776" zmax="-3376"/>
+		</territory>
+	</spawn>
+	<!--Горгулья Пыльной Бури Level : 53 Territory : giran03_2321_07-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20242"/>
+		<territory>
+			<add x="100496" y="118452" zmin="-3800" zmax="-3400"/>
+			<add x="102524" y="118052" zmin="-3800" zmax="-3400"/>
+			<add x="103960" y="119636" zmin="-3800" zmax="-3400"/>
+			<add x="101088" y="122260" zmin="-3800" zmax="-3400"/>
+		</territory>
+	</spawn>
+	<!--Громовой Змей Level : 54 Territory : giran03_2321_07-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20243"/>
+		<territory>
+			<add x="100496" y="118452" zmin="-3800" zmax="-3400"/>
+			<add x="102524" y="118052" zmin="-3800" zmax="-3400"/>
+			<add x="103960" y="119636" zmin="-3800" zmax="-3400"/>
+			<add x="101088" y="122260" zmin="-3800" zmax="-3400"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_07-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="100496" y="118452" zmin="-3800" zmax="-3400"/>
+			<add x="102524" y="118052" zmin="-3800" zmax="-3400"/>
+			<add x="103960" y="119636" zmin="-3800" zmax="-3400"/>
+			<add x="101088" y="122260" zmin="-3800" zmax="-3400"/>
+		</territory>
+	</spawn>
+	<!--Горгулья Пыльной Бури Level : 53 Territory : giran03_2321_06_1-->
+	<spawn count="4" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20242"/>
+		<territory>
+			<add x="101148" y="122324" zmin="-3764" zmax="-3564"/>
+			<add x="104024" y="119728" zmin="-3764" zmax="-3564"/>
+			<add x="105768" y="119932" zmin="-3764" zmax="-3564"/>
+			<add x="107584" y="123020" zmin="-3764" zmax="-3564"/>
+			<add x="105016" y="124624" zmin="-3764" zmax="-3564"/>
+			<add x="102408" y="124852" zmin="-3764" zmax="-3564"/>
+		</territory>
+	</spawn>
+	<!--Громовой Змей Level : 54 Territory : giran03_2321_06_1-->
+	<spawn count="4" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20243"/>
+		<territory>
+			<add x="101148" y="122324" zmin="-3764" zmax="-3564"/>
+			<add x="104024" y="119728" zmin="-3764" zmax="-3564"/>
+			<add x="105768" y="119932" zmin="-3764" zmax="-3564"/>
+			<add x="107584" y="123020" zmin="-3764" zmax="-3564"/>
+			<add x="105016" y="124624" zmin="-3764" zmax="-3564"/>
+			<add x="102408" y="124852" zmin="-3764" zmax="-3564"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_06_1-->
+	<spawn count="4" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="101148" y="122324" zmin="-3764" zmax="-3564"/>
+			<add x="104024" y="119728" zmin="-3764" zmax="-3564"/>
+			<add x="105768" y="119932" zmin="-3764" zmax="-3564"/>
+			<add x="107584" y="123020" zmin="-3764" zmax="-3564"/>
+			<add x="105016" y="124624" zmin="-3764" zmax="-3564"/>
+			<add x="102408" y="124852" zmin="-3764" zmax="-3564"/>
+		</territory>
+	</spawn>
+	<!--Горгулья Пыльной Бури Level : 53 Territory : giran03_2321_08-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20242"/>
+		<territory>
+			<add x="105832" y="119884" zmin="-3764" zmax="-3364"/>
+			<add x="107372" y="119352" zmin="-3764" zmax="-3364"/>
+			<add x="109012" y="120768" zmin="-3764" zmax="-3364"/>
+			<add x="108508" y="122780" zmin="-3764" zmax="-3364"/>
+			<add x="107624" y="122916" zmin="-3764" zmax="-3364"/>
+		</territory>
+	</spawn>
+	<!--Громовой Змей Level : 54 Territory : giran03_2321_08-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20243"/>
+		<territory>
+			<add x="105832" y="119884" zmin="-3764" zmax="-3364"/>
+			<add x="107372" y="119352" zmin="-3764" zmax="-3364"/>
+			<add x="109012" y="120768" zmin="-3764" zmax="-3364"/>
+			<add x="108508" y="122780" zmin="-3764" zmax="-3364"/>
+			<add x="107624" y="122916" zmin="-3764" zmax="-3364"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_08-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="105832" y="119884" zmin="-3764" zmax="-3364"/>
+			<add x="107372" y="119352" zmin="-3764" zmax="-3364"/>
+			<add x="109012" y="120768" zmin="-3764" zmax="-3364"/>
+			<add x="108508" y="122780" zmin="-3764" zmax="-3364"/>
+			<add x="107624" y="122916" zmin="-3764" zmax="-3364"/>
+		</territory>
+	</spawn>
+	<!--Громовой Змей Level : 54 Territory : giran03_2321_09-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20243"/>
+		<territory>
+			<add x="109012" y="120912" zmin="-3784" zmax="-3384"/>
+			<add x="109844" y="120768" zmin="-3784" zmax="-3384"/>
+			<add x="112040" y="123020" zmin="-3784" zmax="-3384"/>
+			<add x="111408" y="123748" zmin="-3784" zmax="-3384"/>
+			<add x="109212" y="123452" zmin="-3784" zmax="-3384"/>
+			<add x="108524" y="122732" zmin="-3784" zmax="-3384"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_09-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="109012" y="120912" zmin="-3784" zmax="-3384"/>
+			<add x="109844" y="120768" zmin="-3784" zmax="-3384"/>
+			<add x="112040" y="123020" zmin="-3784" zmax="-3384"/>
+			<add x="111408" y="123748" zmin="-3784" zmax="-3384"/>
+			<add x="109212" y="123452" zmin="-3784" zmax="-3384"/>
+			<add x="108524" y="122732" zmin="-3784" zmax="-3384"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Турен Level : 56 Territory : giran03_2321_09-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20245"/>
+		<territory>
+			<add x="109012" y="120912" zmin="-3784" zmax="-3384"/>
+			<add x="109844" y="120768" zmin="-3784" zmax="-3384"/>
+			<add x="112040" y="123020" zmin="-3784" zmax="-3384"/>
+			<add x="111408" y="123748" zmin="-3784" zmax="-3384"/>
+			<add x="109212" y="123452" zmin="-3784" zmax="-3384"/>
+			<add x="108524" y="122732" zmin="-3784" zmax="-3384"/>
+		</territory>
+	</spawn>
+	<!--Громовой Змей Level : 54 Territory : giran03_2321_10-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20243"/>
+		<territory>
+			<add x="109264" y="123540" zmin="-3768" zmax="-3368"/>
+			<add x="111368" y="123812" zmin="-3768" zmax="-3368"/>
+			<add x="111468" y="125448" zmin="-3768" zmax="-3368"/>
+			<add x="110908" y="126372" zmin="-3768" zmax="-3368"/>
+			<add x="109212" y="126984" zmin="-3768" zmax="-3368"/>
+			<add x="108736" y="125860" zmin="-3768" zmax="-3368"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_10-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="109264" y="123540" zmin="-3768" zmax="-3368"/>
+			<add x="111368" y="123812" zmin="-3768" zmax="-3368"/>
+			<add x="111468" y="125448" zmin="-3768" zmax="-3368"/>
+			<add x="110908" y="126372" zmin="-3768" zmax="-3368"/>
+			<add x="109212" y="126984" zmin="-3768" zmax="-3368"/>
+			<add x="108736" y="125860" zmin="-3768" zmax="-3368"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Турен Level : 56 Territory : giran03_2321_10-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20245"/>
+		<territory>
+			<add x="109264" y="123540" zmin="-3768" zmax="-3368"/>
+			<add x="111368" y="123812" zmin="-3768" zmax="-3368"/>
+			<add x="111468" y="125448" zmin="-3768" zmax="-3368"/>
+			<add x="110908" y="126372" zmin="-3768" zmax="-3368"/>
+			<add x="109212" y="126984" zmin="-3768" zmax="-3368"/>
+			<add x="108736" y="125860" zmin="-3768" zmax="-3368"/>
+		</territory>
+	</spawn>
+	<!--Громовой Змей Level : 54 Territory : giran03_2321_11-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20243"/>
+		<territory>
+			<add x="111380" y="122364" zmin="-3836" zmax="-3436"/>
+			<add x="113304" y="121256" zmin="-3836" zmax="-3436"/>
+			<add x="114580" y="121152" zmin="-3836" zmax="-3436"/>
+			<add x="114400" y="122200" zmin="-3836" zmax="-3436"/>
+			<add x="112004" y="122968" zmin="-3836" zmax="-3436"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_11-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="111380" y="122364" zmin="-3836" zmax="-3436"/>
+			<add x="113304" y="121256" zmin="-3836" zmax="-3436"/>
+			<add x="114580" y="121152" zmin="-3836" zmax="-3436"/>
+			<add x="114400" y="122200" zmin="-3836" zmax="-3436"/>
+			<add x="112004" y="122968" zmin="-3836" zmax="-3436"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Турен Level : 56 Territory : giran03_2321_11-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20245"/>
+		<territory>
+			<add x="111380" y="122364" zmin="-3836" zmax="-3436"/>
+			<add x="113304" y="121256" zmin="-3836" zmax="-3436"/>
+			<add x="114580" y="121152" zmin="-3836" zmax="-3436"/>
+			<add x="114400" y="122200" zmin="-3836" zmax="-3436"/>
+			<add x="112004" y="122968" zmin="-3836" zmax="-3436"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_12-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="113680" y="119156" zmin="-3824" zmax="-3424"/>
+			<add x="116500" y="119108" zmin="-3824" zmax="-3424"/>
+			<add x="116272" y="120868" zmin="-3824" zmax="-3424"/>
+			<add x="113384" y="121076" zmin="-3824" zmax="-3424"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Турен Level : 56 Territory : giran03_2321_12-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20245"/>
+		<territory>
+			<add x="113680" y="119156" zmin="-3824" zmax="-3424"/>
+			<add x="116500" y="119108" zmin="-3824" zmax="-3424"/>
+			<add x="116272" y="120868" zmin="-3824" zmax="-3424"/>
+			<add x="113384" y="121076" zmin="-3824" zmax="-3424"/>
+		</territory>
+	</spawn>
+	<!--Дрейк Level : 57 Territory : giran03_2321_12-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20137"/>
+		<territory>
+			<add x="113680" y="119156" zmin="-3824" zmax="-3424"/>
+			<add x="116500" y="119108" zmin="-3824" zmax="-3424"/>
+			<add x="116272" y="120868" zmin="-3824" zmax="-3424"/>
+			<add x="113384" y="121076" zmin="-3824" zmax="-3424"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_13-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="117352" y="118332" zmin="-3764" zmax="-3364"/>
+			<add x="118312" y="118228" zmin="-3764" zmax="-3364"/>
+			<add x="118612" y="119572" zmin="-3764" zmax="-3364"/>
+			<add x="117096" y="120892" zmin="-3764" zmax="-3364"/>
+			<add x="116772" y="120784" zmin="-3764" zmax="-3364"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Турен Level : 56 Territory : giran03_2321_13-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20245"/>
+		<territory>
+			<add x="117352" y="118332" zmin="-3764" zmax="-3364"/>
+			<add x="118312" y="118228" zmin="-3764" zmax="-3364"/>
+			<add x="118612" y="119572" zmin="-3764" zmax="-3364"/>
+			<add x="117096" y="120892" zmin="-3764" zmax="-3364"/>
+			<add x="116772" y="120784" zmin="-3764" zmax="-3364"/>
+		</territory>
+	</spawn>
+	<!--Дрейк Level : 57 Territory : giran03_2321_13-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20137"/>
+		<territory>
+			<add x="117352" y="118332" zmin="-3764" zmax="-3364"/>
+			<add x="118312" y="118228" zmin="-3764" zmax="-3364"/>
+			<add x="118612" y="119572" zmin="-3764" zmax="-3364"/>
+			<add x="117096" y="120892" zmin="-3764" zmax="-3364"/>
+			<add x="116772" y="120784" zmin="-3764" zmax="-3364"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_14-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="117084" y="116084" zmin="-3804" zmax="-3404"/>
+			<add x="118480" y="115972" zmin="-3804" zmax="-3404"/>
+			<add x="118808" y="117608" zmin="-3804" zmax="-3404"/>
+			<add x="118264" y="118192" zmin="-3804" zmax="-3404"/>
+			<add x="116484" y="119052" zmin="-3804" zmax="-3404"/>
+			<add x="115564" y="117624" zmin="-3804" zmax="-3404"/>
+			<add x="115668" y="116964" zmin="-3804" zmax="-3404"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Турен Level : 56 Territory : giran03_2321_14-->
+	<spawn count="3" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20245"/>
+		<territory>
+			<add x="117084" y="116084" zmin="-3804" zmax="-3404"/>
+			<add x="118480" y="115972" zmin="-3804" zmax="-3404"/>
+			<add x="118808" y="117608" zmin="-3804" zmax="-3404"/>
+			<add x="118264" y="118192" zmin="-3804" zmax="-3404"/>
+			<add x="116484" y="119052" zmin="-3804" zmax="-3404"/>
+			<add x="115564" y="117624" zmin="-3804" zmax="-3404"/>
+			<add x="115668" y="116964" zmin="-3804" zmax="-3404"/>
+		</territory>
+	</spawn>
+	<!--Дрейк Level : 57 Territory : giran03_2321_14-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20137"/>
+		<territory>
+			<add x="117084" y="116084" zmin="-3804" zmax="-3404"/>
+			<add x="118480" y="115972" zmin="-3804" zmax="-3404"/>
+			<add x="118808" y="117608" zmin="-3804" zmax="-3404"/>
+			<add x="118264" y="118192" zmin="-3804" zmax="-3404"/>
+			<add x="116484" y="119052" zmin="-3804" zmax="-3404"/>
+			<add x="115564" y="117624" zmin="-3804" zmax="-3404"/>
+			<add x="115668" y="116964" zmin="-3804" zmax="-3404"/>
+		</territory>
+	</spawn>
+	<!--Дрейк Level : 57 Territory : giran03_2321_15-->
+	<spawn count="4" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20137"/>
+		<territory>
+			<add x="119656" y="113820" zmin="-3888" zmax="-3488"/>
+			<add x="123116" y="112952" zmin="-3888" zmax="-3488"/>
+			<add x="124772" y="114316" zmin="-3888" zmax="-3488"/>
+			<add x="124724" y="115740" zmin="-3888" zmax="-3488"/>
+			<add x="122812" y="117540" zmin="-3888" zmax="-3488"/>
+			<add x="118760" y="117116" zmin="-3888" zmax="-3488"/>
+			<add x="118496" y="116004" zmin="-3888" zmax="-3488"/>
+		</territory>
+	</spawn>
+	<!--Хранитель Пещеры Level : 58 Territory : giran03_2321_15-->
+	<spawn count="4" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20246"/>
+		<territory>
+			<add x="119656" y="113820" zmin="-3888" zmax="-3488"/>
+			<add x="123116" y="112952" zmin="-3888" zmax="-3488"/>
+			<add x="124772" y="114316" zmin="-3888" zmax="-3488"/>
+			<add x="124724" y="115740" zmin="-3888" zmax="-3488"/>
+			<add x="122812" y="117540" zmin="-3888" zmax="-3488"/>
+			<add x="118760" y="117116" zmin="-3888" zmax="-3488"/>
+			<add x="118496" y="116004" zmin="-3888" zmax="-3488"/>
+		</territory>
+	</spawn>
+	<!--Пещерная Дева Level : 59 Territory : giran03_2321_15-->
+	<spawn count="4" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20134"/>
+		<territory>
+			<add x="119656" y="113820" zmin="-3888" zmax="-3488"/>
+			<add x="123116" y="112952" zmin="-3888" zmax="-3488"/>
+			<add x="124772" y="114316" zmin="-3888" zmax="-3488"/>
+			<add x="124724" y="115740" zmin="-3888" zmax="-3488"/>
+			<add x="122812" y="117540" zmin="-3888" zmax="-3488"/>
+			<add x="118760" y="117116" zmin="-3888" zmax="-3488"/>
+			<add x="118496" y="116004" zmin="-3888" zmax="-3488"/>
+		</territory>
+	</spawn>
+	<!--Кровавая Королева Level : 60 Territory : giran03_2321_15-->
+	<spawn count="4" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="18001"/>
+		<territory>
+			<add x="119656" y="113820" zmin="-3888" zmax="-3488"/>
+			<add x="123116" y="112952" zmin="-3888" zmax="-3488"/>
+			<add x="124772" y="114316" zmin="-3888" zmax="-3488"/>
+			<add x="124724" y="115740" zmin="-3888" zmax="-3488"/>
+			<add x="122812" y="117540" zmin="-3888" zmax="-3488"/>
+			<add x="118760" y="117116" zmin="-3888" zmax="-3488"/>
+			<add x="118496" y="116004" zmin="-3888" zmax="-3488"/>
+		</territory>
+	</spawn>
+	<!--Дрейк Level : 57 Territory : giran03_2321_16-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20137"/>
+		<territory>
+			<add x="119144" y="112156" zmin="-3908" zmax="-3508"/>
+			<add x="120308" y="112028" zmin="-3908" zmax="-3508"/>
+			<add x="123020" y="112868" zmin="-3908" zmax="-3508"/>
+			<add x="119508" y="113776" zmin="-3908" zmax="-3508"/>
+		</territory>
+	</spawn>
+	<!--Хранитель Пещеры Level : 58 Territory : giran03_2321_16-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20246"/>
+		<territory>
+			<add x="119144" y="112156" zmin="-3908" zmax="-3508"/>
+			<add x="120308" y="112028" zmin="-3908" zmax="-3508"/>
+			<add x="123020" y="112868" zmin="-3908" zmax="-3508"/>
+			<add x="119508" y="113776" zmin="-3908" zmax="-3508"/>
+		</territory>
+	</spawn>
+	<!--Пещерная Дева Level : 59 Territory : giran03_2321_16-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20134"/>
+		<territory>
+			<add x="119144" y="112156" zmin="-3908" zmax="-3508"/>
+			<add x="120308" y="112028" zmin="-3908" zmax="-3508"/>
+			<add x="123020" y="112868" zmin="-3908" zmax="-3508"/>
+			<add x="119508" y="113776" zmin="-3908" zmax="-3508"/>
+		</territory>
+	</spawn>
+	<!--Хранитель Пещеры Level : 58 Territory : giran03_2321_17-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20246"/>
+		<territory>
+			<add x="124808" y="114444" zmin="-3816" zmax="-3416"/>
+			<add x="126332" y="114396" zmin="-3816" zmax="-3416"/>
+			<add x="126156" y="115604" zmin="-3816" zmax="-3416"/>
+			<add x="124744" y="115596" zmin="-3816" zmax="-3416"/>
+		</territory>
+	</spawn>
+	<!--Кровавая Королева Level : 60 Territory : giran03_2321_17-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="18001"/>
+		<territory>
+			<add x="124808" y="114444" zmin="-3816" zmax="-3416"/>
+			<add x="126332" y="114396" zmin="-3816" zmax="-3416"/>
+			<add x="126156" y="115604" zmin="-3816" zmax="-3416"/>
+			<add x="124744" y="115596" zmin="-3816" zmax="-3416"/>
+		</territory>
+	</spawn>
+	<!--Хранитель Пещеры Level : 58 Territory : giran03_2321_18-->
+	<spawn count="3" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20246"/>
+		<territory>
+			<add x="128468" y="112800" zmin="-3908" zmax="-3408"/>
+			<add x="130296" y="113820" zmin="-3908" zmax="-3408"/>
+			<add x="130084" y="115340" zmin="-3908" zmax="-3408"/>
+			<add x="127900" y="116792" zmin="-3908" zmax="-3408"/>
+			<add x="126436" y="116028" zmin="-3908" zmax="-3408"/>
+			<add x="126404" y="113856" zmin="-3908" zmax="-3408"/>
+			<add x="127012" y="112484" zmin="-3908" zmax="-3408"/>
+		</territory>
+	</spawn>
+	<!--Пещерная Дева Level : 59 Territory : giran03_2321_18-->
+	<spawn count="3" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20134"/>
+		<territory>
+			<add x="128468" y="112800" zmin="-3908" zmax="-3408"/>
+			<add x="130296" y="113820" zmin="-3908" zmax="-3408"/>
+			<add x="130084" y="115340" zmin="-3908" zmax="-3408"/>
+			<add x="127900" y="116792" zmin="-3908" zmax="-3408"/>
+			<add x="126436" y="116028" zmin="-3908" zmax="-3408"/>
+			<add x="126404" y="113856" zmin="-3908" zmax="-3408"/>
+			<add x="127012" y="112484" zmin="-3908" zmax="-3408"/>
+		</territory>
+	</spawn>
+	<!--Кровавая Королева Level : 60 Territory : giran03_2321_18-->
+	<spawn count="3" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="18001"/>
+		<territory>
+			<add x="128468" y="112800" zmin="-3908" zmax="-3408"/>
+			<add x="130296" y="113820" zmin="-3908" zmax="-3408"/>
+			<add x="130084" y="115340" zmin="-3908" zmax="-3408"/>
+			<add x="127900" y="116792" zmin="-3908" zmax="-3408"/>
+			<add x="126436" y="116028" zmin="-3908" zmax="-3408"/>
+			<add x="126404" y="113856" zmin="-3908" zmax="-3408"/>
+			<add x="127012" y="112484" zmin="-3908" zmax="-3408"/>
+		</territory>
+	</spawn>
+	<!--Хранитель Пещеры Level : 58 Territory : giran03_2321_19-->
+	<spawn count="3" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20246"/>
+		<territory>
+			<add x="125360" y="110216" zmin="-3688" zmax="-2888"/>
+			<add x="126936" y="112492" zmin="-3688" zmax="-2888"/>
+			<add x="126400" y="113480" zmin="-3688" zmax="-2888"/>
+			<add x="123976" y="112140" zmin="-3688" zmax="-2888"/>
+			<add x="124020" y="111172" zmin="-3688" zmax="-2888"/>
+		</territory>
+	</spawn>
+	<!--Пещерная Дева Level : 59 Territory : giran03_2321_19-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20134"/>
+		<territory>
+			<add x="125360" y="110216" zmin="-3688" zmax="-2888"/>
+			<add x="126936" y="112492" zmin="-3688" zmax="-2888"/>
+			<add x="126400" y="113480" zmin="-3688" zmax="-2888"/>
+			<add x="123976" y="112140" zmin="-3688" zmax="-2888"/>
+			<add x="124020" y="111172" zmin="-3688" zmax="-2888"/>
+		</territory>
+	</spawn>
+	<!--Кровавая Королева Level : 60 Territory : giran03_2321_19-->
+	<spawn count="3" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="18001"/>
+		<territory>
+			<add x="125360" y="110216" zmin="-3688" zmax="-2888"/>
+			<add x="126936" y="112492" zmin="-3688" zmax="-2888"/>
+			<add x="126400" y="113480" zmin="-3688" zmax="-2888"/>
+			<add x="123976" y="112140" zmin="-3688" zmax="-2888"/>
+			<add x="124020" y="111172" zmin="-3688" zmax="-2888"/>
+		</territory>
+	</spawn>
+	<!--Дрейк Level : 57 Territory : giran03_2321_20-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20137"/>
+		<territory>
+			<add x="124044" y="109284" zmin="-3148" zmax="-2748"/>
+			<add x="123932" y="107860" zmin="-3148" zmax="-2748"/>
+			<add x="125136" y="108968" zmin="-3148" zmax="-2748"/>
+			<add x="125372" y="110100" zmin="-3148" zmax="-2748"/>
+			<add x="124712" y="110548" zmin="-3148" zmax="-2748"/>
+		</territory>
+	</spawn>
+	<!--Хранитель Пещеры Level : 58 Territory : giran03_2321_20-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20246"/>
+		<territory>
+			<add x="124044" y="109284" zmin="-3148" zmax="-2748"/>
+			<add x="123932" y="107860" zmin="-3148" zmax="-2748"/>
+			<add x="125136" y="108968" zmin="-3148" zmax="-2748"/>
+			<add x="125372" y="110100" zmin="-3148" zmax="-2748"/>
+			<add x="124712" y="110548" zmin="-3148" zmax="-2748"/>
+		</territory>
+	</spawn>
+	<!--Пещерная Дева Level : 59 Territory : giran03_2321_20-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20134"/>
+		<territory>
+			<add x="124044" y="109284" zmin="-3148" zmax="-2748"/>
+			<add x="123932" y="107860" zmin="-3148" zmax="-2748"/>
+			<add x="125136" y="108968" zmin="-3148" zmax="-2748"/>
+			<add x="125372" y="110100" zmin="-3148" zmax="-2748"/>
+			<add x="124712" y="110548" zmin="-3148" zmax="-2748"/>
+		</territory>
+	</spawn>
+	<!--Дрейк Level : 57 Territory : giran03_2321_21-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20137"/>
+		<territory>
+			<add x="121020" y="107440" zmin="-3112" zmax="-2712"/>
+			<add x="122440" y="107380" zmin="-3112" zmax="-2712"/>
+			<add x="123952" y="108116" zmin="-3112" zmax="-2712"/>
+			<add x="123988" y="109260" zmin="-3112" zmax="-2712"/>
+			<add x="122256" y="109408" zmin="-3112" zmax="-2712"/>
+		</territory>
+	</spawn>
+	<!--Хранитель Пещеры Level : 58 Territory : giran03_2321_21-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20246"/>
+		<territory>
+			<add x="121020" y="107440" zmin="-3112" zmax="-2712"/>
+			<add x="122440" y="107380" zmin="-3112" zmax="-2712"/>
+			<add x="123952" y="108116" zmin="-3112" zmax="-2712"/>
+			<add x="123988" y="109260" zmin="-3112" zmax="-2712"/>
+			<add x="122256" y="109408" zmin="-3112" zmax="-2712"/>
+		</territory>
+	</spawn>
+	<!--Пещерная Дева Level : 59 Territory : giran03_2321_21-->
+	<spawn count="3" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20134"/>
+		<territory>
+			<add x="121020" y="107440" zmin="-3112" zmax="-2712"/>
+			<add x="122440" y="107380" zmin="-3112" zmax="-2712"/>
+			<add x="123952" y="108116" zmin="-3112" zmax="-2712"/>
+			<add x="123988" y="109260" zmin="-3112" zmax="-2712"/>
+			<add x="122256" y="109408" zmin="-3112" zmax="-2712"/>
+		</territory>
+	</spawn>
+	<!--Дрейк Level : 57 Territory : giran03_2321_22-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20137"/>
+		<territory>
+			<add x="119740" y="108500" zmin="-3148" zmax="-2748"/>
+			<add x="120972" y="107416" zmin="-3148" zmax="-2748"/>
+			<add x="122252" y="109452" zmin="-3148" zmax="-2748"/>
+			<add x="120484" y="110728" zmin="-3148" zmax="-2748"/>
+		</territory>
+	</spawn>
+	<!--Хранитель Пещеры Level : 58 Territory : giran03_2321_22-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20246"/>
+		<territory>
+			<add x="119740" y="108500" zmin="-3148" zmax="-2748"/>
+			<add x="120972" y="107416" zmin="-3148" zmax="-2748"/>
+			<add x="122252" y="109452" zmin="-3148" zmax="-2748"/>
+			<add x="120484" y="110728" zmin="-3148" zmax="-2748"/>
+		</territory>
+	</spawn>
+	<!--Пещерная Дева Level : 59 Territory : giran03_2321_22-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20134"/>
+		<territory>
+			<add x="119740" y="108500" zmin="-3148" zmax="-2748"/>
+			<add x="120972" y="107416" zmin="-3148" zmax="-2748"/>
+			<add x="122252" y="109452" zmin="-3148" zmax="-2748"/>
+			<add x="120484" y="110728" zmin="-3148" zmax="-2748"/>
+		</territory>
+	</spawn>
+	<!--Дрейк Level : 57 Territory : giran03_2321_24-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20137"/>
+		<territory>
+			<add x="116284" y="109580" zmin="-3160" zmax="-2760"/>
+			<add x="118412" y="109560" zmin="-3160" zmax="-2760"/>
+			<add x="118576" y="110896" zmin="-3160" zmax="-2760"/>
+			<add x="117644" y="111644" zmin="-3160" zmax="-2760"/>
+			<add x="116748" y="110856" zmin="-3160" zmax="-2760"/>
+		</territory>
+	</spawn>
+	<!--Хранитель Пещеры Level : 58 Territory : giran03_2321_24-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20246"/>
+		<territory>
+			<add x="116284" y="109580" zmin="-3160" zmax="-2760"/>
+			<add x="118412" y="109560" zmin="-3160" zmax="-2760"/>
+			<add x="118576" y="110896" zmin="-3160" zmax="-2760"/>
+			<add x="117644" y="111644" zmin="-3160" zmax="-2760"/>
+			<add x="116748" y="110856" zmin="-3160" zmax="-2760"/>
+		</territory>
+	</spawn>
+	<!--Пещерная Дева Level : 59 Territory : giran03_2321_24-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20134"/>
+		<territory>
+			<add x="116284" y="109580" zmin="-3160" zmax="-2760"/>
+			<add x="118412" y="109560" zmin="-3160" zmax="-2760"/>
+			<add x="118576" y="110896" zmin="-3160" zmax="-2760"/>
+			<add x="117644" y="111644" zmin="-3160" zmax="-2760"/>
+			<add x="116748" y="110856" zmin="-3160" zmax="-2760"/>
+		</territory>
+	</spawn>
+	<!--Дрейк Level : 57 Territory : giran03_2321_25-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20137"/>
+		<territory>
+			<add x="115592" y="109628" zmin="-3092" zmax="-2692"/>
+			<add x="116228" y="109560" zmin="-3092" zmax="-2692"/>
+			<add x="116680" y="110828" zmin="-3092" zmax="-2692"/>
+			<add x="115804" y="110840" zmin="-3092" zmax="-2692"/>
+			<add x="115380" y="110500" zmin="-3092" zmax="-2692"/>
+		</territory>
+	</spawn>
+	<!--Дрейк Level : 57 Territory : giran03_2321_26-->
+	<spawn count="3" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20137"/>
+		<territory>
+			<add x="114136" y="109088" zmin="-3124" zmax="-2724"/>
+			<add x="115524" y="109576" zmin="-3124" zmax="-2724"/>
+			<add x="115332" y="110424" zmin="-3124" zmax="-2724"/>
+			<add x="113224" y="110856" zmin="-3124" zmax="-2724"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_27-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="112508" y="109312" zmin="-3112" zmax="-2712"/>
+			<add x="113912" y="109400" zmin="-3112" zmax="-2712"/>
+			<add x="113212" y="110640" zmin="-3112" zmax="-2712"/>
+			<add x="111584" y="110948" zmin="-3112" zmax="-2712"/>
+			<add x="111544" y="110044" zmin="-3112" zmax="-2712"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Турен Level : 56 Territory : giran03_2321_27-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20245"/>
+		<territory>
+			<add x="112508" y="109312" zmin="-3112" zmax="-2712"/>
+			<add x="113912" y="109400" zmin="-3112" zmax="-2712"/>
+			<add x="113212" y="110640" zmin="-3112" zmax="-2712"/>
+			<add x="111584" y="110948" zmin="-3112" zmax="-2712"/>
+			<add x="111544" y="110044" zmin="-3112" zmax="-2712"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_29-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="113508" y="111532" zmin="-3188" zmax="-2788"/>
+			<add x="114620" y="111376" zmin="-3188" zmax="-2788"/>
+			<add x="115492" y="112096" zmin="-3188" zmax="-2788"/>
+			<add x="114620" y="113196" zmin="-3188" zmax="-2788"/>
+			<add x="112988" y="113132" zmin="-3188" zmax="-2788"/>
+			<add x="112808" y="112196" zmin="-3188" zmax="-2788"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Турен Level : 56 Territory : giran03_2321_29-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20245"/>
+		<territory>
+			<add x="113508" y="111532" zmin="-3188" zmax="-2788"/>
+			<add x="114620" y="111376" zmin="-3188" zmax="-2788"/>
+			<add x="115492" y="112096" zmin="-3188" zmax="-2788"/>
+			<add x="114620" y="113196" zmin="-3188" zmax="-2788"/>
+			<add x="112988" y="113132" zmin="-3188" zmax="-2788"/>
+			<add x="112808" y="112196" zmin="-3188" zmax="-2788"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_30-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="111536" y="111200" zmin="-2960" zmax="-2560"/>
+			<add x="112600" y="110896" zmin="-2960" zmax="-2560"/>
+			<add x="113136" y="111548" zmin="-2960" zmax="-2560"/>
+			<add x="112576" y="112112" zmin="-2960" zmax="-2560"/>
+			<add x="110600" y="112248" zmin="-2960" zmax="-2560"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Турен Level : 56 Territory : giran03_2321_30-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20245"/>
+		<territory>
+			<add x="111536" y="111200" zmin="-2960" zmax="-2560"/>
+			<add x="112600" y="110896" zmin="-2960" zmax="-2560"/>
+			<add x="113136" y="111548" zmin="-2960" zmax="-2560"/>
+			<add x="112576" y="112112" zmin="-2960" zmax="-2560"/>
+			<add x="110600" y="112248" zmin="-2960" zmax="-2560"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_31-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="110852" y="112228" zmin="-2956" zmax="-2556"/>
+			<add x="112536" y="112128" zmin="-2956" zmax="-2556"/>
+			<add x="112756" y="113196" zmin="-2956" zmax="-2556"/>
+			<add x="110260" y="113344" zmin="-2956" zmax="-2556"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Турен Level : 56 Territory : giran03_2321_31-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20245"/>
+		<territory>
+			<add x="110852" y="112228" zmin="-2956" zmax="-2556"/>
+			<add x="112536" y="112128" zmin="-2956" zmax="-2556"/>
+			<add x="112756" y="113196" zmin="-2956" zmax="-2556"/>
+			<add x="110260" y="113344" zmin="-2956" zmax="-2556"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_32-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="110264" y="110384" zmin="-3244" zmax="-2844"/>
+			<add x="111480" y="109984" zmin="-3244" zmax="-2844"/>
+			<add x="111532" y="110924" zmin="-3244" zmax="-2844"/>
+			<add x="110352" y="112060" zmin="-3244" zmax="-2844"/>
+			<add x="109892" y="110780" zmin="-3244" zmax="-2844"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Турен Level : 56 Territory : giran03_2321_32-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20245"/>
+		<territory>
+			<add x="110264" y="110384" zmin="-3244" zmax="-2844"/>
+			<add x="111480" y="109984" zmin="-3244" zmax="-2844"/>
+			<add x="111532" y="110924" zmin="-3244" zmax="-2844"/>
+			<add x="110352" y="112060" zmin="-3244" zmax="-2844"/>
+			<add x="109892" y="110780" zmin="-3244" zmax="-2844"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_33-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="108504" y="110856" zmin="-3272" zmax="-2872"/>
+			<add x="109812" y="110720" zmin="-3272" zmax="-2872"/>
+			<add x="110276" y="112004" zmin="-3272" zmax="-2872"/>
+			<add x="108080" y="112784" zmin="-3272" zmax="-2872"/>
+			<add x="107504" y="112144" zmin="-3272" zmax="-2872"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Турен Level : 56 Territory : giran03_2321_33-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20245"/>
+		<territory>
+			<add x="108504" y="110856" zmin="-3272" zmax="-2872"/>
+			<add x="109812" y="110720" zmin="-3272" zmax="-2872"/>
+			<add x="110276" y="112004" zmin="-3272" zmax="-2872"/>
+			<add x="108080" y="112784" zmin="-3272" zmax="-2872"/>
+			<add x="107504" y="112144" zmin="-3272" zmax="-2872"/>
+		</territory>
+	</spawn>
+	<!--Громовой Змей Level : 54 Territory : giran03_2321_34-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20243"/>
+		<territory>
+			<add x="108056" y="112836" zmin="-3272" zmax="-2872"/>
+			<add x="110092" y="112096" zmin="-3272" zmax="-2872"/>
+			<add x="110152" y="112828" zmin="-3272" zmax="-2872"/>
+			<add x="109740" y="114512" zmin="-3272" zmax="-2872"/>
+			<add x="109428" y="114656" zmin="-3272" zmax="-2872"/>
+			<add x="108380" y="113560" zmin="-3272" zmax="-2872"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_34-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="108056" y="112836" zmin="-3272" zmax="-2872"/>
+			<add x="110092" y="112096" zmin="-3272" zmax="-2872"/>
+			<add x="110152" y="112828" zmin="-3272" zmax="-2872"/>
+			<add x="109740" y="114512" zmin="-3272" zmax="-2872"/>
+			<add x="109428" y="114656" zmin="-3272" zmax="-2872"/>
+			<add x="108380" y="113560" zmin="-3272" zmax="-2872"/>
+		</territory>
+	</spawn>
+	<!--Громовой Змей Level : 54 Territory : giran03_2321_35-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20243"/>
+		<territory>
+			<add x="109208" y="115080" zmin="-3152" zmax="-2752"/>
+			<add x="109724" y="115216" zmin="-3152" zmax="-2752"/>
+			<add x="109804" y="115928" zmin="-3152" zmax="-2752"/>
+			<add x="109396" y="116516" zmin="-3152" zmax="-2752"/>
+			<add x="108496" y="116148" zmin="-3152" zmax="-2752"/>
+			<add x="108428" y="115820" zmin="-3152" zmax="-2752"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_35-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="109208" y="115080" zmin="-3152" zmax="-2752"/>
+			<add x="109724" y="115216" zmin="-3152" zmax="-2752"/>
+			<add x="109804" y="115928" zmin="-3152" zmax="-2752"/>
+			<add x="109396" y="116516" zmin="-3152" zmax="-2752"/>
+			<add x="108496" y="116148" zmin="-3152" zmax="-2752"/>
+			<add x="108428" y="115820" zmin="-3152" zmax="-2752"/>
+		</territory>
+	</spawn>
+	<!--Громовой Змей Level : 54 Territory : giran03_2321_36-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20243"/>
+		<territory>
+			<add x="108460" y="116172" zmin="-3260" zmax="-2860"/>
+			<add x="109408" y="116568" zmin="-3260" zmax="-2860"/>
+			<add x="109512" y="116936" zmin="-3260" zmax="-2860"/>
+			<add x="109008" y="118456" zmin="-3260" zmax="-2860"/>
+			<add x="107436" y="118164" zmin="-3260" zmax="-2860"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_36-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="108460" y="116172" zmin="-3260" zmax="-2860"/>
+			<add x="109408" y="116568" zmin="-3260" zmax="-2860"/>
+			<add x="109512" y="116936" zmin="-3260" zmax="-2860"/>
+			<add x="109008" y="118456" zmin="-3260" zmax="-2860"/>
+			<add x="107436" y="118164" zmin="-3260" zmax="-2860"/>
+		</territory>
+	</spawn>
+	<!--Громовой Змей Level : 54 Territory : giran03_2321_43-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20243"/>
+		<territory>
+			<add x="111772" y="117788" zmin="-3168" zmax="-2768"/>
+			<add x="113892" y="116760" zmin="-3168" zmax="-2768"/>
+			<add x="113880" y="117644" zmin="-3168" zmax="-2768"/>
+			<add x="113328" y="118244" zmin="-3168" zmax="-2768"/>
+			<add x="112132" y="118804" zmin="-3168" zmax="-2768"/>
+			<add x="111748" y="118476" zmin="-3168" zmax="-2768"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_43-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="111772" y="117788" zmin="-3168" zmax="-2768"/>
+			<add x="113892" y="116760" zmin="-3168" zmax="-2768"/>
+			<add x="113880" y="117644" zmin="-3168" zmax="-2768"/>
+			<add x="113328" y="118244" zmin="-3168" zmax="-2768"/>
+			<add x="112132" y="118804" zmin="-3168" zmax="-2768"/>
+			<add x="111748" y="118476" zmin="-3168" zmax="-2768"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_44-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="112272" y="115052" zmin="-3348" zmax="-2948"/>
+			<add x="114124" y="114744" zmin="-3348" zmax="-2948"/>
+			<add x="114400" y="116068" zmin="-3348" zmax="-2948"/>
+			<add x="113880" y="116696" zmin="-3348" zmax="-2948"/>
+			<add x="111764" y="117784" zmin="-3348" zmax="-2948"/>
+			<add x="111228" y="117240" zmin="-3348" zmax="-2948"/>
+			<add x="111348" y="116164" zmin="-3348" zmax="-2948"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Турен Level : 56 Territory : giran03_2321_44-->
+	<spawn count="3" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20245"/>
+		<territory>
+			<add x="112272" y="115052" zmin="-3348" zmax="-2948"/>
+			<add x="114124" y="114744" zmin="-3348" zmax="-2948"/>
+			<add x="114400" y="116068" zmin="-3348" zmax="-2948"/>
+			<add x="113880" y="116696" zmin="-3348" zmax="-2948"/>
+			<add x="111764" y="117784" zmin="-3348" zmax="-2948"/>
+			<add x="111228" y="117240" zmin="-3348" zmax="-2948"/>
+			<add x="111348" y="116164" zmin="-3348" zmax="-2948"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_45-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="114388" y="114356" zmin="-3344" zmax="-2944"/>
+			<add x="116256" y="114136" zmin="-3344" zmax="-2944"/>
+			<add x="116828" y="114544" zmin="-3344" zmax="-2944"/>
+			<add x="116720" y="114860" zmin="-3344" zmax="-2944"/>
+			<add x="114424" y="116060" zmin="-3344" zmax="-2944"/>
+			<add x="114136" y="114744" zmin="-3344" zmax="-2944"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Турен Level : 56 Territory : giran03_2321_45-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20245"/>
+		<territory>
+			<add x="114388" y="114356" zmin="-3344" zmax="-2944"/>
+			<add x="116256" y="114136" zmin="-3344" zmax="-2944"/>
+			<add x="116828" y="114544" zmin="-3344" zmax="-2944"/>
+			<add x="116720" y="114860" zmin="-3344" zmax="-2944"/>
+			<add x="114424" y="116060" zmin="-3344" zmax="-2944"/>
+			<add x="114136" y="114744" zmin="-3344" zmax="-2944"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_48-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="115104" y="122508" zmin="-3664" zmax="-2864"/>
+			<add x="116976" y="122428" zmin="-3664" zmax="-2864"/>
+			<add x="118156" y="122708" zmin="-3664" zmax="-2864"/>
+			<add x="118188" y="123280" zmin="-3664" zmax="-2864"/>
+			<add x="117452" y="123852" zmin="-3664" zmax="-2864"/>
+			<add x="116124" y="123772" zmin="-3664" zmax="-2864"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Турен Level : 56 Territory : giran03_2321_48-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20245"/>
+		<territory>
+			<add x="115104" y="122508" zmin="-3664" zmax="-2864"/>
+			<add x="116976" y="122428" zmin="-3664" zmax="-2864"/>
+			<add x="118156" y="122708" zmin="-3664" zmax="-2864"/>
+			<add x="118188" y="123280" zmin="-3664" zmax="-2864"/>
+			<add x="117452" y="123852" zmin="-3664" zmax="-2864"/>
+			<add x="116124" y="123772" zmin="-3664" zmax="-2864"/>
+		</territory>
+	</spawn>
+	<!--Дрейк Level : 57 Territory : giran03_2321_48-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20137"/>
+		<territory>
+			<add x="115104" y="122508" zmin="-3664" zmax="-2864"/>
+			<add x="116976" y="122428" zmin="-3664" zmax="-2864"/>
+			<add x="118156" y="122708" zmin="-3664" zmax="-2864"/>
+			<add x="118188" y="123280" zmin="-3664" zmax="-2864"/>
+			<add x="117452" y="123852" zmin="-3664" zmax="-2864"/>
+			<add x="116124" y="123772" zmin="-3664" zmax="-2864"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Level : 55 Territory : giran03_2321_49-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20244"/>
+		<territory>
+			<add x="118116" y="122688" zmin="-3148" zmax="-2748"/>
+			<add x="119464" y="121352" zmin="-3148" zmax="-2748"/>
+			<add x="120252" y="122712" zmin="-3148" zmax="-2748"/>
+			<add x="118188" y="122940" zmin="-3148" zmax="-2748"/>
+		</territory>
+	</spawn>
+	<!--Суккуб Малрук Турен Level : 56 Territory : giran03_2321_49-->
+	<spawn count="1" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20245"/>
+		<territory>
+			<add x="118116" y="122688" zmin="-3148" zmax="-2748"/>
+			<add x="119464" y="121352" zmin="-3148" zmax="-2748"/>
+			<add x="120252" y="122712" zmin="-3148" zmax="-2748"/>
+			<add x="118188" y="122940" zmin="-3148" zmax="-2748"/>
+		</territory>
+	</spawn>
+	<!--Дрейк Level : 57 Territory : giran03_2321_49-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20137"/>
+		<territory>
+			<add x="118116" y="122688" zmin="-3148" zmax="-2748"/>
+			<add x="119464" y="121352" zmin="-3148" zmax="-2748"/>
+			<add x="120252" y="122712" zmin="-3148" zmax="-2748"/>
+			<add x="118188" y="122940" zmin="-3148" zmax="-2748"/>
+		</territory>
+	</spawn>
+	<!--Дрейк Level : 57 Territory : giran03_2321_50-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20137"/>
+		<territory>
+			<add x="121164" y="118904" zmin="-3244" zmax="-2844"/>
+			<add x="122654" y="119053" zmin="-3244" zmax="-2844"/>
+			<add x="123082" y="120458" zmin="-3244" zmax="-2844"/>
+			<add x="120294" y="122716" zmin="-3244" zmax="-2844"/>
+			<add x="119482" y="121339" zmin="-3244" zmax="-2844"/>
+		</territory>
+	</spawn>
+	<!--Хранитель Пещеры Level : 58 Territory : giran03_2321_50-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20246"/>
+		<territory>
+			<add x="121164" y="118904" zmin="-3244" zmax="-2844"/>
+			<add x="122654" y="119053" zmin="-3244" zmax="-2844"/>
+			<add x="123082" y="120458" zmin="-3244" zmax="-2844"/>
+			<add x="120294" y="122716" zmin="-3244" zmax="-2844"/>
+			<add x="119482" y="121339" zmin="-3244" zmax="-2844"/>
+		</territory>
+	</spawn>
+	<!--Пещерная Дева Level : 59 Territory : giran03_2321_50-->
+	<spawn count="2" respawn="36" respawn_random="0" period_of_day="none">
+		<npc id="20134"/>
+		<territory>
+			<add x="121164" y="118904" zmin="-3244" zmax="-2844"/>
+			<add x="122654" y="119053" zmin="-3244" zmax="-2844"/>
+			<add x="123082" y="120458" zmin="-3244" zmax="-2844"/>
+			<add x="120294" y="122716" zmin="-3244" zmax="-2844"/>
+			<add x="119482" y="121339" zmin="-3244" zmax="-2844"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2321_p07-->
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="100496" y="118452" zmin="-3800" zmax="-3400"/>
+			<add x="102524" y="118052" zmin="-3800" zmax="-3400"/>
+			<add x="103960" y="119636" zmin="-3800" zmax="-3400"/>
+			<add x="101088" y="122260" zmin="-3800" zmax="-3400"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2321_p06_1-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="101148" y="122324" zmin="-3764" zmax="-3564"/>
+			<add x="104024" y="119728" zmin="-3764" zmax="-3564"/>
+			<add x="105768" y="119932" zmin="-3764" zmax="-3564"/>
+			<add x="107584" y="123020" zmin="-3764" zmax="-3564"/>
+			<add x="105016" y="124624" zmin="-3764" zmax="-3564"/>
+			<add x="102408" y="124852" zmin="-3764" zmax="-3564"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2321_p08-->
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="105832" y="119884" zmin="-3764" zmax="-3364"/>
+			<add x="107372" y="119352" zmin="-3764" zmax="-3364"/>
+			<add x="109012" y="120768" zmin="-3764" zmax="-3364"/>
+			<add x="108508" y="122780" zmin="-3764" zmax="-3364"/>
+			<add x="107624" y="122916" zmin="-3764" zmax="-3364"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2321_p09-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="109012" y="120912" zmin="-3784" zmax="-3384"/>
+			<add x="109844" y="120768" zmin="-3784" zmax="-3384"/>
+			<add x="112040" y="123020" zmin="-3784" zmax="-3384"/>
+			<add x="111408" y="123748" zmin="-3784" zmax="-3384"/>
+			<add x="109212" y="123452" zmin="-3784" zmax="-3384"/>
+			<add x="108524" y="122732" zmin="-3784" zmax="-3384"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2321_p10-->
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="109264" y="123540" zmin="-3768" zmax="-3368"/>
+			<add x="111368" y="123812" zmin="-3768" zmax="-3368"/>
+			<add x="111468" y="125448" zmin="-3768" zmax="-3368"/>
+			<add x="110908" y="126372" zmin="-3768" zmax="-3368"/>
+			<add x="109212" y="126984" zmin="-3768" zmax="-3368"/>
+			<add x="108736" y="125860" zmin="-3768" zmax="-3368"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2321_p15-->
+	<spawn count="3" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="119656" y="113820" zmin="-3888" zmax="-3488"/>
+			<add x="123116" y="112952" zmin="-3888" zmax="-3488"/>
+			<add x="124772" y="114316" zmin="-3888" zmax="-3488"/>
+			<add x="124724" y="115740" zmin="-3888" zmax="-3488"/>
+			<add x="122812" y="117540" zmin="-3888" zmax="-3488"/>
+			<add x="118760" y="117116" zmin="-3888" zmax="-3488"/>
+			<add x="118496" y="116004" zmin="-3888" zmax="-3488"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2321_p16-->
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="119144" y="112156" zmin="-3908" zmax="-3508"/>
+			<add x="120308" y="112028" zmin="-3908" zmax="-3508"/>
+			<add x="123020" y="112868" zmin="-3908" zmax="-3508"/>
+			<add x="119508" y="113776" zmin="-3908" zmax="-3508"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2321_p18-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="128468" y="112800" zmin="-3908" zmax="-3408"/>
+			<add x="130296" y="113820" zmin="-3908" zmax="-3408"/>
+			<add x="130084" y="115340" zmin="-3908" zmax="-3408"/>
+			<add x="127900" y="116792" zmin="-3908" zmax="-3408"/>
+			<add x="126436" y="116028" zmin="-3908" zmax="-3408"/>
+			<add x="126404" y="113856" zmin="-3908" zmax="-3408"/>
+			<add x="127012" y="112484" zmin="-3908" zmax="-3408"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2321_p19-->
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="125360" y="110216" zmin="-3688" zmax="-2888"/>
+			<add x="126936" y="112492" zmin="-3688" zmax="-2888"/>
+			<add x="126400" y="113480" zmin="-3688" zmax="-2888"/>
+			<add x="123976" y="112140" zmin="-3688" zmax="-2888"/>
+			<add x="124020" y="111172" zmin="-3688" zmax="-2888"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2321_p21-->
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="121020" y="107440" zmin="-3112" zmax="-2712"/>
+			<add x="122440" y="107380" zmin="-3112" zmax="-2712"/>
+			<add x="123952" y="108116" zmin="-3112" zmax="-2712"/>
+			<add x="123988" y="109260" zmin="-3112" zmax="-2712"/>
+			<add x="122256" y="109408" zmin="-3112" zmax="-2712"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2321_p22-->
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="119740" y="108500" zmin="-3148" zmax="-2748"/>
+			<add x="120972" y="107416" zmin="-3148" zmax="-2748"/>
+			<add x="122252" y="109452" zmin="-3148" zmax="-2748"/>
+			<add x="120484" y="110728" zmin="-3148" zmax="-2748"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2321_p23-->
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="118460" y="109568" zmin="-3120" zmax="-2720"/>
+			<add x="119712" y="108496" zmin="-3120" zmax="-2720"/>
+			<add x="120452" y="110784" zmin="-3120" zmax="-2720"/>
+			<add x="120372" y="111472" zmin="-3120" zmax="-2720"/>
+			<add x="119752" y="111532" zmin="-3120" zmax="-2720"/>
+			<add x="118644" y="110848" zmin="-3120" zmax="-2720"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2321_p24-->
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="116284" y="109580" zmin="-3160" zmax="-2760"/>
+			<add x="118412" y="109560" zmin="-3160" zmax="-2760"/>
+			<add x="118576" y="110896" zmin="-3160" zmax="-2760"/>
+			<add x="117644" y="111644" zmin="-3160" zmax="-2760"/>
+			<add x="116748" y="110856" zmin="-3160" zmax="-2760"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2321_p50-->
+	<spawn count="1" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="119536" y="121340" zmin="-3204" zmax="-2804"/>
+			<add x="119940" y="120016" zmin="-3204" zmax="-2804"/>
+			<add x="122660" y="121168" zmin="-3204" zmax="-2804"/>
+			<add x="122000" y="121888" zmin="-3204" zmax="-2804"/>
+			<add x="120268" y="122700" zmin="-3204" zmax="-2804"/>
+		</territory>
+	</spawn>
+	<!--Костяной Кошмар Level : 49 Territory : giran03_2321_p51-->
+	<spawn count="2" respawn="60" respawn_random="20" period_of_day="none">
+		<npc id="20758">
+			<set name="privates" value="20759:1:0"/>
+		</npc>
+		<territory>
+			<add x="121164" y="118904" zmin="-3244" zmax="-2844"/>
+			<add x="124292" y="118640" zmin="-3244" zmax="-2844"/>
+			<add x="124720" y="119284" zmin="-3244" zmax="-2844"/>
+			<add x="122960" y="121324" zmin="-3244" zmax="-2844"/>
+			<add x="119920" y="120000" zmin="-3244" zmax="-2844"/>
+		</territory>
+	</spawn>
+	<!--Змей Level : 35 Territory : giran06_2221_01;giran06_2221_02-->
+	<spawn count="1" respawn="22" respawn_random="0" period_of_day="none">
+		<npc id="20176"/>
+		<territory>
+			<add x="65700" y="98480" zmin="-3792" zmax="-3292"/>
+			<add x="67320" y="98524" zmin="-3792" zmax="-3292"/>
+			<add x="68368" y="102456" zmin="-3792" zmax="-3292"/>
+			<add x="65684" y="104136" zmin="-3792" zmax="-3292"/>
+		</territory>
+		<territory>
+			<add x="65732" y="104240" zmin="-3732" zmax="-3332"/>
+			<add x="66852" y="103532" zmin="-3732" zmax="-3332"/>
+			<add x="67884" y="105044" zmin="-3732" zmax="-3332"/>
+			<add x="66912" y="107704" zmin="-3732" zmax="-3332"/>
+			<add x="65620" y="107416" zmin="-3732" zmax="-3332"/>
+		</territory>
+	</spawn>
+	<!--Змей Level : 35 Territory : giran06_2221_03-->
+	<spawn count="1" respawn="22" respawn_random="0" period_of_day="none">
+		<npc id="20176"/>
+		<territory>
+			<add x="70156" y="103296" zmin="-3796" zmax="-3396"/>
+			<add x="71548" y="102920" zmin="-3796" zmax="-3396"/>
+			<add x="71324" y="105680" zmin="-3796" zmax="-3396"/>
+			<add x="70040" y="104740" zmin="-3796" zmax="-3396"/>
+		</territory>
+	</spawn>
+	<!--Змей Level : 35 Territory : giran06_2221_04-->
+	<spawn count="1" respawn="22" respawn_random="0" period_of_day="none">
+		<npc id="20176"/>
+		<territory>
+			<add x="69968" y="104816" zmin="-3784" zmax="-3384"/>
+			<add x="71244" y="105736" zmin="-3784" zmax="-3384"/>
+			<add x="71576" y="107228" zmin="-3784" zmax="-3384"/>
+			<add x="67832" y="107136" zmin="-3784" zmax="-3384"/>
+			<add x="68120" y="106068" zmin="-3784" zmax="-3384"/>
+		</territory>
+	</spawn>
+	<!--Змей Level : 35 Territory : giran06_2221_05-->
+	<spawn count="1" respawn="22" respawn_random="0" period_of_day="none">
+		<npc id="20176"/>
+		<territory>
+			<add x="70464" y="107212" zmin="-3784" zmax="-3584"/>
+			<add x="71600" y="107280" zmin="-3784" zmax="-3584"/>
+			<add x="71720" y="111676" zmin="-3784" zmax="-3584"/>
+			<add x="70856" y="111916" zmin="-3784" zmax="-3584"/>
+			<add x="70184" y="109144" zmin="-3784" zmax="-3584"/>
+		</territory>
+	</spawn>
+	<!--Змей Level : 35 Territory : giran06_2221_06-->
+	<spawn count="1" respawn="22" respawn_random="0" period_of_day="none">
+		<npc id="20176"/>
+		<territory>
+			<add x="67964" y="107148" zmin="-3740" zmax="-3340"/>
+			<add x="68556" y="107148" zmin="-3740" zmax="-3340"/>
+			<add x="68280" y="110844" zmin="-3740" zmax="-3340"/>
+			<add x="67084" y="109424" zmin="-3740" zmax="-3340"/>
+			<add x="67068" y="108680" zmin="-3740" zmax="-3340"/>
+		</territory>
+	</spawn>
+	<!--Змей Level : 35 Territory : giran06_2221_07-->
+	<spawn count="1" respawn="22" respawn_random="0" period_of_day="none">
+		<npc id="20176"/>
+		<territory>
+			<add x="65632" y="109468" zmin="-3788" zmax="-3588"/>
+			<add x="66564" y="109464" zmin="-3788" zmax="-3588"/>
+			<add x="67560" y="110668" zmin="-3788" zmax="-3588"/>
+			<add x="68124" y="112328" zmin="-3788" zmax="-3588"/>
+			<add x="66148" y="112084" zmin="-3788" zmax="-3588"/>
+		</territory>
+	</spawn>
+	<!--Змей Level : 35 Territory : giran06_2221_08-->
+	<spawn count="1" respawn="22" respawn_random="0" period_of_day="none">
+		<npc id="20176"/>
+		<territory>
+			<add x="66868" y="112344" zmin="-3804" zmax="-3604"/>
+			<add x="68220" y="112520" zmin="-3804" zmax="-3604"/>
+			<add x="67892" y="114352" zmin="-3804" zmax="-3604"/>
+			<add x="66780" y="113756" zmin="-3804" zmax="-3604"/>
+		</territory>
+	</spawn>
+	<!--Змей Level : 35 Territory : giran06_2221_09-->
+	<spawn count="3" respawn="22" respawn_random="0" period_of_day="none">
+		<npc id="20176"/>
+		<territory>
+			<add x="66668" y="113836" zmin="-3780" zmax="-3380"/>
+			<add x="67792" y="114592" zmin="-3780" zmax="-3380"/>
+			<add x="69860" y="117768" zmin="-3780" zmax="-3380"/>
+			<add x="67104" y="118324" zmin="-3780" zmax="-3380"/>
+			<add x="65676" y="117356" zmin="-3780" zmax="-3380"/>
+			<add x="65652" y="114184" zmin="-3780" zmax="-3380"/>
+		</territory>
+	</spawn>
+	<!--Змей Level : 35 Territory : giran06_2221_10-->
+	<spawn count="2" respawn="22" respawn_random="0" period_of_day="none">
+		<npc id="20176"/>
+		<territory>
+			<add x="68971" y="112926" zmin="-3896" zmax="-3096"/>
+			<add x="71099" y="111912" zmin="-3896" zmax="-3096"/>
+			<add x="71709" y="114715" zmin="-3896" zmax="-3096"/>
+			<add x="70677" y="115139" zmin="-3896" zmax="-3096"/>
+			<add x="70631" y="116557" zmin="-3896" zmax="-3096"/>
+			<add x="70093" y="116554" zmin="-3896" zmax="-3096"/>
+			<add x="68674" y="114335" zmin="-3896" zmax="-3096"/>
+		</territory>
+	</spawn>
+	<!--Змей Level : 35 Territory : giran06_2221_11-->
+	<spawn count="3" respawn="22" respawn_random="0" period_of_day="none">
+		<npc id="20176"/>
+		<territory>
+			<add x="67092" y="118436" zmin="-3784" zmax="-3384"/>
+			<add x="69892" y="117912" zmin="-3784" zmax="-3384"/>
+			<add x="70156" y="120104" zmin="-3784" zmax="-3384"/>
+			<add x="69808" y="121120" zmin="-3784" zmax="-3384"/>
+			<add x="66152" y="122616" zmin="-3784" zmax="-3384"/>
+			<add x="66224" y="119556" zmin="-3784" zmax="-3384"/>
+		</territory>
+	</spawn>
+	<!--Змей Level : 35 Territory : giran06_2221_12-->
+	<spawn count="1" respawn="22" respawn_random="0" period_of_day="none">
+		<npc id="20176"/>
+		<territory>
+			<add x="70840" y="119420" zmin="-3716" zmax="-3516"/>
+			<add x="72044" y="119388" zmin="-3716" zmax="-3516"/>
+			<add x="72204" y="121112" zmin="-3716" zmax="-3516"/>
+			<add x="71788" y="122856" zmin="-3716" zmax="-3516"/>
+			<add x="70912" y="122840" zmin="-3716" zmax="-3516"/>
+			<add x="70352" y="121248" zmin="-3716" zmax="-3516"/>
+		</territory>
+	</spawn>
+	<!--Змей Level : 35 Territory : giran06_2221_13-->
+	<spawn count="1" respawn="22" respawn_random="0" period_of_day="none">
+		<npc id="20176"/>
+		<territory>
+			<add x="70920" y="122948" zmin="-3680" zmax="-3480"/>
+			<add x="71744" y="122960" zmin="-3680" zmax="-3480"/>
+			<add x="71816" y="124540" zmin="-3680" zmax="-3480"/>
+			<add x="70884" y="124856" zmin="-3680" zmax="-3480"/>
+		</territory>
+	</spawn>
+	<!--Змей Level : 35 Territory : giran17_2321_03-->
+	<spawn count="6" respawn="27" respawn_random="0" period_of_day="none">
+		<npc id="20176"/>
+		<territory>
+			<add x="116016" y="126984" zmin="-3628" zmax="-2128"/>
+			<add x="119716" y="127592" zmin="-3628" zmax="-2128"/>
+			<add x="121276" y="129412" zmin="-3628" zmax="-2128"/>
+			<add x="121348" y="130652" zmin="-3628" zmax="-2128"/>
+			<add x="114992" y="130704" zmin="-3628" zmax="-2128"/>
+		</territory>
+	</spawn>
+	<!--Змей Level : 35 Territory : giran17_2321_04-->
+	<spawn count="3" respawn="27" respawn_random="0" period_of_day="none">
+		<npc id="20176"/>
+		<territory>
+			<add x="123704" y="127516" zmin="-3600" zmax="-2600"/>
+			<add x="124792" y="127624" zmin="-3600" zmax="-2600"/>
+			<add x="125436" y="129880" zmin="-3600" zmax="-2600"/>
+			<add x="124372" y="130748" zmin="-3600" zmax="-2600"/>
+			<add x="121468" y="130724" zmin="-3600" zmax="-2600"/>
+			<add x="121296" y="128940" zmin="-3600" zmax="-2600"/>
+		</territory>
+	</spawn>
+	<!--Змей Level : 35 Territory : giran17_2322_04-->
+	<spawn count="6" respawn="27" respawn_random="0" period_of_day="none">
+		<npc id="20176"/>
+		<territory>
+			<add x="105260" y="134848" zmin="-3628" zmax="-3228"/>
+			<add x="108352" y="133880" zmin="-3628" zmax="-3228"/>
+			<add x="111764" y="135268" zmin="-3628" zmax="-3228"/>
+			<add x="110768" y="137216" zmin="-3628" zmax="-3228"/>
+			<add x="107724" y="138068" zmin="-3628" zmax="-3228"/>
+		</territory>
+	</spawn>
+	<!--Змей Level : 35 Territory : giran17_2322_05-->
+	<spawn count="5" respawn="27" respawn_random="0" period_of_day="none">
+		<npc id="20176"/>
+		<territory>
+			<add x="111856" y="135344" zmin="-3712" zmax="-2712"/>
+			<add x="118060" y="136228" zmin="-3712" zmax="-2712"/>
+			<add x="114668" y="138212" zmin="-3712" zmax="-2712"/>
+			<add x="111768" y="138656" zmin="-3712" zmax="-2712"/>
+			<add x="110916" y="137272" zmin="-3712" zmax="-2712"/>
+		</territory>
+	</spawn>
+	<!--Змей Level : 35 Territory : giran17_2322_06-->
+	<spawn count="5" respawn="27" respawn_random="0" period_of_day="none">
+		<npc id="20176"/>
+		<territory>
+			<add x="116428" y="135160" zmin="-3692" zmax="-3092"/>
+			<add x="119916" y="133456" zmin="-3692" zmax="-3092"/>
+			<add x="122688" y="134232" zmin="-3692" zmax="-3092"/>
+			<add x="121532" y="137616" zmin="-3692" zmax="-3092"/>
+		</territory>
+	</spawn>
+	<!--Змей Level : 35 Territory : giran17_2322_07-->
+	<spawn count="3" respawn="27" respawn_random="0" period_of_day="none">
+		<npc id="20176"/>
+		<territory>
+			<add x="118568" y="131272" zmin="-3656" zmax="-3056"/>
+			<add x="122612" y="131248" zmin="-3656" zmax="-3056"/>
+			<add x="122700" y="134072" zmin="-3656" zmax="-3056"/>
+			<add x="120068" y="133340" zmin="-3656" zmax="-3056"/>
+		</territory>
+	</spawn>
+	<!--Змей Level : 35 Territory : giran17_2322_08-->
+	<spawn count="5" respawn="27" respawn_random="0" period_of_day="none">
+		<npc id="20176"/>
+		<territory>
+			<add x="122928" y="133828" zmin="-3708" zmax="-2708"/>
+			<add x="126056" y="132704" zmin="-3708" zmax="-2708"/>
+			<add x="127224" y="134600" zmin="-3708" zmax="-2708"/>
+			<add x="124816" y="138108" zmin="-3708" zmax="-2708"/>
+			<add x="122572" y="137740" zmin="-3708" zmax="-2708"/>
+			<add x="122084" y="136600" zmin="-3708" zmax="-2708"/>
+		</territory>
+	</spawn>
+	<!--Змей Level : 35 Territory : giran17_2322_09-->
+	<spawn count="4" respawn="27" respawn_random="0" period_of_day="none">
+		<npc id="20176"/>
+		<territory>
+			<add x="127360" y="134580" zmin="-3608" zmax="-2608"/>
+			<add x="129868" y="134556" zmin="-3608" zmax="-2608"/>
+			<add x="129976" y="136468" zmin="-3608" zmax="-2608"/>
+			<add x="128196" y="138976" zmin="-3608" zmax="-2608"/>
+			<add x="125852" y="138988" zmin="-3608" zmax="-2608"/>
+			<add x="124916" y="138068" zmin="-3608" zmax="-2608"/>
+		</territory>
+	</spawn>
+	<!--Кровавая Королева Level : 60 Territory : aden06_2518_05-->
+	<spawn count="2" respawn="25" respawn_random="0" period_of_day="none">
+		<npc id="18001"/>
+		<territory>
+			<add x="177724" y="5656" zmin="-2776" zmax="-2576"/>
+			<add x="178808" y="5660" zmin="-2776" zmax="-2576"/>
+			<add x="179312" y="6968" zmin="-2776" zmax="-2576"/>
+			<add x="179308" y="8836" zmin="-2776" zmax="-2576"/>
+			<add x="179056" y="9048" zmin="-2776" zmax="-2576"/>
+			<add x="177344" y="9044" zmin="-2776" zmax="-2576"/>
+			<add x="177356" y="6112" zmin="-2776" zmax="-2576"/>
+		</territory>
+	</spawn>
+	<!--Кровавая Королева Level : 60 Territory : aden06_2518_07-->
+	<spawn count="2" respawn="25" respawn_random="0" period_of_day="none">
+		<npc id="18001"/>
+		<territory>
+			<add x="177408" y="9460" zmin="-2768" zmax="-2468"/>
+			<add x="179068" y="9460" zmin="-2768" zmax="-2468"/>
+			<add x="179316" y="9704" zmin="-2768" zmax="-2468"/>
+			<add x="179308" y="11776" zmin="-2768" zmax="-2468"/>
+			<add x="178648" y="12892" zmin="-2768" zmax="-2468"/>
+			<add x="177748" y="12888" zmin="-2768" zmax="-2468"/>
+			<add x="177360" y="12432" zmin="-2768" zmax="-2468"/>
+		</territory>
+	</spawn>
+	<!--Кровавая Королева Level : 60 Territory : aden06_2518_32-->
+	<spawn count="4" respawn="25" respawn_random="0" period_of_day="none">
+		<npc id="18001"/>
+		<territory>
+			<add x="183976" y="14016" zmin="-3660" zmax="-3260"/>
+			<add x="186328" y="14152" zmin="-3660" zmax="-3260"/>
+			<add x="187664" y="19764" zmin="-3660" zmax="-3260"/>
+			<add x="185116" y="19164" zmin="-3660" zmax="-3260"/>
+			<add x="184084" y="17544" zmin="-3660" zmax="-3260"/>
+		</territory>
+	</spawn>
+	<!--Кровавая Королева Level : 60 Territory : aden06_2518_33-->
+	<spawn count="3" respawn="25" respawn_random="0" period_of_day="none">
+		<npc id="18001"/>
+		<territory>
+			<add x="185652" y="21252" zmin="-3764" zmax="-3064"/>
+			<add x="186900" y="21204" zmin="-3764" zmax="-3064"/>
+			<add x="187104" y="25460" zmin="-3764" zmax="-3064"/>
+			<add x="184224" y="26016" zmin="-3764" zmax="-3064"/>
+			<add x="184388" y="23060" zmin="-3764" zmax="-3064"/>
+		</territory>
+	</spawn>
+	<!--Кровавая Королева Level : 60 Territory : aden06_2518_34-->
+	<spawn count="8" respawn="25" respawn_random="0" period_of_day="none">
+		<npc id="18001"/>
+		<territory>
+			<add x="181316" y="27036" zmin="-3808" zmax="-3008"/>
+			<add x="187656" y="25320" zmin="-3808" zmax="-3008"/>
+			<add x="188040" y="28996" zmin="-3808" zmax="-3008"/>
+			<add x="186684" y="30864" zmin="-3808" zmax="-3008"/>
+			<add x="181824" y="31088" zmin="-3808" zmax="-3008"/>
+		</territory>
+	</spawn>
+	<!--Кровавая Королева Level : 60 Territory : aden06_2518_36-->
+	<spawn count="4" respawn="25" respawn_random="0" period_of_day="none">
+		<npc id="18001"/>
+		<territory>
+			<add x="182952" y="9880" zmin="-2848" zmax="-2448"/>
+			<add x="185436" y="9756" zmin="-2848" zmax="-2448"/>
+			<add x="187700" y="11588" zmin="-2848" zmax="-2448"/>
+			<add x="186668" y="13256" zmin="-2848" zmax="-2448"/>
+			<add x="183100" y="13004" zmin="-2848" zmax="-2448"/>
+		</territory>
+	</spawn>
+</list>

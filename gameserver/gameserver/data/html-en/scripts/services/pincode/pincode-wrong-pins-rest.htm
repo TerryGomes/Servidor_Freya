@@ -1,0 +1,64 @@
+<html>
+<title>Recover your PIN</title>
+<center>
+<table>
+<tr>
+<td align="center">
+<img src="l2ui_ct1.Icon_DF_MenuWnd_SystemMenu_Over" width="32" height="32" />
+</td>
+<td align="center">
+<font name="hs12">PIN code character </font>
+</td>
+<td align="center">
+<img src="l2ui_ct1.Icon_DF_MenuWnd_SystemMenu_Over" width="32" height="32" />
+</td>
+</tr>
+</table>
+</center>
+<br><br>
+<font color="FF0000">PIN codes do not match, I try again.</font>
+<br>
+<table>
+<tr>
+<td align="left" valign="middle">
+<br>
+<font color="386dd2">Secret key: </font>
+</td>
+<td align="center" valign="middle">
+<edit var="key" width=120 height=18>
+</td>
+</tr>
+<tr>
+<td align="left" valign="middle">
+<br>
+<font color="a2cfd2">New PIN code: </font>
+</td>
+<td align="center" valign="middle">
+<edit var="newpincode" width=120 height=18>
+</td>
+</tr>
+<tr>
+<td align="left" valign="middle" width="110">
+<br>
+<font color="a2cfd2">Retry: </font>
+</td>
+<td align="center" valign="middle">
+<edit var="newpincode2" width=120 height=18>
+</td>
+</tr>
+</table>
+<button value="Reset PIN to a new" action="bypass -h user_2changepincode $key $newpincode $newpincode2" width=170 height=35 back="L2UI_ct1.button_df" fore="L2UI_ct1.Button_DF_Large_Over">
+<br><br>
+<br>
+<table width="250">
+<tr>
+<td align="center">
+<img src="l2ui_ct1.ICON_DF_Exclamation" width="32" height="32" />
+</td>
+<td align="center">
+If your account is linked by HWID to your computer, then when re-entering the game to enter the PIN is not required.
+</td>
+</tr>
+</table>
+<br><br><center>
+<button value="Back" action="bypass -h user_pincodeenter" width=75 height=24 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></center>

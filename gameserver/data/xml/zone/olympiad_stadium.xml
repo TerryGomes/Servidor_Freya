@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<zone name="[olympiad_stadium_0]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-89536 -253743" />
+			<coords loc="-86497 -253748" />
+			<coords loc="-86481 -251490" />
+			<coords loc="-89748 -251522" />
+		</polygon>
+		<restart_point>
+			<coords loc="-86861 -252623 -3341 0" />
+			<coords loc="-89183 -252623 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100001" />
+			<door id="17100002" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_1]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-82218 -251512" />
+			<coords loc="-85411 -251469" />
+			<coords loc="-85380 -253778" />
+			<coords loc="-82221 -253717" />
+		</polygon>
+		<restart_point>
+			<coords loc="-84960 -252623 -3341 0" />
+			<coords loc="-82658 -252623 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100003" />
+			<door id="17100004" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_2]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-81133 -251469" />
+			<coords loc="-81147 -253823" />
+			<coords loc="-78100 -253823" />
+			<coords loc="-78100 -251455" />
+		</polygon>
+		<restart_point>
+			<coords loc="-78439 -252623 -3341 0" />
+			<coords loc="-80722 -252623 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100005" />
+			<door id="17100006" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_3]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-74126 -251647" />
+			<coords loc="-77163 -251440" />
+			<coords loc="-77215 -253768" />
+			<coords loc="-74121 -253804" />
+		</polygon>
+		<restart_point>
+			<coords loc="-74587 -252623 -3341 0" />
+			<coords loc="-76812 -252623 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100007" />
+			<door id="17100008" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_4]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-89650 -250950" />
+			<coords loc="-86328 -250991" />
+			<coords loc="-86426 -248562" />
+			<coords loc="-89590 -248529" />
+		</polygon>
+		<restart_point>
+			<coords loc="-89153 -249767 -3341 0" />
+			<coords loc="-86855 -249764 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100009" />
+			<door id="17100010" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_5]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-82181 -248584" />
+			<coords loc="-85332 -248565" />
+			<coords loc="-85295 -250965" />
+			<coords loc="-82231 -250912" />
+		</polygon>
+		<restart_point>
+			<coords loc="-84959 -249762 -3341 0" />
+			<coords loc="-82648 -249762 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100011" />
+			<door id="17100012" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_6]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-81189 -250942" />
+			<coords loc="-78031 -250955" />
+			<coords loc="-78082 -248555" />
+			<coords loc="-81192 -248576" />
+		</polygon>
+		<restart_point>
+			<coords loc="-80729 -249762 -3341 0" />
+			<coords loc="-78480 -249762 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100013" />
+			<door id="17100014" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_7]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-74048 -248571" />
+			<coords loc="-77246 -248568" />
+			<coords loc="-77181 -250957" />
+			<coords loc="-74052 -250893" />
+		</polygon>
+		<restart_point>
+			<coords loc="-76763 -249750 -3341 0" />
+			<coords loc="-74565 -249750 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100015" />
+			<door id="17100016" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_8]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-86446 -245757" />
+			<coords loc="-89518 -245707" />
+			<coords loc="-89550 -248184" />
+			<coords loc="-86525 -248120" />
+		</polygon>
+		<restart_point>
+			<coords loc="-89103 -246955 -3341 0" />
+			<coords loc="-86876 -246954 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100017" />
+			<door id="17100018" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_9]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-82197 -245809" />
+			<coords loc="-85252 -245762" />
+			<coords loc="-85280 -248124" />
+			<coords loc="-82196 -248115" />
+		</polygon>
+		<restart_point>
+			<coords loc="-82678 -246955 -3341 0" />
+			<coords loc="-84887 -246955 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100019" />
+			<door id="17100020" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_10]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-81189 -248148" />
+			<coords loc="-78058 -248161" />
+			<coords loc="-78027 -245746" />
+			<coords loc="-81205 -245798" />
+		</polygon>
+		<restart_point>
+			<coords loc="-78446 -246955 -3341 0" />
+			<coords loc="-80702 -246955 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100021" />
+			<door id="17100022" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_11]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-74037 -245753" />
+			<coords loc="-77080 -245725" />
+			<coords loc="-77217 -248081" />
+			<coords loc="-74055 -248167" />
+		</polygon>
+		<restart_point>
+			<coords loc="-74497 -246955 -3341 0" />
+			<coords loc="-76794 -246955 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100023" />
+			<door id="17100024" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_12]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-89583 -245475" />
+			<coords loc="-86427 -245479" />
+			<coords loc="-86425 -243085" />
+			<coords loc="-89643 -242980" />
+		</polygon>
+		<restart_point>
+			<coords loc="-89116 -244277 -3341 0" />
+			<coords loc="-86894 -244277 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100025" />
+			<door id="17100026" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_13]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-85360 -245472" />
+			<coords loc="-82100 -245488" />
+			<coords loc="-82163 -243069" />
+			<coords loc="-85426 -243021" />
+		</polygon>
+		<restart_point>
+			<coords loc="-84870 -244277 -3341 0" />
+			<coords loc="-82666 -244277 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100027" />
+			<door id="17100028" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_14]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-81150 -245480" />
+			<coords loc="-77981 -245472" />
+			<coords loc="-78013 -243094" />
+			<coords loc="-81146 -243034" />
+		</polygon>
+		<restart_point>
+			<coords loc="-80700 -244277 -3341 0" />
+			<coords loc="-78456 -244277 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100029" />
+			<door id="17100030" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_15]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-74089 -243086" />
+			<coords loc="-77156 -243033" />
+			<coords loc="-77251 -245509" />
+			<coords loc="-74013 -245487" />
+		</polygon>
+		<restart_point>
+			<coords loc="-74557 -244277 -3341 0" />
+			<coords loc="-76797 -244277 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100031" />
+			<door id="17100032" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_16]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-86359 -240299" />
+			<coords loc="-89558 -240294" />
+			<coords loc="-89600 -242660" />
+			<coords loc="-86422 -242689" />
+		</polygon>
+		<restart_point>
+			<coords loc="-89141 -241480 -3341 0" />
+			<coords loc="-86892 -241480 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100033" />
+			<door id="17100034" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_17]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-85373 -242686" />
+			<coords loc="-82235 -242704" />
+			<coords loc="-82221 -240287" />
+			<coords loc="-85272 -240261" />
+		</polygon>
+		<restart_point>
+			<coords loc="-84919 -241480 -3341 0" />
+			<coords loc="-82656 -241480 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100035" />
+			<door id="17100036" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_18]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-78032 -240269" />
+			<coords loc="-81126 -240233" />
+			<coords loc="-81132 -242733" />
+			<coords loc="-77994 -242717" />
+		</polygon>
+		<restart_point>
+			<coords loc="-78446 -241480 -3341 0" />
+			<coords loc="-80744 -241480 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100037" />
+			<door id="17100038" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_19]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-74134 -240288" />
+			<coords loc="-77205 -240246" />
+			<coords loc="-77215 -242698" />
+			<coords loc="-74155 -242732" />
+		</polygon>
+		<restart_point>
+			<coords loc="-74557 -241480 -3341 0" />
+			<coords loc="-76788 -241480 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100039" />
+			<door id="17100040" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_20]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-89548 -240038" />
+			<coords loc="-86408 -240056" />
+			<coords loc="-86418 -237621" />
+			<coords loc="-89540 -237587" />
+		</polygon>
+		<restart_point>
+			<coords loc="-89117 -238837 -3341 0" />
+			<coords loc="-86875 -238837 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100041" />
+			<door id="17100042" />
+		</doors>
+	</zone>
+	<zone name="[olympiad_stadium_21]" type="OlympiadStadia" >
+    <set name="entering_message_no" val="283" /> 
+    <set name="leaving_message_no" val="284" /> 
+		<polygon>
+			<coords loc="-85281 -240037" />
+			<coords loc="-82132 -240066" />
+			<coords loc="-82246 -237646" />
+			<coords loc="-85312 -237627" />
+		</polygon>
+		<restart_point>
+			<coords loc="-84889 -238837 -3341 0" />
+			<coords loc="-82646 -238837 -3341 0" />
+		</restart_point>
+		<doors>
+			<door id="17100043" />
+			<door id="17100044" />
+		</doors>
+	</zone>
+</list>

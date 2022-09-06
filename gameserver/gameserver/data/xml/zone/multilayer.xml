@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<zone name="[fos_fow_multilayer]" type="dummy">
+		<set name="multilayer" val="true" />
+		<set name="multilayerLvl" val="76" />
+		<polygon>
+			<coords loc="94520 167752 -4000 0" />
+			<coords loc="85432 170952 -4000 0" />
+			<coords loc="77720 181608 -4000 0" />
+			<coords loc="70520 221272 -4000 0" />
+			<coords loc="77240 226712 -4000 0" />
+			<coords loc="81784 230968 -4000 0" />
+			<coords loc="99576 222376 -4000 0" />
+			<coords loc="98344 204040 -4000 0" />
+		</polygon>
+	</zone>
+	<zone name="[giant_cave_multilayer1]" type="dummy">
+		<set name="multilayer" val="true" />
+		<set name="multilayerLvl" val="76" />
+		<polygon>
+			<coords loc="172000 52000 -5200 -3800" />
+			<coords loc="179000 50000 -5200 -3800" />
+			<coords loc="185000 45000 -5200 -3800" />
+			<coords loc="200000 65000 -5200 -3800" />
+			<coords loc="172000 65000 -5200 -3800" />
+		</polygon>
+	</zone>
+	<zone name="[giant_cave_multilayer2]" type="dummy">
+		<set name="multilayer" val="true" />
+		<set name="multilayerLvl" val="76" />
+		<polygon>
+			<coords loc="171772 60123 -8000 -5400" />
+			<coords loc="176152 60088 -8000 -5400" />
+			<coords loc="177490 58086 -8000 -5400" />
+			<coords loc="178370 58086 -8000 -5400" />
+			<coords loc="179576 57776 -8000 -5400" />
+			<coords loc="181887 57773 -8000 -5400" />
+			<coords loc="183465 56842 -8000 -5400" />
+			<coords loc="183519 55654 -8000 -5400" />
+			<coords loc="186094 52980 -8000 -5400" />
+			<coords loc="188583 52563 -8000 -5400" />
+			<coords loc="190348 49400 -8000 -5400" />
+			<coords loc="190603 47746 -8000 -5400" />
+			<coords loc="196514 45545 -8000 -5400" />
+			<coords loc="195944 64856 -8000 -5400" />
+			<coords loc="171560 68888 -8000 -5400" />
+			<coords loc="170504 66760 -8000 -5400" />
+			<coords loc="170648 65208 -8000 -5400" />
+		</polygon>
+	</zone>
+	<zone name="[den_of_evil_multilayer]" type="dummy">
+		<set name="multilayer" val="true" />
+		<set name="multilayerLvl" val="76" />
+		<polygon>
+			<coords loc="57368 -111416" />
+			<coords loc="61720 -122728" />
+			<coords loc="72024 -132296" />
+			<coords loc="81192 -131800" />
+			<coords loc="77256 -99816" />
+			<coords loc="73480 -99544" />
+			<coords loc="69272 -102856" />
+		</polygon>
+	</zone>
+	<zone name="[crypts_of_disgrace_multilayer]" type="dummy">
+		<set name="multilayer" val="true" />
+		<set name="multilayerLvl" val="76" />
+		<polygon>
+			<coords loc="44648 -114984" />
+			<coords loc="54184 -114408" />
+			<coords loc="57848 -121928" />
+			<coords loc="58600 -123832" />
+			<coords loc="54632 -128360" />
+			<coords loc="40280 -124344" />
+			<coords loc="41464 -117736" />
+		</polygon>
+	</zone>
+</list>

@@ -1,0 +1,71 @@
+﻿
+<html>
+<body>
+<center>
+    <table width=700 cellpadding="3">
+        <tr>
+            <td align="center">
+				<table width=700>
+					<tr>
+						<td width=36 height=22><center>%ls_icon%</center></td>
+						<td width=232 height=22>Name: %ls_name%</td>
+						<td width=232 height=22></td>
+						<td width=100 height=22></td>
+					</tr>
+					<tr>
+						<td width=36 height=22><center></center></td>
+						<td width=232 height=22>Type: %ls_type%</td>
+						<td width=232 height=22>Price: %ls_price% <font color="LEVEL">Gold Coin</font></td>
+						<td width=100 height=22></td>
+					</tr>
+					<tr>
+					   <td width=36 height=22><center></center></td>
+					   <td width=232 height=22>Level: %ls_level%
+					   <table>
+						 <tr>
+						  <td width="40">+1 on:</td>
+						  <td><combobox width=100 var="lock_type" list="RANDOM;STR;CON;MEN;INT"><br></td>
+						 </tr></table></td>
+						<td width=232 height=22><table><tr><td width="65">Item:</td> <td align="center" width="150">%item_select%</td></tr></table></td>
+						<td width=100 height=22><button value="Select" action="bypass _bbsls itemselect" width=90 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+					</tr>
+					<tr>
+						<td width=36 height=22><center></center></td>
+						<td width=232 height=22><button value="Insert" action="bypass _bbsls insertlsinitem $lock_type" width=90 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+						<td width=232 height=22></td>
+						<td width=100 height=22></td>
+					</tr>
+				</table>
+				<table width=700>
+					<tr>
+						<td width=75>Description:</td>
+						<td width=500>%desc%</td>
+					</tr>
+				</table>
+				<br>
+
+				<img src="L2UI.SquareWhite" width=600 height=1>
+				<table width=700>
+					<tr>
+						<td width=60>Filter:</td>
+						<td width=30><button value="All" action="bypass _bbsls filter all" width=52 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+						<td width=40><button value="Active" action="bypass _bbsls filter active" width=52 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+						<td width=44><button value="Passive" action="bypass _bbsls filter passive" width=52 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+						<td width=42><button value="Chance" action="bypass _bbsls filter chance" width=52 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+						<td width=42><button value="Jewerly" action="bypass _bbsls filter jewerly" width=52 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+						<td width=120> </td>
+						<td align=right>Page's:</td>
+						%pagelist%
+					</tr>
+				</table>
+				<img src="L2UI.SquareWhite" width=600 height=1>
+
+				%skilllist%
+
+				<img src="L2UI.SquareWhite" width=600 height=1>
+			</td>
+        </tr>
+    </table>
+</center>
+</body>  
+</html>

@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list> 
+	<npc id="40001" name="Lilith" template_id="25283" title="Hellraiser"> 
+		<set name="name-ru" value="Лилит"/>  
+		<set name="title-ru" value="Восставшая из Ада"/>  
+		<set name="aggroRange" value="0"/>  
+		<set name="ai_type" value="Fighter"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="57"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="73"/>  
+		<set name="baseHpMax" value="2662001.195"/>  
+		<set name="baseHpRate" value="1"/>  
+		<set name="baseHpReg" value="612.13"/>  
+		<set name="baseINT" value="76"/>  
+		<set name="baseMAtk" value="6199"/>  
+		<set name="baseMAtkSpd" value="333"/>  
+		<set name="baseMDef" value="1125"/>  
+		<set name="baseMEN" value="80"/>  
+		<set name="baseMpMax" value="184680"/>  
+		<set name="baseMpReg" value="300"/>  
+		<set name="basePAtk" value="18641"/>  
+		<set name="basePAtkSpd" value="253"/>  
+		<set name="basePDef" value="2077"/>  
+		<set name="baseRunSpd" value="200"/>  
+		<set name="baseSTR" value="60"/>  
+		<set name="baseShldDef" value="0"/>  
+		<set name="baseShldRate" value="0"/>  
+		<set name="baseWIT" value="70"/>  
+		<set name="baseWalkSpd" value="80"/>  
+		<set name="collision_height" value="55.0"/>  
+		<set name="collision_radius" value="42.5"/>  
+		<set name="corpse_time" value="2"/>  
+		<set name="level" value="90"/>  
+		<set name="race" value="humanoid"/>  
+		<set name="baseRndDam" value="40"/>  
+		<set name="sex" value="male"/>  
+		<set name="baseAtkType" value="need_pars"/>  
+		<set name="isAgro" value="0"/>  
+		<set name="rewardExp" value="0"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="0"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="spiritshot_count" value="2"/>  
+		<set name="soulshot_count" value="2"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="Monster"/>  
+		<faction name="hell_clan" range="300"/>  
+		<minions> 
+			<minion count="4" npc_id="40003"/>  
+			<minion count="2" npc_id="40002"/> 
+		</minions>  
+		<skills/>  
+		<absorblist> 
+			<absorb chance="25" max_level="15" min_level="11" type="PARTY_RANDOM"/> 
+		</absorblist>  
+		<rewardlist type="RATED_GROUPED"> 
+			<group chance="30.0"> 
+				<reward chance="2.9400" item_id="13143" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="13144" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="13145" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="13887" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="14105" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="14106" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="14107" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="14108" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="14109" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="14110" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="14111" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="14112" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="14113" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="14114" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="14115" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="14116" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="14117" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="13146" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="13147" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="13148" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="13886" max="1" min="1"/>  
+				<reward chance="2.9400" item_id="9529" max="1" min="1"/> 
+			</group> 
+		</rewardlist>  
+		<rewardlist type="RATED_GROUPED"> 
+			<group chance="30.0"> 
+				<reward chance="3.0000" item_id="14160" max="1" min="1"/>  
+				<reward chance="3.0000" item_id="14161" max="1" min="1"/>  
+				<reward chance="3.0000" item_id="14162" max="1" min="1"/> 
+			</group> 
+		</rewardlist>  
+		<rewardlist type="RATED_GROUPED"> 
+			<group chance="40.0"> 
+				<reward chance="3.0770" item_id="14189" max="1" min="1"/>  
+				<reward chance="2.9530" item_id="14202" max="1" min="1"/>  
+				<reward chance="2.9510" item_id="14194" max="1" min="1"/>  
+				<reward chance="2.9320" item_id="14190" max="1" min="1"/>  
+				<reward chance="2.9290" item_id="14198" max="1" min="1"/>  
+				<reward chance="2.9250" item_id="14206" max="1" min="1"/>  
+				<reward chance="2.9170" item_id="14197" max="1" min="1"/>  
+				<reward chance="2.9130" item_id="14199" max="1" min="1"/>  
+				<reward chance="2.9110" item_id="14195" max="1" min="1"/>  
+				<reward chance="2.9010" item_id="14204" max="1" min="1"/>  
+				<reward chance="2.8970" item_id="14200" max="1" min="1"/>  
+				<reward chance="2.8890" item_id="14227" max="1" min="1"/>  
+				<reward chance="2.8860" item_id="14201" max="1" min="1"/>  
+				<reward chance="2.8770" item_id="14222" max="1" min="1"/>  
+				<reward chance="2.8700" item_id="14225" max="1" min="1"/>  
+				<reward chance="2.8690" item_id="14226" max="1" min="1"/>  
+				<reward chance="2.8610" item_id="14223" max="1" min="1"/>  
+				<reward chance="2.8510" item_id="14193" max="1" min="1"/>  
+				<reward chance="2.8320" item_id="14205" max="1" min="1"/> 
+			</group> 
+		</rewardlist>  
+		<attributes> 
+			<attack attribute="water" value="370"/>  
+			<defence attribute="fire" value="250"/>  
+			<defence attribute="water" value="370"/>  
+			<defence attribute="wind" value="300"/>  
+			<defence attribute="earth" value="300"/>  
+			<defence attribute="holy" value="300"/>  
+			<defence attribute="unholy" value="300"/> 
+		</attributes> 
+	</npc>  
+	<npc id="40002" name="Lilith's Agent" template_id="25284" title="Bodyguard Hellraiser"> 
+		<set name="name-ru" value="Агент Лилит"/>  
+		<set name="title-ru" value="Хранитель Восставшей"/>  
+		<set name="aggroRange" value="0"/>  
+		<set name="ai_type" value="Mystic"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="43"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="30"/>  
+		<set name="baseHpMax" value="73063.924"/>  
+		<set name="baseHpRate" value="1"/>  
+		<set name="baseHpReg" value="209.833"/>  
+		<set name="baseINT" value="21"/>  
+		<set name="baseMAtk" value="8255"/>  
+		<set name="baseMAtkSpd" value="500"/>  
+		<set name="baseMDef" value="920"/>  
+		<set name="baseMEN" value="20"/>  
+		<set name="baseMpMax" value="1641"/>  
+		<set name="baseMpReg" value="3"/>  
+		<set name="basePAtk" value="20456"/>  
+		<set name="basePAtkSpd" value="253"/>  
+		<set name="basePDef" value="849"/>  
+		<set name="baseRunSpd" value="190"/>  
+		<set name="baseSTR" value="40"/>  
+		<set name="baseShldDef" value="0"/>  
+		<set name="baseShldRate" value="0"/>  
+		<set name="baseWIT" value="20"/>  
+		<set name="baseWalkSpd" value="50"/>  
+		<set name="collision_height" value="34.0"/>  
+		<set name="collision_radius" value="9.0"/>  
+		<set name="corpse_time" value="2"/>  
+		<set name="level" value="89"/>  
+		<set name="race" value="humanoid"/>  
+		<set name="baseRndDam" value="40"/>  
+		<set name="sex" value="male"/>  
+		<set name="baseAtkType" value="need_pars"/>  
+		<set name="isAgro" value="0"/>  
+		<set name="rewardExp" value="0"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="0"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="spiritshot_count" value="2"/>  
+		<set name="soulshot_count" value="2"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="Monster"/>  
+		<faction name="hell_clan" range="300"/>  
+		<skills/>  
+		<attributes> 
+			<attack attribute="unholy" value="20"/>  
+			<defence attribute="fire" value="20"/>  
+			<defence attribute="water" value="20"/>  
+			<defence attribute="wind" value="20"/>  
+			<defence attribute="earth" value="20"/>  
+			<defence attribute="unholy" value="189"/> 
+		</attributes> 
+	</npc>  
+	<npc id="40003" name="Lilith's Escort" template_id="25285" title="Bodyguard Hellraiser"> 
+		<set name="name-ru" value="Сопровождающий Лилит"/>  
+		<set name="title-ru" value="Хранитель Восставшей"/>  
+		<set name="aggroRange" value="0"/>  
+		<set name="ai_type" value="Fighter"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="43"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="30"/>  
+		<set name="baseHpMax" value="109050.632"/>  
+		<set name="baseHpRate" value="1"/>  
+		<set name="baseHpReg" value="209.833"/>  
+		<set name="baseINT" value="21"/>  
+		<set name="baseMAtk" value="18575"/>  
+		<set name="baseMAtkSpd" value="500"/>  
+		<set name="baseMDef" value="920"/>  
+		<set name="baseMEN" value="20"/>  
+		<set name="baseMpMax" value="1641"/>  
+		<set name="baseMpReg" value="3"/>  
+		<set name="basePAtk" value="30685"/>  
+		<set name="basePAtkSpd" value="253"/>  
+		<set name="basePDef" value="849"/>  
+		<set name="baseRunSpd" value="220"/>  
+		<set name="baseSTR" value="40"/>  
+		<set name="baseShldDef" value="674"/>  
+		<set name="baseShldRate" value="20"/>  
+		<set name="baseWIT" value="20"/>  
+		<set name="baseWalkSpd" value="56"/>  
+		<set name="collision_height" value="50.0"/>  
+		<set name="collision_radius" value="12.0"/>  
+		<set name="corpse_time" value="2"/>  
+		<set name="level" value="79"/>  
+		<set name="race" value="humanoid"/>  
+		<set name="baseRndDam" value="40"/>  
+		<set name="sex" value="male"/>  
+		<set name="baseAtkType" value="need_pars"/>  
+		<set name="isAgro" value="0"/>  
+		<set name="rewardExp" value="0"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="0"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="spiritshot_count" value="2"/>  
+		<set name="soulshot_count" value="2"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="Monster"/>  
+		<faction name="hell_clan" range="300"/>  
+		<equip> 
+			<rhand item_id="5800"/>  
+			<lhand item_id="5799"/> 
+		</equip>  
+		<skills/>  
+		<attributes> 
+			<attack attribute="unholy" value="20"/>  
+			<defence attribute="fire" value="20"/>  
+			<defence attribute="water" value="20"/>  
+			<defence attribute="wind" value="20"/>  
+			<defence attribute="earth" value="20"/>  
+			<defence attribute="unholy" value="189"/> 
+		</attributes> 
+	</npc>  
+	<npc id="40004" name="Anakim" template_id="25286" title="Descended from Heaven"> 
+		<set name="name-ru" value="Анаким"/>  
+		<set name="title-ru" value="Спустившшаяся с Небес"/>  
+		<set name="aggroRange" value="0"/>  
+		<set name="ai_type" value="Fighter"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="57"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="73"/>  
+		<set name="baseHpMax" value="2662001.195"/>  
+		<set name="baseHpRate" value="1"/>  
+		<set name="baseHpReg" value="612.13"/>  
+		<set name="baseINT" value="76"/>  
+		<set name="baseMAtk" value="6199"/>  
+		<set name="baseMAtkSpd" value="333"/>  
+		<set name="baseMDef" value="1125"/>  
+		<set name="baseMEN" value="80"/>  
+		<set name="baseMpMax" value="184680"/>  
+		<set name="baseMpReg" value="300"/>  
+		<set name="basePAtk" value="18641"/>  
+		<set name="basePAtkSpd" value="253"/>  
+		<set name="basePDef" value="2077"/>  
+		<set name="baseRunSpd" value="200"/>  
+		<set name="baseSTR" value="60"/>  
+		<set name="baseShldDef" value="0"/>  
+		<set name="baseShldRate" value="0"/>  
+		<set name="baseWIT" value="70"/>  
+		<set name="baseWalkSpd" value="80"/>  
+		<set name="collision_height" value="55.0"/>  
+		<set name="collision_radius" value="42.5"/>  
+		<set name="corpse_time" value="2"/>  
+		<set name="level" value="90"/>  
+		<set name="race" value="humanoid"/>  
+		<set name="baseRndDam" value="40"/>  
+		<set name="sex" value="male"/>  
+		<set name="baseAtkType" value="need_pars"/>  
+		<set name="isAgro" value="0"/>  
+		<set name="rewardExp" value="0"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="0"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="spiritshot_count" value="2"/>  
+		<set name="soulshot_count" value="2"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="Monster"/>  
+		<faction name="heaven_clan" range="300"/>  
+		<minions> 
+			<minion count="2" npc_id="40007"/>  
+			<minion count="2" npc_id="40005"/>  
+			<minion count="2" npc_id="40006"/> 
+		</minions>  
+		<skills/>  
+		<absorblist> 
+			<absorb chance="25" max_level="15" min_level="11" type="PARTY_RANDOM"/> 
+		</absorblist>  
+		<rewardlist type="RATED_GROUPED"> 
+			<group chance="50.0"> 
+				<reward chance="3.7700" item_id="13457" max="1" min="1"/>  
+				<reward chance="3.7600" item_id="13458" max="1" min="1"/>  
+				<reward chance="3.7600" item_id="13459" max="1" min="1"/>  
+				<reward chance="3.7700" item_id="13460" max="1" min="1"/>  
+				<reward chance="3.7700" item_id="13461" max="1" min="1"/>  
+				<reward chance="3.7600" item_id="13462" max="1" min="1"/>  
+				<reward chance="3.7700" item_id="13463" max="1" min="1"/>  
+				<reward chance="3.7600" item_id="13464" max="1" min="1"/>  
+				<reward chance="3.7600" item_id="13465" max="1" min="1"/>  
+				<reward chance="3.7600" item_id="13467" max="1" min="1"/>  
+				<reward chance="3.7600" item_id="13466" max="1" min="1"/>  
+				<reward chance="6.5200" item_id="10215" max="1" min="1"/>  
+				<reward chance="6.5100" item_id="10216" max="1" min="1"/>  
+				<reward chance="6.5100" item_id="10217" max="1" min="1"/>  
+				<reward chance="6.5100" item_id="10218" max="1" min="1"/>  
+				<reward chance="6.5100" item_id="10219" max="1" min="1"/>  
+				<reward chance="6.5100" item_id="10220" max="1" min="1"/>  
+				<reward chance="6.5100" item_id="10221" max="1" min="1"/>  
+				<reward chance="6.5100" item_id="10222" max="1" min="1"/>  
+				<reward chance="6.5100" item_id="10223" max="1" min="1"/> 
+			</group>  
+			<group chance="50.0"> 
+				<reward chance="3.0770" item_id="14189" max="1" min="1"/>  
+				<reward chance="2.9530" item_id="14202" max="1" min="1"/>  
+				<reward chance="2.9510" item_id="14194" max="1" min="1"/>  
+				<reward chance="2.9320" item_id="14190" max="1" min="1"/>  
+				<reward chance="2.9290" item_id="14198" max="1" min="1"/>  
+				<reward chance="2.9250" item_id="14206" max="1" min="1"/>  
+				<reward chance="2.9170" item_id="14197" max="1" min="1"/>  
+				<reward chance="2.9130" item_id="14199" max="1" min="1"/>  
+				<reward chance="2.9110" item_id="14195" max="1" min="1"/>  
+				<reward chance="2.9010" item_id="14204" max="1" min="1"/>  
+				<reward chance="2.8970" item_id="14200" max="1" min="1"/>  
+				<reward chance="2.8890" item_id="14227" max="1" min="1"/>  
+				<reward chance="2.8860" item_id="14201" max="1" min="1"/>  
+				<reward chance="2.8770" item_id="14222" max="1" min="1"/>  
+				<reward chance="2.8700" item_id="14225" max="1" min="1"/>  
+				<reward chance="2.8690" item_id="14226" max="1" min="1"/>  
+				<reward chance="2.8610" item_id="14223" max="1" min="1"/>  
+				<reward chance="2.8510" item_id="14193" max="1" min="1"/>  
+				<reward chance="2.8320" item_id="14205" max="1" min="1"/> 
+			</group> 
+		</rewardlist>  
+		<attributes> 
+			<attack attribute="water" value="370"/>  
+			<defence attribute="fire" value="250"/>  
+			<defence attribute="water" value="370"/>  
+			<defence attribute="wind" value="300"/>  
+			<defence attribute="earth" value="300"/>  
+			<defence attribute="holy" value="300"/>  
+			<defence attribute="unholy" value="300"/> 
+		</attributes> 
+	</npc>  
+	<npc id="40005" name="Anakim's Guardian" template_id="25287" title="Bodyguard Descended from the Heavens"> 
+		<set name="name-ru" value="Стражник Анаким"/>  
+		<set name="title-ru" value="Хранитель Спустившейся с Небес"/>  
+		<set name="aggroRange" value="0"/>  
+		<set name="ai_type" value="Priest"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="43"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="30"/>  
+		<set name="baseHpMax" value="109050.632"/>  
+		<set name="baseHpRate" value="1"/>  
+		<set name="baseHpReg" value="209.833"/>  
+		<set name="baseINT" value="21"/>  
+		<set name="baseMAtk" value="4644"/>  
+		<set name="baseMAtkSpd" value="500"/>  
+		<set name="baseMDef" value="920"/>  
+		<set name="baseMEN" value="20"/>  
+		<set name="baseMpMax" value="1641"/>  
+		<set name="baseMpReg" value="3"/>  
+		<set name="basePAtk" value="15343"/>  
+		<set name="basePAtkSpd" value="253"/>  
+		<set name="basePDef" value="849"/>  
+		<set name="baseRunSpd" value="190"/>  
+		<set name="baseSTR" value="40"/>  
+		<set name="baseShldDef" value="0"/>  
+		<set name="baseShldRate" value="0"/>  
+		<set name="baseWIT" value="20"/>  
+		<set name="baseWalkSpd" value="50"/>  
+		<set name="collision_height" value="40.5"/>  
+		<set name="collision_radius" value="23.0"/>  
+		<set name="corpse_time" value="2"/>  
+		<set name="level" value="79"/>  
+		<set name="race" value="humanoid"/>  
+		<set name="baseRndDam" value="40"/>  
+		<set name="sex" value="male"/>  
+		<set name="baseAtkType" value="need_pars"/>  
+		<set name="isAgro" value="0"/>  
+		<set name="rewardExp" value="0"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="0"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="spiritshot_count" value="2"/>  
+		<set name="soulshot_count" value="2"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="Monster"/>  
+		<faction name="heaven_clan" range="300"/>  
+		<skills/>  
+		<attributes> 
+			<defence attribute="fire" value="20"/>  
+			<defence attribute="water" value="20"/>  
+			<defence attribute="wind" value="20"/>  
+			<defence attribute="earth" value="20"/>  
+			<defence attribute="holy" value="53"/>  
+			<defence attribute="unholy" value="15"/> 
+		</attributes> 
+	</npc>  
+	<npc id="40006" name="Anakim's Royal Guard" template_id="25288" title="Bodyguard Descended from the Heavens"> 
+		<set name="name-ru" value="Королевский Страж Анаким"/>  
+		<set name="title-ru" value="Хранитель Спустившейся с Небес"/>  
+		<set name="aggroRange" value="0"/>  
+		<set name="ai_type" value="Fighter"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="43"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="30"/>  
+		<set name="baseHpMax" value="54525.316"/>  
+		<set name="baseHpRate" value="1"/>  
+		<set name="baseHpReg" value="209.833"/>  
+		<set name="baseINT" value="21"/>  
+		<set name="baseMAtk" value="4644"/>  
+		<set name="baseMAtkSpd" value="500"/>  
+		<set name="baseMDef" value="920"/>  
+		<set name="baseMEN" value="20"/>  
+		<set name="baseMpMax" value="1641"/>  
+		<set name="baseMpReg" value="3"/>  
+		<set name="basePAtk" value="15343"/>  
+		<set name="basePAtkSpd" value="253"/>  
+		<set name="basePDef" value="849"/>  
+		<set name="baseRunSpd" value="220"/>  
+		<set name="baseSTR" value="40"/>  
+		<set name="baseShldDef" value="0"/>  
+		<set name="baseShldRate" value="0"/>  
+		<set name="baseWIT" value="20"/>  
+		<set name="baseWalkSpd" value="65"/>  
+		<set name="collision_height" value="41.5"/>  
+		<set name="collision_radius" value="10.0"/>  
+		<set name="corpse_time" value="2"/>  
+		<set name="level" value="79"/>  
+		<set name="race" value="humanoid"/>  
+		<set name="baseRndDam" value="40"/>  
+		<set name="sex" value="male"/>  
+		<set name="baseAtkType" value="need_pars"/>  
+		<set name="isAgro" value="0"/>  
+		<set name="rewardExp" value="0"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="0"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="spiritshot_count" value="2"/>  
+		<set name="soulshot_count" value="2"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="Monster"/>  
+		<faction name="heaven_clan" range="300"/>  
+		<skills/>  
+		<attributes> 
+			<defence attribute="fire" value="20"/>  
+			<defence attribute="water" value="20"/>  
+			<defence attribute="wind" value="20"/>  
+			<defence attribute="earth" value="20"/>  
+			<defence attribute="holy" value="53"/>  
+			<defence attribute="unholy" value="15"/> 
+		</attributes> 
+	</npc>  
+	<npc id="40007" name="Anakim's Executor" template_id="25289" title="Bodyguard Descended from the Heavens"> 
+		<set name="name-ru" value="Палач Анаким"/>  
+		<set name="title-ru" value="Хранитель Спустившейся с Небес"/>  
+		<set name="aggroRange" value="0"/>  
+		<set name="ai_type" value="Fighter"/>  
+		<set name="baseAtkRange" value="40"/>  
+		<set name="baseCON" value="43"/>  
+		<set name="baseCritRate" value="40"/>  
+		<set name="baseDEX" value="30"/>  
+		<set name="baseHpMax" value="54525.316"/>  
+		<set name="baseHpRate" value="1"/>  
+		<set name="baseHpReg" value="209.833"/>  
+		<set name="baseINT" value="21"/>  
+		<set name="baseMAtk" value="4644"/>  
+		<set name="baseMAtkSpd" value="500"/>  
+		<set name="baseMDef" value="920"/>  
+		<set name="baseMEN" value="20"/>  
+		<set name="baseMpMax" value="1641"/>  
+		<set name="baseMpReg" value="3"/>  
+		<set name="basePAtk" value="15343"/>  
+		<set name="basePAtkSpd" value="253"/>  
+		<set name="basePDef" value="849"/>  
+		<set name="baseRunSpd" value="190"/>  
+		<set name="baseSTR" value="40"/>  
+		<set name="baseShldDef" value="0"/>  
+		<set name="baseShldRate" value="0"/>  
+		<set name="baseWIT" value="20"/>  
+		<set name="baseWalkSpd" value="65"/>  
+		<set name="collision_height" value="36.0"/>  
+		<set name="collision_radius" value="12.0"/>  
+		<set name="corpse_time" value="2"/>  
+		<set name="level" value="79"/>  
+		<set name="race" value="humanoid"/>  
+		<set name="baseRndDam" value="40"/>  
+		<set name="sex" value="male"/>  
+		<set name="baseAtkType" value="need_pars"/>  
+		<set name="isAgro" value="0"/>  
+		<set name="rewardExp" value="0"/>  
+		<set name="rewardRp" value="0"/>  
+		<set name="rewardSp" value="0"/>  
+		<set name="shots" value="NONE"/>  
+		<set name="spiritshot_count" value="2"/>  
+		<set name="soulshot_count" value="2"/>  
+		<set name="texture" value=""/>  
+		<set name="type" value="Monster"/>  
+		<faction name="heaven_clan" range="300"/>  
+		<set name="isAgro" value="0"/>  
+		<skills/>  
+		<attributes> 
+			<defence attribute="fire" value="20"/>  
+			<defence attribute="water" value="20"/>  
+			<defence attribute="wind" value="20"/>  
+			<defence attribute="earth" value="20"/>  
+			<defence attribute="holy" value="53"/>  
+			<defence attribute="unholy" value="15"/> 
+		</attributes> 
+	</npc> 
+</list>

@@ -1,0 +1,2616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list> 
+	<npc id="18800" name="Fledgling Lavasaurus" title="" name_ru="Молодой Лавазавр" title_ru="" pts_name="lavasaurus_lv2"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="groups.ForgeoftheGods"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="77"/>
+		<set name="exp" value="1151275834"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="6"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="15"/>
+		<set name="collision_height" value="75"/>
+		<set name="HitTimeFactor" value="0.48"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="1"/>
+		<set name="baseWalkSpd" value="1"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="2856.7687256316"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1574"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="856"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="240"/>
+		<set name="baseMAtk" value="585"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="328"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="0"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="1"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="49441"/>
+		<set name="rewardSp" value="5079"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="8.3388"/>
+		<faction name="fire_clan" range="300"/>
+		<ai_params>
+			<set name="Skill01_ID" value="s_magma_attack"/>
+			<set name="IsAggressive" value="1"/>
+			<set name="Aggressive_Time" value="5"/>
+		</ai_params>
+		<skills>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4412" level="10"/>
+			<skill id="4416" level="2"/>
+			<skill id="4413" level="10"/>
+			<skill id="4045" level="1"/>
+			<skill id="4408" level="14"/>
+			<skill id="4409" level="1"/>
+			<skill id="4607" level="1"/>
+			<skill id="5462" level="1"/>
+			<skill id="4410" level="10"/>
+			<skill id="4411" level="11"/>
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+			<defence attribute="fire" value="130"/>
+			<defence attribute="water" value="50"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="2420" max="4913" chance="100.0"/>
+			</group>
+			<group chance="1.2145">
+				<!--Sealed Draconic Leather Armor-->
+				<reward item_id="6680" min="1" max="1" chance="0.2585"/>
+				<!--Sealed Draconic Leather Armor Part-->
+				<reward item_id="6707" min="1" max="1" chance="99.7415"/>
+			</group>
+			<group chance="2.8451">
+				<!--Leonard-->
+				<reward item_id="9628" min="1" max="1" chance="44.9357"/>
+				<!--Orichalcum-->
+				<reward item_id="9630" min="1" max="1" chance="30.1542"/>
+				<!--Adamantine-->
+				<reward item_id="9629" min="1" max="1" chance="24.9101"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Scroll: Enchant Armor (S-Grade)-->
+			<reward item_id="960" min="1" max="1" chance="0.5298"/>
+			<!--Crafted Leather-->
+			<reward item_id="1894" min="1" max="1" chance="46.4713"/>
+			<!--Sealed Dynasty Tunic Piece-->
+			<reward item_id="9540" min="1" max="1" chance="2.3694"/>
+		</rewardlist>
+	</npc>  
+	<npc id="18801" name="Adult Lavasaurus" title="" name_ru="Матерый Лавазавр" title_ru="" pts_name="lavasaurus_lv3"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="groups.ForgeoftheGods"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="77"/>
+		<set name="exp" value="1151275834"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="6"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12"/>
+		<set name="collision_height" value="60"/>
+		<set name="HitTimeFactor" value="0.48"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="1"/>
+		<set name="baseWalkSpd" value="1"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="2856.7687256316"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1574"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="BLUNT"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="50"/>
+		<set name="basePAtk" value="856"/>
+		<set name="baseCritRate" value="10"/>
+		<set name="physical_hit_modify" value="9"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="240"/>
+		<set name="baseMAtk" value="585"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="328"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="0"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="1"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="49441"/>
+		<set name="rewardSp" value="5079"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="8.3388"/>
+		<faction name="fire_clan" range="300"/>
+		<ai_params>
+			<set name="Skill01_ID" value="s_magma_attack"/>
+			<set name="IsAggressive" value="1"/>
+			<set name="Aggressive_Time" value="5"/>
+		</ai_params>
+		<skills>
+			<skill id="4412" level="10"/>
+			<skill id="4414" level="1"/>
+			<skill id="4416" level="2"/>
+			<skill id="4413" level="10"/>
+			<skill id="4045" level="1"/>
+			<skill id="4408" level="14"/>
+			<skill id="4409" level="1"/>
+			<skill id="4607" level="1"/>
+			<skill id="5462" level="1"/>
+			<skill id="4415" level="5"/>
+			<skill id="4410" level="10"/>
+			<skill id="4411" level="11"/>
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+			<defence attribute="fire" value="130"/>
+			<defence attribute="water" value="50"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="2420" max="4913" chance="100.0"/>
+			</group>
+			<group chance="0.5392">
+				<!--Saint Spear-->
+				<reward item_id="6370" min="1" max="1" chance="0.2121"/>
+				<!--Saint Spear Blade-->
+				<reward item_id="6694" min="1" max="1" chance="99.7879"/>
+			</group>
+			<group chance="2.8451">
+				<!--Leonard-->
+				<reward item_id="9628" min="1" max="1" chance="44.9357"/>
+				<!--Orichalcum-->
+				<reward item_id="9630" min="1" max="1" chance="30.1542"/>
+				<!--Adamantine-->
+				<reward item_id="9629" min="1" max="1" chance="24.9101"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Scroll: Enchant Armor (S-Grade)-->
+			<reward item_id="960" min="1" max="1" chance="0.5298"/>
+			<!--Crafted Leather-->
+			<reward item_id="1894" min="1" max="1" chance="46.4713"/>
+			<!--Sealed Dynasty Tunic Piece-->
+			<reward item_id="9540" min="1" max="1" chance="2.3694"/>
+		</rewardlist>
+	</npc>  
+	<npc id="18802" name="Elderly Lavasaurus" title="" name_ru="Старый Лавазавр" title_ru="" pts_name="lavasaurus_lv4"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="groups.ForgeoftheGods"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="78"/>
+		<set name="exp" value="1511275834"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="6"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="15"/>
+		<set name="collision_height" value="75"/>
+		<set name="HitTimeFactor" value="0.48"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="1"/>
+		<set name="baseWalkSpd" value="1"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="2974.35686398316"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1607.4"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="891"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="243"/>
+		<set name="baseMAtk" value="608"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="333"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="0"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="1"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="50733"/>
+		<set name="rewardSp" value="5271"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="8.3388"/>
+		<faction name="fire_clan" range="300"/>
+		<ai_params>
+			<set name="Skill01_ID" value="s_magma_attack"/>
+			<set name="IsAggressive" value="1"/>
+			<set name="Aggressive_Time" value="5"/>
+		</ai_params>
+		<skills>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4412" level="10"/>
+			<skill id="4416" level="2"/>
+			<skill id="4413" level="10"/>
+			<skill id="4045" level="1"/>
+			<skill id="4408" level="14"/>
+			<skill id="4409" level="1"/>
+			<skill id="4607" level="1"/>
+			<skill id="5462" level="1"/>
+			<skill id="4410" level="10"/>
+			<skill id="4411" level="11"/>
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+			<defence attribute="fire" value="130"/>
+			<defence attribute="water" value="50"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="2540" max="5000" chance="100.0"/>
+			</group>
+			<group chance="1.5359">
+				<!--Sealed Imperial Crusader Breastplate-->
+				<reward item_id="6674" min="1" max="1" chance="0.1281"/>
+				<!--Sealed Imperial Crusader Gaiters-->
+				<reward item_id="6675" min="1" max="1" chance="0.2049"/>
+				<!--Sealed Imperial Crusader Breastplate Part-->
+				<reward item_id="6701" min="1" max="1" chance="43.5747"/>
+				<!--Sealed Imperial Crusader Gaiters Pattern-->
+				<reward item_id="6702" min="1" max="1" chance="56.0923"/>
+			</group>
+			<group chance="2.926">
+				<!--Leonard-->
+				<reward item_id="9628" min="1" max="1" chance="44.9357"/>
+				<!--Orichalcum-->
+				<reward item_id="9630" min="1" max="1" chance="30.1542"/>
+				<!--Adamantine-->
+				<reward item_id="9629" min="1" max="1" chance="24.9101"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Scroll: Enchant Armor (S-Grade)-->
+			<reward item_id="960" min="1" max="1" chance="0.5448"/>
+			<!--Crafted Leather-->
+			<reward item_id="1894" min="1" max="1" chance="47.7927"/>
+			<!--Sealed Dynasty Tunic Piece-->
+			<reward item_id="9540" min="1" max="1" chance="2.4368"/>
+		</rewardlist>
+	</npc>  
+	<npc id="18803" name="Ancient Lavasaurus" title="" name_ru="Древний Лавазавр" title_ru="" pts_name="lavasaurus_lv5"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="groups.ForgeoftheGods"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="78"/>
+		<set name="exp" value="1511275834"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="6"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="15"/>
+		<set name="collision_height" value="75"/>
+		<set name="HitTimeFactor" value="0.48"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="1"/>
+		<set name="baseWalkSpd" value="1"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="2974.35686398316"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1607.4"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="891"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="243"/>
+		<set name="baseMAtk" value="608"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="333"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="0"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="1"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="50733"/>
+		<set name="rewardSp" value="5271"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="8.3388"/>
+		<faction name="fire_clan" range="300"/>
+		<ai_params>
+			<set name="Skill01_ID" value="s_magma_attack"/>
+			<set name="IsAggressive" value="1"/>
+			<set name="Aggressive_Time" value="5"/>
+		</ai_params>
+		<skills>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4412" level="10"/>
+			<skill id="4416" level="2"/>
+			<skill id="4413" level="10"/>
+			<skill id="4045" level="1"/>
+			<skill id="4408" level="14"/>
+			<skill id="4409" level="1"/>
+			<skill id="4607" level="1"/>
+			<skill id="5462" level="1"/>
+			<skill id="4410" level="10"/>
+			<skill id="4411" level="11"/>
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+			<defence attribute="fire" value="130"/>
+			<defence attribute="water" value="50"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<!--Adena-->
+				<reward item_id="57" min="2540" max="5000" chance="100.0"/>
+			</group>
+			<group chance="1.5359">
+				<!--Sealed Imperial Crusader Breastplate-->
+				<reward item_id="6674" min="1" max="1" chance="0.1281"/>
+				<!--Sealed Imperial Crusader Gaiters-->
+				<reward item_id="6675" min="1" max="1" chance="0.2049"/>
+				<!--Sealed Imperial Crusader Breastplate Part-->
+				<reward item_id="6701" min="1" max="1" chance="43.5747"/>
+				<!--Sealed Imperial Crusader Gaiters Pattern-->
+				<reward item_id="6702" min="1" max="1" chance="56.0923"/>
+			</group>
+			<group chance="2.926">
+				<!--Leonard-->
+				<reward item_id="9628" min="1" max="1" chance="44.9357"/>
+				<!--Orichalcum-->
+				<reward item_id="9630" min="1" max="1" chance="30.1542"/>
+				<!--Adamantine-->
+				<reward item_id="9629" min="1" max="1" chance="24.9101"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Scroll: Enchant Armor (S-Grade)-->
+			<reward item_id="960" min="1" max="1" chance="0.5448"/>
+			<!--Crafted Leather-->
+			<reward item_id="1894" min="1" max="1" chance="47.7927"/>
+			<!--Sealed Dynasty Tunic Piece-->
+			<reward item_id="9540" min="1" max="1" chance="2.4368"/>
+		</rewardlist>
+	</npc>  
+	<npc id="18804" name="Tar Beetle" title="" name_ru="Жук Тар" title_ru="" pts_name="tar_bettle"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="groups.TarBeetle"/>
+		<set name="type" value="Npc"/>
+		<set name="level" value="78"/>
+		<set name="exp" value="1511275834"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="bug"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="18"/>
+		<set name="collision_height" value="26"/>
+		<set name="HitTimeFactor" value="0.52"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="2974.35686398316"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1607.4"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="891"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="243"/>
+		<set name="baseMAtk" value="608"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="333"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="1"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="0"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="0"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="1"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="TargetEnabled" value="false"/>
+		</ai_params>
+		<skills>
+			<skill id="4412" level="11"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4413" level="11"/>
+			<skill id="4416" level="12"/>
+			<skill id="4045" level="1"/>
+			<skill id="4409" level="1"/>
+			<skill id="4408" level="1"/>
+			<skill id="4410" level="11"/>
+			<skill id="4411" level="11"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="18805" name="Waste Landfill Machine" title="" name_ru="Яйцо Макрониана" title_ru="" pts_name="eggs_of_murcrokian"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="FieldMachine"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="83"/>
+		<set name="exp" value="11844000000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="19"/>
+		<set name="collision_height" value="28"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="1"/>
+		<set name="baseWalkSpd" value="1"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="3835.59060587002"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1777.4"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="1099"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="259"/>
+		<set name="baseMAtk" value="751"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="354"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4412" level="11"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4413" level="11"/>
+			<skill id="4416" level="2"/>
+			<skill id="4409" level="1"/>
+			<skill id="4408" level="1"/>
+			<skill id="4410" level="11"/>
+			<skill id="4411" level="11"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="18806" name="Brazier of Purity" title="" name_ru="Факел" title_ru="" pts_name="brazier_of_peace"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="FieldMachine"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="83"/>
+		<set name="exp" value="11844000000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="16"/>
+		<set name="collision_height" value="31"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="1"/>
+		<set name="baseWalkSpd" value="1"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="3835.59060587002"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1777.4"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="1099"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="259"/>
+		<set name="baseMAtk" value="751"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="354"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params/>
+		<skills>
+			<skill id="4412" level="11"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4413" level="11"/>
+			<skill id="4416" level="2"/>
+			<skill id="4409" level="1"/>
+			<skill id="4408" level="1"/>
+			<skill id="4410" level="11"/>
+			<skill id="4411" level="11"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="18807" name="Frightened Ragna Orc" title="" name_ru="Трус Орков Рагна" title_ru="" pts_name="ragna_orc_coward"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="FrightenedOrc"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="81"/>
+		<set name="exp" value="6300000000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="9"/>
+		<set name="collision_height" value="21.5"/>
+		<set name="HitTimeFactor" value="0.46"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="130"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="3461.77253215841"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1708.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="1012"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="253"/>
+		<set name="baseMAtk" value="691"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="2639"/>
+		<set name="rewardSp" value="292"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0.4022713125"/>
+		<ai_params/>
+		<skills>
+			<skill id="4412" level="11"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4413" level="11"/>
+			<skill id="4408" level="10"/>
+			<skill id="4409" level="1"/>
+			<skill id="4410" level="5"/>
+			<skill id="4416" level="6"/>
+			<skill id="4411" level="11"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="0.0794">
+				<!--Sealed Armor of Nightmare-->
+				<reward item_id="5311" min="1" max="1" chance="0.3313"/>
+				<!--Sealed Armor of Nightmare Pattern-->
+				<reward item_id="5522" min="1" max="1" chance="49.6687"/>
+				<!--Sealed Majestic Plate Armor-->
+				<reward item_id="5316" min="1" max="1" chance="0.3313"/>
+				<!--Sealed Majestic Plate Armor Pattern-->
+				<reward item_id="5523" min="1" max="1" chance="49.6687"/>
+			</group>
+			<group chance="2.0674">
+				<!--Cokes-->
+				<reward item_id="1879" min="1" max="1" chance="62.2126"/>
+				<!--High-Grade Suede-->
+				<reward item_id="1885" min="1" max="1" chance="31.1063"/>
+				<!--Leonard-->
+				<reward item_id="9628" min="1" max="1" chance="2.9277"/>
+				<!--Orichalcum-->
+				<reward item_id="9630" min="1" max="1" chance="1.9646"/>
+				<!--Adamantine-->
+				<reward item_id="9629" min="1" max="1" chance="1.6229"/>
+				<!--Recipe: Greater Blessed Spiritshot (S) Compressed Package(100%)-->
+				<reward item_id="5282" min="1" max="1" chance="0.1659"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<!--Sealed Dynasty Shoes Piece-->
+			<reward item_id="9544" min="1" max="1" chance="0.4497"/>
+			<!--Orichalcum-->
+			<reward item_id="9630" min="1" max="1" chance="0.4947"/>
+			<!--Dynasty Bow Piece-->
+			<reward item_id="9619" min="1" max="1" chance="0.0526"/>
+		</rewardlist>
+	</npc>  
+	<npc id="18808" name="Dark Shaman Varangka" title="" name_ru="Темный Шаман Фаранги" title_ru="" pts_name="dark_shaman_baranka_re"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="RaidBoss"/>
+		<set name="level" value="82"/>
+		<set name="exp" value="8820000000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="17"/>
+		<set name="collision_height" value="46.2"/>
+		<set name="HitTimeFactor" value="0.51"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="175"/>
+		<set name="baseWalkSpd" value="24"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="21860.34"/>
+		<set name="baseHpReg" value="41.206725"/>
+		<set name="baseMpMax" value="17430"/>
+		<set name="baseMpReg" value="50"/>
+		<set name="baseAtkType" value="BLUNT"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="50"/>
+		<set name="basePAtk" value="492"/>
+		<set name="baseCritRate" value="10"/>
+		<set name="physical_hit_modify" value="9"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="256"/>
+		<set name="baseMAtk" value="721"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="350"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="1"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="142334"/>
+		<set name="rewardSp" value="15560"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="21.1679925"/>
+		<faction name="baranka_clan" range="300"/>
+		<ai_params>
+			<set name="privates" value="18809:1:120;18810:1:120;"/>
+		</ai_params>
+		<skills>
+			<skill id="4412" level="11"/>
+			<skill id="4413" level="11"/>
+			<skill id="4414" level="1"/>
+			<skill id="4045" level="1"/>
+			<skill id="4408" level="10"/>
+			<skill id="4409" level="1"/>
+			<skill id="4410" level="3"/>
+			<skill id="4411" level="3"/>
+			<skill id="4415" level="6"/>
+			<skill id="4416" level="6"/>
+			<skill id="5462" level="1"/>
+		</skills>
+		<equip>
+			<rhand item_id="6719"/>
+		</equip>
+		<attributes>
+			<attack attribute="fire" value="150"/>
+			<defence attribute="fire" value="150"/>
+			<defence attribute="water" value="90"/>
+			<defence attribute="wind" value="130"/>
+			<defence attribute="earth" value="130"/>
+			<defence attribute="holy" value="130"/>
+			<defence attribute="unholy" value="130"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="40.5408">
+				<!--Leonard-->
+				<reward item_id="9628" min="2" max="6" chance="14.6062"/>
+				<!--Orichalcum-->
+				<reward item_id="9630" min="3" max="9" chance="6.5343"/>
+				<!--Adamantine-->
+				<reward item_id="9629" min="3" max="9" chance="4.6268"/>
+				<!--Life Stone -  Level 80-->
+				<reward item_id="9573" min="2" max="6" chance="10.346"/>
+				<!--Mid-Grade Life Stone -  Level 80-->
+				<reward item_id="9574" min="1" max="1" chance="12.9325"/>
+				<!--High-Grade Life Stone -  Level 80-->
+				<reward item_id="9575" min="1" max="1" chance="1.2933"/>
+				<!--Dark Stone-->
+				<reward item_id="9550" min="1" max="3" chance="29.7965"/>
+				<!--Holy Stone-->
+				<reward item_id="9551" min="1" max="3" chance="19.8644"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="18809" name="Varangka's Retainer" title="" name_ru="Доверенный Фаранги" title_ru="" pts_name="baranka_confidential_re"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="82"/>
+		<set name="exp" value="8820000000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12"/>
+		<set name="collision_height" value="28"/>
+		<set name="HitTimeFactor" value="0.28"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="140"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="1821.695"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1743"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="492"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="256"/>
+		<set name="baseMAtk" value="721"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="350"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="1"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="16412"/>
+		<set name="rewardSp" value="1794"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="2.440812"/>
+		<faction name="baranka_clan" range="300"/>
+		<ai_params>
+			<set name="Skill01_ID" value="s_npc_strike9"/>
+		</ai_params>
+		<skills>
+			<skill id="4412" level="11"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4413" level="11"/>
+			<skill id="4409" level="1"/>
+			<skill id="4032" level="9"/>
+			<skill id="4408" level="1"/>
+			<skill id="4410" level="3"/>
+			<skill id="4411" level="3"/>
+			<skill id="4416" level="6"/>
+			<skill id="5462" level="1"/>
+		</skills>
+		<equip>
+			<rhand item_id="6365"/>
+		</equip>
+		<attributes>
+			<attack attribute="fire" value="150"/>
+			<defence attribute="fire" value="150"/>
+			<defence attribute="water" value="90"/>
+			<defence attribute="wind" value="130"/>
+			<defence attribute="earth" value="130"/>
+			<defence attribute="holy" value="130"/>
+			<defence attribute="unholy" value="130"/>
+		</attributes>
+	</npc>  
+	<npc id="18810" name="Varangka's Page" title="" name_ru="Управляющий Фаранги" title_ru="" pts_name="baranka_chamberlain_re"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="82"/>
+		<set name="exp" value="8820000000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="humanoid"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="13"/>
+		<set name="collision_height" value="20.8"/>
+		<set name="HitTimeFactor" value="0.3"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="1821.695"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1743"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="492"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="256"/>
+		<set name="baseMAtk" value="721"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="350"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="1"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="17412"/>
+		<set name="rewardSp" value="1904"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="2.5895805"/>
+		<faction name="baranka_clan" range="300"/>
+		<ai_params>
+			<set name="HealProb" value="3333"/>
+			<set name="SelfRangeBuff" value="s_clan_focus2"/>
+			<set name="SelfRangeHeal" value="s_clan_heal9"/>
+			<set name="SelfRangeHealProb" value="1500"/>
+			<set name="Heal" value="s_npc_heal9"/>
+		</ai_params>
+		<skills>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4610" level="2"/>
+			<skill id="4613" level="9"/>
+			<skill id="5462" level="1"/>
+			<skill id="4412" level="11"/>
+			<skill id="4413" level="11"/>
+			<skill id="4409" level="1"/>
+			<skill id="4408" level="1"/>
+			<skill id="4065" level="9"/>
+			<skill id="4410" level="3"/>
+			<skill id="4411" level="3"/>
+			<skill id="4416" level="6"/>
+		</skills>
+		<equip>
+			<rhand item_id="8680"/>
+		</equip>
+		<attributes>
+			<attack attribute="fire" value="150"/>
+			<defence attribute="fire" value="150"/>
+			<defence attribute="water" value="90"/>
+			<defence attribute="wind" value="130"/>
+			<defence attribute="earth" value="130"/>
+			<defence attribute="holy" value="130"/>
+			<defence attribute="unholy" value="130"/>
+		</attributes>
+	</npc>  
+	<npc id="18811" name="Guardian of the Altar" title="" name_ru="Страж Алтаря" title_ru="" pts_name="protector_of_altar"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="GuardianAltar"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="82"/>
+		<set name="exp" value="8820000000"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="17"/>
+		<set name="collision_height" value="29"/>
+		<set name="HitTimeFactor" value="0.5"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="3643.38976668326"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1743"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="BLUNT"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="50"/>
+		<set name="basePAtk" value="1055"/>
+		<set name="baseCritRate" value="10"/>
+		<set name="physical_hit_modify" value="9"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="256"/>
+		<set name="baseMAtk" value="721"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="350"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="1"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="450"/>
+		<set name="aggroRange" value="450"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="0"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="1"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params/>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="18812" name="Kasha's Eye" title="" name_ru="Монстроглаз Кхаши" title_ru="" pts_name="observer_of_camp1"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="KashasEye"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="81"/>
+		<set name="exp" value="6300000000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="0.25"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="17"/>
+		<set name="collision_height" value="29"/>
+		<set name="HitTimeFactor" value="0.5"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="3461.77253215841"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1708.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="1012"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="253"/>
+		<set name="baseMAtk" value="691"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="0"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="1"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="my_buff_type" value="1"/>
+		</ai_params>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="18813" name="Kasha's Eye" title="" name_ru="Монстроглаз Кхаши" title_ru="" pts_name="observer_of_camp2"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="KashasEye"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="81"/>
+		<set name="exp" value="6300000000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="0.25"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="17"/>
+		<set name="collision_height" value="29"/>
+		<set name="HitTimeFactor" value="0.5"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="3461.77253215841"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1708.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="1012"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="253"/>
+		<set name="baseMAtk" value="691"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="0"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="1"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="my_buff_type" value="2"/>
+		</ai_params>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="18814" name="Kasha's Eye" title="" name_ru="Монстроглаз Кхаши" title_ru="" pts_name="observer_of_camp3"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="KashasEye"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="81"/>
+		<set name="exp" value="6300000000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="0.25"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="17"/>
+		<set name="collision_height" value="29"/>
+		<set name="HitTimeFactor" value="0.5"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="3461.77253215841"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1708.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="1012"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="253"/>
+		<set name="baseMAtk" value="691"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="0"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="1"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="my_buff_type" value="3"/>
+		</ai_params>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="18815" name="Guard of the Grave" title="Death-calling" name_ru="Призрак Кладбища" title_ru="Зовущий Смерть" pts_name="legend_orc_3grudge"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="crypts_of_disgrace.GuardoftheGrave"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="83"/>
+		<set name="exp" value="11844000000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12"/>
+		<set name="collision_height" value="60"/>
+		<set name="HitTimeFactor" value="0.48"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="1"/>
+		<set name="baseWalkSpd" value="1"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="3835.59060587002"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1777.4"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="1099"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="259"/>
+		<set name="baseMAtk" value="751"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="354"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="1"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="0"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="1"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<faction name="legendorc_clan" range="300"/>
+		<ai_params>
+			<set name="Skill01_ID" value="s_npc_party30_m_long_range_dd_fire9"/>
+			<set name="Skill01_MainAttack" value="1"/>
+			<set name="MovingAttack" value="0"/>
+			<set name="IsAggressive" value="1"/>
+			<set name="Skill01_Probablity" value="10000"/>
+		</ai_params>
+		<skills>
+			<skill id="4412" level="11"/>
+			<skill id="4415" level="3"/>
+			<skill id="5313" level="9"/>
+			<skill id="4413" level="11"/>
+			<skill id="4414" level="1"/>
+			<skill id="4416" level="2"/>
+			<skill id="4045" level="1"/>
+			<skill id="4411" level="19"/>
+			<skill id="4409" level="1"/>
+			<skill id="4408" level="1"/>
+			<skill id="4410" level="11"/>
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="200"/>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="18816" name="Chieftain's Treasure Chest" title="" name_ru="Сундук Лидера" title_ru="" pts_name="legend_orc_treasure"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="81"/>
+		<set name="exp" value="6300000000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8.5"/>
+		<set name="collision_height" value="8.5"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="3461.77253215841"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1708.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="1012"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="253"/>
+		<set name="baseMAtk" value="691"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="0"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<set name="isImmobilized" value="true"/>
+		</ai_params>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="15">
+				<!--Fire Stone-->
+				<reward item_id="9546" min="1" max="1" chance="16.7"/>
+				<!--Water Stone-->
+				<reward item_id="9547" min="1" max="1" chance="16.7"/>
+				<!--Earth Stone-->
+				<reward item_id="9548" min="1" max="1" chance="16.7"/>
+				<!--Wind Stone-->
+				<reward item_id="9549" min="1" max="1" chance="16.7"/>
+				<!--Dark Stone-->
+				<reward item_id="9550" min="1" max="1" chance="16.6"/>
+				<!--Holy Stone-->
+				<reward item_id="9551" min="1" max="1" chance="16.6"/>
+			</group>
+		</rewardlist>
+	</npc>  
+	<npc id="18817" name="Invader Martyr of Nightmare" title="" name_ru="Мученик Армии Кошмаров" title_ru="" pts_name="nightmare_bomb"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="81"/>
+		<set name="exp" value="6300000000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="undead"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="20"/>
+		<set name="collision_height" value="42"/>
+		<set name="HitTimeFactor" value="0.56"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="3461.77253215841"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1708.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="DUALFIST"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="10"/>
+		<set name="basePAtk" value="1012"/>
+		<set name="baseCritRate" value="10"/>
+		<set name="physical_hit_modify" value="9"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="253"/>
+		<set name="baseMAtk" value="691"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<faction name="fantasy_clan" range="300"/>
+		<ai_params>
+			<set name="SelfRangeDDMagic" value="s_npc_party60_m_self_range_dd_kamigaze4"/>
+		</ai_params>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="18818" name="Nihil Invader Martyr" title="" name_ru="Мученик Армии Пустоты" title_ru="" pts_name="hollowness_bomb"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="81"/>
+		<set name="exp" value="6300000000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="20"/>
+		<set name="collision_height" value="32.5"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="3461.77253215841"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1708.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="1012"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="253"/>
+		<set name="baseMAtk" value="691"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<faction name="fantasy_clan" range="300"/>
+		<ai_params>
+			<set name="SelfRangeDDMagic" value="s_npc_party60_m_self_range_dd_kamigaze4"/>
+		</ai_params>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="18819" name="Nihil Invader Treasure Chest" title="" name_ru="Сундук Армии Пустоты" title_ru="" pts_name="hollowness_mimic"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="82"/>
+		<set name="exp" value="8820000000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="11"/>
+		<set name="collision_height" value="8"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="3643.38976668326"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1743"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="1055"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="256"/>
+		<set name="baseMAtk" value="721"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="350"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="1"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params/>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="18820" name="Nihil Invader Treasure Chest" title="" name_ru="Сундук Армии Пустоты" title_ru="" pts_name="hollowness_box"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="NihilInvaderChest"/>
+		<set name="type" value="NihilInvaderChest"/>
+		<set name="level" value="82"/>
+		<set name="exp" value="8820000000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="11"/>
+		<set name="collision_height" value="8"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="3643.38976668326"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1743"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="1055"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="256"/>
+		<set name="baseMAtk" value="721"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="350"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="1"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params/>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="18821" name="Mutant Martyr" title="" name_ru="Мученик Армии Страха" title_ru="" pts_name="bugaboo_bomb"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="Fighter"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="84"/>
+		<set name="exp" value="15472800000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="28"/>
+		<set name="collision_height" value="50"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="165"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="4039.04270539801"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1812"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="1145"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="262"/>
+		<set name="baseMAtk" value="782"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="358"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<faction name="fantasy_clan" range="300"/>
+		<ai_params>
+			<set name="SelfRangeDDMagic" value="s_npc_party60_m_self_range_dd_kamigaze5"/>
+		</ai_params>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="18822" name="Mutant Treasure Chest" title="" name_ru="Сундук Армии Страха" title_ru="" pts_name="bugaboo_mimic"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="custom.MutantChest"/>
+		<set name="type" value="Monster"/>
+		<set name="level" value="84"/>
+		<set name="exp" value="15472800000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="11"/>
+		<set name="collision_height" value="8"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="4039.04270539801"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1812"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="1145"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="262"/>
+		<set name="baseMAtk" value="782"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="358"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="1"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params/>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="18823" name="Mutant Treasure Chest" title="" name_ru="Сундук Армии Страха" title_ru="" pts_name="bugaboo_box"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="NihilInvaderChest"/>
+		<set name="type" value="NihilInvaderChest"/>
+		<set name="level" value="84"/>
+		<set name="exp" value="15472800000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="11"/>
+		<set name="collision_height" value="8"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="4039.04270539801"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1812"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="1145"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="262"/>
+		<set name="baseMAtk" value="782"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="358"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="1"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="0"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params/>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="18828" name="High Priest of Dawn" title="" name_ru="Верховный Жрец Рассвета" title_ru="" pts_name="high_priest_of_dawn"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="level" value="80"/>
+		<set name="exp" value="4200000000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="human"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="10"/>
+		<set name="collision_height" value="22.5"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="100"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="3290.11306877694"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1674.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="971"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="250"/>
+		<set name="baseMAtk" value="663"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="341"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params/>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="18834" name="Guards of the Dawn" title="" name_ru="Страж Рассвета" title_ru="" pts_name="guard_of_dawn1"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="GuradsOfDawn"/>
+		<set name="level" value="85"/>
+		<set name="exp" value="19827360000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="mercenary"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="23.5"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="100"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="4234.06312688557"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1846.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="POLE"/>
+		<set name="baseAtkRange" value="80"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="1189"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="0"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="265"/>
+		<set name="baseMAtk" value="812"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="362"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="1"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="150"/>
+		<set name="aggroRange" value="150"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="1"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="Fstring_Num" value="19504"/>
+		</ai_params>
+		<equip>
+			<rhand item_id="16"/>
+		</equip>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+			<defence attribute="fire" value="150"/>
+			<defence attribute="water" value="40"/>
+			<defence attribute="wind" value="90"/>
+			<defence attribute="earth" value="90"/>
+			<defence attribute="holy" value="90"/>
+			<defence attribute="unholy" value="90"/>
+		</attributes>
+	</npc>  
+	<npc id="18835" name="Guards of the Dawn" title="" name_ru="Страж Рассвета" title_ru="" pts_name="guard_of_dawn16"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="GuradsOfDawn"/>
+		<set name="level" value="85"/>
+		<set name="exp" value="19827360000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="mercenary"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="8"/>
+		<set name="collision_height" value="24"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="100"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="4234.06312688557"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1846.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="BLUNT"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="50"/>
+		<set name="basePAtk" value="1189"/>
+		<set name="baseCritRate" value="10"/>
+		<set name="physical_hit_modify" value="9"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="265"/>
+		<set name="baseMAtk" value="812"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="362"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="1"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="150"/>
+		<set name="aggroRange" value="150"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="1"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="Fstring_Num" value="19506"/>
+		</ai_params>
+		<equip>
+			<rhand item_id="5"/>
+		</equip>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+			<defence attribute="fire" value="150"/>
+			<defence attribute="water" value="40"/>
+			<defence attribute="wind" value="90"/>
+			<defence attribute="earth" value="90"/>
+			<defence attribute="holy" value="90"/>
+			<defence attribute="unholy" value="90"/>
+		</attributes>
+	</npc>  
+	<npc id="18837" name="" title="" name_ru="" title_ru="" pts_name="legend_orc_buff"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="level" value="1"/>
+		<set name="exp" value="0"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="0.1"/>
+		<set name="collision_height" value="0.1"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="1"/>
+		<set name="baseWalkSpd" value="1"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="39.74519"/>
+		<set name="baseHpReg" value="2"/>
+		<set name="baseMpMax" value="40"/>
+		<set name="baseMpReg" value="0.9"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="8"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="33"/>
+		<set name="baseMAtk" value="6"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="44"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="1"/>
+		<set name="canBeAttacked" value="0"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="150"/>
+		<set name="aggroRange" value="150"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="0"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="0"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="1"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="Skill01_ID" value="s_area_burial_of_ashamed_focus1"/>
+			<set name="IsAggressive" value="1"/>
+		</ai_params>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="18838" name="Treasure Chest of Invader Soldier of Nightmare" title="" name_ru="Сундук Сокровищ Захватчиков Кошмара" title_ru="" pts_name="nightmare_box"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Npc"/>
+		<set name="level" value="84"/>
+		<set name="exp" value="15472800000"/>
+		<set name="ex_crt_effect" value="1"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="race" value="construct"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="11"/>
+		<set name="collision_height" value="8"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseHpMax" value="4039.04270539801"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1812"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="1145"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="5"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="262"/>
+		<set name="baseMAtk" value="782"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="358"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="0"/>
+		<set name="spiritshot_count" value="0"/>
+		<set name="undying" value="1"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="300"/>
+		<set name="aggroRange" value="300"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="0"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="0"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params/>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc> 
+</list>

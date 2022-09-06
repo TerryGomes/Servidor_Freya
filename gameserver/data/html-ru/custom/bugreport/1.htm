@@ -1,0 +1,30 @@
+<html>
+<title>Менеджер багрепортов</title>
+<body>
+<br><br>
+<center>
+<table border="0" height=10 bgcolor="444444" width=240>
+<tr><td align=center><font color="00FFFF">Здравствуй %player%.</font></td></tr>
+<tr><td align=center><font color="00FFFF">Пока нет игровых мастеров в сети</font></td></tr>
+<tr><td align=center><font color="00FFFF">а вы хотите сообщить об ошибке?</font></td></tr>
+<tr><td align=center><font color="00FFFF">Теперь это возможно.</font></td></tr>
+</table>
+<br>
+<img src="L2UI.SquareWhite" width=280 height=1>
+<br><br>
+<table width=250>
+<tr>
+<td><font color="LEVEL">Выберите тип ошибки:</font></td>
+<td><combobox width=105 var=type list=Общий;Критичный;Скиллы;Баланс;Другое></td>
+</tr>
+</table>
+<br><br>
+<multiedit var="msg" width=250 height=50><br><br>
+[npc_%objectId%_report $type $msg|"Сообщить об ошибке!"]
+<br>
+<img src="L2UI.SquareWhite" width=280 height=1>
+<br><br><br><br><br><br><br>
+<font color=3293F3>LII MultVerso.ru</font><br>
+<img src="L2UI.SquareWhite" width=280 height=1>
+</center>
+</body></html>

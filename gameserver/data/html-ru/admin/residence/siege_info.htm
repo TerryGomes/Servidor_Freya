@@ -1,0 +1,123 @@
+<table width=260>
+	<tr>
+		<td width=40><button value="Main" action="bypass -h admin_admin"
+				width=40 height=15 back="L2UI_CT1.Button_DF_Down"
+				fore="L2UI_CT1.Button_DF"></td>
+		<td width=180><center>Siege Menu</center></td>
+		<td width=40><button value="Back"
+				action="bypass -h admin_residence_list" width=40 height=15
+				back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+</table>
+
+<center>
+	<font color=LEVEL>%residence%</font>
+</center>
+
+<table width=100%>
+	<tr>
+		<td width="130">Owner:</td>
+		<td width="100">Set Owner:</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="130">%owner%</td>
+		<td><edit var="owner" width=100></td>
+		<td><button value="Set"
+				action="bypass -h admin_set_owner %id% $owner" width=40 height=24
+				back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+</table>
+<br>
+
+Cycle: %cycle%; Paid Cycle: %paid_cycle% Reward Count: %reward_count%;
+Left time : %left_time%
+<br>
+<center>
+	<font color="LEVEL">Siege Management:</font>
+</center>
+
+<table>
+	<tr>
+		<td></td>
+		<td>Hour</td>
+		<td>Minute</td>
+		<td>Day</td>
+		<td>Month</td>
+		<td>Year</td>
+	</tr>
+	<tr>
+		<td>Date:</td>
+		<td>%hour%</td>
+		<td>%minute%</td>
+		<td>%day%</td>
+		<td>%month%</td>
+		<td>%year%</td>
+	</tr>
+	<tr>
+		<td><button value="Set"
+				action="bypass -h admin_set_siege_time %id% $hour $minute $day $month $year"
+				width=40 height=22 back="L2UI_CT1.Button_DF_Down"
+				fore="L2UI_CT1.Button_DF"></td>
+		<td><edit var="hour" type="number" width=40></td>
+		<td><edit var="minute" type="number" width=40></td>
+		<td><edit var="day" type="number" width=40></td>
+		<td><edit var="month" type="number" width=40></td>
+		<td><edit var="year" type="number" width=50></td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<td><edit var="time" type="number" width=40></td>
+		<td width="30">min</td>
+		<td><button value="Quick Start"
+				action="bypass -h admin_quick_siege_start %id% $time" width=80
+				height=22 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td><button value="Quick Stop"
+				action="bypass -h admin_quick_siege_stop %id%" width=80 height=22
+				back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+</table>
+<br>
+<table cellspacing="-2">
+	<tr>
+		<td>
+			<button value="Siege Info"
+				action="bypass -h admin_list_siege_clans %id%" width=244 height=22
+				back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+		</td>
+	</tr>
+	<tr>
+		<td><table>
+				<tr>
+					<td><button value="Add Attacker"
+							action="bypass -h admin_add_attacker %id%" width=120 height=22
+							back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+					<td><button value="Remove Attacker"
+							action="bypass -h admin_remove_attacker %id%" width=120 height=22
+							back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				</tr>
+				<tr>
+					<td><button value="Add Defender"
+							action="bypass -h admin_add_defender %id%" width=120 height=22
+							back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+					<td><button value="Remove Defender"
+							action="bypass -h admin_remove_defender %id%" width=120 height=22
+							back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				</tr>
+			</table></td>
+	</tr>
+</table>
+<br>
+<center>
+	<font color="LEVEL">Siege Clans Info:</font>
+</center>
+<table>
+	<tr>
+		<td width="120">Clan name</td>
+		<td width="120">Leader name</td>
+		<td width="70">Type</td>
+	</tr>
+	%clans%
+</table>

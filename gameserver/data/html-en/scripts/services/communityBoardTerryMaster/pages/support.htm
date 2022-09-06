@@ -1,0 +1,104 @@
+<html>
+<!--Заголовок окна-->
+<title>J2Dev Community Board</title>
+	<body>
+<center>
+<table width=700>
+<tr>
+<td><button value="General" action="bypass _bbshome" width=90 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Shop" action="bypass _bbspage:shop" width=90 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Services" action="bypass _bbspage:services" width=90 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Buffer" action="bypass _bbsbuff;" width=90 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Teleport" action="bypass _bbsteleport:page" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Event's" action="bypass _bbspage:events/last" width=90 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Carrier" action="bypass _bbscarrier" width=90 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Statistic's" action="bypass _bbspage:stats/stats" width=90 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+</center>
+		<center>
+			<table border=0 cellspacing=0 cellpadding=0 fixwidth=755>
+				<tr>
+					<td fixwidth=620 height=459>
+						<center>
+							<table>
+								<tr>
+									<td fixwidth="400" valign=bottom>
+										<?content?>
+									</td>
+									<td fixwidth="226">
+										<table width=226 height=450>
+											<tr>
+												<td valign=top>
+													<center>
+														<br><font color=68e8ff>Buff set's:</font><br1>
+														<table>
+															<tr>
+																<td><combobox width=150 height=18 var="group" list="<?groups?>"></td>
+																<td><button value="$" action="bypass _bbssupport:group:<?page?>: $group" width=30 height=20 back="L2UI_CT1.Button_DF_Click" fore="L2UI_CT1.Button_DF"></td>
+															</tr>
+														</table>
+														<br><img src="L2UI.SquareGray" width=200 height=1><br><font color=68e8ff>Saved scheme:</font><br1>
+														<table>
+															<tr>
+																<td><combobox width=120 height=18 var="scheme" list="<?schemes?>"></td>
+																<td><button value="$" action="bypass _bbssupport:restore:<?page?>: $scheme" width=30 height=20 back="L2UI_CT1.Button_DF_Click" fore="L2UI_CT1.Button_DF"></td>
+																<td><button value="-" action="bypass _bbssupport:remove:<?page?>: $scheme" width=30 height=20 back="L2UI_CT1.Button_DF_Click" fore="L2UI_CT1.Button_DF"></td>
+															</tr>
+														</table>
+														<br><img src="L2UI.SquareGray" width=200 height=1><br><font color=68e8ff>Create scheme:</font><br1>
+														<table>
+															<tr>
+																<td><edit var="name" width=120 height=12 length=10></td>
+																<td><button value="+" action="bypass _bbssupport:save:<?page?>: $name" width=30 height=20 back="L2UI_CT1.Button_DF_Click" fore="L2UI_CT1.Button_DF"></td>
+															</tr>
+														</table>
+														<br><img src="L2UI.SquareGray" width=200 height=1><br><font color=68e8ff>Action's:</font><br1>
+														<table>
+															<tr>
+																<td align=center><font color=LEVEL>Now Target:</font></td>
+																<td><button value="<?target?>" action="bypass _bbssupport:target:<?page?>" width=80 height=20 back="L2UI_CT1.Button_DF_Click" fore="L2UI_CT1.Button_DF"></td>
+															</tr>
+															<tr>
+																<td><button value="Восстановить" action="bypass _bbssupport:hp_mp_cp:<?page?>" width=100 height=20 back="L2UI_CT1.Button_DF_Click" fore="L2UI_CT1.Button_DF"></td>
+																<td><button value="Сбросить" action="bypass _bbssupport:cansel:<?page?>" width=80 height=20 back="L2UI_CT1.Button_DF_Click" fore="L2UI_CT1.Button_DF"></td>
+															</tr>
+														</table>
+														<br><img src="L2UI.SquareGray" width=200 height=1><br><font color=68e8ff>Information:</font><br1>
+														<table fixwidth=200 >
+															<tr>
+																<td fixwidth=130 height=25><font color=LEVEL>Price for one buff:</font></td>
+																<td fixwidth=50 height=25><font color=LEVEL><?pice_effect?></font></td>
+															</tr>
+															<tr>
+																<td fixwidth=130 height=25><font color=LEVEL>Price scheme:</font></td>
+																<td fixwidth=50 height=25><font color=LEVEL><?pice_group?></font></td>
+															</tr>
+															<tr>
+																<td fixwidth=130 height=25><font color=LEVEL>Price save scheme:</font></td>
+																<td fixwidth=50 height=25><font color=LEVEL><?pice_save_scheme?></font></td>
+															</tr>
+															<tr>
+																<td fixwidth=130 height=25><font color=LEVEL>Price restore scheme:</font></td>
+																<td fixwidth=50 height=25><font color=LEVEL><?pice_restore_scheme?></font></td>
+															</tr>
+															<tr>
+																<td fixwidth=130 height=25><font color=LEVEL>Price action's:</font></td>
+																<td fixwidth=50 height=25><font color=LEVEL><?pice_restore?></font></td>
+															</tr>
+														</table>
+													</center>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</center>
+					</td>
+				</tr>
+			</table>
+			<?copyright?>
+		</center>
+	</body>
+</html>

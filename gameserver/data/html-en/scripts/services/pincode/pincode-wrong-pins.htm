@@ -1,0 +1,79 @@
+<html>
+<title>Setting the PIN code</title>
+<center>
+<table>
+<tr>
+<td align="center">
+<img src="l2ui_ct1.Icon_DF_MenuWnd_SystemMenu_Over" width="32" height="32" />
+</td>
+<td align="center">
+<font name="hs12">PIN code character </font>
+</td>
+<td align="center">
+<img src="l2ui_ct1.Icon_DF_MenuWnd_SystemMenu_Over" width="32" height="32" />
+</td>
+</tr>
+</table>
+<br><br>
+</center>
+<br><center><font color="FF0000">PIN codes do not match, I try again.</font></center>
+<table width="270">
+<tr>
+<td align="center" valign="middle">
+<font color="ffff00">PIN code must be at least 4 characters.</font>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td align="left" valign="middle">
+<br>
+<font color="386dd2">PIN code: </font>
+</td>
+<td align="center" valign="middle">
+<edit var="pincode" width=120 height=18>
+</td>
+</tr>
+<tr>
+<td align="left" valign="middle">
+<br>
+<font color="386dd2">Retry: </font>
+</td>
+<td align="center" valign="middle">
+<edit var="pincode2" width=120 height=18>
+</td>
+</tr>
+<tr>
+<td align="left" valign="middle" width="110">
+<br>
+<font color="a2cfd2">Secret word: </font><font color="ffcc00">*</font>
+</td>
+<td align="center" valign="middle">
+<edit var="keyword" width=120 height=18>
+</td>
+</tr>
+<tr>
+<td align="left" valign="middle" height="20">
+<br>
+<font color="a2cfd2">Retry: </font>
+</td>
+<td align="center" valign="middle">
+<edit var="keyword2" width=120 height=18>
+</td>
+</tr>
+</table>
+<br>
+<button value="Set a PIN code" action="bypass -h user_getpincode $pincode $pincode2 $keyword $keyword2" width=170 height=35 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+<br><br>
+<table width="270">
+<tr>
+<td align="center" valign="middle">
+<img src="l2ui_ct1.ICON_DF_Exclamation" width="32" height="32" />
+</td>
+<td align="center">
+Do not share your PIN and secret word!<br>
+*** - If you forget your PIN code, you can reset it using a secret word.
+</td>
+</tr>
+</table>
+</html>

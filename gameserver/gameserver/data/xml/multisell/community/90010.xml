@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<list>
+	<config showall="true" notax="true" />
+	<!-- majestic necklace -->
+	<item id="1">
+		<ingredient id="57" count="5000000" enchant="0" />
+		<production id="924" count="1" enchant="0" />
+	</item>
+	<!-- phoenix necklace -->
+	<item id="3">
+		<ingredient id="57" count="3500000" enchant="0" />
+		<production id="933" count="1" enchant="0" />
+	</item>
+	<!-- majestic earring -->
+	<item id="15">
+		<ingredient id="57" count="2500000" enchant="0" />
+		<production id="862" count="1" enchant="0" />
+	</item>
+	<!-- phoenix earring -->
+	<item id="17">
+		<ingredient id="57" count="2000000" enchant="0" />
+		<production id="871" count="1" enchant="0" />
+	</item>
+	<!-- majestic ring -->
+	<item id="29">
+		<ingredient id="57" count="1750000" enchant="0" />
+		<production id="893" count="1" enchant="0" />
+	</item>
+	<!-- phoenix ring -->
+	<item id="31">
+		<ingredient id="57" count="1250000" enchant="0" />
+		<production id="902" count="1" enchant="0" />
+	</item>
+</list>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+
+    <Appenders>
+
+        <Console name="CONSOLE" target="SYSTEM_OUT">
+        	<ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>%-5level [%d{HH:mm:ss}] %msg%n</Pattern>
+            </PatternLayout>
+        </Console>
+
+        <RollingRandomAccessFile name="file" fileName="log/gameserver.log" filePattern="log/$${date:yyyy-MM}/gameserver-%d{MM-dd-yyyy}-%i.log.gz">
+        	<ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="50 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="chat" fileName="log/chat/chat.log" filePattern="log/chat/$${date:yyyy-MM}/chat-%d{MM-dd-yyyy}-%i.log.gz">
+            <MarkerFilter marker="chat" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="50 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="gmactions" fileName="log/gmactions/gmactions.log" filePattern="log/gmactions/$${date:yyyy-MM}/gmactions-%d{MM-dd-yyyy}-%i.log.gz">
+            <MarkerFilter marker="gmactions" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="50 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="item" fileName="log/items/items.log" filePattern="log/items/$${date:yyyy-MM}/items-%d{MM-dd-yyyy}-%i.log.gz">
+            <MarkerFilter marker="item" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="50 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="game" fileName="log/game/game.log" filePattern="log/game/$${date:yyyy-MM}/game-%d{MM-dd-yyyy}-%i.log.gz">
+            <MarkerFilter marker="game" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="50 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="debug" fileName="log/debug/debug.log" filePattern="log/debug/$${date:yyyy-MM}/debug-%d{MM-dd-yyyy}-%i.log.gz">
+            <MarkerFilter marker="debug" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="50 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="audit" fileName="log/audit/audit.log" filePattern="log/audit/$${date:yyyy-MM}/audit-%d{MM-dd-yyyy}-%i.log.gz">
+            <MarkerFilter marker="audit" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="50 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="ERROR" fileName="log/error/error.log" filePattern="log/error/$${date:yyyy-MM}/error-%d{MM-dd-yyyy}-%i.log.gz">
+            <MarkerFilter marker="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="50 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="event" fileName="log/event/event.log" filePattern="log/event/$${date:yyyy-MM}/event-%d{MM-dd-yyyy}-%i.log.gz">
+            <MarkerFilter marker="event" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="50 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="mail" fileName="log/mail/mail.log" filePattern="log/mail/$${date:yyyy-MM}/mail-%d{MM-dd-yyyy}-%i.log.gz">
+            <MarkerFilter marker="mail" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="50 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="community" fileName="log/community/community.log" filePattern="log/community/$${date:yyyy-MM}/community-%d{MM-dd-yyyy}-%i.log.gz">
+            <MarkerFilter marker="community" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="50 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="service" fileName="log/service/service.log" filePattern="log/service/$${date:yyyy-MM}/service-%d{MM-dd-yyyy}-%i.log.gz">
+            <MarkerFilter marker="service" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="50 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="multisell" fileName="log/multisell/multisell.log" filePattern="log/multisell/$${date:yyyy-MM}/multisell-%d{MM-dd-yyyy}-%i.log.gz">
+            <MarkerFilter marker="multisell" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="50 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+    </Appenders>
+
+    <Loggers>
+
+        <Logger name="l2mv.gameserver" level="debug" additivity="true">
+            <AppenderRef ref="file"/>
+            <AppenderRef ref="chat"/>
+            <AppenderRef ref="gmactions"/>
+            <AppenderRef ref="event"/>
+            <AppenderRef ref="item"/>
+            <AppenderRef ref="game"/>
+            <AppenderRef ref="debug"/>
+            <AppenderRef ref="audit"/>
+            <AppenderRef ref="mail"/>
+            <AppenderRef ref="community"/>
+            <AppenderRef ref="service"/>
+            <AppenderRef ref="multisell"/>
+        </Logger>
+
+        <Logger name="l2mv.commons" level="debug" additivity="true">
+            <AppenderRef ref="file"/>
+        </Logger>
+
+        <Root level="info">
+            <AppenderRef ref="CONSOLE"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>

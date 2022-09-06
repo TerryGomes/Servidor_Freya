@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- chaoskastle multisell-compiler -->
+<!-- White Project -->
+<!-- Weapon S84 -->
+<list >
+	<config showall="true" notax="true" keepenchanted="true" />
+
+	<!-- Cloack -->
+	<item id="1">
+		<ingredient id="4356" count="60" enchant="0"/>
+		<production id="13890" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="2">
+		<ingredient id="4356" count="100" enchant="0"/>
+		<production id="32201" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="3">
+		<ingredient id="4356" count="100" enchant="0"/>
+		<production id="32202" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="4">
+		<ingredient id="4356" count="100" enchant="0"/>
+		<production id="32203" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="5">
+		<ingredient id="4356" count="130" enchant="0"/>
+		<production id="32313" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="6">
+		<ingredient id="4356" count="130" enchant="0"/>
+		<production id="32314" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="7">
+		<ingredient id="4356" count="130" enchant="0"/>
+		<production id="32315" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="8">
+		<ingredient id="4356" count="130" enchant="0"/>
+		<production id="32316" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="9">
+		<ingredient id="4356" count="130" enchant="0"/>
+		<production id="32317" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="10">
+		<ingredient id="4356" count="130" enchant="0"/>
+		<production id="32318" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="11">
+		<ingredient id="4356" count="130" enchant="0"/>
+		<production id="32322" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="12">
+		<ingredient id="4356" count="130" enchant="0"/>
+		<production id="32326" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="13">
+		<ingredient id="4356" count="200" enchant="0"/>
+		<production id="32221" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="14">
+		<ingredient id="4356" count="200" enchant="0"/>
+		<production id="32222" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="15">
+		<ingredient id="4356" count="200" enchant="0"/>
+		<production id="32223" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="16">
+		<ingredient id="4356" count="200" enchant="0"/>
+		<production id="32224" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="17">
+		<ingredient id="4356" count="200" enchant="0"/>
+		<production id="32225" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="18">
+		<ingredient id="4356" count="200" enchant="0"/>
+		<production id="32228" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="19">
+		<ingredient id="4356" count="200" enchant="0"/>
+		<production id="32301" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="20">
+		<ingredient id="4356" count="200" enchant="0"/>
+		<production id="32302" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="21">
+		<ingredient id="4356" count="200" enchant="0"/>
+		<production id="32303" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="22">
+		<ingredient id="4356" count="200" enchant="0"/>
+		<production id="32310" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="23">
+		<ingredient id="4356" count="200" enchant="0"/>
+		<production id="32311" count="1" enchant="0"/>
+	</item>
+
+	<!-- Cloack -->
+	<item id="54">
+		<ingredient id="4356" count="200" enchant="0"/>
+		<production id="32312" count="1" enchant="0"/>
+	</item>
+
+	<!-- Stone -->
+	<item id="31">
+		<ingredient id="4356" count="10" enchant="0"/>
+		<production id="20391" count="1" enchant="0"/>
+	</item>
+	<!-- Stone -->
+	<item id="32">
+		<ingredient id="4356" count="10" enchant="0"/>
+		<production id="20392" count="1" enchant="0"/>
+	</item>
+	<!-- Stone -->
+	<item id="33">
+		<ingredient id="4356" count="15" enchant="0"/>
+		<production id="12369" count="1" enchant="0"/>
+	</item>
+	<item id="34">
+		<ingredient id="4356" count="20" enchant="0"/>
+		<production id="12370" count="1" enchant="0"/>
+	</item>
+	<item id="35">
+		<ingredient id="4356" count="50" enchant="0"/>
+		<production id="12371" count="1" enchant="0"/>
+	</item>
+	<item id="36">
+		<ingredient id="4356" count="20" enchant="0"/>
+		<production id="12363" count="1" enchant="0"/>
+	</item>
+	<item id="37">
+		<ingredient id="4356" count="30" enchant="0"/>
+		<production id="12364" count="1" enchant="0"/>
+	</item>
+	<item id="38">
+		<ingredient id="4356" count="40" enchant="0"/>
+		<production id="12365" count="1" enchant="0"/>
+	</item>
+	<item id="39">
+		<ingredient id="4356" count="80" enchant="0"/>
+		<production id="12366" count="1" enchant="0"/>
+	</item>
+	<item id="40">
+		<ingredient id="4356" count="20" enchant="0"/>
+		<production id="20343" count="1" enchant="0"/>
+	</item>
+	<item id="41">
+		<ingredient id="4356" count="20" enchant="0"/>
+		<production id="20337" count="1" enchant="0"/>
+	</item>
+	<item id="42">
+		<ingredient id="4356" count="30" enchant="0"/>
+		<production id="22066" count="1" enchant="0"/>
+	</item>
+	<item id="43">
+		<ingredient id="4356" count="10" enchant="0"/>
+		<production id="6407" count="100" enchant="0"/>
+	</item>
+	<item id="44">
+		<ingredient id="4356" count="50" enchant="0"/>
+		<production id="13021" count="1" enchant="0"/>
+	</item>
+	<item id="45">
+		<ingredient id="4356" count="30" enchant="0"/>
+		<production id="14009" count="100" enchant="0"/>
+	</item>
+	<!-- dynasty leather armor - force master -->
+	<item id="46">
+		<ingredient id="4356" count="200" />
+		<production id="10413" count="1" />
+	</item>
+	<!-- dynasty leather armor - force master -->
+	<item id="47">
+		<ingredient id="4356" count="50" />
+		<production id="9451" count="1" />
+	</item>	
+	<item id="48">
+		<ingredient id="4356" count="180" />
+		<production id="6577" count="1" />
+	</item>	
+	<item id="49">
+		<ingredient id="4356" count="130" />
+		<production id="6578" count="1" />
+	</item>	
+	<item id="50">
+		<ingredient id="4356" count="7" />
+		<production id="9627" count="1" />
+	</item>	
+	<item id="51">
+		<ingredient id="4356" count="3" />
+		<production id="6622" count="1" />
+	</item>	
+	<item id="52">
+		<ingredient id="4356" count="15" />
+		<production id="14169" count="5" />
+	</item>	
+	<item id="53">
+		<ingredient id="4356" count="10" />
+		<production id="14052" count="20" />
+	</item>	
+
+	<item id="54">
+		<ingredient id="4356" count="50" />
+		<production id="9592" count="1" />
+	</item>	
+	<!-- Stone -->
+	<item id="24">
+		<ingredient id="4356" count="250" />
+		<production id="14957" count="1" />
+	</item>
+	<!-- Stone -->
+	<item id="25">
+		<ingredient id="4356" count="250" />
+		<production id="14961" count="1" />
+	</item>
+	<!-- Stone -->
+	<item id="26">
+		<ingredient id="4356" count="250" />
+		<production id="14953" count="1" />
+	</item>
+	<!-- Stone -->
+	<item id="27">
+		<ingredient id="4356" count="100" />
+		<production id="10514" count="1" />
+	</item>
+	<!-- Stone -->
+	<item id="28">
+		<ingredient id="4356" count="100" />
+		<production id="10512" count="1" />
+	</item>
+	<!-- Stone -->
+	<item id="29">
+		<ingredient id="4356" count="100" />
+		<production id="10513" count="1" />
+	</item>
+
+</list>

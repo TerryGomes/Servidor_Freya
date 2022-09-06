@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-59681" y="-57399" z="-2032" h="55472"/>
+		<npc id="32521"/>
+		<!--Entrance Manager-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-59768" y="-57401" z="-2032" h="55472"/>
+		<npc id="32522"/>
+		<!--Entrance Manager-->
+	</spawn>
+</list>

@@ -1,0 +1,2572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<armor id="11400" name="Blue Wolf Gloves" add_name="Light Armor Use">
+		<set name="name-ru" value="Перчатки Синего Волка"/>
+		<set name="add_name-ru" value="Легкий"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t69_g_i00"/>
+		<set name="price" value="618800"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="3717" level="1"/>
+		</skills>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="590"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11401" name="Blue Wolf Gloves" add_name="Robe Use">
+		<set name="name-ru" value="Перчатки Синего Волка"/>
+		<set name="add_name-ru" value="Магический"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t70_g_i00"/>
+		<set name="price" value="618800"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="3720" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="590"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11402" name="Blue Wolf Tunic">
+		<set name="name-ru" value="Туника Синего Волка"/>
+		<set name="crystal_count" value="248"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t70_u_i00"/>
+		<set name="price" value="1857000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="3721" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="83"/>
+			<add stat="maxMp" order="0x10" value="377"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1920"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11403" name="Blue Wolf Helmet" add_name="Heavy Armor Use">
+		<set name="name-ru" value="Шлем Синего Волка"/>
+		<set name="add_name-ru" value="Тяжелый"/>
+		<set name="crystal_count" value="124"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="price" value="928300"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="3714" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="66"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="580"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11404" name="Blue Wolf Stockings">
+		<set name="name-ru" value="Штаны Синего Волка"/>
+		<set name="crystal_count" value="155"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t70_l_i00"/>
+		<set name="price" value="1160300"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="3722" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="52"/>
+			<add stat="maxMp" order="0x10" value="236"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="920"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11405" name="Blue Wolf Breastplate">
+		<set name="name-ru" value="Кираса Синего Волка"/>
+		<set name="crystal_count" value="330"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t68_u_i00"/>
+		<set name="price" value="2475000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="3710" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="166"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="7820"/>
+		<set name="material_type" value="ORIHARUKON"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11406" name="Stockings of Doom">
+		<set name="name-ru" value="Штаны Рока"/>
+		<set name="crystal_count" value="155"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t73_l_i00"/>
+		<set name="price" value="1160300"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="3708" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="52"/>
+			<add stat="maxMp" order="0x10" value="236"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="910"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11407" name="Dark Crystal Gaiters">
+		<set name="name-ru" value="Набедренники Кристалла Тьмы"/>
+		<set name="crystal_count" value="178"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t74_l_i00"/>
+		<set name="price" value="2226000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="3726" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="107"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="3320"/>
+		<set name="material_type" value="CRYSTAL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11408" name="Dark Crystal Gloves" add_name="Heavy Armor Use">
+		<set name="name-ru" value="Перчатки Кристалла Тьмы"/>
+		<set name="add_name-ru" value="Тяжелый"/>
+		<set name="crystal_count" value="71"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t74_g_i00"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="3727" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="46"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="580"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11409" name="Dark Crystal Gloves" add_name="Light Armor Use">
+		<set name="name-ru" value="Перчатки Кристалла Тьмы"/>
+		<set name="add_name-ru" value="Легкий"/>
+		<set name="crystal_count" value="71"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t75_g_i00"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="3731" level="1"/>
+		</skills>
+		<for>
+			<add stat="pDef" order="0x10" value="46"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="580"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11410" name="Dark Crystal Gloves" add_name="Robe Use">
+		<set name="name-ru" value="Перчатки Кристалла Тьмы"/>
+		<set name="add_name-ru" value="Магический"/>
+		<set name="crystal_count" value="71"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t76_g_i00"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="3735" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="46"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="580"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11411" name="Dark Crystal Leather Armor">
+		<set name="name-ru" value="Кожаный Доспех Кристалла Тьмы"/>
+		<set name="crystal_count" value="214"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t75_u_i00"/>
+		<set name="price" value="2671000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="3730" level="1"/>
+		</skills>
+		<for>
+			<add stat="pDef" order="0x10" value="128"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="4300"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11412" name="Dark Crystal Robe">
+		<set name="name-ru" value="Мантия Кристалла Тьмы"/>
+		<set name="crystal_count" value="347"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t76_ul_i00"/>
+		<set name="price" value="4341000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<skills>
+			<skill id="3736" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="139"/>
+			<add stat="maxMp" order="0x10" value="665"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="2450"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11413" name="Dark Crystal Boots" add_name="Heavy Armor Use">
+		<set name="name-ru" value="Сапоги Кристалла Тьмы"/>
+		<set name="add_name-ru" value="Тяжелый"/>
+		<set name="crystal_count" value="71"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t74_b_i00"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="3728" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="46"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="CRYSTAL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11414" name="Dark Crystal Boots" add_name="Light Armor Use">
+		<set name="name-ru" value="Сапоги Кристалла Тьмы"/>
+		<set name="add_name-ru" value="Легкий"/>
+		<set name="crystal_count" value="71"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t75_b_i00"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="3732" level="1"/>
+		</skills>
+		<for>
+			<add stat="pDef" order="0x10" value="46"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="CRYSTAL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11415" name="Dark Crystal Boots" add_name="Robe Use">
+		<set name="name-ru" value="Сапоги Кристалла Тьмы"/>
+		<set name="add_name-ru" value="Магический"/>
+		<set name="crystal_count" value="71"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t76_b_i00"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="3737" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="46"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="CRYSTAL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<weapon id="11416" name="Dark Crystal Shield">
+		<set name="name-ru" value="Щит Кристалла Тьмы"/>
+		<set name="crystal_count" value="75"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.shield_dark_crystal_shield_i00"/>
+		<set name="price" value="935000"/>
+		<set name="rnd_dam" value="0"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3729" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="sDef" order="0x10" value="243"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<add stat="rEvas" order="0x10" value="-8.0000"/>
+			<enchant stat="sDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1190"/>
+		<set name="material_type" value="CRYSTAL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value=""/>
+	</weapon>
+	<armor id="11417" name="Dark Crystal Helmet" add_name="Heavy Armor Use">
+		<set name="name-ru" value="Шлем Кристалла Тьмы"/>
+		<set name="add_name-ru" value="Тяжелый"/>
+		<set name="crystal_count" value="107"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_helmet_i00"/>
+		<set name="price" value="1336000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="3724" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="69"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="570"/>
+		<set name="material_type" value="CRYSTAL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11418" name="Dark Crystal Breastplate">
+		<set name="name-ru" value="Кираса Кристалла Тьмы"/>
+		<set name="crystal_count" value="285"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t74_u_i00"/>
+		<set name="price" value="3562000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="3725" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="171"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="7700"/>
+		<set name="material_type" value="CRYSTAL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11419" name="Dark Crystal Leggings">
+		<set name="name-ru" value="Поножи Кристалла Тьмы"/>
+		<set name="crystal_count" value="134"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t75_l_i00"/>
+		<set name="price" value="1670000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="3734" level="1"/>
+		</skills>
+		<for>
+			<add stat="pDef" order="0x10" value="80"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1480"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11420" name="Sealed Dark Crystal Gaiters">
+		<set name="name-ru" value="Запечатанные Набедренники Кристалла Тьмы"/>
+		<set name="crystal_count" value="178"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t74_l_i02"/>
+		<set name="price" value="2226000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="107"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="3320"/>
+		<set name="material_type" value="CRYSTAL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11421" name="Sealed Dark Crystal Gloves">
+		<set name="name-ru" value="Запечатанные Перчатки Кристалла Тьмы"/>
+		<set name="crystal_count" value="71"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t74_g_i02"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="46"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="580"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11422" name="Sealed Dark Crystal Leather Armor">
+		<set name="name-ru" value="Запечатанный Кожаный Доспех Кристалла Тьмы"/>
+		<set name="crystal_count" value="214"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t75_u_i02"/>
+		<set name="price" value="2671000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="128"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="4300"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11423" name="Sealed Dark Crystal Robe">
+		<set name="name-ru" value="Запечатанная Мантия Кристалла Тьмы"/>
+		<set name="crystal_count" value="347"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t76_ul_i02"/>
+		<set name="price" value="4341000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="139"/>
+			<add stat="maxMp" order="0x10" value="665"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="2450"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11424" name="Sealed Dark Crystal Boots">
+		<set name="name-ru" value="Запечатанные Сапоги Кристалла Тьмы"/>
+		<set name="crystal_count" value="71"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t74_b_i02"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="46"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="CRYSTAL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<weapon id="11425" name="Sealed Dark Crystal Shield">
+		<set name="name-ru" value="Запечатанный Щит Кристалла Тьмы"/>
+		<set name="crystal_count" value="75"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.shield_dark_crystal_shield_i02"/>
+		<set name="price" value="935000"/>
+		<set name="rnd_dam" value="0"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="sDef" order="0x10" value="243"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<add stat="rEvas" order="0x10" value="-8.0000"/>
+			<enchant stat="sDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1190"/>
+		<set name="material_type" value="CRYSTAL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value=""/>
+	</weapon>
+	<armor id="11426" name="Sealed Dark Crystal Helmet" add_name="Heavy Armor Use">
+		<set name="name-ru" value="Запечатанный Шлем Кристалла Тьмы"/>
+		<set name="add_name-ru" value="Тяжелый"/>
+		<set name="crystal_count" value="107"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_helmet_i02"/>
+		<set name="price" value="1336000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="69"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="570"/>
+		<set name="material_type" value="CRYSTAL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11427" name="Sealed Dark Crystal breastplate">
+		<set name="name-ru" value="Запечатанная Кираса Кристалла Тьмы"/>
+		<set name="crystal_count" value="285"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t74_u_i02"/>
+		<set name="price" value="3562000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="171"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="7700"/>
+		<set name="material_type" value="CRYSTAL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11428" name="Sealed Dark Crystal Leggings">
+		<set name="name-ru" value="Запечатанные Поножи Кристалла Тьмы"/>
+		<set name="crystal_count" value="134"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t75_l_i02"/>
+		<set name="price" value="1670000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="80"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1480"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11429" name="Sealed Tallum Gloves">
+		<set name="name-ru" value="Запечатанные Перчатки Таллума"/>
+		<set name="crystal_count" value="71"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t77_g_i02"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="46"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="580"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11430" name="Sealed Tallum Leather Armor">
+		<set name="name-ru" value="Запечатанный Кожаный Доспех Таллума"/>
+		<set name="crystal_count" value="347"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t78_ul_i02"/>
+		<set name="price" value="4341000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="209"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="5400"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11431" name="Sealed Tallum Boots">
+		<set name="name-ru" value="Запечатанные Сапоги Таллума"/>
+		<set name="crystal_count" value="71"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t77_b_i02"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="46"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1130"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11432" name="Sealed Tallum Tunic">
+		<set name="name-ru" value="Запечатанная Туника Таллума"/>
+		<set name="crystal_count" value="214"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t79_u_i02"/>
+		<set name="price" value="2671000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="86"/>
+			<add stat="maxMp" order="0x10" value="409"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1860"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11433" name="Sealed Tallum Plate Armor">
+		<set name="name-ru" value="Запечатанный Латный Доспех Таллума"/>
+		<set name="crystal_count" value="463"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t77_ul_i02"/>
+		<set name="price" value="5788000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="278"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="9780"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11434" name="Sealed Tallum Helmet" add_name="Heavy Armor Use">
+		<set name="name-ru" value="Запечатанный Шлем Таллума"/>
+		<set name="add_name-ru" value="Тяжелый"/>
+		<set name="crystal_count" value="107"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_helmet_i02"/>
+		<set name="price" value="1336000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="69"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="570"/>
+		<set name="material_type" value="CLOTH"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11435" name="Sealed Tallum Stockings">
+		<set name="name-ru" value="Запечатанные Штаны Таллума"/>
+		<set name="crystal_count" value="134"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t79_l_i02"/>
+		<set name="price" value="1670000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="53"/>
+			<add stat="maxMp" order="0x10" value="256"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="920"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11436" name="(Not In Use) Holy Spirit's Cloak">
+		<set name="name-ru" value="Плащ Святого Духа"/>
+		<set name="crystal_count" value="92"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_back09"/>
+		<set name="price" value="1160000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="18"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="220"/>
+		<set name="material_type" value="CLOTH"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11437" name="Tallum Gloves" add_name="Heavy Armor Use">
+		<set name="name-ru" value="Перчатки Таллума"/>
+		<set name="add_name-ru" value="Тяжелый"/>
+		<set name="crystal_count" value="71"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t77_g_i00"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="3739" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="46"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="580"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11438" name="Tallum Gloves" add_name="Light Armor Use">
+		<set name="name-ru" value="Перчатки Таллума"/>
+		<set name="add_name-ru" value="Легкий"/>
+		<set name="crystal_count" value="71"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t78_g_i00"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="3744" level="1"/>
+		</skills>
+		<for>
+			<add stat="pDef" order="0x10" value="46"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="580"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11439" name="Tallum Gloves" add_name="Robe Use">
+		<set name="name-ru" value="Перчатки Таллума"/>
+		<set name="add_name-ru" value="Магический"/>
+		<set name="crystal_count" value="71"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t79_g_i00"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="3747" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="46"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="580"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11440" name="Tallum Leather Armor">
+		<set name="name-ru" value="Кожаный Доспех Таллума"/>
+		<set name="crystal_count" value="347"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t78_ul_i00"/>
+		<set name="price" value="4341000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<skills>
+			<skill id="3743" level="1"/>
+		</skills>
+		<for>
+			<add stat="pDef" order="0x10" value="209"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="5400"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11441" name="Tallum Boots" add_name="Heavy Armor Use">
+		<set name="name-ru" value="Сапоги Таллума"/>
+		<set name="add_name-ru" value="Тяжелый"/>
+		<set name="crystal_count" value="71"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t77_b_i00"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="3740" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="46"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1130"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11442" name="Tallum Boots" add_name="Light Armor Use">
+		<set name="name-ru" value="Сапоги Таллума"/>
+		<set name="add_name-ru" value="Легкий"/>
+		<set name="crystal_count" value="71"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t78_b_i00"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="3745" level="1"/>
+		</skills>
+		<for>
+			<add stat="pDef" order="0x10" value="46"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1130"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11443" name="Tallum Boots" add_name="Robe Use">
+		<set name="name-ru" value="Сапоги Таллума"/>
+		<set name="add_name-ru" value="Магический"/>
+		<set name="crystal_count" value="71"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t79_b_i00"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="3748" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="46"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1130"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11444" name="Tallum Tunic">
+		<set name="name-ru" value="Туника Таллума"/>
+		<set name="crystal_count" value="214"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t79_u_i00"/>
+		<set name="price" value="2671000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="3749" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="86"/>
+			<add stat="maxMp" order="0x10" value="409"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1860"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11445" name="Tallum Plate Armor">
+		<set name="name-ru" value="Латный Доспех Таллума"/>
+		<set name="crystal_count" value="463"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t77_ul_i00"/>
+		<set name="price" value="5788000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<skills>
+			<skill id="3741" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="278"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="9780"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11446" name="Tallum Helmet" add_name="Heavy Armor Use">
+		<set name="name-ru" value="Шлем Таллума"/>
+		<set name="add_name-ru" value="Тяжелый"/>
+		<set name="crystal_count" value="107"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_helmet_i00"/>
+		<set name="price" value="1336000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="3742" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="69"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="570"/>
+		<set name="material_type" value="CLOTH"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11447" name="Tallum Stockings">
+		<set name="name-ru" value="Штаны Таллума"/>
+		<set name="crystal_count" value="134"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t79_l_i00"/>
+		<set name="price" value="1670000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="3750" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="53"/>
+			<add stat="maxMp" order="0x10" value="256"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="920"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11448" name="Majestic Gauntlet" add_name="Heavy Armor Use">
+		<set name="name-ru" value="Рукавицы Величия"/>
+		<set name="add_name-ru" value="Тяжелый"/>
+		<set name="crystal_count" value="108"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t83_g_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="3752" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="49"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11449" name="Majestic Gauntlet" add_name="Light Armor Use">
+		<set name="name-ru" value="Рукавицы Величия"/>
+		<set name="add_name-ru" value="Легкий"/>
+		<set name="crystal_count" value="108"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t84_g_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="3756" level="1"/>
+		</skills>
+		<for>
+			<add stat="pDef" order="0x10" value="49"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11450" name="Majestic Gauntlet" add_name="Robe Use">
+		<set name="name-ru" value="Рукавицы Величия"/>
+		<set name="add_name-ru" value="Магический"/>
+		<set name="crystal_count" value="108"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t85_g_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="3760" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="49"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11451" name="Majestic Leather Armor">
+		<set name="name-ru" value="Кожаный Доспех Величия"/>
+		<set name="crystal_count" value="528"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t84_ul_i00"/>
+		<set name="price" value="6603000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<skills>
+			<skill id="3757" level="1"/>
+		</skills>
+		<for>
+			<add stat="pDef" order="0x10" value="220"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="5350"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11452" name="Majestic Robe">
+		<set name="name-ru" value="Мантия Величия"/>
+		<set name="crystal_count" value="528"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t85_ul_i00"/>
+		<set name="price" value="6603000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<skills>
+			<skill id="3761" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="147"/>
+			<add stat="maxMp" order="0x10" value="718"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="2330"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11453" name="Majestic Boots" add_name="Heavy Armor Use">
+		<set name="name-ru" value="Сапоги Величия"/>
+		<set name="add_name-ru" value="Тяжелый"/>
+		<set name="crystal_count" value="108"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t83_b_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="3755" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="49"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11454" name="Majestic Boots" add_name="Light Armor Use">
+		<set name="name-ru" value="Сапоги Величия"/>
+		<set name="add_name-ru" value="Легкий"/>
+		<set name="crystal_count" value="108"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t84_b_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="3758" level="1"/>
+		</skills>
+		<for>
+			<add stat="pDef" order="0x10" value="49"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11455" name="Majestic Boots" add_name="Robe Use">
+		<set name="name-ru" value="Сапоги Величия"/>
+		<set name="add_name-ru" value="Магический"/>
+		<set name="crystal_count" value="108"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t85_b_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="3762" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="49"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11456" name="Majestic Circlet" add_name="Heavy Armor Use">
+		<set name="name-ru" value="Диадема Величия"/>
+		<set name="add_name-ru" value="Тяжелый"/>
+		<set name="crystal_count" value="163"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="price" value="2032000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="3753" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="73"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11457" name="Majestic Plate Armor">
+		<set name="name-ru" value="Латный Доспех Величия"/>
+		<set name="crystal_count" value="704"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t83_ul_i00"/>
+		<set name="price" value="8804000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<skills>
+			<skill id="3754" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="293"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="9200"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11458" name="Sealed Majestic Gauntlet">
+		<set name="name-ru" value="Запечатанные Рукавицы Величия"/>
+		<set name="crystal_count" value="108"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t83_g_i02"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="49"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11459" name="Sealed Majestic Leather Armor">
+		<set name="name-ru" value="Запечатанный Кожаный Доспех Величия"/>
+		<set name="crystal_count" value="528"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t84_ul_i02"/>
+		<set name="price" value="6603000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="220"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="5350"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11460" name="Sealed Majestic Robe">
+		<set name="name-ru" value="Запечатанная Мантия Величия"/>
+		<set name="crystal_count" value="528"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t85_ul_i02"/>
+		<set name="price" value="6603000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="147"/>
+			<add stat="maxMp" order="0x10" value="718"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="2330"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11461" name="Sealed Majestic Boots">
+		<set name="name-ru" value="Запечатанные Сапоги Величия"/>
+		<set name="crystal_count" value="108"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t83_b_i02"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="49"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11462" name="Sealed Majestic Circlet" add_name="Heavy Armor Use">
+		<set name="name-ru" value="Запечатанная Диадема Величия"/>
+		<set name="add_name-ru" value="Тяжелый"/>
+		<set name="crystal_count" value="163"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i02"/>
+		<set name="price" value="2032000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="73"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11463" name="Sealed Majestic Plate Armor">
+		<set name="name-ru" value="Запечатанный Латный Доспех Величия"/>
+		<set name="crystal_count" value="704"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t83_ul_i02"/>
+		<set name="price" value="8804000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="293"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="9200"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11464" name="Sealed Armor of Nightmare">
+		<set name="name-ru" value="Запечатанный Доспех Кошмаров"/>
+		<set name="crystal_count" value="704"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t80_ul_i02"/>
+		<set name="price" value="8804000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="293"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="9580"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11465" name="Sealed Gauntlet of Nightmare">
+		<set name="name-ru" value="Запечатанные Рукавицы Кошмаров"/>
+		<set name="crystal_count" value="108"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t80_g_i02"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="49"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11466" name="Sealed Leather Armor of Nightmare">
+		<set name="name-ru" value="Запечатанный Кожаный Доспех Кошмаров"/>
+		<set name="crystal_count" value="528"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t81_ul_i02"/>
+		<set name="price" value="6603000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="220"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="5300"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11467" name="Sealed Nightmare Robe">
+		<set name="name-ru" value="Запечатанная Мантия Кошмаров"/>
+		<set name="crystal_count" value="528"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t82_ul_i02"/>
+		<set name="price" value="6603000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="147"/>
+			<add stat="maxMp" order="0x10" value="718"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="2300"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11468" name="Sealed Boots of Nightmare">
+		<set name="name-ru" value="Запечатанные Сапоги Кошмаров"/>
+		<set name="crystal_count" value="108"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t80_b_i02"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="49"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<weapon id="11469" name="Sealed Shield of Nightmare">
+		<set name="name-ru" value="Запечатанный Щит Кошмаров"/>
+		<set name="crystal_count" value="114"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.shield_shield_of_nightmare_i02"/>
+		<set name="price" value="1422000"/>
+		<set name="rnd_dam" value="0"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="sDef" order="0x10" value="256"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<add stat="rEvas" order="0x10" value="-8.0000"/>
+			<enchant stat="sDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1180"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value=""/>
+	</weapon>
+	<armor id="11470" name="Sealed Helm of Nightmare" add_name="Heavy Armor Use">
+		<set name="name-ru" value="Запечатанный Шлем Кошмаров"/>
+		<set name="add_name-ru" value="Тяжелый"/>
+		<set name="crystal_count" value="163"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i02"/>
+		<set name="price" value="2032000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="73"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="560"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11471" name="Armor of Nightmare">
+		<set name="name-ru" value="Доспех Кошмаров"/>
+		<set name="crystal_count" value="704"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t80_ul_i00"/>
+		<set name="price" value="8804000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<skills>
+			<skill id="3764" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="293"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="9580"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11472" name="Gauntlet of Nightmare" add_name="Heavy Armor Use">
+		<set name="name-ru" value="Рукавицы Кошмаров"/>
+		<set name="add_name-ru" value="Тяжелый"/>
+		<set name="crystal_count" value="108"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t80_g_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="3769" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="49"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11473" name="Gauntlet of Nightmare" add_name="Light Armor Use">
+		<set name="name-ru" value="Рукавицы Кошмаров"/>
+		<set name="add_name-ru" value="Легкий"/>
+		<set name="crystal_count" value="108"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t81_g_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="3765" level="1"/>
+		</skills>
+		<for>
+			<add stat="pDef" order="0x10" value="49"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11474" name="Gauntlet of Nightmare" add_name="Robe Use">
+		<set name="name-ru" value="Рукавицы Кошмаров"/>
+		<set name="add_name-ru" value="Магический"/>
+		<set name="crystal_count" value="108"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t82_g_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="3771" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="49"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11475" name="Nightmarish Leather Armor">
+		<set name="name-ru" value="Кожаный Доспех Кошмаров"/>
+		<set name="crystal_count" value="528"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t81_ul_i00"/>
+		<set name="price" value="6603000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<skills>
+			<skill id="3768" level="1"/>
+		</skills>
+		<for>
+			<add stat="pDef" order="0x10" value="220"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="5300"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11476" name="Nightmare Robe">
+		<set name="name-ru" value="Мантия Кошмаров"/>
+		<set name="crystal_count" value="528"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t82_ul_i00"/>
+		<set name="price" value="6603000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<skills>
+			<skill id="3772" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="147"/>
+			<add stat="maxMp" order="0x10" value="718"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="2300"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11477" name="Boots of Nightmare" add_name="Heavy Armor Use">
+		<set name="name-ru" value="Сапоги Кошмаров"/>
+		<set name="add_name-ru" value="Тяжелый"/>
+		<set name="crystal_count" value="108"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t80_b_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="3766" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="49"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11478" name="Boots of Nightmare" add_name="Light Armor Use">
+		<set name="name-ru" value="Сапоги Кошмаров"/>
+		<set name="add_name-ru" value="Легкий"/>
+		<set name="crystal_count" value="108"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t81_b_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="3770" level="1"/>
+		</skills>
+		<for>
+			<add stat="pDef" order="0x10" value="49"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11479" name="Boots of Nightmare" add_name="Robe Use">
+		<set name="name-ru" value="Сапоги Кошмаров"/>
+		<set name="add_name-ru" value="Магический"/>
+		<set name="crystal_count" value="108"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t82_b_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="3773" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="49"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<weapon id="11480" name="Shield of Nightmare">
+		<set name="name-ru" value="Щит Кошмаров"/>
+		<set name="crystal_count" value="114"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.shield_shield_of_nightmare_i00"/>
+		<set name="price" value="1422000"/>
+		<set name="rnd_dam" value="0"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3774" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="sDef" order="0x10" value="256"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<add stat="rEvas" order="0x10" value="-8.0000"/>
+			<enchant stat="sDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1180"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value=""/>
+	</weapon>
+	<armor id="11481" name="Helm of Nightmare" add_name="Heavy Armor Use">
+		<set name="name-ru" value="Шлем Кошмаров"/>
+		<set name="add_name-ru" value="Тяжелый"/>
+		<set name="crystal_count" value="163"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="price" value="2032000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="3767" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="73"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="560"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11482" name="Great Wolf Oriharukon Armor">
+		<set name="name-ru" value="Орихаруконовый Доспех Великого Волка"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_wolf_r_a_01"/>
+		<set name="price" value="24236000"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="GREAT_WOLF"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="160"/>
+			<add stat="mDef" order="0x10" value="14"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="160"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11483" name="Draconic Leather Gloves">
+		<set name="name-ru" value="Перчатки из Драконьей Кожи"/>
+		<set name="crystal_count" value="153"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t89_g_i00"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="3775" level="1"/>
+		</skills>
+		<for>
+			<add stat="pDef" order="0x10" value="55"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11484" name="Draconic Leather Boots">
+		<set name="name-ru" value="Сапоги из Драконьей Кожи"/>
+		<set name="crystal_count" value="153"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t89_b_i00"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="3776" level="1"/>
+		</skills>
+		<for>
+			<add stat="pDef" order="0x10" value="55"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11485" name="Draconic Leather Armor">
+		<set name="name-ru" value="Доспех из Драконьей Кожи"/>
+		<set name="crystal_count" value="748"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t89_ul_i00"/>
+		<set name="price" value="15577000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<skills>
+			<skill id="3777" level="1"/>
+		</skills>
+		<for>
+			<add stat="pDef" order="0x10" value="249"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="4950"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11486" name="Draconic Leather Helmet">
+		<set name="name-ru" value="Шлем из Драконьей Кожи"/>
+		<set name="crystal_count" value="230"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="price" value="4793000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="3778" level="1"/>
+		</skills>
+		<for>
+			<add stat="pDef" order="0x10" value="83"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11487" name="Major Arcana Gloves">
+		<set name="name-ru" value="Перчатки Тайн"/>
+		<set name="crystal_count" value="153"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t90_g_i00"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="3779" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="55"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11488" name="Major Arcana Robe">
+		<set name="name-ru" value="Мантия Тайн"/>
+		<set name="crystal_count" value="748"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t90_ul_i00"/>
+		<set name="price" value="15577000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<skills>
+			<skill id="3780" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="166"/>
+			<add stat="maxMp" order="0x10" value="866"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="2300"/>
+		<set name="material_type" value="CLOTH"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11489" name="Major Arcana Boots">
+		<set name="name-ru" value="Сапоги Тайн"/>
+		<set name="crystal_count" value="153"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t90_b_i00"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="3781" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="55"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11490" name="Major Arcana Circlet">
+		<set name="name-ru" value="Диадема Тайн"/>
+		<set name="crystal_count" value="230"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_circlet_i00"/>
+		<set name="price" value="4793000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="3782" level="1"/>
+		</skills>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="83"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11491" name="Sealed Draconic Leather Gloves">
+		<set name="name-ru" value="Запечатанные Перчатки из Драконьей Кожи"/>
+		<set name="crystal_count" value="153"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t89_g_i02"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="55"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11492" name="Sealed Draconic Leather Boots">
+		<set name="name-ru" value="Запечатанные Сапоги из Драконьей Кожи"/>
+		<set name="crystal_count" value="153"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t89_b_i02"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="55"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11493" name="Sealed Draconic Leather Armor">
+		<set name="name-ru" value="Запечатанный Доспех из Драконьей Кожи"/>
+		<set name="crystal_count" value="748"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t89_ul_i02"/>
+		<set name="price" value="15577000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="236"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="4950"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11494" name="Sealed Draconic Leather Helmet">
+		<set name="name-ru" value="Запечатанный Шлем из Драконьей Кожи"/>
+		<set name="crystal_count" value="230"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i02"/>
+		<set name="price" value="4793000"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="83"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11495" name="Sealed Major Arcana Gloves">
+		<set name="name-ru" value="Запечатанные Перчатки Тайн"/>
+		<set name="crystal_count" value="153"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t90_g_i02"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="55"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11496" name="Sealed Major Arcana Robe">
+		<set name="name-ru" value="Запечатанная Мантия Тайн"/>
+		<set name="crystal_count" value="748"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t90_ul_i02"/>
+		<set name="price" value="15577000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="157"/>
+			<add stat="maxMp" order="0x10" value="866"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="2300"/>
+		<set name="material_type" value="CLOTH"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11497" name="Sealed Major Arcana Boots">
+		<set name="name-ru" value="Запечатанные Сапоги Тайн"/>
+		<set name="crystal_count" value="153"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t90_b_i02"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="55"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11498" name="Sealed Major Arcana Circlet">
+		<set name="name-ru" value="Запечатанная Диадема Тайн"/>
+		<set name="crystal_count" value="230"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_circlet_i02"/>
+		<set name="price" value="4793000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="83"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="11499" name="Sealed Imperial Crusader Gaiters">
+		<set name="name-ru" value="Запечатанные Набедренники Имперского Крестоносца"/>
+		<set name="crystal_count" value="383"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t88_l_i02"/>
+		<set name="price" value="7988000"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<cond msgId="1518">
+			<not>
+				<player race="kamael"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="121"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="3260"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+</list>

@@ -1,0 +1,97 @@
+<html noscrollbar>
+<!--Заголовок окна-->
+<title>LII MultVerso Community Board</title>
+<body>
+<center>
+<table width=600 height=410><tr>
+
+    <td valign=top align=center>
+        <br>
+        <img src="L2UI.SquareWhite" width=280 height=1>
+        <table width=280 bgcolor=4a4840><tr>
+            <td height=20 width=280 align="center">
+                <font color=LEVEL>Private Warehouse</font>
+            </td></tr></table><img src="L2UI.SquareWhite" width=280 height=1><br>
+        <table width=260 bgcolor=4a4840><tr>
+            <td height=36 align="center">
+                <img src="L2UI_CT1.MiniMap_DF_ICN_Center" width=32 height=32>
+            </td>
+            <td height=36 width="200" align="center">
+                <br><font color="LEVEL">List Private Warehouse</font>
+            </td>
+            <td height=36 align="center">
+                <img src="L2UI_CT1.MiniMap_DF_ICN_Center" width=32 height=32>
+            </td>
+        </tr></table>
+
+        <table width=200><tr>
+            <td height=30 align="center">
+                <combobox width="140" var="private_category" list="All;Weapon;Armor;Jewerly;Decorations;Supplies;Materials;Key materials;Recipes;Books;Miscellaneous;Other">
+            </td>
+            <td height=30 align="center">
+                <button value="Retrive" action="bypass _bbswarehouse:private_retrieve: $private_category" width=100 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df">
+            </td>
+        </tr></table>
+
+        <table width=260 bgcolor=4a4840><tr>
+            <td height=36 align="center">
+                <img src="L2UI_CT1.MiniMap_DF_ICN_Center" width=32 height=32>
+            </td>
+            <td height=36 width="200" align="center">
+                <br><font color="LEVEL">Deposit items<br1>to Warehouse</font>
+            </td>
+            <td height=36 align="center">
+                <img src="L2UI_CT1.MiniMap_DF_ICN_Center" width=32 height=32>
+            </td>
+        </tr></table><br>
+        <button value="Deposit" action="bypass _bbswarehouse:private_deposit" width=120 height=25 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df">
+    </td>
+
+
+    <td valign=top align=center>
+        <br>
+        <img src="L2UI.SquareWhite" width=280 height=1>
+        <table width=280 bgcolor=4a4840><tr>
+            <td height=20 width=280 align="center">
+                <font color=LEVEL>Clan Warehouse</font>
+            </td></tr></table><img src="L2UI.SquareWhite" width=280 height=1><br>
+        <table width=260 bgcolor=4a4840><tr>
+            <td height=36 align="center">
+                <img src="L2UI_CT1.MiniMap_DF_ICN_Center" width=32 height=32>
+            </td>
+            <td height=36 width="200" align="center">
+                <br><font color="LEVEL">List Clan Warehouse</font>
+            </td>
+            <td height=36 align="center">
+                <img src="L2UI_CT1.MiniMap_DF_ICN_Center" width=32 height=32>
+            </td>
+        </tr></table>
+
+        <table width=200><tr>
+            <td height=30 align="center">
+                <combobox width="140" var="clan_category" list="All;Weapon;Armor;Jewerly;Decorations;Supplies;Materials;Key materials;Recipes;Books;Miscellaneous;Other">
+            </td>
+            <td height=30 align="center">
+                <button value="Retrieve" action="bypass _bbswarehouse:clan_retrieve: $clan_category" width=100 height=20 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df">
+            </td>
+        </tr></table>
+
+        <table width=260 bgcolor=4a4840><tr>
+            <td height=36 align="center">
+                <img src="L2UI_CT1.MiniMap_DF_ICN_Center" width=32 height=32>
+            </td>
+            <td height=36 width="200" align="center">
+                <br><font color="LEVEL">Deposit items<br1>to Warehouse</font>
+            </td>
+            <td height=36 align="center">
+                <img src="L2UI_CT1.MiniMap_DF_ICN_Center" width=32 height=32>
+            </td>
+        </tr></table><br>
+        <button value="Deposit" action="bypass _bbswarehouse:clan_deposit" width=120 height=25 back="L2UI_ct1.button_df_down" fore="L2UI_ct1.button_df">
+    </td>
+
+</tr></table><img src="L2UI.SquareWhite" width=600 height=1>
+			<?copyright?>
+		</center>
+	</body>
+</html>

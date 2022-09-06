@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<!-- Town of Giran -->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="82808" y="147800" z="-3494" h="16383"/>
+		<npc id="32320"/>
+	</spawn>
+	<!-- Town of Oren -->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="82360" y="53288" z="-1488" h="8191"/>
+		<npc id="32320"/>
+	</spawn>
+	<!-- Town of Goddard -->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147336" y="-55464" z="-2728" h="57343"/>
+		<npc id="32320"/>
+	</spawn>
+	<!-- Town of Schuttgart -->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="87768" y="-143208" z="-1288" h="32767"/>
+		<npc id="32320"/>
+	</spawn>
+	<!-- Town of Aden -->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="147144" y="25608" z="-2016" h="11547"/>
+		<npc id="32320"/>
+	</spawn>
+</list>

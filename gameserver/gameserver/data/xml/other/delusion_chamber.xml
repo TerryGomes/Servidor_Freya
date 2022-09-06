@@ -1,0 +1,647 @@
+<rift>
+	<area type="0">
+		<room id="2" name="Delusion Chamber">
+			<type>DC Start</type>
+			<teleport loc="-114582 -152635 -6742"/>
+			<zone xMin="-115440" xMax="-113800" yMin="-155600" yMax="-151000" zMin="-6816" zMax="-6240"/>
+		</room>
+		<room id="3" name="Delusion Chamber">
+			<type>DelusionChamber</type>
+			<!-- TODO: set right -->
+			<zone xMin="-120576" xMax="-109024" yMin="-187328" yMax="-172880" zMin="-6816" zMax="-6240"/>
+		</room>
+	</area>
+	<area type="7">
+		<room id="1" name="Delusion Chamber (Eastern Seal 1)">
+			<teleport loc="-122368 -152624 -6688" />
+			<spawn mobId="22708" count="3" delay="25" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22709" count="1" delay="25" />
+			<!-- Invader Healer of Nightmare -->
+			<zone xMin="-122752" xMax="-121984" yMin="-153008" yMax="-152240" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="2" name="Delusion Chamber (Eastern Seal 2)">
+			<teleport loc="-122368 -153504 -6688" />
+			<spawn mobId="22708" count="2" delay="25" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22710" count="1" delay="25" />
+			<!-- Invader Guide of Nightmare -->
+			<spawn mobId="22712" count="1" delay="25" />
+			<!-- Invader Assassin of Nightmare -->
+			<zone xMin="-122752" xMax="-121984" yMin="-153888" yMax="-153120" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="3" name="Delusion Chamber (Eastern Seal 3)">
+			<teleport loc="-120496 -154304 -6688" />
+			<spawn mobId="22708" count="3" delay="30" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22709" count="2" delay="30" />
+			<!-- Invader Healer of Nightmare -->
+			<spawn mobId="22710" count="1" delay="30" />
+			<!-- Invader Guide of Nightmare -->
+			<spawn mobId="22711" count="1" delay="30" />
+			<!-- Invader Destroyer of Nightmare -->
+			<spawn mobId="22712" count="1" delay="30" />
+			<!-- Invader Assassin of Nightmare -->
+			<zone xMin="-120880" xMax="-120112" yMin="-154688" yMax="-153920" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="4" name="Delusion Chamber (Eastern Seal 4)">
+			<spawn mobId="22708" count="2" delay="30" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22711" count="2" delay="30" />
+			<!-- Invader Destroyer of Nightmare -->
+			<spawn mobId="22712" count="2" delay="30" />
+			<!-- Invader Assassin of Nightmare -->
+			<spawn mobId="22713" count="1" delay="30" />
+			<!-- Invader Shaman of Nightmare -->
+			<spawn mobId="22718" count="1" delay="30" />
+			<!-- Invader Elite Soldier of Nightmare -->
+			<zone xMin="-120880" xMax="-120112" yMin="-155568" yMax="-154800" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="5" name="Delusion Chamber (Eastern Seal 1)">
+			<teleport loc="-122368 -152624 -6688" />
+			<spawn mobId="22708" count="3" delay="25" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22709" count="1" delay="25" />
+			<!-- Invader Healer of Nightmare -->
+			<zone xMin="-122752" xMax="-121984" yMin="-153008" yMax="-152240" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="6" name="Delusion Chamber (Eastern Seal 2)">
+			<teleport loc="-122368 -153504 -6688" />
+			<spawn mobId="22708" count="1" delay="25" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22708" count="1" delay="25" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22710" count="1" delay="25" />
+			<!-- Invader Guide of Nightmare -->
+			<spawn mobId="22712" count="1" delay="25" />
+			<!-- Invader Assassin of Nightmare -->
+			<zone xMin="-122752" xMax="-121984" yMin="-153888" yMax="-153120" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="7" name="Delusion Chamber (Eastern Seal 3)">
+			<teleport loc="-120496 -154304 -6688" />
+			<spawn mobId="22708" count="3" delay="30" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22709" count="2" delay="30" />
+			<!-- Invader Healer of Nightmare -->
+			<spawn mobId="22710" count="1" delay="30" />
+			<!-- Invader Guide of Nightmare -->
+			<spawn mobId="22711" count="1" delay="30" />
+			<!-- Invader Destroyer of Nightmare -->
+			<spawn mobId="22712" count="1" delay="30" />
+			<!-- Invader Assassin of Nightmare -->
+			<zone xMin="-120880" xMax="-120112" yMin="-154688" yMax="-153920" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="8" name="Delusion Chamber (Eastern Seal 4)">
+			<spawn mobId="22708" count="2" delay="30" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22711" count="2" delay="30" />
+			<!-- Invader Destroyer of Nightmare -->
+			<spawn mobId="22712" count="2" delay="30" />
+			<!-- Invader Assassin of Nightmare -->
+			<spawn mobId="22713" count="1" delay="30" />
+			<!-- Invader Shaman of Nightmare -->
+			<spawn mobId="22718" count="1" delay="30" />
+			<!-- Invader Elite Soldier of Nightmare -->
+			<zone xMin="-120880" xMax="-120112" yMin="-155568" yMax="-154800" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="9" name="Delusion Chamber (Eastern Seal 9)" isBossRoom="true">
+			<teleport loc="-121440 -154688 -6688" />
+			<!-- Aenkinel -->
+			<spawn mobId="25690" count="1" delay="0" />
+			<zone xMin="-121888" xMax="-120992" yMin="-155456" yMax="-153920" zMin="-6696" zMax="-6688" />
+		</room>
+	</area>
+	<area type="8">
+		<room id="1" name="Delusion Chamber (Western Seal 1)">
+			<teleport loc="-122368 -152624 -6688" />
+			<spawn mobId="22708" count="3" delay="25" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22709" count="1" delay="25" />
+			<!-- Invader Healer of Nightmare -->
+			<zone xMin="-122752" xMax="-121984" yMin="-153008" yMax="-152240" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="2" name="Delusion Chamber (Western Seal 2)">
+			<teleport loc="-122368 -153504 -6688" />
+			<spawn mobId="22708" count="1" delay="25" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22710" count="1" delay="25" />
+			<!-- Invader Guide of Nightmare -->
+			<spawn mobId="22714" count="2" delay="25" />
+			<!-- Invader Archer of Nightmare -->
+			<zone xMin="-122752" xMax="-121984" yMin="-153888" yMax="-153120" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="3" name="Delusion Chamber (Western Seal 3)">
+			<teleport loc="-120496 -154304 -6688" />
+			<spawn mobId="18817" count="1" delay="30" />
+			<!-- Invader Martyr of Nightmare -->
+			<spawn mobId="22708" count="2" delay="30" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22709" count="1" delay="30" />
+			<!-- Invader Healer of Nightmare -->
+			<spawn mobId="22710" count="1" delay="30" />
+			<!-- Invader Guide of Nightmare -->
+			<spawn mobId="22711" count="1" delay="30" />
+			<!-- Invader Destroyer of Nightmare -->
+			<spawn mobId="22714" count="3" delay="30" />
+			<!-- Invader Archer of Nightmare -->
+			<zone xMin="-120880" xMax="-120112" yMin="-154688" yMax="-153920" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="4" name="Delusion Chamber (Western Seal 4)">
+			<teleport loc="-120496 -155184 -6688" />
+			<spawn mobId="22708" count="1" delay="30" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22710" count="2" delay="30" />
+			<!-- Invader Guide of Nightmare -->
+			<spawn mobId="22713" count="1" delay="30" />
+			<!-- Invader Shaman of Nightmare -->
+			<spawn mobId="22714" count="3" delay="30" />
+			<!-- Invader Archer of Nightmare -->
+			<spawn mobId="22718" count="1" delay="30" />
+			<!-- Invader Elite Soldier of Nightmare -->
+			<zone xMin="-120880" xMax="-120112" yMin="-155568" yMax="-154800" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="5" name="Delusion Chamber (Western Seal 1)">
+			<teleport loc="-122368 -152624 -6688" />
+			<spawn mobId="22708" count="3" delay="25" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22709" count="1" delay="25" />
+			<!-- Invader Healer of Nightmare -->
+			<zone xMin="-122752" xMax="-121984" yMin="-153008" yMax="-152240" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="6" name="Delusion Chamber (Western Seal 2)">
+			<teleport loc="-122368 -153504 -6688" />
+			<spawn mobId="22708" count="1" delay="25" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22710" count="1" delay="25" />
+			<!-- Invader Guide of Nightmare -->
+			<spawn mobId="22714" count="2" delay="25" />
+			<!-- Invader Archer of Nightmare -->
+			<zone xMin="-122752" xMax="-121984" yMin="-153888" yMax="-153120" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="7" name="Delusion Chamber (Western Seal 3)">
+			<teleport loc="-120496 -154304 -6688" />
+			<spawn mobId="18817" count="1" delay="30" />
+			<!-- Invader Martyr of Nightmare -->
+			<spawn mobId="22708" count="2" delay="30" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22709" count="1" delay="30" />
+			<!-- Invader Healer of Nightmare -->
+			<spawn mobId="22710" count="1" delay="30" />
+			<!-- Invader Guide of Nightmare -->
+			<spawn mobId="22711" count="1" delay="30" />
+			<!-- Invader Destroyer of Nightmare -->
+			<spawn mobId="22714" count="3" delay="30" />
+			<!-- Invader Archer of Nightmare -->
+			<zone xMin="-120880" xMax="-120112" yMin="-154688" yMax="-153920" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="8" name="Delusion Chamber (Western Seal 4)">
+			<teleport loc="-120496 -155184 -6688" />
+			<spawn mobId="22708" count="1" delay="30" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22710" count="2" delay="30" />
+			<!-- Invader Guide of Nightmare -->
+			<spawn mobId="22713" count="1" delay="30" />
+			<!-- Invader Shaman of Nightmare -->
+			<spawn mobId="22714" count="3" delay="30" />
+			<!-- Invader Archer of Nightmare -->
+			<spawn mobId="22718" count="1" delay="30" />
+			<!-- Invader Elite Soldier of Nightmare -->
+			<zone xMin="-120880" xMax="-120112" yMin="-155568" yMax="-154800" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="9" name="Delusion Chamber (Western Seal 9)" isBossRoom="true">
+			<teleport loc="-121440 -154688 -6688" />
+			<!-- Aenkinel -->
+			<spawn mobId="25691" count="1" delay="0" />
+			<zone xMin="-121888" xMax="-120992" yMin="-155456" yMax="-153920" zMin="-6696" zMax="-6688" />
+		</room>
+	</area>
+	<area type="9">
+		<room id="1" name="Delusion Chamber (Southern Seal 1)">
+			<teleport loc="-122368 -152624 -6688" />
+			<spawn mobId="22708" count="2" delay="25" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22709" count="1" delay="25" />
+			<!-- Invader Healer of Nightmare -->
+			<spawn mobId="22710" count="1" delay="25" />
+			<!-- Invader Guide of Nightmare -->
+			<zone xMin="-122752" xMax="-121984" yMin="-153008" yMax="-152240" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="2" name="Delusion Chamber (Southern Seal 2)">
+			<teleport loc="-122368 -153504 -6688" />
+			<spawn mobId="22708" count="1" delay="25" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22710" count="2" delay="25" />
+			<!-- Invader Guide of Nightmare -->
+			<spawn mobId="22712" count="1" delay="25" />
+			<!-- Invader Assassin of Nightmare -->
+			<zone xMin="-122752" xMax="-121984" yMin="-153888" yMax="-153120" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="3" name="Delusion Chamber (Southern Seal 3)">
+			<teleport loc="-120496 -154304 -6688" />
+			<spawn mobId="18817" count="1" delay="30" />
+			<!-- Invader Martyr of Nightmare -->
+			<spawn mobId="22708" count="3" delay="30" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22709" count="1" delay="30" />
+			<!-- Invader Healer of Nightmare -->
+			<spawn mobId="22712" count="2" delay="30" />
+			<!-- Invader Assassin of Nightmare -->
+			<spawn mobId="22717" count="1" delay="30" />
+			<!-- Invader Disciple of Nightmare -->
+			<spawn mobId="22717" count="1" delay="30" />
+			<!-- Invader Disciple of Nightmare -->
+			<spawn mobId="22718" count="2" delay="30" />
+			<!-- Invader Elite Soldier of Nightmare -->
+			<zone xMin="-120880" xMax="-120112" yMin="-154688" yMax="-153920" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="4" name="Delusion Chamber (Southern Seal 4)">
+			<teleport loc="-120496 -155184 -6688" />
+			<spawn mobId="22708" count="2" delay="30" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22709" count="1" delay="30" />
+			<!-- Invader Healer of Nightmare -->
+			<spawn mobId="22711" count="1" delay="30" />
+			<!-- Invader Destroyer of Nightmare -->
+			<spawn mobId="22712" count="1" delay="30" />
+			<!-- Invader Assassin of Nightmare -->
+			<spawn mobId="22715" count="2" delay="30" />
+			<!-- Invader Soldier of Nightmare -->
+			<zone xMin="-120880" xMax="-120112" yMin="-155568" yMax="-154800" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="5" name="Delusion Chamber (Southern Seal 1)">
+			<teleport loc="-122368 -152624 -6688" />
+			<spawn mobId="22708" count="2" delay="25" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22709" count="1" delay="25" />
+			<!-- Invader Healer of Nightmare -->
+			<spawn mobId="22710" count="1" delay="25" />
+			<!-- Invader Guide of Nightmare -->
+			<zone xMin="-122752" xMax="-121984" yMin="-153008" yMax="-152240" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="6" name="Delusion Chamber (Southern Seal 2)">
+			<teleport loc="-122368 -153504 -6688" />
+			<spawn mobId="22708" count="1" delay="25" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22710" count="2" delay="25" />
+			<!-- Invader Guide of Nightmare -->
+			<spawn mobId="22712" count="1" delay="25" />
+			<!-- Invader Assassin of Nightmare -->
+			<zone xMin="-122752" xMax="-121984" yMin="-153888" yMax="-153120" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="7" name="Delusion Chamber (Southern Seal 3)">
+			<teleport loc="-120496 -154304 -6688" />
+			<spawn mobId="18817" count="1" delay="30" />
+			<!-- Invader Martyr of Nightmare -->
+			<spawn mobId="22708" count="3" delay="30" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22709" count="1" delay="30" />
+			<!-- Invader Healer of Nightmare -->
+			<spawn mobId="22712" count="2" delay="30" />
+			<!-- Invader Assassin of Nightmare -->
+			<spawn mobId="22717" count="2" delay="30" />
+			<!-- Invader Disciple of Nightmare -->
+			<spawn mobId="22718" count="2" delay="30" />
+			<!-- Invader Elite Soldier of Nightmare -->
+			<zone xMin="-120880" xMax="-120112" yMin="-154688" yMax="-153920" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="8" name="Delusion Chamber (Southern Seal 4)">
+			<teleport loc="-120496 -155184 -6688" />
+			<spawn mobId="22708" count="2" delay="30" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22709" count="1" delay="30" />
+			<!-- Invader Healer of Nightmare -->
+			<spawn mobId="22711" count="1" delay="30" />
+			<!-- Invader Destroyer of Nightmare -->
+			<spawn mobId="22712" count="1" delay="30" />
+			<!-- Invader Assassin of Nightmare -->
+			<spawn mobId="22715" count="2" delay="30" />
+			<!-- Invader Soldier of Nightmare -->
+			<zone xMin="-120880" xMax="-120112" yMin="-155568" yMax="-154800" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="9" name="Delusion Chamber (Southern Seal 9)" isBossRoom="true">
+			<teleport loc="-121440 -154688 -6688" />
+			<!-- Aenkinel -->
+			<spawn mobId="25692" count="1" delay="0" />
+			<zone xMin="-121888" xMax="-120992" yMin="-155456" yMax="-153920" zMin="-6696" zMax="-6688" />
+		</room>
+	</area>
+	<area type="10">
+		<room id="1" name="Delusion Chamber (Northern Seal 1)">
+			<teleport loc="-122368 -152624 -6688" />
+			<spawn mobId="22708" count="1" delay="25" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22709" count="1" delay="25" />
+			<!-- Invader Healer of Nightmare -->
+			<spawn mobId="22710" count="2" delay="25" />
+			<!-- Invader Guide of Nightmare -->
+			<zone xMin="-122752" xMax="-121984" yMin="-153008" yMax="-152240" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="2" name="Delusion Chamber (Northern Seal 2)">
+			<teleport loc="-122368 -153504 -6688" />
+			<spawn mobId="22708" count="2" delay="25" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22710" count="1" delay="25" />
+			<!-- Invader Guide of Nightmare -->
+			<spawn mobId="22717" count="1" delay="25" />
+			<!-- Invader Disciple of Nightmare -->
+			<zone xMin="-122752" xMax="-121984" yMin="-153888" yMax="-153120" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="3" name="Delusion Chamber (Northern Seal 3)">
+			<teleport loc="-120496 -154304 -6688" />
+			<spawn mobId="18817" count="1" delay="30" />
+			<!-- Invader Martyr of Nightmare -->
+			<spawn mobId="22708" count="2" delay="30" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22710" count="2" delay="30" />
+			<!-- Invader Guide of Nightmare -->
+			<spawn mobId="22713" count="1" delay="30" />
+			<!-- Invader Shaman of Nightmare -->
+			<spawn mobId="22717" count="1" delay="30" />
+			<!-- Invader Disciple of Nightmare -->
+			<spawn mobId="22718" count="1" delay="30" />
+			<!-- Invader Elite Soldier of Nightmare -->
+			<zone xMin="-120880" xMax="-120112" yMin="-154688" yMax="-153920" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="4" name="Delusion Chamber (Northern Seal 4)">
+			<teleport loc="-120496 -155184 -6688" />
+			<spawn mobId="22708" count="2" delay="30" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22709" count="1" delay="30" />
+			<!-- Invader Healer of Nightmare -->
+			<spawn mobId="22711" count="1" delay="30" />
+			<!-- Invader Destroyer of Nightmare -->
+			<spawn mobId="22712" count="1" delay="30" />
+			<!-- Invader Assassin of Nightmare -->
+			<spawn mobId="22715" count="2" delay="30" />
+			<!-- Invader Soldier of Nightmare -->
+			<zone xMin="-120880" xMax="-120112" yMin="-155568" yMax="-154800" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="5" name="Delusion Chamber (Northern Seal 1)">
+			<teleport loc="-122368 -152624 -6688" />
+			<spawn mobId="22708" count="1" delay="25" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22709" count="1" delay="25" />
+			<!-- Invader Healer of Nightmare -->
+			<spawn mobId="22710" count="2" delay="25" />
+			<!-- Invader Guide of Nightmare -->
+			<zone xMin="-122752" xMax="-121984" yMin="-153008" yMax="-152240" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="6" name="Delusion Chamber (Northern Seal 2)">
+			<teleport loc="-122368 -153504 -6688" />
+			<spawn mobId="22708" count="2" delay="25" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22710" count="1" delay="25" />
+			<!-- Invader Guide of Nightmare -->
+			<spawn mobId="22717" count="1" delay="25" />
+			<!-- Invader Disciple of Nightmare -->
+			<zone xMin="-122752" xMax="-121984" yMin="-153888" yMax="-153120" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="7" name="Delusion Chamber (Northern Seal 3)">
+			<teleport loc="-120496 -154304 -6688" />
+			<spawn mobId="18817" count="1" delay="30" />
+			<!-- Invader Martyr of Nightmare -->
+			<spawn mobId="22708" count="2" delay="30" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22710" count="2" delay="30" />
+			<!-- Invader Guide of Nightmare -->
+			<spawn mobId="22713" count="1" delay="30" />
+			<!-- Invader Shaman of Nightmare -->
+			<spawn mobId="22717" count="1" delay="30" />
+			<!-- Invader Disciple of Nightmare -->
+			<spawn mobId="22718" count="1" delay="30" />
+			<!-- Invader Elite Soldier of Nightmare -->
+			<zone xMin="-120880" xMax="-120112" yMin="-154688" yMax="-153920" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="8" name="Delusion Chamber (Northern Seal 4)">
+			<teleport loc="-120496 -155184 -6688" />
+			<spawn mobId="22708" count="2" delay="30" />
+			<!-- Invader Warrior of Nightmare -->
+			<spawn mobId="22709" count="1" delay="30" />
+			<!-- Invader Healer of Nightmare -->
+			<spawn mobId="22711" count="1" delay="30" />
+			<!-- Invader Destroyer of Nightmare -->
+			<spawn mobId="22712" count="1" delay="30" />
+			<!-- Invader Assassin of Nightmare -->
+			<spawn mobId="22715" count="2" delay="30" />
+			<!-- Invader Soldier of Nightmare -->
+			<zone xMin="-120880" xMax="-120112" yMin="-155568" yMax="-154800" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="9" name="Delusion Chamber (Northern Seal 9)" isBossRoom="true">
+			<teleport loc="-121440 -154688 -6688" />
+			<!-- Aenkinel -->
+			<spawn mobId="25693" count="1" delay="0" />
+			<zone xMin="-121888" xMax="-120992" yMin="-155456" yMax="-153920" zMin="-6696" zMax="-6688" />
+		</room>
+	</area>
+	<area type="11">
+		<room id="1" name="Delusion Chamber (Great Seal 1)">
+			<teleport loc="-108992 -152624 -6688" />
+			<spawn mobId="22719" count="3" delay="60" />
+			<!-- Nihil Invader Warrior -->
+			<spawn mobId="22720" count="1" delay="60" />
+			<!-- Nihil Invader Healer -->
+			<zone xMin="-109376" xMax="-108608" yMin="-153008" yMax="-152240" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="2" name="Delusion Chamber (Great Seal 2)">
+			<teleport loc="-108992 -153504 -6688" />
+			<spawn mobId="22719" count="2" delay="60" />
+			<!-- Nihil Invader Warrior -->
+			<spawn mobId="22723" count="1" delay="60" />
+			<!-- Nihil Invader Assassin -->
+			<spawn mobId="22725" count="1" delay="60" />
+			<!-- Nihil Invader Archer -->
+			<zone xMin="-109376" xMax="-108608" yMin="-153888" yMax="-153120" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="3" name="Delusion Chamber (Great Seal 3)">
+			<teleport loc="-107120 -154304 -6688" />
+			<spawn mobId="22719" count="1" delay="60" />
+			<!-- Nihil Invader Warrior -->
+			<spawn mobId="22722" count="1" delay="60" />
+			<!-- Nihil Invader Destroyer -->
+			<spawn mobId="22722" count="1" delay="60" />
+			<!-- Nihil Invader Destroyer -->
+			<spawn mobId="22724" count="1" delay="60" />
+			<!-- Nihil Invader Shaman -->
+			<zone xMin="-107504" xMax="-106736" yMin="-154688" yMax="-153920" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="4" name="Delusion Chamber (Great Seal 4)">
+			<teleport loc="-107120 -155184 -6688" />
+			<spawn mobId="22719" count="1" delay="60" />
+			<!-- Nihil Invader Warrior -->
+			<spawn mobId="22720" count="1" delay="60" />
+			<!-- Nihil Invader Healer -->
+			<spawn mobId="22721" count="1" delay="60" />
+			<!-- Nihil Invader Guide -->
+			<spawn mobId="22722" count="1" delay="60" />
+			<!-- Nihil Invader Destroyer -->
+			<zone xMin="-107504" xMax="-106736" yMin="-155568" yMax="-154800" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="5" name="Delusion Chamber (Great Seal 5)">
+			<teleport loc="-108064 -151328 -6688" />
+			<spawn mobId="22719" count="2" delay="90" />
+			<!-- Nihil Invader Warrior -->
+			<spawn mobId="22720" count="1" delay="90" />
+			<!-- Nihil Invader Healer -->
+			<spawn mobId="22723" count="2" delay="90" />
+			<!-- Nihil Invader Assassin -->
+			<spawn mobId="22724" count="2" delay="90" />
+			<!-- Nihil Invader Shaman -->
+			<zone xMin="-108512" xMax="-107616" yMin="-152096" yMax="-150560" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="6" name="Delusion Chamber (Great Seal 6)">
+			<teleport loc="-107120 -153008 -6688" />
+			<spawn mobId="22719" count="2" delay="90" />
+			<!-- Nihil Invader Warrior -->
+			<spawn mobId="22720" count="1" delay="90" />
+			<!-- Nihil Invader Healer -->
+			<spawn mobId="22722" count="1" delay="90" />
+			<!-- Nihil Invader Destroyer -->
+			<spawn mobId="22724" count="2" delay="90" />
+			<!-- Nihil Invader Shaman -->
+			<spawn mobId="22728" count="2" delay="90" />
+			<!-- Nihil Invader Disciple -->
+			<zone xMin="-107504" xMax="-106672" yMin="-153776" yMax="-152240" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="7" name="Delusion Chamber (Great Seal 7)">
+			<teleport loc="-108992 -154800 -6688" />
+			<spawn mobId="18818" count="1" delay="90" />
+			<!-- Nihil Invader Martyr -->
+			<spawn mobId="22721" count="1" delay="90" />
+			<!-- Nihil Invader Guide -->
+			<spawn mobId="22723" count="1" delay="90" />
+			<!-- Nihil Invader Assassin -->
+			<spawn mobId="22725" count="2" delay="90" />
+			<!-- Nihil Invader Archer -->
+			<spawn mobId="22728" count="1" delay="90" />
+			<!-- Nihil Invader Disciple -->
+			<spawn mobId="22729" count="2" delay="90" />
+			<!-- Nihil Invader Elite Soldier -->
+			<zone xMin="-109440" xMax="-108544" yMin="-155568" yMax="-154032" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="8" name="Delusion Chamber (Great Seal 8)">
+			<!-- такая комната точно есть -->
+			<teleport loc="-108064 -153008 -6688" />
+			<spawn mobId="22719" count="2" delay="90" />
+			<!-- Nihil Invader Warrior -->
+			<spawn mobId="22721" count="1" delay="90" />
+			<!-- Nihil Invader Guide -->
+			<spawn mobId="22722" count="2" delay="90" />
+			<!-- Nihil Invader Destroyer -->
+			<spawn mobId="22724" count="1" delay="90" />
+			<!-- Nihil Invader Shaman -->
+			<spawn mobId="22726" count="2" delay="90" />
+			<!-- Nihil Invader Soldier -->
+			<zone xMin="-108512" xMax="-107616" yMin="-153776" yMax="-152240" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="9" name="Delusion Chamber (Great Seal 9)" isBossRoom="true">
+			<teleport loc="-108064 -154688 -6688" />
+			<!-- Aenkinel -->
+			<spawn mobId="25694" count="1" delay="0" />
+			<zone xMin="-108512" xMax="-107616" yMin="-155456" yMax="-153920" zMin="-6696" zMax="-6688" />
+		</room>
+	</area>
+	<area type="12">
+		<room id="1" name="Delusion Chamber (Tower Seal 1)">
+			<teleport loc="-108992 -152624 -6688" />
+			<spawn mobId="22730" count="3" delay="60" />
+			<!-- Mutant Warrior -->
+			<spawn mobId="22733" count="1" delay="60" />
+			<!-- Mutant Destroyer -->
+			<spawn mobId="22734" count="2" delay="60" />
+			<!-- Mutant Assassin -->
+			<spawn mobId="22735" count="1" delay="60" />
+			<!-- Mutant Shaman -->
+			<zone xMin="-109376" xMax="-108608" yMin="-153008" yMax="-152240" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="2" name="Delusion Chamber (Tower Seal 2)">
+			<teleport loc="-108992 -153504 -6688" />
+			<spawn mobId="22730" count="2" delay="60" />
+			<!-- Mutant Warrior -->
+			<spawn mobId="22731" count="1" delay="60" />
+			<!-- Mutant Healer -->
+			<spawn mobId="22734" count="2" delay="60" />
+			<!-- Mutant Assassin -->
+			<spawn mobId="22736" count="2" delay="60" />
+			<!-- Mutant Overlord -->
+			<zone xMin="-109376" xMax="-108608" yMin="-153888" yMax="-153120" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="3" name="Delusion Chamber (Tower Seal 3)">
+			<teleport loc="-107120 -154304 -6688" />
+			<spawn mobId="22730" count="2" delay="60" />
+			<!-- Mutant Warrior -->
+			<spawn mobId="22731" count="1" delay="60" />
+			<!-- Mutant Healer -->
+			<spawn mobId="22732" count="3" delay="60" />
+			<!-- Mutant Guide -->
+			<spawn mobId="22735" count="1" delay="60" />
+			<!-- Mutant Shaman -->
+			<zone xMin="-107504" xMax="-106736" yMin="-154688" yMax="-153920" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="4" name="Delusion Chamber (Tower Seal 4)">
+			<teleport loc="-107120 -155184 -6688" />
+			<spawn mobId="22730" count="2" delay="60" />
+			<!-- Mutant Warrior -->
+			<spawn mobId="22733" count="2" delay="60" />
+			<!-- Mutant Destroyer -->
+			<spawn mobId="22736" count="2" delay="60" />
+			<!-- Mutant Overlord -->
+			<spawn mobId="22737" count="1" delay="60" />
+			<!-- Mutant Soldier -->
+			<zone xMin="-107504" xMax="-106736" yMin="-155568" yMax="-154800" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="5" name="Delusion Chamber (Tower Seal 5)">
+			<teleport loc="-108064 -151328 -6688" />
+			<spawn mobId="22730" count="3" delay="90" />
+			<!-- Mutant Warrior -->
+			<spawn mobId="22731" count="2" delay="90" />
+			<!-- Mutant Healer -->
+			<spawn mobId="22733" count="2" delay="90" />
+			<!-- Mutant Destroyer -->
+			<spawn mobId="22740" count="3" delay="90" />
+			<!-- Mutant Elite Soldier -->
+			<zone xMin="-108512" xMax="-107616" yMin="-152096" yMax="-150560" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="6" name="Delusion Chamber (Tower Seal 6)">
+			<teleport loc="-107120 -153008 -6688" />
+			<spawn mobId="22730" count="3" delay="90" />
+			<!-- Mutant Warrior -->
+			<spawn mobId="22732" count="2" delay="90" />
+			<!-- Mutant Guide -->
+			<spawn mobId="22735" count="1" delay="90" />
+			<!-- Mutant Shaman -->
+			<spawn mobId="22736" count="4" delay="90" />
+			<!-- Mutant Overlord -->
+			<zone xMin="-120944" xMax="-106672" yMin="-153776" yMax="-152240" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="7" name="Delusion Chamber (Tower Seal 7)">
+			<teleport loc="-108992 -154800 -6688" />
+			<spawn mobId="22731" count="2" delay="90" />
+			<!-- Mutant Healer -->
+			<spawn mobId="22735" count="3" delay="90" />
+			<!-- Mutant Shaman -->
+			<spawn mobId="22739" count="2" delay="90" />
+			<!-- Mutant Disciple -->
+			<spawn mobId="22740" count="3" delay="90" />
+			<!-- Mutant Elite Soldier -->
+			<zone xMin="-109440" xMax="-108544" yMin="-155568" yMax="-154032" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="8" name="Delusion Chamber (Tower Seal 8)">
+			<teleport loc="-108064 -153008 -6688" />
+			<spawn mobId="22730" count="3" delay="90" />
+			<!-- Mutant Warrior -->
+			<spawn mobId="22733" count="2" delay="90" />
+			<!-- Mutant Destroyer -->
+			<spawn mobId="22734" count="3" delay="90" />
+			<!-- Mutant Assassin -->
+			<spawn mobId="22737" count="2" delay="90" />
+			<!-- Mutant Soldier -->
+			<zone xMin="-108512" xMax="-107616" yMin="-153776" yMax="-152240" zMin="-6696" zMax="-6688" />
+		</room>
+		<room id="9" name="Delusion Chamber (Tower Seal 9)" isBossRoom="true">
+			<teleport loc="-108064 -154688 -6688" />
+			<!-- Aenkinel -->
+			<spawn mobId="25695" count="1" delay="0" />
+			<zone xMin="-108512" xMax="-107616" yMin="-155456" yMax="-153920" zMin="-6696" zMax="-6688" />
+		</room>
+	</area>
+</rift>

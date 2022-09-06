@@ -1,0 +1,1965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<etcitem id="13300" name="Feather of Blessing (Event)">
+		<set name="name-ru" value="Ивентовое Благословенное Перо"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.blessed_feather_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="13301" name="My Teleport Spellbook (Event)">
+		<set name="name-ru" value="Ивентовая Книга Телепорта к Флагу"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.bookmark_book_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="5"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CALL_SKILL"/>
+	</etcitem>
+	<etcitem id="13302" name="My Teleport Scroll (Event)">
+		<set name="name-ru" value="Ивентовый Свиток Телепорта к Флагу"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.bookmark_scroll_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="5"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="13303" name="White Weasel Hunting Helper Necklace (Event)">
+		<set name="name-ru" value="Ивентовое Ожерелье Питомца: Белая Ласка"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.pet_controler_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_SKILL_MAINTAIN"/>
+	</etcitem>
+	<etcitem id="13304" name="Fairy Princess Hunting Helper Necklace (Event)">
+		<set name="name-ru" value="Ивентовое Ожерелье Питомца: Принцесса Фей"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.pet_controler_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_SKILL_MAINTAIN"/>
+	</etcitem>
+	<etcitem id="13305" name="Wild Beast Fighter Hunting Helper Necklace (Event)">
+		<set name="name-ru" value="Ивентовое Ожерелье Питомца: Дикий Зверь Боец"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.pet_controler_i01"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_SKILL_MAINTAIN"/>
+	</etcitem>
+	<etcitem id="13306" name="Fox Shaman Hunting Helper Necklace (Event)">
+		<set name="name-ru" value="Ивентовое Ожерелье Питомца: Лис Шаман"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.pet_controler_i01"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_SKILL_MAINTAIN"/>
+	</etcitem>
+	<etcitem id="13307" name="Color Name (Event)">
+		<set name="name-ru" value="Ивентовое Изменение Цвета Титула"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.color_name_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="5"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NICK_COLOR"/>
+	</etcitem>
+	<armor id="13308" name="Light Purple-Maned Horse Mounting Bracelet (Event)" add_name="7-day Limited Period">
+		<set name="name-ru" value="Ивентовый Талисман Фиолетовой Лошади"/>
+		<set name="add_name-ru" value="Время действия: 7 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="10080"/>
+		<set name="icon" value="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+		<skills>
+			<skill id="8247" level="1"/>
+		</skills>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="SILVER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13309" name="Agathion of Love (Event)" add_name="30-day limited period">
+		<set name="name-ru" value="Ивентовый Агатион Любви"/>
+		<set name="add_name-ru" value="Время действия: 30 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="43200"/>
+		<set name="icon" value="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+		<skills>
+			<skill id="3267" level="1"/>
+			<skill id="5763" level="1"/>
+			<skill id="8245" level="1"/>
+		</skills>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="SILVER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13310" name="Kat the Cat Hat (Event)" add_name="30-day limited period">
+		<set name="name-ru" value="Ивентовая Шляпа Кошки Кэт"/>
+		<set name="add_name-ru" value="Время действия: 30 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="43200"/>
+		<set name="icon" value="icon.accessory_cat_the_cat_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13311" name="Feline Queen Hat (Event)" add_name="30-day limited period">
+		<set name="name-ru" value="Ивентовая Шляпа Королевы Кошек"/>
+		<set name="add_name-ru" value="Время действия: 30 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="43200"/>
+		<set name="icon" value="icon.accessory_queen_of_cat_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13312" name="Monster Eye Hat (Event)" add_name="30-day limited period">
+		<set name="name-ru" value="Ивентовая Шляпа Монстроглаза"/>
+		<set name="add_name-ru" value="Время действия: 30 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="43200"/>
+		<set name="icon" value="icon.accessory_monstereye_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13313" name="Brown Bear Hat (Event)" add_name="30-day limited period">
+		<set name="name-ru" value="Ивентовая Шляпа Бурого Медведя"/>
+		<set name="add_name-ru" value="Время действия: 30 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="43200"/>
+		<set name="icon" value="icon.accessory_brown_bear_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13314" name="Fungus Hat (Event)" add_name="30-day limited period">
+		<set name="name-ru" value="Ивентовая Шляпа Горного Гриба"/>
+		<set name="add_name-ru" value="Время действия: 30 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="43200"/>
+		<set name="icon" value="icon.accessory_fungus_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13315" name="Skull Hat (Event)" add_name="30-day limited period">
+		<set name="name-ru" value="Ивентовая Шляпа Черепа"/>
+		<set name="add_name-ru" value="Время действия: 30 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="43200"/>
+		<set name="icon" value="icon.accessory_skeleton_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13316" name="Ornithomimus Hat (Event)" add_name="30-day limited period">
+		<set name="name-ru" value="Ивентовая Шляпа Орнитомима"/>
+		<set name="add_name-ru" value="Время действия: 30 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="43200"/>
+		<set name="icon" value="icon.accessory_ornithomimus_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13317" name="Feline King Hat (Event)" add_name="30-day limited period">
+		<set name="name-ru" value="Ивентовая Шляпа Короля Кошек"/>
+		<set name="add_name-ru" value="Время действия: 30 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="43200"/>
+		<set name="icon" value="icon.accessory_king_of_cat_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13318" name="Kai the Cat Hat (Event)" add_name="30-day limited period">
+		<set name="name-ru" value="Ивентовая Шляпа Кошки Кей"/>
+		<set name="add_name-ru" value="Время действия: 30 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="43200"/>
+		<set name="icon" value="icon.accessory_chi_the_cat_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<weapon id="13319" name="O-type Stick (Event)" add_name="30-day limited period">
+		<set name="name-ru" value="Ивентовый Нолик"/>
+		<set name="add_name-ru" value="Время действия: 30 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="43200"/>
+		<set name="icon" value="icon.weapon_o_stick_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="SWORD"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1"/>
+			<add stat="mAtk" order="0x10" value="1"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="13320" name="X-type Stick (Event)" add_name="30-day limited period">
+		<set name="name-ru" value="Ивентовый Крестик"/>
+		<set name="add_name-ru" value="Время действия: 30 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="43200"/>
+		<set name="icon" value="icon.weapon_x_stick_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="SWORD"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1"/>
+			<add stat="mAtk" order="0x10" value="1"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="13321" name="Scissors-type Stick (Event)" add_name="30-day limited period">
+		<set name="name-ru" value="Ивентовые Ножницы"/>
+		<set name="add_name-ru" value="Время действия: 30 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="43200"/>
+		<set name="icon" value="icon.weapon_scissors_stick_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="SWORD"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1"/>
+			<add stat="mAtk" order="0x10" value="1"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="13322" name="Rock-type Stick (Event)" add_name="30-day limited period">
+		<set name="name-ru" value="Ивентовый Камень"/>
+		<set name="add_name-ru" value="Время действия: 30 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="43200"/>
+		<set name="icon" value="icon.weapon_rock_stick_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="SWORD"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1"/>
+			<add stat="mAtk" order="0x10" value="1"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="13323" name="Paper-type Stick (Event)" add_name="30-day limited period">
+		<set name="name-ru" value="Ивентовая Бумага"/>
+		<set name="add_name-ru" value="Время действия: 30 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="43200"/>
+		<set name="icon" value="icon.weapon_diver_stick_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="SWORD"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1"/>
+			<add stat="mAtk" order="0x10" value="1"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="13324" name="Pumpkin Transformation Stick (Event)" add_name="30-day limited period">
+		<set name="name-ru" value="Ивентовый Жезл Трансформации: Праздничная Тыква"/>
+		<set name="add_name-ru" value="Время действия: 30 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="43200"/>
+		<set name="icon" value="icon.weapon_pumpkin_stick_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="SWORD"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1"/>
+			<add stat="mAtk" order="0x10" value="1"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<armor id="13325" name="Kat the Cat Hat (Event)" add_name="7-day Limited Period">
+		<set name="name-ru" value="Ивентовая Шляпа Кошки Кэт"/>
+		<set name="add_name-ru" value="Время действия: 7 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="10080"/>
+		<set name="icon" value="icon.accessory_cat_the_cat_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13326" name="Feline Queen Hat (Event)" add_name="7-day Limited Period">
+		<set name="name-ru" value="Ивентовая Шляпа Королевы Кошек"/>
+		<set name="add_name-ru" value="Время действия: 7 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="10080"/>
+		<set name="icon" value="icon.accessory_queen_of_cat_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13327" name="Monster Eye Hat (Event)" add_name="7-day Limited Period">
+		<set name="name-ru" value="Ивентовая Шляпа Монстроглаза"/>
+		<set name="add_name-ru" value="Время действия: 7 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="10080"/>
+		<set name="icon" value="icon.accessory_monstereye_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13328" name="Brown Bear Hat (Event)" add_name="7-day Limited Period">
+		<set name="name-ru" value="Ивентовая Шляпа Бурого Медведя"/>
+		<set name="add_name-ru" value="Время действия: 7 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="10080"/>
+		<set name="icon" value="icon.accessory_brown_bear_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13329" name="Fungus Hat (Event)" add_name="7-day Limited Period">
+		<set name="name-ru" value="Ивентовая Шляпа Горного Гриба"/>
+		<set name="add_name-ru" value="Время действия: 7 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="10080"/>
+		<set name="icon" value="icon.accessory_fungus_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13330" name="Skull Hat (Event)" add_name="7-day Limited Period">
+		<set name="name-ru" value="Ивентовая Шляпа Черепа"/>
+		<set name="add_name-ru" value="Время действия: 7 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="10080"/>
+		<set name="icon" value="icon.accessory_skeleton_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13331" name="Ornithomimus Hat (Event)" add_name="7-day Limited Period">
+		<set name="name-ru" value="Ивентовая Шляпа Орнитомима"/>
+		<set name="add_name-ru" value="Время действия: 7 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="10080"/>
+		<set name="icon" value="icon.accessory_ornithomimus_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13332" name="Feline King Hat (Event)" add_name="7-day Limited Period">
+		<set name="name-ru" value="Ивентовая Шляпа Короля Кошек"/>
+		<set name="add_name-ru" value="Время действия: 7 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="10080"/>
+		<set name="icon" value="icon.accessory_king_of_cat_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13333" name="Kai the Cat Hat (Event)" add_name="7-day Limited Period">
+		<set name="name-ru" value="Ивентовая Шляпа Кошки Кей"/>
+		<set name="add_name-ru" value="Время действия: 7 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="10080"/>
+		<set name="icon" value="icon.accessory_chi_the_cat_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<weapon id="13334" name="O-type Stick (Event)" add_name="7-day Limited Period">
+		<set name="name-ru" value="Ивентовый Нолик"/>
+		<set name="add_name-ru" value="Время действия: 7 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="10080"/>
+		<set name="icon" value="icon.weapon_o_stick_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="SWORD"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1"/>
+			<add stat="mAtk" order="0x10" value="1"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="13335" name="X-type Stick (Event)" add_name="7-day Limited Period">
+		<set name="name-ru" value="Ивентовый Крестик"/>
+		<set name="add_name-ru" value="Время действия: 7 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="10080"/>
+		<set name="icon" value="icon.weapon_x_stick_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="SWORD"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1"/>
+			<add stat="mAtk" order="0x10" value="1"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="13336" name="Scissors-type Stick (Event)" add_name="7-day Limited Period">
+		<set name="name-ru" value="Ивентовые Ножницы"/>
+		<set name="add_name-ru" value="Время действия: 7 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="10080"/>
+		<set name="icon" value="icon.weapon_scissors_stick_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="SWORD"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1"/>
+			<add stat="mAtk" order="0x10" value="1"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="13337" name="Rock-type Stick (Event)" add_name="7-day Limited Period">
+		<set name="name-ru" value="Ивентовый Камень"/>
+		<set name="add_name-ru" value="Время действия: 7 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="10080"/>
+		<set name="icon" value="icon.weapon_rock_stick_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="SWORD"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1"/>
+			<add stat="mAtk" order="0x10" value="1"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="13338" name="Paper-type Stick (Event)" add_name="7-day Limited Period">
+		<set name="name-ru" value="Ивентовая Бумага"/>
+		<set name="add_name-ru" value="Время действия: 7 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="10080"/>
+		<set name="icon" value="icon.weapon_diver_stick_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="SWORD"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1"/>
+			<add stat="mAtk" order="0x10" value="1"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="13339" name="Pumpkin Transformation Stick (Event)" add_name="7-day Limited Period">
+		<set name="name-ru" value="Ивентовый Жезл Трансформации: Праздничная Тыква"/>
+		<set name="add_name-ru" value="Время действия: 7 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="10080"/>
+		<set name="icon" value="icon.weapon_pumpkin_stick_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="SWORD"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1"/>
+			<add stat="mAtk" order="0x10" value="1"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<armor id="13340" name="Agathion of Love (Event)" add_name="7-day Limited Period">
+		<set name="name-ru" value="Ивентовый Агатион Любви"/>
+		<set name="add_name-ru" value="Время действия: 7 дней"/>
+		<set name="freightable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="10080"/>
+		<set name="icon" value="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+		<skills>
+			<skill id="3267" level="1"/>
+			<skill id="5763" level="1"/>
+			<skill id="8245" level="1"/>
+		</skills>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="SILVER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<etcitem id="13341" name="My Teleport Spellbook 1-Book Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовая Книга Телепорта к Флагу (1 шт.)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13301" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13342" name="My Teleport Scroll 30-Sheet Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовый Свиток Телепорта к Флагу (30 шт.)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13302" min="30" max="30" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13343" name="Feather of Blessing 3-Sheet Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовое Благословенное Перо (3 шт.)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13300" min="3" max="3" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13344" name="Agathion of Love 30-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовый Агатион Любви (30 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13309" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13345" name="Halloween Gift Box">
+		<set name="name-ru" value="Ивентовая Трансформация: Праздничная Тыква (30 дн.)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13324" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13346" name="Kamaloka Entrance Pass 3-Sheet Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовый Билет в Камалоку (3 шт.)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13297" min="5" max="5" chance="100.0"/>
+			<capsule id="13298" min="5" max="5" chance="100.0"/>
+			<capsule id="13299" min="5" max="5" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13347" name="Kat the Cat Hat 30-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовая Шляпа Кошки Кэт (30 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13310" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13348" name="Feline Queen Hat 30-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовая Шляпа Королевы Кошек (30 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13311" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13349" name="Monster Eye Hat 30-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовая Шляпа Монстроглаза (30 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13312" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13350" name="Brown Bear Hat 30-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовая Шляпа Бурого Медведя (30 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13313" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13351" name="Fungus Hat 30-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовая Шляпа Горного Гриба (30 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13314" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13352" name="Skull Hat 30-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовая Шляпа Черепа (30 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13315" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13353" name="Ornithomimus Hat 30-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовая Шляпа Орнитомима (30 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13316" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13354" name="Feline King Hat 30-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовая Шляпа Короля Кошек (30 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13317" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13355" name="Kai the Cat Hat 30-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовая Шляпа Кошки Кей (30 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13318" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13356" name="OX Stick 30-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовые Крестик, Нолик (30 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13319" min="1" max="1" chance="100.0"/>
+			<capsule id="13320" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13357" name="Rock-Paper-Scissors Stick 30-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовые Камень, Ножницы, Бумага (30 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13321" min="1" max="1" chance="100.0"/>
+			<capsule id="13322" min="1" max="1" chance="100.0"/>
+			<capsule id="13323" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13358" name="Purple Maned Horse 7-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовый Фиолетовый Конь (30 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13308" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13359" name="Color Name 3-Sheet Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовое Изменение Цвета Титула (3 шт.)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13307" min="3" max="3" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13360" name="Color Name 1-Sheet Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовое Изменение Цвета Титула (1 шт.)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13307" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13361" name="My Teleport Scroll 10-Sheet Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовый Свиток Телепорта к Флагу (10 шт.)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13016" min="10" max="10" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13362" name="Kamaloka (Hall of the Abyss) 15-Sheet Pack (Event)">
+		<set name="name-ru" value="Ивентовая Упаковка: Камалока - Зал Бездны (15 шт.)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13297" min="15" max="15" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13363" name="Near Kamaloka 15-Sheet Pack (Event)">
+		<set name="name-ru" value="Ивентовая Упаковка: Окрестности Камалоки (15 шт.)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13298" min="15" max="15" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13364" name="Kamaloka (Labyrinth of the Abyss) 15-Sheet Pack (Event)">
+		<set name="name-ru" value="Ивентовая Упаковка: Камалока - Лабиринт Бездны (15 шт.)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13299" min="15" max="15" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13365" name="Kamaloka (Hall of the Abyss) 5-Sheet Pack (Event)">
+		<set name="name-ru" value="Ивентовая Упаковка: Камалока - Зал Бездны (5 шт.)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13297" min="5" max="5" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13366" name="Near Kamaloka 5-Sheet Pack (Event)">
+		<set name="name-ru" value="Ивентовая Упаковка: Окрестности Камалоки (5 шт.)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13298" min="5" max="5" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13367" name="Kamaloka (Labyrinth of the Abyss) 5-Sheet Pack (Event)">
+		<set name="name-ru" value="Ивентовая Упаковка: Камалока - Лабиринт Бездны (5 шт.)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13299" min="5" max="5" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13368" name="Feather of Blessing 1-Sheet Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовое Благословенное Перо (1 шт.)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13300" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13369" name="Agathion of Love 7-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовый Агатион Любви (7 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13340" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13370" name="Pumpkin Transformation Stick 7-Day Pack (Event)">
+		<set name="name-ru" value="Ивентовая Трансформация: Праздничная Тыква (7 дн.)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13339" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13371" name="Kat the Cat Hat 7-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовая Шляпа Кошки Кэт (7 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13325" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13372" name="Feline Queen Hat 7-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовая Шляпа Королевы Кошек (7 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13326" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13373" name="Monster Eye Hat 7-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовая Шляпа Монстроглаза (7 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13327" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13374" name="Brown Bear Hat 7-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовая Шляпа Бурого Медведя (7 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13328" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13375" name="Fungus Hat 7-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовая Шляпа Горного Гриба (7 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13329" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13376" name="Skull Hat 7-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовая Шляпа Черепа (7 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13330" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13377" name="Ornithomimus Hat 7-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовая Шляпа Орнитомима (7 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13331" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13378" name="Feline King Hat 7-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовая Шляпа Короля Кошек (7 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13332" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13379" name="Kai the Cat Hat 7-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовая Шляпа Кошки Кей (7 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13333" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13380" name="OX Stick 7-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовые Крестик, Нолик (7 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13334" min="1" max="1" chance="100.0"/>
+			<capsule id="13335" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13381" name="Rock-Paper-Scissors Stick 7-Day Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовые Камень, Ножницы, Бумага (7 дней)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13336" min="1" max="1" chance="100.0"/>
+			<capsule id="13337" min="1" max="1" chance="100.0"/>
+			<capsule id="13338" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13382" name="Gran Kain's Gift Box (Event)" add_name="30 day limited period">
+		<set name="name-ru" value="Ивентовый Подарок Гран Каина"/>
+		<set name="add_name-ru" value="Время действия: 30 дн."/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="43200"/>
+		<set name="icon" value="icon.special_cube_i00"/>
+		<set name="temporal" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+	<etcitem id="13383" name="Hunting Helper Exchange Coupon - 5 hours (Event)">
+		<set name="name-ru" value="Ивентовый Купон Питомца (5 ч.)"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_ticket_red_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="13384" name="Hunting Helper Exchange Coupon 3-Sheet Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовый Купон Питомца (3 шт.)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13383" min="3" max="3" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13385" name="Hunting Helper Exchange Coupon 1-Sheet Pack (Event)">
+		<set name="name-ru" value="Упаковка: Ивентовый Купон Питомца (1 шт.)"/>
+		<set name="freightable" value="true"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<set name="capsuled" value="true"/>
+		<capsuled>
+			<capsule id="13383" min="1" max="1" chance="100.0"/>
+		</capsuled>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="FISH"/>
+		<set name="default_action" value="ACTION_PEEL"/>
+	</etcitem>
+	<etcitem id="13386" name="Blue Crystal of Fantasy">
+		<set name="name-ru" value="Синий Кристалл Грез"/>
+		<set name="reuse_delay" value="1000"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_sp_crystal_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2608" level="1"/>
+		</skills>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+	<etcitem id="13387" name="Green Crystal of Fantasy">
+		<set name="name-ru" value="Зеленый Кристалл Грез"/>
+		<set name="reuse_delay" value="1000"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_sp_crystal_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2608" level="2"/>
+		</skills>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+	<etcitem id="13388" name="Red Crystal of Fantasy">
+		<set name="name-ru" value="Красный Кристалл Грез"/>
+		<set name="reuse_delay" value="1000"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_sp_crystal_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2608" level="3"/>
+		</skills>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+	<armor id="13389" name="Kratei Barbed Shirt" add_name="CP">
+		<set name="name-ru" value="Чешуйчатая Рубаха Кратеи"/>
+		<set name="add_name-ru" value="CP"/>
+		<set name="crystal_type" value="A"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_shirts_a_i04"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="UNDERWEAR"/>
+		</equip>
+		<enchant4_skill id="3453" level="1"/>
+		<!--Scale Shirt-->
+		<for>
+			<add stat="pDef" order="0x10" value="23"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+			<add stat="maxCp" order="0x60" value="516">
+				<using slotitem="13389;0;4"/>
+			</add>
+		</for>
+		<set name="weight" value="130"/>
+		<set name="material_type" value="CRYSTAL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13390" name="Kratei Mithril Shirt" add_name="CP">
+		<set name="name-ru" value="Мифриловая Рубаха Кратеи"/>
+		<set name="add_name-ru" value="CP"/>
+		<set name="crystal_type" value="S"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_shirts_s_i05"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="UNDERWEAR"/>
+		</equip>
+		<enchant4_skill id="3459" level="1"/>
+		<!--Mithril Shirt-->
+		<for>
+			<add stat="pDef" order="0x10" value="28"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+			<add stat="maxCp" order="0x60" value="672">
+				<using slotitem="13390;0;4"/>
+			</add>
+		</for>
+		<set name="weight" value="130"/>
+		<set name="material_type" value="CRYSTAL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13391" name="Kratei Striped Barbed Shirt" add_name="CP">
+		<set name="name-ru" value="Полосатая Чешуйчатая Рубаха Кратеи"/>
+		<set name="add_name-ru" value="CP"/>
+		<set name="crystal_type" value="A"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_stripe_shirts_a_i04"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="UNDERWEAR"/>
+		</equip>
+		<enchant4_skill id="3477" level="1"/>
+		<!--Striped Scale Shirt-->
+		<for>
+			<add stat="pDef" order="0x10" value="26"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+			<add stat="maxCp" order="0x60" value="564">
+				<using slotitem="13391;0;4"/>
+			</add>
+		</for>
+		<set name="weight" value="130"/>
+		<set name="material_type" value="CRYSTAL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13392" name="Kratei Striped Mithril Shirt" add_name="CP">
+		<set name="name-ru" value="Полосатая Мифриловая Рубаха Кратеи"/>
+		<set name="add_name-ru" value="CP"/>
+		<set name="crystal_type" value="S"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_stripe_shirts_s_i05"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="UNDERWEAR"/>
+		</equip>
+		<enchant4_skill id="3483" level="1"/>
+		<!--Striped Mithril Shirt-->
+		<for>
+			<add stat="pDef" order="0x10" value="30"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+			<add stat="maxCp" order="0x60" value="744">
+				<using slotitem="13392;0;4"/>
+			</add>
+		</for>
+		<set name="weight" value="130"/>
+		<set name="material_type" value="CRYSTAL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13393" name="Shadow Item - Monkey Hat">
+		<set name="name-ru" value="Теневой Предмет: Шляпа Обезьяны"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.monkey_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="13394" name="Shadow Item - Pig Hat">
+		<set name="name-ru" value="Теневой Предмет: Шляпа Поросенка"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.event_pig_cap_i00"/>
+		<set name="sellable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<etcitem id="13395" name="Escape - Talking Island Village">
+		<set name="name-ru" value="Свиток Телепорта: Деревня Говорящего Острова"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="SCROLL"/>
+		<skills>
+			<skill id="2609" level="1"/>
+		</skills>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+	<etcitem id="13396" name="Escape - Elven Village">
+		<set name="name-ru" value="Свиток Телепорта: Эльфийская Деревня"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="SCROLL"/>
+		<skills>
+			<skill id="2609" level="2"/>
+		</skills>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+	<etcitem id="13397" name="Escape - Dark Elven Village">
+		<set name="name-ru" value="Свиток Телепорта: Деревня Темных Эльфов"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="SCROLL"/>
+		<skills>
+			<skill id="2609" level="3"/>
+		</skills>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+	<etcitem id="13398" name="Escape - Orc Village">
+		<set name="name-ru" value="Свиток Телепорта: Деревня Орков"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="SCROLL"/>
+		<skills>
+			<skill id="2609" level="4"/>
+		</skills>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+	<etcitem id="13399" name="Escape - Dwarven Village">
+		<set name="name-ru" value="Свиток Телепорта: Деревня Гномов"/>
+		<set name="class" value="CONSUMABLE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="SCROLL"/>
+		<skills>
+			<skill id="2609" level="5"/>
+		</skills>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+</list>

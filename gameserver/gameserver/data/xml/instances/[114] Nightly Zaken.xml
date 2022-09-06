@@ -1,0 +1,58 @@
+
+<list>
+	<!-- Nightly Zaken -->
+	<instance id="114" name="Cavern of the Pirate Captain (nightmare)" maxChannels="5" collapseIfEmpty="10" timelimit="360" dispelBuffs="true" respawn="60">
+		<collapse on-party-dismiss="true" timer="60"/>
+		<level min="1" max="85"/>
+		<party min="72" max="450"/>
+		<return loc="52212 218998 -3208"/>
+		<teleport loc="52680 219992 -3522"/>
+		<remove itemId="0" count="0" necessary="false"/>
+		<give itemId="0" count="0"/>
+		<quest id="0"/>
+		<reuse resetReuse="30 6 * * 3" setUponEntry="false" sharedReuseGroup="0"/>
+		<spawns>
+			<spawn mobId="32705" type="point" respawn="0">
+				<!-- 1 этаж -->
+				<coords loc="53320 220136 -3522 0" />
+				<coords loc="54232 221048 -3522 0" />
+				<coords loc="55256 220040 -3522 0" />
+				<coords loc="56296 221048 -3522 0" />
+				<coords loc="57208 220136 -3522 0" />
+				<coords loc="56200 219112 -3522 0" />
+				<coords loc="54328 219112 -3522 0" />
+				<coords loc="53320 218088 -3522 0" />
+				<coords loc="54232 217144 -3522 0" />
+				<coords loc="55256 218168 -3522 0" />
+				<coords loc="56280 217144 -3522 0" />
+				<coords loc="57208 218072 -3522 0" />
+				<!-- 2 этаж -->
+				<coords loc="53320 220136 -3250 0" />
+				<coords loc="54232 221048 -3250 0" />
+				<coords loc="55256 220040 -3250 0" />
+				<coords loc="56296 221048 -3250 0" />
+				<coords loc="57208 220136 -3250 0" />
+				<coords loc="56200 219112 -3250 0" />
+				<coords loc="54328 219112 -3250 0" />
+				<coords loc="53320 218088 -3250 0" />
+				<coords loc="54232 217144 -3250 0" />
+				<coords loc="55256 218168 -3250 0" />
+				<coords loc="56280 217144 -3250 0" />
+				<coords loc="57208 218072 -3250 0" />
+				<!-- 3 этаж -->
+				<coords loc="53320 220136 -2978 0" />
+				<coords loc="54232 221048 -2978 0" />
+				<coords loc="55256 220040 -2978 0" />
+				<coords loc="56296 221048 -2978 0" />
+				<coords loc="57208 220136 -2978 0" />
+				<coords loc="56200 219112 -2978 0" />
+				<coords loc="54328 219112 -2978 0" />
+				<coords loc="53320 218088 -2978 0" />
+				<coords loc="54232 217144 -2978 0" />
+				<coords loc="55256 218168 -2978 0" />
+				<coords loc="56280 217144 -2978 0" />
+				<coords loc="57208 218072 -2978 0" />
+			</spawn>
+		</spawns>
+	</instance>
+</list>

@@ -1,0 +1,2810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<weapon id="200" name="Sage's Staff">
+		<set name="name-ru" value="Посох Мудреца"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1322"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_sages_staff_i00"/>
+		<set name="price" value="3304300"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="BIGBLUNT"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="135"/>
+			<add stat="mAtk" order="0x10" value="111"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;46;120"/>
+	</weapon>
+	<weapon id="201" name="Club of Nature">
+		<set name="name-ru" value="Дубина Природы"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1322"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_club_of_nature_i00"/>
+		<set name="price" value="3304300"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="BLUNT"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="111"/>
+			<add stat="mAtk" order="0x10" value="101"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1100"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="202" name="Mace of the Underworld">
+		<set name="name-ru" value="Булава Преисподней"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1322"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_mace_of_underworld_i00"/>
+		<set name="price" value="3304300"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="BLUNT"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="111"/>
+			<add stat="mAtk" order="0x10" value="101"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1090"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="203" name="Pa'agrian Axe">
+		<set name="name-ru" value="Топор Паагрио"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1471"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_paagrio_axe_i00"/>
+		<set name="price" value="3677700"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="BIGBLUNT"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="141"/>
+			<add stat="mAtk" order="0x10" value="114"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="990"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;46;120"/>
+	</weapon>
+	<weapon id="204" name="Deadman's Staff">
+		<set name="name-ru" value="Посох Мертвеца"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1885"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_deadmans_staff_i00"/>
+		<set name="price" value="4713500"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="BIGBLUNT"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="152"/>
+			<add stat="mAtk" order="0x10" value="122"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1010"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;46;120"/>
+	</weapon>
+	<weapon id="205" name="Ghoul's Staff">
+		<set name="name-ru" value="Посох Вурдалака"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1885"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_ghouls_staff_i00"/>
+		<set name="price" value="4713500"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="BIGBLUNT"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="152"/>
+			<add stat="mAtk" order="0x10" value="122"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;46;120"/>
+	</weapon>
+	<weapon id="206" name="Demon's Staff">
+		<set name="name-ru" value="Посох Демона"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1885"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_demons_staff_i00"/>
+		<set name="price" value="4713500"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="BIGBLUNT"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="152"/>
+			<add stat="mAtk" order="0x10" value="122"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="990"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;46;120"/>
+	</weapon>
+	<weapon id="207" name="Staff of Phantom">
+		<set name="name-ru" value="Посох Фантома"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1157"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_apprentices_staff_i00"/>
+		<set name="price" value="8680000"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGBLUNT"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="170"/>
+			<add stat="mAtk" order="0x10" value="122"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="980"/>
+		<set name="material_type" value="ORIHARUKON"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;46;120"/>
+	</weapon>
+	<weapon id="208" name="Staff of Seal">
+		<set name="name-ru" value="Посох Печати"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1157"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_apprentices_staff_i00"/>
+		<set name="price" value="8680000"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGBLUNT"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="170"/>
+			<add stat="mAtk" order="0x10" value="122"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="970"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;46;120"/>
+	</weapon>
+	<weapon id="209" name="Divine Staff">
+		<set name="name-ru" value="Посох Божества"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1746"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_apprentices_staff_i00"/>
+		<set name="price" value="13100000"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGBLUNT"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="189"/>
+			<add stat="mAtk" order="0x10" value="132"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="960"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;46;120"/>
+	</weapon>
+	<weapon id="210" name="Staff of Evil Spirits">
+		<set name="name-ru" value="Посох Злых Духов"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1346"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_staff_of_evil_sprit_i00"/>
+		<set name="price" value="10091400"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGBLUNT"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="189"/>
+			<add stat="mAtk" order="0x10" value="145"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="930"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;46;120"/>
+	</weapon>
+	<weapon id="211" name="Staff of Nobility">
+		<set name="name-ru" value="Посох Благородства"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1746"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_apprentices_staff_i00"/>
+		<set name="price" value="13100000"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGBLUNT"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="189"/>
+			<add stat="mAtk" order="0x10" value="132"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="910"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;46;120"/>
+	</weapon>
+	<weapon id="212" name="Dasparion's Staff">
+		<set name="name-ru" value="Посох Даспариона"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1128"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dasparions_staff_i00"/>
+		<set name="price" value="14098000"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGBLUNT"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="207"/>
+			<add stat="mAtk" order="0x10" value="157"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="920"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;46;120"/>
+	</weapon>
+	<weapon id="213" name="Branch of the Mother Tree">
+		<set name="name-ru" value="Ветвь Древа Жизни"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1659"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_worldtrees_branch_i00"/>
+		<set name="price" value="20741000"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGBLUNT"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="226"/>
+			<add stat="mAtk" order="0x10" value="167"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="900"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="214" name="The Staff">
+		<set name="name-ru" value="Посох"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1765"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_imperial_staff_i00"/>
+		<set name="price" value="35300000"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGBLUNT"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="245"/>
+			<add stat="mAtk" order="0x10" value="162"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="910"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;46;120"/>
+	</weapon>
+	<weapon id="215" name="Doom Dagger">
+		<set name="name-ru" value="Кинжал Рока"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_doomed_dagger_i00"/>
+		<set name="price" value="9600"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="10"/>
+			<add stat="mAtk" order="0x10" value="9"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1130"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="216" name="Dirk">
+		<set name="name-ru" value="Кортик"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_dirk_i00"/>
+		<set name="price" value="41600"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="15"/>
+			<add stat="mAtk" order="0x10" value="12"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1130"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="217" name="Shining Knife">
+		<set name="name-ru" value="Сверкающий Нож"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_shining_knife_i00"/>
+		<set name="price" value="105000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="21"/>
+			<add stat="mAtk" order="0x10" value="17"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1120"/>
+		<set name="material_type" value="MITHRIL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="218" name="Throwing Knife">
+		<set name="name-ru" value="Метательный Нож"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_throw_knife_i00"/>
+		<set name="price" value="105000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="21"/>
+			<add stat="mAtk" order="0x10" value="17"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1120"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="219" name="Sword Breaker">
+		<set name="name-ru" value="Мечелом"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_sword_breaker_i00"/>
+		<set name="price" value="188000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="27"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="220" name="Crafted Dagger">
+		<set name="name-ru" value="Кованый Кинжал"/>
+		<set name="crystal_count" value="582"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_handiwork_dagger_i00"/>
+		<set name="price" value="315000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="35"/>
+			<add stat="mAtk" order="0x10" value="26"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1100"/>
+		<set name="material_type" value="CHRYSOLITE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="221" name="Assassin Knife">
+		<set name="name-ru" value="Нож Ассасина"/>
+		<set name="crystal_count" value="582"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_assassin_knife_i00"/>
+		<set name="price" value="315000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="35"/>
+			<add stat="mAtk" order="0x10" value="26"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1100"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="222" name="Poniard Dagger">
+		<set name="name-ru" value="Трехгранный Кинжал"/>
+		<set name="crystal_count" value="915"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dirk_i00"/>
+		<set name="price" value="495500"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="45"/>
+			<add stat="mAtk" order="0x10" value="32"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1090"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="223" name="Kukuri">
+		<set name="name-ru" value="Кукри"/>
+		<set name="crystal_count" value="1373"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_kukuri_i00"/>
+		<set name="price" value="743500"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="56"/>
+			<add stat="mAtk" order="0x10" value="39"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1080"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="224" name="Maingauche">
+		<set name="name-ru" value="Дага"/>
+		<set name="crystal_count" value="1983"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_maingauche_i00"/>
+		<set name="price" value="1074000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="69"/>
+			<add stat="mAtk" order="0x10" value="47"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1070"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="225" name="Mithril Dagger">
+		<set name="name-ru" value="Мифриловый Кинжал"/>
+		<set name="crystal_count" value="2561"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_mithril_dagger_i00"/>
+		<set name="price" value="1387000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="80"/>
+			<add stat="mAtk" order="0x10" value="54"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1060"/>
+		<set name="material_type" value="MITHRIL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="226" name="Cursed Dagger">
+		<set name="name-ru" value="Проклятый Кинжал"/>
+		<set name="crystal_count" value="705"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_cursed_dagger_i00"/>
+		<set name="price" value="1762900"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="94"/>
+			<add stat="mAtk" order="0x10" value="61"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1040"/>
+		<set name="material_type" value="MITHRIL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="227" name="Stiletto">
+		<set name="name-ru" value="Стилет"/>
+		<set name="crystal_count" value="884"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_stiletto_i00"/>
+		<set name="price" value="2209700"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="107"/>
+			<add stat="mAtk" order="0x10" value="68"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1030"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="228" name="Crystal Dagger">
+		<set name="name-ru" value="Кристальный Кинжал"/>
+		<set name="crystal_count" value="1885"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_crystal_dagger_i00"/>
+		<set name="price" value="4713500"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="136"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1000"/>
+		<set name="material_type" value="CRYSTAL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="229" name="Kris">
+		<set name="name-ru" value="Крис"/>
+		<set name="crystal_count" value="891"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_kris_i00"/>
+		<set name="price" value="6680500"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="153"/>
+			<add stat="mAtk" order="0x10" value="91"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="980"/>
+		<set name="material_type" value="MITHRIL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="230" name="Wolverine Needle">
+		<set name="name-ru" value="Клык Росомахи"/>
+		<set name="crystal_count" value="705"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_needle_wolverine_i00"/>
+		<set name="price" value="1762900"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="94"/>
+			<add stat="mAtk" order="0x10" value="61"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1040"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="231" name="Grace Dagger">
+		<set name="name-ru" value="Изящный Кинжал"/>
+		<set name="crystal_count" value="1322"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_grace_dagger_i00"/>
+		<set name="price" value="3304300"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="122"/>
+			<add stat="mAtk" order="0x10" value="76"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1020"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="232" name="Dark Elven Dagger">
+		<set name="name-ru" value="Кинжал Темных Эльфов"/>
+		<set name="crystal_count" value="705"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_darkelven_dagger_i00"/>
+		<set name="price" value="1762900"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="94"/>
+			<add stat="mAtk" order="0x10" value="61"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1050"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="233" name="Dark Screamer">
+		<set name="name-ru" value="Кинжал Тьмы"/>
+		<set name="crystal_count" value="1322"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dark_screamer_i00"/>
+		<set name="price" value="3304300"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="122"/>
+			<add stat="mAtk" order="0x10" value="76"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1010"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="234" name="Demon Dagger">
+		<set name="name-ru" value="Кинжал Демона"/>
+		<set name="crystal_count" value="1346"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_demons_sword_i00"/>
+		<set name="price" value="10091400"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="170"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="970"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="235" name="Bloody Orchid">
+		<set name="name-ru" value="Кровавая Орхидея"/>
+		<set name="crystal_count" value="1128"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_bloody_orchid_i00"/>
+		<set name="price" value="14098000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="186"/>
+			<add stat="mAtk" order="0x10" value="107"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="960"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="236" name="Soul Separator">
+		<set name="name-ru" value="Душегуб"/>
+		<set name="crystal_count" value="1659"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_soul_separator_i00"/>
+		<set name="price" value="20741000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="203"/>
+			<add stat="mAtk" order="0x10" value="114"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="950"/>
+		<set name="material_type" value="ORIHARUKON"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="237" name="Dragon's Tooth">
+		<set name="name-ru" value="Зуб Дракона"/>
+		<set name="crystal_count" value="1765"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_angel_slayer_i00"/>
+		<set name="price" value="35300000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="220"/>
+			<add stat="mAtk" order="0x10" value="121"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="950"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="238" name="Dagger of Mana">
+		<set name="name-ru" value="Кинжал Маны"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1373"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dagger_of_mana_i00"/>
+		<set name="price" value="743500"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="45"/>
+			<add stat="mAtk" order="0x10" value="52"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="750"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="239" name="Mystic Knife">
+		<set name="name-ru" value="Нож Мистика"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1373"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_mystic_knife_i00"/>
+		<set name="price" value="743500"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="45"/>
+			<add stat="mAtk" order="0x10" value="52"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="760"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="240" name="Conjurer's Knife">
+		<set name="name-ru" value="Нож Заклинателя"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1373"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_conjure_knife_i00"/>
+		<set name="price" value="743500"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="45"/>
+			<add stat="mAtk" order="0x10" value="52"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="750"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="241" name="Shilen Knife">
+		<set name="name-ru" value="Нож Шилен"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1373"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_knife_o'_silenus_i00"/>
+		<set name="price" value="743500"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="45"/>
+			<add stat="mAtk" order="0x10" value="52"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="750"/>
+		<set name="material_type" value="BRONZE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="242" name="Soulfire Dirk">
+		<set name="name-ru" value="Кортик Духовного Пламени"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="884"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dagger_of_magicflame_i00"/>
+		<set name="price" value="2209700"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="86"/>
+			<add stat="mAtk" order="0x10" value="91"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="750"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="243" name="Hell Knife">
+		<set name="name-ru" value="Нож Ада"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="891"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_hell_knife_i00"/>
+		<set name="price" value="6680500"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="122"/>
+			<add stat="mAtk" order="0x10" value="122"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="740"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="244" name="Elven Fighter Fist">
+		<set name="name-ru" value="Кастет Светлого Воина"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value=""/>
+		<set name="price" value="22"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="245" name="Dark Fighter Fist">
+		<set name="name-ru" value="Кастет Темного Воина"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value=""/>
+		<set name="price" value="33"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="246" name="Human Fighter Fist">
+		<set name="name-ru" value="Кастет Воина"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value=""/>
+		<set name="price" value="44"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="247" name="Dwarven Fighter Fist">
+		<set name="name-ru" value="Кастет Подмастерья"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value=""/>
+		<set name="price" value="56"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="248" name="Orc Fighter Fist">
+		<set name="name-ru" value="Кастет Бойца"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value=""/>
+		<set name="price" value="67"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="249" name="Elven Mystic Fist">
+		<set name="name-ru" value="Кастет Светлого Мистика"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value=""/>
+		<set name="price" value="11"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="250" name="Dark Mystic Fist">
+		<set name="name-ru" value="Кастет Темного Мистика"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value=""/>
+		<set name="price" value="22"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="251" name="Human Mystic Fist">
+		<set name="name-ru" value="Кастет Мистика"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value=""/>
+		<set name="price" value="33"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="252" name="Orc Shaman Fist">
+		<set name="name-ru" value="Кастет Шамана"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value=""/>
+		<set name="price" value="44"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="253" name="Spiked Gloves">
+		<set name="name-ru" value="Шипованные Перчатки"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_spike_glove_i00"/>
+		<set name="price" value="590"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DUALFIST"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="10"/>
+			<add stat="mAtk" order="0x10" value="6"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1590"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;32;120"/>
+	</weapon>
+	<weapon id="254" name="Iron Gloves">
+		<set name="name-ru" value="Железные Перчатки"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_iron_glove_i00"/>
+		<set name="price" value="9600"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DUALFIST"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="13"/>
+			<add stat="mAtk" order="0x10" value="9"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1580"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;32;120"/>
+	</weapon>
+	<weapon id="255" name="Fox Claw Gloves">
+		<set name="name-ru" value="Кастет Лисы"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_foxs_nail_i00"/>
+		<set name="price" value="41600"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DUALFIST"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="21"/>
+			<add stat="mAtk" order="0x10" value="12"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1560"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;32;120"/>
+	</weapon>
+	<weapon id="256" name="Cestus">
+		<set name="name-ru" value="Цестус"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_vipers_canine_i00"/>
+		<set name="price" value="105000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DUALFIST"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="29"/>
+			<add stat="mAtk" order="0x10" value="17"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1570"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;32;120"/>
+	</weapon>
+	<weapon id="257" name="Viper Fang">
+		<set name="name-ru" value="Клык Гадюки"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_vipers_canine_i00"/>
+		<set name="price" value="188000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DUALFIST"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="38"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1560"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;32;120"/>
+	</weapon>
+	<weapon id="258" name="Bagh-Nakh">
+		<set name="name-ru" value="Коготь Тигра"/>
+		<set name="crystal_count" value="582"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_baghnakh_i00"/>
+		<set name="price" value="315000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DUALFIST"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="49"/>
+			<add stat="mAtk" order="0x10" value="26"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1540"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;32;120"/>
+	</weapon>
+	<weapon id="259" name="Single-Edged Jamadhr">
+		<set name="name-ru" value="Джамадхар"/>
+		<set name="crystal_count" value="915"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_single-edged_jamadhr_i00"/>
+		<set name="price" value="495500"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DUALFIST"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="62"/>
+			<add stat="mAtk" order="0x10" value="32"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1550"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;32;120"/>
+	</weapon>
+	<weapon id="260" name="Triple-Edged Jamadhr">
+		<set name="name-ru" value="Трехгранный Джамадхар"/>
+		<set name="crystal_count" value="1373"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_triple-edged_jamadhr_i00"/>
+		<set name="price" value="743500"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DUALFIST"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="78"/>
+			<add stat="mAtk" order="0x10" value="39"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1540"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;32;120"/>
+	</weapon>
+	<weapon id="261" name="Bich'Hwa">
+		<set name="name-ru" value="Бичхва"/>
+		<set name="crystal_count" value="1983"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_bichhwa_i00"/>
+		<set name="price" value="1074000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="DUALFIST"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="96"/>
+			<add stat="mAtk" order="0x10" value="47"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1510"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;32;120"/>
+	</weapon>
+	<weapon id="262" name="Scallop Jamadhr">
+		<set name="name-ru" value="Шипастый Джамадхар"/>
+		<set name="crystal_count" value="2561"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_scallop_jamadhr_i00"/>
+		<set name="price" value="1387000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="DUALFIST"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="112"/>
+			<add stat="mAtk" order="0x10" value="54"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1520"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;32;120"/>
+	</weapon>
+	<weapon id="263" name="Chakram">
+		<set name="name-ru" value="Чакра"/>
+		<set name="crystal_count" value="705"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_chakram_i00"/>
+		<set name="price" value="1762900"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DUALFIST"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="130"/>
+			<add stat="mAtk" order="0x10" value="61"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1490"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;32;120"/>
+	</weapon>
+	<weapon id="264" name="Pata">
+		<set name="name-ru" value="Пата"/>
+		<set name="crystal_count" value="1044"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_chakram_i00"/>
+		<set name="price" value="7830000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DUALFIST"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="204"/>
+			<add stat="mAtk" order="0x10" value="89"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1440"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;42;90"/>
+	</weapon>
+	<weapon id="265" name="Fisted Blade">
+		<set name="name-ru" value="Кастетные Клинки"/>
+		<set name="crystal_count" value="1322"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_fist_blade_i00"/>
+		<set name="price" value="3304300"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="DUALFIST"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="169"/>
+			<add stat="mAtk" order="0x10" value="76"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1480"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;90"/>
+	</weapon>
+	<weapon id="266" name="Great Pata">
+		<set name="name-ru" value="Большая Пата"/>
+		<set name="crystal_count" value="1885"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_great_pata_i00"/>
+		<set name="price" value="4713500"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="DUALFIST"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="190"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1460"/>
+		<set name="material_type" value="CHRYSOLITE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;46;90"/>
+	</weapon>
+	<weapon id="267" name="Arthro Nail">
+		<set name="name-ru" value="Коготь Артро"/>
+		<set name="crystal_count" value="891"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_arthro_nail_i00"/>
+		<set name="price" value="6680500"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DUALFIST"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="213"/>
+			<add stat="mAtk" order="0x10" value="91"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1420"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;52;90"/>
+	</weapon>
+	<weapon id="268" name="Bellion Cestus">
+		<set name="name-ru" value="Цестус Беллиона"/>
+		<set name="crystal_count" value="1346"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_bellion_cestus_i00"/>
+		<set name="price" value="10091400"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DUALFIST"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="236"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1390"/>
+		<set name="material_type" value="MITHRIL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;32;120"/>
+	</weapon>
+	<weapon id="269" name="Blood Tornado">
+		<set name="name-ru" value="Кровавое Торнадо"/>
+		<set name="crystal_count" value="1128"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_blood_tornado_i00"/>
+		<set name="price" value="14098000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DUALFIST"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="259"/>
+			<add stat="mAtk" order="0x10" value="107"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1370"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;32;120"/>
+	</weapon>
+	<weapon id="270" name="Dragon Grinder">
+		<set name="name-ru" value="Погибель Дракона"/>
+		<set name="crystal_count" value="1659"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dragon_grinder_i00"/>
+		<set name="price" value="20741000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DUALFIST"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="282"/>
+			<add stat="mAtk" order="0x10" value="114"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1350"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;32;120"/>
+	</weapon>
+	<weapon id="271" name="Hunting Bow">
+		<set name="name-ru" value="Охотничий Лук"/>
+		<set name="atk_reuse" value="1500"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_hunting_bow_i00"/>
+		<set name="mp_consume" value="1"/>
+		<set name="price" value="41600"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="6"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="34"/>
+			<add stat="mAtk" order="0x10" value="12"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="293"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1910"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="272" name="Forest Bow">
+		<set name="name-ru" value="Лесной Лук"/>
+		<set name="atk_reuse" value="1500"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_short_bow_i00"/>
+		<set name="mp_consume" value="1"/>
+		<set name="price" value="105000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="7"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="49"/>
+			<add stat="mAtk" order="0x10" value="17"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="293"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1900"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="273" name="Composite Bow">
+		<set name="name-ru" value="Композитный Лук"/>
+		<set name="atk_reuse" value="1500"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_composition_bow_i00"/>
+		<set name="mp_consume" value="1"/>
+		<set name="price" value="188000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="7"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="64"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="293"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1880"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="274" name="Strengthened Bow">
+		<set name="name-ru" value="Усиленный Лук"/>
+		<set name="atk_reuse" value="1500"/>
+		<set name="crystal_count" value="582"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_strengthening_bow_i00"/>
+		<set name="mp_consume" value="1"/>
+		<set name="price" value="315000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="6"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="82"/>
+			<add stat="mAtk" order="0x10" value="26"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="293"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1870"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="275" name="Long Bow">
+		<set name="name-ru" value="Длинный Лук"/>
+		<set name="atk_reuse" value="820"/>
+		<set name="crystal_count" value="915"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_long_bow_i00"/>
+		<set name="mp_consume" value="2"/>
+		<set name="price" value="495500"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="6"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="114"/>
+			<add stat="mAtk" order="0x10" value="35"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="227"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1830"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="276" name="Elven Bow">
+		<set name="name-ru" value="Эльфийский Лук"/>
+		<set name="atk_reuse" value="1500"/>
+		<set name="crystal_count" value="915"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_elven_bow_i00"/>
+		<set name="mp_consume" value="2"/>
+		<set name="price" value="495500"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="6"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="105"/>
+			<add stat="mAtk" order="0x10" value="32"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="293"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1850"/>
+		<set name="material_type" value="MITHRIL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="277" name="Dark Elven Bow">
+		<set name="name-ru" value="Лук Темных Эльфов"/>
+		<set name="atk_reuse" value="1500"/>
+		<set name="crystal_count" value="915"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dark_elven_bow_i00"/>
+		<set name="mp_consume" value="2"/>
+		<set name="price" value="495500"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="6"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="105"/>
+			<add stat="mAtk" order="0x10" value="32"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="293"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1830"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="278" name="Gastraphetes">
+		<set name="name-ru" value="Гастрафет"/>
+		<set name="atk_reuse" value="1500"/>
+		<set name="crystal_count" value="1373"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_gastraphetes_i00"/>
+		<set name="mp_consume" value="2"/>
+		<set name="price" value="743500"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="8"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="132"/>
+			<add stat="mAtk" order="0x10" value="39"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="293"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1840"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="279" name="Strengthened Long Bow">
+		<set name="name-ru" value="Усиленный Длинный Лук"/>
+		<set name="atk_reuse" value="820"/>
+		<set name="crystal_count" value="1983"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_strengthening_long_bow_i00"/>
+		<set name="mp_consume" value="2"/>
+		<set name="price" value="1074000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="10"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="179"/>
+			<add stat="mAtk" order="0x10" value="51"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="227"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1820"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="280" name="Light Crossbow">
+		<set name="name-ru" value="Легкий Лук"/>
+		<set name="atk_reuse" value="1500"/>
+		<set name="crystal_count" value="2561"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_cyclone_bow_i00"/>
+		<set name="mp_consume" value="2"/>
+		<set name="price" value="1387000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="10"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="191"/>
+			<add stat="mAtk" order="0x10" value="54"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="293"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1810"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="281" name="Crystallized Ice Bow">
+		<set name="name-ru" value="Ледяной Лук"/>
+		<set name="atk_reuse" value="1500"/>
+		<set name="crystal_count" value="705"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_crystallized_ice_bow_i00"/>
+		<set name="mp_consume" value="2"/>
+		<set name="price" value="1762900"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="8"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="220"/>
+			<add stat="mAtk" order="0x10" value="61"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="293"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1790"/>
+		<set name="material_type" value="CRYSTAL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="282" name="Elemental Bow">
+		<set name="name-ru" value="Лук Стихии"/>
+		<set name="atk_reuse" value="820"/>
+		<set name="crystal_count" value="884"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_elemental_bow_i00"/>
+		<set name="mp_consume" value="3"/>
+		<set name="price" value="2209700"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="8"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="277"/>
+			<add stat="mAtk" order="0x10" value="75"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="227"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1770"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="283" name="Akat Long Bow">
+		<set name="name-ru" value="Длинный Лук Аката"/>
+		<set name="atk_reuse" value="820"/>
+		<set name="crystal_count" value="1322"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_akat_long_bow_i00"/>
+		<set name="mp_consume" value="3"/>
+		<set name="price" value="3304300"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="9"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="316"/>
+			<add stat="mAtk" order="0x10" value="84"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="227"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1740"/>
+		<set name="material_type" value="HORN"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="284" name="Dark Elven Long Bow">
+		<set name="name-ru" value="Длинный Лук Темных Эльфов"/>
+		<set name="atk_reuse" value="820"/>
+		<set name="crystal_count" value="891"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dark_elven_long_bow_i00"/>
+		<set name="mp_consume" value="3"/>
+		<set name="price" value="6680500"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="397"/>
+			<add stat="mAtk" order="0x10" value="100"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="227"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1720"/>
+		<set name="material_type" value="ORIHARUKON"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="285" name="Noble Elven Bow">
+		<set name="name-ru" value="Лук Благородных Эльфов"/>
+		<set name="atk_reuse" value="1500"/>
+		<set name="crystal_count" value="884"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_noble_elven_bow_i00"/>
+		<set name="mp_consume" value="3"/>
+		<set name="price" value="2209700"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="8"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="252"/>
+			<add stat="mAtk" order="0x10" value="68"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="293"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1760"/>
+		<set name="material_type" value="MITHRIL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="286" name="Eminence Bow">
+		<set name="name-ru" value="Лук Превосходства"/>
+		<set name="atk_reuse" value="1500"/>
+		<set name="crystal_count" value="1885"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_eminence_bow_i00"/>
+		<set name="mp_consume" value="3"/>
+		<set name="price" value="4713500"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="10"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="323"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="293"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1720"/>
+		<set name="material_type" value="CHRYSOLITE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="287" name="Bow of Peril">
+		<set name="name-ru" value="Лук Угрозы"/>
+		<set name="atk_reuse" value="1500"/>
+		<set name="crystal_count" value="1346"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_hazard_bow_i00"/>
+		<set name="mp_consume" value="4"/>
+		<set name="price" value="10091400"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="400"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="293"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1700"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="288" name="Carnage Bow">
+		<set name="name-ru" value="Кровавый Лук"/>
+		<set name="atk_reuse" value="1500"/>
+		<set name="crystal_count" value="1128"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_carnium_bow_i00"/>
+		<set name="mp_consume" value="4"/>
+		<set name="price" value="14098000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="440"/>
+			<add stat="mAtk" order="0x10" value="107"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="293"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1670"/>
+		<set name="material_type" value="DAMASCUS"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="289" name="Soul Bow">
+		<set name="name-ru" value="Пронзатель Душ"/>
+		<set name="atk_reuse" value="820"/>
+		<set name="crystal_count" value="1659"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_soul_bow_i00"/>
+		<set name="mp_consume" value="5"/>
+		<set name="price" value="20741000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="528"/>
+			<add stat="mAtk" order="0x10" value="125"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="227"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1660"/>
+		<set name="material_type" value="ORIHARUKON"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="290" name="The Bow">
+		<set name="name-ru" value="Лук"/>
+		<set name="atk_reuse" value="1500"/>
+		<set name="crystal_count" value="1765"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_shining_bow_i00"/>
+		<set name="mp_consume" value="5"/>
+		<set name="price" value="35300000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="519"/>
+			<add stat="mAtk" order="0x10" value="121"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="293"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1650"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="291" name="Trident">
+		<set name="name-ru" value="Трезубец"/>
+		<set name="crystal_count" value="582"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_trident_i00"/>
+		<set name="price" value="315000"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="POLE"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="40"/>
+			<add stat="mAtk" order="0x10" value="26"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="2100"/>
+		<set name="material_type" value="BRONZE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;66;120"/>
+	</weapon>
+	<weapon id="292" name="Pike">
+		<set name="name-ru" value="Гизарма"/>
+		<set name="crystal_count" value="915"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_pike_i00"/>
+		<set name="price" value="495500"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="POLE"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="51"/>
+			<add stat="mAtk" order="0x10" value="32"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="2090"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;66;120"/>
+	</weapon>
+	<weapon id="293" name="War Hammer">
+		<set name="name-ru" value="Молот Войны"/>
+		<set name="crystal_count" value="1373"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_war_hammer_i00"/>
+		<set name="price" value="743500"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="POLE"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="64"/>
+			<add stat="mAtk" order="0x10" value="39"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="2080"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;66;120"/>
+	</weapon>
+	<weapon id="294" name="War Pick">
+		<set name="name-ru" value="Молот Смерти"/>
+		<set name="crystal_count" value="1983"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_hammer_in_flames_i00"/>
+		<set name="price" value="1074000"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="POLE"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="79"/>
+			<add stat="mAtk" order="0x10" value="47"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="2050"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;66;120"/>
+	</weapon>
+	<weapon id="295" name="Dwarven Trident">
+		<set name="name-ru" value="Трезубец Гномов"/>
+		<set name="crystal_count" value="915"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dwarven_trident_i00"/>
+		<set name="price" value="495500"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="POLE"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="51"/>
+			<add stat="mAtk" order="0x10" value="32"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="2090"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;66;120"/>
+	</weapon>
+	<weapon id="296" name="Dwarven Pike">
+		<set name="name-ru" value="Гизарма Гномов"/>
+		<set name="crystal_count" value="1373"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_dwarven_pike_i00"/>
+		<set name="price" value="743500"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="POLE"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="64"/>
+			<add stat="mAtk" order="0x10" value="39"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="2070"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;66;120"/>
+	</weapon>
+	<weapon id="297" name="Glaive">
+		<set name="name-ru" value="Глефа"/>
+		<set name="crystal_count" value="2561"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_glaive_i00"/>
+		<set name="price" value="1387000"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="POLE"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="92"/>
+			<add stat="mAtk" order="0x10" value="54"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="2050"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;66;120"/>
+	</weapon>
+	<weapon id="298" name="Orcish Glaive">
+		<set name="name-ru" value="Глефа Орков"/>
+		<set name="crystal_count" value="705"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_orcish_glaive_i00"/>
+		<set name="price" value="1762900"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="POLE"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="107"/>
+			<add stat="mAtk" order="0x10" value="61"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="2030"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;66;120"/>
+	</weapon>
+	<weapon id="299" name="Orcish Poleaxe">
+		<set name="name-ru" value="Секира Орков"/>
+		<set name="crystal_count" value="1885"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_orcish_poleaxe_i00"/>
+		<set name="price" value="4713500"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="POLE"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="156"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1950"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;66;120"/>
+	</weapon>
+</list>

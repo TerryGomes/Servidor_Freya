@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- 
+id - порядковый номер Костюма
+если костюм без каких либо частей вместо айди этой части указываем 0;
+id костюмой и оружия идут с 1 и должны быть по порядку.
+ -->
+<list>
+	<dress id="1" chestId="14525" glovlesId="13455" bootsId="13456" headId="13142" legsId="13454" priceId="57" priceCount="1000" />  <!-- Vesper Noble Set -->
+	<weapon id="2" weaponId="13457" priceId="57" priceCount="1000" />  <!-- Это чисто пример!!!Это чисто пример!!! -->
+	<shield id="3" shieldId="16321" priceId="57" priceCount="1000" /> <!-- Это чисто пример!!! -->
+</list>

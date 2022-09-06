@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+    <!-- Blacksmith Ishuma - Upgrade Vesper Armor to Vesper Noble Armor -->
+    <config showall="false" notax="false" keepenchanted="true" />
+    <!-- Vesper Noble Helmet -->
+    <item>
+        <ingredient id="13137" count="1"/>
+        <ingredient id="14052" count="430"/>
+        <production id="13140" count="1"/>
+    </item>
+    <!-- Vesper Noble Breastplate -->
+    <item>
+        <ingredient id="13432" count="1"/>
+        <ingredient id="14052" count="1150"/>
+        <production id="13435" count="1"/>
+    </item>
+    <!-- Vesper Noble Gaiters -->
+    <item>
+        <ingredient id="13438" count="1"/>
+        <ingredient id="14052" count="720"/>
+        <production id="13448" count="1"/>
+    </item>
+    <!-- Vesper Noble Gauntlet -->
+    <item>
+        <ingredient id="13439" count="1"/>
+        <ingredient id="14052" count="290"/>
+        <production id="13449" count="1"/>
+    </item>
+    <!-- Vesper Noble Boots -->
+    <item>
+        <ingredient id="13440" count="1"/>
+        <ingredient id="14052" count="290"/>
+        <production id="13450" count="1"/>
+    </item>
+    <!-- Vesper Noble Noble Leather Helmet -->
+    <item>
+        <ingredient id="13138" count="1"/>
+        <ingredient id="14052" count="430"/>
+        <production id="13141" count="1"/>
+    </item>
+    <!-- Vesper Noble Leather Breastplate -->
+    <item>
+        <ingredient id="13433" count="1"/>
+        <ingredient id="14052" count="860"/>
+        <production id="13436" count="1"/>
+    </item>
+    <!-- Vesper Noble Leather Leggings -->
+    <item>
+        <ingredient id="13441" count="1"/>
+        <ingredient id="14052" count="540"/>
+        <production id="13451" count="1"/>
+    </item>
+    <!-- Vesper Noble Leather Gloves -->
+    <item>
+        <ingredient id="13442" count="1"/>
+        <ingredient id="14052" count="290"/>
+        <production id="13452" count="1"/>
+    </item>
+    <!-- Vesper Noble Leather Boots -->
+    <item>
+        <ingredient id="13443" count="1"/>
+        <ingredient id="14052" count="290"/>
+        <production id="13453" count="1"/>
+    </item>
+    <!-- Vesper Noble Noble Circlet -->
+    <item>
+        <ingredient id="13139" count="1"/>
+        <ingredient id="14052" count="430"/>
+        <production id="13142" count="1"/>
+    </item>
+    <!-- Vesper Noble Tunic -->
+    <item>
+        <ingredient id="13434" count="1"/>
+        <ingredient id="14052" count="860"/>
+        <production id="13437" count="1"/>
+    </item>
+    <!-- Vesper Noble Stockings -->
+    <item>
+        <ingredient id="13444" count="1"/>
+        <ingredient id="14052" count="540"/>
+        <production id="13454" count="1"/>
+    </item>
+    <!-- Vesper Noble Gloves -->
+    <item>
+        <ingredient id="13445" count="1"/>
+        <ingredient id="14052" count="290"/>
+        <production id="13455" count="1"/>
+    </item>
+    <!-- Vesper Noble Shoes -->
+    <item>
+        <ingredient id="13446" count="1"/>
+        <ingredient id="14052" count="290"/>
+        <production id="13456" count="1"/>
+    </item>
+</list>

@@ -1,0 +1,2792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<message key="LangFull">
+		<en>English</en>
+		<ru>Русский</ru>
+	</message>
+	<message key="LangShort">
+		<en>en</en>
+		<ru>ru</ru>
+	</message>
+	<message key="scripts.zones.Beleth.banishMsg">
+		<en>Bug use ugly, next time will be banned !!!</en>
+		<ru>Баг использовать некрасиво, следующий раз будет бан!!!</ru>
+	</message>
+	<message key="THE_SERVER_WILL_BE_COMING_DOWN_IN_S1_MINUTES">
+		<en>The server will be coming down in {0} minute(s).</en>
+		<ru>Сервер будет отключен через {0} мин.</ru>
+	</message>
+	<message key="THE_SERVER_WILL_BE_COMING_RESTART_IN_S1_MINUTES">
+		<en>The server will be restarted in {0} minute(s).</en>
+		<ru>Сервер будет перезагружен через {0} мин.</ru>
+	</message>
+	<message key="THE_SERVER_WILL_BE_COMING_RESTART_IN_S1_SECONDS">
+		<en>The server will be restarted in $s1 second(s).  Please find a safe place to log out.</en>
+		<ru>Сервер будет перезагружен через {0} сек. Пожалуйста, выйдите из игры.</ru>
+	</message>
+	<message key="THE_SERVER_SHUTDOWN_CANCEL">
+		<en>The server shutdown will be canceled.</en>
+		<ru>Отключение сервера было отменено.</ru>
+	</message>
+	<message key="THE_SERVER_RESTART_CANCEL">
+		<en>The server restart will be canceled.</en>
+		<ru>Перезагрузка сервера была отменена.</ru>
+	</message>
+	<message key="YOU_HAVE_RESTORED_S1_HP_OF_YOUR_PET">
+		<en>You have restored {0} HP of your pet.</en>
+		<ru>Вы восстановили {0} HP вашему питомцу.</ru>
+	</message>
+	<message key="S1_HAS_BEEN_RESTORED_S2_HP_OF_YOUR_PET">
+		<en>{0} has been restored {1} HP of your pet.</en>
+		<ru>{0} восстановил {1} HP вашему питомцу.</ru>
+	</message>
+	<message key="common.Error">
+		<en>Error.</en>
+		<ru>Ошибка.</ru>
+	</message>
+	<message key="common.Enable">
+		<en>Enable</en>
+		<ru>Включить</ru>
+	</message>
+	<message key="common.Disable">
+		<en>Disable</en>
+		<ru>Выключить</ru>
+	</message>
+	<message key="common.OnlyFullVersion">
+		<en>Not available in demo version.</en>
+		<ru>Эта функция недоступна в демо версии.</ru>
+	</message>
+	<message key="common.NotImplemented">
+		<en>Not implemented yet.</en>
+		<ru>Эта функция еще не реализована.</ru>
+	</message>
+	<message key="common.Disabled">
+		<en>Function disabled.</en>
+		<ru>Эта функция отключена.</ru>
+	</message>
+	<message key="common.S1NotImplemented">
+		<en>{0} is not implemented yet.</en>
+		<ru>Функция {0} еще не реализована.</ru>
+	</message>
+	<message key="common.PremiumOnly">
+		<en>This requres high Luck!</en>
+		<ru>Сперва следует повысить свою удачу!</ru>
+	</message>
+	<message key="common.Privilleges">
+		<en>You don't have the right privilleges to do this.</en>
+		<ru>У Вас нет достаточно прав для этого.</ru>
+	</message>
+	<message key="common.IntegerAmount">
+		<en>You must enter an integer amount.</en>
+		<ru>Вы должны ввести целое число.</ru>
+	</message>
+	<message key="common.LimitedAmount">
+		<en>The amount is limited by {0}.</en>
+		<ru>Лимит ограничен: {0}.</ru>
+	</message>
+	<message key="common.Trap">
+		<en>Trap!!!</en>
+		<ru>Ловушка!!!</ru>
+	</message>
+	<message key="common.TryLater">
+		<en>Try later.</en>
+		<ru>Попробуйте позже.</ru>
+	</message>
+	<message key="common.TradeBanned">
+		<en>Your trade is banned! Expires: {0}.</en>
+		<ru>Вам запрещена торговля! Дата окончания блокировки: {0}.</ru>
+	</message>
+	<message key="common.TradeBannedPermanently">
+		<en>The administrator has forbidden you to trade permanently.</en>
+		<ru>Администратор запретил вам торговать на бессрочный период.</ru>
+	</message>
+	<message key="common.ChatBanned">
+		<en>You are banned in all chats, time remained {0} min.</en>
+		<ru>Ваш чат забанен. До снятия бана осталось {0} минут.</ru>
+	</message>
+	<message key="common.ChatBannedPermanently">
+		<en>You are banned in all chats permanently.</en>
+		<ru>Ваш чат забанен на бессрочный период.</ru>
+	</message>
+	<message key="common.ChatBannedWithReason">
+		<en>You are banned in all chats, reason: {1}, time remained {0} min.</en>
+		<ru>Ваш чат забанен, причина: {1}. До снятия бана осталось {0} минут.</ru>
+	</message>
+	<message key="common.ChatBannedPermanentlyWithReason">
+		<en>You are banned in all chats permanently, reason: {0}.</en>
+		<ru>Ваш чат забанен на бессрочный период, причина: {0}.</ru>
+	</message>
+	<message key="common.ChatUnBanned">
+		<en>You are unbanned all chats.</en>
+		<ru>Бан чата снят.</ru>
+	</message>
+	<message key="common.RecallInDuel">
+		<en>You cannot use escape skills during a duel participation.</en>
+		<ru>Во время дуэли телепортация невозможна.</ru>
+	</message>
+	<message key="common.RecallInPvPEvent">
+		<en>You cannot use escape skills during a pvp event participation.</en>
+		<ru>Во время ПвП ивента телепортация невозможна.</ru>
+	</message>
+	<message key="common.command404">
+		<en>Command not found.</en>
+		<ru>Команда не найдена.</ru>
+	</message>
+	<message key="chat.NotHavePermission">
+		<en>In order to write messages in this chat channel you should be level {0}.</en>
+		<ru>Для того, чтобы писать сообщения в данный чат, вам требуется получить {0} уровень.</ru>
+	</message>
+	<message key="common.ChattingProhibited">
+		<en>Chatting is currently prohibited.</en>
+		<ru>Вам запрещено отправлять сообщения в этот чат.</ru>
+	</message>
+	<message key="common.ChattingProhibitedForNiewbies">
+		<en>This chat is prohibited for newbies.</en>
+		<ru>Этот чат недоступен для новичков.</ru>
+	</message>
+	<message key="common.ChattingFast">
+		<en>You are chatting too fast.</en>
+		<ru>Вы слишком часто отправляете сообщения в это чат.</ru>
+	</message>
+	<message key="common.ChattingHero">
+		<en>Hero chat available once in 10 seconds.</en>
+		<ru>Геройский чат доступен раз в 10 секунд.</ru>
+	</message>
+	<message key="common.RecallInDuel">
+		<en>You cannot use escape skills during a duel or during event participation.</en>
+		<ru>Во время дуэли или ивента телепортация невозможна.</ru>
+	</message>
+	<message key="common.CommandNotFound">
+		<en>Command not found.</en>
+		<ru>Команда не найдена.</ru>
+	</message>
+	<message key="common.PlayerInOfflineTrade">
+		<en>Player is in offline trade.</en>
+		<ru>Игрок в режиме оффлайн торговли.</ru>
+	</message>
+	<message key="common.pk.kill">
+		<en>{0} mercilessly killed in the PK {1}.</en>
+		<ru>{0} беспощадно убил в PK {1}.</ru>
+	</message>
+	<message key="common.pk.youkill">
+		<en>You mercilessly kill in the PK {1}.</en>
+		<ru>Вы беспощадно убили в PK {0}.</ru>
+	</message>
+	<message key="common.pvp.kill">
+		<en>{0} killed {1} in a fair fight.</en>
+		<ru>{0} убил {1} в честном бою.</ru>
+	</message>
+	<message key="common.pvp.youkill">
+		<en>You kill {0} in a fair fight.</en>
+		<ru>Вы убили {0} в честном бою.</ru>
+	</message>
+	<message key="common.pk.pvp.kill.reward">
+		<en>For the kill player {0} you received "{1}" in the amount of {2}.</en>
+		<ru>За убийство игрока {0} вы получили "{1}" в количестве {2}.</ru>
+	</message>
+	<message key="mail.Disabled">
+		<en>Mail disabled.</en>
+		<ru>Почта отключена.</ru>
+	</message>
+	<message key="mail.Level">
+		<en>In order to use mail you should be level {0}.</en>
+		<ru>Для того, чтобы воспользоватся почтой, вам требуется получить {0} уровень.</ru>
+	</message>
+	<message key="trade.NotHavePermission">
+		<en>To open private store/craft you should be level {0}.</en>
+		<ru>Для того, чтобы сесть на торговлю/крафт, вам нужно получить {0} уровень.</ru>
+	</message>
+	<message key="trade.OfflineNoTradeZone">
+		<en>You cannot trade offline in this zone.</en>
+		<ru>Вы не можете торговать в оффлайне в этой зоне.</ru>
+	</message>
+	<message key="trade.OfflineNoTradeZoneOnlyOffshore">
+		<en>You cannot trade offline in this zone. Offline trade allowed only in Giran Harbor or Parnassus.</en>
+		<ru>Вы не можете торговать в оффлайне в этой зоне. Торговать можно только в Giran Harbor или Parnassus.</ru>
+	</message>
+	<message key="trade.HavePaidTax">
+		<en>You have paid the trade tax at a rate of {0} adena.</en>
+		<ru>Вы заплатили торговый налог в размере {0} аден.</ru>
+	</message>
+	<message key="trade.OtherTradersNear">
+		<en>There are other traders near you. You cannot trade here.</en>
+		<ru>Поблизости присутствуют другие торговцы или npc. Вы не можете торговать здесь.</ru>
+	</message>
+	<message key="olympiad.skipCountdown.allSayYes">
+		<en>A participant have agreed to skip the waiting time. The match will begin now.</en>
+		<ru>Участники согласилсь пропустить время ожидания. Матч сейчас начнется.</ru>
+	</message>
+	<message key="olympiad.skipCountdown.agreesLeft">
+		<en>A participant have agreed to skip the waiting time. {0} player(s) left to agree.</en>
+		<ru>Участник согласился пропустить время ожидания. {0} игроков согласилось.</ru>
+	</message>
+	<message key="olympiad.skipCountdown.allSayNo">
+		<en>A participant have declined to skip the waiting time.</en>
+		<ru>Участник отказался пропускать время ожидания.</ru>
+	</message>
+	<message key="olympiad.skipCountdown.ask">
+		<en>Would you like to skip the olympiad match begin time?</en>
+		<ru>Вы хотите пропустить время начала матча олимпиады?</ru>
+	</message>
+	<message key="multisell.Disabled">
+		<en>This store is disabled.</en>
+		<ru>Этот магазин отключен.</ru>
+	</message>
+	<message key="admincommandhandlers.AdminBan.YoureBannedByGM">
+		<en>You are banned by GM.</en>
+		<ru>Вас забанил ГМ.</ru>
+	</message>
+	<message key="admincommandhandlers.AdminDisconnect.YoureKickedByGM">
+		<en>You are kicked by GM.</en>
+		<ru>ГМ выкинул Вас из игры.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Debug.Enabled">
+		<en>Debug mode enabled.</en>
+		<ru>Режим отладки включен.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Debug.Disabled">
+		<en>Debug mode disabled.</en>
+		<ru>Режим отладки выключен.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Help.ExpLeft">
+		<en>You have {0} experience left to reach next level.</en>
+		<ru>Вам осталось набрать {0} опыта для достижения следующего уровня.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Help.MaxLevel">
+		<en>You are at maximum level.</en>
+		<ru>Вы достигли максимального уровня.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Repair.YouCanRepairOnlyOnSameAccount">
+		<en>You can repair character only on same account.</en>
+		<ru>Вы можете восстановить персонажа только с текущего аккаунта.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Repair.YouCantRepairYourself">
+		<en>You cannot repair yourself.</en>
+		<ru>Вы не можете восстановить себя.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Repair.CharIsOnline">
+		<en>Character is still online.</en>
+		<ru>Персонаж все еще в игре.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Repair.RepairDone">
+		<en>Character successfully repaired.</en>
+		<ru>Восстановление успешно завершено.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Repair.Help">
+		<en>Charact.repair &lt;name&gt;.</en>
+		<ru>.repair &lt;имя&gt;.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Wedding.AskEngage">
+		<en>Player {0} asking you to engage. Do you want to start new relationship?</en>
+		<ru>Игрок {0} просит о помолвке. Хотите начать отношения?</ru>
+	</message>
+	<message key="voicedcommandhandlers.Wedding.Divorced">
+		<en>You are divorced now.</en>
+		<ru>Вы развелись.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Wedding.Disengaged">
+		<en>You are disengaged now.</en>
+		<ru>Помолвка разорвана.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Wedding.PartnerDivorce">
+		<en>Your Partner has decided to divorce from you.</en>
+		<ru>Ваш партнер решил развестись.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Wedding.PartnerDisengage">
+		<en>Your Partner has decided to disengage.</en>
+		<ru>Ваш партнер решил разорвать помолвку.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Wedding.NoneTargeted">
+		<en>You have none targeted.</en>
+		<ru>Не выбран игрок.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Wedding.OnlyAnotherPlayer">
+		<en>You can only ask another Player for partnership.</en>
+		<ru>Вы можете спрашивать только игроков.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Wedding.AlreadyEngaged">
+		<en>You are already engaged.</en>
+		<ru>Вы уже обручены!</ru>
+	</message>
+	<message key="voicedcommandhandlers.Wedding.EngagingYourself">
+		<en>Engaging with yourself?</en>
+		<ru>Самому с собой нельзя.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Wedding.PlayerAlreadyMarried">
+		<en>Already married.</en>
+		<ru>Игрок уже женат.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Wedding.PlayerAlreadyEngaged">
+		<en>Is already engaged with someone else.</en>
+		<ru>Игрок уже помолвлен с кем-то другим.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Wedding.PlayerAlreadyAsked">
+		<en>Already asked by someone else.</en>
+		<ru>Игрок уже получил предложение от другого.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Wedding.SameSex">
+		<en>You cant ask partners of same sex.</en>
+		<ru>Однополые браки запрещены.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Wedding.NotInFriendlist">
+		<en>The Person you wanna ask hasn't added you on the friendlist.</en>
+		<ru>Игрок которому Вы делаете предложение не находится в Вашем списке друзей.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Wedding.YoureNotMarried">
+		<en>You are not married.</en>
+		<ru>Вы не женаты (за мужем).</ru>
+	</message>
+	<message key="voicedcommandhandlers.Wedding.PartnerNotInDB">
+		<en>Couldn't find your Partner in Database - Inform a Gamemaster.</en>
+		<ru>Не удаеться найти вашу вторую половинку в базе, пожалуйста информируйте об этом ГМ.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Wedding.PartnerOffline">
+		<en>Youre Partner is not online.</en>
+		<ru>Ваш партнер не в игре.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Wedding.Teleport">
+		<en>After {0} min. you will be teleported to your Love.</en>
+		<ru>Через {0} мин. Вы будете телепортированы к Вашей половинке.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Offline.Disabled">
+		<en>This command is disabled.</en>
+		<ru>Данная комaнда отключена.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Offline.LowLevel">
+		<en>Minimal level to use this service {0}.</en>
+		<ru>Минимальный уровень для использования этой команды {0}.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Offline.IncorrectUse">
+		<en>his command useable only in private store mode.</en>
+		<ru>Эта комaнда может использоватся только в режиме приватного магазина.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Offline.NotEnough">
+		<en>Price of this service {0} {1}.</en>
+		<ru>Для использования этой функции необходимо заплатить {0} {1}.</ru>
+	</message>
+	<message key="voicedcommandhandlers.Offline.BanChat">
+		<en>You can't use this service while your chat is banned.</en>
+		<ru>Вы не можете пользоваться этой функцией, пока ваш чат забанен.</ru>
+	</message>
+	<message key="scripts.handler.voicecommands.password.IncorrectConfirmation">
+		<en>Confirmation of new pass failed.</en>
+		<ru>Подтверждение пароля не совпадает.</ru>
+	</message>
+	<message key="scripts.handler.voicecommands.password.IncorrectInput">
+		<en>Password can be letter or digit only.</en>
+		<ru>Пароль может состоять только из цифр и букв.</ru>
+	</message>
+	<message key="scripts.handler.voicecommands.password.IncorrectSize">
+		<en>Password's lenght must be more than 5 and lesser 20 symbols.</en>
+		<ru>Длинна пароля должна быть от 5 до 20 знаков.</ru>
+	</message>
+	<message key="scripts.handler.voicecommands.password.IncorrectValues">
+		<en>Password wasn't changed. Please use ".password oldpass newpass newpass".</en>
+		<ru>Пароль не изменен. Пожалуйста введите ".password старый_пароль новый_пароль новый_пароль".</ru>
+	</message>
+	<message key="scripts.handler.voicecommands.password.NewPassIsOldPass">
+		<en>Old password equals new password!</en>
+		<ru>Старый пароль эквивалентен новому, операция отменена.</ru>
+	</message>
+	<message key="scripts.handler.voicecommands.password.Resultfalse">
+		<en>Password not changed.</en>
+		<ru>Пароль не изменен.</ru>
+	</message>
+	<message key="scripts.handler.voicecommands.password.Resulttrue">
+		<en>Password changed.</en>
+		<ru>Пароль успешно изменен.</ru>
+	</message>
+    <message key="scripts.handler.voicecommands.offline.AskPlayer">
+        <ru>Вы хотите включить режим оффлайн торговли?</ru>
+        <en>Do you want to make offline shop?</en>
+    </message>
+	<message key="usercommandhandlers.CommandChannel">
+		<en>Use /channelinvite &lt;player&gt; to create a Command Channel.</en>
+		<ru>Используйте команду /channelinvite &lt;игрок&gt; для создания командного канала.</ru>
+	</message>
+	<message key="usercommandhandlers.PartyInfo.Members">
+		<en>Members: {0}/9.</en>
+		<ru>Членов: {0}/9.</ru>
+	</message>
+	<message key="usercommandhandlers.Time.ServerTime">
+		<en>Server time is {0}.</en>
+		<ru>Время сервера {0}.</ru>
+	</message>
+	<message key="scripts.services.NPCBuffer.Buffer.selectBuffs">
+		<en>Show me your buffs.</en>
+		<ru>Покажи мне возможные бафы.</ru>
+	</message>
+	<message key="scripts.services.NPCBuffer.Buffer.selectShop">
+		<en>Show me GMShop.</en>
+		<ru>Покажи мне ГМШоп.</ru>
+	</message>
+	<message key="scripts.services.RateBonus.LuckEnded">
+		<en>Your luck is now at normal value.</en>
+		<ru>Ваша удача вернулась к обычному состоянию.</ru>
+	</message>
+	<message key="scripts.services.Rename">
+		<en>Rename character.</en>
+		<ru>Сменить имя.</ru>
+	</message>
+	<message key="scripts.services.Rename.RenameFor">
+		<en>Rename character for {0} {1}.</en>
+		<ru>Сменить имя за {0} {1}.</ru>
+	</message>
+	<message key="scripts.services.Rename.NewName">
+		<en>New name:</en>
+		<ru>Новое имя:</ru>
+	</message>
+	<message key="scripts.services.Rename.RenameButton">
+		<en>Rename</en>
+		<ru>Сменить</ru>
+	</message>
+	<message key="scripts.services.Rename.incorrectinput">
+		<en>Incorrect input.</en>
+		<ru>Некорректные данные.</ru>
+	</message>
+	<message key="scripts.services.Rename.Thisnamealreadyexists">
+		<en>This name already exists.</en>
+		<ru>Такое имя уже существует.</ru>
+	</message>
+	<message key="scripts.services.Rename.changedname">
+		<en>You changed name from {0} to {1}</en>
+		<ru>Вы сменили имя с {0} на {1}</ru>
+	</message>
+	<message key="scripts.services.Rename.SiegeNow">
+		<en>Can't do that because siege in progress.</en>
+		<ru>Невозможно во время осады.</ru>
+	</message>
+	<message key="scripts.services.SexChange">
+		<en>Change sex.</en>
+		<ru>Смена пола.</ru>
+	</message>
+	<message key="scripts.services.SexChange.SexChangeFor">
+		<en>Change character sex for {0} {1}. Not available for Kamael.</en>
+		<ru>Сменить пол персонажа за {0} {1}. После смены необходимо будет перезайти. Недоступно для Камаэлей.</ru>
+	</message>
+	<message key="scripts.services.SexChange.Button">
+		<en>Change</en>
+		<ru>Сменить</ru>
+	</message>
+	<message key="scripts.services.BaseChange.Price">
+		<en>Change character base class {0} {1}. Not available for some classes.</en>
+		<ru>Сменить базовый класс за {0} {1}. После смены клиент автоматически закроется. Недоступно для некоторых комбинаций классов.</ru>
+	</message>
+	<message key="scripts.services.BaseChange.Button">
+		<en>Change to {0}</en>
+		<ru>Сменить на {0}</ru>
+	</message>
+	<message key="scripts.services.BaseChange.NotPossible">
+		<en>Not available.</en>
+		<ru>Невозможно сменить класс.</ru>
+	</message>
+	<message key="scripts.services.Separate.Price">
+		<en>Separate subclass for {0} {1}. Inspector and Judicator can't be separated. You must specify name of existing level 1 character from same account:</en>
+		<ru>Вынести сабкласс на отдельного персонажа за {0} {1}. После выноса клиент автоматически закроется. Inspector и Judicator не могут быть вынесены. Вы должны указать имя существующего персонажа 1 уровня с этого же аккаунта:</ru>
+	</message>
+	<message key="scripts.services.Separate.Button">
+		<en>Separate {0}</en>
+		<ru>Вынести {0}</ru>
+	</message>
+	<message key="scripts.services.SubclassSkills.SkillsDeleted">
+		<en>Skills deleted</en>
+		<ru>Скиллы удалены</ru>
+	</message>
+	<message key="scripts.events.RabbitsToRiches.sack">
+		<en>Get a full bag.</en>
+		<ru>Получить полноценный мешочек.</ru>
+	</message>
+	<message key="scripts.events.RabbitsToRiches.AnnounceEventStarted">
+		<en>The event 'Rabbits To Riches' started. Please speak with Snow, which you can find it the town.</en>
+		<ru>Начался ивент 'Rabbits To Riches'. Подробности можно узнать у Snow, которого Вы сможете найти в ближайшем городе.</ru>
+	</message>
+	<message key="scripts.events.RabbitsToRiches.AnnounceEventStoped">
+		<en>The event 'Rabbits To Riches' stopped.</en>
+		<ru>Ивент 'Rabbits To Riches' закончен.</ru>
+	</message>
+	<message key="scripts.events.CofferofShadows.buycoffer">
+		<en>Buy Coffer of Shadows for {0} Adena.</en>
+		<ru>Купить сундук теней за {0} Аден.</ru>
+	</message>
+	<message key="scripts.events.CofferofShadows.buycoffers">
+		<en>Buy {0} Coffers of Shadows for {1} Adena.</en>
+		<ru>Купить {0} сундуков теней за {1} Аден.</ru>
+	</message>
+	<message key="scripts.events.CofferofShadows.AnnounceEventStarted">
+		<en>The event 'Coffer of Shadows' started. Please speak with Omega's Cat, which you can find it the town.</en>
+		<ru>Начался ивент 'Coffer of Shadows'. Подробности можно узнать у Omega's Cat, которого Вы сможете найти в ближайшем городе.</ru>
+	</message>
+	<message key="scripts.events.CofferofShadows.AnnounceEventStoped">
+		<en>The event 'Coffer of Shadows' stopped.</en>
+		<ru>Ивент 'Coffer of Shadows' закончен.</ru>
+	</message>
+	<message key="scripts.events.TrickOfTrans.AnnounceEventStarted">
+		<en>Event 'Trick Of Trans' started.</en>
+		<ru>Начался ивент 'Trick Of Trans'.</ru>
+	</message>
+	<message key="scripts.events.TrickOfTrans.AnnounceEventStoped">
+		<en>Event 'Trick Of Trans' stopped.</en>
+		<ru>Ивент 'Trick Of Trans' закончен.</ru>
+	</message>
+	<message key="scripts.events.MasOfEnch.AnnounceEventStarted">
+		<en>The event 'Master of Enchanting' started. Please speak with Master Yogi, which you can find in the town.</en>
+		<ru>Начался ивент 'Master of Enchanting'. Подробности можно узнать у Master Yogi, которого Вы сможете найти в ближайшем городе.</ru>
+	</message>
+	<message key="scripts.events.MasOfEnch.AnnounceEventStoped">
+		<en>The event 'Master of Enchanting' stopped.</en>
+		<ru>Ивент 'Master of Enchanting' закончен.</ru>
+	</message>
+	<message key="scripts.events.GiftOfVitality.AnnounceEventStarted">
+		<en>The evil has come to the lands of Aden! Jack the Sage has returned to help all adventurers in fight. Visit him at all major towns to receive the Gift of Vitality.</en>
+		<ru>Зло пришло в земли Адена! Мудрец Jack вернулся чтобы помочь в этом сражении. Нанесите ему визит в любом городе.</ru>
+	</message>
+	<message key="scripts.events.GiftOfVitality.AnnounceEventStoped">
+		<en>Jack the Sage has left the world for now and Gift of Vitality event has ended.</en>
+		<ru>Мудрец Jack исчез и ивент Gift of Vitality закончился.</ru>
+	</message>
+	<message key="scripts.events.March8.AnnounceEventStarted">
+		<en>Event began on March 8. Congratulations to the female population of the server on a holiday!</en>
+		<ru>Начался ивент, посвященный 8 марта. Поздравляем женское население сервера с праздником!</ru>
+	</message>
+	<message key="scripts.events.March8.AnnounceEventStoped">
+		<en>Event on March 8 has ended.</en>
+		<ru>Ивент, посвященный 8 марта закончен.</ru>
+	</message>
+	<message key="scripts.events.March8.buyrecipe">
+		<en>Buy recipe for {0} Adena.</en>
+		<ru>Купить рецепт за {0} аден.</ru>
+	</message>
+	<message key="scripts.events.March8.buyrecipes">
+		<en>Buy {0} recipes for {1} Adena.</en>
+		<ru>Купить {0} рецептов за {1} Аден.</ru>
+	</message>
+	<message key="scripts.events.FreyaEvent.AnnounceEventStarted">
+		<en>The event 'Freya Celebration' started.</en>
+		<ru>Начался ивент 'Freya Celebration'.</ru>
+	</message>
+	<message key="scripts.events.FreyaEvent.AnnounceEventStoped">
+		<en>The event 'Freya Celebration' stopped.</en>
+		<ru>Ивент 'Freya Celebration' закончен.</ru>
+	</message>
+	<message key="scripts.events.TheFallHarvest.AnnounceEventStarted">
+		<en>The event 'The Fall Harvest' started.</en>
+		<ru>Начался ивент 'The Fall Harvest'.</ru>
+	</message>
+	<message key="scripts.events.TheFallHarvest.AnnounceEventStoped">
+		<en>The event 'The Fall Harvest' stopped.</en>
+		<ru>Ивент 'The Fall Harvest' закончен.</ru>
+	</message>
+	<message key="scripts.events.TheFallHarvest.SquashAI.textOnSpawn.0">
+		<en>I only have to drink nectar to be able to grow up...</en>
+		<ru>Чтобы расти мне нужно пить только нектар...</ru>
+	</message>
+	<message key="scripts.events.TheFallHarvest.SquashAI.textOnSpawn.1">
+		<en>Come, believe me, sprinkle a nectar! I can certainly turn the big pumpkin!!!</en>
+		<ru>Полей меня нектаром! Я стану большой тыквой!</ru>
+	</message>
+	<message key="scripts.events.TheFallHarvest.SquashAI.textOnSpawn.2">
+		<en>Take nectar to come, pumpkin nectar!</en>
+		<ru>Принеси мне нектар!</ru>
+	</message>
+	<message key="scripts.events.SummerMeleons.AnnounceEventStarted">
+		<en>The event 'Summer Meleons' started.</en>
+		<ru>Начался ивент 'Summer Meleons'.</ru>
+	</message>
+	<message key="scripts.events.SummerMeleons.AnnounceEventStoped">
+		<en>The event 'Summer Meleons' stopped.</en>
+		<ru>Ивент 'Summer Meleons' закончен.</ru>
+	</message>
+	<message key="scripts.events.SummerMeleons.MeleonAI.textOnSpawn.0">
+		<en>I only have to drink nectar to be able to grow up...</en>
+		<ru>Чтобы расти мне нужно пить только нектар...</ru>
+	</message>
+	<message key="scripts.events.SummerMeleons.MeleonAI.textOnSpawn.1">
+		<en>Come, believe me, sprinkle a nectar! I can certainly turn the rain watermeleon!!!</en>
+		<ru>Полей меня нектаром! Я стану большим арбузом!</ru>
+	</message>
+	<message key="scripts.events.SummerMeleons.MeleonAI.textOnSpawn.2">
+		<en>Take nectar to come, watermeleon nectar!</en>
+		<ru>Принеси мне нектар!</ru>
+	</message>
+	<message key="scripts.events.BattleForGlory.AnnounceEventStarted">
+		<en>The event 'Battle For Glory' started.</en>
+		<ru>Начался ивент 'Battle for Glory'. Поговорите с Priest of Resurrection в Адене или Руне.</ru>
+	</message>
+	<message key="scripts.events.BattleForGlory.AnnounceEventStoped">
+		<en>The event 'Battle For Glory' stopped.</en>
+		<ru>Ивент 'Battle for Glory' закончен.</ru>
+	</message>
+	<message key="scripts.events.glitmedal.AnnounceEventStarted">
+		<en>The event 'L2 Medal Collection Event' started.</en>
+		<ru>Начался ивент 'L2 Medal Collection Event'.</ru>
+	</message>
+	<message key="scripts.events.glitmedal.AnnounceEventStoped">
+		<en>The event 'L2 Medal Collection Event' stopped.</en>
+		<ru>Ивент 'L2 Medal Collection Event' закончен.</ru>
+	</message>
+	<message key="scripts.events.l2day.AnnounceEventStarted">
+		<en>The event 'L2Day' started.</en>
+		<ru>Начался ивент 'L2Day'.</ru>
+	</message>
+	<message key="scripts.events.l2day.AnnounceEventStoped">
+		<en>The event 'L2Day' stopped.</en>
+		<ru>Ивент 'L2Day' закончен.</ru>
+	</message>
+	<message key="scripts.events.transport.AnnounceEventStarted">
+		<en>The event 'Transport' started.</en>
+		<ru>Начался ивент 'Transport'.</ru>
+	</message>
+	<message key="scripts.events.transport.AnnounceEventStoped">
+		<en>The event 'Transport' stopped.</en>
+		<ru>Ивент 'Transport' закончен.</ru>
+	</message>
+	<message key="scripts.events.FinalShop.AnnounceEventStarted">
+		<en>The event 'Final Shop' started.</en>
+		<ru>Начался ивент 'Final Shop'.</ru>
+	</message>
+	<message key="scripts.events.FinalShop.AnnounceEventStoped">
+		<en>The event 'Final Shop' stopped.</en>
+		<ru>Ивент 'Final Shop' закончен.</ru>
+	</message>
+	<message key="scripts.events.Tournament.AnnounceEventStarted">
+		<en>The event 'Tournament' started.</en>
+		<ru>Начался ивент 'Tournament'.</ru>
+	</message>
+	<message key="scripts.events.Tournament.AnnounceEventStoped">
+		<en>The event 'Tournament' stopped.</en>
+		<ru>Ивент 'Tournament' закончен.</ru>
+	</message>
+	<message key="scripts.events.Late">
+		<en>Event is already running, registration closed.</en>
+		<ru>Ивент уже начался, регистрация недоступна.</ru>
+	</message>
+	<message key="scripts.events.Christmas.AnnounceEventStarted">
+		<en>The event 'Christmas' started.</en>
+		<ru>Начался ивент 'Christmas'.</ru>
+	</message>
+	<message key="scripts.events.Christmas.AnnounceEventStoped">
+		<en>The event 'Christmas' stopped.</en>
+		<ru>Ивент 'Christmas' закончен.</ru>
+	</message>
+	<message key="scripts.events.AnnounceEventStarted">
+		<en>Activated event '{0}'.</en>
+		<ru>Активирован эвент '{0}'.</ru>
+	</message>
+	<message key="scripts.events.AnnounceEventStoped">
+		<en>Deactivated event '{0}'.</en>
+		<ru>Деактивирован эвент '{0}'.</ru>
+	</message>
+	<message key="scripts.events.Revive">
+		<en>Resurrection will after {0} seconds.</en>
+		<ru>Через {0} сек Вы будете воскрешены.</ru>
+	</message>
+	<message key="scripts.events.CtF.AnnounceEnd">
+		<en>Capture The Flag: Event ended. 1 min countdown before teleporting players back.</en>
+		<ru>Захват флага: Эвент окончен. Через 1 минуту все участники будут вылечены и телепортированы обратно.</ru>
+	</message>
+	<message key="scripts.events.CtF.AnnounceEventCancelled">
+		<en>Capture The Flag: Event cancelled, not enough players.</en>
+		<ru>Захват флага: Эвент отменен, слишком мало участников.</ru>
+	</message>
+	<message key="scripts.events.CtF.AnnounceEventStarting">
+		<en>Capture The Flag: Registration ended, teleporting players...</en>
+		<ru>Захват флага: Регистрация окончена, телепортация игроков...</ru>
+	</message>
+	<message key="scripts.events.CtF.AnnounceFight">
+		<en>Capture The Flag: &gt;&gt;&gt; FIGHT!!! &lt;&lt;&lt;</en>
+		<ru>Захват флага: &gt;&gt;&gt; FIGHT!!! &lt;&lt;&lt;</ru>
+	</message>
+	<message key="scripts.events.CtF.AnnounceFinalCountdown">
+		<en>Capture The Flag: 1 minute to start.</en>
+		<ru>Захват флага: Старт через 1 минуту, по команде.</ru>
+	</message>
+	<message key="scripts.events.CtF.AnnounceFinishedBlueWins">
+		<en>Capture The Flag: Blue wins.</en>
+		<ru>Захват флага: Победила комaнда синих.</ru>
+	</message>
+	<message key="scripts.events.CtF.AnnounceFinishedDraw">
+		<en>Capture The Flag: Draw.</en>
+		<ru>Захват флага: Ничья.</ru>
+	</message>
+	<message key="scripts.events.CtF.AnnounceFinishedRedWins">
+		<en>Capture The Flag: Red wins.</en>
+		<ru>Захват флага: Победила комaнда красных.</ru>
+	</message>
+	<message key="scripts.events.CtF.AnnouncePreStart">
+		<en>Capture The Flag: Start in {0} min. for levels {1}-{2}. Information in the community board (alt+b).</en>
+		<ru>Захват флага: Старт через {0} мин. для уровней {1}-{2}. Подробности в community (alt+b)</ru>
+	</message>
+	<message key="scripts.events.CtF.AnnounceScore">
+		<en>Capture The Flag: Red {0} / Blue {1}</en>
+		<ru>Захват флага: Красные {0} / Синие {1}</ru>
+	</message>
+	<message key="scripts.events.CtF.AskPlayer">
+		<en>Do you want to participate in event 'Capture The Flag'?</en>
+		<ru>Вы хотите принять участие в эвенте 'Захват флага'?</ru>
+	</message>
+	<message key="scripts.events.CtF.Cancelled">
+		<en>Registration cancelled.</en>
+		<ru>Регистрация в эвенте 'Захват флага' отменена. Вы не можете зарегистрироваться повторно.</ru>
+	</message>
+	<message key="scripts.events.CtF.CancelledDuel">
+		<en>Registration cancelled. You can't participate while in duel state.</en>
+		<ru>Регистрация в эвенте 'Захват флага' отменена. Нельзя участвовать в эвенте во время дуэли.</ru>
+	</message>
+	<message key="scripts.events.CtF.CancelledLevel">
+		<en>Registration cancelled. Inconsistent level.</en>
+		<ru>Регистрация в эвенте 'Захват флага' отменена. Вы не подходите по уровню.</ru>
+	</message>
+	<message key="scripts.events.CtF.CancelledOlympiad">
+		<en>Registration cancelled. You are in the olympiad zone.</en>
+		<ru>Регистрация в эвенте 'Захват флага' отменена. Нельзя участвовать в эвенте во время олимпиады.</ru>
+	</message>
+	<message key="scripts.events.CtF.CancelledOtherEvent">
+		<en>Registration cancelled. You are already participating other event.</en>
+		<ru>Регистрация в эвенте 'Захват флага' отменена. Нельзя участвовать в двух PvP эвентах одновременно.</ru>
+	</message>
+	<message key="scripts.events.CtF.CancelledTeleport">
+		<en>Registration cancelled. You are in teleport state.</en>
+		<ru>Регистрация в эвенте 'Захват флага' отменена. Нельзя участвовать в эвенте во время телепортации.</ru>
+	</message>
+	<message key="scripts.events.CtF.FlagToBase">
+		<en>Capture The Flag: {0} player brought the team {1} has a point.</en>
+		<ru>Захват флага: Участник {0} принес команде {1} еще одно очко.</ru>
+	</message>
+	<message key="scripts.events.CtF.Registered">
+		<en>You have been registered in the Capture The Flag event. Please, do not register in other events and avoid duels until countdown end.</en>
+		<ru>Вы зарегистрировались в эвенте 'Захват флага'. Не регистрируйтесь в других эвентах, и не вступайте в дуэли. Дождитесь окончания отсчета.</ru>
+	</message>
+	<message key="scripts.events.CtF.YouLose">
+		<en>You lose! Please wait event end.</en>
+		<ru>Вы проиграли! Дождитесь окончания эвента для обратной телепортации.</ru>
+	</message>
+	<message key="scripts.events.CtF.AnswerNo">
+		<ru>Регистрация отвергнута.</ru>
+		<en>Registration is rejected.</en>
+	</message>
+	<message key="scripts.events.CtF.AnswerYes">
+		<ru>Регистрация принята.</ru>
+		<en>Registration is accepted.</en>
+	</message>
+	<message key="scripts.events.KoreanStyle.AnnounceEnd">
+		<en>Korean Style: Event ended. 1 min countdown before teleporting players back.</en>
+		<ru>Корейский стиль: Эвент окончен. Через 1 минуту все участники будут вылечены и телепортированы обратно.</ru>
+	</message>
+	<message key="scripts.events.KoreanStyle.AnnounceEventCancelled">
+		<en>Korean Style: Event cancelled, not enough players.</en>
+		<ru>Корейский стиль: Эвент отменен, слишком мало участников.</ru>
+	</message>
+	<message key="scripts.events.KoreanStyle.AnnounceEventStarting">
+		<en>Korean Style: Registration ended, teleporting players...</en>
+		<ru>Корейский стиль: Регистрация окончена, телепортация игроков...</ru>
+	</message>
+	<message key="scripts.events.KoreanStyle.AnnounceFight">
+		<en>Korean Style: &gt;&gt;&gt; FIGHT!!! &lt;&lt;&lt;</en>
+		<ru>Корейский стиль: &gt;&gt;&gt; FIGHT!!! &lt;&lt;&lt;</ru>
+	</message>
+	<message key="scripts.events.KoreanStyle.AnnounceFighters">
+		<en>Korean Style: The battle between {0} vs. {1}.</en>
+		<ru>Корейский стиль: Сражение между {0} vs. {1}.</ru>
+	</message>
+	<message key="scripts.events.KoreanStyle.AnnounceFinalCountdown">
+		<en>Korean Style: 1 minute to start.</en>
+		<ru>Корейский стиль: Старт через 1 минуту, по команде.</ru>
+	</message>
+	<message key="scripts.events.KoreanStyle.AnnounceFinishedBlueWins">
+		<en>Korean Style: Blue wins.</en>
+		<ru>Корейский стиль: Победила комaнда синих.</ru>
+	</message>
+	<message key="scripts.events.KoreanStyle.AnnounceFinishedDraw">
+		<en>Korean Style: Draw.</en>
+		<ru>Корейский стиль: Ничья.</ru>
+	</message>
+	<message key="scripts.events.KoreanStyle.AnnounceFinishedRedWins">
+		<en>Korean Style: Red wins.</en>
+		<ru>Корейский стиль: Победила комaнда красных.</ru>
+	</message>
+	<message key="scripts.events.KoreanStyle.AnnouncePreStart">
+		<en>Korean Style: Start in {0} min. for levels {1}-{2}. Information in the community board (alt+b).</en>
+		<ru>Корейский стиль: Старт через {0} мин. для уровней {1}-{2}. Подробности в community (alt+b)</ru>
+	</message>
+	<message key="scripts.events.KoreanStyle.AnnounceScore">
+		<en>Korean Style: Red {0} / Blue {1}</en>
+		<ru>Корейский стиль: Красные {0} / Синие {1}</ru>
+	</message>
+	<message key="scripts.events.KoreanStyle.AskPlayer">
+		<en>Do you want to participate in event 'Korean Style'?</en>
+		<ru>Вы хотите принять участие в эвенте 'Корейский стиль'?</ru>
+	</message>
+	<message key="scripts.events.KoreanStyle.Cancelled">
+		<en>Registration cancelled.</en>
+		<ru>Регистрация в эвенте 'Корейский стиль' отменена. Вы не можете зарегистрироваться повторно.</ru>
+	</message>
+	<message key="scripts.events.KoreanStyle.CancelledDuel">
+		<en>Registration cancelled. You can't participate while in duel state.</en>
+		<ru>Регистрация в эвенте 'Корейский стиль' отменена. Нельзя участвовать в эвенте во время дуэли.</ru>
+	</message>
+	<message key="scripts.events.KoreanStyle.CancelledLevel">
+		<en>Registration cancelled. Inconsistent level.</en>
+		<ru>Регистрация в эвенте 'Корейский стиль' отменена. Вы не подходите по уровню.</ru>
+	</message>
+	<message key="scripts.events.KoreanStyle.CancelledOlympiad">
+		<en>Registration cancelled. You are in the olympiad zone.</en>
+		<ru>Регистрация в эвенте 'Корейский стиль' отменена. Нельзя участвовать в эвенте во время олимпиады.</ru>
+	</message>
+	<message key="scripts.events.KoreanStyle.CancelledOtherEvent">
+		<en>Registration cancelled. You are already participating other event.</en>
+		<ru>Регистрация в эвенте 'Корейский стиль' отменена. Нельзя участвовать в двух PvP эвентах одновременно.</ru>
+	</message>
+	<message key="scripts.events.KoreanStyle.CancelledTeleport">
+		<en>Registration cancelled. You are in teleport state.</en>
+		<ru>Регистрация в эвенте 'Корейский стиль' отменена. Нельзя участвовать в эвенте во время телепортации.</ru>
+	</message>
+	<message key="scripts.events.KoreanStyle.Registered">
+		<en>You have been registered in the Korean Style event. Please, do not register in other events and avoid duels until countdown end.</en>
+		<ru>Вы зарегистрировались в эвенте 'Корейский стиль'. Не регистрируйтесь в других эвентах, и не вступайте в дуэли. Дождитесь окончания отсчета.</ru>
+	</message>
+	<message key="scripts.events.KoreanStyle.YouLose">
+		<en>You lose! Please wait event end.</en>
+		<ru>Вы проиграли! Дождитесь окончания эвента для обратной телепортации.</ru>
+	</message>
+	<message key="scripts.events.KoreanStyle.AnswerNo">
+		<ru>Регистрация отвергнута.</ru>
+		<en>Registration is rejected.</en>
+	</message>
+	<message key="scripts.events.KoreanStyle.AnswerYes">
+		<ru>Регистрация принята.</ru>
+		<en>Registration is accepted.</en>
+	</message>
+	<message key="scripts.events.LastHero.AnnounceEnd">
+		<en>Last Hero: Event ended. 30 sec countdown before teleporting players back.</en>
+		<ru>Last Hero: Ивент окончен. Через 30 секунд все участники будут вылечены и телепортированы обратно.</ru>
+	</message>
+	<message key="scripts.events.LastHero.AnnounceEventCancelled">
+		<en>Last Hero: Event cancelled, not enough players.</en>
+		<ru>Last Hero: Ивент отменен, слишком мало участников.</ru>
+	</message>
+	<message key="scripts.events.LastHero.AnnounceEventStarted">
+		<en>Event 'Last Hero' activated.</en>
+		<ru>Активирован ивент 'Last Hero'.</ru>
+	</message>
+	<message key="scripts.events.LastHero.AnnounceEventStarting">
+		<en>Last Hero: Registration ended, teleporting players...</en>
+		<ru>Last Hero: Регистрация окончена, телепортация игроков...</ru>
+	</message>
+	<message key="scripts.events.LastHero.AnnounceEventStoped">
+		<en>Event 'Last Hero' deactivated.</en>
+		<ru>Ивент 'Last Hero' деактивирован.</ru>
+	</message>
+	<message key="scripts.events.LastHero.AnnounceFight">
+		<en>Last Hero: &gt;&gt;&gt; FIGHT!!! &lt;&lt;&lt;</en>
+		<ru>Last Hero: &gt;&gt;&gt; FIGHT!!! &lt;&lt;&lt;</ru>
+	</message>
+	<message key="scripts.events.LastHero.AnnounceFinalCountdown">
+		<en>Last Hero: 1 minute to start.</en>
+		<ru>Last Hero: Старт через 1 минуту, по команде.</ru>
+	</message>
+	<message key="scripts.events.LastHero.AnnouncePreStart">
+		<en>Last Hero: Start in {0} min. for levels {1}-{2}. Information in the community board (alt+b).</en>
+		<ru>Last Hero: Старт через {0} мин. для уровней {1}-{2}. Подробности в community (alt+b)</ru>
+	</message>
+	<message key="scripts.events.LastHero.AnnounceWiner">
+		<en>Last Hero: {0} wins.</en>
+		<ru>Last Hero: победил {0}.</ru>
+	</message>
+	<message key="scripts.events.LastHero.AskPlayer">
+		<en>Do you want to participate in event 'Last Hero'?</en>
+		<ru>Вы хотите принять участие в ивенте 'Last Hero'?</ru>
+	</message>
+	<message key="scripts.events.LastHero.Cancelled">
+		<en>Registration cancelled.</en>
+		<ru>Регистрация в ивенте Last Hero отменена. Вы не можете зарегистрироваться повторно.</ru>
+	</message>
+	<message key="scripts.events.LastHero.CancelledDuel">
+		<en>Registration cancelled. You can't participate while in duel state.</en>
+		<ru>Регистрация в ивенте Last Hero отменена. Нельзя участвовать в ивенте во время дуэли.</ru>
+	</message>
+	<message key="scripts.events.LastHero.CancelledLevel">
+		<en>Registration cancelled. Inconsistent level.</en>
+		<ru>Регистрация в ивенте Last Hero отменена. Вы не подходите по уровню.</ru>
+	</message>
+	<message key="scripts.events.LastHero.CancelledOlympiad">
+		<en>Registration cancelled. You are in the olympiad zone.</en>
+		<ru>Регистрация в ивенте Last Hero отменена. Нельзя участвовать в ивенте во время олимпиады.</ru>
+	</message>
+	<message key="scripts.events.LastHero.CancelledOtherEvent">
+		<en>Registration cancelled. You are already participating other event.</en>
+		<ru>Регистрация в ивенте Last Hero отменена. Нельзя участвовать в двух PvP ивентах одновременно.</ru>
+	</message>
+	<message key="scripts.events.LastHero.CancelledTeleport">
+		<en>Registration cancelled. You are in teleport state.</en>
+		<ru>Регистрация в ивенте Last Hero отменена. Нельзя участвовать в ивенте во время телепортации.</ru>
+	</message>
+	<message key="scripts.events.LastHero.Registered">
+		<en>You have been registered in the Last Hero event. Please, do not register in other events and avoid duels until countdown end.</en>
+		<ru>Вы зарегистрировались в ивенте Last Hero. Не регистрируйтесь в других ивентах, и не вступайте в дуэли. Дождитесь окончания отсчета.</ru>
+	</message>
+	<message key="scripts.events.LastHero.YouLose">
+		<en>You lose! Please wait event end.</en>
+		<ru>Вы проиграли! Дождитесь окончания ивента для обратной телепортации.</ru>
+	</message>
+	<message key="scripts.events.LastHero.AnswerNo">
+		<ru>Регистрация отвергнута.</ru>
+		<en>Registration is rejected.</en>
+	</message>
+	<message key="scripts.events.LastHero.AnswerYes">
+		<ru>Регистрация принята.</ru>
+		<en>Registration is accepted.</en>
+	</message>
+	<message key="scripts.events.TvT.AnnounceEnd">
+		<en>Team vs Team: Event ended. 1 min countdown before teleporting players back.</en>
+		<ru>Команда против Команды: Эвент окончен. Через 1 минуту все участники будут вылечены и телепортированы обратно.</ru>
+	</message>
+	<message key="scripts.events.TvT.AnnounceEventCancelled">
+		<en>Team vs Team: Event cancelled, not enough players.</en>
+		<ru>Команда против Команды: Эвент отменен, слишком мало участников.</ru>
+	</message>
+	<message key="scripts.events.TvT.AnnounceEventStarted">
+		<en>Event 'TvT' activated.</en>
+		<ru>Активирован ивент 'TvT'.</ru>
+	</message>
+	<message key="scripts.events.TvT.AnnounceEventStarting">
+		<en>Team vs Team: Registration ended, teleporting players...</en>
+		<ru>Команда против Команды: Регистрация окончена, телепортация игроков...</ru>
+	</message>
+	<message key="scripts.events.TvT.AnnounceEventStoped">
+		<en>Event 'TvT' deactivated.</en>
+		<ru>Ивент 'TvT' деактивирован.</ru>
+	</message>
+	<message key="scripts.events.TvT.AnnounceFight">
+		<en>Team vs Team: &gt;&gt;&gt; FIGHT!!! &lt;&lt;&lt;</en>
+		<ru>Команда против Команды: &gt;&gt;&gt; FIGHT!!! &lt;&lt;&lt;</ru>
+	</message>
+	<message key="scripts.events.TvT.AnnounceFinalCountdown">
+		<en>Team vs Team: 1 minute to start.</en>
+		<ru>Команда против Команды: Старт через 1 минуту, по команде.</ru>
+	</message>
+	<message key="scripts.events.TvT.AnnounceFinishedBlueWins">
+		<en>Team vs Team: Blue wins.</en>
+		<ru>Команда против Команды: Победила комaнда синих.</ru>
+	</message>
+	<message key="scripts.events.TvT.AnnounceFinishedDraw">
+		<en>Team vs Team: Draw.</en>
+		<ru>Команда против Команды: Ничья.</ru>
+	</message>
+	<message key="scripts.events.TvT.AnnounceFinishedRedWins">
+		<en>Team vs Team: Red wins.</en>
+		<ru>Команда против Команды: Победила комaнда красных.</ru>
+	</message>
+	<message key="scripts.events.TvT.AnnouncePreStart">
+		<en>Team vs Team: Start in {0} min. for levels {1}-{2}. Information in the community board (alt+b).</en>
+		<ru>Команда против Команды: Старт через {0} мин. для уровней {1}-{2}. Подробности в community (alt+b)</ru>
+	</message>
+	<message key="scripts.events.TvT.AnnounceScore">
+		<en>Team vs Team: Red {0} / Blue {1}</en>
+		<ru>Команда против Команды: Красные {0} / Синие {1}</ru>
+	</message>
+	<message key="scripts.events.TvT.AskPlayer">
+		<en>Do you want to participate in event 'Team vs Team'?</en>
+		<ru>Вы хотите принять участие в эвенте 'Команда против Команды'?</ru>
+	</message>
+	<message key="scripts.events.TvT.Cancelled">
+		<en>Registration cancelled.</en>
+		<ru>Регистрация в эвенте 'Команда против Команды' отменена. Вы не можете зарегистрироваться повторно.</ru>
+	</message>
+	<message key="scripts.events.TvT.CancelledDuel">
+		<en>Registration cancelled. You can't participate while in duel state.</en>
+		<ru>Регистрация в эвенте 'Команда против Команды' отменена. Нельзя участвовать в эвенте во время дуэли.</ru>
+	</message>
+	<message key="scripts.events.TvT.CancelledLevel">
+		<en>Registration cancelled. Inconsistent level.</en>
+		<ru>Регистрация в эвенте 'Команда против Команды' отменена. Вы не подходите по уровню.</ru>
+	</message>
+	<message key="scripts.events.TvT.CancelledOlympiad">
+		<en>Registration cancelled. You are in the olympiad zone.</en>
+		<ru>Регистрация в эвенте 'Команда против Команды' отменена. Нельзя участвовать в эвенте во время олимпиады.</ru>
+	</message>
+	<message key="scripts.events.TvT.CancelledOtherEvent">
+		<en>Registration cancelled. You are already participating other event.</en>
+		<ru>Регистрация в эвенте 'Команда против Команды' отменена. Нельзя участвовать в двух PvP эвентах одновременно.</ru>
+	</message>
+	<message key="scripts.events.TvT.CancelledTeleport">
+		<en>Registration cancelled. You are in teleport state.</en>
+		<ru>Регистрация в эвенте 'Команда против Команды' отменена. Нельзя участвовать в эвенте во время телепортации.</ru>
+	</message>
+	<message key="scripts.events.TvT.Registered">
+		<en>You have been registered in the Team vs Team event. Please, do not register in other events and avoid duels until countdown end.</en>
+		<ru>Вы зарегистрировались в эвенте 'Команда против Команды'. Не регистрируйтесь в других эвентах, и не вступайте в дуэли. Дождитесь окончания отсчета.</ru>
+	</message>
+	<message key="scripts.events.TvT.YouLose">
+		<en>You lose! Please wait event end.</en>
+		<ru>Вы проиграли! Дождитесь окончания эвента для обратной телепортации.</ru>
+	</message>
+	<message key="scripts.events.AprilFoolsDay.AnnounceEventStarted">
+		<en>The event 'April Fool's Day' started.</en>
+		<ru>Начался ивент 'April Fool's Day'.</ru>
+	</message>
+	<message key="scripts.events.AprilFoolsDay.AnnounceEventStoped">
+		<en>The event 'April Fool's Day' stopped.</en>
+		<ru>Ивент 'April Fool's Day' закончен.</ru>
+	</message>
+	<message key="scripts.events.SavingSnowman.AnnounceEventStarted">
+		<en>The event 'Saving Snowman' started.</en>
+		<ru>Начался ивент 'Спасение снеговика'.</ru>
+	</message>
+	<message key="scripts.events.SavingSnowman.AnnounceEventStoped">
+		<en>The event 'Saving Snowman' stopped.</en>
+		<ru>Ивент 'Спасение снеговика' закончен.</ru>
+	</message>
+	<message key="scripts.events.SavingSnowman.RewarderPhrase1">
+		<en>Happy holidays! Keep up the good work.</en>
+		<ru>С праздником! Вам сегодня повезло.</ru>
+	</message>
+	<message key="scripts.events.SavingSnowman.RewarderPhrase2">
+		<en>I have a gift for {0}.</en>
+		<ru>У меня подарок для {0}.</ru>
+	</message>
+	<message key="scripts.events.SavingSnowman.RewarderPhrase3">
+		<en>Take a look at the unventory. Perhaps there might be a big present!</en>
+		<ru>Загляни в сумку. Возможно это окажется лучший подарок!</ru>
+	</message>
+	<message key="scripts.events.SavingSnowman.AnnounceSnowmanCaptured">
+		<en>Malicious Thomas D. Turkey captured Santa Claus' assistant - Snowman! Hurry up to save him!</en>
+		<ru>Злобный Thomas D. Turkey захватил в плен помощника Санта Клауса - Снеговика! Торопитесь спасти его!</ru>
+	</message>
+	<message key="scripts.events.SavingSnowman.AnnounceSnowmanKilled">
+		<en>You do not have time to save the Snowman - Santa Claus is upset.</en>
+		<ru>Вы не успели спасти Снеговика - Санта Клаус расстроен.</ru>
+	</message>
+	<message key="scripts.events.SavingSnowman.AnnounceSnowmanSaved">
+		<en>Snowman saved! Santa Claus is pleased rescue assistant, all interested can get a New Year's buff.</en>
+		<ru>Снеговик спасен! Санта Клаус рад спасению помощника, все желающие могут получить новогодний бафф.</ru>
+	</message>
+	<message key="scripts.events.SavingSnowman.SnowmanShout">
+		<en>Help me! Save me!!!</en>
+		<ru>Помогите мне! Спасите меня!!!</ru>
+	</message>
+	<message key="scripts.events.SavingSnowman.SnowmanSayTnx">
+		<en>Thank you, {0}, you are more than all the efforts exerted to save me!</en>
+		<ru>Спасибо, {0}, ты больше всех приложил усилий для моего спасения!</ru>
+	</message>
+	<message key="scripts.events.SavingSnowman.SantaSay">
+		<en>Ho, ho, ho! Happy holidays!</en>
+		<ru>Хо-хо-хо! С праздниками!</ru>
+	</message>
+	<message key="scripts.events.bountyhunters.NotifyKill">
+		<en>{0} monsters of this type left!</en>
+		<ru>Вам осталось убить {0} таких монстров.</ru>
+	</message>
+	<message key="scripts.events.bountyhunters.NoTargets">
+		<en>Guild has no tasks for you.</en>
+		<ru>Гильдия не имеет подходящих заданий.</ru>
+	</message>
+	<message key="scripts.events.bountyhunters.WrongTarget">
+		<en>This is not a monster!</en>
+		<ru>Это не монстр!</ru>
+	</message>
+	<message key="scripts.events.bountyhunters.TooEasy">
+		<en>This monster is too weak, find better target.</en>
+		<ru>Этот монстр слишком слаб, подберите себе более достойную цель.</ru>
+	</message>
+	<message key="scripts.events.bountyhunters.TaskGiven">
+		<en>Your task - kill {0} {1}.</en>
+		<ru>Ваше задание - уничтожить {0} {1}.</ru>
+	</message>
+	<message key="scripts.events.bountyhunters.TooLowLevel">
+		<en>You must have at least level 20.</en>
+		<ru>Гильдия дает задания только игрокам чей уровень не менее 20.</ru>
+	</message>
+	<message key="scripts.events.bountyhunters.AlreadyHaveTask">
+		<en>You already have task.</en>
+		<ru>У вас уже есть задание.</ru>
+	</message>
+	<message key="scripts.events.bountyhunters.NoTask">
+		<en>You have no task.</en>
+		<ru>Сейчас вы не имеете задания.</ru>
+	</message>
+	<message key="scripts.events.bountyhunters.TaskCompleted">
+		<en>Task completed! Your reward is {0} {1}.</en>
+		<ru>Задание выполнено! Вашей наградой будет {0} {1}.</ru>
+	</message>
+	<message key="scripts.events.bountyhunters.TaskCanceled">
+		<en>You declined your task, your reputation became lower.</en>
+		<ru>Вы отказались от задания, поэтому ваша репутация понижена.</ru>
+	</message>
+	<message key="scripts.events.ChangeofHeart.AnnounceEventStarted">
+		<en>The event 'Change of Heart' started. Please speak with Buzz the Cat.</en>
+		<ru>Начался ивент 'Change of Heart'. Подробности можно узнать у Buzz the Cat.</ru>
+	</message>
+	<message key="scripts.events.ChangeofHeart.AnnounceEventStoped">
+		<en>The event 'Change of Heart' stopped.</en>
+		<ru>Ивент 'Change of Heart' закончен.</ru>
+	</message>
+	<message key="l2mv.gameserver.RecipeController.GotOrder">
+		<en>Got order: {0}</en>
+		<ru>Получен заказ на изготовление {0}</ru>
+	</message>
+	<message key="l2mv.gameserver.RecipeController.NoRecipe">
+		<en>No recipe for {0}</en>
+		<ru>Нет рецепта на {0}, выполнение заказа невозможно</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.EnterWorld.TeleportedReasonOlympiad">
+		<en>You have been teleported to the nearest town due to you being in an Olympiad Stadia</en>
+		<ru>Вы телепортированы в ближайший город, поскольку находились на олимпийском стадионе.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.EnterWorld.TeleportedReasonNoRestart">
+		<en>You have been teleported to the nearest town due to you being in an No Restart zone</en>
+		<ru>Вы телепортированы в ближайший город, поскольку находились в специальной зоне.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.Logout.OutOfControl">
+		<en>Your character is out of control now.</en>
+		<ru>Сейчас ваш персонаж неуправляем.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.Logout.Olympiad">
+		<en>You can't disconnect while in Olympiad.</en>
+		<ru>Вы не можете выйти во время Олимпиады.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.Logout.Observer">
+		<en>You can't disconnect while in Observer mode.</en>
+		<ru>Вы не можете выйти во время просмотра.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestDropItem.Disallowed">
+		<en>Unable to discard item, use 'destroy item' instead.</en>
+		<ru>Выбрасывать предметы запрещено, удаляйте ненужные вещи.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestEnchantItem.MaxLevel">
+		<en>Enchant failed as max enchant level is reached.</en>
+		<ru>Не удалось заточить, вы достигли максимального значения.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestGiveNickName.NotInClan">
+		<en>Target does not belong to your clan.</en>
+		<ru>Цель не состоит в Вашем клане.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestJoinParty.InDimensionalRift">
+		<en>You can't invite player when in Dimensional Rift.</en>
+		<ru>Вы не можете приглашать игрока на Рифте.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestJoinAlly.InvitePenalty">
+		<en>After a clan is dismissed from an alliance, the alliance must wait at least a day before accepting a new member.</en>
+		<ru>После того как клан был исключен из альянса, альянс должен подождать 1 день прежде чем сможет принимать вновь.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestOustAlly.ClanDismissed">
+		<en>Clan {0} has been dismissed from ally {1}.</en>
+		<ru>Клан {0} был исключен из альянса {1}.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestOustPartyMember.CantOustInRift">
+		<en>You can't oust party member when you are in Dimensional Rift.</en>
+		<ru>Вы не можете выгнать игрока из группы, находясь в Разломе.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestOustPartyMember.CantOustInDungeon">
+		<en>You can't oust party member when you are in dungeon.</en>
+		<ru>Вы не можете выгнать игрока из группы, находясь в подземелье.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestPledgeReorganizeMember.ChangeAffiliations">
+		<en>Only clan leader can change affiliations.</en>
+		<ru>Это доступно только лидеру клана.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestPledgeReorganizeMember.NotInYourClan">
+		<en>The target doesn't belong to your clan.</en>
+		<ru>Игрок не состоит в Вашем клане.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestPledgeReorganizeMember.AlreadyInThatCombatUnit">
+		<en>The target is already in that combat unit.</en>
+		<ru>Игрок уже состоит в этой боевой группе.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestPledgeReorganizeMember.NoSuchCombatUnit">
+		<en>There is no such combat unit in your clan.</en>
+		<ru>В Вашем клане нет такой боевой группы.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestPledgeReorganizeMember.AcademyViaInvitation">
+		<en>The Academy can accept new members only via invitation.</en>
+		<ru>Академия может принимать новых членов только по приглашениям.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestPledgeReorganizeMember.CantMoveAcademyMember">
+		<en>You can't move an Academy Member.</en>
+		<ru>Вы не можете переместить члена Академии.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestPledgeReorganizeMember.CharacterNotBelongClan">
+		<en>The replacement character doesn't belong to your clan.</en>
+		<ru>Перемещаемый игрок не состоит в Вашем клане.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestPledgeReorganizeMember.CharacterNotBelongCombatUnit">
+		<en>The replacement character doesn't belong to combat unit given.</en>
+		<ru>Заменяемый игрок не является членом этой боевой группы.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestPledgeReorganizeMember.CharacterLeaderAnotherCombatUnit">
+		<en>The replacement is a leader of another unit and can't be moved.</en>
+		<ru>Заменяемый игрок является лидером другой боевой группы и не может быть перемещен.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestPledgeReorganizeMember.MemberLeaderAnotherUnit">
+		<en>This member is a leader of another unit and can't be moved.</en>
+		<ru>Этот игрок является лидером другой группы и не может быть перемещен.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestOustAlly.MemberAlreadyHasApprentice">
+		<en>This member already has an apprentice, dismiss it first.</en>
+		<ru>Этот игрок уже имеет ученика, сначала исключите его.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestOustAlly.ApprenticeAlreadyHasSponsor">
+		<en>This apprentice already has a sponsor.</en>
+		<ru>У этого ученика уже есть спонсор.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestOustAlly.MemberHasNoApprentice">
+		<en>This member has no apprentice.</en>
+		<ru>У этого игрока нет учеников.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestOustAlly.NoMasterRights">
+		<en>You do not have the master rights.</en>
+		<ru>Вы не имеете достаточно прав.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestPledgeSetMemberPowerGrade.NotBelongClan">
+		<en>The target doesn't belong to your clan.</en>
+		<ru>Игрок не является членом Вашего клана.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestPledgeSetMemberPowerGrade.HaveNotAuthority">
+		<en>You don't have the authority to change this member's power grade.</en>
+		<ru>У вас не достаточно привелегий для изменения ранка этого игрока.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestPreviewItem.Disabled">
+		<en>Wear test disabled.</en>
+		<ru>Примерочная отключена.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestRestart.OutOfControl">
+		<en>Your character is out of control now.</en>
+		<ru>Сейчас ваш персонаж неуправляем.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestRestart.Festival">
+		<en>You cannot restart while you are a participant in a festival.</en>
+		<ru>Вы не можете выйти, так как учавствуете в Фестивале.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestStopPledgeWar.NoSuchClan">
+		<en>No such clan.</en>
+		<ru>Такого клана не существует.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.RequestWithDrawalParty.Rift">
+		<en>You can't exit party when you are in Dimensional Rift.</en>
+		<ru>Вы не можете покинуть группу, находясь в Разломе.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.SendBypassBuildCmd.NoCommandOrAccess">
+		<en>No access to use command, or command {0} not recognized.</en>
+		<ru>Нет прав для использования команды, или комaнда {0} не разпознана.</ru>
+	</message>
+	<message key="l2mv.gameserver.network.incoming.SetPrivateStoreBuyList.TooLowPrice">
+		<en>Your price for {0} is too low. Minimal buy price is {1} adena.</en>
+		<ru>Ваша цена скупки для {0} слишком мала. Минимальная цена {1} аден.</ru>
+	</message>
+	<message key="l2mv.gameserver.manager.CoupleManager.PartnerEntered">
+		<en>Your Partner has logged in.</en>
+		<ru>Пришла Ваша вторая половинка!</ru>
+	</message>
+	<message key="l2mv.gameserver.manager.games.FishingChampionShipManager.ResultImproveOn">
+		<en>You have improved their results at the Royal Tournament anglers.</en>
+		<ru>Вы улучшили свой результат в Королевском Турнире рыболовов.</ru>
+	</message>
+	<message key="l2mv.gameserver.manager.games.FishingChampionShipManager.YouInAPrizeList">
+		<en>You've got a list of winners of the Royal Tournament anglers.</en>
+		<ru>Вы попали в список призеров Королевского Турнира рыболовов.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.AutoSpawnHandler.spawnNPC">
+		<en>The {0} has spawned near {1}!</en>
+		<ru>{0} появился около {1}!</ru>
+	</message>
+	<message key="l2mv.gameserver.model.L2Character.AttackAborted">
+		<en>Attack is aborted.</en>
+		<ru>Атака отменена.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.L2Character.CastingAborted">
+		<en>Casting is aborted.</en>
+		<ru>Заклинание отменено.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.L2Character.ParalizeOnAttack">
+		<en>{0} may only be attacked by characters of level {1} or lower</en>
+		<ru>{0} могут атаковать только персонажи до {1} уровня</ru>
+	</message>
+	<message key="l2mv.gameserver.model.L2Player.KillsCounter">
+		<en>You have killed {0} monsters of this type.</en>
+		<ru>Вы убили {0} монстров этого типа.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.L2Player.CraftCounter">
+		<en>You have crafted {0} items of this type.</en>
+		<ru>Вы сделали {0} вещей этого типа.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.L2Player.EngageAnswerYes">
+		<en>Engage accepted.</en>
+		<ru>Помолвка принята.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.L2Player.EngageAnswerNo">
+		<en>Engage declined.</en>
+		<ru>Помолвка отвергнута.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.L2Playable.OutOfControl.ObserverNoAttack">
+		<en>Cant attack in observer mode.</en>
+		<ru>Нельзя атаковать в режиме наблюдателя.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.L2TradeList.BuyerExploit">
+		<en>Buyer try to use Overflow Exploit. Don't trust him!</en>
+		<ru>Покупатель пытается использовать читы. Не доверяйте ему!</ru>
+	</message>
+	<message key="l2mv.gameserver.model.L2TradeList.SellerExploit">
+		<en>Seller try to use Overflow Exploit. Don't trust him!</en>
+		<ru>Продавец пытается использовать читы. Не доверяйте ему!</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2AirShipControllerInstance.AirshipSummoned">
+		<en>The airship has been summoned. It will automatically depart in 5 minutes.</en>
+		<ru>Вы вызвали Летающий Корабль. Отправление через 5 минут.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2PetInstance.UnSummonHungryPet">
+		<en>Your pet is too hungry to stay summoned.</en>
+		<ru>Ваш питомец слишком голоден, что бы оставаться вызванным.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2PetInstance.PetLevelUp">
+		<en>Your pet has increased it's level to {0}.</en>
+		<ru>У вашего питомца увеличился уровень до {0}.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.items.L2ItemInstance.NoMercInParty">
+		<en>You cannot pickup mercenaries while in a party.</en>
+		<ru>Вы не можете подбирать наемников, находясь в группе.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2MonsterInstance.ItemBelongedToOther">
+		<en>This item belonged to other player: {0}.</en>
+		<ru>Эта вещь принадлежала другому игроку: {0}.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2MonsterInstance.levelSoulCrystals">
+		<en>{0} has earned a {1} stage {2} Soul Crystal.</en>
+		<ru>{0} получил {1} стадию {2} Soul Crystal.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2NpcInstance.WrongTeacherClass">
+		<en>I cannot teach you any skills.&lt;br&gt;You must find your current class teachers.</en>
+		<ru>Я не могу обучать вас. Найдите учителя, соответствующего вашей профессии.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2NpcInstance.CantTeachBecauseTransformation">
+		<en>I cannot teach you any skills.&lt;br&gt;Leave transformation mode first.</en>
+		<ru>Я не могу обучать Вас сейчас, поскольку вы находитесь в режиме трансформации.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2AdventurerInstance.BossNotInGame">
+		<en>Boss isn't in game , Boss ID: {0}</en>
+		<ru>Босса нет в игре , его номер: {0}</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2VillageMasterInstance.NoSubAtThisTime">
+		<en>There are no subclasses available at this time.</en>
+		<ru>В данный момент нет доступных сабклассов.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2VillageMasterInstance.NoSubBeforeLevel">
+		<en>You may not add a new sub class before you are level {0} on your previous class.</en>
+		<ru>Вы не можете добавить еще сабкласс пока у вас уровень {0} на Вашем предыдущем сабклассе.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2VillageMasterInstance.QuestFatesWhisper">
+		<en>You must have completed the Fate's Whisper quest to continue adding your sub class.</en>
+		<ru>Прежде чем добавить сабкласс вы должны выполнить квест Fate's Whisper.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2VillageMasterInstance.QuestSeedsOfChaos">
+		<en>You must have completed the Seeds of Chaos quest to continue adding your sub class.</en>
+		<ru>Прежде чем добавить сабкласс вы должны выполнить квест Seeds of Chaos.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2VillageMasterInstance.QuestMimirsElixir">
+		<en>You must have completed the Mimir's Elixir quest to continue adding your sub class.</en>
+		<ru>Прежде чем добавить сабкласс вы должны выполнить квест Mimir's Elixir.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2VillageMasterInstance.SubclassCouldNotBeAdded">
+		<en>The sub class could not be added.</en>
+		<ru>Сабкласс не может быть добавлен.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2VillageMasterInstance.S1IsNotMemberOfTheClan">
+		<en>{0} is not a member of the clan.</en>
+		<ru>{0} не является членом клана.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2VillageMasterInstance.ClanLeaderWillBeChangedFromS1ToS2">
+		<en>Clan leader will be changed from {0} to {1}. New clan leader will enter the duties after the closest maintenance period.</en>
+		<ru>Лидер клана изменен с {0} на {1} и вступит в свои обязанности после ближайшего рестарта.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2VillageMasterInstance.PlayerCantBeAssignedAsSubUnitLeader">
+		<en>The selected player can't be assingned as sub-unit leader: he isn't a direct member of your clan.</en>
+		<ru>Выбранный игрок не может быть в качестве лидера сабклана: он не прямой член Вашего клана.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2VillageMasterInstance.ItCantBeSubUnitLeader">
+		<en>You can't be a sub-unit leader.</en>
+		<ru>Вы не можете быть лидером сабклана.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2VillageMasterInstance.ClanDoesntExist">
+		<en>The clan doesn't exist.</en>
+		<ru>Клана не существует.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2VillageMasterInstance.SubUnitNotFound">
+		<en>Sub-unit not found.</en>
+		<ru>Сабклан не найден.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2VillageMasterInstance.NewSubUnitLeaderHasBeenAssigned">
+		<en>New sub-unit leader has been assigned.</en>
+		<ru>Новый лидер сабклана утвержден.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2VillageMasterInstance.CannotAssignUnitLeader">
+		<en>Subunit leader cannot be assigned as new Clan Leader.</en>
+		<ru>Лидер саб-юнита не может быть назначен лидером клана.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2WeddingManagerMessage">
+		<en>Congratulations! You are married!</en>
+		<ru>Поздравляем! Вы вышли за муж (женились).</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2WeddingManagerMessage.announce">
+		<en>Congratulations, {0} and {1} has married.</en>
+		<ru>Поздравляем {0} и {1} со свадьбой!</ru>
+	</message>
+	<message key="l2mv.gameserver.model.entity.Olympiad.Cursed">
+		<en>You can't participate to Olympiad while holding a cursed weapon.</en>
+		<ru>Вы не можете участвовать в Олимпиаде, пока владеете проклятым оружием.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.entity.Olympiad.LessPoints">
+		<en>Can't register when you have less than 3 points</en>
+		<ru>Не возможно зарегистрировать потому, у вас менее 3 очков.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2OlympiadManagerInstance.Fewer">
+		<en/>
+		<ru>Менее {0}</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2OlympiadManagerInstance.More">
+		<en/>
+		<ru>Более {0}</ru>
+	</message>
+	<message key="l2mv.gameserver.model.entity.SevenSignsFestival.Ended">
+		<en>The festival has ended.</en>
+		<ru>Фестиваль окончен.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.entity.SevenSignsFestival.Removed">
+		<en>You have been removed from the festival arena.</en>
+		<ru>Вы были перемещены с арены Фестиваля.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2AuctioneerInstance.CanceledAuction">
+		<en>Your auction has been canceled.</en>
+		<ru>Вы отменили аукцион.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2AuctioneerInstance.CanceledAuctionHourFailed">
+		<en>You can not cancel the auction if there is time at least one hour prior to the end.</en>
+		<ru>Вы не можете отменить аукцион, если остается время менее одного часа до его окончания.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.items.L2ItemInstance.NoMercInParty">
+		<en>You cannot pickup mercenaries while in a party.</en>
+		<ru>Вы не можете пикап наемники в то время как в партии.</ru>
+		<!-- переделать -->
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.1.1">
+		<en>What did you just do to me?</en>
+		<ru>Что это ты со мной делаешь?</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.1.2">
+		<en>You want to tame me, huh?</en>
+		<ru>Хех, хочешь меня приручить?</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.1.3">
+		<en>Do not give me this. Perhaps you will be in danger.</en>
+		<ru>Не надо мне это давать. Это опасно для тебя.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.1.4">
+		<en>Bah bah. What is this unpalatable thing?</en>
+		<ru>Фу, что это за гадость?</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.1.5">
+		<en>My belly has been complaining. This hit the spot.</en>
+		<ru>О, я как раз проголодался.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.1.6">
+		<en>What is this? Can I eat it?</en>
+		<ru>Что это? Оно съедобно?</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.1.7">
+		<en>You don't need to worry about me.</en>
+		<ru>Не стоит обо мне беспокоиться.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.1.8">
+		<en>Delicious food, thanks.</en>
+		<ru>Вкусно, спасибо!</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.1.9">
+		<en>I am starting to like you!</en>
+		<ru>Ты начинаешь мне нравиться!</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.1.10">
+		<en>Gulp</en>
+		<ru>Ам!</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.2.1">
+		<en>I do not think you have given up on the idea of taming me.</en>
+		<ru>Ты не отказался от идеи приручить меня?</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.2.2">
+		<en>That is just food to me.  Perhaps I can eat your hand too.</en>
+		<ru>Для меня это просто еда. Интересно, твоя рука вкусная?</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.2.3">
+		<en>Will eating this make me fat? Ha ha.</en>
+		<ru>А я от этого не растолстею? Ха ха.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.2.4">
+		<en>Why do you always feed me?</en>
+		<ru>Зачем ты меня кормишь?</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.2.5">
+		<en>Do not trust me. I may betray you.</en>
+		<ru>Не верь мне. Я могу тебя предать.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.3.1">
+		<en>Destroy!</en>
+		<ru>Убить!</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.3.2">
+		<en>Look what you have done!</en>
+		<ru>Взгляни на дело рук своих!</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.3.3">
+		<en>Strange feeling!.. Evil intentions grow in my heart!..</en>
+		<ru>Странное ощущение... Злые намерения растут в моем сердце...</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.3.4">
+		<en>It is happenning!</en>
+		<ru>Оно происходит!</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.3.5">
+		<en>This is sad... Good is sad!..</en>
+		<ru>Это печально...</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.4.1">
+		<en>{0}, will you show me your hideaway?</en>
+		<ru>{0}, ты покажешь мне свое укрытие?</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.4.2">
+		<en>{0}, whenever I look at spice, I think about you.</en>
+		<ru>{0}, я вспоминаю тебя каждый раз, когда смотрю на еду.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.4.3">
+		<en>{0}, you do not need to return to the village.  I will give you strength.</en>
+		<ru>{0}, тебе не нужно возвращаться. Я дам тебе силу.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.4.4">
+		<en>Thanks, {0}.  I hope I can help you.</en>
+		<ru>Спасибо, {0}. Надеюсь, я смогу тебе помочь.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.4.5">
+		<en>{0}, what can I do to help you?</en>
+		<ru>{0}, чем я могу тебе помочь?</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.5.1">
+		<en>Refills! Yeah!</en>
+		<ru>Это бодрит!</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.5.2">
+		<en>I am such a gluttonous beast, it is embarrassing! Ha ha!</en>
+		<ru>Я такая прожорливая тварь, что это меня смущает! Ха ха!</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.5.3">
+		<en>Your cooperative feeling has been getting better and better.</en>
+		<ru>Мне нравится иметь с тобой дело.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.5.4">
+		<en>I will help you!</en>
+		<ru>Я помогу тебе!</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.5.5">
+		<en>The weather is really good.  Wanna go for a picnic?</en>
+		<ru>Хорошая погода, пойдем на пикник?</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.5.6">
+		<en>I really like you! This is tasty...</en>
+		<ru>Я тебя действительно люблю!</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.5.7">
+		<en>If you do not have to leave this place, then I can help you.</en>
+		<ru>Если ты не будешь уходить, я тебе помогу.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.5.8">
+		<en>What can I helped you with?</en>
+		<ru>Чем могу быть для тебя полезен?</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.5.9">
+		<en>I am not here only for food!</en>
+		<ru>Я здесь не только ради еды!</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FeedableBeastInstance.5.10">
+		<en>Yam, yam, yam, yam, yam!</en>
+		<ru>Ням, ням, ням, ням, ням!</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FestivalGuideInstance.InProgress">
+		<en>You cannot sign up while a festival is in progress.</en>
+		<ru>Вы не можете зарегистрироваться пока идет Фестиваль.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FestivalGuideInstance.InProgressPoints">
+		<en>You cannot register a score while a festival is in progress.</en>
+		<ru>Вы не можете регистрировать очки во время Фестиваля.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FestivalGuideInstance.NotEnoughSSType">
+		<en>You do not have enough seal stones of that type.</en>
+		<ru>У Вас не достаточно камней этого типа.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FestivalGuideInstance.BloodOfferings">
+		<en>You do not have any blood offerings to contribute.</en>
+		<ru>У вас нету blood offering.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2FestivalGuideInstance.Bonuses">
+		<en>Bonuses cannot be paid during the competition period.</en>
+		<ru>Бонусы нельзя получить во время периода утверждения печати.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2SignsPriestInstance.AlreadyMember">
+		<en>You are already a member of the {0}.</en>
+		<ru>Вы уже член {0}.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2SignsPriestInstance.YouAreNewbie">
+		<en>You must have already completed your first class transfer.</en>
+		<ru>Необходимо получить первую профессию.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2SignsPriestInstance.CastleOwning">
+		<en>You must not be a member of a castle-owning clan to join the Revolutionaries of Dusk.</en>
+		<ru>Вы не должны быть членом клана имеющего замок, чтобы присоединиться к Революционерам Сумрака.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2SignsPriestInstance.CastleOwningCertificate">
+		<en>You must be a member of a castle-owning clan, have a Certificate of Lord's Approval, or pay 50000 adena to join the Lords of Dawn.</en>
+		<ru>Вы должны быть членом клана имеющего замок, или иметь Свидетельство об Одобрении Лорда, или заплатить 50000 аден, чтобы присоединиться к Лорду Рассвета.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2SignsPriestInstance.CastleOwningCertificate2">
+		<en>You must be a member of a castle-owning clan, or have a Certificate of Lord's Approval to join the Lords of Dawn.</en>
+		<ru>Вы должны быть членом клана имеющего замок, или иметь Свидетельство об Одобрении Лорда, чтобы присоединиться к Лорду Рассвета.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2SignsPriestInstance.DontHaveAnySSType">
+		<en>You do not have any seal stones of that type.</en>
+		<ru>У Вас нету таких камней.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2SignsPriestInstance.DontHaveAnySS">
+		<en>You do not have any seal stones.</en>
+		<ru>У Вас нет камней печати.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2SignsPriestInstance.DontHaveSSAmount">
+		<en>You do not have that many seal stones.</en>
+		<ru>У Вас нет такого количества камней.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.entity.siege.Siege.OwnedByNPC">
+		<en>You cannot register as a defender because {0} Castle is owned by NPC.</en>
+		<ru>Вы не можете зарегистрироваться как защитник потому, что замком {0} владеют NPC.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.entity.siege.Siege.DeadlinePassed">
+		<en>The deadline to register for the siege of {0} Castle has passed.</en>
+		<ru>Крайний срок регистрации на осаду замка {0} истек.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.entity.siege.Siege.DeadlinePassed2">
+		<en>Owners of the castle you can register at the siege of the fortress only in the territory of his castle.</en>
+		<ru>Владельцам замка можно регистрироваться на осаду крепостей только в территории своего замка.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.entity.siege.Siege.NotTimeToCancel">
+		<en>This is not the time for siege registration and so registration and cancellation cannot be done.</en>
+		<ru>В данный момент нельзя зарегистрироваться или отменить регистрацию на осаду.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.entity.siege.Siege.ClanLevelToSmall">
+		<en>Only clans with Level {0} and higher may register for a castle siege.</en>
+		<ru>В осаде могут участвовать только кланы не ниже {0} уровня.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.entity.siege.Siege.AlreadyRegistered">
+		<en>You are already registered in a Siege.</en>
+		<ru>Вы уже зарегистрированы на осаду.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.entity.Castle.OutOfControl.CastleTaxChangetTo">
+		<en>{0} castle tax changed to {1}%.</en>
+		<ru>Налог замка {0} изменен на {1}%.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.entity.Auction.MinClanLevel">
+		<en>Only a clan leader whose clan is of level {0} or higher is allowed to participate in this clan hall auction.</en>
+		<ru>К аукциону этого кланхолла допускаются только лидеры кланов, уровень которых {0} и выше.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.entity.Auction.MinClanMembers">
+		<en>Only a clan leader whose clan contains {0} members or more is allowed to participate in this clan hall auction.</en>
+		<ru>К аукциону этого кланхолла допускаются только лидеры кланов в которых не менее {0} участников.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.entity.Auction.MinClanMembersAvgLevel">
+		<en>Only a clan leader whose clan's average level of members {0} or higher is allowed to participate in this clan hall auction. Average level of members of your clan is {1}.</en>
+		<ru>К аукциону этого кланхолла допускаются только лидеры кланов со средним уровень участников {0} и выше. У вашего клана средний уровень {1}.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2ChestInstance.Fake">
+		<en>Fake chest!</en>
+		<ru>Фальшивый сундук!</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2ItemAuctionBrokerInstance.announce.32320">
+		<en>Item auction started in Giran, details on Item Broker.</en>
+		<ru>Стартовал аукцион в Giran, подробности у Item Broker.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2ItemAuctionBrokerInstance.announce.32321">
+		<en>Item auction started in Aden, details on Item Broker</en>
+		<ru>Стартовал аукцион в Aden, подробности у Item Broker.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2ItemAuctionBrokerInstance.announce.32322">
+		<en>Item auction started in Rune, details on Item Broker</en>
+		<ru>Стартовал аукцион в Rune, подробности у Item Broker.</ru>
+	</message>
+	<message key="l2mv.gameserver.skills.Formulas.Chance">
+		<en>{0} chance: {1}%.</en>
+		<ru>{0} шанс: {1}%.</ru>
+	</message>
+	<message key="l2mv.gameserver.skills.Formulas.NoChance">
+		<en>{0} is totally immune to {1}.</en>
+		<ru>{0} полностью иммунен к {1}.</ru>
+	</message>
+	<message key="l2mv.gameserver.skills.skillclasses.Resurrect">
+		<en>You may not resurrect participants in a festival.</en>
+		<ru>Вам нельзя воскрешать игроков на Фестивале.</ru>
+	</message>
+	<message key="l2mv.gameserver.skills.skillclasses.Default.NotImplemented">
+		<en>Skill not implemented yet. Skill ID: {0} / Skill Type: {1}.</en>
+		<ru>Скилл пока ещё не реализован. Идентификатор скилла: {0} / Тип скилла: {1}.</ru>
+	</message>
+	<message key="l2mv.gameserver.skills.skillclasses.Harvesting.Chance">
+		<en>Harvesting chance: {0}%.</en>
+		<ru>Шанс сбора: {0}%.</ru>
+	</message>
+	<message key="l2mv.gameserver.skills.skillclasses.Recall.Here">
+		<en>You may not use an escape skill here.</en>
+		<ru>Здесь нельзя использовать телепортацию.</ru>
+	</message>
+	<message key="l2mv.gameserver.skills.skillclasses.Recall.Festival">
+		<en>You may not use an escape skill in a festival.</en>
+		<ru>Во время Фестиваля Тьмы телепортация невозможна.</ru>
+	</message>
+	<message key="l2mv.gameserver.skills.skillclasses.Sowing.Chance">
+		<en>Sowing chance: {0}%.</en>
+		<ru>Шанс посева: {0}%.</ru>
+	</message>
+	<message key="l2mv.gameserver.skills.skillclasses.Spoil.Chance">
+		<en>Spoil chance: {0}%.</en>
+		<ru>Шанс спойла: {0}%.</ru>
+	</message>
+	<message key="l2mv.gameserver.skills.skillclasses.Unlock.Chance">
+		<en>{0} chance: {1}%.</en>
+		<ru>{0} шанс: {1}%.</ru>
+	</message>
+	<message key="l2mv.gameserver.skills.skillclasses.Unlock.Success">
+		<en>Successfully opened!</en>
+		<ru>Успешно открыто!</ru>
+	</message>
+	<message key="l2p.Util.AutoBan.ChatBan">
+		<en>You chat banned by GM {0} for {1} min.</en>
+		<ru>Ваш чат забанил ГМ {0} на {1} минут.</ru>
+	</message>
+	<message key="l2p.Util.AutoBan.ChatUnBan">
+		<en>You chat unbanned by {0}.</en>
+		<ru>Ваш чат разбанил ГМ {0}.</ru>
+	</message>
+	<message key="l2p.Util.IllegalAction.case0">
+		<en>Possibly illegal action, GM informed.</en>
+		<ru>Возможно, вы совершили запрещенное действие, ГМ информирован.</ru>
+	</message>
+	<message key="l2p.Util.IllegalAction.case1">
+		<en>You are kicked for illegal action, GM informed.</en>
+		<ru>Вы выкинуты с сервера за запрещенное действие, ГМ информирован.</ru>
+	</message>
+	<message key="l2p.Util.IllegalAction.case2">
+		<en>You are banned for illegal action, GM informed.</en>
+		<ru>Вы забанены за запрещенное действие, ГМ информирован.</ru>
+	</message>
+	<message key="l2p.Util.PleaseRelogin">
+		<en>Please relogin.</en>
+		<ru>Пожалуйста, перезайдите в игру.</ru>
+	</message>
+	<message key="Kama26Boss.helpme">
+		<en>What are you doing? Hurry up and help me!</en>
+		<ru>Ты куда пропал? Помоги мне!</ru>
+	</message>
+	<message key="Kama56Boss.attack">
+		<en>You {0}! Attack them!</en>
+		<ru>Цель - {0}! Убейте его!</ru>
+	</message>
+	<message key="Kama63Boss">
+		<en>Come out! My subordinate! I summon you to drive them out!</en>
+		<ru>Вперед, мой слуга! Я призываю тебя, прогони их!</ru>
+	</message>
+	<message key="HellboundConfidence">
+		<en>Hellbound trust level is now {0}.</en>
+		<ru>Уровень доверия Hellbound: {0}.</ru>
+	</message>
+	<message key="l2mv.gameserver.model.instances.L2WeaverInstance.failed">
+		<en>You have failed to unseal {0}.</en>
+		<ru>Не удалось распечатать {0}.</ru>
+	</message>
+	<message key="quests._416_PathToOrcShaman.LeopardCarcass">
+		<en>My dear friend of {0}, who has gone on ahead of me!</en>
+		<ru>Мой дорогой друг {0}, подойди ко мне!</ru>
+	</message>
+	<message key="scripts.ai.CaughtMob.spawn">
+		<en>Mm-m-m, your bait was delicious!</en>
+		<ru>Мм-м-м, мне понравилась твоя наживка!</ru>
+	</message>
+	<message key="scripts.ai.CaughtMob.death">
+		<en>I will tell fishes not to take your bait!</en>
+		<ru>Я буду отпугивать рыб от твоей наживки!</ru>
+	</message>
+	<message key="scripts.ai.freya.FreyaQuest.onEvtSpawn">
+		<en>Further delay is simply impossible</en>
+		<ru>Дальше откладывать просто уже нельзя</ru>
+	</message>
+	<message key="scripts.ai.FortuneBug.message0">
+		<en>If you have some sort of thing, give it to me.</en>
+		<ru>Если у Вас есть какая-нибудь вещь, дайте ее мне.</ru>
+	</message>
+	<message key="scripts.ai.FortuneBug.message1">
+		<en>I have a completely empty stomach.</en>
+		<ru>У меня совсем пустой желудок.</ru>
+	</message>
+	<message key="scripts.ai.FortuneBug.message2">
+		<en>I want to eat, I want to eat!</en>
+		<ru>Хочется кушать, хочется кушать!</ru>
+	</message>
+	<message key="scripts.ai.FortuneBug.message3">
+		<en>I have nothing to eat! I completely exhausted...</en>
+		<ru>Мне нечего поесть! Я совсем без сил...</ru>
+	</message>
+	<message key="scripts.ai.FortuneBug.message4">
+		<en>Give something to eat.</en>
+		<ru>Дайте чего-нибудь поесть.</ru>
+	</message>
+	<message key="scripts.ai.FortuneBug.message5">
+		<en>The feeling of hunger left...</en>
+		<ru>Чувство голода осталось...</ru>
+	</message>
+	<message key="scripts.ai.FortuneBug.message6">
+		<en>I want to eat!</en>
+		<ru>Мне все еще хочется кушать!</ru>
+	</message>
+	<message key="scripts.ai.FortuneBug.message7">
+		<en>I still want to eat!</en>
+		<ru>Мне по-прежнему хочется кушать!</ru>
+	</message>
+	<message key="scripts.ai.FortuneBug.message8">
+		<en>It was like a little better...</en>
+		<ru>Сейчас вроде стало немного получше...</ru>
+	</message>
+	<message key="scripts.ai.FortuneBug.message9">
+		<en>Where is the dessert?</en>
+		<ru>А где же десерт?</ru>
+	</message>
+	<message key="scripts.ai.FortuneBug.message10">
+		<en>Ugh, I can not go there.</en>
+		<ru>Уф, больше не могу есть.</ru>
+	</message>
+	<message key="scripts.ai.FortuneBug.message11">
+		<en>Well, now something to eat for real!</en>
+		<ru>Ну, вот теперь покушаем по-настоящему!</ru>
+	</message>
+	<message key="scripts.ai.FortuneBug.message12">
+		<en>yum-yum-yum-yum...</en>
+		<ru>Ням-ням-ням-ням...</ru>
+	</message>
+	<message key="scripts.ai.Gargos.fire">
+		<en>Forward!</en>
+		<ru>Вперед!</ru>
+	</message>
+	<message key="scripts.ai.Tiberias.kill">
+		<en>Your skills are impressive, I think that you can pass. Take a key and leave this place.</en>
+		<ru>Твои навыки впечатляют. Я полагаю, что ты можешь пройти. Бери ключ и покинь это место.</ru>
+	</message>
+	<message key="scripts.ai.FieldMachine.18805">
+		<en>Alarm! System damaged!</en>
+		<ru>Тревога! Получены повреждения!</ru>
+	</message>
+	<message key="scripts.ai.FieldMachine.18806">
+		<en>Alarm! System damaged!</en>
+		<ru>Тревога! Получены повреждения!</ru>
+	</message>
+	<message key="scripts.ai.Leogul">
+		<en>Intruder detected! All-out attack!</en>
+		<ru>Вижу врага, все в атаку!</ru>
+	</message>
+	<message key="scripts.ai.MasterYogi.Hey">
+		<en>Hey~ Don't you want an S80 weapon?</en>
+		<ru>Эй~ Не желаешь ли S80 оружие?</ru>
+	</message>
+	<message key="scripts.ai.MasterYogi.Hohoho">
+		<en>Hohoho... Are you brave enough to test fate?</en>
+		<ru>Хохохо... Достаточно ли вы храбры испытать судьбу?</ru>
+	</message>
+	<message key="scripts.ai.MoSMonk.onIntentionAttack">
+		<en>You cannot carry a weapon without authorization!</en>
+		<ru>Вы не сможете пронести оружие с собой без особого разрешения!.</ru>
+	</message>
+	<message key="scripts.ai.freya.FreyaFailure">
+		<en>Freya has won the battle and banished the intruders.</en>
+		<ru>Фрея выиграла сражение и изгнала атакующих.</ru>
+	</message>
+	<message key="scripts.zones.epic.banishMsg">
+		<en>Your level is too high to access this zone. You've been banished out.</en>
+		<ru>Ваш уровень слишком высок чтобы войти в эту зону. Вы телепортированы наружу.</ru>
+	</message>
+	<message key="scripts.zones.Beleth.banishMsg">
+		<en>Bug use ugly, next time will be banned !!!.</en>
+		<ru>Баг использовать некрасиво, следующий раз будет бан!!!.</ru>
+	</message>
+	<message key="Roulette.dialog">
+		<en>Play roulette</en>
+		<ru>Играть в рулетку</ru>
+	</message>
+	<message key="Roulette.StraightUp">
+		<en>number</en>
+		<ru>число</ru>
+	</message>
+	<message key="Roulette.ColumnBet">
+		<en>column</en>
+		<ru>колонка</ru>
+	</message>
+	<message key="Roulette.DozenBet">
+		<en>dozen</en>
+		<ru>дюжине</ru>
+	</message>
+	<message key="Roulette.RedOrBlack">
+		<en>color</en>
+		<ru>цвет</ru>
+	</message>
+	<message key="Roulette.EvenOrOdd">
+		<en>evennes</en>
+		<ru>четность</ru>
+	</message>
+	<message key="Roulette.LowOrHigh">
+		<en>highness</en>
+		<ru>высота</ru>
+	</message>
+	<message key="Roulette.first">
+		<en>first</en>
+		<ru>первая</ru>
+	</message>
+	<message key="Roulette.second">
+		<en>second</en>
+		<ru>вторая</ru>
+	</message>
+	<message key="Roulette.third">
+		<en>third</en>
+		<ru>третья</ru>
+	</message>
+	<message key="Roulette.red">
+		<en>red</en>
+		<ru>красное</ru>
+	</message>
+	<message key="Roulette.black">
+		<en>black</en>
+		<ru>черное</ru>
+	</message>
+	<message key="Roulette.even">
+		<en>even</en>
+		<ru>четное</ru>
+	</message>
+	<message key="Roulette.odd">
+		<en>odd</en>
+		<ru>нечетное</ru>
+	</message>
+	<message key="Roulette.low">
+		<en>low</en>
+		<ru>низкое</ru>
+	</message>
+	<message key="Roulette.high">
+		<en>high</en>
+		<ru>высокое</ru>
+	</message>
+	<message key="Roulette.zero">
+		<en>zero</en>
+		<ru>зеро</ru>
+	</message>
+	<message key="Quest._464_Oath.QuestCannotBeTaken">
+		<en>This quest available only for characters higher than 82 level and not carrying the same quest.</en>
+		<ru>Этот квест могут начать только персонажи выше 82 уровня, которые в данный момент не выполняют этот же квест.</ru>
+	</message>
+	<message key="scripts.events.cofferofshadows.CofferofShadows.buycoffer">
+		<en>Buy shadow box for {0} Adena</en>
+		<ru>Купить сундук теней за {0} Аден.</ru>
+	</message>
+	<message key="quest.dont_work">
+		<en>{0}, sorry, but this quest so far is not working!</en>
+		<ru>{0}, извиняюсь, но этот квест пока что не работает!</ru>
+	</message>
+	<message key="birthday.npc">
+		<en>Alegria</en>
+		<ru>Алегрия</ru>
+	</message>
+	<message key="birthday.title">
+		<en>Happy Birthday!</en>
+		<ru>С днем рождения!</ru>
+	</message>
+	<message key="birthday.text">
+		<en>Hello Adventurer!! Seeing as you're one year older now, I thought I would send you some birthday cheer:) Please find your birthday pack attached. May these gifts bring you joy and happiness on this very special day. \nSincerely, Alegria</en>
+		<ru>Привет путник!! Вижу ты стал старше на год, потому я все думала поздравить тебя :) Пожалуйста, возьми этот коробок, прикрепленный к письму. Пусть эти подарки принесут тебе радость и счастье в этот особый день. \nС признательностью, Алегрия.</ru>
+	</message>
+	<message key="hero.diary">
+		<en>Hero %heroname%'s Message: %message%</en>
+		<ru>Героя %heroname% сообщения: %message%</ru>
+	</message>
+	<message key="hero.history">
+		<en>&lt;font color=LEVEL&gt;Total score: &lt;/font&gt; %wins% Wins %ties% Ties %losses% Losses</en>
+		<ru>&lt;font color=LEVEL&gt;Всего: &lt;/font&gt; %wins% Побед %ties% Ничей %losses% Проиграшей</ru>
+	</message>
+	<message key="hero.history.win">
+		<en>&lt;font color=LEVEL&gt;%date%&lt;/font&gt;&lt;br1&gt; vs %name% (&lt;ClassID&gt;%classId%&lt;/ClassID&gt;) (%time%) &lt;font color=0000ff&gt;victory&lt;/font&gt;  %victory_count% victory %tie_count% draw %loss_count% loss &lt;br&gt;</en>
+		<ru>&lt;font color=LEVEL&gt;%date%&lt;/font&gt;&lt;br1&gt; vs %name% (&lt;ClassID&gt;%classId%&lt;/ClassID&gt;) (%time%) &lt;font color=0000ff&gt;Победа&lt;/font&gt; %victory_count% побед %tie_count% ничья %loss_count% проигрышей</ru>
+	</message>
+	<message key="hero.history.loss">
+		<en>&lt;font color=LEVEL&gt;%date%&lt;/font&gt;&lt;br1&gt; vs %name% (&lt;ClassID&gt;%classId%&lt;/ClassID&gt;) (%time%) &lt;font color=ff0000&gt;loss&lt;/font&gt;  %victory_count% victory %tie_count% draw %loss_count% loss</en>
+		<ru>&lt;font color=LEVEL&gt;%date%&lt;/font&gt;&lt;br1&gt; vs %name% (&lt;ClassID&gt;%classId%&lt;/ClassID&gt;) (%time%) &lt;font color=ff0000&gt;проигрыш&lt;/font&gt;  %victory_count% побед %tie_count% ничья %loss_count% проигрышей</ru>
+	</message>
+	<message key="hero.history.tie">
+		<en>&lt;font color=LEVEL&gt;%date%&lt;/font&gt;&lt;br1&gt; vs %name% (&lt;ClassID&gt;%classId%&lt;/ClassID&gt;) (%time%) &lt;font color=00ff00&gt;draw&lt;/font&gt;  %victory_count% victory %tie_count% draw %loss_count% loss</en>
+		<ru>&lt;font color=LEVEL&gt;%date%&lt;/font&gt;&lt;br1&gt; vs %name% (&lt;ClassID&gt;%classId%&lt;/ClassID&gt;) (%time%) &lt;font color=00ff00&gt;ничья&lt;/font&gt;  %victory_count% побед %tie_count% ничья %loss_count% проигрышей</ru>
+	</message>
+	<message key="scripts.npc.model.PailakaGatekeeperInstance.Failed">
+		<en>Failed to enter Rim Pailaka due to improper conditions.</en>
+		<ru>Не соблюдены условия для входа в Рим Пайлаку.</ru>
+	</message>
+	<message key="scripts.npc.model.PailakaGatekeeperInstance.NoQuest">
+		<en>Failed to enter Rim Pailaka because you don't have proper quest.</en>
+		<ru>Вы не можете войти в Рим Пайлаку потому что не взяли соответствующий квест.</ru>
+	</message>
+	<message key="scripts.events.HuntingforSharks.AnnounceEventStoped">
+		<en>The event 'Hunting for Sharks' stopped.</en>
+		<ru>Ивент 'Охота на акул' закончен.</ru>
+	</message>
+	<message key="scripts.events.HuntingforSharks.AnnounceEventStarted">
+		<en>The event 'Hunting for Sharks' started. Details from 'Izabella' (In Giran Town).</en>
+		<ru>Начался ивент 'Охота на акул'. Подробности у NPC 'Izabella' (В Гиране).</ru>
+	</message>
+	<message key="scripts.events.TVTArena.AnnounceStart">
+		<en>{0} has created a battle in the arena {1} starts in {2} min.</en>
+		<ru>{0} создал бой на арене {1} начало через {2} мин.</ru>
+	</message>
+	<message key="scripts.events.TVTArena.AnnounceCanceled">
+		<en>Fight did not take place, no opponents</en>
+		<ru>Бой не состоялся, нет противников</ru>
+	</message>
+	<message key="scripts.events.Soul.AnnounceEventStart">
+		<en>Event 'Soul Collector' started, accompany the soul to the garbage and get a reward Soul.</en>
+		<ru>Эвент 'Спаситель Душ' запущен, сопровождайте души к Сборщику Душ и получайте награду.</ru>
+	</message>
+	<message key="scripts.events.Soul.AnnounceEventStop">
+		<en>Event 'Soul Collector' stopped.</en>
+		<ru>Эвент 'Спаситель Душ' остановлен.</ru>
+	</message>
+	<message key="l2mv.gameserver.manager.AwayManager.setAway">
+		<en>Your status will be changed to "Away" in {0} sec.</en>
+		<ru>Ваш статус будет изменен на "Отошел" через {0} секунд.</ru>
+	</message>
+	<message key="l2mv.gameserver.manager.AwayManager.setBack">
+		<en>Your status will be changed to Normal in {0} sec.</en>
+		<ru>Ваш статус будет изменен на нормальный через {0} секунд.</ru>
+	</message>
+	<message key="l2mv.gameserver.manager.AwayManager.setPlayerAwayTask">
+		<en>You are now Away *{0}*</en>
+		<ru>Вы сейчас в статусе Отошел *{0}*</ru>
+	</message>
+	<message key="l2mv.gameserver.manager.AwayManager.setPlayerAwayTask.NoText">
+		<en>You are now *Away*</en>
+		<ru>Вы сейчас в статусе *Отошел*</ru>
+	</message>
+	<message key="l2mv.gameserver.manager.AwayManager.setPlayerBackTask">
+		<en>You are back now!</en>
+		<ru>Вы вернулись!</ru>
+	</message>
+	<message key="l2mv.gameserver.handler.voicecommands.impl.Away.Already">
+		<en>You are already Away.</en>
+		<ru>Вы уже отошли.</ru>
+	</message>
+	<message key="l2mv.gameserver.handler.voicecommands.impl.Away.PieceOnly">
+		<en>You can only Away in peace zone.</en>
+		<ru>Вы можете отойти только в мирной зоне.</ru>
+	</message>
+	<message key="l2mv.gameserver.handler.voicecommands.impl.Away.Siege">
+		<en>You are in siege, you can't go Away.</en>
+		<ru>Вы учавствуете в осаде, Вы не можете отойти!</ru>
+	</message>
+	<message key="l2mv.gameserver.handler.voicecommands.impl.Away.Cursed">
+		<en>You can't go Away! You are currently holding a cursed weapon.</en>
+		<ru>Вы не можете отойти! В данный момент Вы владеет проклятым мечем.</ru>
+	</message>
+	<message key="l2mv.gameserver.handler.voicecommands.impl.Away.Duel">
+		<en>You can't go Away! You are in a duel!</en>
+		<ru>Вы не можете отойти! Вы в дуели!</ru>
+	</message>
+	<message key="l2mv.gameserver.handler.voicecommands.impl.Away.Rift">
+		<en>You can't go Away! You are in the dimensional rift.</en>
+		<ru>Вы не можете отойти! Вы учавствуете в Dimensional Rift.</ru>
+	</message>
+	<message key="l2mv.gameserver.handler.voicecommands.impl.Away.Olympiad">
+		<en>You can't go Away! Your are fighting in Olympiad</en>
+		<ru>Вы не можете отойти! Вы сражаетесь на олимпиаде!</ru>
+	</message>
+	<message key="l2mv.gameserver.handler.voicecommands.impl.Away.Observer">
+		<en>You can't go Away in Observer mode!</en>
+		<ru>Вы не можете отойти в режиме просмотра!</ru>
+	</message>
+	<message key="l2mv.gameserver.handler.voicecommands.impl.Away.Pvp">
+		<en>Игрок учавствующий в PvP или с Кармой не может использовать команду "Отойти"!</en>
+		<ru>Player in PVP or with Karma can't use the Away command!</ru>
+	</message>
+	<message key="l2mv.gameserver.handler.voicecommands.impl.Away.Text">
+		<en>You can't set your status Away with more then 10 letters.</en>
+		<ru>Вы не можете указать свой статус. Макс. длина сообщения - 10 символов.</ru>
+	</message>
+	<message key="l2mv.gameserver.handler.voicecommands.impl.Away.Target">
+		<en>You can't have any one in your target.</en>
+		<ru>Вы не можете использовать команду "Отойти" когда выбран таргет.</ru>
+	</message>
+	<message key="l2mv.gameserver.handler.voicecommands.impl.Away.Not">
+		<en>You are not Away!</en>
+		<ru>Вы не находитесь в статусе "Отошел"!</ru>
+	</message>
+	<message key="l2mv.gameserver.manager.AwayManager.setPlayerAwayTask.Sitting">
+		<en>You cannot switch to Away mode while sitting.</en>
+		<ru>Вы не можете переключится в режим "Отошел" сидя.</ru>
+	</message>
+	<message key="Away.ActionFailed">
+		<en>You cannot do that while in Away status.</en>
+		<ru>Вы не можете сделать это пока находитесь в статусе "Отошел".</ru>
+	</message>
+	<message key="PremiumOnly">
+		<en>Available only for premium account!</en>
+		<ru>Доступно только для премиум-аккаунта.</ru>
+	</message>
+	<message key="util.getpay">
+		<en>Disappeared: {0}.</en>
+		<ru>Исчезло: {0}.</ru>
+	</message>
+	<message key="util.enoughItemCount">
+		<en>You do not have {0}.</en>
+		<ru>Нехватает {0}.</ru>
+	</message>
+	<message key="utils.race.human">
+		<en>Human</en>
+		<ru>Люди</ru>
+	</message>
+	<message key="utils.race.darkelf">
+		<en>Dark Elfs</en>
+		<ru>Темные Эльфы</ru>
+	</message>
+	<message key="utils.race.dwarf">
+		<en>Dwarfs</en>
+		<ru>Гномы</ru>
+	</message>
+	<message key="utils.race.elf">
+		<en>Elf</en>
+		<ru>Светлые Эльфы</ru>
+	</message>
+	<message key="utils.race.kamael">
+		<en>Kamaels</en>
+		<ru>Камаэли</ru>
+	</message>
+	<message key="utils.race.orc">
+		<en>Orcs</en>
+		<ru>Орки</ru>
+	</message>
+	<message key="utils.classId.name.0">
+		<en>Human Fighter</en>
+		<ru>Воин</ru>
+	</message>
+	<message key="utils.classId.name.1">
+		<en>Warrior</en>
+		<ru>Воитель</ru>
+	</message>
+	<message key="utils.classId.name.2">
+		<en>Gladiator</en>
+		<ru>Гладиатор</ru>
+	</message>
+	<message key="utils.classId.name.3">
+		<en>Warlord</en>
+		<ru>Копейщик</ru>
+	</message>
+	<message key="utils.classId.name.4">
+		<en>Human Knight</en>
+		<ru>Рыцарь</ru>
+	</message>
+	<message key="utils.classId.name.5">
+		<en>Paladin</en>
+		<ru>Паладин</ru>
+	</message>
+	<message key="utils.classId.name.6">
+		<en>Dark Avenger</en>
+		<ru>Мститель</ru>
+	</message>
+	<message key="utils.classId.name.7">
+		<en>Rogue</en>
+		<ru>Разбойник</ru>
+	</message>
+	<message key="utils.classId.name.8">
+		<en>Treasure Hunter</en>
+		<ru>Искатель Сокровищ</ru>
+	</message>
+	<message key="utils.classId.name.9">
+		<en>Hawkeye</en>
+		<ru>Стрелок</ru>
+	</message>
+	<message key="utils.classId.name.10">
+		<en>Human Mystic</en>
+		<ru>Мистик</ru>
+	</message>
+	<message key="utils.classId.name.11">
+		<en>Human Wizard</en>
+		<ru>Маг</ru>
+	</message>
+	<message key="utils.classId.name.12">
+		<en>Sorcerer</en>
+		<ru>Властитель Огня</ru>
+	</message>
+	<message key="utils.classId.name.13">
+		<en>Necromancer</en>
+		<ru>Некромант</ru>
+	</message>
+	<message key="utils.classId.name.14">
+		<en>Warlock</en>
+		<ru>Колдун</ru>
+	</message>
+	<message key="utils.classId.name.15">
+		<en>Cleric</en>
+		<ru>Клерик</ru>
+	</message>
+	<message key="utils.classId.name.16">
+		<en>Bishop</en>
+		<ru>Епископ</ru>
+	</message>
+	<message key="utils.classId.name.17">
+		<en>Prophet</en>
+		<ru>Проповедник</ru>
+	</message>
+	<message key="utils.classId.name.18">
+		<en>Elven Fighter</en>
+		<ru>Светлый Воин</ru>
+	</message>
+	<message key="utils.classId.name.19">
+		<en>Elven Knight</en>
+		<ru>Светлый Рыцарь</ru>
+	</message>
+	<message key="utils.classId.name.20">
+		<en>Temple Knight</en>
+		<ru>Рыцарь Евы</ru>
+	</message>
+	<message key="utils.classId.name.21">
+		<en>Sword Singer</en>
+		<ru>Менестрель</ru>
+	</message>
+	<message key="utils.classId.name.22">
+		<en>Elven Scout</en>
+		<ru>Разведчик</ru>
+	</message>
+	<message key="utils.classId.name.23">
+		<en>Plains Walker</en>
+		<ru>Следопыт</ru>
+	</message>
+	<message key="utils.classId.name.24">
+		<en>Silver Ranger</en>
+		<ru>Серебряный Рейнджер</ru>
+	</message>
+	<message key="utils.classId.name.25">
+		<en>Elven Mystic</en>
+		<ru>Светлый Мистик</ru>
+	</message>
+	<message key="utils.classId.name.26">
+		<en>Elven Wizard</en>
+		<ru>Светлый Маг</ru>
+	</message>
+	<message key="utils.classId.name.27">
+		<en>Spellsinger</en>
+		<ru>Певец Заклинаний</ru>
+	</message>
+	<message key="utils.classId.name.28">
+		<en>Elemental Summoner</en>
+		<ru>Последователь Стихий</ru>
+	</message>
+	<message key="utils.classId.name.29">
+		<en>Elven Oracle</en>
+		<ru>Оракул Евы</ru>
+	</message>
+	<message key="utils.classId.name.30">
+		<en>Elven Elder</en>
+		<ru>Мудрец Евы</ru>
+	</message>
+	<message key="utils.classId.name.31">
+		<en>Dark Fighter</en>
+		<ru>Темный Воин</ru>
+	</message>
+	<message key="utils.classId.name.32">
+		<en>Palus Knight</en>
+		<ru>Темный Рыцарь</ru>
+	</message>
+	<message key="utils.classId.name.33">
+		<en>Shillien Knight</en>
+		<ru>Рыцарь Шилен</ru>
+	</message>
+	<message key="utils.classId.name.34">
+		<en>Bladedancer</en>
+		<ru>Танцор Смерти</ru>
+	</message>
+	<message key="utils.classId.name.35">
+		<en>Assassin</en>
+		<ru>Ассасин</ru>
+	</message>
+	<message key="utils.classId.name.36">
+		<en>Abyss Walker</en>
+		<ru>Странник Бездны</ru>
+	</message>
+	<message key="utils.classId.name.37">
+		<en>Phantom Ranger</en>
+		<ru>Призрачный Рейнджер</ru>
+	</message>
+	<message key="utils.classId.name.38">
+		<en>Dark Mystic</en>
+		<ru>Темный Мистик</ru>
+	</message>
+	<message key="utils.classId.name.39">
+		<en>Dark Wizard</en>
+		<ru>Темный Маг</ru>
+	</message>
+	<message key="utils.classId.name.40">
+		<en>Spellhowler</en>
+		<ru>Заклинатель Ветра</ru>
+	</message>
+	<message key="utils.classId.name.41">
+		<en>Phantom Summoner</en>
+		<ru>Последователь Тьмы</ru>
+	</message>
+	<message key="utils.classId.name.42">
+		<en>Shillien Oracle</en>
+		<ru>Оракул Шилен</ru>
+	</message>
+	<message key="utils.classId.name.43">
+		<en>Shillien Elder</en>
+		<ru>Мудрец Шилен</ru>
+	</message>
+	<message key="utils.classId.name.44">
+		<en>Orc Fighter</en>
+		<ru>Орк Боец</ru>
+	</message>
+	<message key="utils.classId.name.45">
+		<en>Orc Raider</en>
+		<ru>Орк Налетчик</ru>
+	</message>
+	<message key="utils.classId.name.46">
+		<en>Destroyer</en>
+		<ru>Разрушитель</ru>
+	</message>
+	<message key="utils.classId.name.47">
+		<en>Monk</en>
+		<ru>Монах</ru>
+	</message>
+	<message key="utils.classId.name.48">
+		<en>Tyrant</en>
+		<ru>Отшельник</ru>
+	</message>
+	<message key="utils.classId.name.49">
+		<en>Orc Mystic</en>
+		<ru>Орк Адепт</ru>
+	</message>
+	<message key="utils.classId.name.50">
+		<en>Orc Shaman</en>
+		<ru>Орк Шаман</ru>
+	</message>
+	<message key="utils.classId.name.51">
+		<en>Overlord</en>
+		<ru>Верховный Шаман</ru>
+	</message>
+	<message key="utils.classId.name.52">
+		<en>Warcryer</en>
+		<ru>Вестник Войны</ru>
+	</message>
+	<message key="utils.classId.name.53">
+		<en>Dwarven Fighter</en>
+		<ru>Подмастерье</ru>
+	</message>
+	<message key="utils.classId.name.54">
+		<en>Scavenger</en>
+		<ru>Собиратель</ru>
+	</message>
+	<message key="utils.classId.name.55">
+		<en>Bounty Hunter</en>
+		<ru>Охотник за Наградой</ru>
+	</message>
+	<message key="utils.classId.name.56">
+		<en>Artisan</en>
+		<ru>Ремесленник</ru>
+	</message>
+	<message key="utils.classId.name.57">
+		<en>Warsmith</en>
+		<ru>Кузнец</ru>
+	</message>
+	<message key="utils.classId.name.88">
+		<en>Duelist</en>
+		<ru>Дуэлист</ru>
+	</message>
+	<message key="utils.classId.name.89">
+		<en>Dreadnought</en>
+		<ru>Полководец</ru>
+	</message>
+	<message key="utils.classId.name.90">
+		<en>Phoenix Knight</en>
+		<ru>Рыцарь Феникса</ru>
+	</message>
+	<message key="utils.classId.name.91">
+		<en>Hell Knight</en>
+		<ru>Рыцарь Ада</ru>
+	</message>
+	<message key="utils.classId.name.92">
+		<en>Sagittarius</en>
+		<ru>Снайпер</ru>
+	</message>
+	<message key="utils.classId.name.93">
+		<en>Adventurer</en>
+		<ru>Авантюрист</ru>
+	</message>
+	<message key="utils.classId.name.94">
+		<en>Archmage</en>
+		<ru>Архимаг</ru>
+	</message>
+	<message key="utils.classId.name.95">
+		<en>Soultaker</en>
+		<ru>Пожиратель Душ</ru>
+	</message>
+	<message key="utils.classId.name.96">
+		<en>Arcana Lord</en>
+		<ru>Чернокнижник</ru>
+	</message>
+	<message key="utils.classId.name.97">
+		<en>Cardinal</en>
+		<ru>Кардинал</ru>
+	</message>
+	<message key="utils.classId.name.98">
+		<en>Hierophant</en>
+		<ru>Апостол</ru>
+	</message>
+	<message key="utils.classId.name.99">
+		<en>Eva's Templar</en>
+		<ru>Храмовник Евы</ru>
+	</message>
+	<message key="utils.classId.name.100">
+		<en>Sword Muse</en>
+		<ru>Виртуоз</ru>
+	</message>
+	<message key="utils.classId.name.101">
+		<en>Wind Rider</en>
+		<ru>Странник Ветра</ru>
+	</message>
+	<message key="utils.classId.name.102">
+		<en>Moonlight Sentinel</en>
+		<ru>Страж Лунного Света</ru>
+	</message>
+	<message key="utils.classId.name.103">
+		<en>Mystic Muse</en>
+		<ru>Магистр Магии</ru>
+	</message>
+	<message key="utils.classId.name.104">
+		<en>Elemental Master</en>
+		<ru>Мастер Стихий</ru>
+	</message>
+	<message key="utils.classId.name.105">
+		<en>Eva's Saint</en>
+		<ru>Жрец Евы</ru>
+	</message>
+	<message key="utils.classId.name.106">
+		<en>Shillien Templar</en>
+		<ru>Храмовник Шилен</ru>
+	</message>
+	<message key="utils.classId.name.107">
+		<en>Spectral Dancer</en>
+		<ru>Призрачный Танцор</ru>
+	</message>
+	<message key="utils.classId.name.108">
+		<en>Ghost Hunter</en>
+		<ru>Призрачный Охотник</ru>
+	</message>
+	<message key="utils.classId.name.109">
+		<en>Ghost Sentinel</en>
+		<ru>Страж Теней</ru>
+	</message>
+	<message key="utils.classId.name.110">
+		<en>Storm Screamer</en>
+		<ru>Повелитель Бури</ru>
+	</message>
+	<message key="utils.classId.name.111">
+		<en>Spectral Master</en>
+		<ru>Владыка Теней</ru>
+	</message>
+	<message key="utils.classId.name.112">
+		<en>Shillien Saint</en>
+		<ru>Жрец Шилен</ru>
+	</message>
+	<message key="utils.classId.name.113">
+		<en>Titan</en>
+		<ru>Титан</ru>
+	</message>
+	<message key="utils.classId.name.114">
+		<en>Grand Khavatari</en>
+		<ru>Аватар</ru>
+	</message>
+	<message key="utils.classId.name.115">
+		<en>Dominator</en>
+		<ru>Деспот</ru>
+	</message>
+	<message key="utils.classId.name.116">
+		<en>Doom Cryer</en>
+		<ru>Глас Судьбы</ru>
+	</message>
+	<message key="utils.classId.name.117">
+		<en>Fortune Seeker</en>
+		<ru>Кладоискатель</ru>
+	</message>
+	<message key="utils.classId.name.118">
+		<en>Maestro</en>
+		<ru>Мастер</ru>
+	</message>
+	<message key="utils.classId.name.123">
+		<en>Kamael Soldier</en>
+		<ru>Грешник</ru>
+	</message>
+	<message key="utils.classId.name.124">
+		<en>Kamael Soldier</en>
+		<ru>Грешница</ru>
+	</message>
+	<message key="utils.classId.name.125">
+		<en>Trooper</en>
+		<ru>Солдат</ru>
+	</message>
+	<message key="utils.classId.name.126">
+		<en>Warder</en>
+		<ru>Надзиратель</ru>
+	</message>
+	<message key="utils.classId.name.127">
+		<en>Berserker</en>
+		<ru>Берсерк</ru>
+	</message>
+	<message key="utils.classId.name.128">
+		<en>Soul Breaker</en>
+		<ru>Палач</ru>
+	</message>
+	<message key="utils.classId.name.129">
+		<en>Soul Breaker</en>
+		<ru>Палач</ru>
+	</message>
+	<message key="utils.classId.name.130">
+		<en>Arbalester</en>
+		<ru>Арбалетчик</ru>
+	</message>
+	<message key="utils.classId.name.131">
+		<en>Doombringer</en>
+		<ru>Каратель</ru>
+	</message>
+	<message key="utils.classId.name.132">
+		<en>Soul Hound</en>
+		<ru>Инквизитор</ru>
+	</message>
+	<message key="utils.classId.name.133">
+		<en>Soul Hound</en>
+		<ru>Инквизитор</ru>
+	</message>
+	<message key="utils.classId.name.134">
+		<en>Trickster</en>
+		<ru>Диверсант</ru>
+	</message>
+	<message key="utils.classId.name.135">
+		<en>Inspector</en>
+		<ru>Инспектор</ru>
+	</message>
+	<message key="utils.classId.name.136">
+		<en>Judicator</en>
+		<ru>Арбитр</ru>
+	</message>
+	<message key="utils.classId.name.default">
+		<en>Unknown</en>
+		<ru>Неизвесно</ru>
+	</message>
+    <message key="component.acp.thisActive">
+        <ru>У вас уже есть подписка до {0}.</ru>
+        <en>You already have a subscription to {0}.</en>
+    </message>
+    <message key="component.acp.thisUnlim">
+        <ru>У вас куплена максимальная подписка.</ru>
+        <en>You have purchased the maximum subscription.</en>
+    </message>
+    <message key="component.acp.timeOver">
+        <ru>[AUTO_ACP]Время подписки закончилось.</ru>
+        <en>[AUTO_ACP]Subscription time is over.</en>
+    </message>
+    <message key="component.acp.maxValue">
+        <ru>[AUTO_ACP]{0} Достигло максимума.</ru>
+        <en>[AUTO_ACP]{0} Reached maximum.</en>
+    </message>
+    <message key="component.acp.noCorrectItem">
+        <ru>[AUTO_ACP]Недостаточно банок {0} - {1}.</ru>
+        <en>[AUTO_ACP]Not enough cans {0} - {1}.</en>
+    </message>
+    <message key="component.acp.incorrectly">
+        <ru>[AUTO_ACP]Некорректно введены данные!!!.</ru>
+        <en>[AUTO_ACP]Data was incorrectly entered !!!.</en>
+    </message>
+    <message key="component.acp.count">
+        <ru>шт.: {0}</ru>
+        <en>count: {0}</en>
+    </message>
+    <message key="component.acp.item.5591">
+        <ru>Зелье CP</ru>
+        <en>CP Potion</en>
+    </message>
+    <message key="component.acp.item.5592">
+        <ru>Большое Зелье CP</ru>
+        <en>Greater CP Potion</en>
+    </message>
+    <message key="component.acp.item.1061">
+        <ru>Зелье Исцеления</ru>
+        <en>Healing Potion</en>
+    </message>
+    <message key="component.acp.item.1539">
+        <ru>Сильное Зелье</ru>
+        <en>Healing Potion</en>
+    </message>
+    <message key="component.acp.item.14700">
+        <ru>Великое Зелье</ru>
+        <en>Healing Potion</en>
+    </message>
+    <message key="component.acp.item.1540">
+        <ru>Быстрое Зелье</ru>
+        <en>Quick Healing</en>
+    </message>
+    <message key="component.acp.item.14701">
+        <ru>Быстрое Зелье</ru>
+        <en>Quick Healing</en>
+    </message>
+    <message key="component.acp.item.728">
+        <ru>Снадобье Маны</ru>
+        <en>Mana Potion</en>
+    </message>
+    <message key="component.acp.item.22038">
+        <ru>Снадобье Маны</ru>
+        <en>Healing Mana</en>
+    </message>
+    <message key="component.acp.itemDesc.5591">
+        <ru>Восстанавливает 50 CP</ru>
+        <en>Restores CP by 50</en>
+    </message>
+    <message key="component.acp.itemDesc.5592">
+        <ru>Восстанавливает 200 CP</ru>
+        <en>Restores CP by 200</en>
+    </message>
+    <message key="component.acp.itemDesc.1061">
+        <ru>Зелье медленно восстанавливающее HP</ru>
+        <en>Slowly restores HP. High endurance</en>
+    </message>
+    <message key="component.acp.itemDesc.1539">
+        <ru>Зелье быстрого восстановления НР. Эффект длится 15 секунд</ru>
+        <en>Potion that quickly restores HP. Effect lasts for 15 seconds</en>
+    </message>
+    <message key="component.acp.itemDesc.14700">
+        <ru>Зелье, быстро восстанавливающее HP. Эффект длится 15 сек.</ru>
+        <en>Potion, medicine that greatly restores HP for 15 sec.</en>
+    </message>
+    <message key="component.acp.itemDesc.1540">
+        <ru>Магическое зелье быстрого восстановления НР</ru>
+        <en>A magical potion that quickly restores HP</en>
+    </message>
+    <message key="component.acp.itemDesc.14701">
+        <ru>Магическое зелье, мгновенно восстанавливающее HP</ru>
+        <en>A magical potion that quickly restores a greater amount HP</en>
+    </message>
+    <message key="component.acp.itemDesc.728">
+        <ru>Маг. снадобье, восстанавливающее MP в течение н-времени</ru>
+        <en>A magical, liquid medicine that restores MP amount of time</en>
+    </message>
+    <message key="component.acp.itemDesc.22038">
+        <ru>Магическое снадобье, восстанавливающее 60 MP.</ru>
+        <en>Magic potion which instantly recovers MP by 60.</en>
+    </message>
+    <message key="scripts.events.MightOfGods.AnnounceEventStarted">
+        <ru>Начался эвент 'Might Of Gods'.</ru>
+        <en>The event 'Might Of Gods' started.</en>
+    </message>
+    <message key="scripts.events.MightOfGods.AnnounceEventStoped">
+        <ru>Эвент 'Might Of Gods' закончен.</ru>
+        <en>The event 'Might Of Gods' stopped.</en>
+    </message>
+    <message key="overenchant.AskPlayer">
+        <ru>Вы действительно хотите рискнуть?!</ru>
+        <en>Do you really want to take a chance?!</en>
+    </message>
+	<message key="SecondPasswordAuth.CHANGE.Description">
+		<en>After entering the current password, please enter the new password to be used. (This is registered separately from the account password.)</en>
+		<ru>После ввода текущего пароля, введите новый пароль, которые будут использоваться. (Это регистрируется отдельно от пароля учетной записи.)</ru>
+	</message>
+	<message key="SecondPasswordAuth.CHANGE.PINNew">
+		<en>Enter a new PIN</en>
+		<ru>Введите новый PIN-код</ru>
+	</message>
+	<message key="SecondPasswordAuth.CHANGE.PINNewConfirm">
+		<en>Confirm a new PIN</en>
+		<ru>Подтвердите новый PIN-код</ru>
+	</message>
+	<message key="SecondPasswordAuth.CHANGE.PINOld">
+		<en>Enter Current PIN</en>
+		<ru>Введите текущий PIN-код</ru>
+	</message>
+	<message key="SecondPasswordAuth.CHANGE.Title">
+		<en>Change Character PIN</en>
+		<ru>Изменить PIN код</ru>
+	</message>
+	<message key="SecondPasswordAuth.CREATE.Description">
+		<en>Please enter in a character PIN. The character PIN must be entered when you wish to login or delete a character. (This PIN is separate than your game account password.)</en>
+		<ru>Пожалуйста, введите ПИН-код. PIN-код персонаж должен быть введен, если вы хотите войти в систему или удаления персонажа. (Этот PIN является отдельным от пароля учетной записи.)</ru>
+	</message>
+	<message key="SecondPasswordAuth.CREATE.PIN">
+		<en>Enter Character PIN</en>
+		<ru>Введите PIN-код</ru>
+	</message>
+	<message key="SecondPasswordAuth.CREATE.PINConfirm">
+		<en>Confirm Character PIN</en>
+		<ru>Подтвердите PIN-код</ru>
+	</message>
+	<message key="SecondPasswordAuth.CREATE.Title">
+		<en>Register Character PIN</en>
+		<ru>Регистрация PIN кодаы</ru>
+	</message>
+	<message key="SecondPasswordAuth.Cancel">
+		<en>Cancel</en>
+		<ru>Отмена</ru>
+	</message>
+	<message key="SecondPasswordAuth.Change">
+		<en>Change</en>
+		<ru>Изменить</ru>
+	</message>
+	<message key="SecondPasswordAuth.Help">
+		<en>Help</en>
+		<ru>Помощь</ru>
+	</message>
+	<message key="SecondPasswordAuth.Note">
+		<en>&lt;font color=LEVEL&gt;Note: Note text&lt;/font&gt;</en>
+		<ru>&lt;font color=LEVEL&gt;Примечание: Обратите внимание&lt;/font&gt;</ru>
+	</message>
+	<message key="SecondPasswordAuth.OK">
+		<en>OK</en>
+		<ru>OK</ru>
+	</message>
+	<message key="SecondPasswordAuth.Result.BLOCK_HOMEPAGE">
+		<en>This account has been locked for %time% due to %tryCnt% failed PIN attempts.</en>
+		<ru>Эта учетная запись была заблокирована на %time% в связи с %tryCnt% неудачных попыток ввода PIN.</ru>
+	</message>
+	<message key="SecondPasswordAuth.Result.ERROR">
+		<en>&lt;font color=FF0000&gt;Error&lt;/font&gt;</en>
+		<ru>&lt;font color=FF0000&gt;Ошибка&lt;/font&gt;</ru>
+	</message>
+	<message key="SecondPasswordAuth.Result.FAIL_VERIFY">
+		<en>Wrong PIN. %tryCnt% attempts left.</en>
+		<ru>Не верный PIN. Осталось попыток %tryCnt%</ru>
+	</message>
+	<message key="SecondPasswordAuth.Result.NOT_MATCH">
+		<en>&lt;font color=FF0000&gt;PINs do not match&lt;/font&gt;</en>
+		<ru>&lt;font color=FF0000&gt;PIN не совпадает&lt;/font&gt;</ru>
+	</message>
+	<message key="SecondPasswordAuth.Result.TOO_SHORT">
+		<en>&lt;font color=FF0000&gt;PIN too short.&lt;/font&gt;</en>
+		<ru>&lt;font color=FF0000&gt;PIN слишком мал.&lt;/font&gt;</ru>
+	</message>
+	<message key="SecondPasswordAuth.Result.TOO_SIMPLE">
+		<en>&lt;font color=LEVEL&gt;PIN is too simple.&lt;/font&gt;</en>
+		<ru>&lt;font color=LEVEL&gt;PIN слишком простой.&lt;/font&gt;</ru>
+	</message>
+	<message key="SecondPasswordAuth.VERIFY.Description">
+		<en>Please enter in a character PIN. The character PIN must be entered when you wish to login or delete a character. (This PIN is separate than your game account password.)</en>
+		<ru>Пожалуйста, введите ПИН-код. PIN-код персонажа должен быть введен, если вы хотите войти в игру или удалить персонажа. (Этот PIN является отдельным в отличии от пароля аккаунта.)</ru>
+	</message>
+	<message key="SecondPasswordAuth.VERIFY.PIN">
+		<en>Enter Character PIN</en>
+		<ru>Введите PIN-код</ru>
+	</message>
+	<message key="SecondPasswordAuth.VERIFY.Title">
+		<en>Enter Character PIN</en>
+		<ru>Введите PIN код</ru>
+	</message>
+</list>

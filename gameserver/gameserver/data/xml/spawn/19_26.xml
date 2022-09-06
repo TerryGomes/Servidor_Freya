@@ -1,0 +1,1878 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<!-- Tower of Infinitum 1 -->
+	<spawn count="8" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22373"/>
+		<territory>
+			<add x="-21281" y="280283" zmin="-15060" zmax="-14860"/>
+			<add x="-23123" y="280287" zmin="-15060" zmax="-14860"/>
+			<add x="-23123" y="277655" zmin="-15060" zmax="-14860"/>
+			<add x="-21281" y="277654" zmin="-15060" zmax="-14860"/>
+		</territory>
+	</spawn>
+	<spawn count="4" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22374"/>
+		<territory>
+			<add x="-21281" y="280283" zmin="-15060" zmax="-14860"/>
+			<add x="-23123" y="280287" zmin="-15060" zmax="-14860"/>
+			<add x="-23123" y="277655" zmin="-15060" zmax="-14860"/>
+			<add x="-21281" y="277654" zmin="-15060" zmax="-14860"/>
+		</territory>
+	</spawn>
+	<spawn count="1" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22375"/>
+		<territory>
+			<add x="-21281" y="280283" zmin="-15060" zmax="-14860"/>
+			<add x="-23123" y="280287" zmin="-15060" zmax="-14860"/>
+			<add x="-23123" y="277655" zmin="-15060" zmax="-14860"/>
+			<add x="-21281" y="277654" zmin="-15060" zmax="-14860"/>
+		</territory>
+	</spawn>
+	<spawn count="2" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22376"/>
+		<territory>
+			<add x="-21281" y="280283" zmin="-15060" zmax="-14860"/>
+			<add x="-23123" y="280287" zmin="-15060" zmax="-14860"/>
+			<add x="-23123" y="277655" zmin="-15060" zmax="-14860"/>
+			<add x="-21281" y="277654" zmin="-15060" zmax="-14860"/>
+		</territory>
+	</spawn>
+	<!-- Tower of Infinitum 2 -->
+	<spawn count="10" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22373"/>
+		<territory>
+			<add x="-21281" y="280283" zmin="-13400" zmax="-13200"/>
+			<add x="-23123" y="280287" zmin="-13400" zmax="-13200"/>
+			<add x="-23123" y="277655" zmin="-13400" zmax="-13200"/>
+			<add x="-21281" y="277654" zmin="-13400" zmax="-13200"/>
+		</territory>
+	</spawn>
+	<spawn count="2" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22374"/>
+		<territory>
+			<add x="-21281" y="280283" zmin="-13400" zmax="-13200"/>
+			<add x="-23123" y="280287" zmin="-13400" zmax="-13200"/>
+			<add x="-23123" y="277655" zmin="-13400" zmax="-13200"/>
+			<add x="-21281" y="277654" zmin="-13400" zmax="-13200"/>
+		</territory>
+	</spawn>
+	<spawn count="2" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22375"/>
+		<territory>
+			<add x="-21281" y="280283" zmin="-13400" zmax="-13200"/>
+			<add x="-23123" y="280287" zmin="-13400" zmax="-13200"/>
+			<add x="-23123" y="277655" zmin="-13400" zmax="-13200"/>
+			<add x="-21281" y="277654" zmin="-13400" zmax="-13200"/>
+		</territory>
+	</spawn>
+	<spawn count="1" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22376"/>
+		<territory>
+			<add x="-21281" y="280283" zmin="-13400" zmax="-13200"/>
+			<add x="-23123" y="280287" zmin="-13400" zmax="-13200"/>
+			<add x="-23123" y="277655" zmin="-13400" zmax="-13200"/>
+			<add x="-21281" y="277654" zmin="-13400" zmax="-13200"/>
+		</territory>
+	</spawn>
+	<!-- Tower of Infinitum 3 -->
+	<spawn count="3" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22373"/>
+		<territory>
+			<add x="-21281" y="280283" zmin="-11668" zmax="-11468"/>
+			<add x="-23123" y="280287" zmin="-11668" zmax="-11468"/>
+			<add x="-23123" y="277655" zmin="-11668" zmax="-11468"/>
+			<add x="-21281" y="277654" zmin="-11668" zmax="-11468"/>
+		</territory>
+	</spawn>
+	<spawn count="5" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22374"/>
+		<territory>
+			<add x="-21281" y="280283" zmin="-11668" zmax="-11468"/>
+			<add x="-23123" y="280287" zmin="-11668" zmax="-11468"/>
+			<add x="-23123" y="277655" zmin="-11668" zmax="-11468"/>
+			<add x="-21281" y="277654" zmin="-11668" zmax="-11468"/>
+		</territory>
+	</spawn>
+	<spawn count="5" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22375"/>
+		<territory>
+			<add x="-21281" y="280283" zmin="-11668" zmax="-11468"/>
+			<add x="-23123" y="280287" zmin="-11668" zmax="-11468"/>
+			<add x="-23123" y="277655" zmin="-11668" zmax="-11468"/>
+			<add x="-21281" y="277654" zmin="-11668" zmax="-11468"/>
+		</territory>
+	</spawn>
+	<spawn count="2" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22376"/>
+		<territory>
+			<add x="-21281" y="280283" zmin="-11668" zmax="-11468"/>
+			<add x="-23123" y="280287" zmin="-11668" zmax="-11468"/>
+			<add x="-23123" y="277655" zmin="-11668" zmax="-11468"/>
+			<add x="-21281" y="277654" zmin="-11668" zmax="-11468"/>
+		</territory>
+	</spawn>
+	<!-- Tower of Infinitum 4 -->
+	<spawn count="4" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22373"/>
+		<territory>
+			<add x="-21281" y="280283" zmin="-9940" zmax="-9740"/>
+			<add x="-23123" y="280287" zmin="-9940" zmax="-9740"/>
+			<add x="-23123" y="277655" zmin="-9940" zmax="-9740"/>
+			<add x="-21281" y="277654" zmin="-9940" zmax="-9740"/>
+		</territory>
+	</spawn>
+	<spawn count="4" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22374"/>
+		<territory>
+			<add x="-21281" y="280283" zmin="-9940" zmax="-9740"/>
+			<add x="-23123" y="280287" zmin="-9940" zmax="-9740"/>
+			<add x="-23123" y="277655" zmin="-9940" zmax="-9740"/>
+			<add x="-21281" y="277654" zmin="-9940" zmax="-9740"/>
+		</territory>
+	</spawn>
+	<spawn count="4" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22375"/>
+		<territory>
+			<add x="-21281" y="280283" zmin="-9940" zmax="-9740"/>
+			<add x="-23123" y="280287" zmin="-9940" zmax="-9740"/>
+			<add x="-23123" y="277655" zmin="-9940" zmax="-9740"/>
+			<add x="-21281" y="277654" zmin="-9940" zmax="-9740"/>
+		</territory>
+	</spawn>
+	<spawn count="3" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22376"/>
+		<territory>
+			<add x="-21281" y="280283" zmin="-9940" zmax="-9740"/>
+			<add x="-23123" y="280287" zmin="-9940" zmax="-9740"/>
+			<add x="-23123" y="277655" zmin="-9940" zmax="-9740"/>
+			<add x="-21281" y="277654" zmin="-9940" zmax="-9740"/>
+		</territory>
+	</spawn>
+	<!-- Tower of Infinitum 5 -->
+	<spawn count="5" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22373"/>
+		<territory>
+			<add x="-19932" y="277682" zmin="-8343" zmax="-7943"/>
+			<add x="-18115" y="277682" zmin="-8343" zmax="-7943"/>
+			<add x="-18115" y="280277" zmin="-8343" zmax="-7943"/>
+			<add x="-19932" y="280285" zmin="-8343" zmax="-7943"/>
+		</territory>
+	</spawn>
+	<spawn count="4" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22374"/>
+		<territory>
+			<add x="-19932" y="277682" zmin="-8343" zmax="-7943"/>
+			<add x="-18115" y="277682" zmin="-8343" zmax="-7943"/>
+			<add x="-18115" y="280277" zmin="-8343" zmax="-7943"/>
+			<add x="-19932" y="280285" zmin="-8343" zmax="-7943"/>
+		</territory>
+	</spawn>
+	<spawn count="1" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22375"/>
+		<territory>
+			<add x="-19932" y="277682" zmin="-8343" zmax="-7943"/>
+			<add x="-18115" y="277682" zmin="-8343" zmax="-7943"/>
+			<add x="-18115" y="280277" zmin="-8343" zmax="-7943"/>
+			<add x="-19932" y="280285" zmin="-8343" zmax="-7943"/>
+		</territory>
+	</spawn>
+	<spawn count="5" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22376"/>
+		<territory>
+			<add x="-19932" y="277682" zmin="-8343" zmax="-7943"/>
+			<add x="-18115" y="277682" zmin="-8343" zmax="-7943"/>
+			<add x="-18115" y="280277" zmin="-8343" zmax="-7943"/>
+			<add x="-19932" y="280285" zmin="-8343" zmax="-7943"/>
+		</territory>
+	</spawn>
+	<!-- Tower of Infinitum 6 -->
+	<spawn count="2" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22373"/>
+		<territory>
+			<add x="-19932" y="277682" zmin="-10014" zmax="-9614"/>
+			<add x="-18115" y="277682" zmin="-10014" zmax="-9614"/>
+			<add x="-18115" y="280275" zmin="-10014" zmax="-9614"/>
+			<add x="-19932" y="280280" zmin="-10014" zmax="-9614"/>
+		</territory>
+	</spawn>
+	<spawn count="4" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22374"/>
+		<territory>
+			<add x="-19932" y="277682" zmin="-10014" zmax="-9614"/>
+			<add x="-18115" y="277682" zmin="-10014" zmax="-9614"/>
+			<add x="-18115" y="280275" zmin="-10014" zmax="-9614"/>
+			<add x="-19932" y="280280" zmin="-10014" zmax="-9614"/>
+		</territory>
+	</spawn>
+	<spawn count="5" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22375"/>
+		<territory>
+			<add x="-19932" y="277682" zmin="-10014" zmax="-9614"/>
+			<add x="-18115" y="277682" zmin="-10014" zmax="-9614"/>
+			<add x="-18115" y="280275" zmin="-10014" zmax="-9614"/>
+			<add x="-19932" y="280280" zmin="-10014" zmax="-9614"/>
+		</territory>
+	</spawn>
+	<spawn count="4" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22376"/>
+		<territory>
+			<add x="-19932" y="277682" zmin="-10014" zmax="-9614"/>
+			<add x="-18115" y="277682" zmin="-10014" zmax="-9614"/>
+			<add x="-18115" y="280275" zmin="-10014" zmax="-9614"/>
+			<add x="-19932" y="280280" zmin="-10014" zmax="-9614"/>
+		</territory>
+	</spawn>
+	<!-- Tower of Infinitum 7 -->
+	<spawn count="3" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22373"/>
+		<territory>
+			<add x="-19932" y="277682" zmin="-11742" zmax="-11342"/>
+			<add x="-18115" y="277682" zmin="-11742" zmax="-11342"/>
+			<add x="-18115" y="280279" zmin="-11742" zmax="-11342"/>
+			<add x="-19932" y="280279" zmin="-11742" zmax="-11342"/>
+		</territory>
+	</spawn>
+	<spawn count="4" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22374"/>
+		<territory>
+			<add x="-19932" y="277682" zmin="-11742" zmax="-11342"/>
+			<add x="-18115" y="277682" zmin="-11742" zmax="-11342"/>
+			<add x="-18115" y="280279" zmin="-11742" zmax="-11342"/>
+			<add x="-19932" y="280279" zmin="-11742" zmax="-11342"/>
+		</territory>
+	</spawn>
+	<spawn count="4" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22375"/>
+		<territory>
+			<add x="-19932" y="277682" zmin="-11742" zmax="-11342"/>
+			<add x="-18115" y="277682" zmin="-11742" zmax="-11342"/>
+			<add x="-18115" y="280279" zmin="-11742" zmax="-11342"/>
+			<add x="-19932" y="280279" zmin="-11742" zmax="-11342"/>
+		</territory>
+	</spawn>
+	<spawn count="4" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22376"/>
+		<territory>
+			<add x="-19932" y="277682" zmin="-11742" zmax="-11342"/>
+			<add x="-18115" y="277682" zmin="-11742" zmax="-11342"/>
+			<add x="-18115" y="280279" zmin="-11742" zmax="-11342"/>
+			<add x="-19932" y="280279" zmin="-11742" zmax="-11342"/>
+		</territory>
+	</spawn>
+	<!-- Tower of Infinitum 8 -->
+	<spawn count="5" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22373"/>
+		<territory>
+			<add x="-19932" y="277682" zmin="-13470" zmax="-13070"/>
+			<add x="-18115" y="277682" zmin="-13470" zmax="-13070"/>
+			<add x="-18115" y="280281" zmin="-13470" zmax="-13070"/>
+			<add x="-19932" y="280279" zmin="-13470" zmax="-13070"/>
+		</territory>
+	</spawn>
+	<spawn count="1" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22374"/>
+		<territory>
+			<add x="-19932" y="277682" zmin="-13470" zmax="-13070"/>
+			<add x="-18115" y="277682" zmin="-13470" zmax="-13070"/>
+			<add x="-18115" y="280281" zmin="-13470" zmax="-13070"/>
+			<add x="-19932" y="280279" zmin="-13470" zmax="-13070"/>
+		</territory>
+	</spawn>
+	<spawn count="4" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22375"/>
+		<territory>
+			<add x="-19932" y="277682" zmin="-13470" zmax="-13070"/>
+			<add x="-18115" y="277682" zmin="-13470" zmax="-13070"/>
+			<add x="-18115" y="280281" zmin="-13470" zmax="-13070"/>
+			<add x="-19932" y="280279" zmin="-13470" zmax="-13070"/>
+		</territory>
+	</spawn>
+	<spawn count="5" respawn="80" respawn_random="10" period_of_day="none">
+		<npc id="22376"/>
+		<territory>
+			<add x="-19932" y="277682" zmin="-13470" zmax="-13070"/>
+			<add x="-18115" y="277682" zmin="-13470" zmax="-13070"/>
+			<add x="-18115" y="280281" zmin="-13470" zmax="-13070"/>
+			<add x="-19932" y="280279" zmin="-13470" zmax="-13070"/>
+		</territory>
+	</spawn>
+	<!-- Tully Workshop -->
+	<!-- 1 -->
+	<!-- maximum_npc=4 -->
+	<!-- [toy_of_tolles] -->
+	<spawn count="2" respawn="60" respawn_random="0" period_of_day="none">
+		<npc id="22383"/>
+		<territory>
+			<add x="-12416" y="272404" zmin="-15353" zmax="-15153"/>
+			<add x="-11867" y="272402" zmin="-15353" zmax="-15153"/>
+			<add x="-11165" y="273159" zmin="-15353" zmax="-15153"/>
+			<add x="-12418" y="273161" zmin="-15353" zmax="-15153"/>
+		</territory>
+	</spawn>
+	<!-- [tolles_golem_guard] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22385"/>
+		<territory>
+			<add x="-12416" y="272404" zmin="-15353" zmax="-15153"/>
+			<add x="-11867" y="272402" zmin="-15353" zmax="-15153"/>
+			<add x="-11165" y="273159" zmin="-15353" zmax="-15153"/>
+			<add x="-12418" y="273161" zmin="-15353" zmax="-15153"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=5 -->
+	<!-- [master_zeros] -->
+	<spawn count="1" respawn="10800" respawn_random="3600" period_of_day="none">
+		<npc id="22377"/>
+		<territory>
+			<add x="-14025" y="273346" zmin="-15353" zmax="-15153"/>
+			<add x="-13210" y="273348" zmin="-15353" zmax="-15153"/>
+			<add x="-13211" y="274501" zmin="-15353" zmax="-15153"/>
+			<add x="-14027" y="274507" zmin="-15353" zmax="-15153"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=5 -->
+	<!-- [toy_of_tolles] -->
+	<spawn count="2" respawn="60" respawn_random="0" period_of_day="none">
+		<npc id="22383"/>
+		<territory>
+			<add x="-12881" y="273351" zmin="-15353" zmax="-15153"/>
+			<add x="-12066" y="273353" zmin="-15353" zmax="-15153"/>
+			<add x="-12067" y="274506" zmin="-15353" zmax="-15153"/>
+			<add x="-12883" y="274512" zmin="-15353" zmax="-15153"/>
+		</territory>
+	</spawn>
+	<!-- [tolles_golem_guard] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22385"/>
+		<territory>
+			<add x="-12881" y="273351" zmin="-15353" zmax="-15153"/>
+			<add x="-12066" y="273353" zmin="-15353" zmax="-15153"/>
+			<add x="-12067" y="274506" zmin="-15353" zmax="-15153"/>
+			<add x="-12883" y="274512" zmin="-15353" zmax="-15153"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_mage_ag] -->
+	<spawn count="1" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22387"/>
+		<territory>
+			<add x="-12881" y="273351" zmin="-15353" zmax="-15153"/>
+			<add x="-12066" y="273353" zmin="-15353" zmax="-15153"/>
+			<add x="-12067" y="274506" zmin="-15353" zmax="-15153"/>
+			<add x="-12883" y="274512" zmin="-15353" zmax="-15153"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=4 -->
+	<!-- [tolles_golem_guard] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22385"/>
+		<territory>
+			<add x="-11812" y="273352" zmin="-15353" zmax="-15153"/>
+			<add x="-10997" y="273354" zmin="-15353" zmax="-15153"/>
+			<add x="-10998" y="274507" zmin="-15353" zmax="-15153"/>
+			<add x="-11814" y="274513" zmin="-15353" zmax="-15153"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_mage_ag] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22387"/>
+		<territory>
+			<add x="-11812" y="273352" zmin="-15353" zmax="-15153"/>
+			<add x="-10997" y="273354" zmin="-15353" zmax="-15153"/>
+			<add x="-10998" y="274507" zmin="-15353" zmax="-15153"/>
+			<add x="-11814" y="274513" zmin="-15353" zmax="-15153"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=4 -->
+	<!-- [toy_of_tolles] -->
+	<spawn count="2" respawn="60" respawn_random="0" period_of_day="none">
+		<npc id="22383"/>
+		<territory>
+			<add x="-13874" y="274705" zmin="-15353" zmax="-15153"/>
+			<add x="-12615" y="274707" zmin="-15353" zmax="-15153"/>
+			<add x="-12616" y="275452" zmin="-15353" zmax="-15153"/>
+			<add x="-13147" y="275455" zmin="-15353" zmax="-15153"/>
+		</territory>
+	</spawn>
+	<!-- [tolles_golem_guard] -->
+	<spawn count="1" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22385"/>
+		<territory>
+			<add x="-13874" y="274705" zmin="-15353" zmax="-15153"/>
+			<add x="-12615" y="274707" zmin="-15353" zmax="-15153"/>
+			<add x="-12616" y="275452" zmin="-15353" zmax="-15153"/>
+			<add x="-13147" y="275455" zmin="-15353" zmax="-15153"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_mage_ag] -->
+	<spawn count="1" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22387"/>
+		<territory>
+			<add x="-13874" y="274705" zmin="-15353" zmax="-15153"/>
+			<add x="-12615" y="274707" zmin="-15353" zmax="-15153"/>
+			<add x="-12616" y="275452" zmin="-15353" zmax="-15153"/>
+			<add x="-13147" y="275455" zmin="-15353" zmax="-15153"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=4 -->
+	<!-- [toy_of_tolles] -->
+	<spawn count="2" respawn="60" respawn_random="0" period_of_day="none">
+		<npc id="22383"/>
+		<territory>
+			<add x="-12410" y="274697" zmin="-15353" zmax="-15153"/>
+			<add x="-11199" y="274711" zmin="-15353" zmax="-15153"/>
+			<add x="-11900" y="275413" zmin="-15353" zmax="-15153"/>
+			<add x="-12405" y="275403" zmin="-15353" zmax="-15153"/>
+		</territory>
+	</spawn>
+	<!-- [tolles_golem_guard] -->
+	<spawn count="1" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22385"/>
+		<territory>
+			<add x="-12410" y="274697" zmin="-15353" zmax="-15153"/>
+			<add x="-11199" y="274711" zmin="-15353" zmax="-15153"/>
+			<add x="-11900" y="275413" zmin="-15353" zmax="-15153"/>
+			<add x="-12405" y="275403" zmin="-15353" zmax="-15153"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_mage_ag] -->
+	<spawn count="1" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22387"/>
+		<territory>
+			<add x="-12410" y="274697" zmin="-15353" zmax="-15153"/>
+			<add x="-11199" y="274711" zmin="-15353" zmax="-15153"/>
+			<add x="-11900" y="275413" zmin="-15353" zmax="-15153"/>
+			<add x="-12405" y="275403" zmin="-15353" zmax="-15153"/>
+		</territory>
+	</spawn>
+	<!-- 2 -->
+	<!-- maximum_npc=6 -->
+	<!-- [tolles_golem_guard] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22385"/>
+		<territory>
+			<add x="-13164" y="272353" zmin="-13648" zmax="-13448"/>
+			<add x="-11934" y="272350" zmin="-13648" zmax="-13448"/>
+			<add x="-12219" y="273093" zmin="-13648" zmax="-13448"/>
+			<add x="-12875" y="273066" zmin="-13648" zmax="-13448"/>
+			<add x="-13314" y="273512" zmin="-13648" zmax="-13448"/>
+			<add x="-14071" y="273208" zmin="-13648" zmax="-13448"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_mage_ag] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22387"/>
+		<territory>
+			<add x="-13164" y="272353" zmin="-13648" zmax="-13448"/>
+			<add x="-11934" y="272350" zmin="-13648" zmax="-13448"/>
+			<add x="-12219" y="273093" zmin="-13648" zmax="-13448"/>
+			<add x="-12875" y="273066" zmin="-13648" zmax="-13448"/>
+			<add x="-13314" y="273512" zmin="-13648" zmax="-13448"/>
+			<add x="-14071" y="273208" zmin="-13648" zmax="-13448"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_malignant_gd_ag] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22389"/>
+		<territory>
+			<add x="-13164" y="272353" zmin="-13648" zmax="-13448"/>
+			<add x="-11934" y="272350" zmin="-13648" zmax="-13448"/>
+			<add x="-12219" y="273093" zmin="-13648" zmax="-13448"/>
+			<add x="-12875" y="273066" zmin="-13648" zmax="-13448"/>
+			<add x="-13314" y="273512" zmin="-13648" zmax="-13448"/>
+			<add x="-14071" y="273208" zmin="-13648" zmax="-13448"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=6 -->
+	<!-- [tolles_golem_guard] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22385"/>
+		<territory>
+			<add x="-11809" y="272388" zmin="-13648" zmax="-13448"/>
+			<add x="-10927" y="273285" zmin="-13648" zmax="-13448"/>
+			<add x="-10909" y="274531" zmin="-13648" zmax="-13448"/>
+			<add x="-11678" y="274217" zmin="-13648" zmax="-13448"/>
+			<add x="-11653" y="273556" zmin="-13648" zmax="-13448"/>
+			<add x="-12119" y="273121" zmin="-13648" zmax="-13448"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_mage_ag] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22387"/>
+		<territory>
+			<add x="-11809" y="272388" zmin="-13648" zmax="-13448"/>
+			<add x="-10927" y="273285" zmin="-13648" zmax="-13448"/>
+			<add x="-10909" y="274531" zmin="-13648" zmax="-13448"/>
+			<add x="-11678" y="274217" zmin="-13648" zmax="-13448"/>
+			<add x="-11653" y="273556" zmin="-13648" zmax="-13448"/>
+			<add x="-12119" y="273121" zmin="-13648" zmax="-13448"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_malignant_gd_ag] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22389"/>
+		<territory>
+			<add x="-11809" y="272388" zmin="-13648" zmax="-13448"/>
+			<add x="-10927" y="273285" zmin="-13648" zmax="-13448"/>
+			<add x="-10909" y="274531" zmin="-13648" zmax="-13448"/>
+			<add x="-11678" y="274217" zmin="-13648" zmax="-13448"/>
+			<add x="-11653" y="273556" zmin="-13648" zmax="-13448"/>
+			<add x="-12119" y="273121" zmin="-13648" zmax="-13448"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=6 -->
+	<!-- [tolles_golem_guard] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22385"/>
+		<territory>
+			<add x="-12161" y="274784" zmin="-13648" zmax="-13448"/>
+			<add x="-11710" y="274300" zmin="-13648" zmax="-13448"/>
+			<add x="-10952" y="274617" zmin="-13648" zmax="-13448"/>
+			<add x="-11852" y="275511" zmin="-13648" zmax="-13448"/>
+			<add x="-13120" y="275522" zmin="-13648" zmax="-13448"/>
+			<add x="-12824" y="274778" zmin="-13648" zmax="-13448"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_mage_ag] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22387"/>
+		<territory>
+			<add x="-12161" y="274784" zmin="-13648" zmax="-13448"/>
+			<add x="-11710" y="274300" zmin="-13648" zmax="-13448"/>
+			<add x="-10952" y="274617" zmin="-13648" zmax="-13448"/>
+			<add x="-11852" y="275511" zmin="-13648" zmax="-13448"/>
+			<add x="-13120" y="275522" zmin="-13648" zmax="-13448"/>
+			<add x="-12824" y="274778" zmin="-13648" zmax="-13448"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_malignant_gd_ag] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22389"/>
+		<territory>
+			<add x="-12161" y="274784" zmin="-13648" zmax="-13448"/>
+			<add x="-11710" y="274300" zmin="-13648" zmax="-13448"/>
+			<add x="-10952" y="274617" zmin="-13648" zmax="-13448"/>
+			<add x="-11852" y="275511" zmin="-13648" zmax="-13448"/>
+			<add x="-13120" y="275522" zmin="-13648" zmax="-13448"/>
+			<add x="-12824" y="274778" zmin="-13648" zmax="-13448"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=6 -->
+	<!-- [tolles_golem_guard] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22385"/>
+		<territory>
+			<add x="-14086" y="273320" zmin="-13648" zmax="-13448"/>
+			<add x="-13358" y="273635" zmin="-13648" zmax="-13448"/>
+			<add x="-13371" y="274275" zmin="-13648" zmax="-13448"/>
+			<add x="-12915" y="274732" zmin="-13648" zmax="-13448"/>
+			<add x="-13198" y="275454" zmin="-13648" zmax="-13448"/>
+			<add x="-14084" y="274557" zmin="-13648" zmax="-13448"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_mage_ag] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22387"/>
+		<territory>
+			<add x="-14086" y="273320" zmin="-13648" zmax="-13448"/>
+			<add x="-13358" y="273635" zmin="-13648" zmax="-13448"/>
+			<add x="-13371" y="274275" zmin="-13648" zmax="-13448"/>
+			<add x="-12915" y="274732" zmin="-13648" zmax="-13448"/>
+			<add x="-13198" y="275454" zmin="-13648" zmax="-13448"/>
+			<add x="-14084" y="274557" zmin="-13648" zmax="-13448"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_malignant_gd_ag] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22389"/>
+		<territory>
+			<add x="-14086" y="273320" zmin="-13648" zmax="-13448"/>
+			<add x="-13358" y="273635" zmin="-13648" zmax="-13448"/>
+			<add x="-13371" y="274275" zmin="-13648" zmax="-13448"/>
+			<add x="-12915" y="274732" zmin="-13648" zmax="-13448"/>
+			<add x="-13198" y="275454" zmin="-13648" zmax="-13448"/>
+			<add x="-14084" y="274557" zmin="-13648" zmax="-13448"/>
+		</territory>
+	</spawn>
+	<!-- 3 -->
+	<!-- maximum_npc=5 -->
+	<!-- [master_pestina] -->
+	<spawn count="1" respawn="10800" respawn_random="3600" period_of_day="none">
+		<point x="-12496" y="273964" z="-11620" h="40960"/>
+		<npc id="22380"/>
+	</spawn>
+	<!-- maximum_npc=2 -->
+	<!-- [workshop_mage] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22386"/>
+		<territory>
+			<add x="-12600" y="272692" zmin="-11832" zmax="-11632"/>
+			<add x="-12400" y="272692" zmin="-11832" zmax="-11632"/>
+			<add x="-12400" y="272892" zmin="-11832" zmax="-11632"/>
+			<add x="-12600" y="272892" zmin="-11832" zmax="-11632"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_malignant_gd] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22388"/>
+		<territory>
+			<add x="-12600" y="272692" zmin="-11832" zmax="-11632"/>
+			<add x="-12400" y="272692" zmin="-11832" zmax="-11632"/>
+			<add x="-12400" y="272892" zmin="-11832" zmax="-11632"/>
+			<add x="-12600" y="272892" zmin="-11832" zmax="-11632"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=2 -->
+	<!-- [workshop_mage] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22386"/>
+		<territory>
+			<add x="-12612" y="271996" zmin="-11968" zmax="-11768"/>
+			<add x="-12412" y="271996" zmin="-11968" zmax="-11768"/>
+			<add x="-12412" y="272196" zmin="-11968" zmax="-11768"/>
+			<add x="-12612" y="272196" zmin="-11968" zmax="-11768"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_malignant_gd] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22388"/>
+		<territory>
+			<add x="-12612" y="271996" zmin="-11968" zmax="-11768"/>
+			<add x="-12412" y="271996" zmin="-11968" zmax="-11768"/>
+			<add x="-12412" y="272196" zmin="-11968" zmax="-11768"/>
+			<add x="-12612" y="272196" zmin="-11968" zmax="-11768"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=2 -->
+	<!-- [workshop_mage] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22386"/>
+		<territory>
+			<add x="-12612" y="272400" zmin="-11912" zmax="-11712"/>
+			<add x="-12412" y="272400" zmin="-11912" zmax="-11712"/>
+			<add x="-12412" y="272600" zmin="-11912" zmax="-11712"/>
+			<add x="-12612" y="272600" zmin="-11912" zmax="-11712"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_malignant_gd] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22388"/>
+		<territory>
+			<add x="-12612" y="272400" zmin="-11912" zmax="-11712"/>
+			<add x="-12412" y="272400" zmin="-11912" zmax="-11712"/>
+			<add x="-12412" y="272600" zmin="-11912" zmax="-11712"/>
+			<add x="-12612" y="272600" zmin="-11912" zmax="-11712"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=2 -->
+	<!-- [workshop_mage] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22386"/>
+		<territory>
+			<add x="-13768" y="273832" zmin="-11836" zmax="-11636"/>
+			<add x="-13568" y="273832" zmin="-11836" zmax="-11636"/>
+			<add x="-13568" y="274032" zmin="-11836" zmax="-11636"/>
+			<add x="-13768" y="274032" zmin="-11836" zmax="-11636"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_malignant_gd] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22388"/>
+		<territory>
+			<add x="-13768" y="273832" zmin="-11836" zmax="-11636"/>
+			<add x="-13568" y="273832" zmin="-11836" zmax="-11636"/>
+			<add x="-13568" y="274032" zmin="-11836" zmax="-11636"/>
+			<add x="-13768" y="274032" zmin="-11836" zmax="-11636"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=2 -->
+	<!-- [workshop_mage] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22386"/>
+		<territory>
+			<add x="-14436" y="273820" zmin="-11972" zmax="-11772"/>
+			<add x="-14236" y="273820" zmin="-11972" zmax="-11772"/>
+			<add x="-14236" y="274020" zmin="-11972" zmax="-11772"/>
+			<add x="-14436" y="274020" zmin="-11972" zmax="-11772"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_malignant_gd] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22388"/>
+		<territory>
+			<add x="-14436" y="273820" zmin="-11972" zmax="-11772"/>
+			<add x="-14236" y="273820" zmin="-11972" zmax="-11772"/>
+			<add x="-14236" y="274020" zmin="-11972" zmax="-11772"/>
+			<add x="-14436" y="274020" zmin="-11972" zmax="-11772"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=2 -->
+	<!-- [workshop_mage] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22386"/>
+		<territory>
+			<add x="-14048" y="273828" zmin="-11916" zmax="-11716"/>
+			<add x="-13848" y="273828" zmin="-11916" zmax="-11716"/>
+			<add x="-13848" y="274028" zmin="-11916" zmax="-11716"/>
+			<add x="-14048" y="274028" zmin="-11916" zmax="-11716"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_malignant_gd] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22388"/>
+		<territory>
+			<add x="-14048" y="273828" zmin="-11916" zmax="-11716"/>
+			<add x="-13848" y="273828" zmin="-11916" zmax="-11716"/>
+			<add x="-13848" y="274028" zmin="-11916" zmax="-11716"/>
+			<add x="-14048" y="274028" zmin="-11916" zmax="-11716"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=2 -->
+	<!-- [workshop_mage] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22386"/>
+		<territory>
+			<add x="-12612" y="275016" zmin="-11832" zmax="-11632"/>
+			<add x="-12412" y="275016" zmin="-11832" zmax="-11632"/>
+			<add x="-12412" y="275216" zmin="-11832" zmax="-11632"/>
+			<add x="-12612" y="275216" zmin="-11832" zmax="-11632"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_malignant_gd] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22388"/>
+		<territory>
+			<add x="-12612" y="275016" zmin="-11832" zmax="-11632"/>
+			<add x="-12412" y="275016" zmin="-11832" zmax="-11632"/>
+			<add x="-12412" y="275216" zmin="-11832" zmax="-11632"/>
+			<add x="-12612" y="275216" zmin="-11832" zmax="-11632"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=2 -->
+	<!-- [workshop_mage] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22386"/>
+		<territory>
+			<add x="-12616" y="275636" zmin="-11972" zmax="-11772"/>
+			<add x="-12416" y="275636" zmin="-11972" zmax="-11772"/>
+			<add x="-12416" y="275836" zmin="-11972" zmax="-11772"/>
+			<add x="-12616" y="275836" zmin="-11972" zmax="-11772"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_malignant_gd] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22388"/>
+		<territory>
+			<add x="-12616" y="275636" zmin="-11972" zmax="-11772"/>
+			<add x="-12416" y="275636" zmin="-11972" zmax="-11772"/>
+			<add x="-12416" y="275836" zmin="-11972" zmax="-11772"/>
+			<add x="-12616" y="275836" zmin="-11972" zmax="-11772"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=2 -->
+	<!-- [workshop_mage] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22386"/>
+		<territory>
+			<add x="-12608" y="275272" zmin="-11908" zmax="-11708"/>
+			<add x="-12408" y="275272" zmin="-11908" zmax="-11708"/>
+			<add x="-12408" y="275472" zmin="-11908" zmax="-11708"/>
+			<add x="-12608" y="275472" zmin="-11908" zmax="-11708"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_malignant_gd] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22388"/>
+		<territory>
+			<add x="-12608" y="275272" zmin="-11908" zmax="-11708"/>
+			<add x="-12408" y="275272" zmin="-11908" zmax="-11708"/>
+			<add x="-12408" y="275472" zmin="-11908" zmax="-11708"/>
+			<add x="-12608" y="275472" zmin="-11908" zmax="-11708"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=2 -->
+	<!-- [workshop_mage] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22386"/>
+		<territory>
+			<add x="-11468" y="273828" zmin="-11832" zmax="-11632"/>
+			<add x="-11268" y="273828" zmin="-11832" zmax="-11632"/>
+			<add x="-11268" y="274028" zmin="-11832" zmax="-11632"/>
+			<add x="-11468" y="274028" zmin="-11832" zmax="-11632"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_malignant_gd] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22388"/>
+		<territory>
+			<add x="-11468" y="273828" zmin="-11832" zmax="-11632"/>
+			<add x="-11268" y="273828" zmin="-11832" zmax="-11632"/>
+			<add x="-11268" y="274028" zmin="-11832" zmax="-11632"/>
+			<add x="-11468" y="274028" zmin="-11832" zmax="-11632"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=2 -->
+	<!-- [workshop_mage] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22386"/>
+		<territory>
+			<add x="-10788" y="273824" zmin="-11976" zmax="-11776"/>
+			<add x="-10588" y="273824" zmin="-11976" zmax="-11776"/>
+			<add x="-10588" y="274024" zmin="-11976" zmax="-11776"/>
+			<add x="-10788" y="274024" zmin="-11976" zmax="-11776"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_malignant_gd] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22388"/>
+		<territory>
+			<add x="-10788" y="273824" zmin="-11976" zmax="-11776"/>
+			<add x="-10588" y="273824" zmin="-11976" zmax="-11776"/>
+			<add x="-10588" y="274024" zmin="-11976" zmax="-11776"/>
+			<add x="-10788" y="274024" zmin="-11976" zmax="-11776"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=2 -->
+	<!-- [workshop_mage] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22386"/>
+		<territory>
+			<add x="-11196" y="273832" zmin="-11908" zmax="-11708"/>
+			<add x="-10996" y="273832" zmin="-11908" zmax="-11708"/>
+			<add x="-10996" y="274032" zmin="-11908" zmax="-11708"/>
+			<add x="-11196" y="274032" zmin="-11908" zmax="-11708"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_malignant_gd] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<npc id="22388"/>
+		<territory>
+			<add x="-11196" y="273832" zmin="-11908" zmax="-11708"/>
+			<add x="-10996" y="273832" zmin="-11908" zmax="-11708"/>
+			<add x="-10996" y="274032" zmin="-11908" zmax="-11708"/>
+			<add x="-11196" y="274032" zmin="-11908" zmax="-11708"/>
+		</territory>
+	</spawn>
+	<!-- 4 -->
+	<!-- maximum_npc=6 -->
+	<!-- [tolles_golem_guard] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22385"/>
+		<territory>
+			<add x="-13165" y="272354" zmin="-10541" zmax="-10341"/>
+			<add x="-11994" y="272351" zmin="-10541" zmax="-10341"/>
+			<add x="-12289" y="273095" zmin="-10541" zmax="-10341"/>
+			<add x="-12875" y="273021" zmin="-10541" zmax="-10341"/>
+			<add x="-13288" y="273449" zmin="-10541" zmax="-10341"/>
+			<add x="-14005" y="273173" zmin="-10541" zmax="-10341"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_mage_ag] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22387"/>
+		<territory>
+			<add x="-13165" y="272354" zmin="-10541" zmax="-10341"/>
+			<add x="-11994" y="272351" zmin="-10541" zmax="-10341"/>
+			<add x="-12289" y="273095" zmin="-10541" zmax="-10341"/>
+			<add x="-12875" y="273021" zmin="-10541" zmax="-10341"/>
+			<add x="-13288" y="273449" zmin="-10541" zmax="-10341"/>
+			<add x="-14005" y="273173" zmin="-10541" zmax="-10341"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_malignant_gd_ag] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22389"/>
+		<territory>
+			<add x="-13165" y="272354" zmin="-10541" zmax="-10341"/>
+			<add x="-11994" y="272351" zmin="-10541" zmax="-10341"/>
+			<add x="-12289" y="273095" zmin="-10541" zmax="-10341"/>
+			<add x="-12875" y="273021" zmin="-10541" zmax="-10341"/>
+			<add x="-13288" y="273449" zmin="-10541" zmax="-10341"/>
+			<add x="-14005" y="273173" zmin="-10541" zmax="-10341"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=6 -->
+	<!-- [tolles_golem_guard] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22385"/>
+		<territory>
+			<add x="-11741" y="272387" zmin="-10542" zmax="-10342"/>
+			<add x="-10927" y="273287" zmin="-10542" zmax="-10342"/>
+			<add x="-10909" y="274501" zmin="-10542" zmax="-10342"/>
+			<add x="-11649" y="274161" zmin="-10542" zmax="-10342"/>
+			<add x="-11624" y="273557" zmin="-10542" zmax="-10342"/>
+			<add x="-12068" y="273122" zmin="-10542" zmax="-10342"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_mage_ag] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22387"/>
+		<territory>
+			<add x="-11741" y="272387" zmin="-10542" zmax="-10342"/>
+			<add x="-10927" y="273287" zmin="-10542" zmax="-10342"/>
+			<add x="-10909" y="274501" zmin="-10542" zmax="-10342"/>
+			<add x="-11649" y="274161" zmin="-10542" zmax="-10342"/>
+			<add x="-11624" y="273557" zmin="-10542" zmax="-10342"/>
+			<add x="-12068" y="273122" zmin="-10542" zmax="-10342"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_malignant_gd_ag] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22389"/>
+		<territory>
+			<add x="-11741" y="272387" zmin="-10542" zmax="-10342"/>
+			<add x="-10927" y="273287" zmin="-10542" zmax="-10342"/>
+			<add x="-10909" y="274501" zmin="-10542" zmax="-10342"/>
+			<add x="-11649" y="274161" zmin="-10542" zmax="-10342"/>
+			<add x="-11624" y="273557" zmin="-10542" zmax="-10342"/>
+			<add x="-12068" y="273122" zmin="-10542" zmax="-10342"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=6 -->
+	<!-- [tolles_golem_guard] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22385"/>
+		<territory>
+			<add x="-12088" y="274834" zmin="-10539" zmax="-10339"/>
+			<add x="-11711" y="274418" zmin="-10539" zmax="-10339"/>
+			<add x="-11068" y="274738" zmin="-10539" zmax="-10339"/>
+			<add x="-11853" y="275512" zmin="-10539" zmax="-10339"/>
+			<add x="-13048" y="275523" zmin="-10539" zmax="-10339"/>
+			<add x="-12749" y="274780" zmin="-10539" zmax="-10339"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_mage_ag] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22387"/>
+		<territory>
+			<add x="-12088" y="274834" zmin="-10539" zmax="-10339"/>
+			<add x="-11711" y="274418" zmin="-10539" zmax="-10339"/>
+			<add x="-11068" y="274738" zmin="-10539" zmax="-10339"/>
+			<add x="-11853" y="275512" zmin="-10539" zmax="-10339"/>
+			<add x="-13048" y="275523" zmin="-10539" zmax="-10339"/>
+			<add x="-12749" y="274780" zmin="-10539" zmax="-10339"/>
+		</territory>
+	</spawn>
+	<!-- [workshop_malignant_gd_ag] -->
+	<spawn count="2" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22389"/>
+		<territory>
+			<add x="-12088" y="274834" zmin="-10539" zmax="-10339"/>
+			<add x="-11711" y="274418" zmin="-10539" zmax="-10339"/>
+			<add x="-11068" y="274738" zmin="-10539" zmax="-10339"/>
+			<add x="-11853" y="275512" zmin="-10539" zmax="-10339"/>
+			<add x="-13048" y="275523" zmin="-10539" zmax="-10339"/>
+			<add x="-12749" y="274780" zmin="-10539" zmax="-10339"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=3 -->
+	<!-- [workshop_overseer] -->
+	<spawn count="1" respawn="180" respawn_random="0" period_of_day="none">
+		<npc id="22390"/>
+		<territory>
+			<add x="-14086" y="273478" zmin="-10538" zmax="-10338"/>
+			<add x="-13391" y="273672" zmin="-10538" zmax="-10338"/>
+			<add x="-13415" y="274277" zmin="-10538" zmax="-10338"/>
+			<add x="-12961" y="274770" zmin="-10538" zmax="-10338"/>
+			<add x="-13239" y="275456" zmin="-10538" zmax="-10338"/>
+			<add x="-14084" y="274559" zmin="-10538" zmax="-10338"/>
+		</territory>
+	</spawn>
+	<!-- 5 -->
+	<!-- maximum_npc=15 -->
+	<!-- [self_destructer] -->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12524" y="273932" z="-9014" h="49151"/>
+		<npc id="32371"/>
+	</spawn>
+	<!-- [self_destructer] -->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-10831" y="273890" z="-9040" h="81895"/>
+		<npc id="32371"/>
+	</spawn>
+	<!-- [self_destructer] -->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-10817" y="273986" z="-9040" h="-16452"/>
+		<npc id="32371"/>
+	</spawn>
+	<!-- [self_destructer] -->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13773" y="275119" z="-9040" h="8428"/>
+		<npc id="32371"/>
+	</spawn>
+	<!-- [self_destructer] -->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11547" y="271772" z="-9040" h="-19124"/>
+		<npc id="32371"/>
+	</spawn>
+	<!-- [failed_timetwister] -->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-10832" y="273808" z="-9040" h="0"/>
+		<npc id="22392"/>
+	</spawn>
+	<!-- [failed_timetwister] -->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-10816" y="274096" z="-9040" h="14964"/>
+		<npc id="22392"/>
+	</spawn>
+	<!-- [failed_timetwister] -->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13824" y="275072" z="-9040" h="-24644"/>
+		<npc id="22392"/>
+	</spawn>
+	<!-- [failed_timetwister] -->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11504" y="271952" z="-9040" h="9328"/>
+		<npc id="22392"/>
+	</spawn>
+	<!-- [failed_timetwister] -->
+	<spawn count="2" respawn="60" respawn_random="0" period_of_day="none">
+		<npc id="22392"/>
+		<territory>
+			<add x="-15094" y="276418" zmin="-9152" zmax="-7852"/>
+			<add x="-10023" y="276418" zmin="-9152" zmax="-7852"/>
+			<add x="-10017" y="271365" zmin="-9152" zmax="-7852"/>
+			<add x="-15098" y="271365" zmin="-9152" zmax="-7852"/>
+		</territory>
+	</spawn>
+	<!-- maximum_npc=1 -->
+	<!-- [cube_for_tolles68] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-12752" y="279696" z="-13596" h="32768"/>
+		<npc id="32467"/>
+	</spawn>
+	<!-- [ghost_tolles] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-11984" y="272928" z="-9040" h="23644"/>
+		<npc id="32370"/>
+	</spawn>
+	<!-- [ghost_tolles] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-14643" y="274588" z="-9040" h="49152"/>
+		<npc id="32370"/>
+	</spawn>
+	<!-- [tombstone_evil_factory] -->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14756" y="274788" z="-9040" h="-13868"/>
+		<npc id="32344"/>
+	</spawn>
+	<!-- [tolles_trap01] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-13571" y="275912" z="-9032" h="0"/>
+		<npc id="18445"/>
+	</spawn>
+	<!-- [tolles_trap02] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-11948" y="276084" z="-9032" h="0"/>
+		<npc id="18446"/>
+	</spawn>
+	<!-- [tolles_trap03] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-12092" y="275684" z="-9032" h="0"/>
+		<npc id="18447"/>
+	</spawn>
+	<!-- [tolles_trap04] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-10406" y="274545" z="-9032" h="0"/>
+		<npc id="18448"/>
+	</spawn>
+	<!-- [tolles_trap05] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-10790" y="274430" z="-9032" h="0"/>
+		<npc id="18449"/>
+	</spawn>
+	<!-- [tolles_trap06] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-11132" y="273604" z="-9032" h="0"/>
+		<npc id="18450"/>
+	</spawn>
+	<!-- [tolles_trap07] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-10748" y="272746" z="-9032" h="0"/>
+		<npc id="18451"/>
+	</spawn>
+	<!-- [tolles_trap08] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-10935" y="273107" z="-9032" h="0"/>
+		<npc id="32352"/>
+	</spawn>
+	<!-- [tolles_trap09] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-12965" y="272272" z="-9032" h="0"/>
+		<npc id="18453"/>
+	</spawn>
+	<!-- [tolles_trap10] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-13358" y="272417" z="-9032" h="0"/>
+		<npc id="18454"/>
+	</spawn>
+	<!-- [tolles_trap11] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-14446" y="272952" z="-9032" h="0"/>
+		<npc id="18455"/>
+	</spawn>
+	<!-- [tolles_trap12] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-14192" y="273509" z="-9032" h="0"/>
+		<npc id="18456"/>
+	</spawn>
+	<!-- [tolles_trap13] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-14190" y="274500" z="-9032" h="0"/>
+		<npc id="18457"/>
+	</spawn>
+	<!-- [tolles_trap14] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-13731" y="274675" z="-9032" h="0"/>
+		<npc id="18458"/>
+	</spawn>
+	<!-- [tolles_trap15] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-13855" y="273649" z="-9032" h="0"/>
+		<npc id="18459"/>
+	</spawn>
+	<!-- [tolles_trap11] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-14610" y="273721" z="-9032" h="0"/>
+		<npc id="18455"/>
+	</spawn>
+	<!-- [tolles_trap_raid01] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-13743" y="273238" z="-9032" h="0"/>
+		<npc id="18460"/>
+	</spawn>
+	<!-- [tolles_trap_raid02] -->
+	<spawn count="1" respawn="15" respawn_random="0" period_of_day="none">
+		<point x="-11815" y="272753" z="-9032" h="0"/>
+		<npc id="18461"/>
+	</spawn>
+	<!-- 6 -->
+	<!-- maximum_npc=18 -->
+	<!-- [workshop_mage_ag] -->
+	<spawn count="3" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22387"/>
+		<territory>
+			<add x="-13143" y="278159" zmin="-13640" zmax="-13440"/>
+			<add x="-11984" y="278155" zmin="-13640" zmax="-13440"/>
+			<add x="-12247" y="278817" zmin="-13640" zmax="-13440"/>
+			<add x="-12877" y="278817" zmin="-13640" zmax="-13440"/>
+			<add x="-13301" y="279233" zmin="-13640" zmax="-13440"/>
+			<add x="-13948" y="278959" zmin="-13640" zmax="-13440"/>
+		</territory>
+	</spawn>
+	<!-- [sinmaster] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<npc id="22423"/>
+		<territory>
+			<add x="-13143" y="278159" zmin="-13640" zmax="-13440"/>
+			<add x="-11984" y="278155" zmin="-13640" zmax="-13440"/>
+			<add x="-12247" y="278817" zmin="-13640" zmax="-13440"/>
+			<add x="-12877" y="278817" zmin="-13640" zmax="-13440"/>
+			<add x="-13301" y="279233" zmin="-13640" zmax="-13440"/>
+			<add x="-13948" y="278959" zmin="-13640" zmax="-13440"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22405"/>
+		<territory>
+			<add x="-13143" y="278159" zmin="-13640" zmax="-13440"/>
+			<add x="-11984" y="278155" zmin="-13640" zmax="-13440"/>
+			<add x="-12247" y="278817" zmin="-13640" zmax="-13440"/>
+			<add x="-12877" y="278817" zmin="-13640" zmax="-13440"/>
+			<add x="-13301" y="279233" zmin="-13640" zmax="-13440"/>
+			<add x="-13948" y="278959" zmin="-13640" zmax="-13440"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion_1] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22406"/>
+		<territory>
+			<add x="-13143" y="278159" zmin="-13640" zmax="-13440"/>
+			<add x="-11984" y="278155" zmin="-13640" zmax="-13440"/>
+			<add x="-12247" y="278817" zmin="-13640" zmax="-13440"/>
+			<add x="-12877" y="278817" zmin="-13640" zmax="-13440"/>
+			<add x="-13301" y="279233" zmin="-13640" zmax="-13440"/>
+			<add x="-13948" y="278959" zmin="-13640" zmax="-13440"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion_2] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22407"/>
+		<territory>
+			<add x="-13143" y="278159" zmin="-13640" zmax="-13440"/>
+			<add x="-11984" y="278155" zmin="-13640" zmax="-13440"/>
+			<add x="-12247" y="278817" zmin="-13640" zmax="-13440"/>
+			<add x="-12877" y="278817" zmin="-13640" zmax="-13440"/>
+			<add x="-13301" y="279233" zmin="-13640" zmax="-13440"/>
+			<add x="-13948" y="278959" zmin="-13640" zmax="-13440"/>
+		</territory>
+	</spawn>
+	<!-- [unknown_agent] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-13312" y="279172" z="-13599" h="-20300"/>
+		<npc id="32372"/>
+	</spawn>
+	<!-- maximum_npc=18 -->
+	<!-- [workshop_mage_ag] -->
+	<spawn count="3" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22387"/>
+		<territory>
+			<add x="-12135" y="280544" zmin="-13640" zmax="-13440"/>
+			<add x="-11708" y="280111" zmin="-13640" zmax="-13440"/>
+			<add x="-11029" y="280377" zmin="-13640" zmax="-13440"/>
+			<add x="-11881" y="281242" zmin="-13640" zmax="-13440"/>
+			<add x="-13044" y="281234" zmin="-13640" zmax="-13440"/>
+			<add x="-12767" y="280546" zmin="-13640" zmax="-13440"/>
+		</territory>
+	</spawn>
+	<!-- [sinmaster] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<npc id="22423"/>
+		<territory>
+			<add x="-12135" y="280544" zmin="-13640" zmax="-13440"/>
+			<add x="-11708" y="280111" zmin="-13640" zmax="-13440"/>
+			<add x="-11029" y="280377" zmin="-13640" zmax="-13440"/>
+			<add x="-11881" y="281242" zmin="-13640" zmax="-13440"/>
+			<add x="-13044" y="281234" zmin="-13640" zmax="-13440"/>
+			<add x="-12767" y="280546" zmin="-13640" zmax="-13440"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22405"/>
+		<territory>
+			<add x="-12135" y="280544" zmin="-13640" zmax="-13440"/>
+			<add x="-11708" y="280111" zmin="-13640" zmax="-13440"/>
+			<add x="-11029" y="280377" zmin="-13640" zmax="-13440"/>
+			<add x="-11881" y="281242" zmin="-13640" zmax="-13440"/>
+			<add x="-13044" y="281234" zmin="-13640" zmax="-13440"/>
+			<add x="-12767" y="280546" zmin="-13640" zmax="-13440"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion_1] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22406"/>
+		<territory>
+			<add x="-12135" y="280544" zmin="-13640" zmax="-13440"/>
+			<add x="-11708" y="280111" zmin="-13640" zmax="-13440"/>
+			<add x="-11029" y="280377" zmin="-13640" zmax="-13440"/>
+			<add x="-11881" y="281242" zmin="-13640" zmax="-13440"/>
+			<add x="-13044" y="281234" zmin="-13640" zmax="-13440"/>
+			<add x="-12767" y="280546" zmin="-13640" zmax="-13440"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion_2] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22407"/>
+		<territory>
+			<add x="-12135" y="280544" zmin="-13640" zmax="-13440"/>
+			<add x="-11708" y="280111" zmin="-13640" zmax="-13440"/>
+			<add x="-11029" y="280377" zmin="-13640" zmax="-13440"/>
+			<add x="-11881" y="281242" zmin="-13640" zmax="-13440"/>
+			<add x="-13044" y="281234" zmin="-13640" zmax="-13440"/>
+			<add x="-12767" y="280546" zmin="-13640" zmax="-13440"/>
+		</territory>
+	</spawn>
+	<!-- [unknown_agent] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-11696" y="280208" z="-13599" h="13244"/>
+		<npc id="32372"/>
+	</spawn>
+	<!-- maximum_npc=18 -->
+	<!-- [workshop_mage_ag] -->
+	<spawn count="3" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22387"/>
+		<territory>
+			<add x="-13376" y="279405" zmin="-13640" zmax="-13440"/>
+			<add x="-13380" y="280048" zmin="-13640" zmax="-13440"/>
+			<add x="-12930" y="280494" zmin="-13640" zmax="-13440"/>
+			<add x="-13219" y="281137" zmin="-13640" zmax="-13440"/>
+			<add x="-14027" y="280321" zmin="-13640" zmax="-13440"/>
+			<add x="-14034" y="279128" zmin="-13640" zmax="-13440"/>
+		</territory>
+	</spawn>
+	<!-- [sinmaster] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<npc id="22423"/>
+		<territory>
+			<add x="-13376" y="279405" zmin="-13640" zmax="-13440"/>
+			<add x="-13380" y="280048" zmin="-13640" zmax="-13440"/>
+			<add x="-12930" y="280494" zmin="-13640" zmax="-13440"/>
+			<add x="-13219" y="281137" zmin="-13640" zmax="-13440"/>
+			<add x="-14027" y="280321" zmin="-13640" zmax="-13440"/>
+			<add x="-14034" y="279128" zmin="-13640" zmax="-13440"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22405"/>
+		<territory>
+			<add x="-13376" y="279405" zmin="-13640" zmax="-13440"/>
+			<add x="-13380" y="280048" zmin="-13640" zmax="-13440"/>
+			<add x="-12930" y="280494" zmin="-13640" zmax="-13440"/>
+			<add x="-13219" y="281137" zmin="-13640" zmax="-13440"/>
+			<add x="-14027" y="280321" zmin="-13640" zmax="-13440"/>
+			<add x="-14034" y="279128" zmin="-13640" zmax="-13440"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion_1] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22406"/>
+		<territory>
+			<add x="-13376" y="279405" zmin="-13640" zmax="-13440"/>
+			<add x="-13380" y="280048" zmin="-13640" zmax="-13440"/>
+			<add x="-12930" y="280494" zmin="-13640" zmax="-13440"/>
+			<add x="-13219" y="281137" zmin="-13640" zmax="-13440"/>
+			<add x="-14027" y="280321" zmin="-13640" zmax="-13440"/>
+			<add x="-14034" y="279128" zmin="-13640" zmax="-13440"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion_2] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22407"/>
+		<territory>
+			<add x="-13376" y="279405" zmin="-13640" zmax="-13440"/>
+			<add x="-13380" y="280048" zmin="-13640" zmax="-13440"/>
+			<add x="-12930" y="280494" zmin="-13640" zmax="-13440"/>
+			<add x="-13219" y="281137" zmin="-13640" zmax="-13440"/>
+			<add x="-14027" y="280321" zmin="-13640" zmax="-13440"/>
+			<add x="-14034" y="279128" zmin="-13640" zmax="-13440"/>
+		</territory>
+	</spawn>
+	<!-- [unknown_agent] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-13008" y="280496" z="-13599" h="27480"/>
+		<npc id="32372"/>
+	</spawn>
+	<!-- maximum_npc=18 -->
+	<!-- [workshop_mage_ag] -->
+	<spawn count="3" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22387"/>
+		<territory>
+			<add x="-10980" y="279062" zmin="-13640" zmax="-13440"/>
+			<add x="-10975" y="280217" zmin="-13640" zmax="-13440"/>
+			<add x="-11688" y="279905" zmin="-13640" zmax="-13440"/>
+			<add x="-11642" y="279320" zmin="-13640" zmax="-13440"/>
+			<add x="-12056" y="278883" zmin="-13640" zmax="-13440"/>
+			<add x="-11808" y="278212" zmin="-13640" zmax="-13440"/>
+		</territory>
+	</spawn>
+	<!-- [sinmaster] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<npc id="22423"/>
+		<territory>
+			<add x="-10980" y="279062" zmin="-13640" zmax="-13440"/>
+			<add x="-10975" y="280217" zmin="-13640" zmax="-13440"/>
+			<add x="-11688" y="279905" zmin="-13640" zmax="-13440"/>
+			<add x="-11642" y="279320" zmin="-13640" zmax="-13440"/>
+			<add x="-12056" y="278883" zmin="-13640" zmax="-13440"/>
+			<add x="-11808" y="278212" zmin="-13640" zmax="-13440"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22405"/>
+		<territory>
+			<add x="-10980" y="279062" zmin="-13640" zmax="-13440"/>
+			<add x="-10975" y="280217" zmin="-13640" zmax="-13440"/>
+			<add x="-11688" y="279905" zmin="-13640" zmax="-13440"/>
+			<add x="-11642" y="279320" zmin="-13640" zmax="-13440"/>
+			<add x="-12056" y="278883" zmin="-13640" zmax="-13440"/>
+			<add x="-11808" y="278212" zmin="-13640" zmax="-13440"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion_1] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22406"/>
+		<territory>
+			<add x="-10980" y="279062" zmin="-13640" zmax="-13440"/>
+			<add x="-10975" y="280217" zmin="-13640" zmax="-13440"/>
+			<add x="-11688" y="279905" zmin="-13640" zmax="-13440"/>
+			<add x="-11642" y="279320" zmin="-13640" zmax="-13440"/>
+			<add x="-12056" y="278883" zmin="-13640" zmax="-13440"/>
+			<add x="-11808" y="278212" zmin="-13640" zmax="-13440"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion_2] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22407"/>
+		<territory>
+			<add x="-10980" y="279062" zmin="-13640" zmax="-13440"/>
+			<add x="-10975" y="280217" zmin="-13640" zmax="-13440"/>
+			<add x="-11688" y="279905" zmin="-13640" zmax="-13440"/>
+			<add x="-11642" y="279320" zmin="-13640" zmax="-13440"/>
+			<add x="-12056" y="278883" zmin="-13640" zmax="-13440"/>
+			<add x="-11808" y="278212" zmin="-13640" zmax="-13440"/>
+		</territory>
+	</spawn>
+	<!-- [unknown_agent] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-11984" y="278880" z="-13599" h="-4472"/>
+		<npc id="32372"/>
+	</spawn>
+	<!-- 7 -->
+	<!-- maximum_npc=43 -->
+	<!-- [challanger_kearetsea] -->
+	<spawn count="1" respawn="3600" respawn_random="0" period_of_day="none">
+		<point x="-12528" y="279488" z="-11622" h="16384"/>
+		<npc id="25602"/>
+	</spawn>
+	<!-- [challanger_temenerr] -->
+	<spawn count="1" respawn="3600" respawn_random="0" period_of_day="none">
+		<point x="-12736" y="279681" z="-11622" h="0"/>
+		<npc id="25600"/>
+	</spawn>
+	<!-- [challanger_draxious] -->
+	<spawn count="1" respawn="3600" respawn_random="0" period_of_day="none">
+		<point x="-12324" y="279681" z="-11622" h="32768"/>
+		<npc id="25601"/>
+	</spawn>
+	<!-- [igraz] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-12281" y="281497" z="-11935" h="49151"/>
+		<npc id="25599"/>
+	</spawn>
+	<!-- [igraz] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-11903" y="281488" z="-11934" h="49151"/>
+		<npc id="25599"/>
+	</spawn>
+	<!-- [hurrel] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-11599" y="281323" z="-11933" h="-23808"/>
+		<npc id="25597"/>
+	</spawn>
+	<!-- [hurrel] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-11381" y="281114" z="-11934" h="-23808"/>
+		<npc id="25597"/>
+	</spawn>
+	<!-- [hurrel] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-11089" y="280819" z="-11934" h="-23808"/>
+		<npc id="25597"/>
+	</spawn>
+	<!-- [hurrel] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-10818" y="280556" z="-11934" h="-23808"/>
+		<npc id="25597"/>
+	</spawn>
+	<!-- [gege] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-10697" y="280244" z="-11936" h="32768"/>
+		<npc id="25598"/>
+	</spawn>
+	<!-- [gege] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-10702" y="279926" z="-11936" h="32768"/>
+		<npc id="25598"/>
+	</spawn>
+	<!-- [gege] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-10722" y="279470" z="-11936" h="32768"/>
+		<npc id="25598"/>
+	</spawn>
+	<!-- [gege] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-10731" y="279126" z="-11936" h="32768"/>
+		<npc id="25598"/>
+	</spawn>
+	<!-- [hurrel] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-10903" y="278798" z="-11934" h="25680"/>
+		<npc id="25597"/>
+	</spawn>
+	<!-- [hurrel] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-11134" y="278558" z="-11934" h="25680"/>
+		<npc id="25597"/>
+	</spawn>
+	<!-- [hurrel] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-11413" y="278265" z="-11934" h="25680"/>
+		<npc id="25597"/>
+	</spawn>
+	<!-- [hurrel] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-11588" y="278072" z="-11935" h="25680"/>
+		<npc id="25597"/>
+	</spawn>
+	<!-- [igraz] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-11966" y="277935" z="-11936" h="16384"/>
+		<npc id="25599"/>
+	</spawn>
+	<!-- [igraz] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-12334" y="277935" z="-11936" h="16384"/>
+		<npc id="25599"/>
+	</spawn>
+	<!-- [igraz] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-12739" y="277935" z="-11936" h="16384"/>
+		<npc id="25599"/>
+	</spawn>
+	<!-- [igraz] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-13063" y="277934" z="-11936" h="16384"/>
+		<npc id="25599"/>
+	</spawn>
+	<!-- [hurrel] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-13357" y="278058" z="-11935" h="9068"/>
+		<npc id="25597"/>
+	</spawn>
+	<!-- [hurrel] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-13617" y="278289" z="-11935" h="9068"/>
+		<npc id="25597"/>
+	</spawn>
+	<!-- [hurrel] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-13920" y="278567" z="-11935" h="9068"/>
+		<npc id="25597"/>
+	</spawn>
+	<!-- [hurrel] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-14131" y="278778" z="-11936" h="9068"/>
+		<npc id="25597"/>
+	</spawn>
+	<!-- [gege] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-14284" y="279140" z="-11936" h="0"/>
+		<npc id="25598"/>
+	</spawn>
+	<!-- [gege] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-14286" y="279464" z="-11936" h="0"/>
+		<npc id="25598"/>
+	</spawn>
+	<!-- [gege] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-14290" y="279909" z="-11935" h="0"/>
+		<npc id="25598"/>
+	</spawn>
+	<!-- [gege] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-14281" y="280229" z="-11936" h="0"/>
+		<npc id="25598"/>
+	</spawn>
+	<!-- [hurrel] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-14184" y="280545" z="-11936" h="-7548"/>
+		<npc id="25597"/>
+	</spawn>
+	<!-- [hurrel] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-13946" y="280792" z="-11936" h="-7548"/>
+		<npc id="25597"/>
+	</spawn>
+	<!-- [hurrel] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-13626" y="281105" z="-11936" h="-7548"/>
+		<npc id="25597"/>
+	</spawn>
+	<!-- [hurrel] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-13386" y="281360" z="-11935" h="-7548"/>
+		<npc id="25597"/>
+	</spawn>
+	<!-- [igraz] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-13077" y="281506" z="-11935" h="49151"/>
+		<npc id="25599"/>
+	</spawn>
+	<!-- [igraz] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-12738" y="281503" z="-11935" h="49151"/>
+		<npc id="25599"/>
+	</spawn>
+	<!-- [unknown_agent] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-12527" y="279714" z="-11622" h="16384"/>
+		<npc id="32372"/>
+	</spawn>
+	<!-- [cube_for_tolles68] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-12527" y="279714" z="-11622" h="16384"/>
+		<npc id="32467"/>
+	</spawn>
+	<!-- 8 -->
+	<!-- maximum_npc=1 -->
+	<!-- [cube_for_tolles68] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<point x="-12752" y="279696" z="-10492" h="29664"/>
+		<npc id="32467"/>
+	</spawn>
+	<!-- maximum_npc=20 -->
+	<!-- [workshop_mage_ag] -->
+	<spawn count="5" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22387"/>
+		<territory>
+			<add x="-13143" y="278159" zmin="-10530" zmax="-10330"/>
+			<add x="-11984" y="278155" zmin="-10530" zmax="-10330"/>
+			<add x="-12247" y="278817" zmin="-10530" zmax="-10330"/>
+			<add x="-12877" y="278817" zmin="-10530" zmax="-10330"/>
+			<add x="-13301" y="279233" zmin="-10530" zmax="-10330"/>
+			<add x="-13948" y="278959" zmin="-10530" zmax="-10330"/>
+		</territory>
+	</spawn>
+	<!-- [sinmaster_1] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<npc id="22431"/>
+		<territory>
+			<add x="-13143" y="278159" zmin="-10530" zmax="-10330"/>
+			<add x="-11984" y="278155" zmin="-10530" zmax="-10330"/>
+			<add x="-12247" y="278817" zmin="-10530" zmax="-10330"/>
+			<add x="-12877" y="278817" zmin="-10530" zmax="-10330"/>
+			<add x="-13301" y="279233" zmin="-10530" zmax="-10330"/>
+			<add x="-13948" y="278959" zmin="-10530" zmax="-10330"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion_3] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22408"/>
+		<territory>
+			<add x="-13143" y="278159" zmin="-10530" zmax="-10330"/>
+			<add x="-11984" y="278155" zmin="-10530" zmax="-10330"/>
+			<add x="-12247" y="278817" zmin="-10530" zmax="-10330"/>
+			<add x="-12877" y="278817" zmin="-10530" zmax="-10330"/>
+			<add x="-13301" y="279233" zmin="-10530" zmax="-10330"/>
+			<add x="-13948" y="278959" zmin="-10530" zmax="-10330"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion_4] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22409"/>
+		<territory>
+			<add x="-13143" y="278159" zmin="-10530" zmax="-10330"/>
+			<add x="-11984" y="278155" zmin="-10530" zmax="-10330"/>
+			<add x="-12247" y="278817" zmin="-10530" zmax="-10330"/>
+			<add x="-12877" y="278817" zmin="-10530" zmax="-10330"/>
+			<add x="-13301" y="279233" zmin="-10530" zmax="-10330"/>
+			<add x="-13948" y="278959" zmin="-10530" zmax="-10330"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion_5] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22410"/>
+		<territory>
+			<add x="-13143" y="278159" zmin="-10530" zmax="-10330"/>
+			<add x="-11984" y="278155" zmin="-10530" zmax="-10330"/>
+			<add x="-12247" y="278817" zmin="-10530" zmax="-10330"/>
+			<add x="-12877" y="278817" zmin="-10530" zmax="-10330"/>
+			<add x="-13301" y="279233" zmin="-10530" zmax="-10330"/>
+			<add x="-13948" y="278959" zmin="-10530" zmax="-10330"/>
+		</territory>
+	</spawn>
+	<!-- [unknown_agent] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-13312" y="279172" z="-10492" h="-20300"/>
+		<npc id="32372"/>
+	</spawn>
+	<!-- maximum_npc=20 -->
+	<!-- [workshop_mage_ag] -->
+	<spawn count="5" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22387"/>
+		<territory>
+			<add x="-12135" y="280544" zmin="-10530" zmax="-10330"/>
+			<add x="-11708" y="280111" zmin="-10530" zmax="-10330"/>
+			<add x="-11029" y="280377" zmin="-10530" zmax="-10330"/>
+			<add x="-11881" y="281242" zmin="-10530" zmax="-10330"/>
+			<add x="-13044" y="281234" zmin="-10530" zmax="-10330"/>
+			<add x="-12767" y="280546" zmin="-10530" zmax="-10330"/>
+		</territory>
+	</spawn>
+	<!-- [sinmaster_1] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<npc id="22431"/>
+		<territory>
+			<add x="-12135" y="280544" zmin="-10530" zmax="-10330"/>
+			<add x="-11708" y="280111" zmin="-10530" zmax="-10330"/>
+			<add x="-11029" y="280377" zmin="-10530" zmax="-10330"/>
+			<add x="-11881" y="281242" zmin="-10530" zmax="-10330"/>
+			<add x="-13044" y="281234" zmin="-10530" zmax="-10330"/>
+			<add x="-12767" y="280546" zmin="-10530" zmax="-10330"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion_3] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22408"/>
+		<territory>
+			<add x="-12135" y="280544" zmin="-10530" zmax="-10330"/>
+			<add x="-11708" y="280111" zmin="-10530" zmax="-10330"/>
+			<add x="-11029" y="280377" zmin="-10530" zmax="-10330"/>
+			<add x="-11881" y="281242" zmin="-10530" zmax="-10330"/>
+			<add x="-13044" y="281234" zmin="-10530" zmax="-10330"/>
+			<add x="-12767" y="280546" zmin="-10530" zmax="-10330"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion_4] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22409"/>
+		<territory>
+			<add x="-12135" y="280544" zmin="-10530" zmax="-10330"/>
+			<add x="-11708" y="280111" zmin="-10530" zmax="-10330"/>
+			<add x="-11029" y="280377" zmin="-10530" zmax="-10330"/>
+			<add x="-11881" y="281242" zmin="-10530" zmax="-10330"/>
+			<add x="-13044" y="281234" zmin="-10530" zmax="-10330"/>
+			<add x="-12767" y="280546" zmin="-10530" zmax="-10330"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion_5] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22410"/>
+		<territory>
+			<add x="-12135" y="280544" zmin="-10530" zmax="-10330"/>
+			<add x="-11708" y="280111" zmin="-10530" zmax="-10330"/>
+			<add x="-11029" y="280377" zmin="-10530" zmax="-10330"/>
+			<add x="-11881" y="281242" zmin="-10530" zmax="-10330"/>
+			<add x="-13044" y="281234" zmin="-10530" zmax="-10330"/>
+			<add x="-12767" y="280546" zmin="-10530" zmax="-10330"/>
+		</territory>
+	</spawn>
+	<!-- [unknown_agent] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-11696" y="280208" z="-10492" h="13244"/>
+		<npc id="32372"/>
+	</spawn>
+	<!-- maximum_npc=20 -->
+	<!-- [workshop_mage_ag] -->
+	<spawn count="5" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22387"/>
+		<territory>
+			<add x="-13376" y="279405" zmin="-10530" zmax="-10330"/>
+			<add x="-13380" y="280048" zmin="-10530" zmax="-10330"/>
+			<add x="-12930" y="280494" zmin="-10530" zmax="-10330"/>
+			<add x="-13219" y="281137" zmin="-10530" zmax="-10330"/>
+			<add x="-14027" y="280321" zmin="-10530" zmax="-10330"/>
+			<add x="-14034" y="279128" zmin="-10530" zmax="-10330"/>
+		</territory>
+	</spawn>
+	<!-- [sinmaster_1] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<npc id="22431"/>
+		<territory>
+			<add x="-13376" y="279405" zmin="-10530" zmax="-10330"/>
+			<add x="-13380" y="280048" zmin="-10530" zmax="-10330"/>
+			<add x="-12930" y="280494" zmin="-10530" zmax="-10330"/>
+			<add x="-13219" y="281137" zmin="-10530" zmax="-10330"/>
+			<add x="-14027" y="280321" zmin="-10530" zmax="-10330"/>
+			<add x="-14034" y="279128" zmin="-10530" zmax="-10330"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion_3] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22408"/>
+		<territory>
+			<add x="-13376" y="279405" zmin="-10530" zmax="-10330"/>
+			<add x="-13380" y="280048" zmin="-10530" zmax="-10330"/>
+			<add x="-12930" y="280494" zmin="-10530" zmax="-10330"/>
+			<add x="-13219" y="281137" zmin="-10530" zmax="-10330"/>
+			<add x="-14027" y="280321" zmin="-10530" zmax="-10330"/>
+			<add x="-14034" y="279128" zmin="-10530" zmax="-10330"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion_4] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22409"/>
+		<territory>
+			<add x="-13376" y="279405" zmin="-10530" zmax="-10330"/>
+			<add x="-13380" y="280048" zmin="-10530" zmax="-10330"/>
+			<add x="-12930" y="280494" zmin="-10530" zmax="-10330"/>
+			<add x="-13219" y="281137" zmin="-10530" zmax="-10330"/>
+			<add x="-14027" y="280321" zmin="-10530" zmax="-10330"/>
+			<add x="-14034" y="279128" zmin="-10530" zmax="-10330"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion_5] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22410"/>
+		<territory>
+			<add x="-13376" y="279405" zmin="-10530" zmax="-10330"/>
+			<add x="-13380" y="280048" zmin="-10530" zmax="-10330"/>
+			<add x="-12930" y="280494" zmin="-10530" zmax="-10330"/>
+			<add x="-13219" y="281137" zmin="-10530" zmax="-10330"/>
+			<add x="-14027" y="280321" zmin="-10530" zmax="-10330"/>
+			<add x="-14034" y="279128" zmin="-10530" zmax="-10330"/>
+		</territory>
+	</spawn>
+	<!-- [unknown_agent] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-13008" y="280496" z="-10492" h="27480"/>
+		<npc id="32372"/>
+	</spawn>
+	<!-- maximum_npc=20 -->
+	<!-- [workshop_mage_ag] -->
+	<spawn count="5" respawn="80" respawn_random="0" period_of_day="none">
+		<npc id="22387"/>
+		<territory>
+			<add x="-10980" y="279062" zmin="-10530" zmax="-10330"/>
+			<add x="-10975" y="280217" zmin="-10530" zmax="-10330"/>
+			<add x="-11688" y="279905" zmin="-10530" zmax="-10330"/>
+			<add x="-11642" y="279320" zmin="-10530" zmax="-10330"/>
+			<add x="-12056" y="278883" zmin="-10530" zmax="-10330"/>
+			<add x="-11808" y="278212" zmin="-10530" zmax="-10330"/>
+		</territory>
+	</spawn>
+	<!-- [sinmaster_1] -->
+	<spawn count="1" respawn="1" respawn_random="0" period_of_day="none">
+		<npc id="22431"/>
+		<territory>
+			<add x="-10980" y="279062" zmin="-10530" zmax="-10330"/>
+			<add x="-10975" y="280217" zmin="-10530" zmax="-10330"/>
+			<add x="-11688" y="279905" zmin="-10530" zmax="-10330"/>
+			<add x="-11642" y="279320" zmin="-10530" zmax="-10330"/>
+			<add x="-12056" y="278883" zmin="-10530" zmax="-10330"/>
+			<add x="-11808" y="278212" zmin="-10530" zmax="-10330"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion_3] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22408"/>
+		<territory>
+			<add x="-10980" y="279062" zmin="-10530" zmax="-10330"/>
+			<add x="-10975" y="280217" zmin="-10530" zmax="-10330"/>
+			<add x="-11688" y="279905" zmin="-10530" zmax="-10330"/>
+			<add x="-11642" y="279320" zmin="-10530" zmax="-10330"/>
+			<add x="-12056" y="278883" zmin="-10530" zmax="-10330"/>
+			<add x="-11808" y="278212" zmin="-10530" zmax="-10330"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion_4] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22409"/>
+		<territory>
+			<add x="-10980" y="279062" zmin="-10530" zmax="-10330"/>
+			<add x="-10975" y="280217" zmin="-10530" zmax="-10330"/>
+			<add x="-11688" y="279905" zmin="-10530" zmax="-10330"/>
+			<add x="-11642" y="279320" zmin="-10530" zmax="-10330"/>
+			<add x="-12056" y="278883" zmin="-10530" zmax="-10330"/>
+			<add x="-11808" y="278212" zmin="-10530" zmax="-10330"/>
+		</territory>
+	</spawn>
+	<!-- [favored_darion_5] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<npc id="22410"/>
+		<territory>
+			<add x="-10980" y="279062" zmin="-10530" zmax="-10330"/>
+			<add x="-10975" y="280217" zmin="-10530" zmax="-10330"/>
+			<add x="-11688" y="279905" zmin="-10530" zmax="-10330"/>
+			<add x="-11642" y="279320" zmin="-10530" zmax="-10330"/>
+			<add x="-12056" y="278883" zmin="-10530" zmax="-10330"/>
+			<add x="-11808" y="278212" zmin="-10530" zmax="-10330"/>
+		</territory>
+	</spawn>
+	<!-- [unknown_agent] -->
+	<spawn count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-11984" y="278880" z="-10492" h="-4472"/>
+		<npc id="32372"/>
+	</spawn>
+	<!-- 9 -->
+	<!-- maximum_npc=2 -->
+	<!-- [tolles_crystal_pillar] -->
+	<spawn count="1" respawn="20" respawn_random="0" period_of_day="none">
+		<point x="21008" y="244000" z="11087" h="0"/>
+		<npc id="18506"/>
+	</spawn>
+</list>

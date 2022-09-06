@@ -1,0 +1,1757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list> 
+	<npc id="14900" name="Magnus the Unicorn" title="" name_ru="Магнус" title_ru="" pts_name="unicorn_magnus_ep_15"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="85"/>
+		<set name="exp" value="19827360000"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1.331"/>
+		<set name="race" value="elemental"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="13.5"/>
+		<set name="collision_height" value="17"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseWalkSpd" value="160"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="3066.63525666667"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1870"/>
+		<set name="baseMpReg" value="6"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="994"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="267"/>
+		<set name="baseMAtk" value="679"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="364"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="PhysicalSpecial1" value="s_summon_magnus_hoofing1"/>
+			<set name="PhysicalSpecial3" value="s_npc_default"/>
+			<set name="PhysicalSpecial2" value="s_summon_magnus_raging_wave1"/>
+		</ai_params>
+		<skills>
+			<skill id="4413" level="12"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4121" level="9"/>
+			<skill id="5038" level="15"/>
+			<skill id="4409" level="1"/>
+			<skill id="4410" level="15"/>
+			<skill id="4408" level="4"/>
+			<skill id="4416" level="7"/>
+			<skill id="4411" level="13"/>
+			<skill id="4412" level="12"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+	</npc>  
+	<npc id="14901" name="Spectral Lord" title="" name_ru="Призрачный Лорд" title_ru="" pts_name="spectral_lord_ep_01"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="81"/>
+		<set name="exp" value="6300000000"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1.331"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12.5"/>
+		<set name="collision_height" value="33.5"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseWalkSpd" value="160"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="2892.79354511111"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1687.81333333333"/>
+		<set name="baseMpReg" value="6"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="901"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="251"/>
+		<set name="baseMAtk" value="616"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="343"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="PhysicalSpecial3" value="s_summon_spectral_lord_attack_speed_down1"/>
+			<set name="PhysicalSpecial1" value="s_summon_spectral_lord_corpse_burst1"/>
+			<set name="PhysicalSpecial2" value="s_summon_spectral_lord_strike1"/>
+		</ai_params>
+		<skills>
+			<skill id="4413" level="12"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4121" level="9"/>
+			<skill id="5038" level="15"/>
+			<skill id="4409" level="1"/>
+			<skill id="4410" level="15"/>
+			<skill id="4416" level="9"/>
+			<skill id="4408" level="4"/>
+			<skill id="4411" level="13"/>
+			<skill id="4412" level="12"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+	</npc>  
+	<npc id="14902" name="Spectral Lord" title="" name_ru="Призрачный Лорд" title_ru="" pts_name="spectral_lord_ep_02"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="81"/>
+		<set name="exp" value="6300000000"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1.331"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12.5"/>
+		<set name="collision_height" value="33.5"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseWalkSpd" value="160"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="2905.21081022222"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1700.82666666667"/>
+		<set name="baseMpReg" value="6"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="908"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="252"/>
+		<set name="baseMAtk" value="620"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="344"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="PhysicalSpecial3" value="s_summon_spectral_lord_attack_speed_down1"/>
+			<set name="PhysicalSpecial1" value="s_summon_spectral_lord_corpse_burst1"/>
+			<set name="PhysicalSpecial2" value="s_summon_spectral_lord_strike1"/>
+		</ai_params>
+		<skills>
+			<skill id="4413" level="12"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4121" level="9"/>
+			<skill id="5038" level="15"/>
+			<skill id="4409" level="1"/>
+			<skill id="4410" level="15"/>
+			<skill id="4416" level="9"/>
+			<skill id="4408" level="4"/>
+			<skill id="4411" level="13"/>
+			<skill id="4412" level="12"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+	</npc>  
+	<npc id="14903" name="Spectral Lord" title="" name_ru="Призрачный Лорд" title_ru="" pts_name="spectral_lord_ep_03"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="81"/>
+		<set name="exp" value="6300000000"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1.331"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12.5"/>
+		<set name="collision_height" value="33.5"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseWalkSpd" value="160"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="2917.62807533333"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1713.84"/>
+		<set name="baseMpReg" value="6"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="915"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="253"/>
+		<set name="baseMAtk" value="625"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="346"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="PhysicalSpecial3" value="s_summon_spectral_lord_attack_speed_down1"/>
+			<set name="PhysicalSpecial1" value="s_summon_spectral_lord_corpse_burst1"/>
+			<set name="PhysicalSpecial2" value="s_summon_spectral_lord_strike1"/>
+		</ai_params>
+		<skills>
+			<skill id="4413" level="12"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4121" level="9"/>
+			<skill id="5038" level="15"/>
+			<skill id="4409" level="1"/>
+			<skill id="4410" level="15"/>
+			<skill id="4416" level="9"/>
+			<skill id="4408" level="4"/>
+			<skill id="4411" level="13"/>
+			<skill id="4412" level="12"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+	</npc>  
+	<npc id="14904" name="Spectral Lord" title="" name_ru="Призрачный Лорд" title_ru="" pts_name="spectral_lord_ep_04"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="82"/>
+		<set name="exp" value="8820000000"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1.331"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12.5"/>
+		<set name="collision_height" value="33.5"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseWalkSpd" value="160"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="2930.04534044444"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1726.85333333333"/>
+		<set name="baseMpReg" value="6"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="921"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="254"/>
+		<set name="baseMAtk" value="629"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="348"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="PhysicalSpecial3" value="s_summon_spectral_lord_attack_speed_down1"/>
+			<set name="PhysicalSpecial1" value="s_summon_spectral_lord_corpse_burst1"/>
+			<set name="PhysicalSpecial2" value="s_summon_spectral_lord_strike1"/>
+		</ai_params>
+		<skills>
+			<skill id="4413" level="12"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4121" level="9"/>
+			<skill id="5038" level="15"/>
+			<skill id="4409" level="1"/>
+			<skill id="4410" level="15"/>
+			<skill id="4416" level="9"/>
+			<skill id="4408" level="4"/>
+			<skill id="4411" level="13"/>
+			<skill id="4412" level="12"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+	</npc>  
+	<npc id="14905" name="Spectral Lord" title="" name_ru="Призрачный Лорд" title_ru="" pts_name="spectral_lord_ep_05"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="82"/>
+		<set name="exp" value="8820000000"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1.331"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12.5"/>
+		<set name="collision_height" value="33.5"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseWalkSpd" value="160"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="2942.46260555556"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1739.86666666667"/>
+		<set name="baseMpReg" value="6"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="928"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="255"/>
+		<set name="baseMAtk" value="634"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="349"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="PhysicalSpecial3" value="s_summon_spectral_lord_attack_speed_down1"/>
+			<set name="PhysicalSpecial1" value="s_summon_spectral_lord_corpse_burst1"/>
+			<set name="PhysicalSpecial2" value="s_summon_spectral_lord_strike1"/>
+		</ai_params>
+		<skills>
+			<skill id="4413" level="12"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4121" level="9"/>
+			<skill id="5038" level="15"/>
+			<skill id="4409" level="1"/>
+			<skill id="4410" level="15"/>
+			<skill id="4416" level="9"/>
+			<skill id="4408" level="4"/>
+			<skill id="4411" level="13"/>
+			<skill id="4412" level="12"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+	</npc>  
+	<npc id="14906" name="Spectral Lord" title="" name_ru="Призрачный Лорд" title_ru="" pts_name="spectral_lord_ep_06"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="82"/>
+		<set name="exp" value="8820000000"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1.331"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12.5"/>
+		<set name="collision_height" value="33.5"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseWalkSpd" value="160"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="2954.87987066667"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1752.88"/>
+		<set name="baseMpReg" value="6"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="934"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="257"/>
+		<set name="baseMAtk" value="638"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="351"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="PhysicalSpecial3" value="s_summon_spectral_lord_attack_speed_down1"/>
+			<set name="PhysicalSpecial1" value="s_summon_spectral_lord_corpse_burst1"/>
+			<set name="PhysicalSpecial2" value="s_summon_spectral_lord_strike1"/>
+		</ai_params>
+		<skills>
+			<skill id="4413" level="12"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4121" level="9"/>
+			<skill id="5038" level="15"/>
+			<skill id="4409" level="1"/>
+			<skill id="4410" level="15"/>
+			<skill id="4416" level="9"/>
+			<skill id="4408" level="4"/>
+			<skill id="4411" level="13"/>
+			<skill id="4412" level="12"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+	</npc>  
+	<npc id="14907" name="Spectral Lord" title="" name_ru="Призрачный Лорд" title_ru="" pts_name="spectral_lord_ep_07"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="83"/>
+		<set name="exp" value="11844000000"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1.331"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12.5"/>
+		<set name="collision_height" value="33.5"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseWalkSpd" value="160"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="2967.29713577778"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1765.89333333333"/>
+		<set name="baseMpReg" value="6"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="941"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="258"/>
+		<set name="baseMAtk" value="643"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="352"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="PhysicalSpecial3" value="s_summon_spectral_lord_attack_speed_down1"/>
+			<set name="PhysicalSpecial1" value="s_summon_spectral_lord_corpse_burst1"/>
+			<set name="PhysicalSpecial2" value="s_summon_spectral_lord_strike1"/>
+		</ai_params>
+		<skills>
+			<skill id="4413" level="12"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4121" level="9"/>
+			<skill id="5038" level="15"/>
+			<skill id="4409" level="1"/>
+			<skill id="4410" level="15"/>
+			<skill id="4416" level="9"/>
+			<skill id="4408" level="4"/>
+			<skill id="4411" level="13"/>
+			<skill id="4412" level="12"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+	</npc>  
+	<npc id="14908" name="Spectral Lord" title="" name_ru="Призрачный Лорд" title_ru="" pts_name="spectral_lord_ep_08"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="83"/>
+		<set name="exp" value="11844000000"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1.331"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12.5"/>
+		<set name="collision_height" value="33.5"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseWalkSpd" value="160"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="2979.71440088889"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1778.90666666667"/>
+		<set name="baseMpReg" value="6"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="948"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="259"/>
+		<set name="baseMAtk" value="647"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="354"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="PhysicalSpecial3" value="s_summon_spectral_lord_attack_speed_down1"/>
+			<set name="PhysicalSpecial1" value="s_summon_spectral_lord_corpse_burst1"/>
+			<set name="PhysicalSpecial2" value="s_summon_spectral_lord_strike1"/>
+		</ai_params>
+		<skills>
+			<skill id="4413" level="12"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4121" level="9"/>
+			<skill id="5038" level="15"/>
+			<skill id="4409" level="1"/>
+			<skill id="4410" level="15"/>
+			<skill id="4416" level="9"/>
+			<skill id="4408" level="4"/>
+			<skill id="4411" level="13"/>
+			<skill id="4412" level="12"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+	</npc>  
+	<npc id="14909" name="Spectral Lord" title="" name_ru="Призрачный Лорд" title_ru="" pts_name="spectral_lord_ep_09"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="83"/>
+		<set name="exp" value="11844000000"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1.331"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12.5"/>
+		<set name="collision_height" value="33.5"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseWalkSpd" value="160"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="2992.131666"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1791.92"/>
+		<set name="baseMpReg" value="6"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="954"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="260"/>
+		<set name="baseMAtk" value="652"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="355"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="PhysicalSpecial3" value="s_summon_spectral_lord_attack_speed_down1"/>
+			<set name="PhysicalSpecial1" value="s_summon_spectral_lord_corpse_burst1"/>
+			<set name="PhysicalSpecial2" value="s_summon_spectral_lord_strike1"/>
+		</ai_params>
+		<skills>
+			<skill id="4413" level="12"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4121" level="9"/>
+			<skill id="5038" level="15"/>
+			<skill id="4409" level="1"/>
+			<skill id="4410" level="15"/>
+			<skill id="4416" level="9"/>
+			<skill id="4408" level="4"/>
+			<skill id="4411" level="13"/>
+			<skill id="4412" level="12"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+	</npc>  
+	<npc id="14910" name="Spectral Lord" title="" name_ru="Призрачный Лорд" title_ru="" pts_name="spectral_lord_ep_10"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="84"/>
+		<set name="exp" value="15472800000"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1.331"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12.5"/>
+		<set name="collision_height" value="33.5"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseWalkSpd" value="160"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="3004.54893111111"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1804.93333333333"/>
+		<set name="baseMpReg" value="6"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="961"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="261"/>
+		<set name="baseMAtk" value="656"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="357"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="PhysicalSpecial3" value="s_summon_spectral_lord_attack_speed_down1"/>
+			<set name="PhysicalSpecial1" value="s_summon_spectral_lord_corpse_burst1"/>
+			<set name="PhysicalSpecial2" value="s_summon_spectral_lord_strike1"/>
+		</ai_params>
+		<skills>
+			<skill id="4413" level="12"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4121" level="9"/>
+			<skill id="5038" level="15"/>
+			<skill id="4409" level="1"/>
+			<skill id="4410" level="15"/>
+			<skill id="4416" level="9"/>
+			<skill id="4408" level="4"/>
+			<skill id="4411" level="13"/>
+			<skill id="4412" level="12"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+	</npc>  
+	<npc id="14911" name="Spectral Lord" title="" name_ru="Призрачный Лорд" title_ru="" pts_name="spectral_lord_ep_11"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="84"/>
+		<set name="exp" value="15472800000"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1.331"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12.5"/>
+		<set name="collision_height" value="33.5"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseWalkSpd" value="160"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="3016.96619622222"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1817.94666666667"/>
+		<set name="baseMpReg" value="6"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="968"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="262"/>
+		<set name="baseMAtk" value="661"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="358"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="PhysicalSpecial3" value="s_summon_spectral_lord_attack_speed_down1"/>
+			<set name="PhysicalSpecial1" value="s_summon_spectral_lord_corpse_burst1"/>
+			<set name="PhysicalSpecial2" value="s_summon_spectral_lord_strike1"/>
+		</ai_params>
+		<skills>
+			<skill id="4413" level="12"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4121" level="9"/>
+			<skill id="5038" level="15"/>
+			<skill id="4409" level="1"/>
+			<skill id="4410" level="15"/>
+			<skill id="4416" level="9"/>
+			<skill id="4408" level="4"/>
+			<skill id="4411" level="13"/>
+			<skill id="4412" level="12"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+	</npc>  
+	<npc id="14912" name="Spectral Lord" title="" name_ru="Призрачный Лорд" title_ru="" pts_name="spectral_lord_ep_12"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="84"/>
+		<set name="exp" value="15472800000"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1.331"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12.5"/>
+		<set name="collision_height" value="33.5"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseWalkSpd" value="160"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="3029.38346133333"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1830.96"/>
+		<set name="baseMpReg" value="6"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="974"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="263"/>
+		<set name="baseMAtk" value="665"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="360"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="PhysicalSpecial3" value="s_summon_spectral_lord_attack_speed_down1"/>
+			<set name="PhysicalSpecial1" value="s_summon_spectral_lord_corpse_burst1"/>
+			<set name="PhysicalSpecial2" value="s_summon_spectral_lord_strike1"/>
+		</ai_params>
+		<skills>
+			<skill id="4413" level="12"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4121" level="9"/>
+			<skill id="5038" level="15"/>
+			<skill id="4409" level="1"/>
+			<skill id="4410" level="15"/>
+			<skill id="4416" level="9"/>
+			<skill id="4408" level="4"/>
+			<skill id="4411" level="13"/>
+			<skill id="4412" level="12"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+	</npc>  
+	<npc id="14913" name="Spectral Lord" title="" name_ru="Призрачный Лорд" title_ru="" pts_name="spectral_lord_ep_13"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="85"/>
+		<set name="exp" value="19827360000"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1.331"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12.5"/>
+		<set name="collision_height" value="33.5"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseWalkSpd" value="160"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="3041.80072644444"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1843.97333333333"/>
+		<set name="baseMpReg" value="6"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="981"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="264"/>
+		<set name="baseMAtk" value="670"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="361"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="PhysicalSpecial3" value="s_summon_spectral_lord_attack_speed_down1"/>
+			<set name="PhysicalSpecial1" value="s_summon_spectral_lord_corpse_burst1"/>
+			<set name="PhysicalSpecial2" value="s_summon_spectral_lord_strike1"/>
+		</ai_params>
+		<skills>
+			<skill id="4413" level="12"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4121" level="9"/>
+			<skill id="5038" level="15"/>
+			<skill id="4409" level="1"/>
+			<skill id="4410" level="15"/>
+			<skill id="4416" level="9"/>
+			<skill id="4408" level="4"/>
+			<skill id="4411" level="13"/>
+			<skill id="4412" level="12"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+	</npc>  
+	<npc id="14914" name="Spectral Lord" title="" name_ru="Призрачный Лорд" title_ru="" pts_name="spectral_lord_ep_14"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="85"/>
+		<set name="exp" value="19827360000"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1.331"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12.5"/>
+		<set name="collision_height" value="33.5"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseWalkSpd" value="160"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="3054.21799155555"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1856.98666666667"/>
+		<set name="baseMpReg" value="6"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="987"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="266"/>
+		<set name="baseMAtk" value="674"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="363"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="PhysicalSpecial3" value="s_summon_spectral_lord_attack_speed_down1"/>
+			<set name="PhysicalSpecial1" value="s_summon_spectral_lord_corpse_burst1"/>
+			<set name="PhysicalSpecial2" value="s_summon_spectral_lord_strike1"/>
+		</ai_params>
+		<skills>
+			<skill id="4413" level="12"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4121" level="9"/>
+			<skill id="5038" level="15"/>
+			<skill id="4409" level="1"/>
+			<skill id="4410" level="15"/>
+			<skill id="4416" level="9"/>
+			<skill id="4408" level="4"/>
+			<skill id="4411" level="13"/>
+			<skill id="4412" level="12"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+	</npc>  
+	<npc id="14915" name="Spectral Lord" title="" name_ru="Призрачный Лорд" title_ru="" pts_name="spectral_lord_ep_15"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="85"/>
+		<set name="exp" value="19827360000"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1.331"/>
+		<set name="race" value="demonic"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="12.5"/>
+		<set name="collision_height" value="33.5"/>
+		<set name="HitTimeFactor" value="0.6"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseWalkSpd" value="160"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="3066.63525666667"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1870"/>
+		<set name="baseMpReg" value="6"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="994"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="267"/>
+		<set name="baseMAtk" value="679"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="364"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="PhysicalSpecial3" value="s_summon_spectral_lord_attack_speed_down1"/>
+			<set name="PhysicalSpecial1" value="s_summon_spectral_lord_corpse_burst1"/>
+			<set name="PhysicalSpecial2" value="s_summon_spectral_lord_strike1"/>
+		</ai_params>
+		<skills>
+			<skill id="4413" level="12"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4121" level="9"/>
+			<skill id="5038" level="15"/>
+			<skill id="4409" level="1"/>
+			<skill id="4410" level="15"/>
+			<skill id="4416" level="9"/>
+			<skill id="4408" level="4"/>
+			<skill id="4411" level="13"/>
+			<skill id="4412" level="12"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+	</npc>  
+	<npc id="14916" name="Tigress" title="" name_ru="Тигрица" title_ru="" pts_name="pailaka_summon_01"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Summon"/>
+		<set name="level" value="61"/>
+		<set name="exp" value="146308200"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1.1"/>
+		<set name="race" value="beast"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="22"/>
+		<set name="collision_height" value="18.4"/>
+		<set name="HitTimeFactor" value="0.45"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseWalkSpd" value="47"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="1985.55926"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1066.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="501"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="185"/>
+		<set name="baseMAtk" value="342"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="252"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="4"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="DDMagic" value="s_pailaka_island_pet_strike1"/>
+		</ai_params>
+		<skills>
+			<skill id="4413" level="12"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4416" level="3"/>
+			<skill id="4121" level="9"/>
+			<skill id="5038" level="7"/>
+			<skill id="4409" level="1"/>
+			<skill id="4408" level="2"/>
+			<skill id="4410" level="12"/>
+			<skill id="4411" level="11"/>
+			<skill id="4412" level="12"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="14917" name="Tigress" title="" name_ru="Тигрица" title_ru="" pts_name="pailaka_summon_02"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Summon"/>
+		<set name="level" value="61"/>
+		<set name="exp" value="146308200"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1.1"/>
+		<set name="race" value="beast"/>
+		<set name="sex" value="male"/>
+		<set name="collision_radius" value="22"/>
+		<set name="collision_height" value="18.4"/>
+		<set name="HitTimeFactor" value="0.45"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseWalkSpd" value="47"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="1985.55926"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1066.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="501"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="185"/>
+		<set name="baseMAtk" value="342"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="252"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="4"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="DDMagic" value="s_pailaka_island_pet_strike2"/>
+		</ai_params>
+		<skills>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4416" level="3"/>
+			<skill id="4121" level="9"/>
+			<skill id="5038" level="7"/>
+			<skill id="4409" level="1"/>
+			<skill id="4408" level="2"/>
+			<skill id="4410" level="14"/>
+			<skill id="4412" level="14"/>
+			<skill id="4413" level="14"/>
+			<skill id="4411" level="11"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="20"/>
+			<defence attribute="water" value="20"/>
+			<defence attribute="wind" value="20"/>
+			<defence attribute="earth" value="20"/>
+			<defence attribute="holy" value="20"/>
+			<defence attribute="unholy" value="20"/>
+		</attributes>
+	</npc>  
+	<npc id="14918" name="Imperial Phoenix" title="" name_ru="Феникс" title_ru="" pts_name="phoenix"> 
+		<!--Done by JunkyFunky (c) LII MultVerso.com-->  
+		<set name="ai_type" value="CharacterAI"/>
+		<set name="type" value="Pet"/>
+		<set name="level" value="83"/>
+		<set name="exp" value="11844000000"/>
+		<set name="ex_crt_effect" value="0"/>
+		<set name="unique" value="0"/>
+		<set name="baseHpRate" value="1.61051"/>
+		<set name="race" value="elemental"/>
+		<set name="sex" value="female"/>
+		<set name="collision_radius" value="7"/>
+		<set name="collision_height" value="34"/>
+		<set name="HitTimeFactor" value="0.67"/>
+		<set name="HitTimeFactorSkill" value="-1"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseHpMax" value="3835.59060587002"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1777.4"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseAtkType" value="SWORD"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseDamageRange" value="0;0;80;120"/>
+		<set name="baseRndDam" value="30"/>
+		<set name="basePAtk" value="1099"/>
+		<set name="baseCritRate" value="40"/>
+		<set name="physical_hit_modify" value="4.75"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseMDef" value="259"/>
+		<set name="baseMAtk" value="751"/>
+		<set name="baseMAtkSpd" value="333"/>
+		<set name="basePDef" value="354"/>
+		<set name="physical_avoid_modify" value="0"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="SafeHeight" value="100"/>
+		<set name="soulshot_count" value="2"/>
+		<set name="spiritshot_count" value="2"/>
+		<set name="undying" value="0"/>
+		<set name="canBeAttacked" value="1"/>
+		<set name="corpse_time" value="7"/>
+		<set name="noSleepMode" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="aggroRange" value="0"/>
+		<set name="PassibleDoor" value="0"/>
+		<set name="canMove" value="1"/>
+		<set name="flying" value="0"/>
+		<set name="hasSummoner" value="0"/>
+		<set name="targetable" value="1"/>
+		<set name="showNameTag" value="1"/>
+		<set name="event_flag" value="0"/>
+		<set name="isAgro" value="0"/>
+		<set name="unsowing" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="acquire_exp_rate" value="0"/>
+		<ai_params>
+			<set name="step_skill_target04" value="0"/>
+			<set name="step_skill04" value="s_pnoenix_flame_beak1"/>
+			<set name="step_action01" value="1080"/>
+			<set name="step_action02" value="1081"/>
+			<set name="step_action03" value="1082"/>
+			<set name="step_action04" value="1083"/>
+			<set name="step_skill_target01" value="0"/>
+			<set name="step_skill03" value="s_pnoenix_flame_feather1"/>
+			<set name="step_skill_target02" value="0"/>
+			<set name="step_skill_target03" value="1"/>
+			<set name="step_skill01" value="s_pnoenix_rush1"/>
+			<set name="step_skill02" value="s_pnoenix_cleanse1"/>
+		</ai_params>
+		<skills>
+			<skill id="4412" level="11"/>
+			<skill id="4414" level="2"/>
+			<skill id="4415" level="3"/>
+			<skill id="4121" level="9"/>
+			<skill id="5038" level="15"/>
+			<skill id="4409" level="1"/>
+			<skill id="4410" level="13"/>
+			<skill id="4416" level="7"/>
+			<skill id="4411" level="13"/>
+			<skill id="4408" level="6"/>
+			<skill id="4413" level="13"/>
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="100"/>
+			<defence attribute="water" value="100"/>
+			<defence attribute="wind" value="100"/>
+			<defence attribute="earth" value="100"/>
+			<defence attribute="holy" value="100"/>
+			<defence attribute="unholy" value="100"/>
+		</attributes>
+	</npc> 
+</list>

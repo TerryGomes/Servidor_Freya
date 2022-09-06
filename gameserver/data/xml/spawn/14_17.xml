@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-183443" y="206013" z="-12896" h="24186"/>
+		<npc id="32546"/>
+		<!--Asyatei-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-183280" y="205680" z="-12896" h="16384"/>
+		<npc id="32603"/>
+		<!--Tepios-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-175303" y="227425" z="-341" h="0"/>
+		<npc id="18684"/>
+		<!--Red Star Stone-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-173626" y="226133" z="-163" h="0"/>
+		<npc id="18685"/>
+		<!--Red Star Stone-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-171390" y="221611" z="-157" h="0"/>
+		<npc id="18686"/>
+		<!--Red Star Stone-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-174744" y="227425" z="-91" h="0"/>
+		<npc id="18686"/>
+		<!--Red Star Stone-->
+	</spawn>
+</list>

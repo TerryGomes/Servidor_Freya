@@ -1,0 +1,2052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<armor id="2400" name="Tallum Tunic">
+		<set name="name-ru" value="Туника Таллума"/>
+		<set name="crystal_count" value="214"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t79_u_i00"/>
+		<set name="price" value="2671000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="86"/>
+			<add stat="maxMp" order="0x10" value="409"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1860"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2401" name="Elven Mithril Stockings">
+		<set name="name-ru" value="Мифриловые Штаны Эльфов"/>
+		<set name="crystal_count" value="199"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_elven_hose_i00"/>
+		<set name="price" value="107700"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="34"/>
+			<add stat="maxMp" order="0x10" value="105"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="2400"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2402" name="Stockings of Zubei">
+		<set name="name-ru" value="Штаны Зубея"/>
+		<set name="crystal_count" value="100"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t56_l_i00"/>
+		<set name="price" value="748300"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="49"/>
+			<add stat="maxMp" order="0x10" value="216"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="940"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2403" name="Blue Wolf Stockings">
+		<set name="name-ru" value="Штаны Синего Волка"/>
+		<set name="crystal_count" value="155"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t70_l_i00"/>
+		<set name="price" value="1160300"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="52"/>
+			<add stat="maxMp" order="0x10" value="236"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="920"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2404" name="Stockings of Doom">
+		<set name="name-ru" value="Штаны Рока"/>
+		<set name="crystal_count" value="155"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t73_l_i00"/>
+		<set name="price" value="1160300"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="52"/>
+			<add stat="maxMp" order="0x10" value="236"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="910"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2405" name="Tallum Stockings">
+		<set name="name-ru" value="Штаны Таллума"/>
+		<set name="crystal_count" value="134"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t79_l_i00"/>
+		<set name="price" value="1670000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="53"/>
+			<add stat="maxMp" order="0x10" value="256"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="920"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2406" name="Avadon Robe">
+		<set name="name-ru" value="Мантия Авадона"/>
+		<set name="crystal_count" value="259"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t59_ul_i00"/>
+		<set name="price" value="1946000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="127"/>
+			<add stat="maxMp" order="0x10" value="561"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="2540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2407" name="Dark Crystal Robe">
+		<set name="name-ru" value="Мантия Кристалла Тьмы"/>
+		<set name="crystal_count" value="347"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t76_ul_i00"/>
+		<set name="price" value="4341000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="139"/>
+			<add stat="maxMp" order="0x10" value="665"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="2450"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2408" name="Nightmare Robe">
+		<set name="name-ru" value="Мантия Кошмаров"/>
+		<set name="crystal_count" value="528"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t82_ul_i00"/>
+		<set name="price" value="6603000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="147"/>
+			<add stat="maxMp" order="0x10" value="718"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="2300"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2409" name="Majestic Robe">
+		<set name="name-ru" value="Мантия Величия"/>
+		<set name="crystal_count" value="528"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t85_ul_i00"/>
+		<set name="price" value="6603000"/>
+		<set name="type" value="MAGIC"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="147"/>
+			<add stat="maxMp" order="0x10" value="718"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="2330"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2410" name="Nightmarish Tattoo">
+		<set name="name-ru" value="Татуировка Кошмаров"/>
+		<set name="crystal_count" value="422"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_mithril_banded_mail_i00"/>
+		<set name="price" value="4064000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="UNDERWEAR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="139"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="3600"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2411" name="Brigandine Helmet">
+		<set name="name-ru" value="Панцирный Шлем"/>
+		<set name="crystal_count" value="159"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="price" value="86100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="41"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="630"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2412" name="Plate Helmet">
+		<set name="name-ru" value="Латный Шлем"/>
+		<set name="crystal_count" value="208"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="price" value="112800"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="630"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2413" name="Chain Hood">
+		<set name="name-ru" value="Кольчужный Капюшон"/>
+		<set name="crystal_count" value="58"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="price" value="145700"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="47"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="620"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2414" name="Full Plate Helmet">
+		<set name="name-ru" value="Полный Латный Шлем"/>
+		<set name="crystal_count" value="165"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="price" value="412600"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="58"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="600"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2415" name="Avadon Circlet">
+		<set name="name-ru" value="Венец Авадона"/>
+		<set name="crystal_count" value="80"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="price" value="598600"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="62"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="590"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2416" name="Blue Wolf Helmet">
+		<set name="name-ru" value="Шлем Синего Волка"/>
+		<set name="crystal_count" value="124"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="price" value="928300"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="66"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="580"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2417" name="Doom Helmet">
+		<set name="name-ru" value="Шлем Рока"/>
+		<set name="crystal_count" value="124"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="price" value="928300"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="66"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="580"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2418" name="Helm of Nightmare">
+		<set name="name-ru" value="Шлем Кошмаров"/>
+		<set name="crystal_count" value="163"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="price" value="2032000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="73"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="560"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2419" name="Majestic Circlet">
+		<set name="name-ru" value="Диадема Величия"/>
+		<set name="crystal_count" value="163"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="price" value="2032000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="73"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2420" name="Dragon Headgear">
+		<set name="name-ru" value="Шлем Дракона"/>
+		<set name="crystal_count" value="179"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="price" value="2784000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="77"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2421" name="The Hood">
+		<set name="name-ru" value="Капюшон"/>
+		<set name="crystal_count" value="179"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="price" value="2784000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="77"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2422" name="Reinforced Leather Boots">
+		<set name="name-ru" value="Укрепленные Кожаные Сапоги"/>
+		<set name="crystal_count" value="72"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t13_b_i00"/>
+		<set name="price" value="39100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="24"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1280"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2423" name="Boots of Knowledge">
+		<set name="name-ru" value="Сапоги Знания"/>
+		<set name="crystal_count" value="72"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t41_b_i00"/>
+		<set name="price" value="39100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="24"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1270"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2424" name="Manticore Skin Boots">
+		<set name="name-ru" value="Сапоги из Шкуры Мантикоры"/>
+		<set name="crystal_count" value="106"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t42_b_i00"/>
+		<set name="price" value="57400"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="27"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1260"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2425" name="Brigandine Boots">
+		<set name="name-ru" value="Панцирные Сапоги"/>
+		<set name="crystal_count" value="106"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t43_b_i00"/>
+		<set name="price" value="57400"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="27"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1250"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2426" name="Elven Mithril Boots">
+		<set name="name-ru" value="Мифриловые Сапоги Эльфов"/>
+		<set name="crystal_count" value="106"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t51_b_i00"/>
+		<set name="price" value="57400"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="27"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1250"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2427" name="Salamander Skin Boots">
+		<set name="name-ru" value="Сапоги из Кожи Саламандры"/>
+		<set name="crystal_count" value="139"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t45_b_i00"/>
+		<set name="price" value="75200"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="29"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1230"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2428" name="Plate Boots">
+		<set name="name-ru" value="Латные Сапоги"/>
+		<set name="crystal_count" value="139"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t46_b_i00"/>
+		<set name="price" value="75200"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="29"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1240"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2429" name="Chain Boots">
+		<set name="name-ru" value="Кольчужные Сапоги"/>
+		<set name="crystal_count" value="39"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t48_b_i00"/>
+		<set name="price" value="97100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1220"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2430" name="Karmian Boots">
+		<set name="name-ru" value="Сапоги Кармиана"/>
+		<set name="crystal_count" value="39"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t53_b_i00"/>
+		<set name="price" value="97100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1230"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2431" name="Plated Leather Boots">
+		<set name="name-ru" value="Латные Кожаные Сапоги"/>
+		<set name="crystal_count" value="39"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t47_b_i00"/>
+		<set name="price" value="97100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1220"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2432" name="Dwarven Chain Boots">
+		<set name="name-ru" value="Кольчужные Сапоги Гномов"/>
+		<set name="crystal_count" value="39"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t60_b_i00"/>
+		<set name="price" value="97100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1210"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2433" name="Boots of Seal">
+		<set name="name-ru" value="Сапоги Печати"/>
+		<set name="crystal_count" value="39"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t44_b_i00"/>
+		<set name="price" value="97100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1220"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2434" name="Rind Leather Boots">
+		<set name="name-ru" value="Сапоги из Грубой Кожи"/>
+		<set name="crystal_count" value="50"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t49_b_i00"/>
+		<set name="price" value="123900"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="34"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1220"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2435" name="Demon's Boots">
+		<set name="name-ru" value="Сапоги Демона"/>
+		<set name="crystal_count" value="76"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t54_b_i00"/>
+		<set name="price" value="188800"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="36"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1220"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2436" name="Theca Leather Boots">
+		<set name="name-ru" value="Кожаные Сапоги Тека"/>
+		<set name="crystal_count" value="85"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t63_b_i00"/>
+		<set name="price" value="211600"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="37"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1210"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2437" name="Drake Leather Boots">
+		<set name="name-ru" value="Кожаные Сапоги Дрейка"/>
+		<set name="crystal_count" value="110"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t21_b_i00"/>
+		<set name="price" value="275100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="39"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1210"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2438" name="Full Plate Boots">
+		<set name="name-ru" value="Полные Латные Сапоги"/>
+		<set name="crystal_count" value="110"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t62_b_i00"/>
+		<set name="price" value="275100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="39"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1200"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2439" name="Blue Wolf Boots">
+		<set name="name-ru" value="Сапоги Синего Волка"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t68_b_i02"/>
+		<set name="price" value="618800"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1130"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2440" name="Boots of Nightmare">
+		<set name="name-ru" value="Сапоги Кошмаров"/>
+		<set name="crystal_count" value="140"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t45_b_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="48"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2441" name="Dark Legion Boots">
+		<set name="name-ru" value="Сапоги Темного Легиона"/>
+		<set name="crystal_count" value="140"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t45_b_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="48"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1120"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2442" name="Dasparion's Boots">
+		<set name="name-ru" value="Сапоги Даспариона"/>
+		<set name="crystal_count" value="140"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t44_b_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="48"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1100"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2443" name="Dragon Leather Boots">
+		<set name="name-ru" value="Кожаные Сапоги Дракона"/>
+		<set name="crystal_count" value="119"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t45_b_i00"/>
+		<set name="price" value="1856000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="51"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1100"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2444" name="The Boots">
+		<set name="name-ru" value="Сапоги"/>
+		<set name="crystal_count" value="119"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t44_b_i00"/>
+		<set name="price" value="1856000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="51"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1100"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2445" name="Dragon Scale Boots">
+		<set name="name-ru" value="Сапоги из Драконьей Чешуи"/>
+		<set name="crystal_count" value="140"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t15_b_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="48"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1100"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2446" name="Reinforced Leather Gloves">
+		<set name="name-ru" value="Укрепленные Кожаные Перчатки"/>
+		<set name="crystal_count" value="72"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t13_g_i00"/>
+		<set name="price" value="39100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="24"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="640"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2447" name="Gloves of Knowledge">
+		<set name="name-ru" value="Перчатки Знания"/>
+		<set name="crystal_count" value="72"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t41_g_i00"/>
+		<set name="price" value="39100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="24"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="640"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2448" name="Manticore Skin Gloves">
+		<set name="name-ru" value="Перчатки из Шкуры Мантикоры"/>
+		<set name="crystal_count" value="106"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t42_g_i00"/>
+		<set name="price" value="57400"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="27"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="630"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2449" name="Brigandine Gauntlets">
+		<set name="name-ru" value="Панцирные Рукавицы"/>
+		<set name="crystal_count" value="106"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t43_g_i00"/>
+		<set name="price" value="57400"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="27"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="630"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2450" name="Mithril Gloves">
+		<set name="name-ru" value="Мифриловые Перчатки Эльфов"/>
+		<set name="crystal_count" value="106"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t51_g_i00"/>
+		<set name="price" value="57400"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="27"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="640"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2451" name="Sage's Worn Gloves">
+		<set name="name-ru" value="Потрепанные Перчатки Мудреца"/>
+		<set name="crystal_count" value="139"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t44_g_i00"/>
+		<set name="price" value="75200"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="29"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="630"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2452" name="Reinforced Mithril Gloves">
+		<set name="name-ru" value="Укрепленные Мифриловые Перчатки"/>
+		<set name="crystal_count" value="39"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t47_g_i00"/>
+		<set name="price" value="97100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="620"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2453" name="Chain Gloves">
+		<set name="name-ru" value="Кольчужные Перчатки"/>
+		<set name="crystal_count" value="39"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t48_g_i00"/>
+		<set name="price" value="97100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="620"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2454" name="Karmian Gloves">
+		<set name="name-ru" value="Перчатки Кармиана"/>
+		<set name="crystal_count" value="39"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t53_g_i00"/>
+		<set name="price" value="97100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="620"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2455" name="Plated Leather Gloves">
+		<set name="name-ru" value="Латные Кожаные Перчатки"/>
+		<set name="crystal_count" value="46"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t47_g_i00"/>
+		<set name="price" value="114400"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="33"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="610"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2456" name="Dwarven Chain Gloves">
+		<set name="name-ru" value="Кольчужные Перчатки Гномов"/>
+		<set name="crystal_count" value="50"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t60_g_i00"/>
+		<set name="price" value="123900"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="34"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="600"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2457" name="Gloves of Seal">
+		<set name="name-ru" value="Перчатки Печати"/>
+		<set name="crystal_count" value="50"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t44_g_i00"/>
+		<set name="price" value="123900"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="34"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="620"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2458" name="Rind Leather Gloves">
+		<set name="name-ru" value="Перчатки из Грубой Кожи"/>
+		<set name="crystal_count" value="50"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t49_g_i00"/>
+		<set name="price" value="123900"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="34"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="600"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2459" name="Demon's Gloves">
+		<set name="name-ru" value="Перчатки Демона"/>
+		<set name="crystal_count" value="76"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t54_g_i00"/>
+		<set name="price" value="188800"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="36"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="610"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2460" name="Theca Leather Gloves">
+		<set name="name-ru" value="Кожаные Перчатки Тека"/>
+		<set name="crystal_count" value="85"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t63_g_i00"/>
+		<set name="price" value="211600"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="37"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="600"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2461" name="Drake Leather Gloves">
+		<set name="name-ru" value="Кожаные Перчатки Дрейка"/>
+		<set name="crystal_count" value="110"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t21_g_i00"/>
+		<set name="price" value="275100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="39"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="600"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2462" name="Full Plate Gauntlets">
+		<set name="name-ru" value="Полные Латные Рукавицы"/>
+		<set name="crystal_count" value="110"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t62_g_i00"/>
+		<set name="price" value="275100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="39"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="600"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2463" name="Divine Gloves">
+		<set name="name-ru" value="Перчатки Божества"/>
+		<set name="crystal_count" value="110"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t57_g_i00"/>
+		<set name="price" value="275100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="39"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="610"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2464" name="Avadon Gloves">
+		<set name="name-ru" value="Перчатки Авадона"/>
+		<set name="crystal_count" value="53"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t66_g_i02"/>
+		<set name="price" value="399100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="41"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="590"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2465" name="Chain Gloves of Silence">
+		<set name="name-ru" value="Кольчужные Перчатки Безмолвия"/>
+		<set name="crystal_count" value="69"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t65_g_i00"/>
+		<set name="price" value="399100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="41"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="590"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2466" name="Guardian's Gloves">
+		<set name="name-ru" value="Перчатки Стражника"/>
+		<set name="crystal_count" value="69"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t67_g_i00"/>
+		<set name="price" value="399100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="41"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="590"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2467" name="Gloves of Blessing">
+		<set name="name-ru" value="Перчатки Благословения"/>
+		<set name="crystal_count" value="69"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t56_g_i00"/>
+		<set name="price" value="399100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="41"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="590"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2468" name="Blessed Gloves">
+		<set name="name-ru" value="Благословенные Перчатки"/>
+		<set name="crystal_count" value="143"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t67_g_i00"/>
+		<set name="price" value="275100"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="39"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="600"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2469" name="Gloves of the Underworld">
+		<set name="name-ru" value="Перчатки Преисподней"/>
+		<set name="crystal_count" value="92"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t40_g_i00"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="45"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="580"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2470" name="Gloves of Phantom">
+		<set name="name-ru" value="Перчатки Фантома"/>
+		<set name="crystal_count" value="140"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t45_g_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="48"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="560"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2471" name="Dark Legion Gloves">
+		<set name="name-ru" value="Перчатки Темного Легиона"/>
+		<set name="crystal_count" value="140"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t45_g_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="48"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="560"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2472" name="Dark Crystal Gloves">
+		<set name="name-ru" value="Перчатки Кристалла Тьмы"/>
+		<set name="crystal_count" value="92"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t15_g_i00"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="45"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="580"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2473" name="The Gloves">
+		<set name="name-ru" value="Перчатки"/>
+		<set name="crystal_count" value="119"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t44_g_i00"/>
+		<set name="price" value="1856000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="51"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2474" name="Dasparion's Gloves">
+		<set name="name-ru" value="Перчатки Даспариона"/>
+		<set name="crystal_count" value="140"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t44_g_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="48"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2475" name="Doom Gloves">
+		<set name="name-ru" value="Перчатки Рока"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t71_g_i02"/>
+		<set name="price" value="618800"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="580"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2476" name="Dragon Gauntlets">
+		<set name="name-ru" value="Рукавицы Дракона"/>
+		<set name="crystal_count" value="130"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t15_g_i00"/>
+		<set name="price" value="2073000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="52"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2477" name="Dragon Leather Gloves">
+		<set name="name-ru" value="Кожаные Рукавицы Дракона"/>
+		<set name="crystal_count" value="119"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t45_g_i00"/>
+		<set name="price" value="1856000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="51"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2478" name="Tallum Gloves">
+		<set name="name-ru" value="Перчатки Таллума"/>
+		<set name="crystal_count" value="92"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_helmet_i00"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="45"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="580"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2479" name="Gauntlets of Nightmare">
+		<set name="name-ru" value="Рукавицы Кошмаров"/>
+		<set name="crystal_count" value="140"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t45_g_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="48"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2480" name="Elemental Gloves">
+		<set name="name-ru" value="Перчатки Стихии"/>
+		<set name="crystal_count" value="107"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t71_g_i00"/>
+		<set name="price" value="618800"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="580"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2481" name="Gloves of Grace">
+		<set name="name-ru" value="Перчатки Грации"/>
+		<set name="crystal_count" value="107"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t71_g_i00"/>
+		<set name="price" value="618800"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="580"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2482" name="Majestic Gauntlets">
+		<set name="name-ru" value="Рукавицы Величия"/>
+		<set name="crystal_count" value="140"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t15_g_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="48"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2483" name="Gust Bracer">
+		<set name="name-ru" value="Наручи Ливня"/>
+		<set name="crystal_count" value="92"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t45_g_i00"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="45"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="580"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2484" name="Cerberus Gloves">
+		<set name="name-ru" value="Перчатки Цербера"/>
+		<set name="crystal_count" value="140"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t44_g_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="48"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2485" name="Implosion Gauntlets">
+		<set name="name-ru" value="Рукавицы Имплозии"/>
+		<set name="crystal_count" value="107"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t68_g_i00"/>
+		<set name="price" value="618800"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="580"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2486" name="Paradia Gloves">
+		<set name="name-ru" value="Перчатки Парадии"/>
+		<set name="crystal_count" value="107"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t68_g_i00"/>
+		<set name="price" value="618800"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="580"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2487" name="Blue Wolf Gloves">
+		<set name="name-ru" value="Перчатки Синего Волка"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t68_g_i02"/>
+		<set name="price" value="618800"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="590"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2488" name="Phoenix Gloves">
+		<set name="name-ru" value="Перчатки Феникса"/>
+		<set name="crystal_count" value="92"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t44_g_i00"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="45"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="570"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2489" name="Gloves of Black Ore">
+		<set name="name-ru" value="Черные Перчатки"/>
+		<set name="crystal_count" value="92"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t14_g_i00"/>
+		<set name="price" value="890000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="45"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="570"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2490" name="Cloak of Silence">
+		<set name="name-ru" value="Плащ Безмолвия"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_back01"/>
+		<set name="price" value="6770"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="5"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="250"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2491" name="Golden Yarn Cloak">
+		<set name="name-ru" value="Плащ Золотых Нитей"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_back01"/>
+		<set name="price" value="12300"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="5"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="250"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="2492" name="Shadow Cloak">
+		<set name="name-ru" value="Плащ Теней"/>
+		<set name="crystal_count" value="50"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_back01"/>
+		<set name="price" value="126000"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="12"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="240"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<weapon id="2493" name="Brigandine Shield">
+		<set name="name-ru" value="Панцирный Щит"/>
+		<set name="crystal_count" value="111"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.shield_brigandine_shield_i00"/>
+		<set name="price" value="60300"/>
+		<set name="rnd_dam" value="0"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<for>
+			<add stat="sDef" order="0x10" value="142"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<add stat="rEvas" order="0x10" value="-8.0000"/>
+			<enchant stat="sDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1320"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value=""/>
+	</weapon>
+	<weapon id="2494" name="Plate Shield">
+		<set name="name-ru" value="Латный Щит"/>
+		<set name="crystal_count" value="146"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.shield_plate_shield_i00"/>
+		<set name="price" value="79000"/>
+		<set name="rnd_dam" value="0"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<for>
+			<add stat="sDef" order="0x10" value="154"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<add stat="rEvas" order="0x10" value="-8.0000"/>
+			<enchant stat="sDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1310"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value=""/>
+	</weapon>
+	<weapon id="2495" name="Chain Shield">
+		<set name="name-ru" value="Кольчужный Щит"/>
+		<set name="crystal_count" value="41"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.shield_chain_shield_i00"/>
+		<set name="price" value="102000"/>
+		<set name="rnd_dam" value="0"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<for>
+			<add stat="sDef" order="0x10" value="166"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<add stat="rEvas" order="0x10" value="-8.0000"/>
+			<enchant stat="sDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1280"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value=""/>
+	</weapon>
+	<weapon id="2496" name="Dwarven Chain Shield">
+		<set name="name-ru" value="Кольчужный Щит Гномов"/>
+		<set name="crystal_count" value="48"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.shield_dwarven_chain_shield_i00"/>
+		<set name="price" value="120100"/>
+		<set name="rnd_dam" value="0"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<for>
+			<add stat="sDef" order="0x10" value="174"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<add stat="rEvas" order="0x10" value="-8.0000"/>
+			<enchant stat="sDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1280"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value=""/>
+	</weapon>
+	<weapon id="2497" name="Full Plate Shield">
+		<set name="name-ru" value="Полный Латный Щит"/>
+		<set name="crystal_count" value="116"/>
+		<set name="crystal_type" value="C"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.shield_full_plate_shield_i00"/>
+		<set name="price" value="288800"/>
+		<set name="rnd_dam" value="0"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<for>
+			<add stat="sDef" order="0x10" value="203"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<add stat="rEvas" order="0x10" value="-8.0000"/>
+			<enchant stat="sDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1220"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value=""/>
+	</weapon>
+	<weapon id="2498" name="Shield of Nightmare">
+		<set name="name-ru" value="Щит Кошмаров"/>
+		<set name="crystal_count" value="114"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.shield_shield_of_nightmare_i00"/>
+		<set name="price" value="1422000"/>
+		<set name="rnd_dam" value="0"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<for>
+			<add stat="sDef" order="0x10" value="256"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<add stat="rEvas" order="0x10" value="-8.0000"/>
+			<enchant stat="sDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="1180"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value=""/>
+	</weapon>
+	<weapon id="2499" name="Elven Long Sword">
+		<set name="name-ru" value="Длинный Меч Эльфов"/>
+		<set name="crystal_count" value="2561"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_elven_long_sword_i00"/>
+		<set name="price" value="1387000"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="SWORD"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="92"/>
+			<add stat="mAtk" order="0x10" value="54"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="1440"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+</list>

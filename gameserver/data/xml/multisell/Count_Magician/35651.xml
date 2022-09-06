@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<list>
+	<config showall="true" notax="true" keepenchanted="true" />
+	<!-- Human Circlet -->
+	<item id="1">
+		<!-- emurt.ru -->
+		<ingredient id="9912" count="480" />
+		<ingredient id="57" count="720000" />
+		<production id="9391" count="1" />
+	</item>
+	<!-- Elven Circlet -->
+	<item id="2">
+		<!-- emurt.ru -->
+		<ingredient id="9912" count="480" />
+		<ingredient id="57" count="720000" />
+		<production id="9392" count="1" />
+	</item>
+	<!-- Dark Elven Circlet -->
+	<item id="3">
+		<!-- emurt.ru -->
+		<ingredient id="9912" count="480" />
+		<ingredient id="57" count="720000" />
+		<production id="9393" count="1" />
+	</item>
+	<!-- Orcish Circlet -->
+	<item id="4">
+		<!-- emurt.ru -->
+		<ingredient id="9912" count="480" />
+		<ingredient id="57" count="720000" />
+		<production id="9394" count="1" />
+	</item>
+	<!-- Dwarven Circlet -->
+	<item id="5">
+		<!-- emurt.ru -->
+		<ingredient id="9912" count="480" />
+		<ingredient id="57" count="720000" />
+		<production id="9395" count="1" />
+	</item>
+	<!-- Kamaelic Circlet -->
+	<item id="6">
+		<!-- emurt.ru -->
+		<ingredient id="9912" count="480" />
+		<ingredient id="57" count="720000" />
+		<production id="9396" count="1" />
+	</item>
+	<!-- Agathion Seal Bracelet - Oren -->
+	<item id="7">
+		<!-- emurt.ru -->
+		<ingredient id="57" count="30000000" />
+		<production id="9610" count="1" />
+	</item>
+	<!-- Scroll of Escape: Castle -->
+	<item id="7">
+		<!-- emurt.ru -->
+		<ingredient id="57" count="500" />
+		<production id="1830" count="1" />
+	</item>
+	<!-- Food for Wyvern -->
+	<item id="7">
+		<!-- emurt.ru -->
+		<ingredient id="57" count="300" />
+		<production id="6316" count="1" />
+	</item>
+	<!-- Blessed Scroll of Escape: Castle -->
+	<item id="7">
+		<!-- emurt.ru -->
+		<ingredient id="57" count="200000" />
+		<production id="5859" count="1" />
+	</item>
+</list>

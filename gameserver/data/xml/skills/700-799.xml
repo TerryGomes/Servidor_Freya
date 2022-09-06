@@ -1,0 +1,2639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="700" levels="1" name="Divine Healer Group Heal">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Божественный Целитель: Групповое Лечение" />
+		<table name="#abnormal_lv">5 </table>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="life_force_others"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_buff" />
+		<set name="reuse_delay" val="6000" />
+		<set name="power" val="400" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="7000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="51" />
+		<set name="mp_consume2" val="201" />
+		<set name="effect_point" val="624" />
+		<set name="target_type" val="TARGET_PARTY" />
+		<set name="skillRadius" val="900" />
+		<set name="skillType" val="HEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="HealOverTime" stackOrder="5" stackType="life_force_others" time="15" val="27" />
+		</for>
+	</skill>
+	<skill id="701" levels="1" name="Divine Healer Resurrection">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Божественный Целитель: Воскрешение" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_etc" />
+		<set name="reuse_delay" val="30000" />
+		<set name="power" val="70" />
+		<set name="magic_level" val="80" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="6000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="51" />
+		<set name="mp_consume2" val="201" />
+		<set name="effect_point" val="624" />
+		<set name="target_type" val="TARGET_CORPSE_PLAYER" />
+		<set name="skillType" val="RESURRECT" />
+		<set name="corpse" val="true" />
+		<set name="canPet" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="702" levels="1" name="Divine Healer Clans">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Божественный Целитель: Искупление" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_etc" />
+		<set name="reuse_delay" val="8000" />
+		<set name="magic_level" val="80" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="12" />
+		<set name="mp_consume2" val="47" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="DispelEffects" time="0" val="0">
+				<def name="dispelType" val="cleanse" />
+				<def name="cancelRate" val="100" />
+				<def name="negateCount" val="10" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="703" levels="1" name="Sacrifice Healer">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Жертва Целителя" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_etc" />
+		<set name="reuse_delay" val="1800000" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_PARTY" />
+		<set name="skillRadius" val="300" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<cond msgId="113" addName="1">
+			<player percentMP="10" />
+		</cond>
+		<for>
+			<effect count="1" name="HealPercent" time="0" val="100" />
+			<effect count="1" name="ManaHealPercent" time="0" val="100" />
+			<effect count="1" name="CallSkills" time="0" val="0" applyOnCaster="true">
+				<def name="skillIds" val="5602" />
+				<def name="skillLevels" val="1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="704" levels="1" name="Divine Enchanter Water Spirit">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Божественный Волшебник: Дух Воды" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="multi_buff"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_buff" />
+		<set name="reuse_delay" val="4000" />
+		<set name="magic_level" val="80" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="15" />
+		<set name="mp_consume2" val="58" />
+		<set name="itemConsumeId" val="3031" />
+		<set name="itemConsumeCount" val="10" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="multi_buff" time="120" val="0">
+				<add order="0x40" stat="mCritRate" val="2" />
+				<mul order="0x30" stat="regMp" val="1.2" />
+				<mul order="0x30" stat="pAtk" val="1.1" />
+				<mul order="0x30" stat="pDef" val="1.2" />
+				<mul order="0x30" stat="pAtkSpd" val="1.2" />
+				<mul order="0x30" stat="mAtk" val="1.2" />
+				<mul order="0x30" stat="mDef" val="1.2" />
+				<mul order="0x30" stat="mAtkSpd" val="1.2" />
+				<add order="0x40" stat="debuffResist" val="10" />
+				<mul order="0x30" stat="runSpd" val="0.8" />
+				<mul order="0x30" stat="mpConsum" val="0.95" />
+				<mul order="0x30" stat="mpConsumePhysical" val="0.95" />
+				<mul order="0x30" stat="mpDanceConsume" val="0.95" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="705" levels="1" name="Divine Enchanter Fire Spirit">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Божественный Волшебник: Дух Огня" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="multi_buff"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_buff" />
+		<set name="reuse_delay" val="4000" />
+		<set name="magic_level" val="80" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="15" />
+		<set name="mp_consume2" val="58" />
+		<set name="itemConsumeId" val="3031" />
+		<set name="itemConsumeCount" val="10" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="multi_buff" time="120" val="0">
+				<mul order="0x30" stat="maxMp" val="1.2" />
+				<mul order="0x30" stat="regHp" val="1.2" />
+				<add order="0x40" stat="mCritRate" val="2" />
+				<mul order="0x30" stat="cAtk" val="1.2" />
+				<mul order="0x30" stat="pAtk" val="1.1" />
+				<mul order="0x30" stat="pDef" val="1.2" />
+				<mul order="0x30" stat="pAtkSpd" val="1.2" />
+				<mul order="0x30" stat="mAtk" val="1.2" />
+				<mul order="0x30" stat="mDef" val="1.2" />
+				<mul order="0x30" stat="mAtkSpd" val="1.2" />
+				<add order="0x40" stat="debuffResist" val="10" />
+				<mul order="0x30" stat="runSpd" val="0.8" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="706" levels="1" name="Divine Enchanter Wind Spirit">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Божественный Волшебник: Дух Ветра" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="multi_buff"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_buff" />
+		<set name="reuse_delay" val="4000" />
+		<set name="magic_level" val="80" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="15" />
+		<set name="mp_consume2" val="58" />
+		<set name="itemConsumeId" val="3031" />
+		<set name="itemConsumeCount" val="10" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="multi_buff" time="120" val="0">
+				<mul order="0x30" stat="maxHp" val="1.2" />
+				<mul order="0x30" stat="baseCrit" val="1.2" />
+				<mul order="0x30" stat="mCritRate" val="1.2" />
+				<mul order="0x30" stat="pAtk" val="1.1" />
+				<mul order="0x30" stat="pDef" val="1.2" />
+				<mul order="0x30" stat="pAtkSpd" val="1.2" />
+				<mul order="0x30" stat="mAtk" val="1.2" />
+				<mul order="0x30" stat="mDef" val="1.2" />
+				<mul order="0x30" stat="mAtkSpd" val="1.2" />
+				<add order="0x40" stat="debuffResist" val="10" />
+				<mul order="0x30" stat="runSpd" val="0.8" />
+				<add order="0x40" stat="absorbDam" val="5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="707" levels="1" name="Divine Enchanter Hero Spirit">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Божественный Волшебник: Дух Героя" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="multi_buff"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_buff" />
+		<set name="reuse_delay" val="4000" />
+		<set name="magic_level" val="80" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="15" />
+		<set name="mp_consume2" val="58" />
+		<set name="itemConsumeId" val="3031" />
+		<set name="itemConsumeCount" val="10" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="2" stackType="multi_buff" time="120" val="0">
+				<mul order="0x30" stat="maxHp" val="1.2" />
+				<add order="0x40" stat="mCritRate" val="2" />
+				<mul order="0x30" stat="cAtk" val="1.2" />
+				<mul order="0x30" stat="pAtk" val="1.1" />
+				<mul order="0x30" stat="pDef" val="1.2" />
+				<mul order="0x30" stat="pAtkSpd" val="1.2" />
+				<mul order="0x30" stat="mAtk" val="1.2" />
+				<mul order="0x30" stat="mDef" val="1.2" />
+				<mul order="0x30" stat="mAtkSpd" val="1.2" />
+				<add order="0x40" stat="debuffResist" val="10" />
+				<mul order="0x30" stat="runSpd" val="0.8" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="708" levels="1" name="Divine Enchanter Mass Binding">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Божественный Волшебник: Массовое Связывание" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="root_magically"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="magicType" val="MAGIC" />
+		<set name="affect_limit" val="10;10" />
+		<set name="icon" val="icon.skill_transform_debuff" />
+		<set name="reuse_delay" val="5000" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="22" />
+		<set name="mp_consume2" val="87" />
+		<set name="activate_rate" val="50" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="250" />
+		<set name="skillType" val="ROOT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="HOLD" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Root" stackOrder="1" stackType="root_magically" time="30" val="0" />
+		</for>
+	</skill>
+	<skill id="709" levels="1" name="Sacrifice Enchanter">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Жертва Волшебника" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="transform_scrifice"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_buff" />
+		<set name="reuse_delay" val="1800000" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_PARTY" />
+		<set name="skillRadius" val="300" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<cond msgId="113" addName="1">
+			<player percentMP="10" />
+		</cond>
+		<for>
+			<effect name="Buff" count="1" time="60" val="0" stackType="transform_scrifice" stackOrder="1">
+				<add order="0x40" stat="runSpd" val="10" />
+				<add order="0x40" stat="accCombat" val="2" />
+				<mul order="0x30" stat="maxHp" val="1.1" />
+				<mul order="0x30" stat="pDef" val="1.1" />
+				<mul order="0x30" stat="mDef" val="1.1" />
+				<mul order="0x30" stat="pAtk" val="1.1" />
+				<mul order="0x30" stat="mAtk" val="1.1" />
+				<mul order="0x30" stat="pAtkSpd" val="1.1" />
+				<mul order="0x30" stat="mAtkSpd" val="1.1" />
+				<mul order="0x30" stat="baseCrit" val="1.1" />
+				<mul order="0x30" stat="cAtk" val="1.1" />
+			</effect>
+			<effect count="1" name="CallSkills" time="0" val="0" applyOnCaster="true">
+				<def name="skillIds" val="5602" />
+				<def name="skillLevels" val="1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="710" levels="1" name="Divine Summoner Summon Divine Beast">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Божественный Призыватель: Призвать Божественного Зверя" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_etc" />
+		<set name="reuse_delay" val="5000" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="15000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="29" />
+		<set name="mp_consume2" val="116" />
+		<set name="itemConsumeId" val="1461" />
+		<set name="itemConsumeCount" val="2" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="SUMMON" />
+		<set name="itemConsumeIdInTime" val="1461" />
+		<set name="itemConsumeCountInTime" val="1" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="npcId" val="14870" />
+		<cond msgId="113">
+			<player transform="258" />
+		</cond>
+	</skill>
+	<skill id="711" levels="1" name="Divine Summoner Transfer Pain">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Божественный Призыватель: Поделиться Болью" />
+		<set name="icon" val="icon.skill_transform_etc" />
+		<set name="magic_level" val="80" />
+		<set name="mp_consume1" val="72" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="CONT" />
+		<set name="operateType" val="OP_TOGGLE" />
+		<for>
+			<effect count="0x7fffffff" name="AbsorbDamageToSummon" time="5" val="0.2">
+				<add order="0x40" stat="transferPetDam" val="20" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="712" levels="1" name="Divine Summoner Final Servitor">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Божественный Призыватель: Совершенный Слуга" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="multi_buff"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_buff" />
+		<set name="reuse_delay" val="60000" />
+		<set name="magic_level" val="80" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="15" />
+		<set name="mp_consume2" val="57" />
+		<set name="itemConsumeId" val="3031" />
+		<set name="itemConsumeCount" val="20" />
+		<set name="target_type" val="TARGET_PET" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="multi_buff" time="1200" val="0">
+				<mul order="0x30" stat="maxHp" val="1.2" />
+				<add order="0x40" stat="accCombat" val="4" />
+				<mul order="0x30" stat="pAtk" val="1.1" />
+				<mul order="0x30" stat="pDef" val="1.2" />
+				<mul order="0x30" stat="pAtkSpd" val="1.2" />
+				<mul order="0x30" stat="baseCrit" val="1.2" />
+				<mul order="0x30" stat="cAtk" val="1.2" />
+				<mul order="0x30" stat="mDef" val="1.2" />
+				<mul order="0x30" stat="mAtk" val="1.2" />
+				<mul order="0x30" stat="mAtkSpd" val="1.2" />
+				<add order="0x40" stat="debuffResist" val="20" />
+				<mul order="0x30" stat="runSpd" val="0.8" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="713" levels="1" name="Divine Summoner Servitor Hill">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Божественный Призыватель: Лечение Призывателя" />
+		<table name="#effect_point">936</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_etc" />
+		<set name="reuse_delay" val="3000" />
+		<set name="power" val="991" />
+		<set name="magic_level" val="80" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="26" />
+		<set name="mp_consume2" val="101" />
+		<set name="effect_point" val="#effect_point" />
+		<set name="target_type" val="TARGET_PET" />
+		<set name="skillType" val="HEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="714" levels="1" name="Sacrifice Summoner">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Жертва Призывателя" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="transform_scrifice"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_buff" />
+		<set name="reuse_delay" val="1800000" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_PARTY" />
+		<set name="skillRadius" val="300" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<cond msgId="113" addName="1">
+			<player percentMP="10" />
+		</cond>
+		<for>
+			<effect name="Buff" count="1" time="15" val="0" stackType="transform_scrifice" stackOrder="1">
+				<mul order="0x30" stat="baseCrit" val="1.2"/>
+				<mul order="0x30" stat="cAtk" val="1.2"/>
+			</effect>
+			<effect count="1" name="CallSkills" time="0" val="0" applyOnCaster="true">
+				<def name="skillIds" val="5602" />
+				<def name="skillLevels" val="1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="715" levels="4" name="Zaken Energy Drain">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Закен: Поглощение Энергии" />
+		<table name="#mp_consume2">60 65 69 72</table>
+		<table name="#magic_level">65 70 75 80</table>
+		<table name="#power">116 122 126 129</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="skill_cool_time" val="2000" />
+		<set name="reuse_delay" val="8000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="element" val="unholy" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DRAIN" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="absorbPart" val="0.4" />
+	</skill>
+	<skill id="716" levels="4" name="Zaken Hold">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Закен: Удержание" />
+		<table name="#mp_consume2">60 65 69 72</table>
+		<table name="#magic_level">65 70 75 80</table>
+		<table name="#abnormal_lv">1 1 1 1 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="root_magically"/>
+		<set name="icon" val="icon.skill_transform_debuff" />
+		<set name="skill_cool_time" val="2000" />
+		<set name="reuse_delay" val="2000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="800" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="activate_rate" val="80" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="ROOT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="HOLD" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Root" stackOrder="1" stackType="root_magically" time="8" val="0" />
+		</for>
+	</skill>
+	<skill id="717" levels="4" name="Zaken Concentrated Attack">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Закен: Сосредоточенная Атака" />
+		<table name="#mp_consume2">60 65 69 72</table>
+		<table name="#magic_level">65 70 75 80</table>
+		<table name="#power">2751 3252 3752 4224</table>
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="skill_cool_time" val="900" />
+		<set name="reuse_delay" val="3000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="50" />
+		<set name="skill_hit_time" val="2100" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="overHit" val="true" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="718" levels="4" name="Zaken Dancing Sword">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Закен: Танцующий Меч" />
+		<table name="#mp_consume2">60 65 69 72</table>
+		<table name="#magic_level">65 70 75 80</table>
+		<table name="#power">1651 1951 2251 2534</table>
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="skill_cool_time" val="1500" />
+		<set name="reuse_delay" val="15000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="overHit" val="true" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="719" levels="1" name="Zaken Vampiric Rage">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Закен: Ярость Вампира" />
+		<table name="#abnormal_lv">4 </table>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="vampiric_attack"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_buff" />
+		<set name="reuse_delay" val="2000" />
+		<set name="magic_level" val="65" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="12" />
+		<set name="mp_consume2" val="48" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="4" stackType="vampiric_attack" time="1200" val="0">
+				<add order="0x40" stat="absorbDam" val="9" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="720" levels="2" name="Anakim Holy Light Burst">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Анаким: Взрыв Священного Света" />
+		<table name="#mp_consume2">69 72</table>
+		<table name="#magic_level">75 80</table>
+		<table name="#power">3189 3590</table>
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="skill_cool_time" val="720" />
+		<set name="reuse_delay" val="2000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1080" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="overHit" val="true" />
+		<set name="elementPower" val="20" />
+		<set name="element" val="holy" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="nextAction" val="attack" />
+	</skill>
+	<skill id="721" levels="2" name="Anakim Energy Attack">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Анаким: Энергетическая Атака" />
+		<table name="#mp_consume2">69 72</table>
+		<table name="#magic_level">75 80</table>
+		<table name="#power">186 197</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="reuse_delay" val="2000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="700" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="200" />
+		<set name="elementPower" val="20" />
+		<set name="element" val="holy" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="722" levels="2" name="Anakim Holy Beam">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Анаким: Священный Луч" />
+		<table name="#mp_consume2">69 72</table>
+		<table name="#magic_level">75 80</table>
+		<table name="#power">186 197</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="reuse_delay" val="3000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="700" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="200" />
+		<set name="elementPower" val="20" />
+		<set name="element" val="holy" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="723" levels="1" name="Anakim Sunshine">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Анаким: Солнечный Свет" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_etc" />
+		<set name="reuse_delay" val="3000" />
+		<set name="power" val="1340" />
+		<set name="magic_level" val="75" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="200" />
+		<set name="mp_consume1" val="5" />
+		<set name="mp_consume2" val="20" />
+		<set name="effect_point" val="1340" />
+		<set name="target_type" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="HEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="724" levels="1" name="Anakim Clans">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Анаким: Искупление" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_etc" />
+		<set name="reuse_delay" val="8000" />
+		<set name="magic_level" val="75" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="5" />
+		<set name="mp_consume2" val="20" />
+		<set name="effect_point" val="1340" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="DispelEffects" time="0" val="0">
+				<def name="dispelType" val="cleanse" />
+				<def name="cancelRate" val="100" />
+				<def name="negateCount" val="10" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="725" levels="2" name="Venom Power Smash">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Веном: Мощный Удар" />
+		<table name="#magic_level">75 80</table>
+		<table name="#power">2626 2957</table>
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="skill_cool_time" val="660" />
+		<set name="reuse_delay" val="2000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="830" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="88" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="overHit" val="true" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="nextAction" val="attack" />
+	</skill>
+	<skill id="726" levels="2" name="Venom Sonic Storm">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Веном: Звуковой Шторм" />
+		<table name="#magic_level">75 80</table>
+		<table name="#power">2626 2957</table>
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="reuse_delay" val="5000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="500" />
+		<set name="skill_hit_time" val="1900" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="88" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="727" levels="1" name="Venom Disillusion">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Веном: Прозрение" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="pa_up"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="reuse_delay" val="2000" />
+		<set name="magic_level" val="75" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="7" />
+		<set name="mp_consume2" val="28" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="pa_up" time="1200" val="0">
+				<mul order="0x30" stat="pAtk" val="1.08" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="728" levels="1" name="Gordon Beast Attack">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Гордон: Звериная Атака" />
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="skill_cool_time" val="660" />
+		<set name="reuse_delay" val="5000" />
+		<set name="power" val="2957" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="830" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="88" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="overHit" val="true" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="729" levels="1" name="Gordon Sword Stab">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Гордон: Укол Мечом" />
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="reuse_delay" val="5000" />
+		<set name="power" val="2957" />
+		<set name="magic_level" val="80" />
+		<set name="cast_range" val="500" />
+		<set name="skill_hit_time" val="1900" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="88" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="overHit" val="true" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="730" levels="1" name="Gordon Press">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Гордон: Сжатие" />
+		<table name="#abnormal_lv">3 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="attack_time_up"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="magicType" val="MAGIC" />
+		<set name="affect_limit" val="10;10" />
+		<set name="icon" val="icon.skill_transform_debuff" />
+		<set name="reuse_delay" val="2000" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="22" />
+		<set name="mp_consume2" val="87" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Buff" time="30" stackOrder="3" stackType="attack_time_up" val="0">
+				<mul order="0x30" stat="runSpd" val="0.7" />
+				<mul order="0x30" stat="pAtkSpd" val="0.7" />
+				<mul order="0x30" stat="mAtkSpd" val="0.7" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="731" levels="1" name="Ranku Dark Explosion">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Ранку: Темный Взрыв" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="reuse_delay" val="15000" />
+		<set name="power" val="162" />
+		<set name="magic_level" val="80" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="3300" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="112" />
+		<set name="element" val="unholy" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="732" levels="1" name="Ranku Stun Attack">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Ранку: Оглушающая Атака" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="9"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="stun"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="icon" val="icon.skill_transform_debuff" />
+		<set name="skill_cool_time" val="720" />
+		<set name="reuse_delay" val="3000" />
+		<set name="power" val="1" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="1080" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="19" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="overHit" val="true" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="activate_rate" val="50" />
+		<set name="trait" val="SHOCK" />
+		<set name="basic_property" val="CON" />
+		<set name="nextAction" val="attack" />
+		<for>
+			<effect count="1" name="Stun" stackOrder="1" stackType="stun" time="9" val="0" />
+		</for>
+	</skill>
+	<skill id="733" levels="1" name="Kechi Double Cutter">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Кечи: Двойной Резак" />
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="skill_cool_time" val="660" />
+		<set name="reuse_delay" val="2000" />
+		<set name="power" val="2957" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="830" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="88" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="overHit" val="true" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="734" levels="1" name="Kechi Air Blade">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Кечи: Летучий Клинок" />
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="reuse_delay" val="3000" />
+		<set name="power" val="1812" />
+		<set name="magic_level" val="80" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="1900" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="56" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="overHit" val="true" />
+		<set name="criticalRate" val="10" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="735" levels="1" name="Devil Spinning Weapon">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Принц Дьяволов: Вращение Оружием" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="reuse_delay" val="11000" />
+		<set name="power" val="162" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="3300" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="22" />
+		<set name="mp_consume2" val="87" />
+		<set name="element" val="unholy" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="736" levels="1" name="Devil Seed">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Принц Дьяволов: Семя" />
+		<table name="#abnormal_lv">9 </table>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="dark_seed"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_debuff" />
+		<set name="skill_cool_time" val="800" />
+		<set name="reuse_delay" val="2000" />
+		<set name="magic_level" val="80" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="3300" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="82" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="element" val="unholy" />
+		<set name="skillType" val="POISON" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="BLEED" />
+		<set name="basic_property" val="CON" />
+		<for>
+			<effect abnormal="poison" count="10" name="Poison" stackOrder="9" stackType="dark_seed" time="3" val="0" />
+		</for>
+	</skill>
+	<skill id="737" levels="1" name="Devil Ultimate Defense">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Принц Дьяволов: Абсолютная Защита" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="pd_up_special"/>
+		<set name="icon" val="icon.skill_transform_buff" />
+		<set name="reuse_delay" val="900000" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="10" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect abnormal="invul1" count="1" name="Immobilize" stackOrder="1" stackType="pd_up_special" time="30" val="0">
+				<add order="0x40" stat="pDef" val="3600" />
+				<add order="0x40" stat="mDef" val="2700" />
+				<add order="0x40" stat="cancelResist" val="80" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="738" levels="3" name="Heretic Heal">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Еретик: Лечение" />
+		<table name="#effect_point">655 675 695</table>
+		<table name="#magic_level">70 73 76</table>
+		<table name="#power">892 926 956</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_etc" />
+		<set name="reuse_delay" val="1000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="5000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="12" />
+		<set name="mp_consume2" val="48" />
+		<set name="effect_point" val="#effect_point" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="HEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="739" levels="3" name="Heretic Battle Heal">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Еретик: Боевое Лечение" />
+		<table name="#effect_point">241 261 271</table>
+		<table name="#mp_consume2">136 142 146</table>
+		<table name="#mp_consume1">34 36 37</table>
+		<table name="#magic_level">70 73 76</table>
+		<table name="#power">743 772 796</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_etc" />
+		<set name="reuse_delay" val="1000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="effect_point" val="#effect_point" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="HEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="740" levels="3" name="Heretic Resurrection">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Еретик: Воскрешение" />
+		<table name="#effect_point">542 595 624</table>
+		<table name="#mp_consume2">182 189 195</table>
+		<table name="#mp_consume1">46 48 49</table>
+		<table name="#magic_level">70 73 76</table>
+		<table name="#power">50 55 60</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_etc" />
+		<set name="reuse_delay" val="30000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="6000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="effect_point" val="#effect_point" />
+		<set name="target_type" val="TARGET_CORPSE_PLAYER" />
+		<set name="corpse" val="true" />
+		<set name="skillType" val="RESURRECT" />
+		<set name="canPet" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="741" levels="3" name="Heretic Heal Side Effect">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Еретик: Побочный Эффект Лечения" />
+		<table name="#mp_consume2">52 54 56</table>
+		<table name="#mp_consume1">13 14 14</table>
+		<table name="#magic_level">70 73 76</table>
+		<table name="#abnormal_lv">8 8 8 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="poison"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_debuff" />
+		<set name="reuse_delay" val="3000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="activate_rate" val="80" />
+		<set name="target_type" val="TARGET_ONE"/>
+		<set name="skillType" val="DEBUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="trait" val="POISON" />
+		<set name="basic_property" val="CON" />
+		<for>
+			<effect abnormal="poison" count="5" name="Poison" stackOrder="8" stackType="poison" time="6" val="52" />
+		</for>
+	</skill>
+	<skill id="742" levels="3" name="Vale Master Bursting Flame">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Мастер Долин: Ревущее Пламя" />
+		<table name="#mp_consume2">68 70 73</table>
+		<table name="#mp_consume1">17 18 19</table>
+		<table name="#magic_level">70 73 76</table>
+		<table name="#power">112 117 122</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="reuse_delay" val="2000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="element" val="unholy" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="743" levels="3" name="Vale Master Dark Explosion">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Мастер Долин: Темный Взрыв" />
+		<table name="#mp_consume2">68 70 73</table>
+		<table name="#mp_consume1">17 18 19</table>
+		<table name="#magic_level">70 73 76</table>
+		<table name="#power">56 59 61</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="affect_limit" val="5;12" />
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="reuse_delay" val="4000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="500" />
+		<set name="skill_hit_time" val="1800" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="200" />
+		<set name="element" val="unholy" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="744" levels="3" name="Vale Master Dark Flare">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Мастер Долин: Сверкание Тьмы" />
+		<table name="#mp_consume2">68 70 73</table>
+		<table name="#mp_consume1">17 18 19</table>
+		<table name="#magic_level">70 73 76</table>
+		<table name="#power">112 117 122</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="affect_limit" val="5;12" />
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="reuse_delay" val="5000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1800" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="element" val="unholy" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="745" levels="3" name="Vale Master Dark Cure">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Мастер Долин: Темное Лечение" />
+		<table name="#mp_consume2">21 22 23</table>
+		<table name="#magic_level">70 73 76</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_etc" />
+		<set name="reuse_delay" val="8000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="6" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="DispelEffects" time="0" val="0">
+				<def name="dispelType" val="cleanse" />
+				<def name="cancelRate" val="100" />
+				<def name="negateCount" val="10" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="746" levels="3" name="Saber Tooth Tiger Bite">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Саблезубый Тигр: Укус Тигра" />
+		<table name="#magic_level">70 73 76</table>
+		<table name="#power">895 978 1059</table>
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="skill_cool_time" val="660" />
+		<set name="reuse_delay" val="3000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="830" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="88" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="overHit" val="true" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="nextAction" val="attack" />
+	</skill>
+	<skill id="747" levels="3" name="Saber Tooth Tiger Fear">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Саблезубый Тигр: Страх" />
+		<table name="#mp_consume2">150 156 160</table>
+		<table name="#magic_level">70 73 76</table>
+		<table name="#power">895 978 1059</table>
+		<table name="#abnormal_lv">1 1 1 </table>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="turn_flee"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="affect_limit" val="6;12" />
+		<set name="icon" val="icon.skill_transform_debuff" />
+		<set name="reuse_delay" val="15000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="activate_rate" val="35" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="overHit" val="true" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="DERANGEMENT" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="2" name="Fear" stackOrder="1"  stackType="turn_flee" time="5" val="0" />
+		</for>
+	</skill>
+	<skill id="748" levels="1" name="Saber Tooth Tiger Sprint">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Саблезубый Тигр: Тигриный Рывок" />
+		<table name="#abnormal_lv">2 </table>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="speed_up"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_buff" />
+		<set name="reuse_delay" val="3000" />
+		<set name="magic_level" val="70" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="5" />
+		<set name="mp_consume2" val="19" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="2" stackType="speed_up" time="1200" val="0">
+				<add order="0x40" stat="runSpd" val="33" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="749" levels="3" name="Oel Mahum Stun Attack">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Сфинкс: Оглушающая Атака" />
+		<table name="#mp_consume2">68 71 73</table>
+		<table name="#magic_level">70 73 76</table>
+		<table name="#power">895 978 1059</table>
+		<table name="#abnormal_lv">1 1 1 </table>
+		<set name="abnormal_time" val="9"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="stun"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="icon" val="icon.skill_transform_debuff" />
+		<set name="skill_cool_time" val="720" />
+		<set name="reuse_delay" val="3000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1080" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="activate_rate" val="50" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="overHit" val="true" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="SHOCK" />
+		<set name="basic_property" val="CON" />
+		<set name="nextAction" val="attack" />
+		<for>
+			<effect count="1" name="Stun" stackOrder="1" stackType="stun" time="9" val="0"/>
+		</for>
+	</skill>
+	<skill id="750" levels="1" name="Oel Mahum Ultimate Defense">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Сфинкс: Абсолютная Защита" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="pd_up_special"/>
+		<set name="icon" val="icon.skill_transform_buff" />
+		<set name="reuse_delay" val="900000" />
+		<set name="magic_level" val="70" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="10" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect abnormal="invul1" count="1" name="Immobilize" stackOrder="1" stackType="pd_up_special" time="30" val="0">
+				<add order="0x40" stat="pDef" val="3600" />
+				<add order="0x40" stat="mDef" val="2700" />
+				<add order="0x40" stat="cancelResist" val="80" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="751" levels="3" name="Oel Mahum Arm Flourish">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Сфинкс: Цветущее Оружие" />
+		<table name="#mp_consume2">71 74 77</table>
+		<table name="#magic_level">70 73 76</table>
+		<table name="#power">1073 1173 1271</table>
+		<set name="affect_limit" val="5;12" />
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="skill_cool_time" val="720" />
+		<set name="reuse_delay" val="4000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1080" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="PDAM" />
+		<set name="overHit" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="nextAction" val="attack" />
+	</skill>
+	<skill id="752" levels="3" name="Doll Blader Sting">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Мстительная Кукла: Жало" />
+		<table name="#mp_consume2">71 74 77</table>
+		<table name="#magic_level">70 73 76</table>
+		<table name="#power">1193 1303 1412</table>
+		<table name="#abnormal_lv">3 3 3 </table>
+		<set name="abnormal_time" val="20"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="bleeding"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="icon" val="icon.skill_transform_debuff" />
+		<set name="skill_cool_time" val="720" />
+		<set name="reuse_delay" val="3000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1080" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="overHit" val="true" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="BLEED" />
+		<set name="basic_property" val="CON" />
+		<set name="nextAction" val="attack" />
+		<for>
+			<effect abnormal="bleeding" count="5" name="Bleed" stackType="bleeding" stackOrder="3" time="4" val="134" />
+		</for>
+	</skill>
+	<skill id="753" levels="3" name="Doll Blader Throwing Knife">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Мстительная Кукла: Метательный Нож" />
+		<table name="#mp_consume2">142 148 153</table>
+		<table name="#magic_level">70 73 76</table>
+		<table name="#power">4769 5211 5645</table>
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="skill_cool_time" val="800" />
+		<set name="reuse_delay" val="6000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="700" />
+		<set name="skill_hit_time" val="3200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="blow" val="true" />
+		<set name="overHit" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="nextAction" val="attack" />
+	</skill>
+	<skill id="754" levels="1" name="Doll Blader Clairvoyance">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Мстительная Кукла: Ясновидение" />
+		<table name="#abnormal_lv">3 </table>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="critical_prob_up"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill_transform_buff" />
+		<set name="reuse_delay" val="2000" />
+		<set name="magic_level" val="70" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="13" />
+		<set name="mp_consume2" val="52" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="3" stackType="critical_prob_up" time="1200" val="0">
+				<mul order="0x30" stat="baseCrit" val="1.3" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="755" levels="1" name="Protection of Rune">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Защита Рун" />
+		<set name="icon" val="icon.skill0755" />
+		<set name="magic_level" val="81" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<triggers>
+			<trigger id="5556" level="1" type="RECEIVE_DAMAGE" chance="20">
+				<player damage="300;0" />
+			</trigger>
+		</triggers>
+		<for>
+			<mul order="0x30" stat="mDef" val="1.15" />
+		</for>
+	</skill>
+	<skill id="756" levels="1" name="Protection of Elemental">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Защита Стихий" />
+		<set name="icon" val="icon.skill0756" />
+		<set name="magic_level" val="81" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<triggers>
+			<trigger id="5556" level="1" type="RECEIVE_DAMAGE" chance="20">
+				<player damage="100;0" />
+			</trigger>
+		</triggers>
+		<for>
+			<add order="0x40" stat="defenceFire" val="20" />
+			<add order="0x40" stat="defenceWater" val="20" />
+			<add order="0x40" stat="defenceWind" val="20" />
+			<add order="0x40" stat="defenceEarth" val="20" />
+		</for>
+	</skill>
+	<skill id="757" levels="1" name="Protection of Alignment">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Защита Равновесия" />
+		<set name="icon" val="icon.skill0757" />
+		<set name="magic_level" val="81" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<triggers>
+			<trigger id="5556" level="1" type="RECEIVE_DAMAGE" chance="20">
+				<player damage="100;0" />
+			</trigger>
+		</triggers>
+		<for>
+			<add order="0x40" stat="defenceUnholy" val="20" />
+			<add order="0x40" stat="defenceHoly" val="20" />
+		</for>
+	</skill>
+	<skill id="758" levels="1" name="Fighter's Will">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Воля Воина" />
+		<set name="icon" val="icon.skill0758" />
+		<set name="magic_level" val="81" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<triggers>
+			<trigger id="5559" level="1" type="ATTACK" chance="3">
+				<using kind="Sword, Blunt, Dagger, Big Blunt, Pole, Fist, Dual Sword, Dual Fist, Big Sword, Rapier, Ancient Sword, Dual Dagger" />
+			</trigger>
+		</triggers>
+		<for>
+			<add order="0x60" stat="pAtk" val="100">
+				<using kind="Sword, Blunt, Dagger, Big Blunt, Pole, Fist, Dual Sword, Dual Fist, Big Sword, Rapier, Ancient Sword, Dual Dagger" />
+			</add>
+			<mul order="0x50" stat="pAtkSpd" val="1.1">
+				<using kind="Sword, Blunt, Dagger, Big Blunt, Pole, Fist, Dual Sword, Dual Fist, Big Sword, Rapier, Ancient Sword, Dual Dagger" />
+			</mul>
+		</for>
+	</skill>
+	<skill id="759" levels="1" name="Archer's Will">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Воля Стрелка" />
+		<set name="icon" val="icon.skill0759" />
+		<set name="magic_level" val="81" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<triggers>
+			<trigger id="5559" level="1" type="ATTACK" chance="3">
+				<using kind="Bow, Crossbow" />
+			</trigger>
+		</triggers>
+		<for>
+			<add order="0x10" stat="pAtkRange" val="50">
+				<using kind="Bow, Crossbow" />
+			</add>
+			<add order="0x40" stat="accCombat" val="8">
+				<using kind="Bow, Crossbow" />
+			</add>
+		</for>
+	</skill>
+	<skill id="760" levels="1" name="Anti Magic Armor">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Броня Антимагии" />
+		<table name="#abnormal_lv">2 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="pd_up_special"/>
+		<set name="icon" val="icon.skill0760" />
+		<set name="reuse_delay" val="900000" />
+		<set name="magic_level" val="81" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="21" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect abnormal="invul1" count="1" name="Buff" time="30" stackOrder="1" stackType="pd_up_special" val="0">
+				<add order="0x60" stat="mDef" val="5000" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="761" levels="1" name="Seed of Revenge">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Семя Возмездия" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="60"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="seed_of_knight"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0761" />
+		<set name="reuse_delay" val="15000" />
+		<set name="magic_level" val="81" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="8" />
+		<set name="mp_consume2" val="29" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" time="60" stackOrder="1" stackType="seed_of_knight" val="0">
+				<add order="0x60" stat="pAtk" val="100" />
+				<triggers>
+					<trigger id="5561" level="1" type="RECEIVE_DAMAGE" chance="8">
+						<player damage="1;0" />
+					</trigger>
+				</triggers>
+			</effect>
+		</for>
+	</skill>
+	<skill id="762" levels="1" name="Insane Crusher">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Безумный Сокрушитель" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="60"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="touch_of_death"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="affect_limit" val="5;12" />
+		<set name="icon" val="icon.skill0762" />
+		<set name="skill_cool_time" val="700" />
+		<set name="reuse_delay" val="10000" />
+		<set name="power" val="6468" />
+		<set name="magic_level" val="81" />
+		<set name="skill_hit_time" val="1300" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="80" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="PDAM" />
+		<set name="overHit" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="shieldignore" val="true" />
+		<set name="criticalRate" val="50" />
+		<set name="trait" val="DEATH" />
+		<set name="basic_property" val="CON" />
+		<set name="negateSkill" val="5561" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasBuffId="5561;3" />
+				<using kind="Sword,Blunt,Big Sword,Big Blunt" />
+			</and>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" time="120" stackOrder="1" stackType="touch_of_death" val="0">
+				<sub order="0x40" stat="debuffResist" val="30" />
+				<sub order="0x40" stat="hpEff" val="30" />
+				<mul order="0x30" stat="maxCp" val="0.1" />
+			</effect>
+			<effect count="1" name="DispelEffects" time="0" val="0" isReflectable="false">
+				<def name="dispelType" val="cancellation" />
+				<def name="cancelRate" val="25" />
+				<def name="negateCount" val="5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="763" levels="1" name="Hell Scream">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Крик Ада" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="8"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="turn_flee"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="affect_limit" val="10;10" />
+		<set name="icon" val="icon.skill0763" />
+		<set name="reuse_delay" val="75000" />
+		<set name="magic_level" val="81" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="87" />
+		<set name="activate_rate" val="80" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="magic_level" val="81" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="skillRadius" val="200" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="DERANGEMENT" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="2" name="Fear" stackOrder="1"  stackType="turn_flee" time="4" val="0">
+				<mul order="0x30" stat="pDef" val="0.7" />
+				<mul order="0x30" stat="mDef" val="0.7" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="764" levels="1" name="Song of Wind Storm">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Песня Штормового Ветра" />
+		<table name="#abnormal_time">120</table>
+		<table name="#mp_consume2">60</table>
+		<table name="#magic_level">76</table>
+		<table name="#abnormal_time">120</table>
+		<table name="#abnormal_timeEnch">128 136 144 152 160 168 176 184 192 200 208 216 224 232 240 </table>
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="#abnormal_time"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="song_of_windstorm"/>
+		<set name="magicType" val="MUSIC" />
+		<set name="icon" val="icon.skill0764" />
+		<set name="reuse_delay" val="3000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="effect_point" val="655" />
+		<set name="target_type" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<enchant1 levels="15" name="Time">
+			<table name="#abnormal_time">128 136 144 152 160 168 176 184 192 200 208 216 224 232 240</table>
+			<table name="#magic_level">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+		</enchant1>
+		<enchant1 levels="15" name="Cost">
+			<table name="#magic_level">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+		</enchant1>
+		<for>
+			<effect count="1" name="Buff" time="#abnormal_time" stackOrder="1" stackType="song_of_windstorm" val="0">
+				<mul order="0x40" stat="bowWpnVuln" val="0.9" />
+				<mul order="0x40" stat="crossbowWpnVuln" val="0.95" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="765" levels="1" name="Dance of Blade Storm">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Танец Шторма Клинков" />
+		<table name="#abnormal_time">15</table>
+		<table name="#mp_consume2">60</table>
+		<table name="#magic_level">76</table>
+		<table name="#abnormal_time">15</table>
+		<table name="#abnormal_timeEnch">18 21 24 27 30 33 36 39 42 45 48 51 54 57 60 </table>
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="#abnormal_time"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="dance_of_bladestorm"/>
+		<set name="magicType" val="MUSIC" />
+		<set name="icon" val="icon.skill0765" />
+		<set name="reuse_delay" val="150000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="effect_point" val="655" />
+		<set name="weaponsAllowed" val="512" />
+		<set name="target_type" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<enchant1 levels="15" name="Time">
+			<table name="#abnormal_time">18 21 24 27 30 33 36 39 42 45 48 51 54 57 60</table>
+			<table name="#magic_level">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+		</enchant1>
+		<enchant1 levels="15" name="Cost">
+			<table name="#magic_level">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+		</enchant1>
+		<for>
+			<effect count="1" name="Buff" time="#abnormal_time" stackOrder="1" stackType="dance_of_bladestorm" val="0">
+				<sub order="0x40" stat="bowWpnVuln" val="45" />
+				<sub order="0x40" stat="crossbowWpnVuln" val="25" />
+				<mul order="0x30" stat="mAtk" val="0.01" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="766" levels="1" name="Sixth Sense">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Шестое Чувство" />
+		<table name="#final">15</table>
+		<set name="icon" val="icon.skill0766" />
+		<set name="magic_level" val="81" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="rEvas" val="#final">
+				<player percentHP="30" />
+			</add>
+		</for>
+	</skill>
+	<skill id="767" levels="1" name="Expose Weak Point">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Найти Слабое Место" />
+		<set name="icon" val="icon.skill0767" />
+		<set name="magic_level" val="81" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<triggers>
+			<trigger id="5565" level="1" type="RECEIVE_DAMAGE" chance="5">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="768" levels="1" name="Exciting Adventure">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Потрясающее Приключение" />
+		<table name="#abnormal_lv">2 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="avoid_up_special"/>
+		<set name="icon" val="icon.skill0768" />
+		<set name="reuse_delay" val="900000" />
+		<set name="magic_level" val="81" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="36" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect abnormal="invul1" name="Buff" count="1" time="30" val="0" stackOrder="2" stackType="avoid_up_special">
+				<add order="0x40" stat="rEvas" val="15" />
+				<add order="0x40" stat="runSpd" val="20" />
+				<mul order="0x30" stat="blowRate" val="1.3" />
+				<add order="0x40" stat="pSkillEvasion" val="40" />
+				<add order="0x40" stat="cancelResist" val="90" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="769" levels="1" name="Wind Riding">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Оседлать Ветер" />
+		<table name="#abnormal_lv">2 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="avoid_up_special"/>
+		<set name="icon" val="icon.skill0769" />
+		<set name="reuse_delay" val="900000" />
+		<set name="magic_level" val="81" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="36" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect abnormal="invul1" name="Buff" count="1" time="30" val="0" stackOrder="2" stackType="avoid_up_special">
+				<add order="0x40" stat="rEvas" val="20" />
+				<add order="0x40" stat="runSpd" val="50" />
+				<mul order="0x30" stat="blowRate" val="1.2" />
+				<add order="0x40" stat="pSkillEvasion" val="75" />
+				<add order="0x40" stat="cancelResist" val="80" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="770" levels="1" name="Ghost Walking">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Походка Призрака" />
+		<table name="#abnormal_lv">2 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="avoid_up_special"/>
+		<set name="icon" val="icon.skill0770" />
+		<set name="reuse_delay" val="900000" />
+		<set name="magic_level" val="81" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="36" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect abnormal="invul1" name="Buff" count="1" time="30" val="0" stackOrder="2" stackType="avoid_up_special">
+				<add order="0x40" stat="rEvas" val="15" />
+				<add order="0x40" stat="runSpd" val="33" />
+				<mul order="0x30" stat="blowRate" val="1.4" />
+				<add order="0x40" stat="pSkillEvasion" val="60" />
+				<add order="0x40" stat="cancelResist" val="90" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="771" levels="1" name="Flame Hawk">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Пламенный Ястреб" />
+		<set name="affect_limit" val="5;12" />
+		<set name="icon" val="icon.skill0771" />
+		<set name="skill_cool_time" val="1000" />
+		<set name="reuse_delay" val="75000" />
+		<set name="power" val="5750" />
+		<set name="magic_level" val="81" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="3500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="160" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="200" />
+		<set name="cast_range" val="900" />
+		<set name="overHit" val="true" />
+		<set name="criticalRate" val="15" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="113" addName="1">
+			<using kind="Bow" />
+		</cond>
+	</skill>
+	<skill id="772" levels="1" name="Arrow Rain">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Дождь Стрел" />
+		<set name="affect_limit" val="5;12" />
+		<set name="icon" val="icon.skill0772" />
+		<set name="skill_cool_time" val="1000" />
+		<set name="reuse_delay" val="75000" />
+		<set name="power" val="7043" />
+		<set name="magic_level" val="81" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="160" />
+		<set name="weaponsAllowed" val="32" />
+		<set name="effect_point" val="655" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="200" />
+		<set name="overHit" val="true" />
+		<set name="criticalRate" val="15" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="113" addName="1">
+			<using kind="Bow" />
+		</cond>
+	</skill>
+	<skill id="773" levels="1" name="Ghost Piercing">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Призрачное Пробивание" />
+		<set name="affect_limit" val="5;12" />
+		<set name="icon" val="icon.skill0773" />
+		<set name="skill_cool_time" val="1000" />
+		<set name="reuse_delay" val="75000" />
+		<set name="power" val="8452" />
+		<set name="magic_level" val="81" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="160" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="200" />
+		<set name="cast_range" val="900" />
+		<set name="overHit" val="true" />
+		<set name="criticalRate" val="15" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="113" addName="1">
+			<using kind="Bow" />
+		</cond>
+	</skill>
+	<skill id="774" levels="1" name="Dread Pool">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Прилив Ужаса" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="8"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="turn_flee"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="affect_limit" val="10;10" />
+		<set name="icon" val="icon.skill0774" />
+		<set name="reuse_delay" val="75000" />
+		<set name="magic_level" val="81" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="87" />
+		<set name="activate_rate" val="70" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="DERANGEMENT" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="2" name="Fear" stackOrder="1"  stackType="turn_flee" time="4" val="0">
+				<mul order="0x50" stat="runSpd" val="0.67" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="775" levels="1" name="Weapon Blockade">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Блокада Оружия" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="5"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="disarm"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="icon" val="icon.skill0775" />
+		<set name="reuse_delay" val="15000" />
+		<set name="magic_level" val="81" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="58" />
+		<set name="activate_rate" val="70" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="num_charges" val="2" />
+		<set name="charge_skill_id" val="8" />
+		<set name="basic_property" val="STR" />
+		<cond msgId="113" addName="1">
+			<using kind="Dual Sword" />
+		</cond>
+		<for>
+			<effect abnormal="bleeding" count="1" name="Disarm" stackOrder="1" stackType="disarm"  time="5" val="0">
+				<mul order="0x90" stat="pAtk" val="0.6" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="776" levels="1" name="Force of Destruction">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Сила Разрушения" />
+		<table name="#abnormal_lv">10 </table>
+		<set name="abnormal_time" val="20"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="force_of_destruction"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="icon" val="icon.skill0776" />
+		<set name="reuse_delay" val="15000" />
+		<set name="power" val="2516" />
+		<set name="magic_level" val="81" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="37" />
+		<set name="activate_rate" val="70" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="overHit" val="true" />
+		<set name="cast_range" val="40" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="criticalRate" val="5" />
+		<set name="chargeBoost" val="true" />
+		<set name="num_charges" val="2" />
+		<set name="charge_skill_id" val="50" />
+		<set name="basic_property" val="CON" />
+		<cond msgId="113" addName="1">
+			<using kind="Fist, Dual Fist" />
+		</cond>
+		<for>
+			<effect abnormal="bleeding" count="5" name="Bleed" stackType="bleeding" stackOrder="10" time="4" val="0" />
+		</for>
+	</skill>
+	<skill id="777" levels="1" name="Demolition Impact">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Удар Низвержения" />
+		<set name="affect_limit" val="5;12" />
+		<set name="icon" val="icon.skill0777" />
+		<set name="reuse_delay" val="75000" />
+		<set name="power" val="5750" />
+		<set name="magic_level" val="81" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="160" />
+		<set name="target_type" val="TARGET_MULTIFACE" />
+		<set name="skillRadius" val="200" />
+		<set name="overHit" val="true" />
+		<set name="criticalRate" val="10" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="cast_range" val="40" />
+		<set name="effectRange" val="150" />
+		<cond msgId="113" addName="1">
+			<using kind="Big Sword, Big Blunt" />
+		</cond>
+	</skill>
+	<skill id="778" levels="1" name="Golem Armor">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Броня Голема" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="transform"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0778" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="mp_consume2" val="44" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="TRANSFORMATION" />
+		<set name="static_reuse_time" val="true" />
+		<set name="addSkills" val="806;1;807;1;808;1;809;1;619;1;5491;1" />
+		<set name="npcId" val="13119" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Transformation" time="300" val="259">
+				<add order="0x40" stat="runSpd" val="11" />
+				<mul order="0x30" stat="maxHp" val="1.10" />
+				<mul order="0x30" stat="maxMp" val="1.10" />
+				<mul order="0x30" stat="maxCp" val="0.72" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="779" levels="1" name="Summon Smart Cubic">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Призвать Умный Куб" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0779" />
+		<set name="reuse_delay" val="5000" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="6000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="15" />
+		<set name="mp_consume2" val="58" />
+		<set name="itemConsumeId" val="1461" />
+		<set name="itemConsumeCount" val="2" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="cancelable" val="false" />
+		<cond>
+			<and>
+				<pts can_summon_cubic="10"/>
+			</and>
+		</cond>
+		<for>
+			<effect count="1" name="i_summon_cubic">
+				<def name="argument" val="10;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="780" levels="1" name="Summon Smart Cubic">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Призвать Умный Куб" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0779" />
+		<set name="reuse_delay" val="5000" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="6000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="15" />
+		<set name="mp_consume2" val="58" />
+		<set name="itemConsumeId" val="1461" />
+		<set name="itemConsumeCount" val="2" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="cancelable" val="false" />
+		<cond>
+			<and>
+				<pts can_summon_cubic="11"/>
+			</and>
+		</cond>
+		<for>
+			<effect count="1" name="i_summon_cubic">
+				<def name="argument" val="11;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="781" levels="1" name="Summon Smart Cubic">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Призвать Умный Куб" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0779" />
+		<set name="reuse_delay" val="5000" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="6000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="15" />
+		<set name="mp_consume2" val="58" />
+		<set name="itemConsumeId" val="1461" />
+		<set name="itemConsumeCount" val="2" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="cancelable" val="false" />
+		<cond>
+			<and>
+				<pts can_summon_cubic="12"/>
+			</and>
+		</cond>
+		<for>
+			<effect count="1" name="i_summon_cubic">
+				<def name="argument" val="12;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="782" levels="1" name="Summon Smart Cubic">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Призвать Умный Куб" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0779" />
+		<set name="reuse_delay" val="5000" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="6000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="15" />
+		<set name="mp_consume2" val="58" />
+		<set name="itemConsumeId" val="1461" />
+		<set name="itemConsumeCount" val="2" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="cancelable" val="false" />
+		<cond>
+			<and>
+				<pts can_summon_cubic="13"/>
+			</and>
+		</cond>
+		<for>
+			<effect count="1" name="i_summon_cubic">
+				<def name="argument" val="13;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="783" levels="1" name="Summon Smart Cubic">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Призвать Умный Куб" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0779" />
+		<set name="reuse_delay" val="5000" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="6000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="15" />
+		<set name="mp_consume2" val="58" />
+		<set name="itemConsumeId" val="1461" />
+		<set name="itemConsumeCount" val="2" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="cancelable" val="false" />
+		<cond>
+			<and>
+				<pts can_summon_cubic="14"/>
+			</and>
+		</cond>
+		<for>
+			<effect count="1" name="i_summon_cubic">
+				<def name="argument" val="14;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="784" levels="1" name="Spirit of Phoenix">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Дух Феникса" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="60"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="seed_of_knight"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0784" />
+		<set name="reuse_delay" val="15000" />
+		<set name="magic_level" val="81" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="8" />
+		<set name="mp_consume2" val="29" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" time="60" val="0" stackOrder="1" stackType="seed_of_knight">
+				<add order="0x60" stat="pDef" val="200" />
+				<triggers>
+					<trigger id="5562" level="1" type="RECEIVE_DAMAGE" chance="20">
+						<player damage="1;0" />
+					</trigger>
+				</triggers>
+			</effect>
+		</for>
+	</skill>
+	<skill id="785" levels="1" name="Flame Icon">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Образ Пламени" />
+		<table name="#abnormal_lv">3 </table>
+		<set name="abnormal_time" val="60"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="possession"/>
+		<set name="icon" val="icon.skill0785" />
+		<set name="reuse_delay" val="150000" />
+		<set name="magic_level" val="81" />
+		<set name="skill_hit_time" val="1800" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="hpConsume" val="1253" />
+		<set name="target_type" val="TARGET_PARTY" />
+		<set name="skillType" val="BUFF" />
+		<set name="skillRadius" val="1000" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="negateSkill" val="5562" />
+		<cond msgId="113" addName="1">
+			<target hasBuffId="5562;3" />
+		</cond>
+		<for>
+			<effect name="Buff" count="1" time="60" stackOrder="3" stackType="possession" val="0">
+				<add order="0x40" stat="runSpd" val="30" />
+				<add order="0x40" stat="debuffResist" val="40" />
+				<add order="0x40" stat="cancelResist" val="40" />
+				<add order="0x40" stat="accCombat" val="6" />
+				<add order="0x40" stat="rCrit" val="100">
+					<using kind="Sword, Big Sword" />
+				</add>
+				<mul order="0x30" stat="mDef" val="1.5" />
+				<mul order="0x30" stat="pDef" val="1.5" />
+				<mul order="0x30" stat="hpEff" val="0.2" />
+				<mul order="0x30" stat="pAtkSpd" val="1.3" />
+				<mul order="0x30" stat="cAtk" val="2">
+					<using kind="Blunt, Big Blunt" />
+				</mul>
+			</effect>
+		</for>
+	</skill>
+	<skill id="786" levels="1" name="Eva's Will">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Воля Евы" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="60"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="seed_of_knight"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0786" />
+		<set name="reuse_delay" val="15000" />
+		<set name="magic_level" val="81" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="8" />
+		<set name="mp_consume2" val="29" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" time="60" val="0" stackOrder="1" stackType="seed_of_knight">
+				<triggers>
+					<trigger id="5563" level="1" type="RECEIVE_DAMAGE" chance="20">
+						<player damage="1;0" />
+					</trigger>
+				</triggers>
+			</effect>
+		</for>
+	</skill>
+	<skill id="787" levels="1" name="Touch of Eva">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Прикосновение Евы" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="60"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="touch_of_life"/>
+		<set name="icon" val="icon.skill0787" />
+		<set name="reuse_delay" val="150000" />
+		<set name="power" val="50" />
+		<set name="magic_level" val="81" />
+		<set name="skill_hit_time" val="1800" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="hpConsume" val="1253" />
+		<set name="target_type" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="HEAL_PERCENT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="negateSkill" val="5563" />
+		<cond msgId="113" addName="1">
+			<target hasBuffId="5563;3" />
+		</cond>
+		<for>
+			<effect name="HealOverTime" time="1" count="60" val="50" stackType="touch_of_life" stackOrder="1">
+				<mul order="0x30" stat="hpEff" val="1.3" />
+				<add order="0x40" stat="debuffResist" val="30" />
+				<add order="0x40" stat="cancelResist" val="100" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="788" levels="1" name="Pain of Shilen">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Боль Шилен" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="60"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="seed_of_knight"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0788" />
+		<set name="reuse_delay" val="15000" />
+		<set name="magic_level" val="81" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="8" />
+		<set name="mp_consume2" val="29" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" time="60" val="0" stackOrder="1" stackType="seed_of_knight">
+				<mul order="0x30" stat="cAtk" val="1.1" />
+				<triggers>
+					<trigger id="5564" level="1" type="RECEIVE_DAMAGE" chance="20">
+						<player damage="1;0" />
+					</trigger>
+				</triggers>
+			</effect>
+		</for>
+	</skill>
+	<skill id="789" levels="1" name="Spirit of Shilen">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Прикосновение Шилен" />
+		<table name="#abnormal_lv">3 </table>
+		<set name="abnormal_time" val="60"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="possession"/>
+		<set name="icon" val="icon.skill0789" />
+		<set name="reuse_delay" val="150000" />
+		<set name="magic_level" val="81" />
+		<set name="skill_hit_time" val="1800" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="hpConsume" val="1253" />
+		<set name="target_type" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skillType" val="BUFF" />
+		<set name="negateSkill" val="5564" />
+		<cond msgId="113" addName="1">
+			<target hasBuffId="5564;3" />
+		</cond>
+		<for>
+			<effect name="Buff" time="60" stackOrder="3" stackType="possession" count="1" val="0">
+				<mul order="0x30" stat="pAtk" val="1.3" />
+				<add order="0x40" stat="runSpd" val="30" />
+				<mul order="0x30" stat="pAtkSpd" val="1.3" />
+				<mul order="0x30" stat="mAtk" val="1.3" />
+				<add order="0x40" stat="baseCrit" val="100">
+					<using kind="Sword, Big Sword" />
+				</add>
+				<mul order="0x30" stat="cAtk" val="2">
+					<using kind="Blunt, Big Blunt" />
+				</mul>
+				<add order="0x40" stat="absorbDam" val="40" />
+				<mul order="0x30" stat="hpEff" val="0.2" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="790" levels="1" name="Wild Shot">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Дикий Выстрел" />
+		<set name="affect_limit" val="5;12" />
+		<set name="icon" val="icon.skill0790" />
+		<set name="skill_cool_time" val="1000" />
+		<set name="reuse_delay" val="75000" />
+		<set name="power" val="5750" />
+		<set name="magic_level" val="81" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="3500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="120" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="overHit" val="true" />
+		<set name="criticalRate" val="15" />
+		<set name="soulBoost" val="true" />
+		<cond msgId="113" addName="1">
+			<using kind="Crossbow" />
+		</cond>
+	</skill>
+	<skill id="791" levels="1" name="Lightning Shock">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Электрический Шок" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="9"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="paralyze"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="affect_limit" val="6;12" />
+		<set name="icon" val="icon.skill0791" />
+		<set name="skill_cool_time" val="720" />
+		<set name="reuse_delay" val="5000" />
+		<set name="power" val="1510" />
+		<set name="magic_level" val="81" />
+		<set name="skill_hit_time" val="1080" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="52" />
+		<set name="activate_rate" val="50" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="150" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="soulBoost" val="true" />
+		<set name="trait" val="PARALYZE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Paralyze" stackType="paralyze" time="9" val="0" />
+		</for>
+	</skill>
+	<skill id="792" levels="1" name="Betrayal Mark">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Метка Предателя" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="betrayal_mark"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0792" />
+		<set name="reuse_delay" val="11000" />
+		<set name="magic_level" val="78" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="8" />
+		<set name="mp_consume2" val="29" />
+		<set name="activate_rate" val="80" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isDebuff" val="true" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="basic_property" val="CON" />
+		<cond msgId="144">
+			<target pvp="true" />
+		</cond>
+		<for>
+			<effect count="1" name="Buff" time="60" stackOrder="1" stackType="betrayal_mark" val="0">
+				<triggers>
+					<trigger id="5600" level="1" type="RECEIVE_DAMAGE" chance="10">
+						<player damage="1;0" />
+					</trigger>
+				</triggers>
+			</effect>
+		</for>
+	</skill>
+	<skill id="793" levels="1" name="Rush Impact">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Стремительный Натиск" />
+		<table name="#powerPvP">0</table>
+		<table name="#activate_rate">60</table>
+		<table name="#elementPower">0</table>
+		<table name="#element">none</table>
+		<table name="#mp_consume1">83</table>
+		<table name="#magic_level">78</table>
+		<table name="#power">4040</table>
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="9"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="stun"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="affect_limit" val="5;12" />
+		<set name="icon" val="icon.skill0793" />
+		<set name="skill_cool_time" val="200" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="800" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="elementPower" val="#elementPower" />
+		<set name="element" val="#element" />
+		<set name="powerPvP" val="#powerPvP" />
+		<set name="activate_rate" val="#activate_rate" />
+		<set name="target_type" val="TARGET_TUNNEL" />
+		<set name="skillRadius" val="400" />
+		<set name="skillType" val="PDAM" />
+		<set name="flyType" val="CHARGE" />
+		<set name="flyRadius" val="600" />
+		<set name="flyToBack" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="soulBoost" val="true" />
+		<set name="isDebuff" val="true" />
+		<set name="trait" val="SHOCK" />
+		<set name="basic_property" val="CON" />
+		<set name="nextAction" val="attack" />
+		<cond msgId="113" addName="1">
+			<using kind="Ancient Sword" />
+		</cond>
+		<enchant1 levels="15" name="Power">
+			<table name="#power">4071 4102 4133 4164 4195 4226 4257 4289 4320 4351 4382 4413 4444 4475 4507</table>
+			<table name="#magic_level">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+		</enchant1>
+		<enchant2 levels="15" name="Cost">
+			<table name="#magic_level">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+			<table name="#mp_consume1">80 78 76 74 72 70 68 66 64 62 59 57 55 53 51</table>
+		</enchant2>
+		<enchant3 levels="15" name="Chance">
+			<table name="#activate_rate">61 62 64 65 66 68 69 70 72 73 74 76 77 78 80</table>
+			<table name="#magic_level">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+		</enchant3>
+		<enchant4 name="Fire Attack">
+			<table name="#element">fire</table>
+			<table name="#elementPower">2 4 6 8 10 12 14 16 18 20 22 24 26 28 30</table>
+			<table name="#magic_level">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+		</enchant4>
+		<enchant5 name="Water Attack">
+			<table name="#element">water</table>
+			<table name="#elementPower">2 4 6 8 10 12 14 16 18 20 22 24 26 28 30</table>
+			<table name="#magic_level">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+		</enchant5>
+		<enchant6 name="Wind Attack">
+			<table name="#element">wind</table>
+			<table name="#elementPower">2 4 6 8 10 12 14 16 18 20 22 24 26 28 30</table>
+			<table name="#magic_level">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+		</enchant6>
+		<enchant7 name="Earth Attack">
+			<table name="#element">earth</table>
+			<table name="#elementPower">2 4 6 8 10 12 14 16 18 20 22 24 26 28 30</table>
+			<table name="#magic_level">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+		</enchant7>
+		<enchant8 name="Duel">
+			<table name="#powerPvP">4104 4168 4232 4297 4361 4425 4490 4554 4618 4683 4747 4811 4875 4940 5004</table>
+			<table name="#magic_level">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+		</enchant8>
+		<for>
+			<effect count="1" name="Stun" stackOrder="1" stackType="stun" time="9" val="0" />
+		</for>
+	</skill>
+	<skill id="794" levels="1" name="Mass Disarm">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Массовое Разоружение" />
+		<table name="#activate_rate">70</table>
+		<table name="#magic_level">79</table>
+		<table name="#reuse_delay">150000</table>
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="5"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="disarm"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="affect_limit" val="6;12" />
+		<set name="icon" val="icon.skill0794" />
+		<set name="reuse_delay" val="#reuse_delay" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="58" />
+		<set name="activate_rate" val="#activate_rate" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="STR" />
+		<enchant1 levels="15" name="Chance">
+			<table name="#activate_rate">71 72 73 74 75 76 77 78 79 80 81 82 83 84 85</table>
+			<table name="#magic_level">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+		</enchant1>
+		<enchant2 levels="15" name="Recycle">
+			<table name="#reuse_delay">145000 140000 135000 130000 125000 120000 115000 110000 105000 100000 95000 90000 85000 80000 75000</table>
+			<table name="#magic_level">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+		</enchant2>
+		<for>
+			<effect abnormal="bleeding" count="1" name="Disarm" stackOrder="1" stackType="disarm" time="5" val="0">
+				<mul order="0x90" stat="pAtk" val="0.6" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="795" levels="1" name="Divine Knight Brandish">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Божественный Рыцарь: Взмах" />
+		<table name="#effect_point">655</table>
+		<set name="affect_limit" val="5;12" />
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="skill_cool_time" val="660" />
+		<set name="reuse_delay" val="3000" />
+		<set name="power" val="2322" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="830" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="88" />
+		<set name="effect_point" val="#effect_point" />
+		<set name="target_type" val="TARGET_MULTIFACE_AURA" />
+		<set name="overHit" val="true" />
+		<set name="skillRadius" val="300" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="796" levels="1" name="Divine Knight Explosion Attack">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Божественный Рыцарь: Взрывная Атака" />
+		<table name="#effect_point">655</table>
+		<set name="affect_limit" val="5;12" />
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="skill_cool_time" val="660" />
+		<set name="reuse_delay" val="3000" />
+		<set name="power" val="1900" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="830" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="88" />
+		<set name="effect_point" val="#effect_point" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="797" levels="1" name="Divine Rogue Piercing Attack">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Божественный Разбойник: Проникающая Атака" />
+		<table name="#effect_point">655</table>
+		<set name="affect_limit" val="5;12" />
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="skill_cool_time" val="660" />
+		<set name="reuse_delay" val="3000" />
+		<set name="power" val="2111" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="830" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="88" />
+		<set name="effect_point" val="#effect_point" />
+		<set name="target_type" val="TARGET_MULTIFACE_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="overHit" val="true" />
+		<set name="behind" val="true" />
+	</skill>
+	<skill id="798" levels="1" name="Divine Warrior Assault Attack">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Божественный Воитель: Штурм" />
+		<table name="#effect_point">655</table>
+		<table name="#abnormal_lv">3 </table>
+		<set name="abnormal_time" val="20"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="poison"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="icon" val="icon.skill_transform_s_attack" />
+		<set name="skill_cool_time" val="720" />
+		<set name="reuse_delay" val="3000" />
+		<set name="power" val="1689" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="1080" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="80" />
+		<set name="effect_point" val="#effect_point" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="activate_rate" val="70" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="POISON" />
+		<set name="basic_property" val="CON" />
+		<set name="nextAction" val="attack" />
+		<for>
+			<effect abnormal="poison" count="5" name="Poison" stackOrder="3" stackType="poison" time="4" val="69" />
+		</for>
+	</skill>
+	<skill id="799" levels="3" name="Master Ability - Defense">
+		<!-- Done by JunkyFunky http://LII MultVerso.ru -->
+		<set name="name-ru" val="Выдающаяся Способность - Защита" />
+		<table name="#pDefHeavy">59.5 119 178.5</table>
+		<table name="#pDefLight">44.625 89.25 133.875</table>
+		<table name="#pDefMagic">29.75 59.5 89.25</table>
+		<set name="icon" val="icon.skill0142" />
+		<set name="magic_level" val="75" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="pDef" val="#pDefHeavy">
+				<using kind="Heavy" />
+			</add>
+			<add order="0x40" stat="pDef" val="#pDefLight">
+				<using kind="Light" />
+			</add>
+			<add order="0x40" stat="pDef" val="#pDefMagic">
+				<using kind="Magic" />
+			</add>
+		</for>
+	</skill>
+</list>

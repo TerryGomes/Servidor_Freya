@@ -1,0 +1,1865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="3200" levels="3" name="Item Skill: Spell Refresh">
+		<set name="name-ru" val="Предметное Умение: Возобновление Заклинаний" />
+		<table name="#mReuseRate">0.85 0.85 0.85</table>
+		<table name="#mp_consume2">43 49 55</table>
+		<table name="#mp_consume1">11 13 14</table>
+		<table name="#magic_level">55 64 75</table>
+		<table name="#abnormal_lv">1 1 1 </table>
+		<set name="abnormal_time" val="60"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="abnormal_item"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill3123" />
+		<set name="reuse_delay" val="600000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<for>
+			<effect count="1" name="Buff" time="60" val="0" stackOrder="1" stackType="abnormal_item">
+				<mul order="0x30" stat="mReuse" val="#mReuseRate" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3201" levels="3" name="Item Skill: Music Refresh">
+		<set name="name-ru" val="Предметное Умение: Возобновление Музыки" />
+		<table name="#musicReuseRate">0.85 0.85 0.85</table>
+		<table name="#mp_consume2">43 49 55</table>
+		<table name="#mp_consume1">11 13 14</table>
+		<table name="#magic_level">55 64 75</table>
+		<table name="#abnormal_lv">1 1 1 </table>
+		<set name="abnormal_time" val="60"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="abnormal_item"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill3123" />
+		<set name="reuse_delay" val="600000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" time="60" val="0" stackOrder="1" stackType="abnormal_item">
+				<mul order="0x30" stat="musicReuse" val="#musicReuseRate" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3202" levels="3" name="Item Skill: Refresh">
+		<set name="name-ru" val="Предметное Умение: Возобновление" />
+		<table name="#mp_consume2">43 49 55</table>
+		<table name="#mp_consume1">11 13 14</table>
+		<table name="#magic_level">55 64 75</table>
+		<table name="#abnormal_lv">1 1 1 </table>
+		<set name="abnormal_time" val="60"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="abnormal_item"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill3123" />
+		<set name="reuse_delay" val="600000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<for>
+			<effect count="1" name="Buff" time="60" val="0" stackOrder="1" stackType="abnormal_item">
+				<mul order="0x30" stat="mReuse" val="0.85" />
+				<mul order="0x30" stat="pReuse" val="0.85" />
+				<mul order="0x30" stat="musicReuse" val="0.85" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3203" levels="1" name="Item Skill: Mystery Skill">
+		<set name="name-ru" val="Предметное Умение: Загадочное Умение" />
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_type" val="abnormal_item"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill3123" />
+		<set name="reuse_delay" val="1800000" />
+		<set name="magic_level" val="1" />
+		<set name="mp_consume2" val="10" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="trait" val="ETC" />
+		<for>
+			<effect abnormal="bighead" count="1" name="Buff" stackOrder="0" stackType="abnormal_item" time="300" val="0" />
+		</for>
+	</skill>
+	<skill id="3204" levels="3" name="Item Skill: Reflect Damage">
+		<set name="name-ru" val="Предметное Умение: Отражение Урона" />
+		<table name="#abnormal_lv">1 2 3</table>
+		<table name="#reflectDam">5 10 15</table>
+		<table name="#mp_consume2">20 24 28</table>
+		<table name="#mp_consume1">5 6 7</table>
+		<table name="#magic_level">55 64 75</table>
+		<table name="#abnormal_lv">1 2 3 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="abnormal_item"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill3123" />
+		<set name="reuse_delay" val="6000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="abnormal_item" time="300" val="0">
+				<add order="0x60" stat="reflectDam" val="#reflectDam" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3205" levels="2" name="Item Skill: Party Recall">
+		<set name="name-ru" val="Предметное Умение: Возвращение Группы" />
+		<table name="#mp_consume2">171 244</table>
+		<table name="#mp_consume1">43 61</table>
+		<table name="#skill_hit_time">20000 3500</table>
+		<table name="#magic_level">48 56</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill3123" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="#skill_hit_time" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_PARTY" />
+		<set name="skillRadius" val="1000" />
+		<set name="skillType" val="RECALL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="3206" levels="10" name="Item Skill: Music">
+		<set name="name-ru" val="Предметное Умение: Музыка" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill3123" />
+		<set name="reuse_delay" val="12000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="HARDCODED" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="3207" levels="10" name="Item Skill: Heal">
+		<set name="name-ru" val="Предметное Умение: Исцеление" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5146" level="#level" type="RECEIVE_DAMAGE" chance="2">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3208" levels="10" name="Item Skill: Blessed Body">
+		<set name="name-ru" val="Предметное Умение: Благословение Тела" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5147" level="#level" type="RECEIVE_DAMAGE" chance="1">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3209" levels="10" name="Item Skill: Prayer">
+		<set name="name-ru" val="Предметное Умение: Молитва" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5148" level="#level" type="RECEIVE_DAMAGE" chance="1">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3210" levels="10" name="Item Skill: Recharge">
+		<set name="name-ru" val="Предметное Умение: Перезарядка" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5149" level="#level" type="RECEIVE_DAMAGE" chance="1">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3211" levels="10" name="Item Skill: Blessed Soul">
+		<set name="name-ru" val="Предметное Умение: Благословение Духа" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5150" level="#level" type="RECEIVE_DAMAGE" chance="1">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3212" levels="10" name="Item Skill: Mana Gain">
+		<set name="name-ru" val="Предметное Умение: Прирост Маны" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5151" level="#level" type="RECEIVE_DAMAGE" chance="1">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3213" levels="10" name="Item Skill: Ritual">
+		<set name="name-ru" val="Предметное Умение: Ритуал" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5152" level="#level" type="RECEIVE_DAMAGE" chance="2">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3214" levels="10" name="Item Skill: Cheer">
+		<set name="name-ru" val="Предметное Умение: Радость" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5153" level="#level" type="RECEIVE_DAMAGE" chance="1">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3215" levels="10" name="Item Skill: Might">
+		<set name="name-ru" val="Предметное Умение: Могущество" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5154" level="#level" type="RECEIVE_DAMAGE" chance="1">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3216" levels="10" name="Item Skill: Empower">
+		<set name="name-ru" val="Предметное Умение: Воодушевление" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5156" level="#level" type="RECEIVE_DAMAGE" chance="1">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3217" levels="10" name="Item Skill: Duel Might">
+		<set name="name-ru" val="Предметное Умение: Могущество в Дуэли" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5157" level="#level" type="RECEIVE_DAMAGE" chance="1">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3218" levels="10" name="Item Skill: Shield">
+		<set name="name-ru" val="Предметное Умение: Щит" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5158" level="#level" type="RECEIVE_DAMAGE" chance="1">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3219" levels="10" name="Item Skill: Magic Barrier">
+		<set name="name-ru" val="Предметное Умение: Магический Барьер" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5159" level="#level" type="RECEIVE_DAMAGE" chance="1">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3220" levels="10" name="Item Skill: Duel Weakness">
+		<set name="name-ru" val="Предметное Умение: Слабость в Дуэли" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5160" level="#level" type="RECEIVE_DAMAGE" chance="1">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3221" levels="10" name="Item Skill: Agility">
+		<set name="name-ru" val="Предметное Умение: Подвижность" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5161" level="#level" type="RECEIVE_DAMAGE" chance="1">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3222" levels="10" name="Item Skill: Guidance">
+		<set name="name-ru" val="Предметное Умение: Наведение" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5162" level="#level" type="RECEIVE_DAMAGE" chance="1">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3223" levels="10" name="Item Skill: Focus">
+		<set name="name-ru" val="Предметное Умение: Фокусировка" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5163" level="#level" type="RECEIVE_DAMAGE" chance="1">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3224" levels="10" name="Item Skill: Wild Magic">
+		<set name="name-ru" val="Предметное Умение: Дикая Магия" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5164" level="#level" type="RECEIVE_DAMAGE" chance="1">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3225" levels="10" name="Item Skill: Charm">
+		<set name="name-ru" val="Предметное Умение: Чары" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5165" level="#level" type="RECEIVE_DAMAGE" chance="1">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3226" levels="10" name="Item Skill: Slow">
+		<set name="name-ru" val="Предметное Умение: Замедление" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5166" level="#level" type="RECEIVE_DAMAGE" chance="2">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3227" levels="10" name="Item Skill: Winter">
+		<set name="name-ru" val="Предметное Умение: Зима" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5167" level="#level" type="RECEIVE_DAMAGE" chance="4">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3228" levels="10" name="Item Skill: Stun">
+		<set name="name-ru" val="Предметное Умение: Оглушение" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5168" level="#level" type="RECEIVE_DAMAGE" chance="4">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3229" levels="10" name="Item Skill: Hold">
+		<set name="name-ru" val="Предметное Умение: Обездвиживание" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5169" level="#level" type="RECEIVE_DAMAGE" chance="4">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3230" levels="10" name="Item Skill: Sleep">
+		<set name="name-ru" val="Предметное Умение: Усыпление" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5170" level="#level" type="RECEIVE_DAMAGE" chance="4">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3231" levels="10" name="Item Skill: Paralyze">
+		<set name="name-ru" val="Предметное Умение: Паралич" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5171" level="#level" type="RECEIVE_DAMAGE" chance="4">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3232" levels="10" name="Item Skill: Medusa">
+		<set name="name-ru" val="Предметное Умение: Медуза" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5172" level="#level" type="RECEIVE_DAMAGE" chance="4">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3233" levels="10" name="Item Skill: Fear">
+		<set name="name-ru" val="Предметное Умение: Страх" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5173" level="#level" type="RECEIVE_DAMAGE" chance="4">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3234" levels="10" name="Item Skill: Poison">
+		<set name="name-ru" val="Предметное Умение: Яд" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5174" level="#level" type="RECEIVE_DAMAGE" chance="4">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3235" levels="10" name="Item Skill: Bleed">
+		<set name="name-ru" val="Предметное Умение: Кровопускание" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5175" level="#level" type="RECEIVE_DAMAGE" chance="4">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3236" levels="10" name="Item Skill: Silence">
+		<set name="name-ru" val="Предметное Умение: Безмолвие" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5176" level="#level" type="RECEIVE_DAMAGE" chance="4">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3237" levels="10" name="Item Skill: Doom">
+		<set name="name-ru" val="Предметное Умение: Судьба" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<table name="#level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" val="icon.skill3080" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<triggers>
+			<trigger id="5177" level="#level" type="RECEIVE_DAMAGE" chance="4">
+				<player damage="1;0" />
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="3238" levels="10" name="Item Skill: Prayer">
+		<set name="name-ru" val="Предметное Умение: Молитва" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="hpEff" val="1.01" />
+		</for>
+	</skill>
+	<skill id="3239" levels="10" name="Item Skill: Mana Gain">
+		<set name="name-ru" val="Предметное Умение: Прирост Маны" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="mpEff" val="1.01" />
+		</for>
+	</skill>
+	<skill id="3240" levels="10" name="Item Skill: Might">
+		<set name="name-ru" val="Предметное Умение: Могущество" />
+		<table name="#val">10 11 12 13 14 15 16 17 18 18</table>
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="pAtk" val="#val" />
+		</for>
+	</skill>
+	<skill id="3241" levels="10" name="Item Skill: Empower">
+		<set name="name-ru" val="Предметное Умение: Воодушевление" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="mAtk" val="55" />
+		</for>
+	</skill>
+	<skill id="3243" levels="10" name="Item Skill: Duel Might">
+		<set name="name-ru" val="Предметное Умение: Могущество в Дуэли" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="pvpPhysSkillDmgBonus" val="1.05" />
+			<mul order="0x30" stat="pvpPhysDmgBonus" val="1.05" />
+		</for>
+	</skill>
+	<skill id="3244" levels="10" name="Item Skill: Shield">
+		<set name="name-ru" val="Предметное Умение: Щит" />
+		<table name="#val">12.78 13.73 14.14 15.13 16.46 17.43 17.69 18.63 19.77 20.3</table>
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="pDef" val="#val" />
+		</for>
+	</skill>
+	<skill id="3245" levels="10" name="Item Skill: Magic Barrier">
+		<set name="name-ru" val="Предметное Умение: Магический Барьер" />
+		<table name="#val">10.8 11.62 11.96 12.66 13.01 13.08 14 14.99 15.88 16.32</table>
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="mDef" val="#val" />
+		</for>
+	</skill>
+	<skill id="3246" levels="10" name="Item Skill: Heal Empower">
+		<set name="name-ru" val="Предметное Умение: Исцеляющее Благо" />
+		<table name="#val">10 11 12 13 14 16 17 18 19 20</table>
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="healPower" val="#val" />
+		</for>
+	</skill>
+	<skill id="3247" levels="10" name="Item Skill: Agility">
+		<set name="name-ru" val="Предметное Умение: Подвижность" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="rEvas" val="2" />
+		</for>
+	</skill>
+	<skill id="3248" levels="10" name="Item Skill: Guidance">
+		<set name="name-ru" val="Предметное Умение: Наведение" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="accCombat" val="2" />
+		</for>
+	</skill>
+	<skill id="3249" levels="10" name="Item Skill: Focus">
+		<set name="name-ru" val="Предметное Умение: Фокусировка" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="baseCrit" val="1.2" />
+		</for>
+	</skill>
+	<skill id="3250" levels="10" name="Item Skill: Wild Magic">
+		<set name="name-ru" val="Предметное Умение: Дикая Магия" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="mCritRate" val="4" />
+		</for>
+	</skill>
+	<skill id="3251" levels="10" name="Item Skill: Weight Limit">
+		<set name="name-ru" val="Предметное Умение: Лимит Веса" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="maxLoad" val="2" />
+		</for>
+	</skill>
+	<skill id="3252" levels="10" name="Item Skill: Kiss of Eva">
+		<set name="name-ru" val="Предметное Умение: Поцелуй Евы" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="breath" val="6" />
+		</for>
+	</skill>
+	<skill id="3253" levels="10" name="Item Skill: Acrobatics">
+		<set name="name-ru" val="Предметное Умение: Акробатика" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="fall" val="0.6" />
+		</for>
+	</skill>
+	<skill id="3254" levels="10" name="Item Skill: Iron Body">
+		<set name="name-ru" val="Предметное Умение: Железное Тело" />
+		<table name="#magic_level">46 49 52 55 58 61 64 67 70 75</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="fall" val="0.6" />
+		</for>
+	</skill>
+	<skill id="3255" levels="3" name="Item Skill: Skill Clarity">
+		<set name="name-ru" val="Предметное Умение: Чистота Умений" />
+		<table name="#mpConsumeRate">0.96 0.93 0.9</table>
+		<table name="#magic_level">55 64 75</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="mpConsumePhysical" val="#mpConsumeRate" />
+		</for>
+	</skill>
+	<skill id="3256" levels="3" name="Item Skill: Spell Clarity">
+		<set name="name-ru" val="Предметное Умение: Чистота Заклинаний" />
+		<table name="#mpConsumeRate">0.9 0.85 0.8</table>
+		<table name="#magic_level">55 64 75</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="mpConsum" val="#mpConsumeRate" />
+		</for>
+	</skill>
+	<skill id="3257" levels="3" name="Item Skill: Music Clarity">
+		<set name="name-ru" val="Предметное Умение: Чистота Музыки" />
+		<table name="#mpConsume">0.96 0.93 0.9</table>
+		<table name="#magic_level">55 64 75</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="mpDanceConsume" val="#mpConsume" />
+		</for>
+	</skill>
+	<skill id="3258" levels="3" name="Item Skill: Clarity">
+		<set name="name-ru" val="Предметное Умение: Чистота" />
+		<table name="#mpConsumeRate">0.96 0.93 0.9</table>
+		<table name="#mpConsumeMagic">0.9 0.85 0.8</table>
+		<table name="#magic_level">55 64 75</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="mpConsum" val="#mpConsumeMagic" />
+			<mul order="0x30" stat="mpConsumePhysical" val="#mpConsumeRate" />
+			<mul order="0x30" stat="mpDanceConsume" val="0.9" />
+		</for>
+	</skill>
+	<skill id="3259" levels="3" name="Item Skill: Reflect Damage">
+		<set name="name-ru" val="Предметное Умение: Отражение Урона" />
+		<table name="#magic_level">55 64 75</table>
+		<table name="#power">10 15 20</table>
+		<set name="icon" val="icon.skill3238" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="reflectDam" val="#power" />
+		</for>
+	</skill>
+	<skill id="3260" levels="1" name="Forgiveness">
+		<set name="name-ru" val="Прощение" />
+		<!--	Description:	Sends mutated animals a Heart with love.	Этим скилом можно стрелять только в эвентовых поросей, нанося по	100 дамага за обычный выстрел и 200 или 300 при крите.	Этот скилл дается при одетом Redemption Bow (id: 9141)	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill3260" />
+		<set name="skill_cool_time" val="800" />
+		<set name="reuse_delay" val="3000" />
+		<set name="power" val="100" />
+		<set name="magic_level" val="1" />
+		<set name="cast_range" val="500" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="1" />
+		<set name="weaponsAllowed" val="32" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+	</skill>
+	<skill id="3261" levels="1" name="Forgiveness">
+		<set name="name-ru" val="Прощение" />
+		<!--	Description:	Taps into the magic of the bow to fire a harmless bolt.  Warning: If you use this skill against a monster, it will flag you for PvP.	Этим скилом можно стрелять в чаров и мобов, эффекта никакого нету.	При стрельбе в мобов, чар флагается.	Этот скилл дается при одетом Salvation Bow (id: 9140)	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill3260" />
+		<set name="skill_cool_time" val="800" />
+		<set name="reuse_delay" val="3000" />
+		<set name="magic_level" val="1" />
+		<set name="cast_range" val="500" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="1" />
+		<set name="weaponsAllowed" val="32" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<for>
+			<effect count="1" name="Buff" time="1" val="0" />
+		</for>
+	</skill>
+	<skill id="3262" levels="1" name="Pardon">
+		<set name="name-ru" val="Прощение" />
+		<!--	Description:	Taps into the magic of the bow to fire two curse-removing bolts.  There is a low chance that a targeted huge cursed pig will transform into a super huge cursed pig.	Этим скилом можно стрелять только в эвентовых поросей, нанося по	100 дамага за обычный выстрел и 200 или 300 при крите.	Этот скилл дается при одетом Redemption Bow (id: 9141)	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill3260" />
+		<set name="skill_cool_time" val="800" />
+		<set name="reuse_delay" val="40000" />
+		<set name="power" val="100" />
+		<set name="magic_level" val="1" />
+		<set name="cast_range" val="500" />
+		<set name="skill_hit_time" val="3200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="1" />
+		<set name="weaponsAllowed" val="32" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+	</skill>
+	<skill id="3263" levels="1" name="Blessed Resurrection">
+		<set name="name-ru" val="Благословенное Воскрешение" />
+		<!--	Description: Allows the use of Blessed Resurrection.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="1800000" />
+		<set name="power" val="100" />
+		<set name="magic_level" val="1" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="effect_point" val="624" />
+		<set name="target_type" val="TARGET_CORPSE_PLAYER" />
+		<set name="corpse" val="true" />
+		<set name="skillType" val="RESURRECT" />
+		<set name="useSS" val="false" />
+		<set name="canPet" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="3264" levels="1" name="Blessed Escape">
+		<set name="name-ru" val="Благословенное Бегство" />
+		<!--	Description: Allows the use of Blessed Escape.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="1800000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="200" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="RECALL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="3265" levels="1" name="Mysterious Ability">
+		<set name="name-ru" val="Загадочное Умение" />
+		<!--	Description: Active: Increases your head size.	-->
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_type" val="big_head"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="1800000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="trait" val="ETC" />
+		<for>
+			<effect abnormal="bighead" count="1" name="Buff" stackOrder="0" stackType="big_head" time="600" val="0" />
+		</for>
+	</skill>
+	<skill id="3266" levels="1" name="Large Fireworks Ability">
+		<set name="name-ru" val="Большой Фейерверк" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="300000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="HOT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+	</skill>
+	<skill id="3267" levels="1" name="Dismiss Agathion">
+		<set name="name-ru" val="Отпустить Агатиона" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_unsummon_aga_agit_i01" />
+		<set name="magic_level" val="65" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_unsummon_agathion" time="0"/>
+		</for>
+	</skill>
+	<skill id="3268" levels="1" name="Summon Agathion - Castle">
+		<set name="name-ru" val="Призвать Агатиона - Замок" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="75" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="1;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3269" levels="1" name="Summon Agathion - Rainbow Clan Hall">
+		<set name="name-ru" val="Призвать Агатиона - Радужный Холл Клана" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="65" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="2;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3270" levels="1" name="Summon Agathion - Beast Farm">
+		<set name="name-ru" val="Призвать Агатиона - Ферма Животных" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="65" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="3;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3271" levels="1" name="Blue Talisman of Power">
+		<set name="name-ru" val="Синий Талисман Силы" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="reuse_delay" val="360000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="9914" />
+		<set name="referenceItemMpConsume" val="6" />
+		<for>
+			<effect count="1" name="Buff" time="120" stackOrder="1" stackType="talisman" val="0">
+				<add order="0x60" stat="pAtk" val="50" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3272" levels="1" name="Blue Talisman of Defense">
+		<set name="name-ru" val="Синий Талисман Обороны" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="reuse_delay" val="360000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="9926" />
+		<set name="referenceItemMpConsume" val="6" />
+		<for>
+			<effect count="1" name="Buff" time="120" stackOrder="1" stackType="talisman" val="0">
+				<add order="0x60" stat="pDef" val="50" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3273" levels="1" name="Red Talisman of Recovery">
+		<set name="name-ru" val="Красный Талисман Восстановления" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i00" />
+		<set name="reuse_delay" val="300000" />
+		<set name="power" val="200" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="COMBATPOINTHEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="9925" />
+		<set name="referenceItemMpConsume" val="5" />
+		<for>
+			<effect count="1" name="Heal" time="0" val="200" />
+		</for>
+	</skill>
+	<skill id="3274" levels="1" name="Blue Talisman of Protection">
+		<set name="name-ru" val="Синий Талисман Защиты" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="reuse_delay" val="360000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="9921" />
+		<set name="referenceItemMpConsume" val="6" />
+		<for>
+			<effect count="1" name="Buff" time="120" stackOrder="1" stackType="talisman" val="0">
+				<add order="0x60" stat="sDef" val="100" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3275" levels="1" name="Blue Talisman of Protection">
+		<set name="name-ru" val="Синий Талисман Защиты" />
+		<!--	Description: Increase Shield P. Def rate with power of Talisman.	-->
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="reuse_delay" val="360000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="9929" />
+		<set name="referenceItemMpConsume" val="6" />
+		<for>
+			<effect count="1" name="Buff" time="120" stackOrder="1" stackType="talisman" val="0">
+				<mul order="0x30" stat="rShld" val="1.1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3276" levels="1" name="Blue Talisman - Magic Resistance">
+		<set name="name-ru" val="Синий Талисман Магической Защиты" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="reuse_delay" val="360000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="9927" />
+		<set name="referenceItemMpConsume" val="6" />
+		<for>
+			<effect count="1" name="Buff" time="120" stackOrder="1" stackType="talisman" val="0">
+				<add order="0x60" stat="mDef" val="100" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3277" levels="1" name="Blue Talisman of Wild Magic">
+		<set name="name-ru" val="Синий Талисман Дикой Магии" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="reuse_delay" val="360000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="9915" />
+		<set name="referenceItemMpConsume" val="6" />
+		<for>
+			<effect count="1" name="Buff" time="120" stackOrder="1" stackType="talisman" val="0">
+				<add order="0x60" stat="mCritRate" val="1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3278" levels="1" name="Red Talisman of Mental Regeneration">
+		<set name="name-ru" val="Красный Талисман Ментальной Регенерации" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i00" />
+		<set name="reuse_delay" val="360000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="9928" />
+		<set name="referenceItemMpConsume" val="6" />
+		<for>
+			<effect count="1" name="Buff" time="120" stackOrder="1" stackType="talisman" val="1">
+				<add order="0x60" stat="regMp" val="1.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3279" levels="1" name="Red Talisman of Meditation">
+		<set name="name-ru" val="Красный Талисман Медитации" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i00" />
+		<set name="reuse_delay" val="900000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="9931" />
+		<set name="referenceItemMpConsume" val="15" />
+		<for>
+			<effect count="1" name="Meditation" stackOrder="1" stackType="talisman" time="30" val="0">
+				<mul order="0x30" stat="pDef" val="0.1" />
+			</effect>
+			<effect count="6" name="ManaHealOverTime" time="5" val="27" />
+		</for>
+	</skill>
+	<skill id="3280" levels="1" name="Blue Talisman of Invisibility">
+		<set name="name-ru" val="Синий Талисман Невидимости" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="reuse_delay" val="240000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="9920" />
+		<set name="referenceItemMpConsume" val="3" />
+		<for>
+			<effect count="1" name="SilentMove" stackOrder="1" stackType="talisman" time="120" val="1">
+				<mul order="0x30" stat="runSpd" val="0.7" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3281" levels="1" name="Red Talisman of Minimum Clarity">
+		<set name="name-ru" val="Красный Талисман Минимальной Прозрачности" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i00" />
+		<set name="reuse_delay" val="360000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="9917" />
+		<set name="referenceItemMpConsume" val="6" />
+		<for>
+			<effect count="1" name="Buff" time="300" stackOrder="1" stackType="talisman" val="0">
+				<mul order="0x30" stat="mpConsum" val="0.96" />
+				<mul order="0x30" stat="mpConsumePhysical" val="0.9" />
+				<mul order="0x30" stat="mpDanceConsume" val="0.9" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3282" levels="1" name="Red Talisman of Maximum Clarity">
+		<set name="name-ru" val="Красный Талисман Максимальной Прозрачности" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="90"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i00" />
+		<set name="reuse_delay" val="900000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="9918" />
+		<set name="referenceItemMpConsume" val="15" />
+		<for>
+			<effect count="1" name="Buff" time="90" stackOrder="1" stackType="talisman" val="0">
+				<mul order="0x30" stat="mpConsum" val="0" />
+				<mul order="0x30" stat="mpConsumePhysical" val="0" />
+				<mul order="0x30" stat="mpDanceConsume" val="0" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3283" levels="1" name="Blue Talisman of Healing">
+		<set name="name-ru" val="Синий Талисман Исцеления" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="reuse_delay" val="300000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="9924" />
+		<set name="referenceItemMpConsume" val="5" />
+		<for>
+			<effect count="1" name="Buff" time="120" stackOrder="1" stackType="talisman" val="0">
+				<add order="0x60" stat="healPower" val="30" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3284" levels="1" name="Blue Talisman - Divine Protection">
+		<set name="name-ru" val="Синий Талисман Неуязвимости" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="reuse_delay" val="900000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="9932" />
+		<set name="referenceItemMpConsume" val="15" />
+		<for>
+			<effect count="1" name="Buff" time="10" stackOrder="1" stackType="talisman" val="0">
+				<add order="0x60" stat="pDef" val="3600" />
+				<add order="0x60" stat="mDef" val="2700" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3285" levels="1" name="Blue Talisman of Defense">
+		<set name="name-ru" val="Синий Талисман Обороны" />
+		<!-- TODO: Пересмотреть -->
+		<table name="#mAtk">1.1</table>
+		<table name="#rate">1.05</table>
+		<table name="#pDef">0.95</table>
+		<table name="#mDef">0.90</table>
+		<table name="#runSpd">5</table>
+		<table name="#effect_point">331</table>
+		<table name="#abnormal_time">120</table>
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="reuse_delay" val="360000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="effect_point" val="#effect_point" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="9916" />
+		<set name="referenceItemMpConsume" val="6" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="talisman" time="#abnormal_time" val="0">
+				<mul order="0x30" stat="mAtk" val="#mAtk" />
+				<mul order="0x30" stat="pAtk" val="#rate" />
+				<mul order="0x30" stat="pDef" val="#pDef" />
+				<mul order="0x30" stat="mDef" val="#mDef" />
+				<mul order="0x30" stat="mAtkSpd" val="#rate" />
+				<mul order="0x30" stat="pAtkSpd" val="#rate" />
+				<add order="0x40" stat="runSpd" val="#runSpd" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="3286" levels="1" name="Black Talisman - Mending">
+		<set name="name-ru" val="Черный Талисман - Зашить Рану" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i05" />
+		<set name="reuse_delay" val="360000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="NEGATE_EFFECTS" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="negateStackType" val="bleeding:9" />
+		<set name="static_reuse_time" val="true" />
+		<set name="referenceItemId" val="9922" />
+		<set name="referenceItemMpConsume" val="6" />
+	</skill>
+	<skill id="3287" levels="1" name="Black Talisman of Physical Freedom">
+		<set name="name-ru" val="Черный Талисман Физической Свободы" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i05" />
+		<set name="reuse_delay" val="360000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="skillType" val="NEGATE_EFFECTS" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="static_reuse_time" val="true" />
+		<set name="negateStackType" val="root_physically:9" />
+		<set name="referenceItemId" val="9957" />
+		<set name="referenceItemMpConsume" val="6" />
+	</skill>
+	<skill id="3288" levels="1" name="Black Talisman of Arcane Freedom">
+		<set name="name-ru" val="Черный Талисман Магической Свободы" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i05" />
+		<set name="reuse_delay" val="360000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="skillType" val="NEGATE_EFFECTS" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="static_reuse_time" val="true" />
+		<set name="negateStackType" val="root_magically:9" />
+		<set name="referenceItemId" val="9956" />
+		<set name="referenceItemMpConsume" val="6" />
+	</skill>
+	<skill id="3289" levels="1" name="Black Talisman - Escape">
+		<set name="name-ru" val="Черный Талисман - Бегство" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i05" />
+		<set name="reuse_delay" val="360000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="skillType" val="NEGATE_EFFECTS" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="static_reuse_time" val="true" />
+		<set name="negateStackType" val="root_physically:3;root_magically:3" />
+		<set name="onlyPhysical" val="false" />
+		<set name="referenceItemId" val="9923" />
+		<set name="referenceItemMpConsume" val="6" />
+	</skill>
+	<skill id="3290" levels="1" name="Black Talisman of Rescue">
+		<set name="name-ru" val="Черный Талисман Избавления" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i05" />
+		<set name="reuse_delay" val="360000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="skillType" val="NEGATE_EFFECTS" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="static_reuse_time" val="true" />
+		<set name="negateStackType" val="silence_physical:9" />
+		<set name="isNotAffectedByMute" val="true" />
+		<set name="referenceItemId" val="9958" />
+		<set name="referenceItemMpConsume" val="6" />
+	</skill>
+	<skill id="3291" levels="1" name="Black Talisman of Vocalization">
+		<set name="name-ru" val="Черный Талисман Голоса" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i05" />
+		<set name="reuse_delay" val="360000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="skillType" val="NEGATE_EFFECTS" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="static_reuse_time" val="true" />
+		<set name="negateStackType" val="silence:9" />
+		<set name="isNotAffectedByMute" val="true" />
+		<set name="referenceItemId" val="9955" />
+		<set name="referenceItemMpConsume" val="6" />
+	</skill>
+	<skill id="3292" levels="1" name="Black Talisman of Free Speech">
+		<set name="name-ru" val="Черный Талисман Свободной Речи" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_talisman_i05" />
+		<set name="reuse_delay" val="360000" />
+		<set name="magic_level" val="55" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="10" />
+		<set name="mp_consume2" val="40" />
+		<set name="skillType" val="NEGATE_EFFECTS" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="static_reuse_time" val="true" />
+		<set name="negateStackType" val="silence_all:9" />
+		<set name="isNotAffectedByMute" val="true" />
+		<set name="referenceItemId" val="9959" />
+		<set name="referenceItemMpConsume" val="6" />
+	</skill>
+	<skill id="3293" levels="1" name="Yellow Talisman of Power">
+		<set name="name-ru" val="Желтый Талисман Силы" />
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="pAtk" val="12" />
+		</for>
+	</skill>
+	<skill id="3294" levels="1" name="Yellow Talisman of Arcane Power">
+		<set name="name-ru" val="Желтый Талисман Мистической Силы" />
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="mAtk" val="12" />
+		</for>
+	</skill>
+	<skill id="3295" levels="1" name="Yellow Talisman of Defense">
+		<set name="name-ru" val="Желтый Талисман Обороны" />
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="pDef" val="19" />
+		</for>
+	</skill>
+	<skill id="3296" levels="1" name="Yellow Talisman - Magic Resistance">
+		<set name="name-ru" val="Желтый Талисман Мистической Защиты" />
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="mDef" val="27" />
+		</for>
+	</skill>
+	<skill id="3297" levels="1" name="Yellow Talisman of Accuracy">
+		<set name="name-ru" val="Желтый Талисман Точности" />
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x40" stat="accCombat" val="2.3" />
+		</for>
+	</skill>
+	<skill id="3298" levels="1" name="Yellow Talisman of Evasion">
+		<set name="name-ru" val="Желтый Талисман Уклонения" />
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x60" stat="rEvas" val="2" />
+		</for>
+	</skill>
+	<skill id="3299" levels="1" name="Yellow Talisman of Critical Power">
+		<set name="name-ru" val="Желтый Талисман Критической Силы" />
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="magic_level" val="55" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="cAtk" val="1.02" />
+		</for>
+	</skill>
+</list>

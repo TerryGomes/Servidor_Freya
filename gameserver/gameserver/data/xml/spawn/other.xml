@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="82168" y="148360" z="-3464" h="57343"/>
+		<!-- Гиран центр-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="81672" y="148360" z="-3464" h="40959"/>
+		<!-- Гиран центр-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="81672" y="148872" z="-3472" h="22517"/>
+		<!-- Гиран центр-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="82168" y="148856" z="-3464" h="8191"/>
+		<!-- Гиран центр-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="81672" y="147560" z="-3464" h="16383"/>
+		<!-- Гиран лестницы-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="81416" y="147560" z="-3464" h="32767"/>
+		<!-- Гиран лестницы-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="80808" y="148472" z="-3472" h="0"/>
+		<!-- Гиран лестницы-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="80808" y="148760" z="-3472" h="16962"/>
+		<!-- Гиран лестницы-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="81416" y="149688" z="-3464" h="49151"/>
+		<!-- Гиран лестницы-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="81656" y="149688" z="-3464" h="49151"/>
+		<!-- Гиран лестницы-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="81416" y="149688" z="-3464" h="49151"/>
+		<!-- Гиран лестницы-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="81656" y="149688" z="-3464" h="49151"/>
+		<!-- Гиран лестницы-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="147912" y="-57400" z="-2776" h="13028"/>
+		<!-- годарт лестницы-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="147512" y="-57384" z="-2776" h="13028"/>
+		<!-- годарт лестницы-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="149496" y="-56328" z="-2776" h="26056"/>
+		<!-- годарт лестницы-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="149256" y="-56664" z="-2776" h="24575"/>
+		<!-- годарт лестницы-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="146152" y="-56680" z="-2776" h="4836"/>
+		<!-- годарт лестницы-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="145928" y="-56328" z="-3776" h="6711"/>
+		<!-- годарт лестницы-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="14536" y="143128" z="-2656" h="32767"/>
+		<!-- дион-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="15640" y="144408" z="-3072" h="57343"/>
+		<!-- дион-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="18184" y="146152" z="-3080" h="57343"/>
+		<!-- дион-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="19368" y="145224" z="-3104" h="27131"/>
+		<!-- дион-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="20136" y="144792" z="-3104" h="23881"/>
+		<!-- дион-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="21240" y="143784" z="-3088" h="11547"/>
+		<!-- дион-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="21576" y="145640" z="-3144" h="8191"/>
+		<!-- дион-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="21576" y="146056" z="-3168" h="0"/>
+		<!-- дион-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="19768" y="145912" z="-3104" h="36123"/>
+		<!-- дион-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="18536" y="144376" z="-3094" h="43643"/>
+		<!-- дион-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="-86360" y="242376" z="-3728" h="39391"/>
+		<!-- деревня говорящего острова-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="-85080" y="242472" z="-3728" h="29412"/>
+		<!-- деревня говорящего острова-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="-85816" y="241736" z="-3728" h="3355"/>
+		<!-- деревня говорящего острова-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="-84680" y="241928" z="-3728" h="27931"/>
+		<!-- деревня говорящего острова-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="-83592" y="241976" z="-3728" h="51210"/>
+		<!-- деревня говорящего острова-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="-82408" y="243144" z="-3728" h="57343"/>
+		<!-- деревня говорящего острова-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="-82552" y="242168" z="-3728" h="4836"/>
+		<!-- деревня говорящего острова-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="-83064" y="244728" z="-3728" h="48112"/>
+		<!-- деревня говорящего острова-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="cities_tree">
+		<point x="-83992" y="244824" z="-3754" h="62180"/>
+		<!-- деревня говорящего острова-->
+		<npc id="36617"/>
+		<!--деревья в городах-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="147728" y="27408" z="-2198" h="16500"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="148560" y="-57952" z="-2974" h="53000"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="110592" y="220400" z="-3667" h="0"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="117200" y="75824" z="-2725" h="25000"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="116224" y="-181728" z="-1373" h="0"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="114880" y="-178144" z="-827" h="0"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="83076" y="147912" z="-3467" h="32000"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="81136" y="54576" z="-1517" h="32000"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="45472" y="49312" z="-3067" h="53000"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="47648" y="51296" z="-2989" h="38500"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="17956" y="170536" z="-3499" h="48000"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="15584" y="142784" z="-2699" h="16500"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="11340" y="15972" z="-4577" h="14000"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="10968" y="17540" z="-4567" h="55000"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="-14048" y="123184" z="-3115" h="32000"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="-44979" y="-113508" z="-194" h="32000"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="-84119" y="243254" z="-3725" h="8000"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="-84336" y="242156" z="-3725" h="24500"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="-82032" y="150160" z="-3122" h="16500"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="147865" y="-58047" z="-2979" h="48999"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="147300" y="-56466" z="-2779" h="11500"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="44176" y="-48732" z="-800" h="33000"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="44333" y="-47639" z="-800" h="49999"/>
+		<npc id="31756"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="147761" y="27408" z="-2198" h="16500"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="148514" y="-57972" z="-2974" h="53000"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="110592" y="220443" z="-3667" h="0"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="117160" y="75784" z="-2725" h="25000"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="116218" y="-181793" z="-1379" h="0"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="114880" y="-178196" z="-827" h="0"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="83082" y="147845" z="-3467" h="32000"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="81126" y="54519" z="-1517" h="32000"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="45414" y="49296" z="-3067" h="53000"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="47680" y="51255" z="-2989" h="38500"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="17913" y="170536" z="-3499" h="48000"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="15631" y="142778" z="-2699" h="16500"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="11353" y="16022" z="-4577" h="14000"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="10918" y="17511" z="-4567" h="55000"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="-14050" y="123229" z="-3115" h="32000"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="-44983" y="-113554" z="-194" h="32000"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="-84047" y="243193" z="-3725" h="8000"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="-84294" y="242204" z="-3725" h="24500"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="-81967" y="150160" z="-3122" h="16500"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="147906" y="-58047" z="-2979" h="48999"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="147333" y="-56483" z="-2784" h="11500"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="44176" y="-48688" z="-800" h="33000"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="test_server_helper">
+		<point x="44371" y="-47638" z="-800" h="49999"/>
+		<npc id="31757"/>
+		<!--Test Server Helper-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="82376" y="148600" z="-3492" h="0"/>
+		<!-- Гиран -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="82312" y="53288" z="-1521" h="14383"/>
+		<!-- Орен -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="81496" y="55384" z="-1550" h="16383"/>
+		<!-- Орен -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="146824" y="25592" z="-2015" h="16383"/>
+		<!-- Аден -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="147832" y="25592" z="-2038" h="22517"/>
+		<!-- Аден -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="147896" y="-56616" z="-2805" h="21220"/>
+		<!-- Годдарт -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="147512" y="-56616" z="-2805" h="6133"/>
+		<!-- Годдарт -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="87176" y="-142088" z="-1368" h="57343"/>
+		<!-- Шутгард -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="87560" y="-142088" z="-1365" h="32767"/>
+		<!-- Шутгард -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="44312" y="-48392" z="-822" h="16383"/>
+		<!-- Руна -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="43448" y="-48392" z="-822" h="16383"/>
+		<!-- Руна -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="110456" y="220168" z="-3624" h="0"/>
+		<!-- Хейн -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="111576" y="221000" z="-3571" h="32767"/>
+		<!-- Хейн -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="17080" y="144792" z="-3029" h="26634"/>
+		<!-- Дион -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="18024" y="145304" z="-3075" h="6133"/>
+		<!-- Дион -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="15528" y="142904" z="-2729" h="16383"/>
+		<!-- Дион -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="-13976" y="121912" z="-3014" h="16383"/>
+		<!-- Глудио -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="-13496" y="123448" z="-3142" h="24575"/>
+		<!-- Глудио -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="-80696" y="149848" z="-3069" h="21220"/>
+		<!-- Глудин -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="-83128" y="150760" z="-3154" h="0"/>
+		<!-- Глудин -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="-84232" y="243272" z="-3754" h="13828"/>
+		<!-- д. людей -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="115080" y="-178056" z="-910" h="62980"/>
+		<!-- д. гномов -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="11272" y="16872" z="-4687" h="32767"/>
+		<!-- д. т. ельфов -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="46856" y="51480" z="-3002" h="53120"/>
+		<!-- д. ельфов -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="-45272" y="-112584" z="-264" h="0"/>
+		<!-- д. орков -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+	<spawn  count="1" respawn="60" respawn_random="0" group="bug_report">
+		<point x="-116872" y="-46472" z="342" h="16383"/>
+		<!-- д. камаель -->
+		<npc id="37777"/>
+		<!--BugReportManager-->
+	</spawn>
+</list>

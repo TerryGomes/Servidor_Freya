@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<spawn count="3" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="122156" y="-70327" zmin="-2846" zmax="-2746"/>
+			<add x="121680" y="-70284" zmin="-2780" zmax="-2680"/>
+			<add x="121432" y="-69788" zmin="-2720" zmax="-2620"/>
+			<add x="122115" y="-69503" zmin="-2859" zmax="-2759"/>
+		</territory>
+		<npc id="31707"/>
+		<!--Ketra Van Grunt-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="122156" y="-70327" zmin="-2846" zmax="-2746"/>
+			<add x="121680" y="-70284" zmin="-2780" zmax="-2680"/>
+			<add x="121432" y="-69788" zmin="-2720" zmax="-2620"/>
+			<add x="122115" y="-69503" zmin="-2859" zmax="-2759"/>
+		</territory>
+		<npc id="31708"/>
+		<!--Ketra Van Shaman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="122156" y="-70327" zmin="-2846" zmax="-2746"/>
+			<add x="121680" y="-70284" zmin="-2780" zmax="-2680"/>
+			<add x="121432" y="-69788" zmin="-2720" zmax="-2620"/>
+			<add x="122115" y="-69503" zmin="-2859" zmax="-2759"/>
+		</territory>
+		<npc id="31709"/>
+		<!--Ketra Van Captain -->
+	</spawn>
+	<spawn count="3" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="122569" y="-69561" zmin="-3120" zmax="-3080"/>
+			<add x="122448" y="-69983" zmin="-3104" zmax="-3080"/>
+			<add x="122710" y="-70302" zmin="-3088" zmax="-2900"/>
+			<add x="123328" y="-70218" zmin="-3104" zmax="-2900"/>
+		</territory>
+		<npc id="31710"/>
+		<!--Ketra Van Commander-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="122569" y="-69561" zmin="-3120" zmax="-3080"/>
+			<add x="122448" y="-69983" zmin="-3104" zmax="-3080"/>
+			<add x="122710" y="-70302" zmin="-3088" zmax="-2900"/>
+			<add x="123328" y="-70218" zmin="-3104" zmax="-2900"/>
+		</territory>
+		<npc id="31711"/>
+		<!--Ketra Van Shaman-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<territory>
+			<add x="122569" y="-69561" zmin="-3120" zmax="-3080"/>
+			<add x="122448" y="-69983" zmin="-3104" zmax="-3080"/>
+			<add x="122710" y="-70302" zmin="-3088" zmax="-2900"/>
+			<add x="123328" y="-70218" zmin="-3104" zmax="-2900"/>
+		</territory>
+		<npc id="31712"/>
+		<!--Varka Raider-->
+	</spawn>
+	<!-- <spawn count="1" respawn="129600" respawn_random="86400" period_of_day="none"><point x="112798" y="-76800" z="-10" h="-15544"/><npc id="25701"/>-->
+	<!--n_divine_anais-->
+	<!--</spawn>-->
+	<!--<spawn count="1" respawn="60" respawn_random="0" period_of_day="none"><point x="113696" y="-77393" z="48" h="0"/><npc id="18915"/>-->
+	<!--n_monastery_anais_burner-->
+	<!--</spawn>-->
+	<!--<spawn count="1" respawn="60" respawn_random="0" period_of_day="none"><point x="111904" y="-77424" z="48" h="0"/><npc id="18915"/>-->
+	<!--n_monastery_anais_burner-->
+	<!--</spawn>-->
+	<!--<spawn count="1" respawn="60" respawn_random="0" period_of_day="none"><point x="111904" y="-75616" z="48" h="0"/><npc id="18915"/>-->
+	<!--n_monastery_anais_burner-->
+	<!--</spawn>-->
+	<!--<spawn count="1" respawn="60" respawn_random="0" period_of_day="none"><point x="113632" y="-75616" z="48" h="0"/><npc id="18915"/>-->
+	<!--n_monastery_anais_burner-->
+	<!--</spawn>-->
+</list>

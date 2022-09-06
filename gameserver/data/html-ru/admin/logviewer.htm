@@ -1,0 +1,38 @@
+<html>
+<body>
+	<title>Log Viewer</title>
+	<br>
+	<table width=760 align=center>
+		<tr>
+			<td width=45>Search</td>
+			<td><edit var="menu_command" width=100 height=12></td>
+			<td width=150><button value="Search into log"
+					action="bypass -h admin_readlog %fileName% 1 $menu_command "
+					width=120 height=20 back="L2UI_CT1.Button_DF_Down"
+					fore="L2UI_CT1.Button_DF"></td>
+			<td width=150><button value="Reset search"
+					action="bypass -h admin_readlog %fileName% 1" width=120 height=20
+					back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+			<td><button value="Show Log Page"
+					action="bypass -h admin_readlog" width=120 height=21
+					back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+		</tr>
+		<tr>
+			<td>%searchresult%</td>
+		</tr>
+	</table>
+	<img src="L2UI_CT1.ChatBalloon_DF_TopCenter" width="820" height="1"
+		align="top" />
+	<table width=760>%body%
+	</table>
+	<button width=0 height=5>
+		<img src="L2UI_CT1.ChatBalloon_DF_TopCenter" width="820" height="1"
+			align="top" /> <br>
+		<table width="715" cellpadding="0" cellspacing="0" valign="top">
+			<tr>
+				<td width="665" valign="top">%back%</td>
+				<td width="40" valign="top">%more%</td>
+			</tr>
+		</table>
+</body>
+</html>

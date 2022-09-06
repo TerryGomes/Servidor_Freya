@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Olympiad Token ==> items -->
+
+<list>
+    <!-- Внимание: keepenchanted НЕ должно быть установлено в мультиселлах, где в одном блоке возможны два одинаковых нестекуемых предмета (напрмиер dual) -->
+    <!-- ignoreprice не работает с keepencahnted -->
+    <config showall="true" notax="false" keepenchanted="false" />
+	<!-- Blessed Scroll: Enchant Weapon (Grade S) -->
+	<item id="1">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="420000" />
+		<production id="6577" count="1" />
+	</item>
+	<!-- Blessed Scroll: Enchant Weapon (Grade A) -->
+	<item id="2">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="195000" />
+		<production id="6569" count="1" />
+	</item>
+	<!-- Blessed Scroll: Enchant Weapon (Grade B) -->
+	<item id="3">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="84000" />
+		<production id="6571" count="1" />
+	</item>
+	<!-- Blessed Scroll: Enchant Armor (Grade S) -->
+	<item id="4">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="63000" />
+		<production id="6578" count="1" />
+	</item>
+	<!-- Blessed Scroll: Enchant Armor (Grade A) -->
+	<item id="5">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="23400" />
+		<production id="6570" count="1" />
+	</item>
+	<!-- Blessed Scroll: Enchant Armor (Grade B) -->
+	<item id="6">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="9000" />
+		<production id="6572" count="1" />
+	</item>
+	<!-- Scroll: Enchant Weapon (Grade S) -->
+	<item id="7">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="70000" />
+		<production id="959" count="1" />
+	</item>
+	<!-- Scroll: Enchant Weapon (Grade A) -->
+	<item id="8">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="23400" />
+		<production id="729" count="1" />
+	</item>
+	<!-- Scroll: Enchant Weapon (Grade B) -->
+	<item id="9">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="6000" />
+		<production id="947" count="1" />
+	</item>
+	<!-- Scroll: Enchant Armor (Grade S) -->
+	<item id="10">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="7000" />
+		<production id="960" count="1" />
+	</item>
+	<!-- Scroll: Enchant Armor (Grade A) -->
+	<item id="11">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="3120" />
+		<production id="730" count="1" />
+	</item>
+	<!-- Scroll: Enchant Armor (Grade B) -->
+	<item id="12">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="960" />
+		<production id="948" count="1" />
+	</item>
+	<!-- Eye Patch -->
+	<item id="13">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="10000" />
+		<production id="8916" count="1" />
+	</item>
+	<!-- Shield Master Circlet -->
+	<item id="13">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="12000" />
+		<production id="9397" count="1" />
+	</item>
+	<!-- Bard Circlet -->
+	<item id="13">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="12000" />
+		<production id="9398" count="1" />
+	</item>
+	<!-- Force Master Circlet -->
+	<item id="13">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="12000" />
+		<production id="9399" count="1" />
+	</item>
+	<!-- Weapon Master Circlet -->
+	<item id="13">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="12000" />
+		<production id="9400" count="1" />
+	</item>
+	<!-- Dagger Master Circlet -->
+	<item id="13">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="12000" />
+		<production id="9401" count="1" />
+	</item>
+	<!-- Bow Master Circlet -->
+	<item id="13">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="12000" />
+		<production id="9402" count="1" />
+	</item>
+	<!-- Wizard Circle -->
+	<item id="13">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="12000" />
+		<production id="9403" count="1" />
+	</item>
+	<!-- Summoner Circlet -->
+	<item id="13">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="12000" />
+		<production id="9404" count="1" />
+	</item>
+	<!-- Healer Circlet -->
+	<item id="13">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="12000" />
+		<production id="9405" count="1" />
+	</item>
+	<!-- Enchanter Circlet -->
+	<item id="13">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="12000" />
+		<production id="9406" count="1" />
+	</item>
+	<!-- Weapon Master Circlet (Kamael only) -->
+	<item id="13">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="12000" />
+		<production id="9407" count="1" />
+	</item>
+	<!-- Bow Master Circlet (Kamael only) -->
+	<item id="13">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="12000" />
+		<production id="9408" count="1" />
+	</item>
+	<!-- Enchanter Circlet (Kamael only) -->
+	<item id="13">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="12000" />
+		<production id="10169" count="1" />
+	</item>
+	<!-- Secret Book of Giants -->
+	<item id="14">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="5500" />
+		<production id="6622" count="1" />
+	</item>
+	<!-- Ancient Book - Divine Inspiration (Original Version) -->
+	<item id="15">
+		<!-- JunkyFanky for emurt.ru -->
+		<ingredient id="6651" count="450000" />
+		<production id="8621" count="1" />
+	</item>
+</list>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<!-- Author: Kolobrodik Description: Баффера на каждый стадион. Нумерация в соответствии с нумирацией зон. -->
+	<spawn group="olympiad_0_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-86961" y="-252623" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_0_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-89283" y="-252623" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_1_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-85060" y="-252623" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_1_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-82758" y="-252623" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_2_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-78539" y="-252623" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_2_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-80822" y="-252623" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_3_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-74687" y="-252623" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_3_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-76912" y="-252623" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_4_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-89253" y="-249767" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_4_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-86955" y="-249764" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_5_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-85059" y="-249762" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_5_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-82748" y="-249762" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_6_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-80829" y="-249762" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_6_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-78580" y="-249762" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_7_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-76863" y="-249750" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_7_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-74665" y="-249750" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_8_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-89203" y="-246955" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_8_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-86976" y="-246954" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_9_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-82768" y="-246955" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_9_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-84987" y="-246955" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_10_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-78546" y="-246955" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_10_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-80802" y="-246955" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_11_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-74597" y="-246955" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_11_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-76894" y="-246955" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_12_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-89216" y="-244277" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_12_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-86994" y="-244277" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_13_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-84970" y="-244277" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_13_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-82766" y="-244277" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_14_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-80800" y="-244277" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_14_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-78556" y="-244277" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_15_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-74657" y="-244277" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_15_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-76897" y="-244277" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_16_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-89241" y="-241480" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_16_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-86992" y="-241480" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_17_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-85017" y="-241480" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_17_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-82756" y="-241480" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_18_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-78546" y="-241480" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_18_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-80844" y="-241480" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_19_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-74657" y="-241480" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_19_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-76888" y="-241480" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_20_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-89217" y="-238837" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_20_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-86975" y="-238837" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_21_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-84989" y="-238837" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+	<spawn group="olympiad_21_buffers" count="1" respawn="0" respawn_random="0" period_of_day="none">
+		<point x="-82746" y="-238837" z="-3340" h="0"/>
+		<npc id="36402"/>
+	</spawn>
+</list>

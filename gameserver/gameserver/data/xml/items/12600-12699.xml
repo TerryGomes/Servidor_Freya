@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<etcitem id="12600" name="Foundation Sealed Majestic Plate Armor">
+		<set name="name-ru" value="Редкий Запечатанный Латный Доспех Величия"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t83_ul_i02"/>
+		<set name="price" value="8804000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="9200"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12601" name="Foundation Sealed Armor of Nightmare">
+		<set name="name-ru" value="Редкий Запечатанный Доспех Кошмаров"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t80_ul_i02"/>
+		<set name="price" value="8804000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="9580"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12602" name="Foundation Sealed Gauntlet of Nightmare">
+		<set name="name-ru" value="Редкие Запечатанные Рукавицы Кошмаров"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t80_g_i02"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12603" name="Foundation Sealed Leather Armor of Nightmare">
+		<set name="name-ru" value="Редкий Запечатанный Кожаный Доспех Кошмаров"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t81_ul_i02"/>
+		<set name="price" value="6603000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="5300"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12604" name="Foundation Sealed Nightmare Robe">
+		<set name="name-ru" value="Редкая Запечатанная Мантия Кошмаров"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t82_ul_i02"/>
+		<set name="price" value="6603000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="2300"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12605" name="Foundation Sealed Boots of Nightmare">
+		<set name="name-ru" value="Редкие Запечатанные Сапоги Кошмаров"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t80_b_i02"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12606" name="Foundation Sealed Shield of Nightmare">
+		<set name="name-ru" value="Редкий Запечатанный Щит Кошмаров"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.shield_shield_of_nightmare_i02"/>
+		<set name="price" value="1422000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1180"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12607" name="Foundation Sealed Helm of Nightmare">
+		<set name="name-ru" value="Редкий Запечатанный Шлем Кошмаров"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i02"/>
+		<set name="price" value="2032000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="560"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12608" name="Foundation Armor of Nightmare">
+		<set name="name-ru" value="Редкий Доспех Кошмаров"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t80_ul_i00"/>
+		<set name="price" value="8804000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="9580"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12609" name="Foundation Gauntlet of Nightmare">
+		<set name="name-ru" value="Редкие Рукавицы Кошмаров"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t80_g_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12610" name="Foundation Gauntlet of Nightmare">
+		<set name="name-ru" value="Редкие Рукавицы Кошмаров"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t81_g_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12611" name="Foundation Gauntlet of Nightmare">
+		<set name="name-ru" value="Редкие Рукавицы Кошмаров"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t82_g_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12612" name="Foundation Nightmarish Leather Armor">
+		<set name="name-ru" value="Редкий Кожаный Доспех Кошмаров"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t81_ul_i00"/>
+		<set name="price" value="6603000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="5300"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12613" name="Foundation Nightmare Robe">
+		<set name="name-ru" value="Редкая Мантия Кошмаров"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t82_ul_i00"/>
+		<set name="price" value="6603000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="2300"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12614" name="Foundation Boots of Nightmare">
+		<set name="name-ru" value="Редкие Сапоги Кошмаров"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t80_b_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12615" name="Foundation Boots of Nightmare">
+		<set name="name-ru" value="Редкие Сапоги Кошмаров"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t81_b_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12616" name="Foundation Boots of Nightmare">
+		<set name="name-ru" value="Редкие Сапоги Кошмаров"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t82_b_i00"/>
+		<set name="price" value="1355000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12617" name="Foundation Shield of Nightmare">
+		<set name="name-ru" value="Редкий Щит Кошмаров"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.shield_shield_of_nightmare_i00"/>
+		<set name="price" value="1422000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1180"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12618" name="Foundation Helm of Nightmare">
+		<set name="name-ru" value="Редкий Шлем Кошмаров"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="A"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="price" value="2032000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="560"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12619" name="Foundation Draconic Leather Gloves">
+		<set name="name-ru" value="Редкие Перчатки из Драконьей Кожи"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t89_g_i00"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12620" name="Foundation Draconic Leather Boots">
+		<set name="name-ru" value="Редкие Сапоги из Драконьей Кожи"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t89_b_i00"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12621" name="Foundation Draconic Leather Armor">
+		<set name="name-ru" value="Редкий Доспех из Драконьей Кожи"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t89_ul_i00"/>
+		<set name="price" value="15577000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="4950"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12622" name="Foundation Draconic Leather Helmet">
+		<set name="name-ru" value="Редкий Шлем из Драконьей Кожи"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="price" value="4793000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12623" name="Foundation Major Arcana Gloves">
+		<set name="name-ru" value="Редкие Перчатки Тайн"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t90_g_i00"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12624" name="Foundation Major Arcana Robe">
+		<set name="name-ru" value="Редкая Мантия Тайн"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t90_ul_i00"/>
+		<set name="price" value="15577000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="2300"/>
+		<set name="material_type" value="CLOTH"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12625" name="Foundation Major Arcana Boots">
+		<set name="name-ru" value="Редкие Сапоги Тайн"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t90_b_i00"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12626" name="Foundation Major Arcana Circlet">
+		<set name="name-ru" value="Редкая Диадема Тайн"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="price" value="4793000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12627" name="Foundation Sealed Draconic Leather Gloves">
+		<set name="name-ru" value="Редкие Запечатанные Перчатки из Драконьей Кожи"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t89_g_i02"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12628" name="Foundation Sealed Draconic Leather Boots">
+		<set name="name-ru" value="Редкие Запечатанные Сапоги из Драконьей Кожи"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t89_b_i02"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12629" name="Foundation Sealed Draconic Leather Armor">
+		<set name="name-ru" value="Редкий Запечатанный Доспех из Драконьей Кожи"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t89_ul_i02"/>
+		<set name="price" value="15577000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="4950"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12630" name="Foundation Sealed Draconic Leather Helmet">
+		<set name="name-ru" value="Редкий Запечатанный Шлем из Драконьей Кожи"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i02"/>
+		<set name="price" value="4793000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12631" name="Foundation Sealed Major Arcana Gloves">
+		<set name="name-ru" value="Редкие Запечатанные Перчатки Тайн"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t90_g_i02"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12632" name="Foundation Sealed Major Arcana Robe">
+		<set name="name-ru" value="Редкая Запечатанная Мантия Тайн"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t90_ul_i02"/>
+		<set name="price" value="15577000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="2300"/>
+		<set name="material_type" value="CLOTH"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12633" name="Foundation Sealed Major Arcana Boots">
+		<set name="name-ru" value="Редкие Запечатанные Сапоги Тайн"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t90_b_i02"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12634" name="Foundation Sealed Major Arcana Circlet">
+		<set name="name-ru" value="Редкая Запечатанная Диадема Тайн"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_leather_helmet_i02"/>
+		<set name="price" value="4793000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12635" name="Foundation Sealed Imperial Crusader Gaiters">
+		<set name="name-ru" value="Редкие Запечатанные Набедренники Имперского Крестоносца"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t88_l_i02"/>
+		<set name="price" value="7988000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="3260"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12636" name="Foundation Sealed Imperial Crusader Gauntlet">
+		<set name="name-ru" value="Редкие Запечатанные Рукавицы Имперского Крестоносца"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t88_g_i02"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12637" name="Foundation Sealed Imperial Crusader Boots">
+		<set name="name-ru" value="Редкие Запечатанные Сапоги Имперского Крестоносца"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t88_b_i02"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12638" name="Foundation Sealed Imperial Crusader Shield">
+		<set name="name-ru" value="Редкий Запечатанный Щит Имперского Крестоносца"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.shield_imperial_crusader_shield_i02"/>
+		<set name="price" value="3355000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1170"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12639" name="Foundation Sealed Imperial Crusader Helmet">
+		<set name="name-ru" value="Редкий Запечатанный Шлем Имперского Крестоносца"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_helmet_i02"/>
+		<set name="price" value="4793000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12640" name="Foundation Sealed Imperial Crusader Breastplate">
+		<set name="name-ru" value="Редкая Запечатанная Кираса Имперского Крестоносца"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t88_u_i02"/>
+		<set name="price" value="12781000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="7620"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12641" name="Foundation Imperial Crusader Gaiters">
+		<set name="name-ru" value="Редкие Набедренники Имперского Крестоносца"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t88_l_i00"/>
+		<set name="price" value="7988000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="3260"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12642" name="Foundation Imperial Crusader Gauntlet">
+		<set name="name-ru" value="Редкие Рукавицы Имперского Крестоносца"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t88_g_i00"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="540"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12643" name="Foundation Imperial Crusader Boots">
+		<set name="name-ru" value="Редкие Сапоги Имперского Крестоносца"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t88_b_i00"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1110"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12644" name="Foundation Imperial Crusader Shield">
+		<set name="name-ru" value="Редкий Щит Имперского Крестоносца"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.shield_imperial_crusader_shield_i00"/>
+		<set name="price" value="3355000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1170"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12645" name="Foundation Imperial Crusader Helmet">
+		<set name="name-ru" value="Редкий Шлем Имперского Крестоносца"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_helmet_i00"/>
+		<set name="price" value="4793000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="550"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12646" name="Foundation Imperial Crusader Breastplate">
+		<set name="name-ru" value="Редкая Кираса Имперского Крестоносца"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t88_u_i00"/>
+		<set name="price" value="12781000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="7620"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12647" name="Foundation Dynasty Gaiters">
+		<set name="name-ru" value="Редкие Набедренники Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t91_l_i00"/>
+		<set name="price" value="15248000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="3210"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12648" name="Foundation Dynasty Gauntlet">
+		<set name="name-ru" value="Редкие Рукавицы Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t91_g_i00"/>
+		<set name="price" value="6099000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="520"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12649" name="Foundation Dynasty Gloves">
+		<set name="name-ru" value="Редкие Перчатки Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t93_g_i00"/>
+		<set name="price" value="6099000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="520"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12650" name="Foundation Dynasty Leather Gloves">
+		<set name="name-ru" value="Редкие Кожаные Перчатки Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t92_g_i00"/>
+		<set name="price" value="6099000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="520"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12651" name="Foundation Dynasty Leather Leggings">
+		<set name="name-ru" value="Редкие Кожаные Поножи Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t92_l_i00"/>
+		<set name="price" value="11436000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1370"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12652" name="Foundation Dynasty Leather Armor">
+		<set name="name-ru" value="Редкий Кожаный Доспех Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t92_u_i00"/>
+		<set name="price" value="18298000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="4180"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12653" name="Foundation Dynasty Leather Armor">
+		<set name="name-ru" value="Редкий Кожаный Доспех Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t92_ud_i00"/>
+		<set name="price" value="18298000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="4180"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12654" name="Foundation Dynasty Leather Armor">
+		<set name="name-ru" value="Редкий Кожаный Доспех Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t92_ub_i00"/>
+		<set name="price" value="18298000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="4180"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12655" name="Foundation Dynasty Leather Armor">
+		<set name="name-ru" value="Редкий Кожаный Доспех Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t92_ud_i00"/>
+		<set name="price" value="18298000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="4180"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12656" name="Foundation Dynasty Leather Armor">
+		<set name="name-ru" value="Редкий Кожаный Доспех Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t92_ub_i00"/>
+		<set name="price" value="18298000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="4180"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12657" name="Foundation Dynasty Leather Armor">
+		<set name="name-ru" value="Редкий Кожаный Доспех Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t92_ud_i00"/>
+		<set name="price" value="18298000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="4180"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12658" name="Foundation Dynasty Leather Armor">
+		<set name="name-ru" value="Редкий Кожаный Доспех Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t92_u_i00"/>
+		<set name="price" value="18298000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="4180"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12659" name="Foundation Dynasty Leather Boots">
+		<set name="name-ru" value="Редкие Кожаные Сапоги Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t92_b_i00"/>
+		<set name="price" value="6099000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1090"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12660" name="Foundation Dynasty Leather Helmet">
+		<set name="name-ru" value="Редкий Кожаный Шлем Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_helmet_i00"/>
+		<set name="price" value="9149000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="530"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12661" name="Foundation Dynasty Boots">
+		<set name="name-ru" value="Редкие Сапоги Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t91_b_i00"/>
+		<set name="price" value="6099000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1090"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12662" name="Foundation Dynasty Breastplate">
+		<set name="name-ru" value="Редкая Кираса Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t91_u_i00"/>
+		<set name="price" value="24398000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="7570"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12663" name="Foundation Dynasty Breastplate">
+		<set name="name-ru" value="Редкая Кираса Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t91_uk_i00"/>
+		<set name="price" value="24398000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="7570"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12664" name="Foundation Dynasty Breastplate">
+		<set name="name-ru" value="Редкая Кираса Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t91_uw_i00"/>
+		<set name="price" value="24398000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="7570"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12665" name="Foundation Dynasty Breastplate">
+		<set name="name-ru" value="Редкая Кираса Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t91_uf_i00"/>
+		<set name="price" value="24398000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="7570"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12666" name="Foundation Dynasty Breastplate">
+		<set name="name-ru" value="Редкая Кираса Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t91_uke_i00"/>
+		<set name="price" value="24398000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="7570"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12667" name="Foundation Dynasty Shield">
+		<set name="name-ru" value="Редкий Щит Династии"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.shield_dynasty_shield_i00"/>
+		<set name="price" value="6404000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1390"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12668" name="Foundation Dynasty Shoes">
+		<set name="name-ru" value="Редкие Ботинки Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t93_b_i00"/>
+		<set name="price" value="6099000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1090"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12669" name="Foundation Dynasty Silver Satin Tunic">
+		<set name="name-ru" value="Редкая Серебряная Атласная Туника Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t93_u_i00"/>
+		<set name="price" value="25255000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1780"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12670" name="Foundation Dynasty Silver Satin Tunic">
+		<set name="name-ru" value="Редкая Серебряная Атласная Туника Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t93_uh_i00"/>
+		<set name="price" value="25255000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1780"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12671" name="Foundation Dynasty Silver Satin Tunic">
+		<set name="name-ru" value="Редкая Серебряная Атласная Туника Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t93_ue_i00"/>
+		<set name="price" value="25255000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1780"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12672" name="Foundation Dynasty Silver Satin Tunic">
+		<set name="name-ru" value="Редкая Серебряная Атласная Туника Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t93_us_i00"/>
+		<set name="price" value="25255000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1780"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12673" name="Foundation Dynasty Silver Satin Tunic">
+		<set name="name-ru" value="Редкая Серебряная Атласная Туника Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t93_uw_i00"/>
+		<set name="price" value="25255000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1780"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12674" name="Foundation Dynasty Circlet">
+		<set name="name-ru" value="Редкая Диадема Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_circlet_i00"/>
+		<set name="price" value="9149000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="530"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12675" name="Foundation Dynasty Jewel Leather Mail">
+		<set name="name-ru" value="Редкий Украшенный Кожаный Доспех Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t92_u_i00"/>
+		<set name="price" value="25255000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="4180"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12676" name="Foundation Dynasty Jewel Leather Mail">
+		<set name="name-ru" value="Редкий Украшенный Кожаный Доспех Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t92_ud_i00"/>
+		<set name="price" value="25255000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="4180"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12677" name="Foundation Dynasty Jewel Leather Mail">
+		<set name="name-ru" value="Редкий Украшенный Кожаный Доспех Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t92_ub_i00"/>
+		<set name="price" value="25255000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="4180"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12678" name="Foundation Dynasty Jewel Leather Mail">
+		<set name="name-ru" value="Редкий Украшенный Кожаный Доспех Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t92_u_i00"/>
+		<set name="price" value="25255000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="4180"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12679" name="Foundation Dynasty Jewel Leather Mail">
+		<set name="name-ru" value="Редкий Украшенный Кожаный Доспех Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t92_u_i00"/>
+		<set name="price" value="25255000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="4180"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12680" name="Foundation Dynasty Jewel Leather Mail">
+		<set name="name-ru" value="Редкий Украшенный Кожаный Доспех Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t92_u_i00"/>
+		<set name="price" value="25255000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="4180"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12681" name="Foundation Dynasty Jewel Leather Mail">
+		<set name="name-ru" value="Редкий Украшенный Кожаный Доспех Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t92_u_i00"/>
+		<set name="price" value="25255000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="4180"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12682" name="Foundation Dynasty Tunic">
+		<set name="name-ru" value="Редкая Туника Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t93_u_i00"/>
+		<set name="price" value="18298000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1780"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12683" name="Foundation Dynasty Tunic">
+		<set name="name-ru" value="Редкая Туника Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t93_uh_i00"/>
+		<set name="price" value="18298000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1780"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12684" name="Foundation Dynasty Tunic">
+		<set name="name-ru" value="Редкая Туника Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t93_ue_i00"/>
+		<set name="price" value="18298000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1780"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12685" name="Foundation Dynasty Tunic">
+		<set name="name-ru" value="Редкая Туника Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t93_us_i00"/>
+		<set name="price" value="18298000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1780"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12686" name="Foundation Dynasty Tunic">
+		<set name="name-ru" value="Редкая Туника Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t93_uw_i00"/>
+		<set name="price" value="18298000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1780"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12687" name="Foundation Dynasty Platinum Plate">
+		<set name="name-ru" value="Редкие Платиновые Латы Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t91_u_i00"/>
+		<set name="price" value="33673000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="7570"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12688" name="Foundation Dynasty Platinum Plate">
+		<set name="name-ru" value="Редкие Платиновые Латы Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t91_uk_i00"/>
+		<set name="price" value="33673000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="7570"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12689" name="Foundation Dynasty Platinum Plate">
+		<set name="name-ru" value="Редкие Платиновые Латы Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t91_uw_i00"/>
+		<set name="price" value="33673000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="7570"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12690" name="Foundation Dynasty Platinum Plate">
+		<set name="name-ru" value="Редкие Платиновые Латы Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t91_uf_i00"/>
+		<set name="price" value="33673000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="7570"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12691" name="Foundation Dynasty Platinum Plate">
+		<set name="name-ru" value="Редкие Платиновые Латы Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t91_uke_i00"/>
+		<set name="price" value="33673000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="7570"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12692" name="Foundation Dynasty Helmet">
+		<set name="name-ru" value="Редкий Шлем Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_helmet_i00"/>
+		<set name="price" value="9149000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="530"/>
+		<set name="material_type" value="BONE"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12693" name="Foundation Dynasty Stockings">
+		<set name="name-ru" value="Редкие Штаны Династии"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t93_l_i00"/>
+		<set name="price" value="11436000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="860"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12694" name="Foundation Sealed Dynasty Gaiters">
+		<set name="name-ru" value="Редкие Запечатанные Набедренники Династии"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t91_l_i02"/>
+		<set name="price" value="15248000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="3210"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12695" name="Foundation Sealed Dynasty Gauntlet">
+		<set name="name-ru" value="Редкие Запечатанные Рукавицы Династии"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t91_g_i02"/>
+		<set name="price" value="6099000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="520"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12696" name="Foundation Sealed Dynasty Gloves">
+		<set name="name-ru" value="Редкие Запечатанные Перчатки Династии"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t93_g_i02"/>
+		<set name="price" value="6099000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="520"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12697" name="Foundation Sealed Dynasty Leather Gloves">
+		<set name="name-ru" value="Редкие Запечатанные Кожаные Перчатки Династии"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t92_g_i02"/>
+		<set name="price" value="6099000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="520"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12698" name="Foundation Sealed Dynasty Leather Leggings">
+		<set name="name-ru" value="Редкие Запечатанные Кожаные Поножи Династии"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t92_l_i02"/>
+		<set name="price" value="11436000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="1370"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="12699" name="Foundation Sealed Dynasty Leather Armor">
+		<set name="name-ru" value="Редкий Запечатанный Кожаный Доспех Династии"/>
+		<set name="class" value="ARMOR"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.armor_t92_u_i02"/>
+		<set name="price" value="18298000"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="4180"/>
+		<set name="material_type" value="SCALE_OF_DRAGON"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+</list>

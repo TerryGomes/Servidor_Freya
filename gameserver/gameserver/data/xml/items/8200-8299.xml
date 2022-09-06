@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<etcitem id="8200" name="Fisherman's Potion - White">
+		<set name="name-ru" value="Зелье Рыбака - Белое"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_oblivion_white_i00"/>
+		<set name="price" value="5000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2274" level="8"/>
+		</skills>
+		<cond msgId="1508">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+	<etcitem id="8201" name="Fisherman's Potion - Black">
+		<set name="name-ru" value="Зелье Рыбака - Черное"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_oblivion_black_i00"/>
+		<set name="price" value="5000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2274" level="9"/>
+		</skills>
+		<cond msgId="1508">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+	<etcitem id="8202" name="Fishing Potion">
+		<set name="name-ru" value="Восстанавливающее Зелье Рыбака"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_oblivion_black_i00"/>
+		<set name="price" value="5000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2275" level="1"/>
+		</skills>
+		<cond msgId="1508">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+	<weapon id="8203" name="Monster Only (Venom Sword)">
+		<set name="name-ru" value="Только для Монстров (Ядовитый Меч)"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DUAL"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+		</for>
+		<set name="weight" value="1560"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;44;120"/>
+	</weapon>
+	<weapon id="8204" name="Monster Only (Follower of Frintezza Calibur)">
+		<set name="name-ru" value="Только для Монстров (Клинок Последователя Принтесса)"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="SWORD"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+		</for>
+		<set name="weight" value="1560"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="8205" name="Monster Only (Heretic Priest Sigil)">
+		<set name="name-ru" value="Только для Монстров (Серп Жреца-Еретика)"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="POLE"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+		</for>
+		<set name="weight" value="1920"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;66;120"/>
+	</weapon>
+	<weapon id="8206" name="Monster Only (Heretic Priest Sword)">
+		<set name="name-ru" value="Только для Монстров (Меч Жреца-Еретика)"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DUAL"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+		</for>
+		<set name="weight" value="2080"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;44;120"/>
+	</weapon>
+	<weapon id="8207" name="Monster Only (Heretic Private Axe)">
+		<set name="name-ru" value="Только для Монстров (Топор Рядового Еретика)"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DUAL"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+		</for>
+		<set name="weight" value="1560"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;44;120"/>
+	</weapon>
+	<weapon id="8208" name="Monster Only (Heretic Private Staff)">
+		<set name="name-ru" value="Только для Монстров (Посох Рядового Еретика)"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="POLE"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+		</for>
+		<set name="weight" value="1560"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;66;120"/>
+	</weapon>
+	<weapon id="8209" name="Monster Only (Lidia Von Helmann Sword)">
+		<set name="name-ru" value="Только для Монстров (Меч Лидии фон Хельман)"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="SWORD"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+		</for>
+		<set name="weight" value="1560"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="8210" name="Monster Only (Monk Warrior Shield)">
+		<set name="name-ru" value="Только для Монстров (Щит Монаха-Воителя)"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="rnd_dam" value="0"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<for>
+			<add stat="sDef" order="0x10" value="230"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<add stat="rEvas" order="0x10" value="-8.0000"/>
+			<enchant stat="sDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+		</for>
+		<set name="weight" value="4800"/>
+		<set name="material_type" value="DAMASCUS"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value=""/>
+	</weapon>
+	<weapon id="8211" name="Monster Only (Monk Warrior Sword)">
+		<set name="name-ru" value="Только для Монстров (Меч Монаха-Воителя)"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="SWORD"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+		</for>
+		<set name="weight" value="1560"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="8212" name="Monster Only (Solina Brother Mace)">
+		<set name="name-ru" value="Только для Монстров (Булава Брата Солины)"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BLUNT"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+		</for>
+		<set name="weight" value="1570"/>
+		<set name="material_type" value="CHRYSOLITE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="8213" name="Monster Only (Solina Father Mace)">
+		<set name="name-ru" value="Только для Монстров (Булава Отца Солины)"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BLUNT"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+		</for>
+		<set name="weight" value="1570"/>
+		<set name="material_type" value="CHRYSOLITE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="8214" name="Monster Only (Solina Priest Pole)">
+		<set name="name-ru" value="Только для Монстров (Шест Жреца Солины)"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="POLE"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+		</for>
+		<set name="weight" value="1920"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;66;120"/>
+	</weapon>
+	<weapon id="8215" name="Monster Only (Zombie Enlisted Man Sword)">
+		<set name="name-ru" value="Только для Монстров (Меч Зомби)"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="type" value="BIGSWORD"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+		</for>
+		<set name="weight" value="2090"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;44;120"/>
+	</weapon>
+	<weapon id="8216" name="Monster Only (Zombie Enlisted Man Claw)">
+		<set name="name-ru" value="Только для Монстров (Коготь Зомби)"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DUALFIST"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+		</for>
+		<set name="weight" value="1350"/>
+		<set name="material_type" value="ADAMANTAITE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;32;120"/>
+	</weapon>
+	<weapon id="8217" name="Monster Only (Zombie Gateguard Spear)">
+		<set name="name-ru" value="Только для Монстров (Копье Зомби Хранителя Врат)"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="SWORD"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+		</for>
+		<set name="weight" value="1560"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="8218" name="Monster Only (Zombie Laborer Axe)">
+		<set name="name-ru" value="Только для Монстров (Топор Зомби Рабочего)"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BLUNT"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+		</for>
+		<set name="weight" value="1570"/>
+		<set name="material_type" value="CHRYSOLITE"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="8219" name="Monster Only (Zombie Laborer Sword)">
+		<set name="name-ru" value="Только для Монстров (Меч Зомби Рабочего)"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="SWORD"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+		</for>
+		<set name="weight" value="1560"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="8220" name="Monster Only (Grail Apostle Bow)">
+		<set name="name-ru" value="Только для Монстров (Лук Апостола Грааля)"/>
+		<set name="atk_reuse" value="1500"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="mp_consume" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BOW"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="293"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+		</for>
+		<set name="weight" value="1950"/>
+		<set name="material_type" value="WOOD"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;10;0"/>
+	</weapon>
+	<weapon id="8221" name="Monster Only (Grail Apostle Spear)">
+		<set name="name-ru" value="Только для Монстров (Копье Апостола Грааля)"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="POLE"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+		</for>
+		<set name="weight" value="1920"/>
+		<set name="material_type" value="BLOOD_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;66;120"/>
+	</weapon>
+	<weapon id="8222" name="Monster Only (Follower of Frintezza Tran Calibur)">
+		<set name="name-ru" value="Только для Монстров (Оружие Последователя Принтесса)"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="SWORD"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="379"/>
+		</for>
+		<set name="weight" value="1560"/>
+		<set name="material_type" value="FINE_STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<etcitem id="8223" name="Seed: Twin Codran">
+		<set name="name-ru" value="Семя: Двойной Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_seed_i00"/>
+		<set name="price" value="50"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8224" name="Seed: Great Codran">
+		<set name="name-ru" value="Семя: Большой Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_seed_i00"/>
+		<set name="price" value="75"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8225" name="Seed: Desert Codran">
+		<set name="name-ru" value="Семя: Пустынный Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_seed_i00"/>
+		<set name="price" value="100"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8226" name="Seed: Blue Coba">
+		<set name="name-ru" value="Семя: Синяя Коба"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_blue_coba_seed_i00"/>
+		<set name="price" value="400"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8227" name="Seed: Red Coba">
+		<set name="name-ru" value="Семя: Красная Коба"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_red_coba_seed_i00"/>
+		<set name="price" value="500"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8228" name="Seed: Golden Coba">
+		<set name="name-ru" value="Семя: Золотая Коба"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_golden_coba_seed_i00"/>
+		<set name="price" value="650"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8229" name="Seed: Desert Coba">
+		<set name="name-ru" value="Семя: Пустынная Коба"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_desert_coba_seed_i00"/>
+		<set name="price" value="750"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8230" name="Seed: Alternative Twin Codran">
+		<set name="name-ru" value="Семя: Новый Двойной Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_seed_i00"/>
+		<set name="price" value="50"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8231" name="Seed: Alternative Great Codran">
+		<set name="name-ru" value="Семя: Новый Большой Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_seed_i00"/>
+		<set name="price" value="75"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8232" name="Seed: Alternative Desert Codran">
+		<set name="name-ru" value="Семя: Новый Пустынный Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_seed_i00"/>
+		<set name="price" value="100"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8233" name="Seed: Alternative Blue Coba">
+		<set name="name-ru" value="Семя: Новая Синяя Коба"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_blue_coba_seed_i00"/>
+		<set name="price" value="400"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8234" name="Seed: Alternative Red Coba">
+		<set name="name-ru" value="Семя: Новая Красная Коба"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_red_coba_seed_i00"/>
+		<set name="price" value="500"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8235" name="Seed: Alternative Golden Coba">
+		<set name="name-ru" value="Семя: Новая Золотая Коба"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_golden_coba_seed_i00"/>
+		<set name="price" value="650"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8236" name="Seed: Alternative Desert Coba">
+		<set name="name-ru" value="Семя: Новая Пустынная Коба"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_desert_coba_seed_i00"/>
+		<set name="price" value="750"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8237" name="Seed: Dark Coda">
+		<set name="name-ru" value="Семя: Темная Кода"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coda_seed_i00"/>
+		<set name="price" value="5"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8238" name="Seed: Red Coda">
+		<set name="name-ru" value="Семя: Красная Кода"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coda_seed_i00"/>
+		<set name="price" value="5"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8239" name="Seed: Chilly Coda">
+		<set name="name-ru" value="Семя: Холодная Кода"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coda_seed_i00"/>
+		<set name="price" value="5"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8240" name="Seed: Blue Coda">
+		<set name="name-ru" value="Семя: Синяя Кода"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coda_seed_i00"/>
+		<set name="price" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8241" name="Seed: Golden Coda">
+		<set name="name-ru" value="Семя: Золотая Кода"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coda_seed_i00"/>
+		<set name="price" value="20"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8242" name="Seed: Lute Coda">
+		<set name="name-ru" value="Семя: Кода Лютни"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coda_seed_i00"/>
+		<set name="price" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8243" name="Seed: Desert Coda">
+		<set name="name-ru" value="Семя: Пустынная Кода"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coda_seed_i00"/>
+		<set name="price" value="20"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8244" name="Seed: Red Cobol">
+		<set name="name-ru" value="Семя: Красный Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_seed_i00"/>
+		<set name="price" value="20"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8245" name="Seed: Chilly Cobol">
+		<set name="name-ru" value="Семя: Холодный Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_seed_i00"/>
+		<set name="price" value="25"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8246" name="Seed: Blue Cobol">
+		<set name="name-ru" value="Семя: Синий Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_seed_i00"/>
+		<set name="price" value="50"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8247" name="Seed: Thorn Cobol">
+		<set name="name-ru" value="Семя: Колючий Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_seed_i00"/>
+		<set name="price" value="50"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8248" name="Seed: Golden Cobol">
+		<set name="name-ru" value="Семя: Золотой Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_seed_i00"/>
+		<set name="price" value="50"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8249" name="Seed: Great Cobol">
+		<set name="name-ru" value="Семя: Большой Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_seed_i00"/>
+		<set name="price" value="50"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8250" name="Seed: Red Codran">
+		<set name="name-ru" value="Семя: Красный Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_seed_i00"/>
+		<set name="price" value="40"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8251" name="Seed: Sea Codran">
+		<set name="name-ru" value="Семя: Морской Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_seed_i00"/>
+		<set name="price" value="50"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8252" name="Seed: Chilly Codran">
+		<set name="name-ru" value="Семя: Холодный Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_seed_i00"/>
+		<set name="price" value="40"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8253" name="Seed: Blue Codran">
+		<set name="name-ru" value="Семя: Синий Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_seed_i00"/>
+		<set name="price" value="50"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8254" name="Seed: Twin Codran">
+		<set name="name-ru" value="Семя: Двойной Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_seed_i00"/>
+		<set name="price" value="50"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8255" name="Alternative Dark Coda Seed">
+		<set name="name-ru" value="Семя: Новая Темная Кода"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coda_seed_i00"/>
+		<set name="price" value="5"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8256" name="Alternative Red Coda Seed">
+		<set name="name-ru" value="Семя: Новая Красная Кода"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coda_seed_i00"/>
+		<set name="price" value="5"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8257" name="Seed: Alternative Chilly Coda">
+		<set name="name-ru" value="Семя: Новая Холодная Кода"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coda_seed_i00"/>
+		<set name="price" value="5"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8258" name="Alternative Blue Coda Seed">
+		<set name="name-ru" value="Семя: Новая Синяя Кода"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coda_seed_i00"/>
+		<set name="price" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8259" name="Seed: Alternative Golden Coda">
+		<set name="name-ru" value="Семя: Новая Золотая Кода"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coda_seed_i00"/>
+		<set name="price" value="20"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8260" name="Alternative Lute Coda Seed">
+		<set name="name-ru" value="Семя: Новая Кода Лютни"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coda_seed_i00"/>
+		<set name="price" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8261" name="Alternative Desert Coda Seed">
+		<set name="name-ru" value="Семя: Новая Пустынная Кода"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coda_seed_i00"/>
+		<set name="price" value="20"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8262" name="Seed: Alternative Red Cobol">
+		<set name="name-ru" value="Семя: Новый Красный Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_seed_i00"/>
+		<set name="price" value="20"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8263" name="Seed: Alternative Chilly Cobol">
+		<set name="name-ru" value="Семя: Новый Холодный Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_seed_i00"/>
+		<set name="price" value="25"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8264" name="Seed: Alternative Blue Cobol">
+		<set name="name-ru" value="Семя: Новый Синий Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_seed_i00"/>
+		<set name="price" value="50"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8265" name="Alternative Thorn Cobol Seed">
+		<set name="name-ru" value="Семя: Новый Колючий Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_seed_i00"/>
+		<set name="price" value="50"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8266" name="Seed: Alternative Golden Cobol">
+		<set name="name-ru" value="Семя: Новый Золотой Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_seed_i00"/>
+		<set name="price" value="50"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8267" name="Seed: Alternative Great Cobol">
+		<set name="name-ru" value="Семя: Новый Большой Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_seed_i00"/>
+		<set name="price" value="50"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8268" name="Seed: Alternative Red Codran">
+		<set name="name-ru" value="Семя: Новый Красный Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_seed_i00"/>
+		<set name="price" value="40"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8269" name="Seed: Alternative Sea Codran">
+		<set name="name-ru" value="Семя: Новый Морской Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_seed_i00"/>
+		<set name="price" value="50"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8270" name="Seed: Alternative Chilly Codran">
+		<set name="name-ru" value="Семя: Новый Холодный Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_seed_i00"/>
+		<set name="price" value="40"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8271" name="Seed: Alternative Blue Codran">
+		<set name="name-ru" value="Семя: Новый Синий Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_seed_i00"/>
+		<set name="price" value="50"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8272" name="Seed: Alternative Twin Codran">
+		<set name="name-ru" value="Семя: Новый Двойной Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_seed_i00"/>
+		<set name="price" value="50"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_SEED"/>
+	</etcitem>
+	<etcitem id="8273" name="Anteroom Key">
+		<set name="name-ru" value="Ключ от Комнаты Ожидания"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_old_key_i03"/>
+		<set name="price" value="2500"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+	<etcitem id="8274" name="Chapel Key">
+		<set name="name-ru" value="Ключ от Храма"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_old_key_i01"/>
+		<set name="price" value="2500"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+	<etcitem id="8275" name="Key of Darkness">
+		<set name="name-ru" value="Ключ Тьмы"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_old_key_i02"/>
+		<set name="price" value="2500"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+	<etcitem id="8276" name="Sekina's Scale">
+		<set name="name-ru" value="Чешуя Келоны"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_scale_of_medusa_blue_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="8277" name="Themis' Scale">
+		<set name="name-ru" value="Чешуя Темиса"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_scale_of_medusa_red_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="8278" name="Vermilion Shard">
+		<set name="name-ru" value="Щепка Палатоноса"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bark_gold_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="8279" name="Nucleus of Hekaton Prime">
+		<set name="name-ru" value="Ядро Хекатона Прайма"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bead_silver_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="8280" name="Tiphon Shard">
+		<set name="name-ru" value="Осколок Тифона"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_gargoyle_claw_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="8281" name="Glaki's Necleus">
+		<set name="name-ru" value="Ядро Глаки"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bead_gold_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="8282" name="Rahha's Fang">
+		<set name="name-ru" value="Клык Раххи"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_fang_red_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="8283" name="Sting of Giant Poison Bee">
+		<set name="name-ru" value="Жало Гигантской Ядовитой Пчелы"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_sting_a_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="8284" name="Cloudy Gem">
+		<set name="name-ru" value="Облачный Самоцвет"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_oriharukon_ore_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="8285" name="Talon of Young Araneid">
+		<set name="name-ru" value="Коготь Молодого Каракурта"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_claw_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="8286" name="Fairy Breath">
+		<set name="name-ru" value="Дыхание Феи"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_dragons_blood_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="8287" name="Starstone">
+		<set name="name-ru" value="Звездный Камень"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_crystal_blue_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="8288" name="Yumi's Letter">
+		<set name="name-ru" value="Письмо Юми"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_letter_red_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="8289" name="Starstone">
+		<set name="name-ru" value="Звездный Камень"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_crystal_blue_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="8290" name="Flower of Pavel">
+		<set name="name-ru" value="Цветок Павла"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_flower_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="8291" name="Heart of Atlanta">
+		<set name="name-ru" value="Сердце Атланты"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_inf_ore_medium_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="8292" name="Wendy's Necklace">
+		<set name="name-ru" value="Ожерелье Венди"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessary_necklace_of_devotion_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="8293" name="Trainer License">
+		<set name="name-ru" value="Диплом Дрессировщика"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_paper_red_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="8294" name="Recipe: Steel Sword (100%)">
+		<set name="name-ru" value="Рецепт: Стальной Меч (100%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_blue_i00"/>
+		<set name="price" value="8180"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+	<etcitem id="8295" name="Recipe: Titan Sword (100%)">
+		<set name="name-ru" value="Рецепт: Меч Титана (100%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_blue_i00"/>
+		<set name="price" value="28000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+	<etcitem id="8296" name="Recipe: Pa'agrian Sword (100%)">
+		<set name="name-ru" value="Рецепт: Меч Паагрио (100%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_yellow_i00"/>
+		<set name="price" value="86000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+	<etcitem id="8297" name="Recipe: Guardian's Sword (100%)">
+		<set name="name-ru" value="Рецепт: Меч Стража (100%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="262000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+	<etcitem id="8298" name="Recipe: Guardian's Sword (60%)">
+		<set name="name-ru" value="Рецепт: Меч Стража (60%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="262000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+	<etcitem id="8299" name="Recipe: Infernal Master (100%)">
+		<set name="name-ru" value="Рецепт: Мастер Инферно (100%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_violet_i00"/>
+		<set name="price" value="366000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+</list>

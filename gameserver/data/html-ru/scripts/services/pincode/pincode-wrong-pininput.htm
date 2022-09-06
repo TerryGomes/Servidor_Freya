@@ -1,0 +1,58 @@
+<html>
+<title>Войти в игру</title>
+<center>
+<table>
+<tr>
+<td align="center">
+<img src="l2ui_ct1.Icon_DF_MenuWnd_SystemMenu_Over" width="32" height="32" />
+</td>
+<td align="center">
+<font name="hs12">PIN код персонажа </font>
+</td>
+<td align="center">
+<img src="l2ui_ct1.Icon_DF_MenuWnd_SystemMenu_Over" width="32" height="32" />
+</td>
+</tr>
+</table>
+</center>
+<br><br>
+<font color="FF0000">Ввели не верный PIN код, повторите попытку ввода.</font>
+<br>
+<!-- Ввод пин кода -->
+<table>
+<tr>
+<td align="left"><br>
+<font color="386dd2">PIN код персонажа: </font>
+</td>
+<td align="center">
+<edit var="pincode" width="120" height="18">
+</td>
+</tr>
+</table>
+<br><button value="Проверить PIN код" action="bypass -h user_getpincode $pincode" width=170 height=35 back="L2UI_ct1.button_df" fore="L2UI_ct1.Button_DF_Large_Over">
+<br><br>
+<center>
+Если Вы 3 раза ввели PIN код персонажа не верно, то персонаж будет заблокирован на 15 минут.<br>
+<font name="hs12">Попытка </font><font color="FF0000" name="hs12">%errors%</font><font name="hs12"> из </font><font color="ffff00" name="hs12">%max_errors%</font>.
+</center>
+<br>
+<table width="250">
+<tr>
+<td align="center">
+<img src="l2ui_ct1.ICON_DF_Exclamation" width="32" height="32" />
+</td>
+<td align="center">
+Если ваш аккаунт привязан по HWID к вашему компьютеру, то при повторных входах в игру PIN код вводить не требуется.
+</td>
+</tr>
+</table><br><br><br><br>
+<center>
+<table width="250">
+<tr>
+<td align="center">
+<button value="Восстановить PIN" action="bypass -h user_restorepin" width=135 height=24 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+</td>
+</tr>
+</table>
+</center>
+</html>

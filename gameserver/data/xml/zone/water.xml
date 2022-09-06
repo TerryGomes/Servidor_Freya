@@ -1,0 +1,2835 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<list>
+	<!-- area_begin name=[11_23_water1] map_no={11;23} type=water water_range={Min:(-294912.000000 163839.984375 -4779.985840) Max:(-262144.000000 196607.984375 -3779.985840)} area_end -->
+	<zone name="[11_23_water1]" type="water">
+		<water_range>
+			<min range="-294912 163839 -4779"/>
+			<max range="-262144 196607 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[11_24_water1] map_no={11;24} type=water water_range={Min:(-294912.000000 196607.984375 -4779.985840) Max:(-262144.000000 229375.984375 -3779.985840)} area_end -->
+	<zone name="[11_24_water1]" type="water">
+		<water_range>
+			<min range="-294912 196607 -4779"/>
+			<max range="-262144 229375 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[11_25_water1] map_no={11;25} type=water water_range={Min:(-294912.000000 229375.984375 -4779.985840) Max:(-262144.000000 262143.984375 -3779.985840)} area_end -->
+	<zone name="[11_25_water1]" type="water">
+		<water_range>
+			<min range="-294912 229375 -4779"/>
+			<max range="-262144 262143 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[11_26_water1] map_no={11;26} type=water water_range={Min:(-294912.000000 262144.000000 -4779.985840) Max:(-262144.000000 294912.000000 -3779.985840)} area_end -->
+	<zone name="[11_26_water1]" type="water">
+		<water_range>
+			<min range="-294912 262144 -4779"/>
+			<max range="-262144 294912 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[12_23_water1] map_no={12;23} type=water water_range={Min:(-262144.000000 163839.984375 -4779.985840) Max:(-229376.000000 196607.984375 -3779.985840)} area_end -->
+	<zone name="[12_23_water1]" type="water">
+		<water_range>
+			<min range="-262144 163839 -4779"/>
+			<max range="-229376 196607 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[12_24_water1] map_no={12;24} type=water water_range={Min:(-262144.000000 196607.984375 -4779.985840) Max:(-229376.000000 229375.984375 -3779.985840)} area_end -->
+	<zone name="[12_24_water1]" type="water">
+		<water_range>
+			<min range="-262144 196607 -4779"/>
+			<max range="-229376 229375 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[12_25_water1] map_no={12;25} type=water water_range={Min:(-262144.000000 229375.984375 -4779.985840) Max:(-229376.000000 262143.984375 -3779.985840)} area_end -->
+	<zone name="[12_25_water1]" type="water">
+		<water_range>
+			<min range="-262144 229375 -4779"/>
+			<max range="-229376 262143 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[12_26_water1] map_no={12;26} type=water water_range={Min:(-262144.000000 262144.000000 -4779.985840) Max:(-229376.000000 294912.000000 -3779.985840)} area_end -->
+	<zone name="[12_26_water1]" type="water">
+		<water_range>
+			<min range="-262144 262144 -4779"/>
+			<max range="-229376 294912 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[13_23_water1] map_no={13;23} type=water water_range={Min:(-229376.000000 163839.984375 -4779.985840) Max:(-196608.000000 196607.984375 -3779.985840)} area_end -->
+	<zone name="[13_23_water1]" type="water">
+		<water_range>
+			<min range="-229376 163839 -4779"/>
+			<max range="-196608 196607 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[13_24_water1] map_no={13;24} type=water water_range={Min:(-229376.000000 223231.984375 -4779.985840) Max:(-196608.000000 229375.984375 -3779.985840)} area_end -->
+	<zone name="[13_24_water1]" type="water">
+		<water_range>
+			<min range="-229376 223231 -4779"/>
+			<max range="-196608 229375 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[13_24_water2] map_no={13;24} type=water water_range={Min:(-229376.000000 200447.984375 -4779.985840) Max:(-225024.000000 223231.984375 -3779.985840)} area_end -->
+	<zone name="[13_24_water2]" type="water">
+		<water_range>
+			<min range="-229376 200447 -4779"/>
+			<max range="-225024 223231 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[13_24_water3] map_no={13;24} type=water water_range={Min:(-229376.000000 196607.984375 -4779.985840) Max:(-196608.000000 200447.984375 -3779.985840)} area_end -->
+	<zone name="[13_24_water3]" type="water">
+		<water_range>
+			<min range="-229376 196607 -4779"/>
+			<max range="-196608 200447 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[13_24_water4] map_no={13;24} type=water water_range={Min:(-206336.000000 200447.984375 -4779.985840) Max:(-196608.000000 204287.984375 -3779.985840)} area_end -->
+	<zone name="[13_24_water4]" type="water">
+		<water_range>
+			<min range="-206336 200447 -4779"/>
+			<max range="-196608 204287 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[13_24_water5] map_no={13;24} type=water water_range={Min:(-225024.000000 200447.984375 -4779.985840) Max:(-217344.000000 207871.984375 -3779.985840)} area_end -->
+	<zone name="[13_24_water5]" type="water">
+		<water_range>
+			<min range="-225024 200447 -4779"/>
+			<max range="-217344 207871 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[13_24_water6] map_no={13;24} type=water water_range={Min:(-219648.000000 215039.984375 -4779.985840) Max:(-213248.000000 223231.984375 -3779.985840)} area_end -->
+	<zone name="[13_24_water6]" type="water">
+		<water_range>
+			<min range="-219648 215039 -4779"/>
+			<max range="-213248 223231 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[13_25_water1] map_no={13;25} type=water water_range={Min:(-229376.000000 229375.984375 -4779.985840) Max:(-196608.000000 262143.984375 -3779.985840)} area_end -->
+	<zone name="[13_25_water1]" type="water">
+		<water_range>
+			<min range="-229376 229375 -4779"/>
+			<max range="-196608 262143 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[13_26_water1] map_no={13;26} type=water water_range={Min:(-229376.000000 262144.000000 -4779.985840) Max:(-196608.000000 294912.000000 -3779.985840)} area_end -->
+	<zone name="[13_26_water1]" type="water">
+		<water_range>
+			<min range="-229376 262144 -4779"/>
+			<max range="-196608 294912 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[14_23_water1] map_no={14;23} type=water water_range={Min:(-196608.000000 163839.984375 -4779.985840) Max:(-163840.000000 196607.984375 -3779.985840)} area_end -->
+	<zone name="[14_23_water1]" type="water">
+		<water_range>
+			<min range="-196608 163839 -4779"/>
+			<max range="-163840 196607 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[14_24_water1] map_no={14;24} type=water water_range={Min:(-193152.000000 196607.984375 -4779.985840) Max:(-168960.000000 202239.984375 -3779.985840)} area_end -->
+	<zone name="[14_24_water1]" type="water">
+		<water_range>
+			<min range="-193152 196607 -4779"/>
+			<max range="-168960 202239 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[14_24_water2] map_no={14;24} type=water water_range={Min:(-168960.000000 196607.984375 -4779.985840) Max:(-163840.000000 229375.984375 -3779.985840)} area_end -->
+	<zone name="[14_24_water2]" type="water">
+		<water_range>
+			<min range="-168960 196607 -4779"/>
+			<max range="-163840 229375 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[14_24_water3] map_no={14;24} type=water water_range={Min:(-196608.000000 222975.984375 -4779.985840) Max:(-179584.000000 229375.984375 -3779.985840)} area_end -->
+	<zone name="[14_24_water3]" type="water">
+		<water_range>
+			<min range="-196608 222975 -4779"/>
+			<max range="-179584 229375 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[14_24_water4] map_no={14;24} type=water water_range={Min:(-179584.000000 224767.984375 -4779.985840) Max:(-168960.000000 229375.984375 -3779.985840)} area_end -->
+	<zone name="[14_24_water4]" type="water">
+		<water_range>
+			<min range="-179584 224767 -4779"/>
+			<max range="-168960 229375 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[14_24_water5] map_no={14;24} type=water water_range={Min:(-186880.000000 218111.984375 -4779.985840) Max:(-179584.000000 222975.984375 -3779.985840)} area_end -->
+	<zone name="[14_24_water5]" type="water">
+		<water_range>
+			<min range="-186880 218111 -4779"/>
+			<max range="-179584 222975 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[14_24_water6] map_no={14;24} type=water water_range={Min:(-196608.000000 196607.984375 -4779.985840) Max:(-193152.000000 203775.984375 -3779.985840)} area_end -->
+	<zone name="[14_24_water6]" type="water">
+		<water_range>
+			<min range="-196608 196607 -4779"/>
+			<max range="-193152 203775 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[14_25_water1] map_no={14;25} type=water water_range={Min:(-196608.000000 229375.984375 -4779.985840) Max:(-163840.000000 262143.984375 -3779.985840)} area_end -->
+	<zone name="[14_25_water1]" type="water">
+		<water_range>
+			<min range="-196608 229375 -4779"/>
+			<max range="-163840 262143 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[14_25_water2] map_no={14;25} type=water water_range={Min:(-187152.000000 240401.000000 -2192.000000) Max:(-183376.000000 245393.000000 -144.000000)} area_end -->
+	<zone name="[14_25_water2]" type="water">
+		<water_range>
+			<min range="-187152 240401 -2192"/>
+			<max range="-183376 245393 -144"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[14_25_water3] map_no={14;25} type=water water_range={Min:(-183376.000000 241768.000000 -2192.000000) Max:(-182032.000000 244872.000000 -144.000000)} area_end -->
+	<zone name="[14_25_water3]" type="water">
+		<water_range>
+			<min range="-183376 241768 -2192"/>
+			<max range="-182032 244872 -144"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[14_25_water4] map_no={14;25} type=water water_range={Min:(-183376.000000 240968.000000 -2192.000000) Max:(-182799.000000 241768.000000 -144.000000)} area_end -->
+	<zone name="[14_25_water4]" type="water">
+		<water_range>
+			<min range="-183376 240968 -2192"/>
+			<max range="-182799 241768 -144"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[14_26_water1] map_no={14;26} type=water water_range={Min:(-196608.000000 262144.000000 -4779.985840) Max:(-163840.000000 294912.000000 -3779.985840)} area_end -->
+	<zone name="[14_26_water1]" type="water">
+		<water_range>
+			<min range="-196608 262144 -4779"/>
+			<max range="-163840 294912 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[15_23_water1] map_no={15;23} type=water water_range={Min:(-163840.000000 163839.984375 -4784.000977) Max:(-131072.000000 196607.984375 -3784.000977)} area_end -->
+	<zone name="[15_23_water1]" type="water">
+		<water_range>
+			<min range="-163840 163839 -4784"/>
+			<max range="-131072 196607 -3784"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[15_24_water1] map_no={15;24} type=water water_range={Min:(-163840.000000 196608.000000 -4779.995605) Max:(-131072.000000 229376.000000 -3779.995605)} area_end -->
+	<zone name="[15_24_water1]" type="water">
+		<water_range>
+			<min range="-163840 196608 -4779"/>
+			<max range="-131072 229376 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[15_25_water1] map_no={15;25} type=water water_range={Min:(-163840.000000 229375.984375 -4779.985840) Max:(-131072.000000 262143.984375 -3779.985840)} area_end -->
+	<zone name="[15_25_water1]" type="water">
+		<water_range>
+			<min range="-163840 229375 -4779"/>
+			<max range="-131072 262143 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[15_26_water1] map_no={15;26} type=water water_range={Min:(-163840.000000 262144.031250 -4783.994141) Max:(-131072.000000 294912.031250 -3783.994141)} area_end -->
+	<zone name="[15_26_water1]" type="water">
+		<water_range>
+			<min range="-163840 262144 -4783"/>
+			<max range="-131072 294912 -3783"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[16_11_water1] map_no={16;11} type=water water_range={Min:(-131072.000000 -229376.000000 -4780.000000) Max:(-98304.000000 -196608.000000 -3780.000000)} area_end -->
+	<zone name="[16_11_water1]" type="water">
+		<water_range>
+			<min range="-131072 -229376 -4780"/>
+			<max range="-98304 -196608 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[16_14_water1] map_no={16;14} type=water water_range={Min:(-131072.000000 -131072.000000 -4780.000000) Max:(-98304.000000 -98304.000000 -3780.000000)} area_end -->
+	<zone name="[16_14_water1]" type="water">
+		<water_range>
+			<min range="-131072 -131072 -4780"/>
+			<max range="-98304 -98304 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[16_15_water1] map_no={16;15} type=water water_range={Min:(-131072.000000 -98304.000000 -4780.000000) Max:(-98304.000000 -65536.000000 -3780.000000)} area_end -->
+	<zone name="[16_15_water1]" type="water">
+		<water_range>
+			<min range="-131072 -98304 -4780"/>
+			<max range="-98304 -65536 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[16_16_water1] map_no={16;16} type=water water_range={Min:(-131072.000000 -65536.000000 -4780.000000) Max:(-98304.000000 -32768.000000 -3780.000000)} area_end -->
+	<zone name="[16_16_water1]" type="water">
+		<water_range>
+			<min range="-131072 -65536 -4780"/>
+			<max range="-98304 -32768 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[16_17_water1] map_no={16;17} type=water water_range={Min:(-131072.000000 -32768.000000 -4780.000000) Max:(-98304.000000 0.000000 -3780.000000)} area_end -->
+	<zone name="[16_17_water1]" type="water">
+		<water_range>
+			<min range="-131072 -32768 -4780"/>
+			<max range="-98304 0 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[16_18_water1] map_no={16;18} type=water water_range={Min:(-131072.000000 0.000000 -4780.000000) Max:(-98304.000000 32768.000000 -3780.000000)} area_end -->
+	<zone name="[16_18_water1]" type="water">
+		<water_range>
+			<min range="-131072 0 -4780"/>
+			<max range="-98304 32768 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[16_20_water1] map_no={16;20} type=water water_range={Min:(-131072.000000 65536.000000 -4780.000000) Max:(-98304.000000 98304.000000 -3780.000000)} area_end -->
+	<zone name="[16_20_water1]" type="water">
+		<water_range>
+			<min range="-131072 65536 -4780"/>
+			<max range="-98304 98304 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[16_20_water2] map_no={16;20} type=water water_range={Min:(-117708.000000 86820.000000 -12729.000000) Max:(-116988.000000 87540.000000 -12721.000000)} area_end -->
+	<zone name="[16_20_water2]" type="water">
+		<water_range>
+			<min range="-117708 86820 -12729"/>
+			<max range="-116988 87540 -12721"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[16_20_water3] map_no={16;20} type=water water_range={Min:(-115811.000000 86821.000000 -12822.000000) Max:(-115091.000000 87541.000000 -12814.000000)} area_end -->
+	<zone name="[16_20_water3]" type="water">
+		<water_range>
+			<min range="-115811 86821 -12822"/>
+			<max range="-115091 87541 -12814"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[16_20_water4] map_no={16;20} type=water water_range={Min:(-113915.000000 86823.000000 -12919.000000) Max:(-113195.000000 87543.000000 -12911.000000)} area_end -->
+	<zone name="[16_20_water4]" type="water">
+		<water_range>
+			<min range="-113915 86823 -12919"/>
+			<max range="-113195 87543 -12911"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[16_20_water5] map_no={16;20} type=water water_range={Min:(-119992.000000 86728.000000 -12632.000000) Max:(-119096.000000 87624.000000 -12624.000000)} area_end -->
+	<zone name="[16_20_water5]" type="water">
+		<water_range>
+			<min range="-119992 86728 -12632"/>
+			<max range="-119096 87624 -12624"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[16_20_water6] map_no={16;20} type=water water_range={Min:(-119096.000000 86960.000000 -12632.000000) Max:(-118880.000000 87392.000000 -12624.000000)} area_end -->
+	<zone name="[16_20_water6]" type="water">
+		<water_range>
+			<min range="-119096 86960 -12632"/>
+			<max range="-118880 87392 -12624"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[16_20_water7] map_no={16;20} type=water water_range={Min:(-120224.000000 86960.000000 -12632.000000) Max:(-119992.000000 87392.000000 -12624.000000)} area_end -->
+	<zone name="[16_20_water7]" type="water">
+		<water_range>
+			<min range="-120224 86960 -12632"/>
+			<max range="-119992 87392 -12624"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[16_20_water8] map_no={16;20} type=water water_range={Min:(-119760.000000 86520.000000 -12632.000000) Max:(-119328.000000 86728.000000 -12624.000000)} area_end -->
+	<zone name="[16_20_water8]" type="water">
+		<water_range>
+			<min range="-119760 86520 -12632"/>
+			<max range="-119328 86728 -12624"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[16_20_water9] map_no={16;20} type=water water_range={Min:(-119760.000000 87624.000000 -12632.000000) Max:(-119328.000000 87848.000000 -12624.000000)} area_end -->
+	<zone name="[16_20_water9]" type="water">
+		<water_range>
+			<min range="-119760 87624 -12632"/>
+			<max range="-119328 87848 -12624"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[16_21_water1] map_no={16;21} type=water water_range={Min:(-131071.984375 98303.992188 -4780.006836) Max:(-98303.984375 131071.992188 -3780.006836)} area_end -->
+	<zone name="[16_21_water1]" type="water">
+		<water_range>
+			<min range="-131071 98303 -4780"/>
+			<max range="-98303 131071 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[16_22_water1] map_no={16;22} type=water water_range={Min:(-131071.757813 131072.000000 -4780.001465) Max:(-98303.757813 163840.000000 -3780.001465)} area_end -->
+	<zone name="[16_22_water1]" type="water">
+		<water_range>
+			<min range="-131071 131072 -4780"/>
+			<max range="-98303 163840 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[16_23_water1] map_no={16;23} type=water water_range={Min:(-131071.773438 163840.000000 -4780.006348) Max:(-98303.773438 196608.000000 -3780.006348)} area_end -->
+	<zone name="[16_23_water1]" type="water">
+		<water_range>
+			<min range="-131071 163840 -4780"/>
+			<max range="-98303 196608 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[16_24_water1] map_no={16;24} type=water water_range={Min:(-131072.000000 196607.953125 -7779.996582) Max:(-98304.000000 229375.953125 -3779.996582)} area_end -->
+	<zone name="[16_24_water1]" type="water">
+		<water_range>
+			<min range="-131072 196607 -7779"/>
+			<max range="-98304 229375 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[16_25_water1] map_no={16;25} type=water water_range={Min:(-131072.000000 229375.000000 -4779.998535) Max:(-98304.000000 262144.000000 -3779.998535)} area_end -->
+	<zone name="[16_25_water1]" type="water">
+		<water_range>
+			<min range="-131072 229375 -4779"/>
+			<max range="-98304 262144 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_11_water1] map_no={17;11} type=water water_range={Min:(-98304.000000 -229376.000000 -4748.000000) Max:(-65536.000000 -196608.000000 -3748.000000)} area_end -->
+	<zone name="[17_11_water1]" type="water">
+		<water_range>
+			<min range="-98304 -229376 -4748"/>
+			<max range="-65536 -196608 -3748"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_14_water1] map_no={17;14} type=water water_range={Min:(-98304.000000 -131072.000000 -4779.995605) Max:(-65536.000000 -98304.000000 -3779.995605)} area_end -->
+	<zone name="[17_14_water1]" type="water">
+		<water_range>
+			<min range="-98304 -131072 -4779"/>
+			<max range="-65536 -98304 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_15_water1] map_no={17;15} type=water water_range={Min:(-98304.000000 -98304.000000 -4756.000000) Max:(-65536.000000 -65536.000000 -3756.000000)} area_end -->
+	<zone name="[17_15_water1]" type="water">
+		<water_range>
+			<min range="-98304 -98304 -4756"/>
+			<max range="-65536 -65536 -3756"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_16_water1] map_no={17;16} type=water water_range={Min:(-98304.000000 -65536.000000 -4780.000000) Max:(-65536.000000 -32768.000000 -3780.000000)} area_end -->
+	<zone name="[17_16_water1]" type="water">
+		<water_range>
+			<min range="-98304 -65536 -4780"/>
+			<max range="-65536 -32768 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_17_water1] map_no={17;17} type=water water_range={Min:(-98304.000000 -32768.000000 -4764.000000) Max:(-65536.000000 0.000000 -3764.000000)} area_end -->
+	<zone name="[17_17_water1]" type="water">
+		<water_range>
+			<min range="-98304 -32768 -4764"/>
+			<max range="-65536 0 -3764"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_18_water1] map_no={17;18} type=water water_range={Min:(-98303.992188 -0.001953 -4780.011230) Max:(-65535.992188 32767.998047 -3780.011230)} area_end -->
+	<zone name="[17_18_water1]" type="water">
+		<water_range>
+			<min range="-98303 0 -4780"/>
+			<max range="-65535 32767 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_19_water1] map_no={17;19} type=water water_range={Min:(-78208.000000 32768.003906 -4779.995605) Max:(-65536.000000 65536.000000 -3779.995605)} area_end -->
+	<zone name="[17_19_water1]" type="water">
+		<water_range>
+			<min range="-78208 32768 -4779"/>
+			<max range="-65536 65536 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_19_water2] map_no={17;19} type=water water_range={Min:(-98304.000000 56320.000000 -4779.995605) Max:(-78208.000000 65535.996094 -3779.995605)} area_end -->
+	<zone name="[17_19_water2]" type="water">
+		<water_range>
+			<min range="-98304 56320 -4779"/>
+			<max range="-78208 65535 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_19_water3] map_no={17;19} type=water water_range={Min:(-98304.000000 32768.003906 -4779.995605) Max:(-78208.000000 39936.000000 -3779.995605)} area_end -->
+	<zone name="[17_19_water3]" type="water">
+		<water_range>
+			<min range="-98304 32768 -4779"/>
+			<max range="-78208 39936 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_20_water1] map_no={17;20} type=water water_range={Min:(-98303.984375 65536.000000 -4780.023438) Max:(-85503.984375 98304.000000 -3780.023438)} area_end -->
+	<zone name="[17_20_water1]" type="water">
+		<water_range>
+			<min range="-98303 65536 -4780"/>
+			<max range="-85503 98304 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_20_water2] map_no={17;20} type=water water_range={Min:(-85503.984375 65536.000000 -4780.023438) Max:(-65535.984375 80384.000000 -3780.023438)} area_end -->
+	<zone name="[17_20_water2]" type="water">
+		<water_range>
+			<min range="-85503 65536 -4780"/>
+			<max range="-65535 80384 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_20_water3] map_no={17;20} type=water water_range={Min:(-85056.000000 86208.000000 -5824.000000) Max:(-84416.000000 86848.000000 -3504.000000)} area_end -->
+	<zone name="[17_20_water3]" type="water">
+		<water_range>
+			<min range="-85056 86208 -5824"/>
+			<max range="-84416 86848 -3504"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_20_water4] map_no={17;20} type=water water_range={Min:(-84416.000000 86208.000000 -5824.000000) Max:(-82944.000000 86848.000000 -5248.000000)} area_end -->
+	<zone name="[17_20_water4]" type="water">
+		<water_range>
+			<min range="-84416 86208 -5824"/>
+			<max range="-82944 86848 -5248"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_21_water1] map_no={17;21} type=water water_range={Min:(-98304.000000 121072.000000 -4780.000000) Max:(-88304.000000 131072.000000 -3780.000000)} area_end -->
+	<zone name="[17_21_water1]" type="water">
+		<water_range>
+			<min range="-98304 121072 -4780"/>
+			<max range="-88304 131072 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_21_water2] map_no={17;21} type=water water_range={Min:(-98304.000000 98304.000000 -4780.000000) Max:(-96804.000000 99804.000000 -3780.000000)} area_end -->
+	<zone name="[17_21_water2]" type="water">
+		<water_range>
+			<min range="-98304 98304 -4780"/>
+			<max range="-96804 99804 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_21_water3] map_no={17;21} type=water water_range={Min:(-68536.000000 128072.000000 -4179.000000) Max:(-65536.000000 131072.000000 -3179.000000)} area_end -->
+	<zone name="[17_21_water3]" type="water">
+		<water_range>
+			<min range="-68536 128072 -4179"/>
+			<max range="-65536 131072 -3179"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_21_water4] map_no={17;21} type=water water_range={Min:(-84032.000000 111040.000000 -5568.000000) Max:(-83392.000000 111680.000000 -3248.000000)} area_end -->
+	<zone name="[17_21_water4]" type="water">
+		<water_range>
+			<min range="-84032 111040 -5568"/>
+			<max range="-83392 111680 -3248"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_21_water5] map_no={17;21} type=water water_range={Min:(-83392.000000 111040.000000 -5568.000000) Max:(-81920.000000 111680.000000 -4992.000000)} area_end -->
+	<zone name="[17_21_water5]" type="water">
+		<water_range>
+			<min range="-83392 111040 -5568"/>
+			<max range="-81920 111680 -4992"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_22_water1] map_no={17;22} type=water water_range={Min:(-98304.000000 131072.000000 -4780.000000) Max:(-78304.000000 163840.000000 -3780.000000)} area_end -->
+	<zone name="[17_22_water1]" type="water">
+		<water_range>
+			<min range="-98304 131072 -4780"/>
+			<max range="-78304 163840 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_22_water2] map_no={17;22} type=water water_range={Min:(-69836.000000 131072.000000 -4179.000000) Max:(-65536.000000 140072.000000 -3179.000000)} area_end -->
+	<zone name="[17_22_water2]" type="water">
+		<water_range>
+			<min range="-69836 131072 -4179"/>
+			<max range="-65536 140072 -3179"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_23_water1] map_no={17;23} type=water water_range={Min:(-98304.000000 163840.000000 -7780.000000) Max:(-65536.000000 196608.000000 -3780.000000)} area_end -->
+	<zone name="[17_23_water1]" type="water">
+		<water_range>
+			<min range="-98304 163840 -7780"/>
+			<max range="-65536 196608 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_24_water1] map_no={17;24} type=water water_range={Min:(-98303.992188 196608.000000 -4779.998535) Max:(-65535.992188 229376.000000 -3779.998535)} area_end -->
+	<zone name="[17_24_water1]" type="water">
+		<water_range>
+			<min range="-98303 196608 -4779"/>
+			<max range="-65535 229376 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[17_25_water1] map_no={17;25} type=water water_range={Min:(-98303.992188 229375.984375 -4779.993164) Max:(-65535.992188 262143.984375 -3779.993164)} area_end -->
+	<zone name="[17_25_water1]" type="water">
+		<water_range>
+			<min range="-98303 229375 -4779"/>
+			<max range="-65535 262143 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_11_water1] map_no={18;11} type=water water_range={Min:(-65536.000000 -229375.984375 -4780.000000) Max:(-32768.000000 -196607.984375 -3780.000000)} area_end -->
+	<zone name="[18_11_water1]" type="water">
+		<water_range>
+			<min range="-65536 -229375 -4780"/>
+			<max range="-32768 -196607 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_14_water1] map_no={18;14} type=water water_range={Min:(-65536.000000 -103304.039063 -4780.002930) Max:(-32768.003906 -98304.039063 -3780.002930)} area_end -->
+	<zone name="[18_14_water1]" type="water">
+		<water_range>
+			<min range="-65536 -103304 -4780"/>
+			<max range="-32768 -98304 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_15_water1] map_no={18;15} type=water water_range={Min:(-65535.992188 -98304.000000 -4779.993164) Max:(-32767.992188 -65536.000000 -3779.993164)} area_end -->
+	<zone name="[18_15_water1]" type="water">
+		<water_range>
+			<min range="-65535 -98304 -4779"/>
+			<max range="-32767 -65536 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_15_water2] map_no={18;15} type=water water_range={Min:(-56956.000000 -70888.000000 -3500.000000) Max:(-55556.000000 -68104.000000 -3200.000000)} area_end -->
+	<zone name="[18_15_water2]" type="water">
+		<water_range>
+			<min range="-56956 -70888 -3500"/>
+			<max range="-55556 -68104 -3200"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_15_water3] map_no={18;15} type=water water_range={Min:(-50556.000000 -70888.000000 -3500.000000) Max:(-49604.000000 -68104.000000 -3200.000000)} area_end -->
+	<zone name="[18_15_water3]" type="water">
+		<water_range>
+			<min range="-50556 -70888 -3500"/>
+			<max range="-49604 -68104 -3200"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_15_water4] map_no={18;15} type=water water_range={Min:(-56380.000000 -72024.000000 -3500.000000) Max:(-50116.000000 -70888.000000 -3200.000000)} area_end -->
+	<zone name="[18_15_water4]" type="water">
+		<water_range>
+			<min range="-56380 -72024 -3500"/>
+			<max range="-50116 -70888 -3200"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_15_water5] map_no={18;15} type=water water_range={Min:(-56380.000000 -68104.000000 -3500.000000) Max:(-50012.000000 -67112.000000 -3200.000000)} area_end -->
+	<zone name="[18_15_water5]" type="water">
+		<water_range>
+			<min range="-56380 -68104 -3500"/>
+			<max range="-50012 -67112 -3200"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_15_water6] map_no={18;15} type=water water_range={Min:(-59454.000000 -68630.000000 -3108.000000) Max:(-58034.000000 -67530.000000 -3008.000000)} area_end -->
+	<zone name="[18_15_water6]" type="water">
+		<water_range>
+			<min range="-59454 -68630 -3108"/>
+			<max range="-58034 -67530 -3008"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_16_water1] map_no={18;16} type=water water_range={Min:(-65536.000000 -65536.000000 -4780.000000) Max:(-32768.000000 -32768.000000 -3780.000000)} area_end -->
+	<zone name="[18_16_water1]" type="water">
+		<water_range>
+			<min range="-65536 -65536 -4780"/>
+			<max range="-32768 -32768 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_17_water1] map_no={18;17} type=water water_range={Min:(-65536.000000 -32768.000000 -4780.000000) Max:(-32768.000000 0.000000 -3780.000000)} area_end -->
+	<zone name="[18_17_water1]" type="water">
+		<water_range>
+			<min range="-65536 -32768 -4780"/>
+			<max range="-32768 0 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_19_water1] map_no={18;19} type=water water_range={Min:(-65536.218750 32767.996094 -4779.998535) Max:(-52036.214844 65535.996094 -3779.998535)} area_end -->
+	<zone name="[18_19_water1]" type="water">
+		<water_range>
+			<min range="-65536 32767 -4779"/>
+			<max range="-52036 65535 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_19_water2] map_no={18;19} type=water water_range={Min:(-52036.066406 32768.000000 -4779.998535) Max:(-32768.066406 40768.000000 -3779.998535)} area_end -->
+	<zone name="[18_19_water2]" type="water">
+		<water_range>
+			<min range="-52036 32768 -4779"/>
+			<max range="-32768 40768 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_20_water1] map_no={18;20} type=water water_range={Min:(-65536.007813 65536.000000 -4780.000000) Max:(-55536.007813 75536.000000 -3780.000000)} area_end -->
+	<zone name="[18_20_water1]" type="water">
+		<water_range>
+			<min range="-65536 65536 -4780"/>
+			<max range="-55536 75536 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_20_water2] map_no={18;20} type=water water_range={Min:(-56055.980469 78728.015625 -5408.000000) Max:(-55303.980469 79480.015625 -3048.000000)} area_end -->
+	<zone name="[18_20_water2]" type="water">
+		<water_range>
+			<min range="-56055 78728 -5408"/>
+			<max range="-55303 79480 -3048"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_20_water3] map_no={18;20} type=water water_range={Min:(-55303.980469 78784.000000 -5408.000000) Max:(-53887.980469 79424.000000 -4831.000000)} area_end -->
+	<zone name="[18_20_water3]" type="water">
+		<water_range>
+			<min range="-55303 78784 -5408"/>
+			<max range="-53887 79424 -4831"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_21_water1] map_no={18;21} type=water water_range={Min:(-65536.000000 122368.000000 -4179.000000) Max:(-52480.000000 131072.000000 -3179.000000)} area_end -->
+	<zone name="[18_21_water1]" type="water">
+		<water_range>
+			<min range="-65536 122368 -4179"/>
+			<max range="-52480 131072 -3179"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_21_water1] map_no={18;21} type=water water_range={Min:(-65536.000000 113088.000000 -4659.000000) Max:(-57664.000000 121856.000000 -3659.000000)} area_end -->
+	<zone name="[18_21_water1]" type="water">
+		<water_range>
+			<min range="-65536 113088 -4659"/>
+			<max range="-57664 121856 -3659"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_22_water1] map_no={18;22} type=water water_range={Min:(-65536.000000 131072.000000 -4179.000000) Max:(-62464.000000 141056.000000 -3179.000000)} area_end -->
+	<zone name="[18_22_water1]" type="water">
+		<water_range>
+			<min range="-65536 131072 -4179"/>
+			<max range="-62464 141056 -3179"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_22_water2] map_no={18;22} type=water water_range={Min:(-61764.000000 131072.000000 -4179.000000) Max:(-55748.000000 132608.000000 -3179.000000)} area_end -->
+	<zone name="[18_22_water2]" type="water">
+		<water_range>
+			<min range="-61764 131072 -4179"/>
+			<max range="-55748 132608 -3179"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_23_water1] map_no={18;23} type=water water_range={Min:(-65536.000000 191350.000000 -4780.000000) Max:(-53536.000000 196608.000000 -3780.000000)} area_end -->
+	<zone name="[18_23_water1]" type="water">
+		<water_range>
+			<min range="-65536 191350 -4780"/>
+			<max range="-53536 196608 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_23_water2] map_no={18;23} type=water water_range={Min:(-65535.000000 179446.000000 -4780.000000) Max:(-62962.000000 191446.000000 -3780.000000)} area_end -->
+	<zone name="[18_23_water2]" type="water">
+		<water_range>
+			<min range="-65535 179446 -4780"/>
+			<max range="-62962 191446 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_23_water3] map_no={18;23} type=water water_range={Min:(-54681.144531 180233.859375 -4960.000000) Max:(-53049.144531 183017.859375 -4702.000000)} area_end -->
+	<zone name="[18_23_water3]" type="water">
+		<water_range>
+			<min range="-54681 180233 -4960"/>
+			<max range="-53049 183017 -4702"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_23_water4] map_no={18;23} type=water water_range={Min:(-53616.140625 183018.140625 -4960.000000) Max:(-52368.140625 184394.140625 -4702.000000)} area_end -->
+	<zone name="[18_23_water4]" type="water">
+		<water_range>
+			<min range="-53616 183018 -4960"/>
+			<max range="-52368 184394 -4702"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_24_water1] map_no={18;24} type=water water_range={Min:(-41888.007813 206688.031250 -5754.000000) Max:(-41248.007813 208160.031250 -5177.000000)} area_end -->
+	<zone name="[18_24_water1]" type="water">
+		<water_range>
+			<min range="-41888 206688 -5754"/>
+			<max range="-41248 208160 -5177"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_24_water2] map_no={18;24} type=water water_range={Min:(-65536.000000 196608.000000 -4780.000000) Max:(-53536.000000 229376.000000 -3780.000000)} area_end -->
+	<zone name="[18_24_water2]" type="water">
+		<water_range>
+			<min range="-65536 196608 -4780"/>
+			<max range="-53536 229376 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_24_water3] map_no={18;24} type=water water_range={Min:(-53536.000000 220976.000000 -4780.000000) Max:(-32768.000000 229376.000000 -3780.000000)} area_end -->
+	<zone name="[18_24_water3]" type="water">
+		<water_range>
+			<min range="-53536 220976 -4780"/>
+			<max range="-32768 229376 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_24_water4] map_no={18;24} type=water water_range={Min:(-41024.000000 212576.000000 -4780.000000) Max:(-32768.000000 220976.000000 -3780.000000)} area_end -->
+	<zone name="[18_24_water4]" type="water">
+		<water_range>
+			<min range="-41024 212576 -4780"/>
+			<max range="-32768 220976 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_24_water5] map_no={18;24} type=water water_range={Min:(-53536.000000 212576.000000 -4282.000000) Max:(-45280.000000 220976.000000 -3780.000000)} area_end -->
+	<zone name="[18_24_water5]" type="water">
+		<water_range>
+			<min range="-53536 212576 -4282"/>
+			<max range="-45280 220976 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_24_water6] map_no={18;24} type=water water_range={Min:(-53536.000000 202208.000000 -4282.000000) Max:(-47584.000000 209584.000000 -3780.000000)} area_end -->
+	<zone name="[18_24_water6]" type="water">
+		<water_range>
+			<min range="-53536 202208 -4282"/>
+			<max range="-47584 209584 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_24_water7] map_no={18;24} type=water water_range={Min:(-45280.000000 212576.000000 -4282.000000) Max:(-41024.000000 220976.000000 -3780.000000)} area_end -->
+	<zone name="[18_24_water7]" type="water">
+		<water_range>
+			<min range="-45280 212576 -4282"/>
+			<max range="-41024 220976 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_24_water8] map_no={18;24} type=water water_range={Min:(-41888.031250 206048.015625 -5754.000000) Max:(-41248.031250 206688.015625 -3434.000000)} area_end -->
+	<zone name="[18_24_water8]" type="water">
+		<water_range>
+			<min range="-41888 206048 -5754"/>
+			<max range="-41248 206688 -3434"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[18_25_water1] map_no={18;25} type=water water_range={Min:(-65536.000000 229375.984375 -4779.998047) Max:(-32768.000000 262143.984375 -3779.998047)} area_end -->
+	<zone name="[18_25_water1]" type="water">
+		<water_range>
+			<min range="-65536 229375 -4779"/>
+			<max range="-32768 262143 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_11_water1] map_no={19;11} type=water water_range={Min:(-32768.000000 -229375.984375 -4780.000000) Max:(0.000000 -196607.984375 -3780.000000)} area_end -->
+	<zone name="[19_11_water1]" type="water">
+		<water_range>
+			<min range="-32768 -229375 -4780"/>
+			<max range="0 -196607 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_14_water1] map_no={19;14} type=water water_range={Min:(-32767.990234 -101304.007813 -4779.981445) Max:(-29767.990234 -98304.007813 -3779.981445)} area_end -->
+	<zone name="[19_14_water1]" type="water">
+		<water_range>
+			<min range="-32767 -101304 -4779"/>
+			<max range="-29767 -98304 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_15_water1] map_no={19;15} type=water water_range={Min:(-32768.007813 -98304.000000 -4780.000000) Max:(-0.007813 -65536.000000 -3780.000000)} area_end -->
+	<zone name="[19_15_water1]" type="water">
+		<water_range>
+			<min range="-32768 -98304 -4780"/>
+			<max range="0 -65536 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_16_water1] map_no={19;16} type=water water_range={Min:(-32768.000000 -65536.015625 -4780.000000) Max:(-0.001953 -32768.015625 -3780.000000)} area_end -->
+	<zone name="[19_16_water1]" type="water">
+		<water_range>
+			<min range="-32768 -65536 -4780"/>
+			<max range="0 -32768 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_17_water1] map_no={19;17} type=water water_range={Min:(-32768.000000 -32768.000000 -4780.000000) Max:(-25088.000000 0.000000 -3780.000000)} area_end -->
+	<zone name="[19_17_water1]" type="water">
+		<water_range>
+			<min range="-32768 -32768 -4780"/>
+			<max range="-25088 0 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_17_water2] map_no={19;17} type=water water_range={Min:(-25088.000000 -32768.000000 -4780.000000) Max:(-16384.000000 -25856.000000 -3780.000000)} area_end -->
+	<zone name="[19_17_water2]" type="water">
+		<water_range>
+			<min range="-25088 -32768 -4780"/>
+			<max range="-16384 -25856 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_17_water3] map_no={19;17} type=water water_range={Min:(-16384.000000 -32768.000000 -4780.000000) Max:(0.000000 -14848.000000 -3780.000000)} area_end -->
+	<zone name="[19_17_water3]" type="water">
+		<water_range>
+			<min range="-16384 -32768 -4780"/>
+			<max range="0 -14848 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_17_water4] map_no={19;17} type=water water_range={Min:(-25088.000000 -14848.000000 -4780.000000) Max:(0.000000 0.000000 -3780.000000)} area_end -->
+	<zone name="[19_17_water4]" type="water">
+		<water_range>
+			<min range="-25088 -14848 -4780"/>
+			<max range="0 0 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_17_water5] map_no={19;17} type=water water_range={Min:(-19712.000000 -17664.000000 -4780.000000) Max:(-16384.000000 -14848.000000 -3780.000000)} area_end -->
+	<zone name="[19_17_water5]" type="water">
+		<water_range>
+			<min range="-19712 -17664 -4780"/>
+			<max range="-16384 -14848 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_17_water6] map_no={19;17} type=water water_range={Min:(-25088.000000 -18176.000000 -4780.000000) Max:(-21760.000000 -14848.000000 -3780.000000)} area_end -->
+	<zone name="[19_17_water6]" type="water">
+		<water_range>
+			<min range="-25088 -18176 -4780"/>
+			<max range="-21760 -14848 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_17_water7] map_no={19;17} type=water water_range={Min:(-17920.000000 -20224.000000 -4780.000000) Max:(-16384.000000 -17664.000000 -3780.000000)} area_end -->
+	<zone name="[19_17_water7]" type="water">
+		<water_range>
+			<min range="-17920 -20224 -4780"/>
+			<max range="-16384 -17664 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_17_water8] map_no={19;17} type=water water_range={Min:(-18688.000000 -25856.000000 -4780.000000) Max:(-16384.000000 -23296.000000 -3780.000000)} area_end -->
+	<zone name="[19_17_water8]" type="water">
+		<water_range>
+			<min range="-18688 -25856 -4780"/>
+			<max range="-16384 -23296 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_17_water9] map_no={19;17} type=water water_range={Min:(-25088.000000 -25856.000000 -4780.000000) Max:(-23808.000000 -22784.000000 -3780.000000)} area_end -->
+	<zone name="[19_17_water9]" type="water">
+		<water_range>
+			<min range="-25088 -25856 -4780"/>
+			<max range="-23808 -22784 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_17_water10] map_no={19;17} type=water water_range={Min:(-23808.000000 -25856.000000 -4780.000000) Max:(-21504.000000 -24320.000000 -3780.000000)} area_end -->
+	<zone name="[19_17_water10]" type="water">
+		<water_range>
+			<min range="-23808 -25856 -4780"/>
+			<max range="-21504 -24320 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_18_water1] map_no={19;18} type=water water_range={Min:(-32768.000000 0.000000 -4780.000000) Max:(-23424.000000 32768.000000 -3780.000000)} area_end -->
+	<zone name="[19_18_water1]" type="water">
+		<water_range>
+			<min range="-32768 0 -4780"/>
+			<max range="-23424 32768 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_18_water2] map_no={19;18} type=water water_range={Min:(-23168.000000 13184.000000 -5568.000000) Max:(-22528.000000 13824.000000 -3248.000000)} area_end -->
+	<zone name="[19_18_water2]" type="water">
+		<water_range>
+			<min range="-23168 13184 -5568"/>
+			<max range="-22528 13824 -3248"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_18_water3] map_no={19;18} type=water water_range={Min:(-22528.000000 13184.000000 -5568.000000) Max:(-21056.000000 13824.000000 -4991.000000)} area_end -->
+	<zone name="[19_18_water3]" type="water">
+		<water_range>
+			<min range="-22528 13184 -5568"/>
+			<max range="-21056 13824 -4991"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_18_water4] map_no={19;18} type=water water_range={Min:(-23424.000000 0.000000 -4780.000000) Max:(0.000000 12928.000000 -3780.000000)} area_end -->
+	<zone name="[19_18_water4]" type="water">
+		<water_range>
+			<min range="-23424 0 -4780"/>
+			<max range="0 12928 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_19_water1] map_no={19;19} type=water water_range={Min:(-12972.000000 57536.000000 -4784.000000) Max:(-5972.000000 65536.000000 -3784.000000)} area_end -->
+	<zone name="[19_19_water1]" type="water">
+		<water_range>
+			<min range="-12972 57536 -4784"/>
+			<max range="-5972 65536 -3784"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_19_water2] map_no={19;19} type=water water_range={Min:(-5840.000000 60645.984375 -4788.025879) Max:(-3840.000000 62645.984375 -3788.025879)} area_end -->
+	<zone name="[19_19_water2]" type="water">
+		<water_range>
+			<min range="-5840 60645 -4788"/>
+			<max range="-3840 62645 -3788"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_20_water1] map_no={19;20} type=water water_range={Min:(-24488.000000 65536.000000 -4268.000000) Max:(0.000000 98304.000000 -3780.000000)} area_end -->
+	<zone name="[19_20_water1]" type="water">
+		<water_range>
+			<min range="-24488 65536 -4268"/>
+			<max range="0 98304 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_20_water2] map_no={19;20} type=water water_range={Min:(-25472.000000 77056.000000 -5840.000000) Max:(-24832.000000 77696.000000 -3520.000000)} area_end -->
+	<zone name="[19_20_water2]" type="water">
+		<water_range>
+			<min range="-25472 77056 -5840"/>
+			<max range="-24832 77696 -3520"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_20_water3] map_no={19;20} type=water water_range={Min:(-24832.000000 77056.000000 -5840.000000) Max:(-23360.000000 77696.000000 -5263.000000)} area_end -->
+	<zone name="[19_20_water3]" type="water">
+		<water_range>
+			<min range="-24832 77056 -5840"/>
+			<max range="-23360 77696 -5263"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_21_water1] map_no={19;21} type=water water_range={Min:(-25816.000000 98304.000000 -10611.983398) Max:(0.000000 106624.000000 -3779.983398)} area_end -->
+	<zone name="[19_21_water1]" type="water">
+		<water_range>
+			<min range="-25816 98304 -10611"/>
+			<max range="0 106624 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_21_water2] map_no={19;21} type=water water_range={Min:(-20504.000000 106688.000000 -3214.000000) Max:(-15719.000000 107947.000000 -2836.000000)} area_end -->
+	<zone name="[19_21_water2]" type="water">
+		<water_range>
+			<min range="-20504 106688 -3214"/>
+			<max range="-15719 107947 -2836"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_21_water3] map_no={19;21} type=water water_range={Min:(-20504.000000 107947.000000 -3214.000000) Max:(-18904.000000 113841.000000 -2836.000000)} area_end -->
+	<zone name="[19_21_water3]" type="water">
+		<water_range>
+			<min range="-20504 107947 -3214"/>
+			<max range="-18904 113841 -2836"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_21_water4] map_no={19;21} type=water water_range={Min:(-17319.000000 107947.000000 -3214.000000) Max:(-15719.000000 113841.000000 -2836.000000)} area_end -->
+	<zone name="[19_21_water4]" type="water">
+		<water_range>
+			<min range="-17319 107947 -3214"/>
+			<max range="-15719 113841 -2836"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_21_water5] map_no={19;21} type=water water_range={Min:(-18904.000000 111448.000000 -3214.000000) Max:(-17319.000000 113841.000000 -2836.000000)} area_end -->
+	<zone name="[19_21_water5]" type="water">
+		<water_range>
+			<min range="-18904 111448 -3214"/>
+			<max range="-17319 113841 -2836"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_21_water6] map_no={19;21} type=water water_range={Min:(-25816.000000 115072.000000 -10611.983398) Max:(0.000000 120576.000000 -3779.983398)} area_end -->
+	<zone name="[19_21_water6]" type="water">
+		<water_range>
+			<min range="-25816 115072 -10611"/>
+			<max range="0 120576 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_21_water7] map_no={19;21} type=water water_range={Min:(-13528.000000 106624.000000 -10611.983398) Max:(0.000000 115072.000000 -3779.983398)} area_end -->
+	<zone name="[19_21_water7]" type="water">
+		<water_range>
+			<min range="-13528 106624 -10611"/>
+			<max range="0 115072 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_21_water8] map_no={19;21} type=water water_range={Min:(-25816.000000 106624.000000 -10611.983398) Max:(-22144.000000 115072.000000 -3779.983398)} area_end -->
+	<zone name="[19_21_water8]" type="water">
+		<water_range>
+			<min range="-25816 106624 -10611"/>
+			<max range="-22144 115072 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_21_water9] map_no={19;21} type=water water_range={Min:(-11992.000000 120576.000000 -10611.983398) Max:(0.000000 131072.000000 -3779.983398)} area_end -->
+	<zone name="[19_21_water9]" type="water">
+		<water_range>
+			<min range="-11992 120576 -10611"/>
+			<max range="0 131072 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_24_water1] map_no={19;24} type=water water_range={Min:(-32768.000000 209376.000000 -7780.000000) Max:(-10000.000000 229376.000000 -3780.000000)} area_end -->
+	<zone name="[19_24_water1]" type="water">
+		<water_range>
+			<min range="-32768 209376 -7780"/>
+			<max range="-10000 229376 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_24_water2] map_no={19;24} type=water water_range={Min:(-10000.000000 196608.000000 -7780.000000) Max:(0.000000 229376.000000 -3780.000000)} area_end -->
+	<zone name="[19_24_water2]" type="water">
+		<water_range>
+			<min range="-10000 196608 -7780"/>
+			<max range="0 229376 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_25_water1] map_no={19;25} type=water water_range={Min:(-32767.994141 229376.000000 -4779.998535) Max:(0.005859 262144.000000 -3779.998535)} area_end -->
+	<zone name="[19_25_water1]" type="water">
+		<water_range>
+			<min range="-32767 229376 -4779"/>
+			<max range="0 262144 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_25_water2] map_no={19;25} type=water water_range={Min:(-22684.003906 248516.015625 -3604.000000) Max:(-19460.003906 250556.015625 -3348.000000)} area_end -->
+	<zone name="[19_25_water2]" type="water">
+		<water_range>
+			<min range="-22684 248516 -3604"/>
+			<max range="-19460 250556 -3348"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_25_water3] map_no={19;25} type=water water_range={Min:(-21948.003906 250556.015625 -3604.000000) Max:(-19460.003906 251252.015625 -3348.000000)} area_end -->
+	<zone name="[19_25_water3]" type="water">
+		<water_range>
+			<min range="-21948 250556 -3604"/>
+			<max range="-19460 251252 -3348"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[19_26_water1] map_no={19;26} type=water water_range={Min:(-32768.000000 262144.000000 -4780.001953) Max:(0.000000 294912.000000 -3780.001953)} area_end -->
+	<zone name="[19_26_water1]" type="water">
+		<water_range>
+			<min range="-32768 262144 -4780"/>
+			<max range="0 294912 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_11_water1] map_no={20;11} type=water water_range={Min:(0.000000 -229375.984375 -4780.000000) Max:(32768.000000 -196607.984375 -3780.000000)} area_end -->
+	<zone name="[20_11_water1]" type="water">
+		<water_range>
+			<min range="0 -229375 -4780"/>
+			<max range="32768 -196607 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_15_water1] map_no={20;15} type=water water_range={Min:(0.157471 -73536.078125 -4780.019531) Max:(8000.157227 -65536.078125 -3780.019531)} area_end -->
+	<zone name="[20_15_water1]" type="water">
+		<water_range>
+			<min range="0 -73536 -4780"/>
+			<max range="8000 -65536 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_16_water1] map_no={20;16} type=water water_range={Min:(0.000000 -65536.000000 -4780.000000) Max:(32768.000000 -32768.000000 -3780.000000)} area_end -->
+	<zone name="[20_16_water1]" type="water">
+		<water_range>
+			<min range="0 -65536 -4780"/>
+			<max range="32768 -32768 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_16_water2] map_no={20;16} type=water water_range={Min:(15392.628906 -48832.031250 -2136.000000) Max:(17360.628906 -46664.031250 -1136.000000)} area_end -->
+	<zone name="[20_16_water2]" type="water">
+		<water_range>
+			<min range="15392 -48832 -2136"/>
+			<max range="17360 -46664 -1136"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_16_water3] map_no={20;16} type=water water_range={Min:(15392.628906 -51632.031250 -2136.000000) Max:(17360.628906 -49464.031250 -1136.000000)} area_end -->
+	<zone name="[20_16_water3]" type="water">
+		<water_range>
+			<min range="15392 -51632 -2136"/>
+			<max range="17360 -49464 -1136"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_17_water1] map_no={20;17} type=water water_range={Min:(0.000000 -32768.000000 -7780.000000) Max:(32768.000000 0.000000 -3780.000000)} area_end -->
+	<zone name="[20_17_water1]" type="water">
+		<water_range>
+			<min range="0 -32768 -7780"/>
+			<max range="32768 0 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_18_water1] map_no={20;18} type=water water_range={Min:(0.000000 0.000000 -4780.000000) Max:(32768.000000 5500.000000 -3780.000000)} area_end -->
+	<zone name="[20_18_water1]" type="water">
+		<water_range>
+			<min range="0 0 -4780"/>
+			<max range="32768 5500 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_19_water1] map_no={20;19} type=water water_range={Min:(0.000000 32768.000000 -4780.000000) Max:(32768.000000 65536.000000 -3780.000000)} area_end -->
+	<zone name="[20_19_water1]" type="water">
+		<water_range>
+			<min range="0 32768 -4780"/>
+			<max range="32768 65536 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_20_water1] map_no={20;20} type=water water_range={Min:(0.000000 76174.000000 -4780.000000) Max:(4000.000000 98304.000000 -3780.000000)} area_end -->
+	<zone name="[20_20_water1]" type="water">
+		<water_range>
+			<min range="0 76174 -4780"/>
+			<max range="4000 98304 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_20_water2] map_no={20;20} type=water water_range={Min:(4608.046875 65479.914063 -4794.000977) Max:(32768.046875 70343.914063 -3794.000977)} area_end -->
+	<zone name="[20_20_water2]" type="water">
+		<water_range>
+			<min range="4608 65479 -4794"/>
+			<max range="32768 70343 -3794"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_20_water3] map_no={20;20} type=water water_range={Min:(0.218750 66791.984375 -4794.000977) Max:(4624.218750 72935.984375 -3794.000977)} area_end -->
+	<zone name="[20_20_water3]" type="water">
+		<water_range>
+			<min range="0 66791 -4794"/>
+			<max range="4624 72935 -3794"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_21_water1] map_no={20;21} type=water water_range={Min:(0.013672 98304.007813 -4780.004395) Max:(4300.013672 131072.000000 -3780.004395)} area_end -->
+	<zone name="[20_21_water1]" type="water">
+		<water_range>
+			<min range="0 98304 -4780"/>
+			<max range="4300 131072 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_22_water1] map_no={20;22} type=water water_range={Min:(0.039063 131072.015625 -4788.000977) Max:(10496.039063 163840.015625 -3788.000977)} area_end -->
+	<zone name="[20_22_water1]" type="water">
+		<water_range>
+			<min range="0 131072 -4788"/>
+			<max range="10496 163840 -3788"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_22_water1] map_no={20;22} type=water water_range={Min:(19736.218750 155981.984375 -3518.000977) Max:(24344.218750 163131.984375 -3030.000977)} area_end -->
+	<zone name="[20_22_water1]" type="water">
+		<water_range>
+			<min range="19736 155981 -3518"/>
+			<max range="24344 163131 -3030"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_23_water1] map_no={20;23} type=water water_range={Min:(0.000000 163840.000000 -7780.000000) Max:(32768.000000 196608.000000 -3780.000000)} area_end -->
+	<zone name="[20_23_water1]" type="water">
+		<water_range>
+			<min range="0 163840 -7780"/>
+			<max range="32768 196608 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_24_water1] map_no={20;24} type=water water_range={Min:(-0.004883 196608.000000 -4780.002441) Max:(32767.996094 229376.000000 -3780.002441)} area_end -->
+	<zone name="[20_24_water1]" type="water">
+		<set name="jail" val="true" />
+		<set name="jail_time" val="60" />
+		<set name="teleport" val="8976 252416 -1928" />
+		<water_range>
+			<min range="0 196608 -4780"/>
+			<max range="32767 229376 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_25_water1] map_no={20;25} type=water water_range={Min:(0.005859 229376.000000 -4779.998535) Max:(32768.007813 243712.000000 -3779.998535)} area_end -->
+	<zone name="[20_25_water1]" type="water">
+		<water_range>
+			<min range="0 229376 -4779"/>
+			<max range="32768 243712 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_25_water2] map_no={20;25} type=water water_range={Min:(25600.005859 243712.000000 -4779.998535) Max:(32768.007813 262144.000000 -3779.998535)} area_end -->
+	<zone name="[20_25_water2]" type="water">
+		<water_range>
+			<min range="25600 243712 -4779"/>
+			<max range="32768 262144 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_25_water3] map_no={20;25} type=water water_range={Min:(0.005859 254464.000000 -4779.998535) Max:(25600.007813 262144.000000 -3779.998535)} area_end -->
+	<zone name="[20_25_water3]" type="water">
+		<water_range>
+			<min range="0 254464 -4779"/>
+			<max range="25600 262144 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_25_water4] map_no={20;25} type=water water_range={Min:(4991.000000 248304.000000 -2416.000000) Max:(9599.000000 253680.000000 -2141.000000)} area_end -->
+	<zone name="[20_25_water4]" type="water">
+		<water_range>
+			<min range="4991 248304 -2416"/>
+			<max range="9599 253680 -2141"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[20_26_water1] map_no={20;26} type=water water_range={Min:(0.000000 262144.000000 -4780.001953) Max:(32768.000000 294912.000000 -3780.001953)} area_end -->
+	<zone name="[20_26_water1]" type="water">
+		<water_range>
+			<min range="0 262144 -4780"/>
+			<max range="32768 294912 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_10_water1] map_no={21;10} type=water water_range={Min:(32768.000000 -262143.984375 -4780.000000) Max:(65536.000000 -229375.984375 -3780.000000)} area_end -->
+	<zone name="[21_10_water1]" type="water">
+		<water_range>
+			<min range="32768 -262143 -4780"/>
+			<max range="65536 -229375 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_11_water1] map_no={21;11} type=water water_range={Min:(32768.000000 -229375.984375 -4780.000000) Max:(65536.000000 -196607.984375 -3780.000000)} area_end -->
+	<zone name="[21_11_water1]" type="water">
+		<water_range>
+			<min range="32768 -229375 -4780"/>
+			<max range="65536 -196607 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_14_water1] map_no={21;14} type=water water_range={Min:(32767.996094 -131072.000000 -4780.045898) Max:(65535.996094 -128000.000000 -3780.045898)} area_end -->
+	<zone name="[21_14_water1]" type="water">
+		<water_range>
+			<min range="32767 -131072 -4780"/>
+			<max range="65535 -128000 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_14_water1] map_no={21;14} type=water water_range={Min:(57344.000000 -128000.000000 -4780.043457) Max:(65536.000000 -113664.000000 -3780.043457)} area_end -->
+	<zone name="[21_14_water1]" type="water">
+		<water_range>
+			<min range="57344 -128000 -4780"/>
+			<max range="65536 -113664 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_15_water1] map_no={21;15} type=water water_range={Min:(32768.000000 -98304.000000 -4780.000000) Max:(65536.000000 -65536.000000 -3780.000000)} area_end -->
+	<zone name="[21_15_water1]" type="water">
+		<water_range>
+			<min range="32768 -98304 -4780"/>
+			<max range="65536 -65536 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_16_water1] map_no={21;16} type=water water_range={Min:(32768.000000 -65535.980469 -4783.996582) Max:(65536.000000 -32767.980469 -3783.996582)} area_end -->
+	<zone name="[21_16_water1]" type="water">
+		<water_range>
+			<min range="32768 -65535 -4783"/>
+			<max range="65536 -32767 -3783"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_17_water1] map_no={21;17} type=water water_range={Min:(32768.007813 -32767.998047 -4780.008301) Max:(65536.007813 0.001953 -3780.008301)} area_end -->
+	<zone name="[21_17_water1]" type="water">
+		<water_range>
+			<min range="32768 -32767 -4780"/>
+			<max range="65536 0 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_18_water1] map_no={21;18} type=water water_range={Min:(32768.000000 0.000000 -4780.000000) Max:(65536.000000 10000.000000 -3780.000000)} area_end -->
+	<zone name="[21_18_water1]" type="water">
+		<water_range>
+			<min range="32768 0 -4780"/>
+			<max range="65536 10000 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_19_water1] map_no={21;19} type=water water_range={Min:(32768.218750 32767.984375 -4780.002441) Max:(60672.218750 65535.984375 -3780.002441)} area_end -->
+	<zone name="[21_19_water1]" type="water">
+		<water_range>
+			<min range="32768 32767 -4780"/>
+			<max range="60672 65535 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_20_water1] map_no={21;20} type=water water_range={Min:(32767.996094 65535.992188 -4780.002930) Max:(63567.996094 90535.992188 -3780.002930)} area_end -->
+	<zone name="[21_20_water1]" type="water">
+		<water_range>
+			<min range="32767 65535 -4780"/>
+			<max range="63567 90535 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_20_water2] map_no={21;20} type=water water_range={Min:(63236.000000 73140.000000 -4780.000000) Max:(65536.000000 75440.000000 -3780.000000)} area_end -->
+	<zone name="[21_20_water2]" type="water">
+		<water_range>
+			<min range="63236 73140 -4780"/>
+			<max range="65536 75440 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_21_water1] map_no={21;21} type=water water_range={Min:(43516.996094 116836.937500 -3980.009033) Max:(52516.996094 126092.937500 -3780.009033)} area_end -->
+	<zone name="[21_21_water1]" type="water">
+		<water_range>
+			<min range="43516 116836 -3980"/>
+			<max range="52516 126092 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_21_water2] map_no={21;21} type=water water_range={Min:(48773.003906 115910.062500 -2377.000000) Max:(50237.003906 116708.945313 -2227.000000)} area_end -->
+	<zone name="[21_21_water2]" type="water">
+		<water_range>
+			<min range="48773 115910 -2377"/>
+			<max range="50237 116708 -2227"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_21_water3] map_no={21;21} type=water water_range={Min:(46597.003906 111628.992188 -2409.000000) Max:(49597.003906 115128.992188 -2259.000000)} area_end -->
+	<zone name="[21_21_water3]" type="water">
+		<water_range>
+			<min range="46597 111628 -2409"/>
+			<max range="49597 115128 -2259"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_21_water4] map_no={21;21} type=water water_range={Min:(49172.027344 115128.992188 -2409.000000) Max:(50136.027344 116868.992188 -2259.000000)} area_end -->
+	<zone name="[21_21_water4]" type="water">
+		<water_range>
+			<min range="49172 115128 -2409"/>
+			<max range="50136 116868 -2259"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_21_water5] map_no={21;21} type=water water_range={Min:(48000.027344 115128.992188 -2409.000000) Max:(49172.027344 116356.992188 -2259.000000)} area_end -->
+	<zone name="[21_21_water5]" type="water">
+		<water_range>
+			<min range="48000 115128 -2409"/>
+			<max range="49172 116356 -2259"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_21_water6] map_no={21;21} type=water water_range={Min:(44928.000000 126976.000000 -6080.000000) Max:(45568.000000 127616.000000 -3776.000000)} area_end -->
+	<zone name="[21_21_water6]" type="water">
+		<water_range>
+			<min range="44928 126976 -6080"/>
+			<max range="45568 127616 -3776"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_21_water7] map_no={21;21} type=water water_range={Min:(44928.000000 125504.000000 -6080.000000) Max:(45568.000000 126976.000000 -5504.000000)} area_end -->
+	<zone name="[21_21_water7]" type="water">
+		<water_range>
+			<min range="44928 125504 -6080"/>
+			<max range="45568 126976 -5504"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_22_water1] map_no={21;22} type=water water_range={Min:(41916.996094 139479.718750 -3948.999268) Max:(51916.996094 152769.718750 -3748.999268)} area_end -->
+	<zone name="[21_22_water1]" type="water">
+		<water_range>
+			<min range="41916 139479 -3948"/>
+			<max range="51916 152769 -3748"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_22_water2] map_no={21;22} type=water water_range={Min:(39240.000000 143560.000000 -6048.000000) Max:(39992.000000 144312.000000 -3688.000000)} area_end -->
+	<zone name="[21_22_water2]" type="water">
+		<water_range>
+			<min range="39240 143560 -6048"/>
+			<max range="39992 144312 -3688"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_22_water3] map_no={21;22} type=water water_range={Min:(39992.000000 143616.000000 -6048.000000) Max:(41408.000000 144256.000000 -5471.000000)} area_end -->
+	<zone name="[21_22_water3]" type="water">
+		<water_range>
+			<min range="39992 143616 -6048"/>
+			<max range="41408 144256 -5471"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_23_water1] map_no={21;23} type=water water_range={Min:(32768.000000 181239.984375 -4780.010254) Max:(65536.000000 196607.984375 -3780.010254)} area_end -->
+	<zone name="[21_23_water1]" type="water">
+		<water_range>
+			<min range="32768 181239 -4780"/>
+			<max range="65536 196607 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_23_water2] map_no={21;23} type=water water_range={Min:(32768.000000 175599.984375 -4780.010254) Max:(44032.000000 181239.984375 -3780.010254)} area_end -->
+	<zone name="[21_23_water2]" type="water">
+		<water_range>
+			<min range="32768 175599 -4780"/>
+			<max range="44032 181239 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_23_water3] map_no={21;23} type=water water_range={Min:(57472.000000 175599.984375 -4780.010254) Max:(65536.000000 181239.984375 -3780.010254)} area_end -->
+	<zone name="[21_23_water3]" type="water">
+		<water_range>
+			<min range="57472 175599 -4780"/>
+			<max range="65536 181239 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_23_water4] map_no={21;23} type=water water_range={Min:(42496.000000 169984.000000 -5648.000000) Max:(43136.000000 170624.000000 -3328.000000)} area_end -->
+	<zone name="[21_23_water4]" type="water">
+		<water_range>
+			<min range="42496 169984 -5648"/>
+			<max range="43136 170624 -3328"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_23_water5] map_no={21;23} type=water water_range={Min:(43136.000000 169984.000000 -5648.000000) Max:(44608.000000 170624.000000 -5071.000000)} area_end -->
+	<zone name="[21_23_water5]" type="water">
+		<water_range>
+			<min range="43136 169984 -5648"/>
+			<max range="44608 170624 -5071"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_24_water1] map_no={21;24} type=water water_range={Min:(32768.000000 196608.015625 -4779.979492) Max:(65536.000000 229376.015625 -3779.979492)} area_end -->
+	<zone name="[21_24_water1]" type="water">
+		<water_range>
+			<min range="32768 196608 -4779"/>
+			<max range="65536 229376 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[21_25_water1] map_no={21;25} type=water water_range={Min:(32768.000000 229379.000000 -4780.000000) Max:(65536.000000 262147.000000 -3780.000000)} area_end -->
+	<zone name="[21_25_water1]" type="water">
+		<water_range>
+			<min range="32768 229379 -4780"/>
+			<max range="65536 262147 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_11_water1] map_no={22;11} type=water water_range={Min:(65536.000000 -229375.984375 -4779.979492) Max:(98304.000000 -196607.984375 -3779.979492)} area_end -->
+	<zone name="[22_11_water1]" type="water">
+		<water_range>
+			<min range="65536 -229375 -4779"/>
+			<max range="98304 -196607 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_13_water1] map_no={22;13} type=water water_range={Min:(65536.054688 -163840.031250 -4780.017090) Max:(98304.054688 -156160.031250 -3780.017090)} area_end -->
+	<zone name="[22_13_water1]" type="water">
+		<water_range>
+			<min range="65536 -163840 -4780"/>
+			<max range="98304 -156160 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_13_water2] map_no={22;13} type=water water_range={Min:(65536.054688 -156160.031250 -4780.017090) Max:(74880.054688 -131072.031250 -3780.017090)} area_end -->
+	<zone name="[22_13_water2]" type="water">
+		<water_range>
+			<min range="65536 -156160 -4780"/>
+			<max range="74880 -131072 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_13_water3] map_no={22;13} type=water water_range={Min:(80896.054688 -156160.031250 -4780.017090) Max:(98304.054688 -147328.031250 -3780.017090)} area_end -->
+	<zone name="[22_13_water3]" type="water">
+		<water_range>
+			<min range="80896 -156160 -4780"/>
+			<max range="98304 -147328 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_13_water4] map_no={22;13} type=water water_range={Min:(74880.054688 -138880.031250 -4780.017090) Max:(98304.054688 -131072.031250 -3780.017090)} area_end -->
+	<zone name="[22_13_water4]" type="water">
+		<water_range>
+			<min range="74880 -138880 -4780"/>
+			<max range="98304 -131072 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_13_water5] map_no={22;13} type=water water_range={Min:(91520.054688 -147328.031250 -4780.017090) Max:(98304.054688 -138880.031250 -3780.017090)} area_end -->
+	<zone name="[22_13_water5]" type="water">
+		<water_range>
+			<min range="91520 -147328 -4780"/>
+			<max range="98304 -138880 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_14_water1] map_no={22;14} type=water water_range={Min:(65536.000000 -131072.000000 -4897.000000) Max:(75776.000000 -122368.000000 -3897.000000)} area_end -->
+	<zone name="[22_14_water1]" type="water">
+		<water_range>
+			<min range="65536 -131072 -4897"/>
+			<max range="75776 -122368 -3897"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_14_water2] map_no={22;14} type=water water_range={Min:(95488.000000 -131072.000000 -4865.000000) Max:(98304.000000 -124160.000000 -3865.000000)} area_end -->
+	<zone name="[22_14_water2]" type="water">
+		<water_range>
+			<min range="95488 -131072 -4865"/>
+			<max range="98304 -124160 -3865"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water1] map_no={22;16} type=water water_range={Min:(65536.000000 -40960.000000 -4780.000000) Max:(98304.000000 -32768.000000 -3780.000000)} area_end -->
+	<zone name="[22_16_water1]" type="water">
+		<water_range>
+			<min range="65536 -40960 -4780"/>
+			<max range="98304 -32768 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water2] map_no={22;16} type=water water_range={Min:(91829.000000 -55930.000000 -2889.000000) Max:(95637.000000 -50266.000000 -2633.000000)} area_end -->
+	<zone name="[22_16_water2]" type="water">
+		<water_range>
+			<min range="91829 -55930 -2889"/>
+			<max range="95637 -50266 -2633"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water3] map_no={22;16} type=water water_range={Min:(87765.000000 -54554.000000 -2889.000000) Max:(91829.000000 -50266.000000 -2633.000000)} area_end -->
+	<zone name="[22_16_water3]" type="water">
+		<water_range>
+			<min range="87765 -54554 -2889"/>
+			<max range="91829 -50266 -2633"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water4] map_no={22;16} type=water water_range={Min:(84947.000000 -50234.000000 -3408.000000) Max:(90133.000000 -46202.000000 -3152.000000)} area_end -->
+	<zone name="[22_16_water4]" type="water">
+		<water_range>
+			<min range="84947 -50234 -3408"/>
+			<max range="90133 -46202 -3152"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water5] map_no={22;16} type=water water_range={Min:(76003.000000 -46368.000000 -3504.000000) Max:(84947.000000 -39968.000000 -3248.000000)} area_end -->
+	<zone name="[22_16_water5]" type="water">
+		<water_range>
+			<min range="76003 -46368 -3504"/>
+			<max range="84947 -39968 -3248"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water6] map_no={22;16} type=water water_range={Min:(68852.000000 -62008.000000 -3417.000000) Max:(74036.000000 -56192.000000 -3161.000000)} area_end -->
+	<zone name="[22_16_water6]" type="water">
+		<water_range>
+			<min range="68852 -62008 -3417"/>
+			<max range="74036 -56192 -3161"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water7] map_no={22;16} type=water water_range={Min:(69480.000000 -56192.000000 -3417.000000) Max:(77032.000000 -53203.000000 -3161.000000)} area_end -->
+	<zone name="[22_16_water7]" type="water">
+		<water_range>
+			<min range="69480 -56192 -3417"/>
+			<max range="77032 -53203 -3161"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water8] map_no={22;16} type=water water_range={Min:(71311.000000 -53203.000000 -3417.000000) Max:(76175.000000 -50292.000000 -3161.000000)} area_end -->
+	<zone name="[22_16_water8]" type="water">
+		<water_range>
+			<min range="71311 -53203 -3417"/>
+			<max range="76175 -50292 -3161"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water9] map_no={22;16} type=water water_range={Min:(75059.000000 -63591.000000 -2608.000000) Max:(78355.000000 -57517.000000 -2352.000000)} area_end -->
+	<zone name="[22_16_water9]" type="water">
+		<water_range>
+			<min range="75059 -63591 -2608"/>
+			<max range="78355 -57517 -2352"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water10] map_no={22;16} type=water water_range={Min:(78355.000000 -65184.000000 -2608.000000) Max:(83859.000000 -51872.000000 -2352.000000)} area_end -->
+	<zone name="[22_16_water10]" type="water">
+		<water_range>
+			<min range="78355 -65184 -2608"/>
+			<max range="83859 -51872 -2352"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water11] map_no={22;16} type=water water_range={Min:(83859.000000 -64826.000000 -2608.000000) Max:(87187.000000 -55418.000000 -2352.000000)} area_end -->
+	<zone name="[22_16_water11]" type="water">
+		<water_range>
+			<min range="83859 -64826 -2608"/>
+			<max range="87187 -55418 -2352"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water12] map_no={22;16} type=water water_range={Min:(87187.000000 -62909.000000 -2608.000000) Max:(90963.000000 -58301.000000 -2352.000000)} area_end -->
+	<zone name="[22_16_water12]" type="water">
+		<water_range>
+			<min range="87187 -62909 -2608"/>
+			<max range="90963 -58301 -2352"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water13] map_no={22;16} type=water water_range={Min:(77283.000000 -51872.000000 -2608.000000) Max:(83747.000000 -49440.000000 -2352.000000)} area_end -->
+	<zone name="[22_16_water13]" type="water">
+		<water_range>
+			<min range="77283 -51872 -2608"/>
+			<max range="83747 -49440 -2352"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water14] map_no={22;16} type=water water_range={Min:(83859.000000 -55418.000000 -2608.000000) Max:(86227.000000 -52602.000000 -2352.000000)} area_end -->
+	<zone name="[22_16_water14]" type="water">
+		<water_range>
+			<min range="83859 -55418 -2608"/>
+			<max range="86227 -52602 -2352"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water15] map_no={22;16} type=water water_range={Min:(69635.000000 -47328.000000 -3504.000000) Max:(76003.000000 -39776.000000 -3248.000000)} area_end -->
+	<zone name="[22_16_water15]" type="water">
+		<water_range>
+			<min range="69635 -47328 -3504"/>
+			<max range="76003 -39776 -3248"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water16] map_no={22;16} type=water water_range={Min:(87187.000000 -58301.000000 -2608.000000) Max:(89235.000000 -56541.000000 -2352.000000)} area_end -->
+	<zone name="[22_16_water16]" type="water">
+		<water_range>
+			<min range="87187 -58301 -2608"/>
+			<max range="89235 -56541 -2352"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water17] map_no={22;16} type=water water_range={Min:(79215.000000 -44656.000000 -5228.000000) Max:(79855.000000 -44096.000000 -5164.000000)} area_end -->
+	<zone name="[22_16_water17]" type="water">
+		<water_range>
+			<min range="79215 -44656 -5228"/>
+			<max range="79855 -44096 -5164"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water18] map_no={22;16} type=water water_range={Min:(79639.000000 -46144.000000 -5228.000000) Max:(80351.000000 -45560.000000 -5164.000000)} area_end -->
+	<zone name="[22_16_water18]" type="water">
+		<water_range>
+			<min range="79639 -46144 -5228"/>
+			<max range="80351 -45560 -5164"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water19] map_no={22;16} type=water water_range={Min:(77169.000000 -42816.988281 -5228.000000) Max:(77729.000000 -42176.988281 -5164.000000)} area_end -->
+	<zone name="[22_16_water19]" type="water">
+		<water_range>
+			<min range="77169 -42816 -5228"/>
+			<max range="77729 -42176 -5164"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water20] map_no={22;16} type=water water_range={Min:(80154.000000 -49757.992188 -5228.000000) Max:(80738.000000 -49045.992188 -5164.000000)} area_end -->
+	<zone name="[22_16_water20]" type="water">
+		<water_range>
+			<min range="80154 -49757 -5228"/>
+			<max range="80738 -49045 -5164"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water21] map_no={22;16} type=water water_range={Min:(77635.000000 -47006.992188 -5228.000000) Max:(78219.000000 -46294.992188 -5164.000000)} area_end -->
+	<zone name="[22_16_water21]" type="water">
+		<water_range>
+			<min range="77635 -47006 -5228"/>
+			<max range="78219 -46294 -5164"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water22] map_no={22;16} type=water water_range={Min:(77731.000000 -47841.000000 -5228.000000) Max:(78371.000000 -47281.000000 -5164.000000)} area_end -->
+	<zone name="[22_16_water22]" type="water">
+		<water_range>
+			<min range="77731 -47841 -5228"/>
+			<max range="78371 -47281 -5164"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water23] map_no={22;16} type=water water_range={Min:(81910.000000 -48911.992188 -4739.000000) Max:(82494.000000 -48199.992188 -4675.000000)} area_end -->
+	<zone name="[22_16_water23]" type="water">
+		<water_range>
+			<min range="81910 -48911 -4739"/>
+			<max range="82494 -48199 -4675"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water24] map_no={22;16} type=water water_range={Min:(88096.000000 -53099.992188 -5228.000000) Max:(88680.000000 -52387.992188 -5164.000000)} area_end -->
+	<zone name="[22_16_water24]" type="water">
+		<water_range>
+			<min range="88096 -53099 -5228"/>
+			<max range="88680 -52387 -5164"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water25] map_no={22;16} type=water water_range={Min:(87454.000000 -54537.000000 -5228.000000) Max:(88094.000000 -53977.000000 -5164.000000)} area_end -->
+	<zone name="[22_16_water25]" type="water">
+		<water_range>
+			<min range="87454 -54537 -5228"/>
+			<max range="88094 -53977 -5164"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water26] map_no={22;16} type=water water_range={Min:(85450.000000 -50078.000000 -5228.000000) Max:(86162.000000 -49494.000000 -5164.000000)} area_end -->
+	<zone name="[22_16_water26]" type="water">
+		<water_range>
+			<min range="85450 -50078 -5228"/>
+			<max range="86162 -49494 -5164"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_16_water27] map_no={22;16} type=water water_range={Min:(75537.007813 -47082.996094 -5228.000000) Max:(75905.007813 -46698.996094 -5164.000000)} area_end -->
+	<zone name="[22_16_water27]" type="water">
+		<water_range>
+			<min range="75537 -47082 -5228"/>
+			<max range="75905 -46698 -5164"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_17_water1] map_no={22;17} type=water water_range={Min:(65536.000000 -32768.000000 -4780.000000) Max:(76800.000000 0.000000 -3780.000000)} area_end -->
+	<zone name="[22_17_water1]" type="water">
+		<water_range>
+			<min range="65536 -32768 -4780"/>
+			<max range="76800 0 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_17_water2] map_no={22;17} type=water water_range={Min:(76800.000000 -32768.000000 -4780.000000) Max:(98304.000000 -18432.000000 -3780.000000)} area_end -->
+	<zone name="[22_17_water2]" type="water">
+		<water_range>
+			<min range="76800 -32768 -4780"/>
+			<max range="98304 -18432 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_18_water1] map_no={22;18} type=water water_range={Min:(65536.000000 4768.000000 -4780.000000) Max:(75536.000000 32768.000000 -3780.000000)} area_end -->
+	<zone name="[22_18_water1]" type="water">
+		<water_range>
+			<min range="65536 4768 -4780"/>
+			<max range="75536 32768 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_18_water2] map_no={22;18} type=water water_range={Min:(75536.000000 27768.000000 -4780.000000) Max:(98304.000000 32768.000000 -3780.000000)} area_end -->
+	<zone name="[22_18_water2]" type="water">
+		<water_range>
+			<min range="75536 27768 -4780"/>
+			<max range="98304 32768 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_19_water1] map_no={22;19} type=water water_range={Min:(77961.000000 34750.000000 -3625.000000) Max:(85461.000000 39750.000000 -2625.000000)} area_end -->
+	<zone name="[22_19_water1]" type="water">
+		<water_range>
+			<min range="77961 34750 -3625"/>
+			<max range="85461 39750 -2625"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_19_water2] map_no={22;19} type=water water_range={Min:(84727.000000 32768.000000 -4780.000000) Max:(91727.000000 53768.000000 -3780.000000)} area_end -->
+	<zone name="[22_19_water2]" type="water">
+		<water_range>
+			<min range="84727 32768 -4780"/>
+			<max range="91727 53768 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_20_water1] map_no={22;20} type=water water_range={Min:(65536.000000 91304.000000 -4772.000000) Max:(98304.000000 98304.000000 -3772.000000)} area_end -->
+	<zone name="[22_20_water1]" type="water">
+		<water_range>
+			<min range="65536 91304 -4772"/>
+			<max range="98304 98304 -3772"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_20_water2] map_no={22;20} type=water water_range={Min:(65536.000000 71304.000000 -4772.000000) Max:(70536.000000 91304.000000 -3772.000000)} area_end -->
+	<zone name="[22_20_water2]" type="water">
+		<water_range>
+			<min range="65536 71304 -4772"/>
+			<max range="70536 91304 -3772"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_20_water3] map_no={22;20} type=water water_range={Min:(73984.000000 78080.000000 -5792.000000) Max:(74624.000000 78720.000000 -3472.000000)} area_end -->
+	<zone name="[22_20_water3]" type="water">
+		<water_range>
+			<min range="73984 78080 -5792"/>
+			<max range="74624 78720 -3472"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_20_water4] map_no={22;20} type=water water_range={Min:(74624.000000 78080.000000 -5792.000000) Max:(76096.000000 78720.000000 -5215.000000)} area_end -->
+	<zone name="[22_20_water4]" type="water">
+		<water_range>
+			<min range="74624 78080 -5792"/>
+			<max range="76096 78720 -5215"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_22_water1] map_no={22;22} type=water water_range={Min:(82656.000000 149824.000000 -8778.000000) Max:(98304.000000 152256.000000 -3780.000000)} area_end -->
+	<zone name="[22_22_water1]" type="water">
+		<water_range>
+			<min range="82656 149824 -8778"/>
+			<max range="98304 152256 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_22_water2] map_no={22;22} type=water water_range={Min:(81344.000000 139840.000000 -8778.000000) Max:(84832.000000 143680.000000 -3780.000000)} area_end -->
+	<zone name="[22_22_water2]" type="water">
+		<water_range>
+			<min range="81344 139840 -8778"/>
+			<max range="84832 143680 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_22_water3] map_no={22;22} type=water water_range={Min:(79040.000000 152818.000000 -8778.000000) Max:(82656.000000 163840.000000 -3780.000000)} area_end -->
+	<zone name="[22_22_water3]" type="water">
+		<water_range>
+			<min range="79040 152818 -8778"/>
+			<max range="82656 163840 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_22_water4] map_no={22;22} type=water water_range={Min:(88361.000000 146991.000000 -8778.000000) Max:(91593.000000 149821.000000 -3780.000000)} area_end -->
+	<zone name="[22_22_water4]" type="water">
+		<water_range>
+			<min range="88361 146991 -8778"/>
+			<max range="91593 149821 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_22_water5] map_no={22;22} type=water water_range={Min:(84832.000000 139840.000000 -8778.000000) Max:(98304.000000 146991.000000 -3780.000000)} area_end -->
+	<zone name="[22_22_water5]" type="water">
+		<water_range>
+			<min range="84832 139840 -8778"/>
+			<max range="98304 146991 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_22_water6] map_no={22;22} type=water water_range={Min:(82656.000000 153600.000000 -8778.000000) Max:(98304.000000 163840.000000 -3780.000000)} area_end -->
+	<zone name="[22_22_water6]" type="water">
+		<water_range>
+			<min range="82656 153600 -8778"/>
+			<max range="98304 163840 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_22_water7] map_no={22;22} type=water water_range={Min:(82656.000000 152256.000000 -8778.000000) Max:(84880.000000 153600.000000 -3780.000000)} area_end -->
+	<zone name="[22_22_water7]" type="water">
+		<water_range>
+			<min range="82656 152256 -8778"/>
+			<max range="84880 153600 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_22_water8] map_no={22;22} type=water water_range={Min:(86757.000000 152256.000000 -8778.000000) Max:(98304.000000 153600.000000 -3780.000000)} area_end -->
+	<zone name="[22_22_water8]" type="water">
+		<water_range>
+			<min range="86757 152256 -8778"/>
+			<max range="98304 153600 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_23_water1] map_no={22;23} type=water water_range={Min:(65536.000000 163840.000000 -4779.993652) Max:(74752.000000 196608.000000 -3779.993652)} area_end -->
+	<zone name="[22_23_water1]" type="water">
+		<water_range>
+			<min range="65536 163840 -4779"/>
+			<max range="74752 196608 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_23_water2] map_no={22;23} type=water water_range={Min:(74752.000000 163840.000000 -4779.993652) Max:(85215.000000 173976.000000 -3779.993652)} area_end -->
+	<zone name="[22_23_water2]" type="water">
+		<water_range>
+			<min range="74752 163840 -4779"/>
+			<max range="85215 173976 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_23_water3] map_no={22;23} type=water water_range={Min:(74752.000000 173976.000000 -4779.993652) Max:(83244.000000 178267.000000 -3779.993652)} area_end -->
+	<zone name="[22_23_water3]" type="water">
+		<water_range>
+			<min range="74752 173976 -4779"/>
+			<max range="83244 178267 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_23_water4] map_no={22;23} type=water water_range={Min:(74752.000000 178267.000000 -4779.993652) Max:(78031.000000 180291.000000 -3779.993652)} area_end -->
+	<zone name="[22_23_water4]" type="water">
+		<water_range>
+			<min range="74752 178267 -4779"/>
+			<max range="78031 180291 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_23_water5] map_no={22;23} type=water water_range={Min:(78031.000000 178267.000000 -4779.993652) Max:(83244.000000 180291.000000 -3779.993652)} area_end -->
+	<zone name="[22_23_water5]" type="water">
+		<water_range>
+			<min range="78031 178267 -4779"/>
+			<max range="83244 180291 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_23_water6] map_no={22;23} type=water water_range={Min:(74751.000000 180291.000000 -4779.993652) Max:(83243.000000 195250.000000 -3779.993652)} area_end -->
+	<zone name="[22_23_water6]" type="water">
+		<water_range>
+			<min range="74751 180291 -4779"/>
+			<max range="83243 195250 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_23_water7] map_no={22;23} type=water water_range={Min:(91149.000000 163840.000000 -4779.993652) Max:(98304.000000 166737.000000 -3779.993652)} area_end -->
+	<zone name="[22_23_water7]" type="water">
+		<water_range>
+			<min range="91149 163840 -4779"/>
+			<max range="98304 166737 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_23_water8] map_no={22;23} type=water water_range={Min:(85215.000000 166737.000000 -4779.993652) Max:(95485.000000 173976.000000 -3779.993652)} area_end -->
+	<zone name="[22_23_water8]" type="water">
+		<water_range>
+			<min range="85215 166737 -4779"/>
+			<max range="95485 173976 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_23_water9] map_no={22;23} type=water water_range={Min:(83244.000000 173976.000000 -4779.993652) Max:(92290.000000 195250.000000 -3779.993652)} area_end -->
+	<zone name="[22_23_water9]" type="water">
+		<water_range>
+			<min range="83244 173976 -4779"/>
+			<max range="92290 195250 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_23_water10] map_no={22;23} type=water water_range={Min:(95485.000000 166737.000000 -4779.993652) Max:(98304.000000 193105.000000 -3779.993652)} area_end -->
+	<zone name="[22_23_water10]" type="water">
+		<water_range>
+			<min range="95485 166737 -4779"/>
+			<max range="98304 193105 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_23_water11] map_no={22;23} type=water water_range={Min:(92290.000000 173976.000000 -4779.993652) Max:(95485.000000 185103.000000 -3779.993652)} area_end -->
+	<zone name="[22_23_water11]" type="water">
+		<water_range>
+			<min range="92290 173976 -4779"/>
+			<max range="95485 185103 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_23_water12] map_no={22;23} type=water water_range={Min:(92290.000000 185103.000000 -4779.993652) Max:(95485.000000 193105.000000 -3779.993652)} area_end -->
+	<zone name="[22_23_water12]" type="water">
+		<water_range>
+			<min range="92290 185103 -4779"/>
+			<max range="95485 193105 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_23_water13] map_no={22;23} type=water water_range={Min:(92290.000000 193105.000000 -4779.993652) Max:(98304.000000 196608.000000 -3779.993652)} area_end -->
+	<zone name="[22_23_water13]" type="water">
+		<water_range>
+			<min range="92290 193105 -4779"/>
+			<max range="98304 196608 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_24_water1] map_no={22;24} type=water water_range={Min:(93696.000000 224128.000000 -4780.000000) Max:(98304.000000 229376.000000 -3780.000000)} area_end -->
+	<zone name="[22_24_water1]" type="water">
+		<water_range>
+			<min range="93696 224128 -4780"/>
+			<max range="98304 229376 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_24_water2] map_no={22;24} type=water water_range={Min:(93056.000000 196608.000000 -4780.000000) Max:(98304.000000 201216.000000 -3780.000000)} area_end -->
+	<zone name="[22_24_water2]" type="water">
+		<water_range>
+			<min range="93056 196608 -4780"/>
+			<max range="98304 201216 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_24_water3] map_no={22;24} type=water water_range={Min:(65536.000000 196608.000000 -4780.000000) Max:(76032.000000 200320.000000 -3780.000000)} area_end -->
+	<zone name="[22_24_water3]" type="water">
+		<water_range>
+			<min range="65536 196608 -4780"/>
+			<max range="76032 200320 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_24_water4] map_no={22;24} type=water water_range={Min:(70024.000000 222217.000000 -4780.000000) Max:(77862.000000 229376.000000 -3780.000000)} area_end -->
+	<zone name="[22_24_water4]" type="water">
+		<water_range>
+			<min range="70024 222217 -4780"/>
+			<max range="77862 229376 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_24_water5] map_no={22;24} type=water water_range={Min:(65536.000000 200320.000000 -4780.000000) Max:(70024.000000 229376.000000 -3780.000000)} area_end -->
+	<zone name="[22_24_water5]" type="water">
+		<water_range>
+			<min range="65536 200320 -4780"/>
+			<max range="70024 229376 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_24_water6] map_no={22;24} type=water water_range={Min:(70024.000000 200320.000000 -4268.000000) Max:(79174.000000 222217.000000 -3780.000000)} area_end -->
+	<zone name="[22_24_water6]" type="water">
+		<water_range>
+			<min range="70024 200320 -4268"/>
+			<max range="79174 222217 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_24_water7] map_no={22;24} type=water water_range={Min:(77862.000000 224128.000000 -4268.000000) Max:(93696.000000 229376.000000 -3780.000000)} area_end -->
+	<zone name="[22_24_water7]" type="water">
+		<water_range>
+			<min range="77862 224128 -4268"/>
+			<max range="93696 229376 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_24_water8] map_no={22;24} type=water water_range={Min:(80192.000000 201216.000000 -4268.000000) Max:(98304.000000 224128.000000 -3780.000000)} area_end -->
+	<zone name="[22_24_water8]" type="water">
+		<water_range>
+			<min range="80192 201216 -4268"/>
+			<max range="98304 224128 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_24_water9] map_no={22;24} type=water water_range={Min:(81856.000000 196608.000000 -4268.000000) Max:(93056.000000 201216.000000 -3780.000000)} area_end -->
+	<zone name="[22_24_water9]" type="water">
+		<water_range>
+			<min range="81856 196608 -4268"/>
+			<max range="93056 201216 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_24_water10] map_no={22;24} type=water water_range={Min:(79360.000000 208897.000000 -6106.000000) Max:(80000.000000 209537.000000 -3786.000000)} area_end -->
+	<zone name="[22_24_water10]" type="water">
+		<water_range>
+			<min range="79360 208897 -6106"/>
+			<max range="80000 209537 -3786"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_24_water11] map_no={22;24} type=water water_range={Min:(80000.000000 208897.000000 -6106.000000) Max:(81472.000000 209537.000000 -5529.000000)} area_end -->
+	<zone name="[22_24_water11]" type="water">
+		<water_range>
+			<min range="80000 208897 -6106"/>
+			<max range="81472 209537 -5529"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_24_water12] map_no={22;24} type=water water_range={Min:(79174.000000 209727.000000 -4268.000000) Max:(80192.000000 224128.000000 -3780.000000)} area_end -->
+	<zone name="[22_24_water12]" type="water">
+		<water_range>
+			<min range="79174 209727 -4268"/>
+			<max range="80192 224128 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_24_water13] map_no={22;24} type=water water_range={Min:(79174.000000 201216.000000 -4268.000000) Max:(80192.000000 208704.000000 -3780.000000)} area_end -->
+	<zone name="[22_24_water13]" type="water">
+		<water_range>
+			<min range="79174 201216 -4268"/>
+			<max range="80192 208704 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_25_water1] map_no={22;25} type=water water_range={Min:(79010.218750 246660.984375 -10902.000977) Max:(86498.218750 254710.984375 -10886.000977)} area_end -->
+	<zone name="[22_25_water1]" type="water">
+		<water_range>
+			<min range="79010 246660 -10902"/>
+			<max range="86498 254710 -10886"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_25_water2] map_no={22;25} type=water water_range={Min:(84195.218750 239659.984375 -7219.000977) Max:(86179.218750 242731.984375 -4203.000977)} area_end -->
+	<zone name="[22_25_water2]" type="water">
+		<water_range>
+			<min range="84195 239659 -7219"/>
+			<max range="86179 242731 -4203"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_25_water3] map_no={22;25} type=water water_range={Min:(82979.218750 241471.984375 -7219.000977) Max:(84195.218750 241919.984375 -6763.000977)} area_end -->
+	<zone name="[22_25_water3]" type="water">
+		<water_range>
+			<min range="82979 241471 -7219"/>
+			<max range="84195 241919 -6763"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_25_water4] map_no={22;25} type=water water_range={Min:(80356.218750 245012.984375 -9354.000977) Max:(84644.218750 245844.984375 -8898.000977)} area_end -->
+	<zone name="[22_25_water4]" type="water">
+		<water_range>
+			<min range="80356 245012 -9354"/>
+			<max range="84644 245844 -8898"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_25_water5] map_no={22;25} type=water water_range={Min:(80303.218750 258156.984375 -9354.000977) Max:(84591.218750 258988.984375 -8898.000977)} area_end -->
+	<zone name="[22_25_water5]" type="water">
+		<water_range>
+			<min range="80303 258156 -9354"/>
+			<max range="84591 258988 -8898"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_25_water6] map_no={22;25} type=water water_range={Min:(65536.000000 229376.000000 -4779.540039) Max:(98304.000000 262144.000000 -3779.540039)} area_end -->
+	<zone name="[22_25_water6]" type="water">
+		<water_range>
+			<min range="65536 229376 -4779"/>
+			<max range="98304 262144 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_25_water7] map_no={22;25} type=water water_range={Min:(78624.218750 254710.984375 -10902.000977) Max:(82336.218750 255593.000000 -10886.000977)} area_end -->
+	<zone name="[22_25_water7]" type="water">
+		<water_range>
+			<min range="78624 254710 -10902"/>
+			<max range="82336 255593 -10886"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_25_water8] map_no={22;25} type=water water_range={Min:(82785.218750 254710.984375 -10902.000977) Max:(86497.218750 255593.000000 -10886.000977)} area_end -->
+	<zone name="[22_25_water8]" type="water">
+		<water_range>
+			<min range="82785 254710 -10902"/>
+			<max range="86497 255593 -10886"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[22_25_water9] map_no={22;25} type=water water_range={Min:(82336.218750 255350.984375 -10902.000977) Max:(82785.218750 255593.000000 -10886.000977)} area_end -->
+	<zone name="[22_25_water9]" type="water">
+		<water_range>
+			<min range="82336 255350 -10902"/>
+			<max range="82785 255593 -10886"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_11_water1] map_no={23;11} type=water water_range={Min:(98304.000000 -229376.000000 -4780.000000) Max:(131072.000000 -196608.000000 -3780.000000)} area_end -->
+	<zone name="[23_11_water1]" type="water">
+		<water_range>
+			<min range="98304 -229376 -4780"/>
+			<max range="131072 -196608 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_12_water1] map_no={23;12} type=water water_range={Min:(119040.000000 -196608.000000 -4780.000000) Max:(131072.000000 -178624.000000 -3780.000000)} area_end -->
+	<zone name="[23_12_water1]" type="water">
+		<water_range>
+			<min range="119040 -196608 -4780"/>
+			<max range="131072 -178624 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_13_water1] map_no={23;13} type=water water_range={Min:(98304.000000 -163840.000000 -4780.000000) Max:(131072.000000 -131072.000000 -3780.000000)} area_end -->
+	<zone name="[23_13_water1]" type="water">
+		<water_range>
+			<min range="98304 -163840 -4780"/>
+			<max range="131072 -131072 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_14_water1] map_no={23;14} type=water water_range={Min:(98304.000000 -131072.000000 -4780.000000) Max:(131072.000000 -98304.000000 -3780.000000)} area_end -->
+	<zone name="[23_14_water1]" type="water">
+		<water_range>
+			<min range="98304 -131072 -4780"/>
+			<max range="131072 -98304 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_15_water1] map_no={23;15} type=water water_range={Min:(98304.000000 -98304.000000 -4772.000000) Max:(131072.000000 -90304.000000 -3772.000000)} area_end -->
+	<zone name="[23_15_water1]" type="water">
+		<water_range>
+			<min range="98304 -98304 -4772"/>
+			<max range="131072 -90304 -3772"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_15_water2] map_no={23;15} type=water water_range={Min:(114464.000000 -89256.000000 -3560.000000) Max:(116384.000000 -88464.000000 -3556.000000)} area_end -->
+	<zone name="[23_15_water2]" type="water">
+		<water_range>
+			<min range="114464 -89256 -3560"/>
+			<max range="116384 -88464 -3556"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_18_water1] map_no={23;18} type=water water_range={Min:(98304.976563 27767.996094 -4780.009766) Max:(120320.976563 32767.996094 -3780.009766)} area_end -->
+	<zone name="[23_18_water1]" type="water">
+		<water_range>
+			<min range="98304 27767 -4780"/>
+			<max range="120320 32767 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_19_water1] map_no={23;19} type=water water_range={Min:(103091.000000 37760.000000 -5656.000000) Max:(128091.000000 62760.000000 -4656.000000)} area_end -->
+	<zone name="[23_19_water1]" type="water">
+		<water_range>
+			<min range="103091 37760 -5656"/>
+			<max range="128091 62760 -4656"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_20_water1] map_no={23;20} type=water water_range={Min:(110208.000000 84224.000000 -7184.000000) Max:(110848.000000 84864.000000 -4864.000000)} area_end -->
+	<zone name="[23_20_water1]" type="water">
+		<water_range>
+			<min range="110208 84224 -7184"/>
+			<max range="110848 84864 -4864"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_20_water2] map_no={23;20} type=water water_range={Min:(110848.000000 84224.000000 -7208.000000) Max:(112320.000000 84864.000000 -6631.000000)} area_end -->
+	<zone name="[23_20_water2]" type="water">
+		<water_range>
+			<min range="110848 84224 -7208"/>
+			<max range="112320 84864 -6631"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_22_water1] map_no={23;22} type=water water_range={Min:(112096.218750 142623.984375 -3176.000977) Max:(119232.218750 147603.984375 -2892.000977)} area_end -->
+	<zone name="[23_22_water1]" type="water">
+		<water_range>
+			<min range="112096 142623 -3176"/>
+			<max range="119232 147603 -2892"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_22_water2] map_no={23;22} type=water water_range={Min:(114504.000000 132424.000000 -5498.000000) Max:(115256.000000 133176.000000 -3138.000000)} area_end -->
+	<zone name="[23_22_water2]" type="water">
+		<water_range>
+			<min range="114504 132424 -5498"/>
+			<max range="115256 133176 -3138"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_22_water3] map_no={23;22} type=water water_range={Min:(115256.000000 132480.000000 -5498.000000) Max:(116672.000000 133120.000000 -4921.000000)} area_end -->
+	<zone name="[23_22_water3]" type="water">
+		<water_range>
+			<min range="115256 132480 -5498"/>
+			<max range="116672 133120 -4921"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_22_water4] map_no={23;22} type=water water_range={Min:(98304.218750 138239.984375 -4780.000977) Max:(131072.218750 163839.984375 -3780.000977)} area_end -->
+	<zone name="[23_22_water4]" type="water">
+		<water_range>
+			<min range="98304 138239 -4780"/>
+			<max range="131072 163839 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_22_water5] map_no={23;22} type=water water_range={Min:(117512.218750 136743.984375 -4108.000977) Max:(122009.218750 138239.984375 -3780.000977)} area_end -->
+	<zone name="[23_22_water5]" type="water">
+		<water_range>
+			<min range="117512 136743 -4108"/>
+			<max range="122009 138239 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_23_water1] map_no={23;23} type=water water_range={Min:(98304.000000 163840.000000 -4779.991211) Max:(131072.000000 167840.000000 -3779.991211)} area_end -->
+	<zone name="[23_23_water1]" type="water">
+		<water_range>
+			<min range="98304 163840 -4779"/>
+			<max range="131072 167840 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_23_water2] map_no={23;23} type=water water_range={Min:(98304.000000 167840.000000 -4779.991211) Max:(102304.000000 196608.000000 -3779.991211)} area_end -->
+	<zone name="[23_23_water2]" type="water">
+		<water_range>
+			<min range="98304 167840 -4779"/>
+			<max range="102304 196608 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_23_water3] map_no={23;23} type=water water_range={Min:(124072.000000 167840.000000 -4779.991211) Max:(131072.000000 196608.000000 -3779.991211)} area_end -->
+	<zone name="[23_23_water3]" type="water">
+		<water_range>
+			<min range="124072 167840 -4779"/>
+			<max range="131072 196608 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_23_water4] map_no={23;23} type=water water_range={Min:(102304.000000 191608.000000 -4779.991211) Max:(124072.000000 196608.000000 -3779.991211)} area_end -->
+	<zone name="[23_23_water4]" type="water">
+		<water_range>
+			<min range="102304 191608 -4779"/>
+			<max range="124072 196608 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_23_water5] map_no={23;23} type=water water_range={Min:(121672.000000 186199.000000 -4779.991211) Max:(124072.000000 189151.000000 -3779.991211)} area_end -->
+	<zone name="[23_23_water5]" type="water">
+		<water_range>
+			<min range="121672 186199 -4779"/>
+			<max range="124072 189151 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_23_water6] map_no={23;23} type=water water_range={Min:(102304.000000 184170.000000 -4779.991211) Max:(105652.000000 187250.000000 -3779.991211)} area_end -->
+	<zone name="[23_23_water6]" type="water">
+		<water_range>
+			<min range="102304 184170 -4779"/>
+			<max range="105652 187250 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_23_water7] map_no={23;23} type=water water_range={Min:(102304.000000 168567.000000 -4779.991211) Max:(106804.000000 173567.000000 -3779.991211)} area_end -->
+	<zone name="[23_23_water7]" type="water">
+		<water_range>
+			<min range="102304 168567 -4779"/>
+			<max range="106804 173567 -3779"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_23_water8] map_no={23;23} type=water water_range={Min:(107520.000000 173696.000000 -6096.000000) Max:(108160.000000 174336.000000 -3776.000000)} area_end -->
+	<zone name="[23_23_water8]" type="water">
+		<water_range>
+			<min range="107520 173696 -6096"/>
+			<max range="108160 174336 -3776"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_23_water9] map_no={23;23} type=water water_range={Min:(108160.000000 173696.000000 -6106.000000) Max:(109632.000000 174336.000000 -5529.000000)} area_end -->
+	<zone name="[23_23_water9]" type="water">
+		<water_range>
+			<min range="108160 173696 -6106"/>
+			<max range="109632 174336 -5529"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water1] map_no={23;24} type=water water_range={Min:(110380.000000 219263.000000 -3751.000000) Max:(112391.000000 221056.000000 -3699.000000)} area_end -->
+	<zone name="[23_24_water1]" type="water">
+		<water_range>
+			<min range="110380 219263 -3751"/>
+			<max range="112391 221056 -3699"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water2] map_no={23;24} type=water water_range={Min:(98304.000000 225024.000000 -4780.000000) Max:(107104.000000 229376.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water2]" type="water">
+		<water_range>
+			<min range="98304 225024 -4780"/>
+			<max range="107104 229376 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water3] map_no={23;24} type=water water_range={Min:(107104.000000 219008.000000 -4780.000000) Max:(109760.000000 220256.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water3]" type="water">
+		<water_range>
+			<min range="107104 219008 -4780"/>
+			<max range="109760 220256 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water4] map_no={23;24} type=water water_range={Min:(107104.000000 220256.000000 -4780.000000) Max:(107456.000000 221280.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water4]" type="water">
+		<water_range>
+			<min range="107104 220256 -4780"/>
+			<max range="107456 221280 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water5] map_no={23;24} type=water water_range={Min:(107104.000000 221280.000000 -4780.000000) Max:(108032.000000 229376.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water5]" type="water">
+		<water_range>
+			<min range="107104 221280 -4780"/>
+			<max range="108032 229376 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water6] map_no={23;24} type=water water_range={Min:(108032.000000 223104.000000 -4780.000000) Max:(108896.000000 229376.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water6]" type="water">
+		<water_range>
+			<min range="108032 223104 -4780"/>
+			<max range="108896 229376 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water7] map_no={23;24} type=water water_range={Min:(108896.000000 221632.000000 -4780.000000) Max:(110304.000000 229376.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water7]" type="water">
+		<water_range>
+			<min range="108896 221632 -4780"/>
+			<max range="110304 229376 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water8] map_no={23;24} type=water water_range={Min:(112480.000000 223392.000000 -4780.000000) Max:(114656.000000 229376.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water8]" type="water">
+		<water_range>
+			<min range="112480 223392 -4780"/>
+			<max range="114656 229376 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water9] map_no={23;24} type=water water_range={Min:(114656.000000 225088.000000 -4780.000000) Max:(131072.000000 229376.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water9]" type="water">
+		<water_range>
+			<min range="114656 225088 -4780"/>
+			<max range="131072 229376 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water10] map_no={23;24} type=water water_range={Min:(115360.000000 220128.000000 -4780.000000) Max:(131072.000000 222784.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water10]" type="water">
+		<water_range>
+			<min range="115360 220128 -4780"/>
+			<max range="131072 222784 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water11] map_no={23;24} type=water water_range={Min:(112480.000000 221632.000000 -4780.000000) Max:(113792.000000 223392.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water11]" type="water">
+		<water_range>
+			<min range="112480 221632 -4780"/>
+			<max range="113792 223392 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water12] map_no={23;24} type=water water_range={Min:(110304.000000 221632.000000 -4780.000000) Max:(112480.000000 223008.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water12]" type="water">
+		<water_range>
+			<min range="110304 221632 -4780"/>
+			<max range="112480 223008 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water13] map_no={23;24} type=water water_range={Min:(112640.000000 221056.000000 -4780.000000) Max:(113792.000000 221632.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water13]" type="water">
+		<water_range>
+			<min range="112640 221056 -4780"/>
+			<max range="113792 221632 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water14] map_no={23;24} type=water water_range={Min:(112768.000000 218560.000000 -4780.000000) Max:(114016.000000 221056.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water14]" type="water">
+		<water_range>
+			<min range="112768 218560 -4780"/>
+			<max range="114016 221056 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water15] map_no={23;24} type=water water_range={Min:(114016.000000 220576.000000 -4780.000000) Max:(115360.000000 221120.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water15]" type="water">
+		<water_range>
+			<min range="114016 220576 -4780"/>
+			<max range="115360 221120 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water16] map_no={23;24} type=water water_range={Min:(114688.000000 221120.000000 -4780.000000) Max:(115360.000000 221472.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water16]" type="water">
+		<water_range>
+			<min range="114688 221120 -4780"/>
+			<max range="115360 221472 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water17] map_no={23;24} type=water water_range={Min:(113792.000000 221056.000000 -4780.000000) Max:(114016.000000 221120.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water17]" type="water">
+		<water_range>
+			<min range="113792 221056 -4780"/>
+			<max range="114016 221120 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water18] map_no={23;24} type=water water_range={Min:(115264.000000 220128.000000 -4780.000000) Max:(115360.000000 220576.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water18]" type="water">
+		<water_range>
+			<min range="115264 220128 -4780"/>
+			<max range="115360 220576 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water19] map_no={23;24} type=water water_range={Min:(114016.000000 219616.000000 -4780.000000) Max:(114752.000000 219808.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water19]" type="water">
+		<water_range>
+			<min range="114016 219616 -4780"/>
+			<max range="114752 219808 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water20] map_no={23;24} type=water water_range={Min:(114432.000000 218560.000000 -4780.000000) Max:(114752.000000 219616.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water20]" type="water">
+		<water_range>
+			<min range="114432 218560 -4780"/>
+			<max range="114752 219616 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water21] map_no={23;24} type=water water_range={Min:(114752.000000 216576.000000 -4780.000000) Max:(115936.000000 217952.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water21]" type="water">
+		<water_range>
+			<min range="114752 216576 -4780"/>
+			<max range="115936 217952 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water22] map_no={23;24} type=water water_range={Min:(115936.000000 216576.000000 -4780.000000) Max:(131072.000000 220128.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water22]" type="water">
+		<water_range>
+			<min range="115936 216576 -4780"/>
+			<max range="131072 220128 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water23] map_no={23;24} type=water water_range={Min:(111808.000000 216576.000000 -4780.000000) Max:(113280.000000 218560.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water23]" type="water">
+		<water_range>
+			<min range="111808 216576 -4780"/>
+			<max range="113280 218560 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water24] map_no={23;24} type=water water_range={Min:(111808.000000 218560.000000 -4780.000000) Max:(112768.000000 219008.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water24]" type="water">
+		<water_range>
+			<min range="111808 218560 -4780"/>
+			<max range="112768 219008 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water25] map_no={23;24} type=water water_range={Min:(109280.000000 216576.000000 -4780.000000) Max:(110976.000000 219008.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water25]" type="water">
+		<water_range>
+			<min range="109280 216576 -4780"/>
+			<max range="110976 219008 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water26] map_no={23;24} type=water water_range={Min:(107104.000000 216576.000000 -4780.000000) Max:(109280.000000 217120.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water26]" type="water">
+		<water_range>
+			<min range="107104 216576 -4780"/>
+			<max range="109280 217120 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water27] map_no={23;24} type=water water_range={Min:(108896.000000 221056.000000 -4780.000000) Max:(110144.000000 221632.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water27]" type="water">
+		<water_range>
+			<min range="108896 221056 -4780"/>
+			<max range="110144 221632 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water28] map_no={23;24} type=water water_range={Min:(108800.000000 220256.000000 -4780.000000) Max:(109760.000000 221056.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water28]" type="water">
+		<water_range>
+			<min range="108800 220256 -4780"/>
+			<max range="109760 221056 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water29] map_no={23;24} type=water water_range={Min:(108800.000000 221056.000000 -4780.000000) Max:(108896.000000 221280.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water29]" type="water">
+		<water_range>
+			<min range="108800 221056 -4780"/>
+			<max range="108896 221280 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water30] map_no={23;24} type=water water_range={Min:(110304.000000 225472.000000 -4780.000000) Max:(112480.000000 229376.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water30]" type="water">
+		<water_range>
+			<min range="110304 225472 -4780"/>
+			<max range="112480 229376 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water31] map_no={23;24} type=water water_range={Min:(113280.000000 216576.000000 -4780.000000) Max:(114752.000000 217120.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water31]" type="water">
+		<water_range>
+			<min range="113280 216576 -4780"/>
+			<max range="114752 217120 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water32] map_no={23;24} type=water water_range={Min:(98304.000000 207104.000000 -4780.000000) Max:(131072.000000 216576.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water32]" type="water">
+		<water_range>
+			<min range="98304 207104 -4780"/>
+			<max range="131072 216576 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water33] map_no={23;24} type=water water_range={Min:(98304.000000 196608.000000 -4780.000000) Max:(107840.000000 207104.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water33]" type="water">
+		<water_range>
+			<min range="98304 196608 -4780"/>
+			<max range="107840 207104 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water34] map_no={23;24} type=water water_range={Min:(116352.000000 206528.000000 -4780.000000) Max:(117056.000000 207104.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water34]" type="water">
+		<water_range>
+			<min range="116352 206528 -4780"/>
+			<max range="117056 207104 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water35] map_no={23;24} type=water water_range={Min:(120704.000000 196608.000000 -4780.000000) Max:(131072.000000 207104.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water35]" type="water">
+		<water_range>
+			<min range="120704 196608 -4780"/>
+			<max range="131072 207104 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water36] map_no={23;24} type=water water_range={Min:(116352.000000 196608.000000 -4780.000000) Max:(120704.000000 202752.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water36]" type="water">
+		<water_range>
+			<min range="116352 196608 -4780"/>
+			<max range="120704 202752 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water37] map_no={23;24} type=water water_range={Min:(119616.000000 202752.000000 -4780.000000) Max:(120704.000000 203200.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water37]" type="water">
+		<water_range>
+			<min range="119616 202752 -4780"/>
+			<max range="120704 203200 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water38] map_no={23;24} type=water water_range={Min:(107840.000000 196608.000000 -4780.000000) Max:(116352.000000 204416.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water38]" type="water">
+		<water_range>
+			<min range="107840 196608 -4780"/>
+			<max range="116352 204416 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water39] map_no={23;24} type=water water_range={Min:(109632.000000 204416.000000 -4780.000000) Max:(116352.000000 207104.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water39]" type="water">
+		<water_range>
+			<min range="109632 204416 -4780"/>
+			<max range="116352 207104 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water40] map_no={23;24} type=water water_range={Min:(107840.000000 206016.000000 -4780.000000) Max:(109632.000000 207104.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water40]" type="water">
+		<water_range>
+			<min range="107840 206016 -4780"/>
+			<max range="109632 207104 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water41] map_no={23;24} type=water water_range={Min:(98304.000000 216576.000000 -4780.000000) Max:(107104.000000 225024.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water41]" type="water">
+		<water_range>
+			<min range="98304 216576 -4780"/>
+			<max range="107104 225024 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_24_water42] map_no={23;24} type=water water_range={Min:(114656.000000 222784.000000 -4780.000000) Max:(131072.000000 225088.000000 -3780.000000)} area_end -->
+	<zone name="[23_24_water42]" type="water">
+		<water_range>
+			<min range="114656 222784 -4780"/>
+			<max range="131072 225088 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_25_water1] map_no={23;25} type=water water_range={Min:(98304.007813 252160.015625 -4780.020508) Max:(131072.000000 262144.000000 -3780.020508)} area_end -->
+	<zone name="[23_25_water1]" type="water">
+		<water_range>
+			<min range="98304 252160 -4780"/>
+			<max range="131072 262144 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_25_water2] map_no={23;25} type=water water_range={Min:(98304.007813 229376.015625 -4780.020508) Max:(111872.000000 252160.015625 -3780.020508)} area_end -->
+	<zone name="[23_25_water2]" type="water">
+		<water_range>
+			<min range="98304 229376 -4780"/>
+			<max range="111872 252160 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_25_water3] map_no={23;25} type=water water_range={Min:(111872.007813 229376.015625 -4780.020508) Max:(119552.000000 243456.015625 -3780.020508)} area_end -->
+	<zone name="[23_25_water3]" type="water">
+		<water_range>
+			<min range="111872 229376 -4780"/>
+			<max range="119552 243456 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_25_water4] map_no={23;25} type=water water_range={Min:(119552.000000 229376.015625 -4780.020508) Max:(131072.000000 252160.015625 -3780.020508)} area_end -->
+	<zone name="[23_25_water4]" type="water">
+		<water_range>
+			<min range="119552 229376 -4780"/>
+			<max range="131072 252160 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_25_water5] map_no={23;25} type=water water_range={Min:(113960.000000 244504.000000 -1320.000000) Max:(118192.000000 245684.000000 -1120.000000)} area_end -->
+	<zone name="[23_25_water5]" type="water">
+		<water_range>
+			<min range="113960 244504 -1320"/>
+			<max range="118192 245684 -1120"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_25_water6] map_no={23;25} type=water water_range={Min:(113960.000000 245684.000000 -1320.000000) Max:(114480.000000 247924.000000 -1120.000000)} area_end -->
+	<zone name="[23_25_water6]" type="water">
+		<water_range>
+			<min range="113960 245684 -1320"/>
+			<max range="114480 247924 -1120"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_25_water7] map_no={23;25} type=water water_range={Min:(113480.000000 247924.000000 -1320.000000) Max:(114736.000000 250740.000000 -1120.000000)} area_end -->
+	<zone name="[23_25_water7]" type="water">
+		<water_range>
+			<min range="113480 247924 -1320"/>
+			<max range="114736 250740 -1120"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_25_water8] map_no={23;25} type=water water_range={Min:(117672.000000 245684.000000 -1320.000000) Max:(118192.000000 249428.000000 -1120.000000)} area_end -->
+	<zone name="[23_25_water8]" type="water">
+		<water_range>
+			<min range="117672 245684 -1320"/>
+			<max range="118192 249428 -1120"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_25_water9] map_no={23;25} type=water water_range={Min:(117224.000000 249428.000000 -1320.000000) Max:(118192.000000 250100.000000 -1120.000000)} area_end -->
+	<zone name="[23_25_water9]" type="water">
+		<water_range>
+			<min range="117224 249428 -1320"/>
+			<max range="118192 250100 -1120"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_25_water10] map_no={23;25} type=water water_range={Min:(114640.000000 251488.000000 -1320.000000) Max:(117224.000000 251848.000000 -1120.000000)} area_end -->
+	<zone name="[23_25_water10]" type="water">
+		<water_range>
+			<min range="114640 251488 -1320"/>
+			<max range="117224 251848 -1120"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_25_water11] map_no={23;25} type=water water_range={Min:(114448.000000 250740.000000 -1320.000000) Max:(115288.000000 251488.000000 -1120.000000)} area_end -->
+	<zone name="[23_25_water11]" type="water">
+		<water_range>
+			<min range="114448 250740 -1320"/>
+			<max range="115288 251488 -1120"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_25_water12] map_no={23;25} type=water water_range={Min:(114480.000000 245684.000000 -1320.000000) Max:(115032.000000 246228.000000 -1120.000000)} area_end -->
+	<zone name="[23_25_water12]" type="water">
+		<water_range>
+			<min range="114480 245684 -1320"/>
+			<max range="115032 246228 -1120"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_25_water13] map_no={23;25} type=water water_range={Min:(117120.000000 245684.000000 -1320.000000) Max:(117672.000000 246228.000000 -1120.000000)} area_end -->
+	<zone name="[23_25_water13]" type="water">
+		<water_range>
+			<min range="117120 245684 -1320"/>
+			<max range="117672 246228 -1120"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[23_25_water14] map_no={23;25} type=water water_range={Min:(117224.000000 250100.000000 -1320.000000) Max:(117536.000000 251764.000000 -1120.000000)} area_end -->
+	<zone name="[23_25_water14]" type="water">
+		<water_range>
+			<min range="117224 250100 -1320"/>
+			<max range="117536 251764 -1120"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_11_water1] map_no={24;11} type=water water_range={Min:(131072.000000 -229376.000000 -4780.000000) Max:(163840.000000 -196608.000000 -3780.000000)} area_end -->
+	<zone name="[24_11_water1]" type="water">
+		<water_range>
+			<min range="131072 -229376 -4780"/>
+			<max range="163840 -196608 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_12_water1] map_no={24;12} type=water water_range={Min:(131072.000000 -196608.000000 -4780.000000) Max:(163840.000000 -178608.000000 -3780.000000)} area_end -->
+	<zone name="[24_12_water1]" type="water">
+		<water_range>
+			<min range="131072 -196608 -4780"/>
+			<max range="163840 -178608 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_18_water1] map_no={24;18} type=water water_range={Min:(145081.000000 25139.000000 -2626.000000) Max:(149881.000000 29939.000000 -2528.000000)} area_end -->
+	<zone name="[24_18_water1]" type="water">
+		<water_range>
+			<min range="145081 25139 -2626"/>
+			<max range="149881 29939 -2528"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_19_water1] map_no={24;19} type=water water_range={Min:(137087.390625 36272.003906 -4775.577148) Max:(158719.390625 43440.000000 -3775.577148)} area_end -->
+	<zone name="[24_19_water1]" type="water">
+		<water_range>
+			<min range="137087 36272 -4775"/>
+			<max range="158719 43440 -3775"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_19_water2] map_no={24;19} type=water water_range={Min:(137087.390625 43440.003906 -4775.577148) Max:(146176.390625 50096.000000 -3775.577148)} area_end -->
+	<zone name="[24_19_water2]" type="water">
+		<water_range>
+			<min range="137087 43440 -4775"/>
+			<max range="146176 50096 -3775"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_19_water3] map_no={24;19} type=water water_range={Min:(152832.390625 43440.003906 -4775.577148) Max:(161921.390625 50096.000000 -3775.577148)} area_end -->
+	<zone name="[24_19_water3]" type="water">
+		<water_range>
+			<min range="152832 43440 -4775"/>
+			<max range="161921 50096 -3775"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_19_water4] map_no={24;19} type=water water_range={Min:(151679.390625 43440.003906 -4775.577148) Max:(152832.390625 44336.000000 -3775.577148)} area_end -->
+	<zone name="[24_19_water4]" type="water">
+		<water_range>
+			<min range="151679 43440 -4775"/>
+			<max range="152832 44336 -3775"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_19_water5] map_no={24;19} type=water water_range={Min:(152063.390625 44336.003906 -4775.577148) Max:(152832.390625 45360.000000 -3775.577148)} area_end -->
+	<zone name="[24_19_water5]" type="water">
+		<water_range>
+			<min range="152063 44336 -4775"/>
+			<max range="152832 45360 -3775"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_19_water6] map_no={24;19} type=water water_range={Min:(146176.390625 43440.003906 -4775.577148) Max:(147329.390625 44336.000000 -3775.577148)} area_end -->
+	<zone name="[24_19_water6]" type="water">
+		<water_range>
+			<min range="146176 43440 -4775"/>
+			<max range="147329 44336 -3775"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_19_water7] map_no={24;19} type=water water_range={Min:(146176.390625 44336.003906 -4775.577148) Max:(146945.390625 45360.000000 -3775.577148)} area_end -->
+	<zone name="[24_19_water7]" type="water">
+		<water_range>
+			<min range="146176 44336 -4775"/>
+			<max range="146945 45360 -3775"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_19_water8] map_no={24;19} type=water water_range={Min:(147329.390625 43440.003906 -4775.577148) Max:(151679.390625 43824.000000 -3775.577148)} area_end -->
+	<zone name="[24_19_water8]" type="water">
+		<water_range>
+			<min range="147329 43440 -4775"/>
+			<max range="151679 43824 -3775"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_19_water9] map_no={24;19} type=water water_range={Min:(146176.390625 49200.003906 -4775.577148) Max:(147329.390625 50096.000000 -3775.577148)} area_end -->
+	<zone name="[24_19_water9]" type="water">
+		<water_range>
+			<min range="146176 49200 -4775"/>
+			<max range="147329 50096 -3775"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_19_water10] map_no={24;19} type=water water_range={Min:(146176.390625 48176.003906 -4775.577148) Max:(146945.390625 49200.000000 -3775.577148)} area_end -->
+	<zone name="[24_19_water10]" type="water">
+		<water_range>
+			<min range="146176 48176 -4775"/>
+			<max range="146945 49200 -3775"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_19_water11] map_no={24;19} type=water water_range={Min:(151679.390625 49200.003906 -4775.577148) Max:(152832.390625 50096.000000 -3775.577148)} area_end -->
+	<zone name="[24_19_water11]" type="water">
+		<water_range>
+			<min range="151679 49200 -4775"/>
+			<max range="152832 50096 -3775"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_19_water12] map_no={24;19} type=water water_range={Min:(152063.390625 48176.003906 -4775.577148) Max:(152832.390625 49200.000000 -3775.577148)} area_end -->
+	<zone name="[24_19_water12]" type="water">
+		<water_range>
+			<min range="152063 48176 -4775"/>
+			<max range="152832 49200 -3775"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_19_water13] map_no={24;19} type=water water_range={Min:(147329.390625 49712.003906 -4775.577148) Max:(151679.390625 50096.000000 -3775.577148)} area_end -->
+	<zone name="[24_19_water13]" type="water">
+		<water_range>
+			<min range="147329 49712 -4775"/>
+			<max range="151679 50096 -3775"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_19_water14] map_no={24;19} type=water water_range={Min:(137087.390625 50096.003906 -4775.577148) Max:(161921.390625 53170.000000 -3775.577148)} area_end -->
+	<zone name="[24_19_water14]" type="water">
+		<water_range>
+			<min range="137087 50096 -4775"/>
+			<max range="161921 53170 -3775"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_19_water15] map_no={24;19} type=water water_range={Min:(156928.390625 53170.003906 -4775.577148) Max:(161921.390625 58544.000000 -3775.577148)} area_end -->
+	<zone name="[24_19_water15]" type="water">
+		<water_range>
+			<min range="156928 53170 -4775"/>
+			<max range="161921 58544 -3775"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_19_water16] map_no={24;19} type=water water_range={Min:(151680.390625 57264.003906 -4775.577148) Max:(156928.390625 58544.000000 -3775.577148)} area_end -->
+	<zone name="[24_19_water16]" type="water">
+		<water_range>
+			<min range="151680 57264 -4775"/>
+			<max range="156928 58544 -3775"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_19_water17] map_no={24;19} type=water water_range={Min:(151680.390625 53170.003906 -4775.577148) Max:(153089.390625 57264.000000 -3775.577148)} area_end -->
+	<zone name="[24_19_water17]" type="water">
+		<water_range>
+			<min range="151680 53170 -4775"/>
+			<max range="153089 57264 -3775"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_19_water18] map_no={24;19} type=water water_range={Min:(137087.390625 53170.003906 -4775.577148) Max:(151680.390625 65536.000000 -3775.577148)} area_end -->
+	<zone name="[24_19_water18]" type="water">
+		<water_range>
+			<min range="137087 53170 -4775"/>
+			<max range="151680 65536 -3775"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_19_water19] map_no={24;19} type=water water_range={Min:(151679.390625 58544.003906 -4775.577148) Max:(161922.390625 65535.000000 -3775.577148)} area_end -->
+	<zone name="[24_19_water19]" type="water">
+		<water_range>
+			<min range="151679 58544 -4775"/>
+			<max range="161922 65535 -3775"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_20_water1] map_no={24;20} type=water water_range={Min:(136648.000000 79304.000000 -6096.000000) Max:(137400.000000 80056.000000 -3736.000000)} area_end -->
+	<zone name="[24_20_water1]" type="water">
+		<water_range>
+			<min range="136648 79304 -6096"/>
+			<max range="137400 80056 -3736"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_20_water2] map_no={24;20} type=water water_range={Min:(137400.000000 79360.000000 -6096.000000) Max:(138816.000000 80000.000000 -5519.000000)} area_end -->
+	<zone name="[24_20_water2]" type="water">
+		<water_range>
+			<min range="137400 79360 -6096"/>
+			<max range="138816 80000 -5519"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_20_water3] map_no={24;20} type=water water_range={Min:(137472.000000 65536.000000 -4480.000000) Max:(163840.000000 98304.000000 -3780.000000)} area_end -->
+	<zone name="[24_20_water3]" type="water">
+		<water_range>
+			<min range="137472 65536 -4480"/>
+			<max range="163840 98304 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_21_water1] map_no={24;21} type=water water_range={Min:(131072.000000 126072.000000 -4780.000000) Max:(136072.000000 131072.000000 -3780.000000)} area_end -->
+	<zone name="[24_21_water1]" type="water">
+		<water_range>
+			<min range="131072 126072 -4780"/>
+			<max range="136072 131072 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_22_water1] map_no={24;22} type=water water_range={Min:(131072.000000 131072.000000 -5804.000000) Max:(163840.000000 163840.000000 -3780.000000)} area_end -->
+	<zone name="[24_22_water1]" type="water">
+		<water_range>
+			<min range="131072 131072 -5804"/>
+			<max range="163840 163840 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_23_water1] map_no={24;23} type=water water_range={Min:(131072.000000 163840.000000 -5208.000000) Max:(141072.000000 196608.000000 -3780.000000)} area_end -->
+	<zone name="[24_23_water1]" type="water">
+		<water_range>
+			<min range="131072 163840 -5208"/>
+			<max range="141072 196608 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_23_water2] map_no={24;23} type=water water_range={Min:(153840.000000 163840.000000 -5208.000000) Max:(163840.000000 196608.000000 -3780.000000)} area_end -->
+	<zone name="[24_23_water2]" type="water">
+		<water_range>
+			<min range="153840 163840 -5208"/>
+			<max range="163840 196608 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_23_water3] map_no={24;23} type=water water_range={Min:(141072.000000 181336.000000 -5208.000000) Max:(153840.000000 196608.000000 -3780.000000)} area_end -->
+	<zone name="[24_23_water3]" type="water">
+		<water_range>
+			<min range="141072 181336 -5208"/>
+			<max range="153840 196608 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_23_water4] map_no={24;23} type=water water_range={Min:(141072.000000 163840.000000 -5208.000000) Max:(153840.000000 180131.000000 -3780.000000)} area_end -->
+	<zone name="[24_23_water4]" type="water">
+		<water_range>
+			<min range="141072 163840 -5208"/>
+			<max range="153840 180131 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[24_24_water1] map_no={24;24} type=water water_range={Min:(131072.000000 196608.312500 -4780.049316) Max:(163840.000000 229376.312500 -3780.049316)} area_end -->
+	<zone name="[24_24_water1]" type="water">
+		<water_range>
+			<min range="131072 196608 -4780"/>
+			<max range="163840 229376 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[25_11_water1] map_no={25;11} type=water water_range={Min:(163840.000000 -229376.000000 -4780.000000) Max:(196608.000000 -196608.000000 -3780.000000)} area_end -->
+	<zone name="[25_11_water1]" type="water">
+		<water_range>
+			<min range="163840 -229376 -4780"/>
+			<max range="196608 -196608 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[25_12_water1] map_no={25;12} type=water water_range={Min:(163840.000000 -196608.000000 -4780.000000) Max:(168840.000000 -186608.000000 -3780.000000)} area_end -->
+	<zone name="[25_12_water1]" type="water">
+		<water_range>
+			<min range="163840 -196608 -4780"/>
+			<max range="168840 -186608 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[25_12_water2] map_no={25;12} type=water water_range={Min:(173411.000000 -187756.000000 -5465.000000) Max:(186042.000000 -182534.000000 -4465.000000)} area_end -->
+	<zone name="[25_12_water2]" type="water">
+		<water_range>
+			<min range="173411 -187756 -5465"/>
+			<max range="186042 -182534 -4465"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[25_12_water3] map_no={25;12} type=water water_range={Min:(174206.000000 -182687.000000 -2322.000000) Max:(176749.000000 -179167.000000 -2066.000000)} area_end -->
+	<zone name="[25_12_water3]" type="water">
+		<water_range>
+			<min range="174206 -182687 -2322"/>
+			<max range="176749 -179167 -2066"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[25_14_water1] map_no={25;14} type=water water_range={Min:(170908.000000 -116845.992188 -4643.000000) Max:(173748.000000 -113952.992188 -4033.000000)} area_end -->
+	<zone name="[25_14_water1]" type="water">
+		<water_range>
+			<min range="170908 -116845 -4643"/>
+			<max range="173748 -113952 -4033"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[25_14_water2] map_no={25;14} type=water water_range={Min:(170926.000000 -113935.992188 -6130.000000) Max:(173920.000000 -111042.992188 -5256.000000)} area_end -->
+	<zone name="[25_14_water2]" type="water">
+		<water_range>
+			<min range="170926 -113935 -6130"/>
+			<max range="173920 -111042 -5256"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[25_20_water1] map_no={25;20} type=water water_range={Min:(163840.000000 65760.000000 -4280.000000) Max:(173840.000000 95072.000000 -3780.000000)} area_end -->
+	<zone name="[25_20_water1]" type="water">
+		<water_range>
+			<min range="163840 65760 -4280"/>
+			<max range="173840 95072 -3780"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[25_17_water1] map_no={25;17} type=water water_range={Min:(168576.000000 -17920.000000 -5568.000000) Max:(169216.000000 -17280.000000 -3248.000000)} area_end -->
+	<zone name="[25_17_water1]" type="water">
+		<water_range>
+			<min range="168576 -17920 -5568"/>
+			<max range="169216 -17280 -3248"/>
+		</water_range>
+	</zone>
+	<!-- area_begin name=[25_17_water2] map_no={25;17} type=water water_range={Min:(169216.000000 -17920.000000 -5568.000000) Max:(170688.000000 -17280.000000 -4991.000000)} area_end -->
+	<zone name="[25_17_water2]" type="water">
+		<water_range>
+			<min range="169216 -17920 -5568"/>
+			<max range="170688 -17280 -4991"/>
+		</water_range>
+	</zone>
+</list>

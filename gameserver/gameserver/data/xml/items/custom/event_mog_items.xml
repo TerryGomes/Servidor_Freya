@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<etcitem id="23254" name="1st Place Treasure Sack">
+		<set name="name-ru" value="Приз за I Место"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_treasure_sack_1_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+		<skills>
+			<skill id="2422" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="23255" name="2nd Place Treasure Sack">
+		<set name="name-ru" value="Приз за II Место"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_treasure_sack_2_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+		<skills>
+			<skill id="2423" level="2"/>
+		</skills>
+	</etcitem>
+	<etcitem id="23256" name="3rd Place Treasure Sack">
+		<set name="name-ru" value="Приз за III Место"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_treasure_sack_3_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+		<skills>
+			<skill id="2424" level="3"/>
+		</skills>
+	</etcitem>
+	<etcitem id="23257" name="4th Place Treasure Sack">
+		<set name="name-ru" value="Приз за IV Место"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_treasure_sack_4_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+		<skills>
+			<skill id="2425" level="4"/>
+		</skills>
+	</etcitem>
+	<etcitem id="23258" name="5th Place Treasure Sack">
+		<set name="name-ru" value="Приз за V Место"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_treasure_sack_5_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+		<skills>
+			<skill id="2426" level="5"/>
+		</skills>
+	</etcitem>
+	<etcitem id="23259" name="6th Place Treasure Sack">
+		<set name="name-ru" value="Приз за VI Место"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_treasure_sack_6_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+		<skills>
+			<skill id="2427" level="6"/>
+		</skills>
+	</etcitem>
+</list>

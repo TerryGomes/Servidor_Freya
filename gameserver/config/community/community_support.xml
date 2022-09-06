@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+    <effects>
+		<!-- id = Айди скила, level = Уровень скила, time = Время действия(3600000 =  60 * 60 * 1000 = 1 час)  -->
+        <skill id="264" level="1" time="3600000"/> 	<!-- Song of Earth -->
+        <skill id="265" level="1" time="3600000"/> 	<!-- Song of Life -->
+        <skill id="266" level="1" time="3600000"/> 	<!-- Song of Water -->
+        <skill id="267" level="1" time="3600000"/> 	<!-- Song of Warding -->
+        <skill id="268" level="1" time="3600000"/> 	<!-- Song of Wind -->
+        <skill id="269" level="1" time="3600000"/> 	<!-- Song of Hunter -->
+        <skill id="270" level="1" time="3600000"/> 	<!-- Song of Invocation -->
+        <skill id="271" level="1" time="3600000"/> 	<!-- Dance of the Warrior -->
+        <skill id="272" level="1" time="3600000"/> 	<!-- Dance of Inspiration -->
+        <skill id="273" level="1" time="3600000"/> 	<!-- Dance of the Mystic -->
+        <skill id="274" level="1" time="3600000"/> 	<!-- Dance of Fire -->
+        <skill id="275" level="1" time="3600000"/> 	<!-- Dance of Fury -->
+        <skill id="276" level="1" time="3600000"/> 	<!-- Dance of Concentration -->
+        <skill id="277" level="1" time="3600000"/> 	<!-- Dance of Light -->
+        <skill id="304" level="1" time="3600000"/> 	<!-- Song of Vitality -->
+        <skill id="305" level="1" time="3600000"/> 	<!-- Song of Vengeance -->
+        <skill id="306" level="1" time="3600000"/> 	<!-- Song of Flame Guard -->
+        <skill id="307" level="1" time="3600000"/> 	<!-- Dance of Aqua Guard -->
+        <skill id="308" level="1" time="3600000"/> 	<!-- Song of Storm Guard -->
+        <skill id="309" level="1" time="3600000"/> 	<!-- Dance of Earth Guard -->
+        <skill id="310" level="1" time="3600000"/> 	<!-- Dance of the Vampire -->
+        <skill id="311" level="1" time="3600000"/> 	<!-- Dance of Protection -->
+        <skill id="349" level="1" time="3600000"/> 	<!-- Song of Renewal -->
+        <skill id="363" level="1" time="3600000"/> 	<!-- Song of Meditation -->
+        <skill id="364" level="1" time="3600000"/> 	<!-- Song of Champion -->
+        <skill id="365" level="1" time="3600000"/> 	<!-- Dance of Siren -->
+        <skill id="529" level="1" time="3600000"/> 	<!-- Song of Elemental -->
+        <skill id="530" level="1" time="3600000"/> 	<!-- Dance of Alignment -->
+        <skill id="915" level="1" time="3600000"/> 	<!-- Dance of Berserker -->
+        <skill id="1002" level="3" time="3600000"/> 	<!-- Flame Chant -->
+        <skill id="1032" level="3" time="3600000"/> 	<!-- Invigor -->
+        <skill id="1033" level="3" time="3600000"/> 	<!-- Resist Poison -->
+        <skill id="1035" level="4" time="3600000"/> 	<!-- Mental Shield -->
+        <skill id="1036" level="2" time="3600000"/> 	<!-- Magic Barrier -->
+        <skill id="1040" level="3" time="3600000"/> 	<!-- Shield -->
+        <skill id="1044" level="3" time="3600000"/> 	<!-- Regeneration -->
+        <skill id="1045" level="6" time="3600000"/> 	<!-- Bless the Body -->
+        <skill id="1048" level="6" time="3600000"/> 	<!-- Bless the Soul -->
+        <skill id="1059" level="3" time="3600000"/> 	<!-- Empower -->
+        <skill id="1062" level="2" time="3600000"/> 	<!-- Berserker Spirit -->
+        <skill id="1068" level="3" time="3600000"/> 	<!-- Might -->
+        <skill id="1073" level="2" time="3600000"/> 	<!-- Kiss of Eva -->
+        <skill id="1077" level="3" time="3600000"/> 	<!-- Focus -->
+        <skill id="1078" level="6" time="3600000"/> 	<!-- Concentration -->
+        <skill id="1085" level="3" time="3600000"/> 	<!-- Acumen -->
+        <skill id="1086" level="2" time="3600000"/> 	<!-- Haste -->
+        <skill id="1087" level="3" time="3600000"/> 	<!-- Agility -->
+        <skill id="1182" level="3" time="3600000"/> 	<!-- Resist Aqua -->
+        <skill id="1189" level="3" time="3600000"/> 	<!-- Resist Wind -->
+        <skill id="1191" level="3" time="3600000"/> 	<!-- Resist Fire -->
+        <skill id="1204" level="2" time="3600000"/> 	<!-- Wind Walk -->
+        <skill id="1240" level="3" time="3600000"/> 	<!-- Guidance -->
+        <skill id="1242" level="3" time="3600000"/> 	<!-- Death Whisper -->
+        <skill id="1243" level="6" time="3600000"/> 	<!-- Bless Shield -->
+        <skill id="1257" level="3" time="3600000"/> 	<!-- Decrease Weight -->
+        <skill id="1259" level="4" time="3600000"/> 	<!-- Resist Shock -->
+        <skill id="1268" level="4" time="3600000"/> 	<!-- Vampiric Rage -->
+        <skill id="1284" level="3" time="3600000"/> 	<!-- Chant of Revenge -->
+        <skill id="1303" level="2" time="3600000"/> 	<!-- Wild Magic -->
+        <skill id="1304" level="3" time="3600000"/> 	<!-- Advanced Block -->
+        <skill id="1307" level="3" time="3600000"/> 	<!-- Prayer -->
+        <skill id="1352" level="1" time="3600000"/> 	<!-- Elemental Protection -->
+        <skill id="1353" level="1" time="3600000"/> 	<!-- Divine Protection -->
+        <skill id="1354" level="1" time="3600000"/> 	<!-- Arcane Protection -->
+        <skill id="1355" level="1" time="3600000"/> 	<!-- Prophecy of Water -->
+        <skill id="1356" level="1" time="3600000"/> 	<!-- Prophecy of Fire -->
+        <skill id="1357" level="1" time="3600000"/> 	<!-- Prophecy of Wind -->
+        <skill id="1363" level="1" time="3600000"/> 	<!-- Chant of Victory -->
+        <skill id="1388" level="3" time="3600000"/> 	<!-- Greater Might -->
+        <skill id="1389" level="3" time="3600000"/> 	<!-- Greater Shield -->
+        <skill id="1392" level="3" time="3600000"/> 	<!-- Resist Holy -->
+        <skill id="1393" level="3" time="3600000"/> 	<!-- Resist Dark -->
+        <skill id="1397" level="3" time="3600000"/> 	<!-- Clarity -->
+        <skill id="1413" level="1" time="3600000"/> 	<!-- Magnus' Chant -->
+        <skill id="1460" level="1" time="3600000"/> 	<!-- Mana Gain -->
+        <skill id="1461" level="1" time="3600000"/> 	<!-- Chant of Protection -->
+        <skill id="1499" level="1" time="3600000"/> 	<!-- Improved Combat -->
+        <skill id="1500" level="1" time="3600000"/> 	<!-- Improved Magic -->
+        <skill id="1501" level="1" time="3600000"/> 	<!-- Improved Condition -->
+        <skill id="1502" level="1" time="3600000"/> 	<!-- Improved Critical Attack -->
+        <skill id="1503" level="1" time="3600000"/> 	<!-- Improved Shield Defense -->
+        <skill id="1504" level="1" time="3600000"/> 	<!-- Improved Movement -->
+        <skill id="1519" level="1" time="3600000"/> 	<!-- Chant of Blood Awakening -->
+        <skill id="4699" level="13" time="3600000"/> 	<!-- Blessing of Queen -->
+        <skill id="4700" level="13" time="3600000"/> 	<!-- Gift of Queen -->
+        <skill id="4702" level="13" time="3600000"/> 	<!-- Blessing of Seraphim -->
+        <skill id="4703" level="13" time="3600000"/> 	<!-- Gift of Seraphim -->
+    </effects>
+    <groups>
+        <group name="Fighter">
+			<skill id="1499" level="1"/>
+			<skill id="1500" level="1"/>
+			<skill id="1501" level="1"/>
+			<skill id="1502" level="1"/>
+			<skill id="1503" level="1"/>
+			<skill id="1504" level="1"/>
+			<skill id="1519" level="1"/>
+			<skill id="1240" level="3"/>
+			<skill id="1062" level="2"/>
+			<skill id="1397" level="3"/>
+			<skill id="4699" level="3"/>
+			<skill id="1388" level="3"/>
+			<skill id="1461" level="1"/>
+			<skill id="1363" level="1"/>
+			<skill id="267" level="1"/>
+			<skill id="268" level="1"/>
+			<skill id="264" level="1"/>
+			<skill id="269" level="1"/>
+			<skill id="304" level="1"/>
+			<skill id="349" level="1"/>
+			<skill id="364" level="1"/>
+			<skill id="271" level="1"/>
+			<skill id="274" level="1"/>
+			<skill id="275" level="1"/>
+        </group>
+        <group name="Mage">
+			<skill id="1499" level="1"/>
+			<skill id="1500" level="1"/>
+			<skill id="1501" level="1"/>
+			<skill id="1502" level="1"/>
+			<skill id="1503" level="1"/>
+			<skill id="1504" level="1"/>
+			<skill id="1519" level="1"/>
+			<skill id="1062" level="2"/>
+			<skill id="1397" level="3"/>
+			<skill id="1461" level="1"/>
+			<skill id="1363" level="1"/>
+			<skill id="267" level="1"/>
+			<skill id="268" level="1"/>
+			<skill id="264" level="1"/>
+			<skill id="269" level="1"/>
+			<skill id="304" level="1"/>
+			<skill id="349" level="1"/>
+			<skill id="1303" level="2"/>
+			<skill id="4703" level="3"/>
+			<skill id="1389" level="3"/>
+			<skill id="363" level="1"/>
+			<skill id="273" level="1"/>
+			<skill id="276" level="1"/>
+			<skill id="365" level="1"/>
+			<skill id="1085" level="3"/>
+			<skill id="1059" level="3"/>
+        </group>
+		<group name="Maximum Speed">
+			<skill id="1257" level="3"/> 	<!-- Decrease Weight -->
+			<skill id="1504" level="1"/> 	<!-- Improved Movement -->
+			<skill id="1062" level="2"/> 	<!-- Berserker Spirit -->
+			<skill id="268" level="1"/> 	<!-- Song of Wind -->
+		</group>
+    </groups>
+	<!-- Цена указывается за 1 бафф!!! -->
+    <f_groups>
+        <f_group name="Fighter" itemId="57" itemCount="1000">
+			<skill id="1499" level="1"/>
+			<skill id="1500" level="1"/>
+			<skill id="1501" level="1"/>
+			<skill id="1502" level="1"/>
+			<skill id="1503" level="1"/>
+			<skill id="1504" level="1"/>
+			<skill id="1519" level="1"/>
+			<skill id="1240" level="3"/>
+			<skill id="1062" level="2"/>
+			<skill id="1397" level="3"/>
+			<skill id="4699" level="3"/>
+			<skill id="1388" level="3"/>
+			<skill id="1461" level="1"/>
+			<skill id="1363" level="1"/>
+			<skill id="267" level="1"/>
+			<skill id="268" level="1"/>
+			<skill id="264" level="1"/>
+			<skill id="269" level="1"/>
+			<skill id="304" level="1"/>
+			<skill id="349" level="1"/>
+			<skill id="364" level="1"/>
+			<skill id="271" level="1"/>
+			<skill id="274" level="1"/>
+			<skill id="275" level="1"/>
+        </f_group>
+        <f_group name="Mage" itemId="57" itemCount="1000">
+			<skill id="1499" level="1"/>
+			<skill id="1500" level="1"/>
+			<skill id="1501" level="1"/>
+			<skill id="1502" level="1"/>
+			<skill id="1503" level="1"/>
+			<skill id="1504" level="1"/>
+			<skill id="1519" level="1"/>
+			<skill id="1062" level="2"/>
+			<skill id="1397" level="3"/>
+			<skill id="1461" level="1"/>
+			<skill id="1363" level="1"/>
+			<skill id="267" level="1"/>
+			<skill id="268" level="1"/>
+			<skill id="264" level="1"/>
+			<skill id="269" level="1"/>
+			<skill id="304" level="1"/>
+			<skill id="349" level="1"/>
+			<skill id="1303" level="2"/>
+			<skill id="4703" level="3"/>
+			<skill id="1389" level="3"/>
+			<skill id="363" level="1"/>
+			<skill id="273" level="1"/>
+			<skill id="276" level="1"/>
+			<skill id="365" level="1"/>
+			<skill id="1085" level="3"/>
+			<skill id="1059" level="3"/>
+        </f_group>
+    </f_groups>
+</list>

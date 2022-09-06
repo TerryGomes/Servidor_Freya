@@ -1,0 +1,1626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<etcitem id="5100" name="Mature Desert Coda">
+		<set name="name-ru" value="Спелая Пустынная Кода"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coda_i05"/>
+		<set name="price" value="200"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5101" name="Mature Lute Coda">
+		<set name="name-ru" value="Спелая Кода Лютни"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coda_i06"/>
+		<set name="price" value="300"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5102" name="Mature Twin Coda">
+		<set name="name-ru" value="Спелая Двойная Кода"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coda_i07"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5103" name="Mature Dark Coda">
+		<set name="name-ru" value="Спелая Темная Кода"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coda_i08"/>
+		<set name="price" value="50"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5104" name="Mature Shining Coda">
+		<set name="name-ru" value="Спелая Светлая Кода"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_coda_i09"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5105" name="Mature Chilly Cobol">
+		<set name="name-ru" value="Спелый Холодный Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_i00"/>
+		<set name="price" value="250"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5106" name="Mature Burning Cobol">
+		<set name="name-ru" value="Спелый Горячий Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5107" name="Mature Blue Cobol">
+		<set name="name-ru" value="Спелый Синий Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_i02"/>
+		<set name="price" value="500"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5108" name="Mature Red Cobol">
+		<set name="name-ru" value="Спелый Красный Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_i03"/>
+		<set name="price" value="200"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5109" name="Mature Golden Cobol">
+		<set name="name-ru" value="Спелый Золотой Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_i04"/>
+		<set name="price" value="500"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5110" name="Mature Desert Cobol">
+		<set name="name-ru" value="Спелый Пустынный Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_i05"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5111" name="Mature Sea Cobol">
+		<set name="name-ru" value="Спелый Морской Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_i06"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5112" name="Mature Thorn Cobol">
+		<set name="name-ru" value="Спелый Колючий Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_i07"/>
+		<set name="price" value="500"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5113" name="Mature Dapple Cobol">
+		<set name="name-ru" value="Спелый Пятнистый Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_i08"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5114" name="Mature Great Cobol">
+		<set name="name-ru" value="Спелый Большой Кобол"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_cobol_i09"/>
+		<set name="price" value="500"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5115" name="Mature Chilly Codran">
+		<set name="name-ru" value="Спелый Холодный Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_i00"/>
+		<set name="price" value="400"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5116" name="Mature Burning Codran">
+		<set name="name-ru" value="Спелый Горячий Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5117" name="Mature Blue Codran">
+		<set name="name-ru" value="Спелый Синий Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_i02"/>
+		<set name="price" value="500"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5118" name="Mature Red Codran">
+		<set name="name-ru" value="Спелый Красный Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_i03"/>
+		<set name="price" value="400"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5119" name="Mature Dapple Codran">
+		<set name="name-ru" value="Спелый Пятнистый Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5120" name="Mature Desert Codran">
+		<set name="name-ru" value="Спелый Пустынный Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_i05"/>
+		<set name="price" value="1000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5121" name="Mature Sea Codran">
+		<set name="name-ru" value="Спелый Морской Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_i06"/>
+		<set name="price" value="500"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5122" name="Mature Twin Codran">
+		<set name="name-ru" value="Спелый Двойной Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_i07"/>
+		<set name="price" value="500"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5123" name="Mature Thorn Codran">
+		<set name="name-ru" value="Спелый Колючий Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_i08"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5124" name="Mature Great Codran">
+		<set name="name-ru" value="Спелый Большой Кодран"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_codran_i09"/>
+		<set name="price" value="750"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SEED"/>
+		<set name="weight" value="1"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5125" name="Harvester">
+		<set name="name-ru" value="Коса"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_reaper_i00"/>
+		<set name="price" value="500"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="20"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_HARVEST"/>
+	</etcitem>
+	<etcitem id="5126" name="Dualsword Craft Stamp">
+		<set name="name-ru" value="Штамп для Изготовления Парных Мечей"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_letter_blue_i00"/>
+		<set name="price" value="10000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="20"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<weapon id="5127" name="Dailaon Knife">
+		<set name="name-ru" value="Нож Дайлаона"/>
+		<set name="crystal_count" value="743"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="price" value="409000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="5"/>
+			<add stat="mAtk" order="0x10" value="5"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="300"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="5128" name="Crokian Blade">
+		<set name="name-ru" value="Клинок Крока"/>
+		<set name="crystal_count" value="743"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="price" value="409000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="5"/>
+			<add stat="mAtk" order="0x10" value="5"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="300"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;300;120"/>
+	</weapon>
+	<weapon id="5129" name="Doll Knife">
+		<set name="name-ru" value="Игрушечный Нож"/>
+		<set name="crystal_count" value="743"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="price" value="409000"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DUAL"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="200"/>
+			<add stat="mAtk" order="0x10" value="6"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="300"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;44;120"/>
+	</weapon>
+	<weapon id="5130" name="Nos Sword">
+		<set name="name-ru" value="Меч Рогача"/>
+		<set name="crystal_count" value="743"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="price" value="409000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="5"/>
+			<add stat="mAtk" order="0x10" value="5"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="300"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;300;120"/>
+	</weapon>
+	<weapon id="5131" name="Parhit Staff">
+		<set name="name-ru" value="Посох Пархита"/>
+		<set name="crystal_count" value="743"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="price" value="409000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="5"/>
+			<add stat="mAtk" order="0x10" value="5"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="300"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;300;120"/>
+	</weapon>
+	<weapon id="5132" name="Giant Trident">
+		<set name="name-ru" value="Большой Трезубец"/>
+		<set name="crystal_count" value="743"/>
+		<set name="crystal_type" value="D"/>
+		<set name="crystallizable" value="true"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="price" value="409000"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="DAGGER"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="5"/>
+			<add stat="mAtk" order="0x10" value="5"/>
+			<set stat="baseCrit" order="0x08" value="120"/>
+			<set stat="atkBaseSpeed" order="0x08" value="433"/>
+			<add stat="accCombat" order="0x10" value="-4.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="300"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;300;120"/>
+	</weapon>
+	<weapon id="5133" name="Chrono Unitus">
+		<set name="name-ru" value="Тамбурин"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.weapon_chrono_tambourine_i00"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="sellable" value="false"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="DUALFIST"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1"/>
+			<add stat="mAtk" order="0x10" value="1"/>
+			<set stat="baseCrit" order="0x08" value="40"/>
+			<set stat="atkBaseSpeed" order="0x08" value="325"/>
+			<add stat="accCombat" order="0x10" value="5.0000"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="0"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<etcitem id="5134" name="Compressed Package of Soulshots: No Grade">
+		<set name="name-ru" value="Пакет Зарядов Души: Без Ранга"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="2300"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2078" level="1"/>
+		</skills>
+		<set name="weight" value="600"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="5135" name="Compressed Package of Soulshots: D-grade">
+		<set name="name-ru" value="Пакет Зарядов Души: Ранг D"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="3300"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2079" level="1"/>
+		</skills>
+		<set name="weight" value="450"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="5136" name="Compressed Package of Soulshots: C-grade">
+		<set name="name-ru" value="Пакет Зарядов Души: Ранг C"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="4950"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2080" level="1"/>
+		</skills>
+		<set name="weight" value="450"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="5137" name="Compressed Package of Soulshots: B-grade">
+		<set name="name-ru" value="Пакет Зарядов Души: Ранг B"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="16500"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2081" level="1"/>
+		</skills>
+		<set name="weight" value="300"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="5138" name="Compressed Package of Soulshots: A-grade">
+		<set name="name-ru" value="Пакет Зарядов Души: Ранг A"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="26400"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2082" level="1"/>
+		</skills>
+		<set name="weight" value="300"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="5139" name="Compressed Package of Soulshots: S-grade">
+		<set name="name-ru" value="Пакет Зарядов Души: Ранг S"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="33000"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2083" level="1"/>
+		</skills>
+		<set name="weight" value="300"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="5140" name="Compressed Package of Spiritshots: No Grade">
+		<set name="name-ru" value="Пакет Зарядов Духа: Без Ранга"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="4950"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2084" level="1"/>
+		</skills>
+		<set name="weight" value="750"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="5141" name="Compressed Package of Spiritshots: D-grade">
+		<set name="name-ru" value="Пакет Зарядов Духа: Ранг D"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="5940"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2085" level="1"/>
+		</skills>
+		<set name="weight" value="750"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="5142" name="Compressed Package of Spiritshots: C-grade">
+		<set name="name-ru" value="Пакет Зарядов Духа: Ранг C"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="11550"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2086" level="1"/>
+		</skills>
+		<set name="weight" value="450"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="5143" name="Compressed Package of Spiritshots: B-grade">
+		<set name="name-ru" value="Пакет Зарядов Духа: Ранг B"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="33000"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2087" level="1"/>
+		</skills>
+		<set name="weight" value="450"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="5144" name="Compressed Package of Spiritshots: A-grade">
+		<set name="name-ru" value="Пакет Зарядов Духа: Ранг A"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="39600"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2088" level="1"/>
+		</skills>
+		<set name="weight" value="300"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="5145" name="Compressed Package of Spiritshots: S-grade">
+		<set name="name-ru" value="Пакет Зарядов Духа: Ранг S"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="49500"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2089" level="1"/>
+		</skills>
+		<set name="weight" value="300"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="5146" name="Compressed Package of Blessed Spiritshots: No Grade">
+		<set name="name-ru" value="Пакет Благословенных Зарядов Духа: Без Ранга"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="11550"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2090" level="1"/>
+		</skills>
+		<set name="weight" value="750"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="5147" name="Compressed Package of Blessed Spiritshots: D-grade">
+		<set name="name-ru" value="Пакет Благословенных Зарядов Духа: Ранг D"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="14850"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2091" level="1"/>
+		</skills>
+		<set name="weight" value="750"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="5148" name="Compressed Package of Blessed Spiritshots: C-grade">
+		<set name="name-ru" value="Пакет Благословенных Зарядов Духа: Ранг C"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="29700"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2092" level="1"/>
+		</skills>
+		<set name="weight" value="450"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="5149" name="Compressed Package of Blessed Spiritshots: B-grade">
+		<set name="name-ru" value="Пакет Благословенных Зарядов Духа: Ранг B"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="80850"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2093" level="1"/>
+		</skills>
+		<set name="weight" value="450"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="5150" name="Compressed Package of Blessed Spiritshots: A-grade">
+		<set name="name-ru" value="Пакет Благословенных Зарядов Духа: Ранг A"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="95700"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2094" level="1"/>
+		</skills>
+		<set name="weight" value="300"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="5151" name="Compressed Package of Blessed Spiritshots: S-grade">
+		<set name="name-ru" value="Пакет Благословенных Зарядов Духа: Ранг S"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="115500"/>
+		<set name="type" value="OTHER"/>
+		<skills>
+			<skill id="2095" level="1"/>
+		</skills>
+		<set name="weight" value="300"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_CAPSULE"/>
+	</etcitem>
+	<etcitem id="5152" name="Magic Compressor">
+		<set name="name-ru" value="Магический Компрессор"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_jewel_box_i00"/>
+		<set name="price" value="100"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5153" name="Recipe: Soulshot (D) Compressed Package (100%)">
+		<set name="name-ru" value="Рецепт: Пакет Зарядов Души: Ранг D (100%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_blue_i00"/>
+		<set name="price" value="5000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+	<etcitem id="5154" name="Recipe: Soulshot (C) Compressed Package (100%)">
+		<set name="name-ru" value="Рецепт: Пакет Зарядов Души: Ранг C (100%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_yellow_i00"/>
+		<set name="price" value="60000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+	<etcitem id="5155" name="Recipe: Soulshot (B) Compressed Package (100%)">
+		<set name="name-ru" value="Рецепт: Пакет Зарядов Души: Ранг B (100%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="100000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+	<etcitem id="5156" name="Recipe: Soulshot (A) Compressed Package (100%)">
+		<set name="name-ru" value="Рецепт: Пакет Зарядов Души: Ранг A (100%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_violet_i00"/>
+		<set name="price" value="150000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+	<etcitem id="5157" name="Recipe: Soulshot (S) Compressed Package (100%)">
+		<set name="name-ru" value="Рецепт: Пакет Зарядов Души: Ранг S (100%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_black_i00"/>
+		<set name="price" value="450000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+	<etcitem id="5158" name="Recipe: Spiritshot (D) Compressed Package (100%)">
+		<set name="name-ru" value="Рецепт: Пакет Зарядов Духа: Ранг D (100%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_blue_i00"/>
+		<set name="price" value="5000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+	<etcitem id="5159" name="Recipe: Spiritshot (C) Compressed Package (100%)">
+		<set name="name-ru" value="Рецепт: Пакет Зарядов Духа: Ранг C (100%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_yellow_i00"/>
+		<set name="price" value="60000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+	<etcitem id="5160" name="Recipe: Spiritshot (B) Compressed Package (100%)">
+		<set name="name-ru" value="Рецепт: Пакет Зарядов Духа: Ранг B (100%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="100000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+	<etcitem id="5161" name="Recipe: Spiritshot (A) Compressed Package (100%)">
+		<set name="name-ru" value="Рецепт: Пакет Зарядов Духа: Ранг A (100%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_violet_i00"/>
+		<set name="price" value="150000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+	<etcitem id="5162" name="Recipe: Spiritshot (S) Compressed Package (100%)">
+		<set name="name-ru" value="Рецепт: Пакет Зарядов Духа: Ранг S (100%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_black_i00"/>
+		<set name="price" value="450000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+	<etcitem id="5163" name="Recipe: Blessed Spiritshot (D) Compressed Package (100%)">
+		<set name="name-ru" value="Рецепт: Пакет Благословенных Зарядов Духа: Ранг D (100%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_blue_i00"/>
+		<set name="price" value="5000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+	<etcitem id="5164" name="Recipe: Blessed Spiritshot (C) Compressed Package (100%)">
+		<set name="name-ru" value="Рецепт: Пакет Благословенных Зарядов Духа: Ранг C (100%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_yellow_i00"/>
+		<set name="price" value="60000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+	<etcitem id="5165" name="Recipe: Blessed Spiritshot (B) Compressed Package (100%)">
+		<set name="name-ru" value="Рецепт: Пакет Благословенных Зарядов Духа: Ранг B (100%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="100000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+	<etcitem id="5166" name="Recipe: Blessed Spiritshot (A) Compressed Package (100%)">
+		<set name="name-ru" value="Рецепт: Пакет Благословенных Зарядов Духа: Ранг A (100%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_violet_i00"/>
+		<set name="price" value="150000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+	<etcitem id="5167" name="Recipe: Blessed Spiritshot (S) Compressed Package (100%)">
+		<set name="name-ru" value="Рецепт: Пакет Благословенных Зарядов Духа: Ранг S (100%)"/>
+		<set name="class" value="RECIPIES"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_black_i00"/>
+		<set name="price" value="450000"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="RECIPE"/>
+		<set name="weight" value="30"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_RECIPE"/>
+	</etcitem>
+	<etcitem id="5168" name="Food for Strider">
+		<set name="name-ru" value="Корм Дракона"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="200"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="PET_FEED"/>
+		<skills>
+			<skill id="2101" level="1"/>
+			<!--Feed: General Strider-->
+		</skills>
+		<cond msgId="113">
+			<target is_pet_feed="5168"/>
+		</cond>
+		<cond msgId="1508">
+			<player olympiad="false"/>
+		</cond>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+	<etcitem id="5169" name="Deluxe Food for Strider">
+		<set name="name-ru" value="Отличный Корм Дракона"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="price" value="300"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="PET_FEED"/>
+		<skills>
+			<skill id="2102" level="1"/>
+			<!--Feed: Clan Hall Strider-->
+		</skills>
+		<cond msgId="113">
+			<target is_pet_feed="5169"/>
+		</cond>
+		<cond msgId="1508">
+			<player olympiad="false"/>
+		</cond>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+	<armor id="5170" name="Mithril Panzer Coat">
+		<set name="name-ru" value="Мифриловое Седло"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_armor_i08"/>
+		<set name="price" value="825000"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="STRIDER"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="41"/>
+			<add stat="mDef" order="0x10" value="41"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="160"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="5171" name="Brigadine Panzer Coat">
+		<set name="name-ru" value="Кольчужное Седло"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_armor_i09"/>
+		<set name="price" value="1197000"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="STRIDER"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+			<add stat="mDef" order="0x10" value="44"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="160"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="5172" name="Draconic Panzer Coat">
+		<set name="name-ru" value="Панцирное Седло"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_armor_i09"/>
+		<set name="price" value="1857000"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="STRIDER"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="46"/>
+			<add stat="mDef" order="0x10" value="46"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="160"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="5173" name="Blood Panzer Coat">
+		<set name="name-ru" value="Кровавое Седло"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_armor_i10"/>
+		<set name="price" value="2657000"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="STRIDER"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="49"/>
+			<add stat="mDef" order="0x10" value="49"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="160"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="5174" name="Ophidian Panzer Coat">
+		<set name="name-ru" value="Змеиное Седло"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_armor_i10"/>
+		<set name="price" value="4064000"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="STRIDER"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="52"/>
+			<add stat="mDef" order="0x10" value="52"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="160"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="5175" name="Inferno Panzer Coat">
+		<set name="name-ru" value="Седло Инферно"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_armor_i11"/>
+		<set name="price" value="5568000"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="STRIDER"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="54"/>
+			<add stat="mDef" order="0x10" value="54"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="160"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<weapon id="5176" name="Serpentine Spike">
+		<set name="name-ru" value="Змеевидный Шип"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_arms_i08"/>
+		<set name="price" value="1600000"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="STRIDER"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="17"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="304"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="5177" name="Drake Horn">
+		<set name="name-ru" value="Рог Дрейка"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_arms_i09"/>
+		<set name="price" value="2300000"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="STRIDER"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="19"/>
+			<add stat="mAtk" order="0x10" value="24"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="304"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="5178" name="Assault Alicorn">
+		<set name="name-ru" value="Свирепый Вид"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_arms_i09"/>
+		<set name="price" value="3400000"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="STRIDER"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="21"/>
+			<add stat="mAtk" order="0x10" value="27"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="304"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="5179" name="Draconic Slicer">
+		<set name="name-ru" value="Резак Дракона"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_arms_i10"/>
+		<set name="price" value="4900000"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="STRIDER"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="23"/>
+			<add stat="mAtk" order="0x10" value="30"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="304"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="5180" name="Ohpdian Lance">
+		<set name="name-ru" value="Пика Офдиана"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_arms_i10"/>
+		<set name="price" value="7300000"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="STRIDER"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="25"/>
+			<add stat="mAtk" order="0x10" value="34"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="304"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="5181" name="Diamond Drill">
+		<set name="name-ru" value="Алмазный Рог"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_arms_i11"/>
+		<set name="price" value="10000000"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="STRIDER"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="27"/>
+			<add stat="mAtk" order="0x10" value="37"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="304"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<armor id="5182" name="Hatchling's Gorgon Coat">
+		<set name="name-ru" value="Горгоновое Седло"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_armor_i05"/>
+		<set name="price" value="1197000"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="HATCHLING"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+			<add stat="mDef" order="0x10" value="44"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="160"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="5183" name="Hatchling's Ophidian Plate">
+		<set name="name-ru" value="Змеиное Седло"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_armor_i05"/>
+		<set name="price" value="1857000"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="HATCHLING"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="46"/>
+			<add stat="mDef" order="0x10" value="46"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="160"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="5184" name="Hatchling's Crimson Plate">
+		<set name="name-ru" value="Алое Седло"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_armor_i06"/>
+		<set name="price" value="2671000"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="HATCHLING"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="49"/>
+			<add stat="mDef" order="0x10" value="49"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="160"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="5185" name="Hatchling's Draconic Plate">
+		<set name="name-ru" value="Драконье Седло"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_armor_i06"/>
+		<set name="price" value="4064000"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="HATCHLING"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="52"/>
+			<add stat="mDef" order="0x10" value="52"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="160"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<armor id="5186" name="Hatchling's Inferno Plate">
+		<set name="name-ru" value="Седло Инферно"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_armor_i07"/>
+		<set name="price" value="5568000"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="HATCHLING"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="54"/>
+			<add stat="mDef" order="0x10" value="54"/>
+			<enchant stat="pDef" order="0x0C" value="0"/>
+			<enchant stat="maxHp" order="0x80" value="0"/>
+			<enchant stat="mDef" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="160"/>
+		<set name="material_type" value="LEATHER"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+	</armor>
+	<weapon id="5187" name="Serpentine Grinder">
+		<set name="name-ru" value="Змеиные Клыки"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_arms_i05"/>
+		<set name="price" value="2300000"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="HATCHLING"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="19"/>
+			<add stat="mAtk" order="0x10" value="24"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="304"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="5188" name="Fang of Dahak">
+		<set name="name-ru" value="Клык Дахака"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_arms_i05"/>
+		<set name="price" value="3400000"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="HATCHLING"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="21"/>
+			<add stat="mAtk" order="0x10" value="27"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="304"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="5189" name="Crimson Blood Fang">
+		<set name="name-ru" value="Алый Окровавленный Клык"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_arms_i06"/>
+		<set name="price" value="4900000"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="HATCHLING"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="23"/>
+			<add stat="mAtk" order="0x10" value="30"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="304"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="5190" name="Draconic Chopper">
+		<set name="name-ru" value="Драконий Колун"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_arms_i06"/>
+		<set name="price" value="7300000"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="HATCHLING"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="25"/>
+			<add stat="mAtk" order="0x10" value="34"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="304"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<weapon id="5191" name="Diabolic Grinder">
+		<set name="name-ru" value="Дьявольские Клыки"/>
+		<!--Elit by Nika 26.02.2012-->
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_pet_arms_i07"/>
+		<set name="price" value="10000000"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="type" value="PET"/>
+		<equip>
+			<slot id="HATCHLING"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="27"/>
+			<add stat="mAtk" order="0x10" value="37"/>
+			<set stat="baseCrit" order="0x08" value="80"/>
+			<set stat="atkBaseSpeed" order="0x08" value="304"/>
+			<enchant stat="pAtk" order="0x0C" value="0"/>
+			<enchant stat="mAtk" order="0x0C" value="0"/>
+		</for>
+		<set name="weight" value="100"/>
+		<set name="material_type" value="STEEL"/>
+		<set name="default_action" value="ACTION_EQUIP"/>
+		<set name="damage_range" value="0;0;40;120"/>
+	</weapon>
+	<etcitem id="5192" name="Rope of Magic: D-Grade">
+		<set name="name-ru" value="Магическая Веревка: Ранг D"/>
+		<set name="class" value="MATHERIALS"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_braided_hemp_i00"/>
+		<set name="price" value="100"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="2"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5193" name="Rope of Magic: C-Grade">
+		<set name="name-ru" value="Магическая Веревка: Ранг C"/>
+		<set name="class" value="MATHERIALS"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_braided_hemp_i00"/>
+		<set name="price" value="150"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="2"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5194" name="Rope of Magic: B-Grade">
+		<set name="name-ru" value="Магическая Веревка: Ранг B"/>
+		<set name="class" value="MATHERIALS"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_braided_hemp_i00"/>
+		<set name="price" value="250"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="2"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5195" name="Rope of Magic: A-Grade">
+		<set name="name-ru" value="Магическая Веревка: Ранг A"/>
+		<set name="class" value="MATHERIALS"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_braided_hemp_i00"/>
+		<set name="price" value="400"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="2"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5196" name="Rope of Magic: S Grade">
+		<set name="name-ru" value="Магическая Веревка: Ранг S"/>
+		<set name="class" value="MATHERIALS"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_braided_hemp_i00"/>
+		<set name="price" value="1500"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<set name="weight" value="2"/>
+		<set name="material_type" value="PAPER"/>
+		<set name="default_action" value="ACTION_NONE"/>
+	</etcitem>
+	<etcitem id="5197" name="Chest Key - Grade 8">
+		<set name="name-ru" value="Ключ от Сундука - Ранг 8"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_key_i00"/>
+		<set name="price" value="70"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<cond msgId="1508">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+	<etcitem id="5198" name="Chest Key - Grade 7">
+		<set name="name-ru" value="Ключ от Сундука - Ранг 7"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_key_i00"/>
+		<set name="price" value="760"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<cond msgId="1508">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+	<etcitem id="5199" name="Chest Key - Grade 6">
+		<set name="name-ru" value="Ключ от Сундука - Ранг 6"/>
+		<set name="class" value="OTHER"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_key_i00"/>
+		<set name="price" value="1200"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="OTHER"/>
+		<cond msgId="1508">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<set name="weight" value="10"/>
+		<set name="material_type" value="LIQUID"/>
+		<set name="default_action" value="ACTION_SKILL_REDUCE"/>
+	</etcitem>
+</list>

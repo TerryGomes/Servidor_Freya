@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+    <door id="17100001" name="Door.OlympiadStadium_1" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-88824" y="-252637" z="-3189" />
+        <shape ax="-88834" ay="-252510" bx="-88810" by="-252510" cx="-88810" cy="-252766" dx="-88836" dy="-252766" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100002" name="Door.OlympiadStadium_1" hp="158250" pdef="644" mdef="518" >
+        <pos x="-87184" y="-252637" z="-3189" />
+        <shape ax="-87200" ay="-252766" bx="-87165" by="-252766" cx="-87165" cy="-252510" dx="-87200" dy="-252510" minz="-3342" maxz="-3079" />
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100003" name="Door.OlympiadStadium_2" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-84599" y="-252637" z="-3189" />
+        <shape ax="-84609" ay="-252510" bx="-84585" by="-252510" cx="-84585" cy="-252766" dx="-84611" dy="-252766" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100004" name="Door.OlympiadStadium_2" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-82959" y="-252637" z="-3189" />
+        <shape ax="-82975" ay="-252510" bx="-82940" by="-252510" cx="-82940" cy="-252766" dx="-82975" dy="-252766" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100005" name="Door.OlympiadStadium_3" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-80410" y="-252637" z="-3189" />
+        <shape ax="-80420" ay="-252510" bx="-80396" by="-252510" cx="-80396" cy="-252766" dx="-80422" dy="-252766" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100006" name="Door.OlympiadStadium_3" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-78749" y="-252637" z="-3189" />
+        <shape ax="-78765" ay="-252510" bx="-78730" by="-252510" cx="-78730" cy="-252766" dx="-78765" dy="-252766" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100007" name="Door.OlympiadStadium_4" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-76491" y="-252637" z="-3189" />
+        <shape ax="-76501" ay="-252510" bx="-76477" by="-252510" cx="-76477" cy="-252766" dx="-76503" dy="-252766" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100008" name="Door.OlympiadStadium_4" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-74851" y="-252637" z="-3189" />
+        <shape ax="-74867" ay="-252510" bx="-74832" by="-252510" cx="-74832" cy="-252766" dx="-74867" dy="-252766" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100009" name="Door.OlympiadStadium_8" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-88824" y="-249762" z="-3189" />
+        <shape ax="-88834" ay="-249635" bx="-88810" by="-249635" cx="-88810" cy="-249891" dx="-88836" dy="-249891" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100010" name="Door.OlympiadStadium_8" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-87184" y="-249762" z="-3189" />
+        <shape ax="-87200" ay="-249635" bx="-87165" by="-249635" cx="-87165" cy="-249891" dx="-87200" dy="-249891" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100011" name="Door.OlympiadStadium_7" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-84599" y="-249762" z="-3189" />
+        <shape ax="-84609" ay="-249635" bx="-84585" by="-249635" cx="-84585" cy="-249891" dx="-84611" dy="-249891" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100012" name="Door.OlympiadStadium_7" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-82959" y="-249762" z="-3189" />
+        <shape ax="-82975" ay="-249635" bx="-82940" by="-249635" cx="-82940" cy="-249891" dx="-82975" dy="-249891" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100013" name="Door.OlympiadStadium_6" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-80410" y="-249762" z="-3189" />
+        <shape ax="-80420" ay="-249635" bx="-80396" by="-249635" cx="-80396" cy="-249891" dx="-80422" dy="-249891" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100014" name="Door.OlympiadStadium_6" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-78770" y="-249762" z="-3189" />
+        <shape ax="-78786" ay="-249635" bx="-78751" by="-249635" cx="-78751" cy="-249891" dx="-78786" dy="-249891" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100015" name="Door.OlympiadStadium_5" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-76491" y="-249762" z="-3189" />
+        <shape ax="-76501" ay="-249635" bx="-76477" by="-249635" cx="-76477" cy="-249891" dx="-76503" dy="-249891" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100016" name="Door.OlympiadStadium_5" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-74851" y="-249762" z="-3189" />
+        <shape ax="-74867" ay="-249635" bx="-74832" by="-249635" cx="-74832" cy="-249891" dx="-74867" dy="-249891" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100017" name="Door.OlympiadStadium_9" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-88824" y="-246955" z="-3189" />
+        <shape ax="-88834" ay="-246828" bx="-88810" by="-246828" cx="-88810" cy="-247084" dx="-88836" dy="-247084" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100018" name="Door.OlympiadStadium_9" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-87184" y="-246955" z="-3189" />
+        <shape ax="-87200" ay="-246828" bx="-87165" by="-246828" cx="-87165" cy="-247084" dx="-87200" dy="-247084" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100019" name="Door.OlympiadStadium_10" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-84599" y="-246955" z="-3189" />
+        <shape ax="-84609" ay="-246828" bx="-84585" by="-246828" cx="-84585" cy="-247084" dx="-84611" dy="-247084" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100020" name="Door.OlympiadStadium_10" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-82959" y="-246955" z="-3189" />
+        <shape ax="-82975" ay="-246828" bx="-82940" by="-246828" cx="-82940" cy="-247084" dx="-82975" dy="-247084" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100021" name="Door.OlympiadStadium_11" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-80410" y="-246955" z="-3189" />
+        <shape ax="-80420" ay="-246828" bx="-80396" by="-246828" cx="-80396" cy="-247084" dx="-80422" dy="-247084" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100022" name="Door.OlympiadStadium_11" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-78770" y="-246955" z="-3189" />
+        <shape ax="-78786" ay="-246828" bx="-78751" by="-246828" cx="-78751" cy="-247084" dx="-78786" dy="-247084" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100023" name="Door.OlympiadStadium_12" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-76491" y="-246955" z="-3189" />
+        <shape ax="-76501" ay="-246828" bx="-76477" by="-246828" cx="-76477" cy="-247084" dx="-76503" dy="-247084" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100024" name="Door.OlympiadStadium_12" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-74851" y="-246955" z="-3189" />
+        <shape ax="-74867" ay="-246828" bx="-74832" by="-246828" cx="-74832" cy="-247084" dx="-74867" dy="-247084" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100025" name="Door.OlympiadStadium_16" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-88824" y="-244275" z="-3189" />
+        <shape ax="-88834" ay="-244148" bx="-88810" by="-244148" cx="-88810" cy="-244404" dx="-88836" dy="-244404" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100026" name="Door.OlympiadStadium_16" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-87184" y="-244275" z="-3189" />
+        <shape ax="-87200" ay="-244148" bx="-87165" by="-244148" cx="-87165" cy="-244404" dx="-87200" dy="-244404" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100027" name="Door.OlympiadStadium_15" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-84599" y="-244275" z="-3189" />
+        <shape ax="-84609" ay="-244148" bx="-84585" by="-244148" cx="-84585" cy="-244404" dx="-84611" dy="-244404" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100028" name="Door.OlympiadStadium_15" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-82959" y="-244275" z="-3189" />
+        <shape ax="-82975" ay="-244148" bx="-82940" by="-244148" cx="-82940" cy="-244404" dx="-82975" dy="-244404" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100029" name="Door.OlympiadStadium_14" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-80410" y="-244275" z="-3189" />
+        <shape ax="-80420" ay="-244148" bx="-80396" by="-244148" cx="-80396" cy="-244404" dx="-80422" dy="-244404" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100030" name="Door.OlympiadStadium_14" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-78770" y="-244275" z="-3189" />
+        <shape ax="-78786" ay="-244148" bx="-78751" by="-244148" cx="-78751" cy="-244404" dx="-78786" dy="-244404" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100031" name="Door.OlympiadStadium_13" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-76491" y="-244275" z="-3189" />
+        <shape ax="-76501" ay="-244148" bx="-76477" by="-244148" cx="-76477" cy="-244404" dx="-76503" dy="-244404" minz="-3342" maxz="-3342" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100032" name="Door.OlympiadStadium_13" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-74851" y="-244275" z="-3189" />
+        <shape ax="-74867" ay="-244148" bx="-74832" by="-244148" cx="-74832" cy="-244404" dx="-74867" dy="-244404" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100033" name="Door.OlympiadStadium_17" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-88824" y="-241480" z="-3189" />
+        <shape ax="-88834" ay="-241353" bx="-88810" by="-241353" cx="-88810" cy="-241609" dx="-88836" dy="-241609" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100034" name="Door.OlympiadStadium_17" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-87184" y="-241480" z="-3189" />
+        <shape ax="-87200" ay="-241353" bx="-87165" by="-241353" cx="-87165" cy="-241609" dx="-87200" dy="-241609" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100035" name="Door.OlympiadStadium_18" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-84599" y="-241480" z="-3189" />
+        <shape ax="-84609" ay="-241353" bx="-84585" by="-241353" cx="-84585" cy="-241609" dx="-84611" dy="-241609" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100036" name="Door.OlympiadStadium_18" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-82959" y="-241480" z="-3189" />
+        <shape ax="-82975" ay="-241353" bx="-82940" by="-241353" cx="-82940" cy="-241609" dx="-82975" dy="-241609" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100037" name="Door.OlympiadStadium_19" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-78770" y="-241480" z="-3189" />
+        <shape ax="-80420" ay="-241353" bx="-80396" by="-241353" cx="-80396" cy="-241609" dx="-80422" dy="-241609" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100038" name="Door.OlympiadStadium_19" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-80410" y="-241480" z="-3189" />
+        <shape ax="-78786" ay="-241353" bx="-78751" by="-241353" cx="-78751" cy="-241609" dx="-78786" dy="-241609" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100039" name="Door.OlympiadStadium_20" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-76491" y="-241480" z="-3189" />
+        <shape ax="-76501" ay="-241353" bx="-76477" by="-241353" cx="-76477" cy="-241609" dx="-76503" dy="-241609" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100040" name="Door.OlympiadStadium_20" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-74851" y="-241480" z="-3189" />
+        <shape ax="-74867" ay="-241353" bx="-74832" by="-241353" cx="-74832" cy="-241609" dx="-74867" dy="-241609" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100041" name="Door.OlympiadStadium_22" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-88800" y="-238836" z="-3189" />
+        <shape ax="-88810" ay="-238709" bx="-88786" by="-238709" cx="-88786" cy="-238965" dx="-88812" dy="-238965" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100042" name="Door.OlympiadStadium_22" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-87160" y="-238836" z="-3189" />
+        <shape ax="-87176" ay="-238709" bx="-87141" by="-238709" cx="-87141" cy="-238965" dx="-87176" dy="-238965" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100043" name="Door.OlympiadStadium_21" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-84599" y="-238836" z="-3189" />
+        <shape ax="-84609" ay="-238709" bx="-84585" by="-238709" cx="-84585" cy="-238965" dx="-84611" dy="-238965" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+    <door id="17100044" name="Door.OlympiadStadium_21" hp="158250" pdef="644" mdef="518" >
+        <set name="unlockable" value="false"/>
+        <set name="key" value="0"/>
+        <set name="show_hp" value="false"/>
+        <pos x="-82959" y="-238836" z="-3189" />
+        <shape ax="-82975" ay="-238709" bx="-82940" by="-238709" cx="-82940" cy="-238965" dx="-82975" dy="-238965" minz="-3342" maxz="-3079" />
+        <set name="opened" value="false"/>
+    </door>
+</list>

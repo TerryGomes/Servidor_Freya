@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<zone name="[MDT_no_summon]" type="no_summon">
+		<polygon>
+			<coords loc="14440 181273" />
+			<coords loc="14535 184206" />
+			<coords loc="11678 184349" />
+			<coords loc="11700 181241" />
+		</polygon>
+	</zone>
+	<zone name="[Hellbound_no_summon]" type="no_summon">
+		<polygon>
+			<coords loc="-32768 262144" />
+			<coords loc="-32768 229376" />
+			<coords loc="32768 229376" />
+			<coords loc="32768 262144" />
+		</polygon>
+	</zone>
+	<zone name="[Beleth_no_summon]" type="no_summon">
+		<polygon>
+			<coords loc="11214 205578 -10412 -5112" />
+			<coords loc="20607 205578 -10412 -5112" />
+			<coords loc="20648 220271 -10412 -5112" />
+			<coords loc="11172 220271 -10412 -5112" />
+		</polygon>
+	</zone>
+	<zone name="[Naia_no_summon]" type="no_summon">
+		<polygon>
+			<coords loc="-53384 242040" />
+			<coords loc="-53384 250488" />
+			<coords loc="-43528 250488" />
+			<coords loc="-43528 242040" />
+		</polygon>
+	</zone>
+	<zone name="[Gracia_no_summon]" type="no_summon">
+		<polygon>
+			<coords loc="-294912 294912" />
+			<coords loc="-294912 163840" />
+			<coords loc="-163840 163840" />
+			<coords loc="-163840 294912" />
+		</polygon>
+	</zone>
+	<zone name="[QA_no_summon]" type="no_summon">
+		<polygon>
+			<coords loc="-23176 185080 -6000 -5500" />
+			<coords loc="-20104 185080 -6000 -5500" />
+			<coords loc="-20104 177928 -6000 -5500" />
+			<coords loc="-23176 177928 -6000 -5500" />
+		</polygon>
+	</zone>
+	<zone name="[parnassus]" type="no_summon" >
+		<polygon>
+			<coords loc="151016 173432 -952 -852" />
+			<coords loc="151032 173000 -952 -852" />
+			<coords loc="150888 172360 -952 -852" />
+			<coords loc="150712 172136 -952 -852" />
+			<coords loc="150168 171720 -952 -852" />
+			<coords loc="149144 171688 -952 -852" />
+			<coords loc="148472 171784 -952 -852" />
+			<coords loc="147832 172328 -952 -852" />
+			<coords loc="147784 174200 -952 -852" />
+			<coords loc="148488 174840 -960 -860" />
+			<coords loc="149384 174952 -952 -852" />
+			<coords loc="150296 174744 -952 -852" />
+			<coords loc="150888 174328 -952 -852" />
+		</polygon>
+	</zone>
+	<zone name="[Infinitum_1]" type="no_summon" >
+		<polygon>
+			<coords loc="-23192 280280 -15140 -14940" />
+			<coords loc="-21224 280280 -15140 -14940" />
+			<coords loc="-21224 276904 -15140 -14940" />
+			<coords loc="-23192 276904 -15140 -14940" />
+		</polygon>
+	</zone>
+	<zone name="[Infinitum_2]" type="no_summon" >
+		<polygon>
+			<coords loc="-23192 280280 -13481 -13281" />
+			<coords loc="-21224 280280 -13481 -13281" />
+			<coords loc="-21224 276904 -13481 -13281" />
+			<coords loc="-23192 276904 -13481 -13281" />
+		</polygon>
+	</zone>
+	<zone name="[Infinitum_3]" type="no_summon" >
+		<polygon>
+			<coords loc="-23192 280280 -11666 -11466" />
+			<coords loc="-21224 280280 -11666 -11466" />
+			<coords loc="-21224 276904 -11666 -11466" />
+			<coords loc="-23192 276904 -11666 -11466" />
+		</polygon>
+	</zone>
+	<zone name="[Infinitum_4]" type="no_summon" >
+		<polygon>
+			<coords loc="-23192 280280 -10020 -9820" />
+			<coords loc="-21224 280280 -10020 -9820" />
+			<coords loc="-21224 276904 -10020 -9820" />
+			<coords loc="-23192 276904 -10020 -9820" />
+		</polygon>
+	</zone>
+	<zone name="[Infinitum_5]" type="no_summon" >
+		<polygon>
+			<coords loc="-23192 280280 -8315 -8115" />
+			<coords loc="-21224 280280 -8315 -8115" />
+			<coords loc="-21224 276904 -8315 -8115" />
+			<coords loc="-23192 276904 -8315 -8115" />
+		</polygon>
+	</zone>
+	<zone name="[Infinitum_6]" type="no_summon" >
+		<polygon>
+			<coords loc="-20008 280280 -8356 -8156" />
+			<coords loc="-18040 280280 -8356 -8156" />
+			<coords loc="-18040 276904 -8356 -8156" />
+			<coords loc="-20008 276904 -8356 -8156" />
+		</polygon>
+	</zone>
+	<zone name="[Infinitum_7]" type="no_summon" >
+		<polygon>
+			<coords loc="-20008 280280 -10020 -9820" />
+			<coords loc="-18040 280280 -10020 -9820" />
+			<coords loc="-18040 276904 -10020 -9820" />
+			<coords loc="-20008 276904 -10020 -9820" />
+		</polygon>
+	</zone>
+	<zone name="[Infinitum_8]" type="no_summon" >
+		<polygon>
+			<coords loc="-20008 280280 -11748 -11548" />
+			<coords loc="-18040 280280 -11748 -11548" />
+			<coords loc="-18040 276904 -11748 -11548" />
+			<coords loc="-20008 276904 -11748 -11548" />
+		</polygon>
+	</zone>
+	<zone name="[Infinitum_9]" type="no_summon" >
+		<polygon>
+			<coords loc="-20008 280280 -13476 -13276" />
+			<coords loc="-18040 280280 -13476 -13276" />
+			<coords loc="-18040 276904 -13476 -13276" />
+			<coords loc="-20008 276904 -13476 -13276" />
+		</polygon>
+	</zone>
+	<zone name="[Infinitum_10]" type="no_summon" >
+		<polygon>
+			<coords loc="-20008 280280 -15140 -14940" />
+			<coords loc="-18040 280280 -15140 -14940" />
+			<coords loc="-18040 276904 -15140 -14940" />
+			<coords loc="-20008 276904 -15140 -14940" />
+		</polygon>
+	</zone>
+</list>

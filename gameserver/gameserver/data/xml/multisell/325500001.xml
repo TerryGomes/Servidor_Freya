@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- NPC Kutran -->
+<!-- MULTISELL - [trader_immortality_00] -->
+<list>
+    <config showall="true" notax="true" ignoreprice="true" keepenchanted="false" />
+    <!-- Recipe - Icarus Sawsword (60%) -->
+    <item>
+        <ingredient id="13796" count="136"/>
+        <ingredient id="13841" count="40"/>
+        <production id="10373" count="1"/>
+    </item>
+    <!-- Recipe - Icarus Disperser (60%) -->
+    <item>
+        <ingredient id="13796" count="136"/>
+        <ingredient id="13841" count="40"/>
+        <production id="10374" count="1"/>
+    </item>
+    <!-- Recipe - Icarus Spirit (60%) -->
+    <item>
+        <ingredient id="13796" count="136"/>
+        <ingredient id="13841" count="40"/>
+        <production id="10375" count="1"/>
+    </item>
+    <!-- Recipe - Icarus Heavy Arms (60%) -->
+    <item>
+        <ingredient id="13796" count="136"/>
+        <ingredient id="13841" count="40"/>
+        <production id="10376" count="1"/>
+    </item>
+    <!-- Recipe - Icarus Trident (60%) -->
+    <item>
+        <ingredient id="13796" count="136"/>
+        <ingredient id="13841" count="40"/>
+        <production id="10377" count="1"/>
+    </item>
+    <!-- Recipe - Icarus Hammer (60%) -->
+    <item>
+        <ingredient id="13796" count="136"/>
+        <ingredient id="13841" count="40"/>
+        <production id="10378" count="1"/>
+    </item>
+    <!-- Recipe - Icarus Hand (60%) -->
+    <item>
+        <ingredient id="13796" count="136"/>
+        <ingredient id="13841" count="40"/>
+        <production id="10379" count="1"/>
+    </item>
+    <!-- Recipe - Icarus Hall (60%) -->
+    <item>
+        <ingredient id="13796" count="136"/>
+        <ingredient id="13841" count="40"/>
+        <production id="10380" count="1"/>
+    </item>
+    <!-- Recipe - Icarus Spitter (60%) -->
+    <item>
+        <ingredient id="13796" count="136"/>
+        <ingredient id="13841" count="40"/>
+        <production id="10381" count="1"/>
+    </item>
+    <!-- Icarus Sawsword Piece -->
+    <item>
+        <ingredient id="13796" count="26"/>
+        <ingredient id="13841" count="6"/>
+        <production id="10397" count="1"/>
+    </item>
+    <!-- Icarus Disperser Piece -->
+    <item>
+        <ingredient id="13796" count="26"/>
+        <ingredient id="13841" count="6"/>
+        <production id="10398" count="1"/>
+    </item>
+    <!-- Icarus Spirit Piece -->
+    <item>
+        <ingredient id="13796" count="26"/>
+        <ingredient id="13841" count="6"/>
+        <production id="10399" count="1"/>
+    </item>
+    <!-- Icarus Spitter Piece -->
+    <item>
+        <ingredient id="13796" count="26"/>
+        <ingredient id="13841" count="6"/>
+        <production id="10405" count="1"/>
+    </item>
+    <!-- Icarus Heavy Arms Piece -->
+    <item>
+        <ingredient id="13796" count="26"/>
+        <ingredient id="13841" count="6"/>
+        <production id="10400" count="1"/>
+    </item>
+    <!-- Icarus Trident Piece -->
+    <item>
+        <ingredient id="13796" count="26"/>
+        <ingredient id="13841" count="6"/>
+        <production id="10401" count="1"/>
+    </item>
+    <!-- Icarus Hammer Piece -->
+    <item>
+        <ingredient id="13796" count="26"/>
+        <ingredient id="13841" count="6"/>
+        <production id="10402" count="1"/>
+    </item>
+    <!-- Icarus Hand Piece -->
+    <item>
+        <ingredient id="13796" count="26"/>
+        <ingredient id="13841" count="6"/>
+        <production id="10403" count="1"/>
+    </item>
+    <!-- Icarus Hall Piece -->
+    <item>
+        <ingredient id="13796" count="26"/>
+        <ingredient id="13841" count="6"/>
+        <production id="10404" count="1"/>
+    </item>
+    <!-- Dynastic Essence II -->
+    <item>
+        <ingredient id="13796" count="800"/>
+        <ingredient id="13841" count="200"/>
+        <production id="10413" count="1"/>
+    </item>
+    <!-- Forgotten Scroll - Dual Dagger Mastery -->
+    <item>
+        <ingredient id="13796" count="200"/>
+        <ingredient id="13841" count="50"/>
+        <ingredient id="57" count="12000000"/>
+        <production id="14210" count="1"/>
+    </item>
+    <!-- Forgotten Scroll - Mutual Response -->
+    <item>
+        <ingredient id="13796" count="200"/>
+        <ingredient id="13841" count="50"/>
+        <ingredient id="57" count="12000000"/>
+        <production id="10578" count="1"/>
+    </item>
+    <!-- Forgotten Scroll - Turn Stone -->
+    <item>
+        <ingredient id="13796" count="200"/>
+        <ingredient id="13841" count="50"/>
+        <ingredient id="57" count="12000000"/>
+        <production id="14221" count="1"/>
+    </item>
+    <!--  Forgotten Scroll - Deflect Magic -->
+    <item>
+        <ingredient id="13796" count="200"/>
+        <ingredient id="13841" count="50"/>
+        <ingredient id="57" count="12000000"/>
+        <production id="14207" count="1"/>
+    </item>	
+</list>

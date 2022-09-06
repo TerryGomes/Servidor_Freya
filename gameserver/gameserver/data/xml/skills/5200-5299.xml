@@ -1,0 +1,1986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="5200" levels="8" name="Pet Recharge">
+		<set name="name-ru" val="Подпитка Питомца" />
+		<table name="#mp_consume2">96 99 102 110 116 120 122 124</table>
+		<table name="#mp_consume1">24 25 26 28 29 30 31 31</table>
+		<table name="#magic_level">65 67 69 75 80 85 90 95</table>
+		<table name="#power">120 124 128 138 145 150 153 155</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1013" />
+		<set name="reuse_delay" val="12000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="6000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="MANAHEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5201" levels="6" name="Pet Concentration">
+		<set name="name-ru" val="Концентрация Питомца" />
+		<table name="#rate">0.82 0.75 0.64 0.58 0.52 0.47</table>
+		<table name="#abnormal_lv">1 2 3 4 5 6</table>
+		<table name="#mp_consume2">16 21 31 38 44 51</table>
+		<table name="#mp_consume1">4 6 8 10 11 13</table>
+		<table name="#magic_level">20 30 44 52 60 68</table>
+		<table name="#abnormal_lv">1 2 3 4 5 6 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="cancel_prob_down"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1078" />
+		<set name="reuse_delay" val="6000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="cancel_prob_down" time="120" val="0">
+				<mul order="0x30" stat="concentration" val="#rate" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5202" levels="12" name="Stun">
+		<set name="name-ru" val="Оглушение" />
+		<!--Edit by Nika 01.03.2012-->
+		<table name="#mp_consume2">7 10 14 19 25 31 36 38 40 42 42 43</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#abnormal_lv">1 1 1 1 1 1 1 1 1 1 1 1 </table>
+		<set name="abnormal_time" val="9"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="stun"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="affect_limit" val="10;10" />
+		<set name="skillRadius" val="150" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="500" />
+		<set name="reuse_delay" val="6000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="activate_rate" val="50" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="SHOCK" />
+		<set name="basic_property" val="CON" />
+	</skill>
+	<skill id="5203" levels="12" name="Fear">
+		<set name="name-ru" val="Страх" />
+		<!-- TODO: сделать скилл -->
+		<table name="#mp_consume2">7 10 14 19 25 31 36 38 40 42 42 43</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#abnormal_lv">1 1 1 1 1 1 1 1 1 1 1 1 </table>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="turn_flee"/>
+		<set name="affect_limit" val="10;10" />
+		<set name="icon" val="icon.skill1092" />
+		<set name="skill_cool_time" val="500" />
+		<set name="reuse_delay" val="6000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<set name="trait" val="DERANGEMENT" />
+		<set name="basic_property" val="MEN" />
+	</skill>
+	<skill id="5204" levels="1" name="Production-First Gigantic Pig Combination">
+		<set name="name-ru" val="Передовое Комбо Гигантской Свиньи" />
+		<!-- TODO: сделать скилл -->
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="76" />
+		<set name="skill_hit_time" val="5800" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="5205" levels="1" name="Boss Regeneration">
+		<set name="name-ru" val="Восстановление Босса" />
+		<!-- TODO: сделать скилл -->
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="99" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="5206" levels="1" name="Decrease Speed">
+		<set name="name-ru" val="Понижение Скорости" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="speed_down"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1160" />
+		<set name="reuse_delay" val="8000" />
+		<set name="magic_level" val="95" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="1500" />
+		<set name="mp_consume1" val="16" />
+		<set name="mp_consume2" val="62" />
+		<set name="activate_rate" val="80" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Debuff" stackOrder="1" stackType="speed_down" time="15" val="0">
+				<mul order="0x50" stat="runSpd" val="0.9" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5207" levels="1" name="Decrease Atk. Spd.">
+		<set name="name-ru" val="Понижение Скор. Атк." />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="attack_time_up"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill4038" />
+		<set name="reuse_delay" val="8000" />
+		<set name="magic_level" val="95" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="16" />
+		<set name="mp_consume2" val="62" />
+		<set name="activate_rate" val="80" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Debuff" time="15" stackOrder="1" stackType="attack_time_up" val="0">
+				<mul order="0x30" stat="pAtkSpd" val="0.9" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5208" levels="1" name="Event Wind walk">
+		<set name="name-ru" val="Ивентовая Легкая Походка" />
+		<table name="#abnormal_lv">3 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="speed_up"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1204" />
+		<set name="magic_level" val="60" />
+		<set name="cast_range" val="400" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="3" stackType="speed_up" time="3600" val="0">
+				<add order="0x40" stat="runSpd" val="33" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5209" levels="1" name="Event Shield">
+		<set name="name-ru" val="Ивентовый Щит" />
+		<table name="#abnormal_lv">4 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="pd_up"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1040" />
+		<set name="magic_level" val="60" />
+		<set name="cast_range" val="400" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="4" stackType="pd_up" time="3600" val="0">
+				<mul order="0x30" stat="pDef" val="1.15" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5210" levels="1" name="Event Bless the body">
+		<set name="name-ru" val="Ивентовое Благословение Тела" />
+		<table name="#abnormal_lv">7 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="max_hp_up"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1045" />
+		<set name="magic_level" val="60" />
+		<set name="cast_range" val="400" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="7" stackType="max_hp_up" time="3600" val="0">
+				<mul order="0x40" stat="maxHp" val="1.35" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5211" levels="1" name="Event Vampiric rage">
+		<set name="name-ru" val="Ивентовая Ярость Вампира" />
+		<table name="#abnormal_lv">5 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="vampiric_attack"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1268" />
+		<set name="magic_level" val="60" />
+		<set name="cast_range" val="400" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="5" stackType="vampiric_attack" time="3600" val="0">
+				<add order="0x40" stat="absorbDam" val="9" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5212" levels="1" name="Event Regeneration">
+		<set name="name-ru" val="Ивентовое Восстановление" />
+		<table name="#abnormal_lv">4 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="hp_regen_up"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1044" />
+		<set name="magic_level" val="60" />
+		<set name="cast_range" val="400" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="4" stackType="hp_regen_up" time="3600" val="0">
+				<mul order="0x30" stat="regHp" val="1.2" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5213" levels="1" name="Event Haste">
+		<set name="name-ru" val="Ивентовое Ускорение" />
+		<table name="#abnormal_lv">2 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="attack_time_down"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1086" />
+		<set name="magic_level" val="60" />
+		<set name="cast_range" val="400" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="2" stackType="attack_time_down" time="3600" val="0">
+				<mul order="0x30" stat="pAtkSpd" val="1.15" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5214" levels="1" name="Event Bless the soul">
+		<set name="name-ru" val="Ивентовое Благословение Души" />
+		<table name="#abnormal_lv">7 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="max_mp_up"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1048" />
+		<set name="magic_level" val="60" />
+		<set name="cast_range" val="400" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="7" stackType="max_mp_up_item" time="3600" val="0">
+				<mul order="0x40" stat="maxMp" val="1.35" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5215" levels="1" name="Event Acumen">
+		<set name="name-ru" val="Ивентовое Проницательность" />
+		<table name="#abnormal_lv">4 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="casting_time_down"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1085" />
+		<set name="magic_level" val="60" />
+		<set name="cast_range" val="400" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="4" stackType="casting_time_down" time="3600" val="0">
+				<mul order="0x30" stat="mAtkSpd" val="1.3" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5216" levels="1" name="Event Concentration">
+		<set name="name-ru" val="Ивентовая Концентрация" />
+		<table name="#abnormal_lv">2 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="cancel_prob_down"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1078" />
+		<set name="magic_level" val="60" />
+		<set name="cast_range" val="400" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="2" stackType="cancel_prob_down" time="3600" val="0">
+				<mul order="0x30" stat="concentration" val="0.82" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5217" levels="1" name="Event Empower">
+		<set name="name-ru" val="Ивентовое Воодушевление" />
+		<table name="#abnormal_lv">2 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="ma_up"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1059" />
+		<set name="magic_level" val="60" />
+		<set name="cast_range" val="400" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="ma_up" time="3600" val="0">
+				<mul order="0x30" stat="mAtk" val="1.55" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5218" levels="1" name="Production: Event Teleport">
+		<set name="name-ru" val="Производство: Ивентовый Телепорт" />
+		<!-- TODO: Сделать скилл -->
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="76" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="5219" levels="1" name="Stun of giant mutated animal">
+		<set name="name-ru" val="Оглушение гигантского мутировавшего животного" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="9"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="stun"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="skillRadius" val="200" />
+		<set name="affect_limit" val="10;10" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="2000" />
+		<set name="reuse_delay" val="6000" />
+		<set name="power" val="30" />
+		<set name="magic_level" val="95" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="6000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="43" />
+		<set name="activate_rate" val="50" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="nextAction" val="attack" />
+		<set name="trait" val="SHOCK" />
+		<set name="basic_property" val="CON" />
+		<for>
+			<effect count="1" name="Stun" stackOrder="1" stackType="stun" time="9" val="0" />
+		</for>
+	</skill>
+	<skill id="5220" levels="1" name="Fear of giant mutated animal">
+		<set name="name-ru" val="Страх гигантского мутировавшего животного" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="turn_flee"/>
+		<set name="affect_limit" val="10;10" />
+		<set name="skillRadius" val="200" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="2000" />
+		<set name="reuse_delay" val="6000" />
+		<set name="magic_level" val="95" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="6000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="43" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="activate_rate" val="50" />
+		<set name="trait" val="DERANGEMENT" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="3" name="Fear" stackOrder="1"  stackType="turn_flee" time="5" val="0" />
+		</for>
+	</skill>
+	<skill id="5221" levels="1" name="Balor - Physical Close Range Weak Point">
+		<set name="name-ru" val="Балор - Уязвимость Физической Ближней Области" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="85" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x30" stat="swordWpnVuln" val="70" />
+			<add order="0x30" stat="dualWpnVuln" val="70" />
+			<add order="0x30" stat="bluntWpnVuln" val="70" />
+			<add order="0x30" stat="daggerWpnVuln" val="70" />
+			<add order="0x30" stat="poleWpnVuln" val="70" />
+			<add order="0x30" stat="fistWpnVuln" val="70" />
+		</for>
+	</skill>
+	<skill id="5222" levels="1" name="Balor - Physical Long Range Weak Point">
+		<set name="name-ru" val="Балор - Уязвимость Физической Дальней Области" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="85" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<add order="0x30" stat="bowWpnVuln" val="70" />
+		</for>
+	</skill>
+	<skill id="5223" levels="1" name="Balor - Magic Weak Point">
+		<set name="name-ru" val="Балор - Точка Магической Уязвимости" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="85" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x30" stat="mDef" val="0.3" />
+		</for>
+	</skill>
+	<skill id="5224" levels="1" name="Berserk">
+		<set name="name-ru" val="Берсерк" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="berserker"/>
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="6000" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="75" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" time="30" stackOrder="1" stackType="berserker" val="0">
+				<mul order="0x30" stat="pDef" val="1.5" />
+				<mul order="0x30" stat="pAtk" val="1.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5225" levels="1" name="Invincible">
+		<set name="name-ru" val="Неуязвимость" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="pd_up_special"/>
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="6000" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="cancelable" val="false" />
+		<for>
+			<effect abnormal="invul2" count="1" name="Invulnerable" time="30" stackOrder="1" stackType="pd_up_special" val="0" />
+		</for>
+	</skill>
+	<skill id="5226" levels="1" name="Imprison">
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="60" />
+		<!-- 60 sec. -->
+		<set name="magic_level" val="85" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="mp_consume1" val="15" />
+		<set name="mp_consume2" val="60" />
+		<set name="skillType" val="IMPRISON" />
+		<set name="target_type" val="TARGET_ONE"/>
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect abnormal="imprison1" count="1" name="Buff" time="60" val="0" />
+		</for>
+	</skill>
+	<skill id="5227" levels="1" name="Ground Strike">
+		<set name="name-ru" val="Удар по Земле" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="5800" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="187" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="250" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5228" levels="1" name="Jump Attack">
+		<set name="name-ru" val="Атака в прыжке" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="1000" />
+		<set name="power" val="11786" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="373" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="250" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5229" levels="1" name="Strong Punch">
+		<set name="name-ru" val="Тяжелый Удар Кулаком" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="3"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="stun"/>
+		<set name="icon" val="icon.skill0100" />
+		<set name="activate_rate" val="80" />
+		<set name="baseCritRate" val="20" />
+		<set name="cast_range" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="flyRadius" val="300" />
+		<set name="flyType" val="THROW_UP" />
+		<set name="skill_hit_time" val="2800" />
+		<set name="isDebuff" val="true" />
+		<set name="lvlDepend" val="2" />
+		<set name="magicLvl" val="85" />
+		<set name="mpConsume" val="75" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="power" val="4640" />
+		<set name="basic_property" val="CON" />
+		<set name="skillType" val="PDAM" />
+		<set name="target_type" val="TARGET_ONE" />
+		<for>
+			<effect count="1" name="Stun" stackOrder="1" stackType="stun" time="3" val="0" />
+			<effect name="ThrowUp" val="0" />
+		</for>
+	</skill>
+	<skill id="5230" levels="1" name="Stun">
+		<set name="name-ru" val="Оглушение" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="9"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="stun"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="icon" val="icon.skill0100" />
+		<set name="power" val="2784" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="5000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="195" />
+		<set name="activate_rate" val="50" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="300" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="SHOCK" />
+		<set name="basic_property" val="CON" />
+		<for>
+			<effect count="1" name="Stun" stackOrder="1" stackType="stun" time="9" val="0" />
+		</for>
+	</skill>
+	<skill id="5231" levels="1" name="Stun">
+		<set name="name-ru" val="Оглушение" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="9"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="stun"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="icon" val="icon.skill0100" />
+		<set name="power" val="5704" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="390" />
+		<set name="activate_rate" val="50" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="300" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="SHOCK" />
+		<set name="basic_property" val="CON" />
+		<for>
+			<effect count="1" name="Stun" stackOrder="1" stackType="stun" time="9" val="0" />
+		</for>
+	</skill>
+	<skill id="5232" levels="1" name="Stun">
+		<set name="name-ru" val="Оглушение" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="9"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="stun"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="icon" val="icon.skill0100" />
+		<set name="power" val="11407" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="779" />
+		<set name="activate_rate" val="50" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="300" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="SHOCK" />
+		<set name="basic_property" val="CON" />
+		<for>
+			<effect count="1" name="Stun" stackOrder="1" stackType="stun" time="9" val="0" />
+		</for>
+	</skill>
+	<skill id="5233" levels="1" name="Weight Spin Attack - Weak">
+		<set name="name-ru" val="Массовая Вихревая Атака - Слабая" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="skillRadius" val="300" />
+		<set name="power" val="4563" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="5000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="149" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5234" levels="1" name="Weight Spin Attack - Mid">
+		<set name="name-ru" val="Массовая Вихревая Атака - Средняя" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="skillRadius" val="300" />
+		<set name="power" val="7985" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="260" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5235" levels="1" name="Weight Spin Attack - Strong">
+		<set name="name-ru" val="Массовая Вихревая Атака - Сильная" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="skillRadius" val="300" />
+		<set name="power" val="13688" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="445" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5236" levels="1" name="Speed Up">
+		<set name="name-ru" val="Повышение Скорости" />
+		<table name="#abnormal_lv">2 </table>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="speed_up"/>
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="25" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="2" stackType="speed_up" time="1200" val="0">
+				<add order="0x40" stat="runSpd" val="33" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5237" levels="1" name="Speed Down">
+		<set name="name-ru" val="Понижение Скорости" />
+		<table name="#abnormal_lv">2 </table>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="speed_down"/>
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="25" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<for>
+			<effect count="1" name="Debuff" stackOrder="2" stackType="speed_down" time="1200" val="0">
+				<mul order="0x30" stat="runSpd" val="0.8" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5238" levels="1" name="Freezing">
+		<set name="name-ru" val="Заморозка" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="freezing"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1174" />
+		<set name="reuse_delay" val="6000" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="2500" />
+		<set name="mp_consume1" val="23" />
+		<set name="mp_consume2" val="89" />
+		<set name="activate_rate" val="40" />
+		<set name="element" val="water" />
+		<!-- Water -->
+		<set name="elementPower" val="20" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PARALYZE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="CON" />
+		<for>
+			<effect count="1" name="Paralyze" stackOrder="1" stackType="freezing" time="5" val="0" />
+		</for>
+	</skill>
+	<skill id="5239" levels="5" name="Event Timer">
+		<set name="name-ru" val="Таймер Ивента" />
+		<table name="#abnormal_lv">1 1 1 1 1 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="time_check"/>
+		<set name="icon" val="icon.skill5239" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="cancelable" val="false" />
+		<set name="isCommon" val="true" />
+		<for>
+			<effect name="Buff" time="1800" stackOrder="1" stackType="time_check" val="0" />
+		</for>
+	</skill>
+	<skill id="5240" levels="1" name="Stun">
+		<!-- TODO: сделать скилл -->
+		<set name="name-ru" val="Оглушение" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="9"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="stun"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="icon" val="icon.skill0100" />
+		<set name="magic_level" val="84" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="221" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<set name="trait" val="SHOCK" />
+		<set name="basic_property" val="CON" />
+	</skill>
+	<skill id="5241" levels="1" name="Stun">
+		<!-- TODO: сделать скилл -->
+		<set name="name-ru" val="Оглушение" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="9"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="stun"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="icon" val="icon.skill0100" />
+		<set name="magic_level" val="84" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="368" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<set name="trait" val="SHOCK" />
+		<set name="basic_property" val="CON" />
+	</skill>
+	<skill id="5242" levels="1" name="Sickness">
+		<set name="name-ru" val="Дурнота" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="max_breath_up"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="icon" val="icon.skill5242" />
+		<set name="activate_rate" val="80" />
+		<set name="magic_level" val="85" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="1" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="activate_rate" val="20" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="CON" />
+		<for>
+			<effect count="10" abnormal="earthquake" name="Buff" stackOrder="1" stackType="max_breath_up" time="1" val="0"/>
+		</for>
+	</skill>
+	<skill id="5243" levels="1" name="Blind">
+		<set name="name-ru" val="Слепота" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="max_breath_up"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="icon" val="icon.skill5243" />
+		<set name="activate_rate" val="80" />
+		<set name="magic_level" val="85" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="1" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="CON" />
+		<for>
+			<effect name="Buff" time="10" stackOrder="1" stackType="max_breath_up" val="0" >
+				<mul order="0x30" stat="runSpd" val="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5244" levels="1" name="Physical Up">
+		<!-- TODO: сделать скилл -->
+		<set name="name-ru" val="Физический Подъем" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="5"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="pa_pd_up"/>
+		<set name="icon" val="icon.skill1068" />
+		<set name="magic_level" val="85" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="5245" levels="1" name="Magical Up">
+		<!-- TODO: сделать скилл -->
+		<set name="name-ru" val="Магический Подъем" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="5"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="ma_md_up"/>
+		<set name="icon" val="icon.skill1059" />
+		<set name="magic_level" val="85" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="5246" levels="12" name="Boss Dark Explosion">
+		<set name="name-ru" val="Темный Взрыв Босса" />
+		<table name="#mp_consume2">23 32 44 58 74 89 102 107 112 114 116 118</table>
+		<table name="#magic_level">14 24 34 44 54 64 74 79 84 89 94 99</table>
+		<table name="#power">21 31 43 58 75 92 108 115 121 125 129 132</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="element" val="unholy" />
+		<!-- Dark -->
+		<set name="elementPower" val="20" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="3300" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="250" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5247" levels="12" name="Seed of Darkness">
+		<set name="name-ru" val="Песок Тьмы" />
+		<!-- TODO: дописать вызов эффекта скилла 5248 -->
+		<table name="#abnormal_lv">2 3 4 5 6 7 8 8 9 9 10 10</table>
+		<table name="#calledSkillLevel">1 2 3 4 5 6 7 8 9 10 11 12</table>
+		<table name="#dot">60 91 131 177 225 270 305 305 334 334 360 360</table>
+		<table name="#mp_consume2">16 23 32 42 53 65 75 79 82 84 85 87</table>
+		<table name="#magic_level">14 24 34 44 54 64 74 79 84 89 94 99</table>
+		<table name="#abnormal_lv">2 3 4 5 6 7 8 8 9 9 10 10 </table>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="dark_seed"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0523" />
+		<set name="skill_cool_time" val="800" />
+		<set name="reuse_delay" val="6000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="3300" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="activate_rate" val="80" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="BLEED" />
+		<set name="basic_property" val="CON" />
+		<for>
+			<effect count="3" name="DamOverTime" time="5" val="#dot" />
+		</for>
+	</skill>
+	<skill id="5248" levels="12" name="Seed Explosion">
+		<!-- TODO: сделать скилл -->
+		<set name="name-ru" val="Взрыв Семени" />
+		<table name="#magic_level">14 24 34 44 54 64 74 79 84 89 94 99</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="element" val="unholy" />
+		<!-- Dark -->
+		<set name="elementPower" val="20" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="5249" levels="12" name="Boss Dark Circle">
+		<set name="name-ru" val="Темный Круг Босса" />
+		<table name="#mp_consume2">14 23 32 42 54 66 78 83 87 90 92 93</table>
+		<table name="#mp_consume1">4 6 8 11 14 17 20 21 22 23 23 24</table>
+		<table name="#magic_level">14 24 34 44 54 64 74 79 84 89 94 99</table>
+		<table name="#power">82 85 89 92 96 99 102 105 108 115 125 135</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="3300" />
+		<set name="skill_hit_cancel_time" val="3000" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="element" val="unholy" />
+		<set name="elementPower" val="20" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5250" levels="1" name="Stun">
+		<set name="name-ru" val="Оглушение" />
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="5"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="stun"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="icon" val="icon.skill0100" />
+		<set name="magic_level" val="87" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="76" />
+		<set name="activate_rate" val="80" />
+		<set name="skillRadius" val="300" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillType" val="STUN" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="SHOCK" />
+		<set name="basic_property" val="CON" />
+		<for>
+			<effect count="1" name="Stun" stackOrder="1" stackType="stun" time="5" val="0" />
+		</for>
+	</skill>
+	<skill id="5251" levels="12" name="Poison">
+		<set name="name-ru" val="Отравление" />
+		<!-- TODO call skill 5252 -->
+		<table name="#abnormal_lv">2 3 4 5 6 7 8 8 9 9 10 10</table>
+		<table name="#calledSkillLevel">1 2 3 4 5 6 7 8 9 10 11 12</table>
+		<table name="#dot">32 47 63 82 100 115 126 126 132 132 132 135</table>
+		<table name="#mp_consume2">24 39 54 73 94 116 136 144 152 157 161 163</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#abnormal_lv">2 3 4 5 6 7 8 8 9 9 10 10 </table>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="poison"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="icon" val="icon.skill4035" />
+		<set name="reuse_delay" val="6000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1800" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="activate_rate" val="80" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="POISON" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="POISON" />
+		<set name="basic_property" val="CON" />
+		<for>
+			<effect abnormal="poison" count="3" name="Poison" stackOrder="#abnormal_lv" stackType="poison" time="5" val="#dot" />
+		</for>
+	</skill>
+	<skill id="5252" levels="12" name="Paralysis">
+		<set name="name-ru" val="Паралич" />
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#abnormal_lv">1 1 1 1 1 1 1 1 1 1 1 1 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="paralyze"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill1170" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="activate_rate" val="-1" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="6000" />
+		<set name="reuse_delay" val="8000" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PARALYZE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="PARALYZE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Paralyze" stackOrder="1" stackType="paralyze" time="30" val="0" />
+		</for>
+	</skill>
+	<skill id="5253" levels="12" name="Bleed">
+		<set name="name-ru" val="Кровопускание" />
+		<!-- TODO call skill 5252 -->
+		<table name="#abnormal_lv">2 3 4 5 6 7 8 8 9 9 10 10</table>
+		<table name="#calledSkillLevel">1 2 3 4 5 6 7 8 9 10 11 12</table>
+		<table name="#dot">35 50 68 87 107 123 134 134 139 139 142 142</table>
+		<table name="#stackOrder">2 3 4 5 6 7 8 8 9 9 10 10</table>
+		<table name="#mp_consume2">13 20 28 38 50 61 71 76 80 83 84 85</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#abnormal_lv">2 3 4 5 6 7 8 8 9 9 10 10 </table>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="bleeding"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0096" />
+		<set name="skill_cool_time" val="800" />
+		<set name="reuse_delay" val="6000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="activate_rate" val="80" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BLEED" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="BLEED" />
+		<set name="basic_property" val="CON" />
+		<for>
+			<effect abnormal="bleeding" count="2" name="Bleed" stackType="bleeding" stackOrder="#abnormal_lv" time="5" val="#dot" />
+		</for>
+	</skill>
+	<skill id="5254" levels="12" name="Invasion of Spirit">
+		<set name="name-ru" val="Вторжение Духа" />
+		<!-- TODO call skill 5255 -->
+		<table name="#abnormal_lv">2 2 2 2 2 3 4 5 6 7 8 8</table>
+		<table name="#calledSkillLevel">1 2 3 4 5 6 7 8 9 10 11 12</table>
+		<table name="#dot">4 6 8 11 14 17 20 21 22 23 23 23</table>
+		<table name="#mp_consume2">17 29 39 53 67 83 97 103 108 112 115 116</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#abnormal_lv">2 2 2 2 2 3 4 5 6 7 8 8 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="dot_mp"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="icon" val="icon.skill1102" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="750" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="6" name="ManaDamOverTime" time="5" stackOrder="1" stackType="dot_mp" val="#dot" />
+		</for>
+	</skill>
+	<skill id="5255" levels="12" name="Mana Burn">
+		<set name="name-ru" val="Горение Маны" />
+		<!-- TODO сделать скилл -->
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="5256" levels="1" name="Announcement of Death">
+		<set name="name-ru" val="Извещение о Смерти" />
+		<!-- TODO call skill 5257 -->
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="death_clack"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill5239" />
+		<set name="skill_cool_time" val="800" />
+		<set name="magic_level" val="95" />
+		<set name="skill_hit_time" val="1000"/>
+		<set name="reuse_delay" val="10000"/>
+		<set name="cast_range" val="600"/>
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="85" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="CON" />
+		<for>
+			<effect abnormal="bleeding" count="1" name="Debuff" time="30" stackOrder="1" stackType="death_clack" val="0" />
+		</for>
+	</skill>
+	<skill id="5257" levels="2" name="Death">
+		<set name="name-ru" val="Смерть" />
+		<set name="magicType" val="MAGIC" />
+		<set name="power" val="1" />
+		<set name="lethal3" val="100" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="85" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5258" levels="12" name="Mana Burn">
+		<set name="name-ru" val="Горение Маны" />
+		<!-- TODO сделать скилл -->
+		<table name="#mp_consume2">10 16 21 28 36 44 52 55 58 60 61 62</table>
+		<table name="#mp_consume1">3 4 6 7 9 11 13 14 15 15 16 16</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="5259" levels="12" name="Fear">
+		<set name="name-ru" val="Страх" />
+		<table name="#mp_consume2">10 16 21 28 36 44 52 55 58 60 61 62</table>
+		<table name="#mp_consume1">3 4 6 7 9 11 13 14 15 15 16 16</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#abnormal_lv">1 1 1 1 1 1 1 1 1 1 1 1 </table>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="turn_flee"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1092" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="activate_rate" val="40" />
+		<set name="trait" val="DERANGEMENT" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="3" name="Fear" stackOrder="1"  stackType="turn_flee" time="5" val="0" />
+		</for>
+	</skill>
+	<skill id="5260" levels="12" name="Disarm">
+		<set name="name-ru" val="Разоружить" />
+		<table name="#mp_consume2">13 20 28 38 50 61 71 76 80 83 84 85</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#abnormal_lv">1 1 1 1 1 1 1 1 1 1 1 1 </table>
+		<set name="abnormal_time" val="5"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="disarm"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="icon" val="icon.skill0485" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="activate_rate" val="70" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="STR" />
+		<for>
+			<effect abnormal="bleeding" count="1" name="Disarm" time="5" stackOrder="1" stackType="disarm" val="0" />
+		</for>
+	</skill>
+	<skill id="5261" levels="1" name="Zombie">
+		<set name="name-ru" val="Зомби" />
+		<!-- TODO пересмотреть весь скилл -->
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="7"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="transform"/>
+		<set name="icon" val="icon.skilltransform3" />
+		<set name="magic_level" val="60" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="1500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="11" />
+		<set name="mp_consume2" val="44" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="TRANSFORMATION" />
+		<set name="addSkills" val="5491;1" />
+		<set name="npcId" val="13094" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="isCommon" val="true" />
+		<for>
+			<effect count="1" name="Transformation" time="1800" stackOrder="1" stackType="transform" val="303">
+				<sub order="0x40" stat="STR" val="1" />
+				<sub order="0x40" stat="DEX" val="3" />
+				<add order="0x40" stat="CON" val="12" />
+				<sub order="0x40" stat="INT" val="8" />
+				<mul order="0x30" stat="runSpd" val="1.2" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5262" levels="12" name="NPC - Rise Shot">
+		<set name="name-ru" val="NPC: Выстрел Навесом" />
+		<!-- TODO сделать скилл -->
+		<table name="#mp_consume2">13 20 28 38 50 61 71 76 80 83 84 85</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="800" />
+		<set name="reuse_delay" val="25000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="500" />
+		<set name="skill_hit_time" val="3200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="5263" levels="12" name="NPC _ Chain Lightning">
+		<set name="name-ru" val="NPC: Цепь Молний" />
+		<table name="#mp_consume2">14 23 32 42 54 66 78 83 87 90 92 93</table>
+		<table name="#mp_consume1">4 6 8 11 14 17 20 21 22 23 23 24</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#power">18 26 38 52 68 85 102 110 116 122 126 129</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="20000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="500" />
+		<set name="skill_hit_time" val="5000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="500" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5264" levels="12" name="Death Mark">
+		<set name="name-ru" val="Метка Смерти" />
+		<!-- TODO сделать скилл -->
+		<table name="#mp_consume2">14 23 32 42 54 66 78 83 87 90 92 93</table>
+		<table name="#mp_consume1">4 6 8 11 14 17 20 21 22 23 23 24</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#abnormal_lv">3 3 3 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="death_mark"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="reuse_delay" val="9000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<set name="basic_property" val="CON" />
+	</skill>
+	<skill id="5265" levels="12" name="NPC - Soul Emission">
+		<set name="name-ru" val="NPC: Извержение Души" />
+		<table name="#mp_consume2">14 23 32 42 54 66 78 83 87 90 92 93</table>
+		<table name="#mp_consume1">4 6 8 11 14 17 20 21 22 23 23 24</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#power">18 26 38 52 68 85 102 110 116 122 126 129</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="unholy" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5266" levels="12" name="Magical Backfire">
+		<set name="name-ru" val="Магическое Жжение" />
+		<table name="#val">1 1.5 1.5 7 7 7 7 7 7 7 7 7</table>
+		<table name="#regMp">2</table>
+		<table name="#mp_consume2">14 23 32 42 54 66 78 83 87 90 92 93</table>
+		<table name="#mp_consume1">4 6 8 11 14 17 20 21 22 23 23 24</table>
+		<table name="#magic_level">10 20 30 40 50 60 70 75 80 85 90 95</table>
+		<table name="#abnormal_lv">3 3 3 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormal_time" val="60"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="mp_cost_up"/>
+		<set name="lv_bonus_rate" val="2" />
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill1396" />
+		<set name="reuse_delay" val="15000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume1" val="#mp_consume1" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="activate_rate" val="80" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Debuff" time="60" stackOrder="3" stackType="mp_cost_up" val="0">
+				<mul order="0x30" stat="mpConsum" val="#val" />
+				<mul order="0x30" stat="mpConsumePhysical" val="#val" />
+				<mul order="0x30" stat="regMp" val="#regMp" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5267" levels="21" name="Trap Explosion">
+		<set name="name-ru" val="Взрывающаяся Ловушка" />
+		<table name="#magic_level">28 36 43 49 55 60 64 68 72 74 76 77 78 79 80 81 82 83 84 85 86</table>
+		<table name="#power">100 110 120 130 140 150 160 170 180 182 184 186 188 190 192 194 196 198 200 202 204</table>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillRadius" val="250" />
+		<set name="skillType" val="MDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="fire" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5268" levels="17" name="Poison">
+		<set name="name-ru" val="Отравление" />
+		<table name="#dmg">18 22 26 26 26 28 55 55 55 55 57 57 57 57 57 57 57</table>
+		<table name="#magic_level">49 55 60 64 68 72 76 77 78 79 80 81 82 83 84 85 86</table>
+		<table name="#abnormal_lv">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="poison"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0515" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="activate_rate" val="80" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="POISON" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect abnormal="poison" count="6" name="Poison" stackOrder="1" time="5" val="#dmg" />
+		</for>
+	</skill>
+	<skill id="5269" levels="17" name="Slow Trap">
+		<set name="name-ru" val="Замедляющая Ловушка" />
+		<table name="#magic_level">52 58 62 66 70 74 76 77 78 79 80 81 82 83 84 85 86</table>
+		<table name="#abnormal_lv">3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="all_speed_down"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0516" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="250" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Debuff" time="30" stackOrder="3" stackType="all_speed_down" val="0">
+				<mul order="0x30" stat="pAtkSpd" val="0.77" />
+				<mul order="0x30" stat="mAtkSpd" val="0.7" />
+				<mul order="0x30" stat="runSpd" val="0.7" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="5270" levels="16" name="Flash Trap">
+		<set name="name-ru" val="Энергетическая Ловушка" />
+		<table name="#rate">80 80 80 80 80 81 82 83 84 85 86 87 88 89 90 91</table>
+		<table name="#magic_level">55 60 64 68 72 76 77 78 79 80 81 82 83 84 85 86</table>
+		<table name="#abnormal_lv">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </table>
+		<set name="abnormal_time" val="3"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="stun"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0517" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="250" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="activate_rate" val="#rate" />
+		<set name="trait" val="SHOCK" />
+		<set name="basic_property" val="CON" />
+		<for>
+			<effect count="1" name="Stun" stackOrder="1" stackType="stun" time="3" val="0" />
+			<effect count="1" name="RemoveTarget" stackOrder="-1" stackType="remove_target" time="0" val="0" chance="50" isReflectable="false" />
+		</for>
+	</skill>
+	<skill id="5271" levels="19" name="Hold">
+		<set name="name-ru" val="Удержание" />
+		<table name="#rate">80 80 80 80 80 80 80 80 81 82 83 84 85 86 87 88 89 90 91</table>
+		<table name="#magic_level">40 46 52 58 62 66 70 74 76 77 78 79 80 81 82 83 84 85 86</table>
+		<table name="#traits">NONE HOLD HOLD HOLD HOLD HOLD HOLD HOLD HOLD HOLD HOLD HOLD HOLD HOLD HOLD HOLD HOLD HOLD HOLD</table>
+		<table name="#abnormal_lv">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </table>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="root_magically"/>
+		<set name="lv_bonus_rate" val="1" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill0518" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="600" />
+		<set name="target_type" val="TARGET_AREA" />
+		<set name="skillRadius" val="250" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="activate_rate" val="#rate" />
+		<set name="trait" val="#traits" />
+		<set name="basic_property" val="MEN" />
+		<for>
+			<effect count="1" name="Root" stackOrder="1" stackType="root_magically" time="30" val="0" />
+		</for>
+	</skill>
+	<skill id="5272" levels="17" name="Decoy Provocation">
+		<set name="name-ru" val="Провоцирующая Приманка" />
+		<table name="#effect_point">3594 3690 3787 3885 3982 4080 4200 4300 4400 4500 4600 4700 4800 4900 5000 5100 5200</table>
+		<table name="#magic_level">43 52 60 66 70 74 76 77 78 79 80 81 82 83 84 85 86</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1200" />
+		<set name="effect_point" val="#effect_point" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="AGGRESSION" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5273" levels="9" name="NPC(party) - Physical Single Close Range Attack">
+		<set name="name-ru" val="NPC(группа) - Физическая Единица Область Ближней Атаки" />
+		<table name="#mp_consume2">76 78 80 82 84 84 85 86 87</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="660" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="830" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5274" levels="9" name="NPC(party) - Physical Single Long Range Attack">
+		<set name="name-ru" val="NPC(группа) - Физическая Единица Область Дальней Атаки" />
+		<table name="#mp_consume2">151 156 160 164 167 168 169 171 173</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="4500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5275" levels="9" name="NPC(party) - Physical Range Close Range Attack">
+		<set name="name-ru" val="NPC(группа) - Физическая Область Область Ближней Атаки" />
+		<table name="#mp_consume2">76 78 80 82 84 84 85 86 87</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="800" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5276" levels="9" name="NPC(party) - Physical Range Long Range Attack">
+		<set name="name-ru" val="NPC(группа) - Физическая Область Область Дальней Атаки" />
+		<table name="#mp_consume2">227 234 240 246 250 252 254 256 259</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="800" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="500" />
+		<set name="skill_hit_time" val="3200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="5277" levels="9" name="NPC(party) - Physical Single Close Range Attack - Fire">
+		<set name="name-ru" val="NPC(группа) - Физическая Единица Область Ближней Атаки - Огонь" />
+		<table name="#mp_consume2">76 78 80 82 84 84 85 86 87</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="660" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="830" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="fire" />
+	</skill>
+	<skill id="5278" levels="9" name="NPC(party) - Physical Single Long Range Attack - Fire">
+		<set name="name-ru" val="NPC(группа) - Физическая Единица Область Дальней Атаки - Огонь" />
+		<table name="#mp_consume2">151 156 160 164 167 168 169 171 173</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="4500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="fire" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5279" levels="9" name="NPC(party) - Physical Range Close Range Attack - Fire">
+		<set name="name-ru" val="NPC(группа) - Физическая Область Область Ближней Атаки - Огонь" />
+		<table name="#mp_consume2">76 78 80 82 84 84 85 86 87</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="800" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="fire" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5280" levels="9" name="NPC(party) - Physical Range Long Range Attack - Fire">
+		<set name="name-ru" val="NPC(группа) - Физическая Область Область Дальней Атаки - Огонь" />
+		<table name="#mp_consume2">227 234 240 246 250 252 254 256 259</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="800" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="500" />
+		<set name="skill_hit_time" val="3200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="fire" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5281" levels="9" name="NPC(party) - Physical Single Close Range Attack - Water">
+		<set name="name-ru" val="NPC(группа) - Физическая Единица Область Ближней Атаки - Вода" />
+		<table name="#mp_consume2">76 78 80 82 84 84 85 86 87</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="660" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="830" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="water" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5282" levels="9" name="NPC(party) - Physical Single Long Range Attack - Water">
+		<set name="name-ru" val="NPC(группа) - Физическая Единица Область Дальней Атаки - Вода" />
+		<table name="#mp_consume2">151 156 160 164 167 168 169 171 173</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="4500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="water" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5283" levels="9" name="NPC(party) - Physical Range Close Range Attack - Water">
+		<set name="name-ru" val="NPC(группа) - Физическая Область Область Ближней Атаки - Вода" />
+		<table name="#mp_consume2">76 78 80 82 84 84 85 86 87</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="800" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="water" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5284" levels="9" name="NPC(party) - Physical Range Long Range Attack - Water">
+		<set name="name-ru" val="NPC(группа) - Физическая Область Область Дальней Атаки - Вода" />
+		<table name="#mp_consume2">227 234 240 246 250 252 254 256 259</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="800" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="500" />
+		<set name="skill_hit_time" val="3200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="water" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5285" levels="9" name="NPC(party) - Physical Single Close Range Attack - Wind">
+		<set name="name-ru" val="NPC(группа) - Физическая Единица Область Ближней Атаки - Ветер" />
+		<table name="#mp_consume2">76 78 80 82 84 84 85 86 87</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="660" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="830" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="wind" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5286" levels="9" name="NPC(party) - Physical Single Long Range Attack - Wind">
+		<set name="name-ru" val="NPC(группа) - Физическая Единица Область Дальней Атаки - Ветер" />
+		<table name="#mp_consume2">151 156 160 164 167 168 169 171 173</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="4500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="wind" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5287" levels="9" name="NPC(party) - Physical Range Close Range Attack - Wind">
+		<set name="name-ru" val="NPC(группа) - Физическая Область Область Ближней Атаки - Ветер" />
+		<table name="#mp_consume2">76 78 80 82 84 84 85 86 87</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="800" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="wind" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5288" levels="9" name="NPC(party) - Physical Range Long Range Attack - Wind">
+		<set name="name-ru" val="NPC(группа) - Физическая Область Область Дальней Атаки - Ветер" />
+		<table name="#mp_consume2">227 234 240 246 250 252 254 256 259</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="800" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="500" />
+		<set name="skill_hit_time" val="3200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="wind" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5289" levels="9" name="NPC(party) - Physical Single Close Range Attack - Earth">
+		<set name="name-ru" val="NPC(группа) - Физическая Единица Область Ближней Атаки - Земля" />
+		<table name="#mp_consume2">76 78 80 82 84 84 85 86 87</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="660" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="830" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="earth" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5290" levels="9" name="NPC(party) - Physical Single Long Range Attack - Earth">
+		<set name="name-ru" val="NPC(группа) - Физическая Единица Область Дальней Атаки - Земля" />
+		<table name="#mp_consume2">151 156 160 164 167 168 169 171 173</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="4500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="earth" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5291" levels="9" name="NPC(party) - Physical Range Close Range Attack - Earth">
+		<set name="name-ru" val="NPC(группа) - Физическая Область Область Ближней Атаки - Земля" />
+		<table name="#mp_consume2">76 78 80 82 84 84 85 86 87</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="800" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="earth" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5292" levels="9" name="NPC(party) - Physical Range Long Range Attack - Earth">
+		<set name="name-ru" val="NPC(группа) - Физическая Область Область Дальней Атаки - Земля" />
+		<table name="#mp_consume2">227 234 240 246 250 252 254 256 259</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="800" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="500" />
+		<set name="skill_hit_time" val="3200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="earth" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5293" levels="9" name="NPC(party) - Physical Single Close Range Attack - Holy">
+		<set name="name-ru" val="NPC(группа) - Физическая Единица Область Ближней Атаки - Святость" />
+		<table name="#mp_consume2">76 78 80 82 84 84 85 86 87</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="660" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="830" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="holy" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5294" levels="9" name="NPC(party) - Physical Single Long Range Attack - Holy">
+		<set name="name-ru" val="NPC(группа) - Физическая Единица Область Дальней Атаки - Святость" />
+		<table name="#mp_consume2">151 156 160 164 167 168 169 171 173</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="4500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="holy" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5295" levels="9" name="NPC(party) - Physical Range Close Range Attack - Holy">
+		<set name="name-ru" val="NPC(группа) - Физическая Область Область Ближней Атаки - Святость" />
+		<table name="#mp_consume2">76 78 80 82 84 84 85 86 87</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="800" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="holy" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5296" levels="9" name="NPC(party) - Physical Range Long Range Attack - Holy">
+		<set name="name-ru" val="NPC(группа) - Физическая Область Область Дальней Атаки - Святость" />
+		<table name="#mp_consume2">227 234 240 246 250 252 254 256 259</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="800" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="500" />
+		<set name="skill_hit_time" val="3200" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="holy" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5297" levels="9" name="NPC(party) - Physical Single Close Range Attack - Dark">
+		<set name="name-ru" val="NPC(группа) - Физическая Единица Область Ближней Атаки - Тьма" />
+		<table name="#mp_consume2">76 78 80 82 84 84 85 86 87</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="660" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="830" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="unholy" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5298" levels="9" name="NPC(party) - Physical Single Long Range Attack - Dark">
+		<set name="name-ru" val="NPC(группа) - Физическая Единица Область Дальней Атаки - Тьма" />
+		<table name="#mp_consume2">151 156 160 164 167 168 169 171 173</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="cast_range" val="900" />
+		<set name="skill_hit_time" val="4500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="unholy" />
+		<set name="elementPower" val="20" />
+	</skill>
+	<skill id="5299" levels="9" name="NPC(party) - Physical Range Close Range Attack - Dark">
+		<set name="name-ru" val="NPC(группа) - Физическая Область Область Ближней Атаки - Тьма" />
+		<table name="#mp_consume2">76 78 80 82 84 84 85 86 87</table>
+		<table name="#magic_level">75 78 81 84 87 90 93 96 99</table>
+		<table name="#power">4000 4500 5000 5500 6000 6500 7000 7500 8000</table>
+		<set name="icon" val="icon.skill0000" />
+		<set name="skill_cool_time" val="800" />
+		<set name="power" val="#power" />
+		<set name="magic_level" val="#magic_level" />
+		<set name="skill_hit_time" val="1000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="#mp_consume2" />
+		<set name="target_type" val="TARGET_AURA" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="PDAM" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="element" val="unholy" />
+		<set name="elementPower" val="20" />
+	</skill>
+</list>

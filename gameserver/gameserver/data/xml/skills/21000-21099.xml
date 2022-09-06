@@ -1,0 +1,1977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="21000" levels="1" name="Release Seal on Agathion - Majo">
+		<set name="name-ru" val="Снятие Печати - Агатион Майо" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="501;1" />
+			</effect>
+		</for>		
+	</skill>
+	<skill id="21001" levels="1" name="Release Seal on Agathion - Gold Majo">
+		<set name="name-ru" val="Снятие Печати - Золотой Агатион" />
+		<!--	Last modify:	29.12.2008	Description:	Summon an Agathion.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="502;1" />
+			</effect>
+		</for>		
+	</skill>
+	<skill id="21002" levels="1" name="Release Seal on Agathion - Black Majo">
+		<set name="name-ru" val="Снятие Печати - Черный Агатион" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="503;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21003" levels="1" name="Release Seal on Agathion - Plaipitak">
+		<set name="name-ru" val="Снятие Печати - Агатион Питак" />
+		<!--	Last modify:	29.12.2008	Description:	Summon an Agathion.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="504;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21004" levels="1" name="Wind Walk">
+		<set name="name-ru" val="Легкая Походка" />
+		<!--  Automatically generated from The Gracia part II client files. Description: Speed is temporarily increased. Effect 1. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 04-11-2008  23:21	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="speed_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
+		<set name="reuse_delay" val="1080000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="speed_up" time="120" val="0">
+				<add order="0x40" stat="runSpd" val="20" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21005" levels="3" name="Agility">
+		<!--  Automatically generated from The Gracia part II client files. Description: Evasion is temporarily increased. Effect 3. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 04-11-2008  23:21	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="avoid_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_Eye_Glasses_i00" />
+		<set name="reuse_delay" val="86400000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" stackOrder="3" stackType="avoid_up" time="3600" val="0">
+				<add order="0x40" stat="rEvas" val="4" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21006" levels="1" name="Large Firework Effect">
+		<set name="name-ru" val="Большой Фейерверк" />
+		<!--	Description: Sets off a string of firecrackers.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="HOT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="altUse" val="true" />
+	</skill>
+	<skill id="21007" levels="1" name="Ability of Doubt">
+		<set name="name-ru" val="Загадочное Умение" />
+		<!--   Automatically generated from The Gracia part II client files. Last modify: 31.10.2009 Description: Enlarges your head.	-->
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_type" val="big_head"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<set name="trait" val="ETC" />
+		<for>
+			<effect abnormal="bighead" count="1" name="Buff" stackType="BigHead" time="120" val="0" />
+		</for>
+	</skill>
+	<skill id="21008" levels="1" name="Release Seal on Agathion Baby Panda" >
+		<set name="name-ru" val="Снятие Печати - Детеныш Панды" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="505;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21009" levels="1" name="Release Seal on Agathion Bamboo Panda" >
+		<set name="name-ru" val="Снятие Печати - Панда Отец" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="506;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21010" levels="1" name="Release Seal on Agathion Sexy Panda" >
+		<set name="name-ru" val="Снятие Печати - Панда Мама" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="507;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21011" levels="1" name="Energy Recovery" >
+		<set name="name-ru" val="Восстановление Энергии" />
+		<!--	Last modify:	29.07.2009	Description: Recovers energy when acquiring Exp. for 5 minutes. Reuse Delay 1 hours.	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="vp_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
+		<set name="reuse_delay" val="43200000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Vitality" stackType="vp_up" stackOrder="1" time="300" val="0" />
+		</for>
+	</skill>
+	<skill id="21012" levels="1" name="Energy Recovery" >
+		<set name="name-ru" val="Восстановление Энергии" />
+		<!--	Last modify:	29.07.2009	Description: Recovers energy when acquiring Exp. for 5 minutes. Reuse Delay 1 hours.	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="vp_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_Eye_Glasses_i00" />
+		<set name="reuse_delay" val="43200000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Vitality" stackType="vp_up" stackOrder="1" time="1200" val="0" />
+		</for>
+	</skill>
+	<skill id="21013" levels="1" name="Energy Recovery" >
+		<set name="name-ru" val="Восстановление Энергии" />
+		<!--	Last modify:	29.07.2009	Description: Recovers energy when acquiring Exp. for 5 minutes. Reuse Delay 1 hours.	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="vp_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_Bamboo_Hat_i00" />
+		<set name="reuse_delay" val="43200000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Vitality" stackType="vp_up" stackOrder="1" time="1200" val="0" />
+		</for>
+	</skill>
+	<skill id="21014" levels="1" name="Scissors" >
+		<set name="name-ru" val="Ножницы" />
+		<!--  Automatically generated from The Gracia part II client files. Description: "Challenge opponent with ""Scissors."" Can only be used on Thomas D. Turkey." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 28-1-2009  22:00	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_xmas_gawi_i00" />
+		<set name="skill_cool_time" val="500" />
+		<set name="magic_level" val="1" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="1000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="21015" levels="1" name="Rock" >
+		<set name="name-ru" val="Камень" />
+		<!--  Automatically generated from The Gracia part II client files. Description: "Challenge opponent with ""Rock."" Can only be used on Thomas D. Turkey." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 28-1-2009  22:00	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_xmas_bawi_i00" />
+		<set name="skill_cool_time" val="500" />
+		<set name="magic_level" val="1" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="1000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="21016" levels="1" name="Paper" >
+		<set name="name-ru" val="Бумага" />
+		<!--  Automatically generated from The Gracia part II client files. Description: "Challenge opponent with ""Paper."" Can only be used on Thomas D. Turkey." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 28-1-2009  22:00	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_xmas_bo_i00" />
+		<set name="skill_cool_time" val="500" />
+		<set name="magic_level" val="1" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="2000" />
+		<set name="skill_hit_cancel_time" val="1000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+	</skill>
+	<skill id="21017" levels="1" name="Holiday Dream Weapon" >
+		<set name="name-ru" val="Новогоднее Оружие" />
+		<!--	Description: Max CP is increased. The rate of critical attacks is increased. Bestow the ability to regenerate HP by using some of the damage inflicted on the enemy. Excludes damage caused by skills and long-range attacks.	-->
+		<set name="icon" val="BranchSys.icon.br_xmas_weapon_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x50" stat="maxCp" val="1.25" />
+			<mul order="0x30" stat="cAtk" val="1.1" />
+			<add order="0x40" stat="absorbDam" val="8" />
+		</for>
+	</skill>
+	<skill id="21018" levels="1" name="Holiday Dream Weapon" >
+		<set name="name-ru" val="Новогоднее Оружие" />
+		<!--	Description: Max CP is increased. The rate and power of critical attacks are increased.	-->
+		<set name="icon" val="BranchSys.icon.br_xmas_weapon_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x50" stat="maxCp" val="1.25" />
+			<mul order="0x30" stat="cAtk" val="1.1" />
+			<add order="0x40" stat="rCrit" val="10" />
+		</for>
+	</skill>
+	<skill id="21019" levels="1" name="Holiday Dream Weapon" >
+		<set name="name-ru" val="Новогоднее Оружие" />
+		<!--	Description: Max CP is increased. The probability of deadly attacks is increased, and MP consumption for skills is decreased.	-->
+		<set name="icon" val="BranchSys.icon.br_xmas_weapon_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x50" stat="maxCp" val="1.25" />
+			<mul order="0x30" stat="blowRate" val="1.1" />
+			<mul order="0x30" stat="mpConsumePhysical" val="0.8" />
+		</for>
+	</skill>
+	<skill id="21020" levels="1" name="Holiday Dream Weapon" >
+		<set name="name-ru" val="Новогоднее Оружие" />
+		<!--	Description: Max CP and critical attack rate are increased.  Will also regenerate HP by using some of the damage inflicted on the enemy. Excludes damage caused by skills and long-range attacks.	-->
+		<set name="icon" val="BranchSys.icon.br_xmas_weapon_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x50" stat="maxCp" val="1.25" />
+			<mul order="0x30" stat="cAtk" val="1.1" />
+			<add order="0x40" stat="absorbDam" val="8" />
+		</for>
+	</skill>
+	<skill id="21021" levels="1" name="Holiday Dream Weapon" >
+		<set name="name-ru" val="Новогоднее Оружие" />
+		<!--	Description: Max CP is increased. The rate and power of critical attacks are increased.	-->
+		<set name="icon" val="BranchSys.icon.br_xmas_weapon_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x50" stat="maxCp" val="1.25" />
+			<mul order="0x30" stat="cAtk" val="1.1" />
+			<add order="0x40" stat="rCrit" val="10" />
+		</for>
+	</skill>
+	<skill id="21022" levels="1" name="Holiday Dream Weapon" >
+		<set name="name-ru" val="Новогоднее Оружие" />
+		<!--	Description: Max CP is increased. Casting speed is increased, and MP consumption for skills is decreased.	-->
+		<set name="icon" val="BranchSys.icon.br_xmas_weapon_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x50" stat="maxCp" val="1.25" />
+			<mul order="0x30" stat="mAtkSpd" val="1.15" />
+			<mul order="0x30" stat="mpConsum" val="0.8" />
+		</for>
+	</skill>
+	<skill id="21023" levels="1" name="Holiday Dream Weapon" >
+		<set name="name-ru" val="Новогоднее Оружие" />
+		<!--	Description: Max CP and M. Atk. are increased, and MP consumption for skills is decreased.	-->
+		<set name="icon" val="BranchSys.icon.br_xmas_weapon_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x50" stat="maxCp" val="1.25" />
+			<mul order="0x30" stat="mAtk" val="1.55" />
+			<mul order="0x30" stat="mpConsum" val="0.8" />
+		</for>
+	</skill>
+	<skill id="21024" levels="1" name="Holiday Dream Weapon" >
+		<set name="name-ru" val="Новогоднее Оружие" />
+		<!--	Description: Max CP is increased. MP consumption per skill is decreased. Bestow the ability to regenerate HP by using some of the damage inflicted on the enemy. Excludes damage caused by skills and long-range attacks.	-->
+		<set name="icon" val="BranchSys.icon.br_xmas_weapon_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x50" stat="maxCp" val="1.25" />
+			<add order="0x40" stat="absorbDam" val="8" />
+			<mul order="0x30" stat="mpConsumePhysical" val="0.8" />
+		</for>
+	</skill>
+	<skill id="21025" levels="1" name="Holiday Dream Weapon" >
+		<set name="name-ru" val="Новогоднее Оружие" />
+		<set name="icon" val="BranchSys.icon.br_xmas_weapon_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x50" stat="maxCp" val="1.25" />
+			<mul order="0x30" stat="rCrit" val="1.25" />
+			<add order="0x10" stat="pAtkRange" val="50">
+				<using kind="Bow, Crossbow" />
+			</add>
+		</for>
+	</skill>
+	<skill id="21026" levels="1" name="Holiday Dream Weapon" >
+		<set name="name-ru" val="Новогоднее Оружие" />
+		<!--	Description: Max CP is increased. Number of enemies which can be attacked at the same time increases. Bestow the ability to regenerate HP by using some of the damage inflicted on the enemy. Excludes damage caused by skills and long-range attacks.	-->
+		<set name="icon" val="BranchSys.icon.br_xmas_weapon_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x50" stat="maxCp" val="1.25" />
+			<add order="0x40" stat="absorbDam" val="8" />
+			<add order="0x40" stat="poleTargetCount" val="5">
+				<using kind="Pole" />
+			</add>
+		</for>
+	</skill>
+	<skill id="21027" levels="1" name="Holiday Dream Weapon" >
+		<set name="name-ru" val="Новогоднее Оружие" />
+		<!--	Description: Max CP is increased. Atk. Spd. increases, and MP consumption for skills is decreased.	-->
+		<set name="icon" val="BranchSys.icon.br_xmas_weapon_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x50" stat="maxCp" val="1.25" />
+			<mul order="0x50" stat="pAtkSpd" val="1.1" />
+			<mul order="0x30" stat="mpDanceConsume" val="0.8" />
+		</for>
+	</skill>
+	<skill id="21028" levels="1" name="Holiday Dream Weapon" >
+		<set name="name-ru" val="Новогоднее Оружие" />
+		<!--	Description: Max CP is increased. The rate of critical attacks is increased. Bestow the ability to regenerate HP by using some of the damage inflicted on the enemy. Excludes damage caused by skills and long-range attacks.	-->
+		<set name="icon" val="BranchSys.icon.br_xmas_weapon_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x50" stat="maxCp" val="1.25" />
+			<mul order="0x30" stat="cAtk" val="1.1" />
+			<add order="0x40" stat="absorbDam" val="8" />
+		</for>
+	</skill>
+	<skill id="21029" levels="1" name="Holiday Dream Weapon" >
+		<set name="name-ru" val="Новогоднее Оружие" />
+		<!--	Description: Max CP is increased. The rate and power of critical attacks are increased.	-->
+		<set name="icon" val="BranchSys.icon.br_xmas_weapon_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x50" stat="maxCp" val="1.25" />
+			<mul order="0x30" stat="cAtk" val="1.1" />
+			<add order="0x40" stat="rCrit" val="10" />
+		</for>
+	</skill>
+	<skill id="21030" levels="1" name="Holiday Dream Weapon" >
+		<set name="name-ru" val="Новогоднее Оружие" />
+		<!--	Description: Max CP is increased. Evasion and Accuracy are increased.	-->
+		<set name="icon" val="BranchSys.icon.br_xmas_weapon_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<mul order="0x50" stat="maxCp" val="1.25" />
+			<add order="0x40" stat="rEvas" val="4" />
+			<add order="0x40" stat="accCombat" val="6" />
+		</for>
+	</skill>
+	<skill id="21031" levels="1" name="Agathion Seal Release - Charming Cupid" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Светлый Купидон" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="508;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21032" levels="1" name="Agathion Seal Release - Naughty Cupid" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Темный Купидон" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="509;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21033" levels="1" name="Release Seal on Agathion - White Maneki Neko" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Белый Агатион Удачи" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="510;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21034" levels="1" name="Release Seal on Agathion - Black Maneki Neko" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Черный Агатион Удачи" />
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="511;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21035" levels="1" name="Release Seal on Agathion - Brown Maneki Neko" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Коричневый Агатион Удачи" />
+		<!--	Last modify:	15.02.2009	Description:	Summon an Agathion.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="512;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21036" levels="1" name="Release Seal on Agathion - One-eyed Bat Drove" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Одноглазая Летучая Мышь" />
+		<!--	Last modify:	15.02.2009	Description:	Summon an Agathion.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="513;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21037" levels="1" name="Release Seal on Agathion - Pegasus" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Пегас" />
+		<!--	Last modify:	15.02.2009	Description:	Summon an Agathion.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="514;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21038" levels="1" name="Release Seal on Agathion - Yellow-robed Tojigong" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Желтый Агатион" />
+		<!--	Last modify:	15.02.2009	Description:	Summon an Agathion.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="515;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21039" levels="1" name="Release Seal on Agathion - Blue-robed Tojigong" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Синий Агатион" />
+		<!--	Last modify:	15.02.2009	Description:	Summon an Agathion.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="516;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21040" levels="1" name="Release Seal on Agathion - Green-Robed Tojigong" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Зеленый Агатион" />
+		<!--	Last modify:	15.02.2009	Description:	Summon an Agathion.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="517;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21041" levels="1" name="Release Seal on Agathion - Bugbear" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Людоед" />
+		<!--	Last modify:	15.02.2009	Description:	Summon an Agathion.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="518;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21042" levels="1" name="Baguette's Blessing" >
+		<set name="name-ru" val="Благословение Багета" />
+		<!--  Automatically generated from The Gracia part II client files. Description: Baguette's Blessing. Fully restores HP and greatly recovers CP and MP. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 14-2-2009  21:42	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill3123" />
+		<set name="reuse_delay" val="1800000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21043" levels="1" name="Agathion Seal Cancel - Red Sumo Wrestler" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Красный Сумоист" />
+		<!--	Last modify:	29.07.2009	Description: Summon an Agathion.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="519;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21044" levels="1" name="Agathion Seal Cancel - Blue Sumo Wrestler Agathion" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Синий Сумоист" />
+		<!--	Last modify:	29.07.2009	Description: Summon an Agathion.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="520;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21045" levels="1" name="Agathion Seal Cancel - Great Sumo Match" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Сумоист Чемпион" />
+		<!--	Last modify:	29.07.2009	Description: Summon an Agathion.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="521;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21046" levels="1" name="Agathion Seal Cancel - Button-Eyed Bear Doll" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Плюшевый Медведь" />
+		<!--	Last modify:	29.07.2009	Description: Summon an Agathion.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="522;1" />
+			</effect>
+		</for>>
+	</skill>
+	<skill id="21047" levels="1" name="Agathion Seal Cancel - God of Fortune" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Бог Богатства" />
+		<!--	Last modify:	29.07.2009	Description: Summon an Agathion.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="523;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21048" levels="1" name="Agathion Seal Cancel - Dryad" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Дриада" />
+		<!--	Last modify:	29.07.2009	Description: Summon an Agathion.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="524;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21049" levels="1" name="Agathion Seal Cancel - Wonboso" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Священная Корова" />
+		<!--	Last modify:	29.07.2009	Description: Summon an Agathion.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="525;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21050" levels="1" name="Agathion Seal Cancel - Daewoonso" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Счастливая Корова" />
+		<!--	Last modify:	29.07.2009	Description: Summon an Agathion.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="526;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21051" levels="1" name="Steam Beatle Mount" >
+		<set name="name-ru" val="Посадка на Паровые Сани" />
+		<!--	Last modify:	29.07.2009	Description: Mounts a Steam Beatle.	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="transform"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skilltransform3" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="RIDE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="npcId" val="13147" />
+	</skill>
+	<skill id="21052" levels="4" name="Bless the Body" >
+		<!--   Last modify: 31.10.2009 Description: Increases Max HP by 25% for 30 minutes.	-->
+		<table name="#maxHp">1.25</table>
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="max_hp_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_people_cap_i00" />
+		<set name="reuse_delay" val="14400000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" stackOrder="6" stackType="max_hp_up" time="1800" val="0">
+				<mul order="0x30" stat="maxHp" val="#maxHp" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21053" levels="4" name="Bless the Soul" >
+		<!--   Last modify: 31.10.2009 Description: Increases Max MP by 25% for 30 minutes.	-->
+		<table name="#maxMp">1.25</table>
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="max_mp_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_people_cap_i00" />
+		<set name="reuse_delay" val="14400000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" stackOrder="6" stackType="max_mp_up" time="1800" val="0">
+				<mul order="0x30" stat="maxMp" val="#maxMp" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21054" levels="1" name="Blessed Resurrection Ability" >
+		<set name="name-ru" val="Сила Благословенного Воскрешения" />
+		<!-- Last modify: 03.01.2009 Description: Can use the ability of Blessed Resurrection. Reuse Delay 12 hours.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_Uniform_Hat_i00" />
+		<set name="reuse_delay" val="43200000" />
+		<set name="power" val="100" />
+		<set name="magic_level" val="85" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_CORPSE_PLAYER" />
+		<set name="corpse" val="true" />
+		<set name="skillType" val="RESURRECT" />
+		<set name="useSS" val="false" />
+		<set name="canPet" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21055" levels="1" name="Wind Walk" >
+		<set name="name-ru" val="Легкая Походка" />
+		<!--   Last modify: 31.10.2009 Description: Increases moving speed by 20 for 2 minutes. Reuse delay 18 minutes.	-->
+		<table name="#runSpd">20</table>
+		<table name="#abnormal_time">120</table>
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="speed_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_Bamboo_Hat_i00" />
+		<set name="reuse_delay" val="1080000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="speed_up" time="#abnormal_time" val="0">
+				<add order="0x40" stat="runSpd" val="#runSpd" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21056" levels="3" name="Agility" >
+		<!--   Last modify: 31.10.2009 Description: Increases evasion rate by 4 for 1 hour. Reuse Delay 24 hours.	-->
+		<table name="#rEvas">2 3 4</table>
+		<table name="#abnormal_lv">1 2 3</table>
+		<table name="#abnormal_time">3600</table>
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="avoid_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_mask_i00" />
+		<set name="reuse_delay" val="86400000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" stackOrder="#abnormal_lv" stackType="avoid_up" time="#abnormal_time" val="0">
+				<add order="0x40" stat="rEvas" val="#rEvas" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21057" levels="1" name="Reflect" >
+		<set name="name-ru" val="Отражение Урона" />
+		<!--   Last modify: 06.11.2009 Description: For 5 minutes, returns 20% of the damage back to the enemy. Excludes skill and long-range attacks. Reuse Delay 1 hours.	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="dmg_shield"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_Ribbon_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="ETC" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="dmg_shield" time="300" val="0">
+				<add order="0x40" stat="reflectDam" val="20" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21058" levels="1" name="Mana Regeneration" >
+		<set name="name-ru" val="Регенерация Маны" />
+		<!--   Last modify: 06.11.2009 Description: Increases MP Regeneration by 3% for 5 minutes. Reuse Delay 1 hours.	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="mp_regen_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_Eye_Visor_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="ETC" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="mp_regen_up" time="300" val="0">
+				<mul order="0x30" stat="regMp" val="1.03" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21059" levels="1" name="Greater Heal" >
+		<set name="name-ru" val="Великое Лечение" />
+		<!--  Automatically generated from The Gracia Final client files. Description: Recovers HP by 444 and increases HP Recovery by 30 for 15 seconds. Reuse Delay 4 hours. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 01-7-2009  11:04	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="life_force_others"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.accessory_cat_the_cat_cap_i00" />
+		<set name="reuse_delay" val="14400000" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="ETC" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21060" levels="1" name="Death Whisper" >
+		<set name="name-ru" val="Шепот Смерти" />
+		<!--   Last modify: 06.11.2009 Description: Increases Critical attack power by 35% for 5 minutes. Reuse Delay 1 hours.	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="critical_dmg_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.accessory_skeleton_cap_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" time="300" val="0">
+				<mul order="0x30" stat="cAtk" val="1.35" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21061" levels="3" name="Agility" >
+		<!--  Automatically generated from The Gracia Final client files. Description: Increases evasion rate by 4 for 1 hour. Reuse Delay 24 hours. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 01-7-2009  11:04	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="avoid_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
+		<set name="reuse_delay" val="86400000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21062" levels="1" name="Wild Magic" >
+		<set name="name-ru" val="Дикая Магия" />
+		<!--   Last modify: 06.11.2009 Description: For 5 minutes, increases by 2% the occurrence rate of damage that is caused by damage magic. Reuse Delay 1 hours.	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="magic_critical_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" time="300" val="0">
+				<add order="0x40" stat="mCritRate" val="2" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21063" levels="1" name="Wind Walk" >
+		<set name="name-ru" val="Легкая Походка" />
+		<!--   Last modify: 31.10.2009 Description: Increases moving speed by 20 for 2 minutes. Reuse delay 18 minutes.	-->
+		<table name="#runSpd">20</table>
+		<table name="#abnormal_time">120</table>
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="speed_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_goggles_i00" />
+		<set name="reuse_delay" val="1080000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="speed_up" time="#abnormal_time" val="0">
+				<add order="0x40" stat="runSpd" val="#runSpd" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21064" levels="1" name="Mana Regeneration" >
+		<set name="name-ru" val="Регенерация Маны" />
+		<!--Edit by Nika 06.03.2012-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="mp_regen_up"/>
+		<set name="icon" val="BranchSys.icon.br_napoleonic_cap_i00" />
+		<set name="magicType" val="MAGIC"/>
+		<set name="reuse_delay" val="3600000"/>
+		<set name="magic_level" val="80"/>
+		<set name="skill_hit_time" val="1500"/>
+		<set name="skill_hit_cancel_time" val="500"/>
+		<set name="mp_consume2" val="10"/>
+		<set name="effect_point" val="1000"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="mp_regen_up" time="300" val="0">
+				<add order="0x40" stat="regMp" val="3" />
+			</effect>
+		</for>
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21065" levels="1" name="Reflect" >
+		<set name="name-ru" val="Отражение Урона" />
+		<!--Edit by Nika 08.03.2012-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="dmg_shield"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="10" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skill_hit_time" val="3000" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="dmg_shield" time="300" val="0">
+				<add order="0x40" stat="reflectDam" val="20" />
+			</effect>
+		</for>
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21066" levels="1" name="Energy Recovery" >
+		<set name="name-ru" val="Восстановление Энергии" />
+		<!--	Last modify:	29.07.2009	Description: Recovers energy when acquiring Exp. for 5 minutes. Reuse Delay 1 hours.	-->
+		<table name="#abnormal_lv">1 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="vp_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_black_gem_mask_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="ETC" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Vitality" stackType="vp_up" stackOrder="1" time="300" val="0" />
+		</for>
+	</skill>
+	<skill id="21067" levels="1" name="Blessed Escape Ability" >
+		<set name="name-ru" val="Сила Благословенного Побега" />
+		<!--   Last modify: 06.11.2009 Description: Can use the ability of Blessed Return. Reuse Delay 12 hours.	-->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00" />
+		<set name="reuse_delay" val="43200000" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="200" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="RECALL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21068" levels="1" name="Resist Unholy" >
+		<set name="name-ru" val="Устойчивость к Тьме" />
+		<!--   Last modify: 06.11.2009 Description: Increases resistance to darkness type attacks by 30 for 5 minutes. Reuse Delay 1 hours.	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="armor_unholy"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="ETC" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="unholyRcpt" time="300" val="0">
+				<add order="0x40" stat="defenceUnholy" val="30" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21069" levels="1" name="Wind Walk" >
+		<set name="name-ru" val="Легкая Походка" />
+		<!--  Automatically generated from The Gracia Final client files. Description: Increases moving speed by 20 for 2 minutes. Reuse delay 18 minutes. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 01-7-2009  11:04	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="speed_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.accessory_forget_me_not_hairpin_i00" />
+		<set name="reuse_delay" val="1080000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21070" levels="1" name="Death Whisper" >
+		<set name="name-ru" val="Шепот Смерти" />
+		<!--  Automatically generated from The Gracia Final client files. Description: Increases Critical attack power by 35% for 5 minutes. Reuse Delay 1 hours. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 01-7-2009  11:04	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="critical_dmg_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.accessory_outlaw_eyepatch_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21071" levels="3" name="Agility" >
+		<!--  Automatically generated from The Gracia Final client files. Description: Increases evasion rate by 4 for 1 hour. Reuse Delay 24 hours. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 01-7-2009  11:04	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="avoid_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.accessory_eye_bandage_i00" />
+		<set name="reuse_delay" val="86400000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21072" levels="1" name="Wild Magic" >
+		<set name="name-ru" val="Дикая Магия" />
+		<!--Edit by Nika 23.04.2012-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="magic_critical_up"/>
+		<set name="icon" val="icon.accessory_glasses_i00" />
+		<set name="magicType" val="MAGIC" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="magic_level" val="80" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="mp_consume2" val="10" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="skill_hit_time" val="3000" />
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="magic_critical_up" time="300" val="0">
+				<add order="0x40" stat="mCritRate" val="2" />
+			</effect>
+		</for>
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21073" levels="1" name="Mana Regeneration" >
+		<set name="name-ru" val="Регенерация Маны" />
+		<!--  Automatically generated from The Gracia Final client files. Description: Increases MP Regeneration by 3% for 5 minutes. Reuse Delay 1 hours. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 01-7-2009  11:04	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="mp_regen_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.accessory_worldcup_mask_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="ETC" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21074" levels="1" name="Reflect" >
+		<set name="name-ru" val="Отражение Урона" />
+		<!--  Automatically generated from The Gracia Final client files. Description: "For 5 minutes, returns 20% of the damage back to the enemy. Excludes skill and long-range attacks. Reuse Delay 1 hours." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 01-7-2009  11:04	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="dmg_shield"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.accessory_hair_cornu_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="ETC" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21075" levels="1" name="Greater Heal" >
+		<set name="name-ru" val="Великое Лечение" />
+		<!--   Last modify: 06.11.2009 Description: Recovers HP by 444 and increases HP Recovery by 30 for 15 seconds. Reuse Delay 4 hours.	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="life_force_others"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_party_mask_i00" />
+		<set name="reuse_delay" val="14400000" />
+		<set name="power" val="444" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="HEAL" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="ETC" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="15" name="HealOverTime" stackOrder="1" stackType="HpRecoverCast" time="1" val="30" />
+		</for>
+	</skill>
+	<skill id="21076" levels="1" name="Resist Unholy" >
+		<set name="name-ru" val="Устойчивость к Тьме" />
+		<!--  Automatically generated from The Gracia Final client files. Description: Increases resistance to darkness type attacks by 30 for 5 minutes. Reuse Delay 1 hours. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 01-7-2009  11:04	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="armor_unholy"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_party_mask_i01" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="ETC" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21077" levels="1" name="Wind Walk" >
+		<set name="name-ru" val="Легкая Походка" />
+		<!--  Automatically generated from The Gracia Final client files. Description: Increases moving speed by 20 for 2 minutes. Reuse delay 18 minutes. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 01-7-2009  11:04	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="speed_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.accessory_cat_ear_i00" />
+		<set name="reuse_delay" val="1080000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21078" levels="1" name="Death Whisper" >
+		<set name="name-ru" val="Шепот Смерти" />
+		<!--  Automatically generated from The Gracia Final client files. Description: Increases Critical attack power by 35% for 5 minutes. Reuse Delay 1 hours. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 01-7-2009  11:04	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="critical_dmg_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.accessory_hairpin_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21079" levels="3" name="Agility" >
+		<!--  Automatically generated from The Gracia Final client files. Description: Increases evasion rate by 4 for 1 hour. Reuse Delay 24 hours. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 01-7-2009  11:04	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="avoid_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.accessory_racoon_ear_i00" />
+		<set name="reuse_delay" val="86400000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21080" levels="1" name="Wild Magic" >
+		<set name="name-ru" val="Дикая Магия" />
+		<!--  Automatically generated from The Gracia Final client files. Description: "For 5 minutes, increases by 2% the occurrence rate of damage that is caused by damage magic. Reuse Delay 1 hours." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 01-7-2009  11:04	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="magic_critical_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.accessory_rabbit_ear_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21081" levels="1" name="Mana Regeneration" >
+		<set name="name-ru" val="Регенерация Маны" />
+		<!--  Automatically generated from The Gracia Final client files. Description: Increases MP Regeneration by 3% for 5 minutes. Reuse Delay 1 hours. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 01-7-2009  11:04	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="mp_regen_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="ETC" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21082" levels="1" name="Reflect" >
+		<set name="name-ru" val="Отражение Урона" />
+		<!--  Automatically generated from The Gracia Final client files. Description: "For 5 minutes, returns 20% of the damage back to the enemy. Excludes skill and long-range attacks. Reuse Delay 1 hours." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 01-7-2009  11:04	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="dmg_shield"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="ETC" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21083" levels="1" name="Greater Heal" >
+		<set name="name-ru" val="Великое Лечение" />
+		<!--  Automatically generated from The Gracia Final client files. Description: Recovers HP by 444 and increases HP Recovery by 30 for 15 seconds. Reuse Delay 4 hours. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 01-7-2009  11:04	-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="life_force_others"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="reuse_delay" val="14400000" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="ETC" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21084" levels="1" name="Energy Recovery" >
+		<set name="name-ru" val="Восстановление Энергии" />
+		<!--	Last modify:	29.07.2009 Description: Recovers energy when acquiring Exp. for 5 minutes. Reuse Delay 1 hours. -->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="vp_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="trait" val="ETC" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Vitality" stackType="vp_up" stackOrder="1" time="300" val="0" />
+		</for>
+	</skill>
+	<skill id="21085" levels="1" name="Agathion Seal Cancel - Pomona" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Фомона" />
+		<!-- Last modify:	29.07.2009 Description:	Removes the seal on the Agathion. -->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="527;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21086" levels="1" name="Blessing of Love" >
+		<set name="name-ru" val="Благословение Любви" />
+		<!-- -->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="invincibility"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_garland_i00" />
+		<set name="reuse_delay" val="14400000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_ONE" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect abnormal="invul2" count="1" name="Invulnerable" stackOrder="-1" stackType="invincibility" time="10" val="0" cancelOnAction="true" />
+		</for>
+	</skill>
+	<skill id="21087" levels="1" name="Berserker Spirit" >
+		<set name="name-ru" val="Дух Берсерка" />
+		<!--  . Last modify: 31.10.2009 Description: Decreases P. Def. by 8%, M. Def. by 16%, and evasion by 4, and increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and moving speed by 8 for 20 minutes. -->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="berserker"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_circlet_of_eva_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="berserker" time="1200" val="0">
+				<mul order="0x30" stat="mAtk" val="1.16" />
+				<mul order="0x30" stat="pAtk" val="1.08" />
+				<mul order="0x30" stat="pDef" val="0.92" />
+				<mul order="0x30" stat="mDef" val="0.84" />
+				<mul order="0x30" stat="mAtkSpd" val="1.08" />
+				<mul order="0x30" stat="pAtkSpd" val="1.08" />
+				<add order="0x40" stat="runSpd" val="8" />
+				<sub order="0x40" stat="rEvas" val="4" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21088" levels="1" name="Summon Friend" >
+		<set name="name-ru" val="Вызов Друга" />
+		<!--  Automatically generated from The Gracia Final client files. Description: Summons your friend. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 31-10-2009  14:08 -->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill_agathion_special" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="10000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21089" levels="1" name="Dance of Shadows" >
+		<set name="name-ru" val="Танец Тени" />
+		<!--  Automatically generated from The Gracia Final client files. Description: "Receives the soul's help, and for 2 minutes, decreases one's own moving speed by 50% and invokes the ability not to receive the preemptive attack of monsters." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 31-10-2009  14:08 -->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="dance_of_shadow"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_invokespirit_stick_a_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="2500" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21090" levels="1" name="Soul of Phoenix" >
+		<set name="name-ru" val="Душа Феникса" />
+		<!--  Automatically generated from The Gracia Final client files. Description: "Receives the soul's help, and revives from death with completely recovered status. Buff/de-buff doesn't disappear at death but is maintained." Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 31-10-2009  14:08 -->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="resurrection_special"/>
+		<set name="magicType" val="MAGIC" />
+		<set name="icon" val="BranchSys.icon.br_comfortspirit_hat_a_i00" />
+		<set name="reuse_delay" val="86400000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21091" levels="1" name="Agathion Seal Cancel - Weaver" >
+		<set name="name-ru" val="Снятие Печати с Агатиона - Вега" />
+		<!--   Last modify: 31.10.2009 Description: Removes the seal on the Agathion. -->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.etc_summon_aga_agit_i00" />
+		<set name="magic_level" val="85" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="EFFECT" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<set name="useSS" val="false" />
+		<for>
+			<effect name="i_summon_agathion" time="0">
+				<def name="argument" val="528;1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21092" levels="1" name="Theme - Love" >
+		<set name="name-ru" val="Тема - Город" />
+		<!--  Automatically generated from The Gracia Final client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 31-10-2009  14:08 -->
+		<set name="icon" val="BranchSys.icon.br_headphone_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="21093" levels="1" name="Theme - Hero" >
+		<set name="name-ru" val="Тема - Герой" />
+		<!--  Automatically generated from The Gracia Final client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 31-10-2009  14:08 -->
+		<set name="icon" val="BranchSys.icon.br_headphone_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="21094" levels="1" name="Theme - Theme Park" >
+		<set name="name-ru" val="Тема - Тема Парк" />
+		<!--  Automatically generated from The Gracia Final client files. Description: none Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 31-10-2009  14:08 -->
+		<set name="icon" val="BranchSys.icon.br_headphone_i00" />
+		<set name="magic_level" val="1" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_PASSIVE" />
+	</skill>
+	<skill id="21095" levels="1" name="Blessed Resurrection" >
+		<set name="name-ru" val="Благословенное Воскрешение" />
+		<!--   Last modify: 31.10.2009 Description: Can use the ability of Blessed Resurrection. Reuse Delay 12 hours. -->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_comfortspirit_hat_a_i00" />
+		<set name="reuse_delay" val="43200000" />
+		<set name="power" val="100" />
+		<set name="magic_level" val="85" />
+		<set name="cast_range" val="400" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_CORPSE_PLAYER" />
+		<set name="corpse" val="true" />
+		<set name="skillType" val="RESURRECT" />
+		<set name="useSS" val="false" />
+		<set name="canPet" val="true" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="static_reuse_time" val="true" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21096" levels="1" name="Ability of Cool Watermelon" >
+		<set name="name-ru" val="Свойство Свежего Арбуза" />
+		<!--   Last modify: 31.10.2009 Description: For 30 minutes, increases critical rate by 30% and critical power by 35%. -->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="improve_crt_rate_dmg_up"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_watermelon_cap_a_i00" />
+		<set name="reuse_delay" val="14400000" />
+		<set name="skill_hit_time" val="3000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+		<for>
+			<effect count="1" name="Buff" stackOrder="10" stackType="critical_prob_up;cAtk" time="1800" val="0">
+				<add order="0x40" stat="rCrit" val="30" />
+				<mul order="0x30" stat="cAtk" val="1.35" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21097" levels="1" name="Summon Friend" >
+		<set name="name-ru" val="Призыв Друга" />
+		<!--  Automatically generated from The Gracia Final client files. Description: Summons your friend. Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability. created 31-10-2009  14:08 -->
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="icon.skill_agathion_special" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="magic_level" val="1" />
+		<set name="skill_hit_time" val="10000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21098" levels="1" name="Great Adventurer's Soul Power : Endless" >
+		<set name="name-ru" val="Сила души бессмертного Путешественника" />
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="multi_buff"/>
+		<set name="magicType" val="SPECIAL" />
+		<set name="icon" val="BranchSys.icon.br_valkyrie_cap_i00" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="skill_hit_time" val="4000" />
+		<set name="skill_hit_cancel_time" val="500" />
+		<set name="target_type" val="TARGET_NONE" />
+		<set name="skillType" val="NOTDONE" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+	<skill id="21099" levels="1" name="Great Warrior's Soul Power: Strength" >
+		<set name="name-ru" val="Сила души могучего Воина" />
+		<!--Edit by Nika 06.03.2012-->
+		<table name="#abnormal_lv">26 </table>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_lv" val="#abnormal_lv"/>
+		<set name="abnormal_type" val="multi_buff"/>
+		<set name="magicType" val="MAGIC"/>
+		<set name="icon" val="BranchSys.icon.br_tiger_cap_i00" />
+		<set name="reuse_delay" val="3600000"/>
+		<set name="magic_level" val="80"/>
+		<set name="skill_hit_time" val="1500"/>
+		<set name="skill_hit_cancel_time" val="500"/>
+		<set name="mp_consume2" val="10"/>
+		<set name="effect_point" val="1000"/>
+		<set name="target_type" val="TARGET_SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect count="1" name="Buff" stackOrder="1" stackType="pa_up;pDef" time="300" val="0">
+				<mul order="0x30" stat="pAtk" val="1.1"/>
+				<mul order="0x30" stat="pDef" val="1.2"/>
+				<mul order="0x30" stat="pAtkSpd" val="1.2" />
+				<add order="0x40" stat="absorbDam" val="5" />
+			</effect>
+		</for>
+		<cond msgId="1509">
+			<not>
+				<player olympiad="true" />
+			</not>
+		</cond>
+	</skill>
+</list>

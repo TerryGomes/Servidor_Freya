@@ -1,0 +1,65 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<list>
+	<!-- Руна опыта 30% 5 часов -->
+	<item>
+		<ingredient id="4356" count="2"/>
+		<production id="20335" count="1"/>
+	</item>
+	<!-- Руна опыта 50% 5 часов -->
+	<item>
+		<ingredient id="4356" count="3"/>
+		<production id="20336" count="1"/>
+	</item>
+	<!-- Руна опыта 30% 10 часов -->
+	<item>
+		<ingredient id="4356" count="4"/>
+		<production id="20337" count="1"/>
+	</item>
+	<!-- Руна опыта 50% 10 часов -->
+	<item>
+		<ingredient id="4356" count="5"/>
+		<production id="20338" count="1"/>
+	</item>
+	<!-- Руна опыта 30% 7 дней -->
+	<item>
+		<ingredient id="4356" count="8"/>
+		<production id="20339" count="1"/>
+	</item>
+	<!-- Руна опыта 50% 7 дней -->
+	<item>
+		<ingredient id="4356" count="10"/>
+		<production id="20340" count="1"/>
+	</item>
+	
+	<!-- Руна SP 30% 5 часов -->
+	<item>
+		<ingredient id="4356" count="1"/>
+		<production id="20341" count="1"/>
+	</item>
+	<!-- Руна SP 50% 5 часов -->
+	<item>
+		<ingredient id="4356" count="2"/>
+		<production id="20342" count="1"/>
+	</item>
+	<!-- Руна SP 30% 10 часов -->
+	<item>
+		<ingredient id="4356" count="3"/>
+		<production id="20343" count="1"/>
+	</item>
+	<!-- Руна SP 50% 10 часов -->
+	<item>
+		<ingredient id="4356" count="4"/>
+		<production id="20344" count="1"/>
+	</item>
+	<!-- Руна SP 30% 7 дней -->
+	<item>
+		<ingredient id="4356" count="6"/>
+		<production id="20345" count="1"/>
+	</item>
+	<!-- Руна SP 50% 7 дней -->
+	<item>
+		<ingredient id="4356" count="8"/>
+		<production id="20346" count="1"/>
+	</item>
+</list>

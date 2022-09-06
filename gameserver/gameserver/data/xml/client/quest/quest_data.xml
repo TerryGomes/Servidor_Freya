@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<data quest_id="1" main_name="Letters of Love" lvl_min="2" lvl_max="5" reward="15623:5672;15624:446;57:2466;906:1;"/>
+	<data quest_id="2" main_name="What Women Want" lvl_min="2" lvl_max="5" reward="15623:4254;15624:335;57:1850;113:1;"/>
+	<data quest_id="3" main_name="Will the Seal be Broken?" lvl_min="16" lvl_max="26" reward="956:1;"/>
+	<data quest_id="4" main_name="Long live the Pa'agrio Lord!" lvl_min="2" lvl_max="5" reward="15623:4254;15624:335;57:1850;4:1;"/>
+	<data quest_id="5" main_name="Miner's Favor" lvl_min="2" lvl_max="5" reward="15623:5672;15624:446;57:2466;906:1;"/>
+	<data quest_id="6" main_name="Step into the Future" lvl_min="3" lvl_max="10" reward="7570:1;7126:1;"/>
+	<data quest_id="7" main_name="A Trip Begins" lvl_min="3" lvl_max="10" reward="7570:1;7126:1;"/>
+	<data quest_id="8" main_name="An Adventure Begins" lvl_min="3" lvl_max="10" reward="7570:1;7126:1;"/>
+	<data quest_id="9" main_name="Into the City of Humans" lvl_min="3" lvl_max="10" reward="7570:1;7126:1;"/>
+	<data quest_id="10" main_name="Into the World" lvl_min="3" lvl_max="10" reward="7570:1;7126:1;"/>
+	<data quest_id="11" main_name="Secret Meeting With Ketra Orcs" lvl_min="74" lvl_max="80" reward="15623:82045;15624:6047;"/>
+	<data quest_id="12" main_name="Secret Meeting With Varka Silenos" lvl_min="74" lvl_max="80" reward="15623:233125;15624:18142;"/>
+	<data quest_id="13" main_name="Parcel Delivery" lvl_min="74" lvl_max="80" reward="15623:589092;15624:58794;57:157834;"/>
+	<data quest_id="14" main_name="Whereabouts of the Archaeologist" lvl_min="74" lvl_max="80" reward="15623:325881;15624:32524;57:136928;"/>
+	<data quest_id="15" main_name="Sweet Whispers" lvl_min="60" lvl_max="99" reward="15623:350531;15624:28204;"/>
+	<data quest_id="16" main_name="The Coming Darkness" lvl_min="62" lvl_max="99" reward="15623:865187;15624:69172;"/>
+	<data quest_id="17" main_name="Light and Darkness" lvl_min="61" lvl_max="99" reward="15623:697040;15624:54887;"/>
+	<data quest_id="18" main_name="Meeting with the Golden Ram" lvl_min="66" lvl_max="76" reward="15623:126668;15624:11731;57:40000;"/>
+	<data quest_id="19" main_name="Go to the Pastureland!" lvl_min="82" lvl_max="99" reward="57:147200;15623:385040;15624:75250;"/>
+	<data quest_id="20" main_name="Bring Up With Love" lvl_min="82" lvl_max="99" reward="9553:1;"/>
+	<data quest_id="21" main_name="Hidden Truth" lvl_min="63" lvl_max="99" reward="15623:131228;15624:11978;"/>
+	<data quest_id="22" main_name="Tragedy in Von Hellmann Forest" lvl_min="63" lvl_max="99" reward="15623:345966;15624:31578;"/>
+	<data quest_id="23" main_name="Lidia's Heart" lvl_min="64" lvl_max="99" reward="15623:456893;15624:42112;57:350000;"/>
+	<data quest_id="24" main_name="Inhabitants of the Forest of the Dead" lvl_min="65" lvl_max="99" reward="15623:242105;15624:22529;"/>
+	<data quest_id="25" main_name="Hiding Behind the Truth" lvl_min="66" lvl_max="99" reward="15623:572277;15624:53750;"/>
+	<data quest_id="26" main_name="Tired of Waiting" lvl_min="80" lvl_max="99" reward="15625:0;"/>
+	<data quest_id="27" main_name="Chest Caught with a Bait of Wind" lvl_min="27" lvl_max="29" reward="880:1;"/>
+	<data quest_id="28" main_name="Chest Caught with a Bait of Icy Air" lvl_min="36" lvl_max="38" reward="881:1;"/>
+	<data quest_id="29" main_name="Chest Caught with a Bait of Earth" lvl_min="48" lvl_max="50" reward="2455:1;"/>
+	<data quest_id="30" main_name="Chest Caught with a Bait of Fire" lvl_min="60" lvl_max="62" reward="916:1;"/>
+	<data quest_id="31" main_name="Secret Buried in the Swamp" lvl_min="66" lvl_max="76" reward="15623:490000;15624:45880;57:120000;"/>
+	<data quest_id="32" main_name="An Obvious Lie" lvl_min="45" lvl_max="99" reward="15625:0;"/>
+	<data quest_id="33" main_name="Make a Pair of Dress Shoes" lvl_min="60" lvl_max="99" reward="7113:1;"/>
+	<data quest_id="34" main_name="In Search of Cloth" lvl_min="60" lvl_max="99" reward="7076:1;"/>
+	<data quest_id="35" main_name="Find Glittering Jewelry" lvl_min="60" lvl_max="99" reward="1566:1;"/>
+	<data quest_id="36" main_name="Make a Sewing Kit!" lvl_min="60" lvl_max="99" reward="7078:1;"/>
+	<data quest_id="37" main_name="Make Formal Wear" lvl_min="60" lvl_max="99" reward="6408:1;"/>
+	<data quest_id="38" main_name="Dragon Fangs" lvl_min="19" lvl_max="29" reward="15623:435117;15624:23977;15629:0;"/>
+	<data quest_id="39" main_name="Red-Eyed Invaders" lvl_min="20" lvl_max="28" reward="15623:62366;15624:2783;6529:1;6535:500;6521:60;"/>
+	<data quest_id="40" main_name="A Special Order" lvl_min="40" lvl_max="99" reward="10632:1;"/>
+	<data quest_id="42" main_name="Help the Uncle!" lvl_min="25" lvl_max="99" reward="7583:1;"/>
+	<data quest_id="43" main_name="Help the Sister!" lvl_min="26" lvl_max="99" reward="7584:1;"/>
+	<data quest_id="44" main_name="Help the Son!" lvl_min="24" lvl_max="99" reward="7585:1;"/>
+	<data quest_id="45" main_name="To Talking Island" lvl_min="3" lvl_max="10" reward="7117:1;"/>
+	<data quest_id="46" main_name="Once More In the Arms of the Mother Tree" lvl_min="3" lvl_max="10" reward="7118:1;"/>
+	<data quest_id="47" main_name="Into the Dark Elven Forest" lvl_min="3" lvl_max="10" reward="7119:1;"/>
+	<data quest_id="48" main_name="To the Immortal Plateau" lvl_min="3" lvl_max="10" reward="7120:1;"/>
+	<data quest_id="49" main_name="The Road Home" lvl_min="3" lvl_max="10" reward="7121:1;"/>
+	<data quest_id="50" main_name="Lanosco's Special Bait" lvl_min="27" lvl_max="29" reward="7610:4;"/>
+	<data quest_id="51" main_name="O'Fulle's Special Bait" lvl_min="36" lvl_max="38" reward="7611:4;"/>
+	<data quest_id="52" main_name="Willie's Special Bait" lvl_min="48" lvl_max="50" reward="7612:4;"/>
+	<data quest_id="53" main_name="Linnaeus' Special Bait" lvl_min="60" lvl_max="62" reward="7613:4;"/>
+	<data quest_id="60" main_name="Good Work's Reward" lvl_min="39" lvl_max="99" reward="15625:0;"/>
+	<data quest_id="61" main_name="Law Enforcement" lvl_min="76" lvl_max="99" reward="57:26000;"/>
+	<data quest_id="62" main_name="Path of the Trooper" lvl_min="18" lvl_max="99" reward="15623:0;15624:0;57:163800;"/>
+	<data quest_id="63" main_name="Path of the Warder" lvl_min="18" lvl_max="99" reward="15623:0;15624:0;57:163800;"/>
+	<data quest_id="64" main_name="Certified Berserker" lvl_min="39" lvl_max="99" reward="15623:349006;15624:23948;57:63104;7562:0;"/>
+	<data quest_id="65" main_name="Certified Soul Breaker" lvl_min="39" lvl_max="99" reward="15623:393750;15624:27020;57:71194;7562:0;"/>
+	<data quest_id="66" main_name="Certified Arbalester" lvl_min="39" lvl_max="99" reward="15623:429546;15624:29476;57:77666;7562:0;"/>
+	<data quest_id="67" main_name="Saga of the Doombringer" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="68" main_name="Saga of the Soul Hound" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="69" main_name="Saga of the Trickster" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="70" main_name="Saga of the Phoenix Knight" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="71" main_name="Saga of Eva's Templar" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="72" main_name="Saga of the Sword Muse" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="73" main_name="Saga of the Duelist" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="74" main_name="Saga of the Dreadnought" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="75" main_name="Saga of the Titan" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="76" main_name="Saga of the Grand Khavatari" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="77" main_name="Saga of the Dominator" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="78" main_name="Saga of the Doomcryer" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="79" main_name="Saga of the Adventurer" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="80" main_name="Saga of the Wind Rider" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="81" main_name="Saga of the Ghost Hunter" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="82" main_name="Saga of the Sagittarius" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="83" main_name="Saga of the Moonlight Sentinel" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="84" main_name="Saga of the Ghost Sentinel" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="85" main_name="Saga of the Cardinal" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="86" main_name="Saga of the Hierophant" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="87" main_name="Saga of Eva's Saint" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="88" main_name="Saga of the Archmage" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="89" main_name="Saga of the Mystic Muse" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="90" main_name="Saga of the Storm Screamer" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="91" main_name="Saga of the Arcana Lord" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="92" main_name="Saga of the Elemental Master" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="93" main_name="Saga of the Spectral Master" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="94" main_name="Saga of the Soultaker" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="95" main_name="Saga of the Hell Knight" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="96" main_name="Saga of the Spectral Dancer" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="97" main_name="Saga of the Shillien Templar" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="98" main_name="Saga of the Shillien Saint" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="99" main_name="Saga of the Fortune Seeker" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="100" main_name="Saga of the Maestro" lvl_min="76" lvl_max="99" reward="15623:2299404;57:5000000;6622:1;"/>
+	<data quest_id="101" main_name="Sword of Solidarity" lvl_min="9" lvl_max="16" reward="15623:25747;15624:2171;57:10981;738:1;1060:100;4412:10;4413:10;4414:10;4415:10;4416:10;"/>
+	<data quest_id="102" main_name="Sea of Spores Fever" lvl_min="12" lvl_max="18" reward="15623:30202;15624:1339;57:6331;1060:100;4412:10;4413:10;4414:10;4415:10;4416:10;15625:0;"/>
+	<data quest_id="103" main_name="Spirit of Craftsman" lvl_min="10" lvl_max="17" reward="15623:46663;15624:3999;57:19799;975:1;1060:100;4412:10;4413:10;4414:10;4415:10;4416:10;15625:0;"/>
+	<data quest_id="104" main_name="Spirit of Mirrors" lvl_min="10" lvl_max="15" reward="15623:39750;15624:3407;57:16866;1060:100;4412:10;4413:10;4414:10;4415:10;4416:10;15625:0;"/>
+	<data quest_id="105" main_name="Skirmish with the Orcs" lvl_min="10" lvl_max="15" reward="15623:41478;15624:3555;57:17599;1060:100;4412:10;4413:10;4414:10;4415:10;4416:10;15625:0;"/>
+	<data quest_id="106" main_name="Forgotten Truth" lvl_min="10" lvl_max="15" reward="15623:24195;15624:2074;57:10266;989:1;1060:100;4412:10;4413:10;4414:10;4415:10;4416:10;15625:0;"/>
+	<data quest_id="107" main_name="Merciless Punishment" lvl_min="10" lvl_max="16" reward="15623:34565;15624:2962;57:14666;1510:1;1060:100;4412:10;4413:10;4414:10;4415:10;4416:10;"/>
+	<data quest_id="108" main_name="Jumble, Tumble, Diamond Fuss" lvl_min="10" lvl_max="14" reward="15623:34565;15624:2962;57:14666;1511:1;1060:100;4412:10;4413:10;4414:10;4415:10;4416:10;"/>
+	<data quest_id="109" main_name="In Search of the Nest" lvl_min="81" lvl_max="99" reward="15623:701500;15624:50000;57:161500;"/>
+	<data quest_id="110" main_name="To the Primeval Isle" lvl_min="75" lvl_max="99" reward="15623:251602;15624:25245;57:191678;"/>
+	<data quest_id="111" main_name="Elrokian Hunter's Proof" lvl_min="75" lvl_max="99" reward="15623:553524;15624:55538;57:1071691;8763:1;8764:100;"/>
+	<data quest_id="112" main_name="Walk of Fate" lvl_min="20" lvl_max="36" reward="15623:112876;15624:5774;57:22308;956:1;"/>
+	<data quest_id="113" main_name="Status of the Beacon Tower" lvl_min="80" lvl_max="99" reward="15623:619300;15624:44200;57:154800;"/>
+	<data quest_id="114" main_name="Resurrection of an Old Manager" lvl_min="70" lvl_max="99" reward="15623:1846611;15624:144270;"/>
+	<data quest_id="115" main_name="The Other Side of Truth" lvl_min="53" lvl_max="63" reward="15623:493595;15624:40442;57:115673;"/>
+	<data quest_id="116" main_name="Beyond the Hills of Winter" lvl_min="30" lvl_max="99" reward="15623:82729;15624:4981;15625:0;"/>
+	<data quest_id="117" main_name="The Ocean of Distant Stars" lvl_min="39" lvl_max="99" reward="15623:107387;15624:7369;57:17647;"/>
+	<data quest_id="118" main_name="To Lead and Be Led" lvl_min="19" lvl_max="40" reward="15625:0;"/>
+	<data quest_id="119" main_name="Last Imperial Prince" lvl_min="74" lvl_max="80" reward="15623:902439;15624:90067;57:150292;"/>
+	<data quest_id="120" main_name="Pavel's Last Research" lvl_min="70" lvl_max="99" reward="15623:3447315;15624:272615;57:783720;854:1;"/>
+	<data quest_id="121" main_name="Pavel the Giant" lvl_min="70" lvl_max="99" reward="15623:346320;15624:26069;"/>
+	<data quest_id="122" main_name="Ominous News" lvl_min="20" lvl_max="36" reward="15623:45151;15624:2310;57:8923;"/>
+	<data quest_id="123" main_name="The Leader and the Follower" lvl_min="19" lvl_max="40" reward="15625:0;"/>
+	<data quest_id="124" main_name="Meeting the Elroki" lvl_min="75" lvl_max="99" reward="15623:301922;15624:30294;57:100013;"/>
+	<data quest_id="125" main_name="The Name of Evil - 1" lvl_min="76" lvl_max="99" reward="15623:859195;15624:86603;"/>
+	<data quest_id="126" main_name="The Name of Evil - 2" lvl_min="77" lvl_max="99" reward="15623:1015973;15624:102802;57:460483;729:1;"/>
+	<data quest_id="128" main_name="Pailaka - Song of Ice and Fire" lvl_min="36" lvl_max="42" reward="15623:810000;15624:50000;13294:1;13293:1;"/>
+	<data quest_id="129" main_name="Pailaka - Devil's Legacy" lvl_min="61" lvl_max="67" reward="15623:10800000;15624:950000;13295:1;"/>
+	<data quest_id="130" main_name="Path to Hellbound" lvl_min="78" lvl_max="99" reward=""/>
+	<data quest_id="131" main_name="Bird in a Cage" lvl_min="78" lvl_max="99" reward="15623:250677;15624:25019;15625:0;"/>
+	<data quest_id="132" main_name="Matras' Curiosity" lvl_min="76" lvl_max="99" reward="57:31210;10521:1;10522:1;10524:1;10523:1;10526:1;10525:1;"/>
+	<data quest_id="133" main_name="That's Bloody Hot!" lvl_min="78" lvl_max="99" reward="15623:331457;15624:32524;57:254247;"/>
+	<data quest_id="134" main_name="Temple Missionary" lvl_min="35" lvl_max="99" reward="15623:0;15624:0;57:15100;10339:1;"/>
+	<data quest_id="135" main_name="Temple Executor" lvl_min="35" lvl_max="99" reward="15623:0;15624:0;57:16924;10334:1;"/>
+	<data quest_id="136" main_name="More Than Meets the Eye" lvl_min="50" lvl_max="99" reward="57:67550;9648:1;"/>
+	<data quest_id="137" main_name="Temple Champion - 1" lvl_min="35" lvl_max="99" reward="15623:0;15624:0;57:69146;"/>
+	<data quest_id="138" main_name="Temple Champion - 2" lvl_min="36" lvl_max="99" reward="15623:0;15624:0;57:84593;"/>
+	<data quest_id="139" main_name="Shadow Fox - 1" lvl_min="37" lvl_max="99" reward="15623:0;15624:0;57:14050;"/>
+	<data quest_id="140" main_name="Shadow Fox - 2" lvl_min="37" lvl_max="99" reward="15623:0;15624:0;57:18775;"/>
+	<data quest_id="141" main_name="Shadow Fox - 3" lvl_min="37" lvl_max="99" reward="15623:0;15624:0;57:88888;"/>
+	<data quest_id="142" main_name="Fallen Angel - Request of Dawn" lvl_min="38" lvl_max="99" reward="15623:0;15624:0;57:92676;"/>
+	<data quest_id="143" main_name="Fallen Angel - Request of Dusk" lvl_min="38" lvl_max="99" reward="15623:0;15624:0;57:89046;"/>
+	<data quest_id="144" main_name="Pailaka - Injured Dragon" lvl_min="73" lvl_max="77" reward="15623:28000000;15624:2850000;13296:1;"/>
+	<data quest_id="146" main_name="The Zero Hour" lvl_min="81" lvl_max="99" reward="14849:1;15623:154616;15624:125000;"/>
+	<data quest_id="147" main_name="Path to Becoming an Elite Mercenary" lvl_min="40" lvl_max="99" reward="13767:1;"/>
+	<data quest_id="148" main_name="Path to Becoming an Exalted Mercenary" lvl_min="40" lvl_max="99" reward="13768:1;"/>
+	<data quest_id="151" main_name="Cure for Fever" lvl_min="15" lvl_max="21" reward="15623:13106;15624:613;102:1;"/>
+	<data quest_id="152" main_name="Shards of Golem" lvl_min="10" lvl_max="17" reward="15623:5000;23:1;"/>
+	<data quest_id="153" main_name="Deliver Goods" lvl_min="2" lvl_max="5" reward="15623:600;875:1;1835:3;"/>
+	<data quest_id="154" main_name="Sacrifice to the Sea" lvl_min="2" lvl_max="7" reward="15623:1000;113:1;"/>
+	<data quest_id="155" main_name="Find Sir Windawood" lvl_min="3" lvl_max="6" reward="734:1;"/>
+	<data quest_id="156" main_name="Millennium Love" lvl_min="15" lvl_max="19" reward="15623:0;15630:0;"/>
+	<data quest_id="157" main_name="Recover Smuggled Goods" lvl_min="5" lvl_max="9" reward="20:1;"/>
+	<data quest_id="158" main_name="Seed of Evil" lvl_min="21" lvl_max="26" reward="15623:17818;15624:927;57:1495;956:1;"/>
+	<data quest_id="159" main_name="Protect the Water Source" lvl_min="12" lvl_max="18" reward="57:18250;"/>
+	<data quest_id="160" main_name="Nerupa's Request" lvl_min="3" lvl_max="7" reward="15623:1000;1060:5;"/>
+	<data quest_id="161" main_name="Fruit of the Mother Tree" lvl_min="3" lvl_max="7" reward="15623:1000;57:1000;"/>
+	<data quest_id="162" main_name="Curse of the Underground Fortress" lvl_min="12" lvl_max="21" reward="15623:22652;15624:1004;57:24000;625:1;"/>
+	<data quest_id="163" main_name="Legacy of the Poet" lvl_min="11" lvl_max="15" reward="15623:21643;15624:943;57:13890;"/>
+	<data quest_id="164" main_name="Blood Fiend" lvl_min="21" lvl_max="26" reward="15623:35637;15624:1854;57:42130;"/>
+	<data quest_id="165" main_name="Shilen's Hunt" lvl_min="3" lvl_max="7" reward="15623:1000;1060:5;"/>
+	<data quest_id="166" main_name="Mass of Darkness" lvl_min="2" lvl_max="5" reward="15623:5672;15624:446;57:2966;"/>
+	<data quest_id="167" main_name="Dwarven Kinship" lvl_min="15" lvl_max="99" reward="57:0;"/>
+	<data quest_id="168" main_name="Deliver Supplies" lvl_min="3" lvl_max="6" reward="57:820;"/>
+	<data quest_id="169" main_name="Offspring of Nightmares" lvl_min="15" lvl_max="20" reward="15623:17475;15624:818;57:17040;31:1;"/>
+	<data quest_id="170" main_name="Dangerous Seduction" lvl_min="21" lvl_max="26" reward="15623:38607;15624:4018;57:102680;"/>
+	<data quest_id="171" main_name="Acts of Evil" lvl_min="27" lvl_max="32" reward="15623:159820;15624:9182;57:95000;"/>
+	<data quest_id="172" main_name="New Horizons" lvl_min="3" lvl_max="10" reward="7126"/>
+	<data quest_id="173" main_name="To the Isle of Souls" lvl_min="0" lvl_max="99" reward="9647"/>
+	<data quest_id="174" main_name="Supply Check" lvl_min="2" lvl_max="99" reward="15623:5672;15624:446;57:2466;23:1;2386:1;43:1;48:1;37:1;"/>
+	<data quest_id="175" main_name="The Way of the Warrior" lvl_min="10" lvl_max="99" reward="15623:20739;15624:1777;57:8799;9720:1;1060:100;4412:10;4413:10;4414:10;4415:10;4416:10;"/>
+	<data quest_id="176" main_name="Steps for Honor" lvl_min="80" lvl_max="99" reward="14603:1;"/>
+	<data quest_id="178" main_name="Iconic Trinity" lvl_min="17" lvl_max="20" reward="15623:20123;15624:976;956:1;"/>
+	<data quest_id="179" main_name="Into the Large Cavern" lvl_min="17" lvl_max="21" reward="15625:0;"/>
+	<data quest_id="182" main_name="New Recruits" lvl_min="17" lvl_max="21" reward="15625:0;"/>
+	<data quest_id="183" main_name="Relic Exploration" lvl_min="40" lvl_max="99" reward="15623:0;15624:0;57:18100;"/>
+	<data quest_id="184" main_name="Art of Persuasion" lvl_min="40" lvl_max="99" reward="15623:0;15624:0;57:72527;"/>
+	<data quest_id="185" main_name="Nikola's Cooperation" lvl_min="40" lvl_max="99" reward="15623:0;15624:0;57:72527;"/>
+	<data quest_id="186" main_name="Contract Execution" lvl_min="41" lvl_max="99" reward="15623:0;15624:0;57:105083;"/>
+	<data quest_id="187" main_name="Nikola's Heart" lvl_min="41" lvl_max="99" reward="15623:0;15624:0;57:93383;"/>
+	<data quest_id="188" main_name="Seal Removal" lvl_min="41" lvl_max="99" reward="15623:0;15624:0;57:98583;"/>
+	<data quest_id="189" main_name="Contract Completion" lvl_min="42" lvl_max="99" reward="15623:0;15624:0;57:121527;"/>
+	<data quest_id="190" main_name="Lost Dream" lvl_min="42" lvl_max="99" reward="15623:0;15624:0;57:109427;"/>
+	<data quest_id="191" main_name="Vain Conclusion" lvl_min="42" lvl_max="99" reward="15623:0;15624:0;57:117327;"/>
+	<data quest_id="192" main_name="Seven Signs, Series of Doubt" lvl_min="79" lvl_max="99" reward="15623:25000000;15624:2500000;"/>
+	<data quest_id="193" main_name="Seven Signs, Dying Message" lvl_min="79" lvl_max="99" reward="15623:25000000;15624:2500000;"/>
+	<data quest_id="194" main_name="Seven Signs, Mammon's Contract" lvl_min="79" lvl_max="99" reward="15623:25000000;15624:2500000;"/>
+	<data quest_id="195" main_name="Seven Signs, Secret Ritual of the Priests" lvl_min="79" lvl_max="99" reward="15623:25000000;15624:2500000;"/>
+	<data quest_id="196" main_name="Seven Signs, Seal of the Emperor" lvl_min="79" lvl_max="99" reward="15623:25000000;15624:2500000;"/>
+	<data quest_id="197" main_name="Seven Signs, the Sacred Book of Seal" lvl_min="79" lvl_max="99" reward="15623:25000000;15624:2500000;"/>
+	<data quest_id="198" main_name="Seven Signs, Embryo" lvl_min="79" lvl_max="99" reward="15623:150000000;15624:15000000;5575:1500000;15312:1;"/>
+	<data quest_id="211" main_name="Trial of the Challenger" lvl_min="35" lvl_max="99" reward="15623:1067606;15624:69242;57:194556;7562:0;"/>
+	<data quest_id="212" main_name="Trial of Duty" lvl_min="35" lvl_max="99" reward="15623:762576;15624:49458;57:138968;7562:0;"/>
+	<data quest_id="213" main_name="Trial of the Seeker" lvl_min="35" lvl_max="99" reward="15623:1029478;15624:66768;57:187606;7562:0;"/>
+	<data quest_id="214" main_name="Trial of the Scholar" lvl_min="35" lvl_max="99" reward="15623:1753926;15624:113754;57:319628;7562:0;"/>
+	<data quest_id="215" main_name="Trial of the Pilgrim" lvl_min="35" lvl_max="99" reward="15623:1258250;15624:81606;57:229298;7562:0;"/>
+	<data quest_id="216" main_name="Trial of the Guildsman" lvl_min="35" lvl_max="99" reward="15623:1029478;15624:66768;57:187606;7562:0;"/>
+	<data quest_id="217" main_name="Testimony of Trust" lvl_min="37" lvl_max="99" reward="15623:1390298;15624:92782;57:252212;7562:0;"/>
+	<data quest_id="218" main_name="Testimony of Life" lvl_min="37" lvl_max="99" reward="15623:1886832;15624:125918;57:342288;7562:0;"/>
+	<data quest_id="219" main_name="Testimony of Fate" lvl_min="37" lvl_max="99" reward="15623:1365470;15624:91124;57:247708;7562:0;"/>
+	<data quest_id="220" main_name="Testimony of Glory" lvl_min="37" lvl_max="99" reward="15623:1448226;15624:96648;57:262720;7562:0;"/>
+	<data quest_id="221" main_name="Testimony of Prosperity" lvl_min="37" lvl_max="99" reward="15623:1199958;15624:80080;57:217682;7562:0;"/>
+	<data quest_id="222" main_name="Test of the Duelist" lvl_min="39" lvl_max="99" reward="15623:594888;15624:61408;57:161806;7562:0;"/>
+	<data quest_id="223" main_name="Test of the Champion" lvl_min="39" lvl_max="99" reward="15623:1270742;15624:87200;57:229764;7562:0;"/>
+	<data quest_id="224" main_name="Test of Sagittarius" lvl_min="39" lvl_max="99" reward="15623:894888;15624:61408;57:161806;7562:0;"/>
+	<data quest_id="225" main_name="Test of the Searcher" lvl_min="39" lvl_max="99" reward="15623:894888;15624:61408;57:161806;7562:0;"/>
+	<data quest_id="226" main_name="Test of the Healer" lvl_min="39" lvl_max="99" reward="15623:1476566;15624:101324;57:266980;7562:0;"/>
+	<data quest_id="227" main_name="Test of the Reformer" lvl_min="39" lvl_max="99" reward="15623:1252844;15624:85972;57:226528;7562:0;"/>
+	<data quest_id="228" main_name="Test of Magus" lvl_min="39" lvl_max="99" reward="15623:2058244;15624:141240;57:372154;7562:0;"/>
+	<data quest_id="229" main_name="Test of Witchcraft" lvl_min="39" lvl_max="99" reward="15623:2058244;15624:141240;57:372154;7562:0;"/>
+	<data quest_id="230" main_name="Test of the Summoner" lvl_min="39" lvl_max="99" reward="15623:1664494;15624:114220;57:300960;7562:0;"/>
+	<data quest_id="231" main_name="Test of the Maestro" lvl_min="39" lvl_max="99" reward="15623:2058244;15624:141240;57:372154;7562:0;"/>
+	<data quest_id="232" main_name="Test of the Lord" lvl_min="39" lvl_max="99" reward="15623:894888;15624:61408;57:161806;7562:0;"/>
+	<data quest_id="233" main_name="Test of the War Spirit" lvl_min="39" lvl_max="99" reward="15623:894888;15624:61408;57:161806;7562:0;"/>
+	<data quest_id="234" main_name="Fate's Whisper" lvl_min="75" lvl_max="99" reward="5011:1;15625:1;"/>
+	<data quest_id="235" main_name="Mimir's Elixir" lvl_min="75" lvl_max="99" reward="729:1;"/>
+	<data quest_id="236" main_name="Seeds of Chaos" lvl_min="75" lvl_max="99" reward="729:0;15625:0;"/>
+	<data quest_id="237" main_name="Winds of Change" lvl_min="82" lvl_max="99" reward="15623:892773;15624:60012;57:213876;15625:0;"/>
+	<data quest_id="238" main_name="Success/Failure of Business" lvl_min="82" lvl_max="99" reward="15623:1319736;15624:103553;57:283346;"/>
+	<data quest_id="239" main_name="Won't You Join Us?" lvl_min="82" lvl_max="99" reward="15623:1319736;15624:103553;57:283346;"/>
+	<data quest_id="240" main_name="I'm the Only One You Can Trust" lvl_min="81" lvl_max="99" reward="15623:589542;15624:36800;57:147200;15625:0;"/>
+	<data quest_id="241" main_name="Possessor of a Precious Soul - 1" lvl_min="50" lvl_max="75" reward="15623:263043;"/>
+	<data quest_id="242" main_name="Possessor of a Precious Soul - 2" lvl_min="60" lvl_max="75" reward="15623:455764;"/>
+	<data quest_id="246" main_name="Possessor of a Precious Soul - 3" lvl_min="65" lvl_max="75" reward="15623:719843;"/>
+	<data quest_id="247" main_name="Possessor of a Precious Soul - 4" lvl_min="75" lvl_max="80" reward="15623:93836;7694:1;"/>
+	<data quest_id="249" main_name="Poisoned Plains of the Lizardmen " lvl_min="82" lvl_max="99" reward="57:83056;15623:477496;15624:58743;"/>
+	<data quest_id="250" main_name="Watch What You Eat" lvl_min="82" lvl_max="99" reward="57:135661;15623:698334;15624:76369;"/>
+	<data quest_id="251" main_name="No Secrets" lvl_min="82" lvl_max="99" reward="57:313355;15623:56787;15624:160578;"/>
+	<data quest_id="252" main_name="It Smells Delicious!" lvl_min="82" lvl_max="99" reward="57:147656;15623:716238;15624:78324;"/>
+	<data quest_id="254" main_name="Legendary Tales" lvl_min="80" lvl_max="99" reward="15625:0;"/>
+	<data quest_id="257" main_name="The Guard is Busy" lvl_min="6" lvl_max="16" reward="57:0;15631:0;"/>
+	<data quest_id="258" main_name="Bring Wolf Pelts" lvl_min="3" lvl_max="9" reward="15629:0;"/>
+	<data quest_id="259" main_name="Request from the Farm Owner" lvl_min="15" lvl_max="21" reward="15625:0;"/>
+	<data quest_id="260" main_name="Orc Hunting" lvl_min="6" lvl_max="16" reward="57:0;"/>
+	<data quest_id="261" main_name="Collector's Dream" lvl_min="15" lvl_max="21" reward="15623:2000;57:1000;"/>
+	<data quest_id="262" main_name="Trade with the Ivory Tower" lvl_min="8" lvl_max="16" reward="57:3000;"/>
+	<data quest_id="263" main_name="Orc Subjugation" lvl_min="8" lvl_max="16" reward="57:0;"/>
+	<data quest_id="264" main_name="Keen Claws" lvl_min="3" lvl_max="9" reward="15629:0;"/>
+	<data quest_id="265" main_name="Bonds of Slavery" lvl_min="6" lvl_max="11" reward="57:0;"/>
+	<data quest_id="266" main_name="Pleas of Pixies" lvl_min="3" lvl_max="8" reward="15629:0;"/>
+	<data quest_id="267" main_name="Wrath of Verdure" lvl_min="4" lvl_max="9" reward="57:0;"/>
+	<data quest_id="268" main_name="Traces of Evil" lvl_min="15" lvl_max="99" reward="15623:8738;15624:409;57:2474;"/>
+	<data quest_id="269" main_name="Invention Ambition" lvl_min="18" lvl_max="99" reward="57:0;"/>
+	<data quest_id="270" main_name="The One Who Ends Silence" lvl_min="82" lvl_max="99" reward="15629:0;"/>
+	<data quest_id="271" main_name="Proof of Valor" lvl_min="4" lvl_max="8" reward="15629:0;"/>
+	<data quest_id="272" main_name="Wrath of Ancestors" lvl_min="5" lvl_max="16" reward="57:1500;"/>
+	<data quest_id="273" main_name="Invaders of the Holy Land" lvl_min="6" lvl_max="14" reward="57:0;15631:0;"/>
+	<data quest_id="274" main_name="Skirmish with the Werewolves" lvl_min="9" lvl_max="18" reward="57:3500;"/>
+	<data quest_id="275" main_name="Dark Winged Spies" lvl_min="11" lvl_max="15" reward="57:4550;"/>
+	<data quest_id="276" main_name="Totem of the Hestui" lvl_min="15" lvl_max="21" reward="1500:1;29:1;"/>
+	<data quest_id="277" main_name="Gatekeeper's Offering" lvl_min="15" lvl_max="21" reward="1658:2;"/>
+	<data quest_id="278" main_name="Home Security" lvl_min="82" lvl_max="99" reward="15629:0;"/>
+	<data quest_id="279" main_name="Target of Opportunity" lvl_min="82" lvl_max="99" reward="15515:1;15516:1;"/>
+	<data quest_id="280" main_name="The Food Chain" lvl_min="3" lvl_max="99" reward="15625:0;"/>
+	<data quest_id="281" main_name="Head for the Hills!" lvl_min="6" lvl_max="99" reward="15625:0;"/>
+	<data quest_id="283" main_name="The Few, The Proud, The Brave" lvl_min="15" lvl_max="99" reward="57:0;"/>
+	<data quest_id="284" main_name="Muertos Feather" lvl_min="11" lvl_max="18" reward="57:0;"/>
+	<data quest_id="286" main_name="Fabulous Feathers" lvl_min="17" lvl_max="23" reward="57:4160;"/>
+	<data quest_id="287" main_name="Figuring It Out!" lvl_min="82" lvl_max="99" reward="15629:0;"/>
+	<data quest_id="288" main_name="Handle With Care" lvl_min="82" lvl_max="99" reward="15629:0;"/>
+	<data quest_id="289" main_name="No More Soup For You" lvl_min="82" lvl_max="99" reward="15629:0;"/>
+	<data quest_id="290" main_name="Threat Removal" lvl_min="82" lvl_max="99" reward="15629:0;"/>
+	<data quest_id="291" main_name="Revenge of the Redbonnet" lvl_min="4" lvl_max="8" reward="15629:0;"/>
+	<data quest_id="292" main_name="Brigands Sweep" lvl_min="5" lvl_max="18" reward="57:0;"/>
+	<data quest_id="293" main_name="The Hidden Veins" lvl_min="6" lvl_max="15" reward="57:0;15631:0;"/>
+	<data quest_id="294" main_name="Covert Business" lvl_min="10" lvl_max="16" reward="15624:600;15625:0;"/>
+	<data quest_id="295" main_name="Dreaming of the Skies" lvl_min="11" lvl_max="15" reward="15624:500;15625:0;"/>
+	<data quest_id="296" main_name="Tarantula's Spider Silk" lvl_min="15" lvl_max="21" reward="57:0;"/>
+	<data quest_id="297" main_name="Gatekeeper's Favor" lvl_min="15" lvl_max="21" reward="1659:2;"/>
+	<data quest_id="298" main_name="Lizardmen's Conspiracy" lvl_min="25" lvl_max="34" reward="15624:42000;"/>
+	<data quest_id="299" main_name="Gather Ingredients for Pie" lvl_min="34" lvl_max="40" reward="15625:0;"/>
+	<data quest_id="300" main_name="Leto Lizardmen Hunting" lvl_min="34" lvl_max="39" reward="15625:0;"/>
+	<data quest_id="303" main_name="Collect Arrowheads" lvl_min="10" lvl_max="14" reward="15623:2000;57:1000;"/>
+	<data quest_id="306" main_name="Crystals of Fire and Ice" lvl_min="17" lvl_max="23" reward="57:0;"/>
+	<data quest_id="307" main_name="Control Device of the Giants" lvl_min="79" lvl_max="99" reward="14850:1;"/>
+	<data quest_id="308" main_name="Reed Field Maintenance" lvl_min="82" lvl_max="99" reward="15630:0;"/>
+	<data quest_id="309" main_name="For a Good Cause" lvl_min="82" lvl_max="99" reward="15630:0;"/>
+	<data quest_id="310" main_name="Only What Remains" lvl_min="81" lvl_max="99" reward="14832:0;14835:0;"/>
+	<data quest_id="311" main_name="Expulsion of Evil Spirits" lvl_min="80" lvl_max="99" reward="15630:0;"/>
+	<data quest_id="312" main_name="Take Advantage of the Crisis!" lvl_min="80" lvl_max="99" reward="15630:0;"/>
+	<data quest_id="313" main_name="Collect Spores" lvl_min="8" lvl_max="13" reward="57:3500;"/>
+	<data quest_id="316" main_name="Destroy Plague Carriers" lvl_min="18" lvl_max="24" reward="57:0;"/>
+	<data quest_id="317" main_name="Catch the Wind" lvl_min="18" lvl_max="23" reward="57:0;"/>
+	<data quest_id="319" main_name="Scent of Death" lvl_min="11" lvl_max="18" reward="57:3350;1060:1;"/>
+	<data quest_id="320" main_name="Bones Tell the Future" lvl_min="10" lvl_max="18" reward="57:8470;"/>
+	<data quest_id="324" main_name="Sweetest Venom" lvl_min="18" lvl_max="23" reward="57:5810;"/>
+	<data quest_id="325" main_name="Grim Collector" lvl_min="15" lvl_max="26" reward="57:0;"/>
+	<data quest_id="326" main_name="Vanquish Remnants" lvl_min="21" lvl_max="30" reward="57:0;"/>
+	<data quest_id="327" main_name="Recover the Farmland" lvl_min="25" lvl_max="34" reward="57:0;"/>
+	<data quest_id="328" main_name="Sense for Business" lvl_min="21" lvl_max="32" reward="57:0;"/>
+	<data quest_id="329" main_name="Curiosity of a Dwarf" lvl_min="33" lvl_max="38" reward="57:0;"/>
+	<data quest_id="330" main_name="Adept of Taste" lvl_min="24" lvl_max="34" reward="15625:0;"/>
+	<data quest_id="331" main_name="Arrow of Vengeance" lvl_min="32" lvl_max="39" reward="57:0;"/>
+	<data quest_id="333" main_name="Hunt of the Black Lion" lvl_min="25" lvl_max="39" reward="57:0;15630:0;"/>
+	<data quest_id="334" main_name="The Wishing Potion" lvl_min="30" lvl_max="99" reward="3467:1;"/>
+	<data quest_id="335" main_name="The Song of the Hunter" lvl_min="35" lvl_max="59" reward="57:0;"/>
+	<data quest_id="336" main_name="Coins of Magic" lvl_min="40" lvl_max="60" reward="15630:0;"/>
+	<data quest_id="337" main_name="Audience with the Land Dragon" lvl_min="50" lvl_max="64" reward="3865:1;"/>
+	<data quest_id="338" main_name="Alligator Hunter" lvl_min="40" lvl_max="47" reward="57:0;"/>
+	<data quest_id="340" main_name="Subjugation of Lizardmen" lvl_min="17" lvl_max="21" reward="57:0;"/>
+	<data quest_id="341" main_name="Hunting for Wild Beasts" lvl_min="20" lvl_max="24" reward="57:3710;"/>
+	<data quest_id="343" main_name="Under the Shadow of the Ivory Tower" lvl_min="40" lvl_max="47" reward="15630:0;"/>
+	<data quest_id="344" main_name="1000 years, the End of Lamentation" lvl_min="48" lvl_max="55" reward="57:0;15629:0;"/>
+	<data quest_id="345" main_name="Method to Raise the Dead" lvl_min="35" lvl_max="42" reward="57:0;"/>
+	<data quest_id="347" main_name="Go Get the Calculator" lvl_min="12" lvl_max="99" reward="15625:0;"/>
+	<data quest_id="348" main_name="An Arrogant Search" lvl_min="60" lvl_max="75" reward="15625:0;"/>
+	<data quest_id="350" main_name="Enhance Your Weapon" lvl_min="40" lvl_max="80" reward="15625:0;"/>
+	<data quest_id="351" main_name="Black Swan" lvl_min="32" lvl_max="36" reward="15631:0;"/>
+	<data quest_id="352" main_name="Help Rood Raise A New Pet!" lvl_min="39" lvl_max="44" reward="57:0;"/>
+	<data quest_id="353" main_name="Power of Darkness" lvl_min="55" lvl_max="60" reward="57:0;"/>
+	<data quest_id="354" main_name="Conquest of Alligator Island" lvl_min="38" lvl_max="49" reward="57:0;15631:0;"/>
+	<data quest_id="355" main_name="Family Honor" lvl_min="36" lvl_max="49" reward="57:0;"/>
+	<data quest_id="356" main_name="Dig Up the Sea of Spores!" lvl_min="43" lvl_max="51" reward="15630:0;"/>
+	<data quest_id="357" main_name="Warehouse Keeper's Ambition" lvl_min="47" lvl_max="57" reward="57:0;"/>
+	<data quest_id="358" main_name="Illegitimate Child of the Goddess" lvl_min="63" lvl_max="67" reward="15629:0;"/>
+	<data quest_id="359" main_name="For a Sleepless Deadman" lvl_min="60" lvl_max="67" reward="15629:0;"/>
+	<data quest_id="360" main_name="Plunder Their Supplies" lvl_min="52" lvl_max="59" reward="57:0;"/>
+	<data quest_id="362" main_name="Bard's Mandolin" lvl_min="15" lvl_max="99" reward="57:10000;4410:1;"/>
+	<data quest_id="363" main_name="Sorrowful Sound of Flute" lvl_min="15" lvl_max="99" reward="4420:1;"/>
+	<data quest_id="364" main_name="Jovial Accordion" lvl_min="15" lvl_max="99" reward="15625:0;"/>
+	<data quest_id="365" main_name="Devil's Legacy" lvl_min="39" lvl_max="56" reward="15630:0;"/>
+	<data quest_id="366" main_name="Silver Haired Shaman" lvl_min="48" lvl_max="58" reward="57:0;"/>
+	<data quest_id="367" main_name="Electrifying Recharge!" lvl_min="37" lvl_max="47" reward="15629:0;"/>
+	<data quest_id="368" main_name="Trespassing into the Holy Ground" lvl_min="36" lvl_max="48" reward="57:0;"/>
+	<data quest_id="369" main_name="Collector of Jewels" lvl_min="25" lvl_max="37" reward="57:0;"/>
+	<data quest_id="370" main_name="An Elder Sows Seeds" lvl_min="28" lvl_max="42" reward="57:3600;"/>
+	<data quest_id="371" main_name="Shrieks of Ghosts" lvl_min="59" lvl_max="71" reward="57:0;"/>
+	<data quest_id="372" main_name="Legacy of Insolence" lvl_min="59" lvl_max="75" reward="15625:0;"/>
+	<data quest_id="373" main_name="Supplier of Reagents" lvl_min="57" lvl_max="75" reward="15629:0;"/>
+	<data quest_id="374" main_name="Whisper of Dreams - Part 1" lvl_min="56" lvl_max="66" reward="15625:0;"/>
+	<data quest_id="375" main_name="Whisper of Dreams - Part 2" lvl_min="60" lvl_max="74" reward="15629:0;"/>
+	<data quest_id="376" main_name="Exploration of the Giants' Cave - Part 1" lvl_min="79" lvl_max="99" reward="15630:0;"/>
+	<data quest_id="377" main_name="Exploration of the Giants' Cave - Part 2" lvl_min="79" lvl_max="99" reward="15629:0;"/>
+	<data quest_id="378" main_name="Grand Feast" lvl_min="20" lvl_max="30" reward="57:0;15629:0;"/>
+	<data quest_id="379" main_name="Fantasy Wine" lvl_min="20" lvl_max="25" reward="15629:0;"/>
+	<data quest_id="380" main_name="Bring Out the Flavor of Ingredients!" lvl_min="24" lvl_max="29" reward="5959:1;"/>
+	<data quest_id="381" main_name="Let's Become a Royal Member!" lvl_min="55" lvl_max="65" reward="5898:1;"/>
+	<data quest_id="382" main_name="Kail's Magic Coin" lvl_min="55" lvl_max="60" reward="15625:0;"/>
+	<data quest_id="383" main_name="Treasure Hunt" lvl_min="42" lvl_max="50" reward="15629:0;"/>
+	<data quest_id="384" main_name="Warehouse Keeper's Pastime" lvl_min="40" lvl_max="52" reward="15629:0;"/>
+	<data quest_id="385" main_name="Yoke of the Past" lvl_min="20" lvl_max="75" reward="5902:1;"/>
+	<data quest_id="386" main_name="Stolen Dignity" lvl_min="58" lvl_max="75" reward="15629:0;"/>
+	<data quest_id="401" main_name="Path of the Warrior" lvl_min="18" lvl_max="99" reward="15623:0;15624:0;57:163800;1145:1;"/>
+	<data quest_id="402" main_name="Path of the Human Knight" lvl_min="18" lvl_max="99" reward="15623:0;15624:0;57:163800;1161:1;"/>
+	<data quest_id="403" main_name="Path of the Rogue" lvl_min="18" lvl_max="99" reward="15623:0;15624:0;57:163800;1190:1;"/>
+	<data quest_id="404" main_name="Path of the Human Wizard" lvl_min="18" lvl_max="99" reward="15623:0;15624:0;57:163800;1292:1;"/>
+	<data quest_id="405" main_name="Path of the Cleric" lvl_min="18" lvl_max="99" reward="15623:0;15624:0;57:163800;1201:1;"/>
+	<data quest_id="406" main_name="Path of the Elven Knight" lvl_min="18" lvl_max="99" reward="15623:0;15624:0;57:163800;1204:1;"/>
+	<data quest_id="407" main_name="Path of the Elven Scout" lvl_min="18" lvl_max="99" reward="15623:0;15624:0;57:163800;1217:1;"/>
+	<data quest_id="408" main_name="Path of the Elven Wizard" lvl_min="18" lvl_max="99" reward="15623:0;15624:0;57:163800;1230:1;"/>
+	<data quest_id="409" main_name="Path of the Elven Oracle" lvl_min="18" lvl_max="99" reward="15623:0;15624:0;57:163800;1235:1;"/>
+	<data quest_id="410" main_name="Path of the Palus Knight" lvl_min="18" lvl_max="99" reward="15623:0;15624:0;57:163800;1244:1;"/>
+	<data quest_id="411" main_name="Path of the Assassin" lvl_min="18" lvl_max="99" reward="15623:0;15624:0;57:163800;1252:1;"/>
+	<data quest_id="412" main_name="Path of the Dark Wizard" lvl_min="18" lvl_max="99" reward="15623:0;15624:0;57:163800;1261:1;"/>
+	<data quest_id="413" main_name="Path of the Shillien Oracle" lvl_min="18" lvl_max="99" reward="15623:0;15624:0;57:163800;1270:1;"/>
+	<data quest_id="414" main_name="Path of the Orc Raider" lvl_min="18" lvl_max="99" reward="15623:0;15624:0;57:163800;1592:1;"/>
+	<data quest_id="415" main_name="Path of the Orc Monk" lvl_min="18" lvl_max="99" reward="15623:0;15624:0;57:163800;1615:1;"/>
+	<data quest_id="416" main_name="Path of the Orc Shaman" lvl_min="18" lvl_max="99" reward="15623:0;15624:0;57:163800;1631:1;"/>
+	<data quest_id="417" main_name="Path of the Scavenger" lvl_min="18" lvl_max="99" reward="15623:0;15624:0;57:163800;1642:1;"/>
+	<data quest_id="418" main_name="Path of the Artisan" lvl_min="18" lvl_max="99" reward="15623:0;15624:0;57:163800;1635:1;"/>
+	<data quest_id="419" main_name="Get a Pet" lvl_min="15" lvl_max="99" reward="15625:1;"/>
+	<data quest_id="420" main_name="Little Wing" lvl_min="35" lvl_max="99" reward="15629:0;"/>
+	<data quest_id="421" main_name="Little Wing's Big Adventure" lvl_min="45" lvl_max="99" reward="15629:0;"/>
+	<data quest_id="422" main_name="Repent Your Sins" lvl_min="0" lvl_max="99" reward="15633:0;"/>
+	<data quest_id="423" main_name="Take Your Best Shot" lvl_min="82" lvl_max="99" reward="15496:1;"/>
+	<data quest_id="426" main_name="Quest for Fishing Shot" lvl_min="1" lvl_max="80" reward="15630:0;"/>
+	<data quest_id="431" main_name="Wedding March" lvl_min="38" lvl_max="43" reward="7062:25;"/>
+	<data quest_id="432" main_name="Birthday Party Song" lvl_min="31" lvl_max="36" reward="7061:25;"/>
+	<data quest_id="450" main_name="Grave Robber Rescue" lvl_min="80" lvl_max="99" reward="57:65000;"/>
+	<data quest_id="451" main_name="Lucien's Altar" lvl_min="80" lvl_max="99" reward="57:255380;"/>
+	<data quest_id="452" main_name="Finding the Lost Soldiers" lvl_min="84" lvl_max="99" reward="57:95200;15623:435024;15624:50366;"/>
+	<data quest_id="453" main_name="Not Strong Enough Alone" lvl_min="84" lvl_max="99" reward="15629:0;"/>
+	<data quest_id="454" main_name="Completely Lost" lvl_min="84" lvl_max="99" reward="15629:0;"/>
+	<data quest_id="455" main_name="Wings of Sand" lvl_min="80" lvl_max="99" reward="15625:0;"/>
+	<data quest_id="456" main_name="Don't Know, Don't Care" lvl_min="80" lvl_max="99" reward="15625:0;"/>
+	<data quest_id="457" main_name="Lost and Found" lvl_min="82" lvl_max="99" reward="15716:1;"/>
+	<data quest_id="458" main_name="Perfect Form" lvl_min="82" lvl_max="99" reward="15629:0;"/>
+	<data quest_id="461" main_name="Rumble in the Base" lvl_min="82" lvl_max="99" reward="15623:224784;15624:342528;"/>
+	<data quest_id="463" main_name="I Must Be a Genius" lvl_min="70" lvl_max="99" reward="15623:0;15624:0;"/>
+	<data quest_id="464" main_name="Oath" lvl_min="82" lvl_max="99" reward="57:0;15623:0;15624:0;"/>
+	<data quest_id="501" main_name="Proof of Clan Alliance" lvl_min="0" lvl_max="99" reward="15624:120000;3874:1;"/>
+	<data quest_id="503" main_name="Pursuit of Clan Ambition!" lvl_min="0" lvl_max="99" reward="15624:250000;3870:1;"/>
+	<data quest_id="504" main_name="Competition for the Bandit Stronghold" lvl_min="0" lvl_max="99" reward="5009:1;"/>
+	<data quest_id="505" main_name="Blood Offering" lvl_min="0" lvl_max="99" reward="15625:0;"/>
+	<data quest_id="508" main_name="A Clan's Reputation" lvl_min="0" lvl_max="99" reward="15627:0;"/>
+	<data quest_id="509" main_name="A Clan's Fame" lvl_min="0" lvl_max="99" reward="15627:0;"/>
+	<data quest_id="510" main_name="A Clan's Prestige" lvl_min="0" lvl_max="99" reward="15627:0;"/>
+	<data quest_id="511" main_name="Awl Under Foot" lvl_min="60" lvl_max="99" reward="9912:0;"/>
+	<data quest_id="512" main_name="Blade Under Foot" lvl_min="70" lvl_max="99" reward="9912:0;"/>
+	<data quest_id="551" main_name="Olympiad Starter" lvl_min="75" lvl_max="99" reward="17169:0;21874:0;"/>
+	<data quest_id="552" main_name="Olympiad Veteran" lvl_min="75" lvl_max="99" reward="17169:0;"/>
+	<data quest_id="553" main_name="Olympiad Undefeated" lvl_min="75" lvl_max="99" reward="17169:0;21874:0;"/>
+	<data quest_id="601" main_name="Watching Eyes" lvl_min="71" lvl_max="78" reward="15629:0;"/>
+	<data quest_id="602" main_name="Shadow of Light" lvl_min="68" lvl_max="75" reward="15623:0;15624:0;57:0;15625:0;"/>
+	<data quest_id="603" main_name="Daimon the White-Eyed - Part 1" lvl_min="73" lvl_max="78" reward="7192:1;"/>
+	<data quest_id="604" main_name="Daimon the White-Eyed - Part 2" lvl_min="73" lvl_max="78" reward="15629:0;"/>
+	<data quest_id="605" main_name="Alliance with Ketra Orcs" lvl_min="74" lvl_max="80" reward="15625:0;"/>
+	<data quest_id="606" main_name="Battle against Varka Silenos" lvl_min="74" lvl_max="80" reward="7186:20;"/>
+	<data quest_id="607" main_name="Prove Your Courage!" lvl_min="75" lvl_max="80" reward="7219:1;"/>
+	<data quest_id="608" main_name="Slay the Enemy Commander!" lvl_min="75" lvl_max="80" reward="7220:1;"/>
+	<data quest_id="609" main_name="Magical Power of Water - Part 1" lvl_min="74" lvl_max="80" reward="7237:1;7081:1;"/>
+	<data quest_id="610" main_name="Magical Power of Water - Part 2" lvl_min="75" lvl_max="80" reward="15623:10000;"/>
+	<data quest_id="611" main_name="Alliance with Varka Silenos" lvl_min="74" lvl_max="80" reward="15625:0;"/>
+	<data quest_id="612" main_name="Battle against Ketra Orcs" lvl_min="74" lvl_max="80" reward="7187:20;"/>
+	<data quest_id="613" main_name="Prove Your Courage!" lvl_min="75" lvl_max="80" reward="7229:1;"/>
+	<data quest_id="614" main_name="Slay the Enemy Commander!" lvl_min="75" lvl_max="80" reward="7230:1;"/>
+	<data quest_id="615" main_name="Magical Power of Fire - Part 1" lvl_min="74" lvl_max="80" reward="7242:1;7081:1;"/>
+	<data quest_id="616" main_name="Magical Power of Fire - Part 2" lvl_min="75" lvl_max="80" reward="15623:10000;"/>
+	<data quest_id="617" main_name="Gather the Flames" lvl_min="74" lvl_max="80" reward="15629:0;"/>
+	<data quest_id="618" main_name="Into the Flames" lvl_min="60" lvl_max="80" reward="7267:1;"/>
+	<data quest_id="619" main_name="Relics of the Old Empire" lvl_min="74" lvl_max="80" reward="15629:0;"/>
+	<data quest_id="620" main_name="Four Goblets" lvl_min="74" lvl_max="80" reward="15629:0;"/>
+	<data quest_id="621" main_name="Egg Delivery" lvl_min="68" lvl_max="73" reward="15629:0;"/>
+	<data quest_id="622" main_name="Specialty Liquor Delivery" lvl_min="68" lvl_max="73" reward="15629:0;"/>
+	<data quest_id="623" main_name="The Finest Food" lvl_min="71" lvl_max="78" reward="15629:0;"/>
+	<data quest_id="624" main_name="The Finest Ingredients - Part 1" lvl_min="73" lvl_max="80" reward="7205:0;"/>
+	<data quest_id="625" main_name="The Finest Ingredients - Part 2" lvl_min="73" lvl_max="80" reward="15629:0;"/>
+	<data quest_id="626" main_name="A Dark Twilight" lvl_min="60" lvl_max="71" reward="15623:162773;15624:12500;57:100000;"/>
+	<data quest_id="627" main_name="Heart in Search of Power" lvl_min="60" lvl_max="71" reward="15625:0;"/>
+	<data quest_id="628" main_name="Hunt of the Golden Ram Mercenary Force" lvl_min="66" lvl_max="78" reward="15625:0;"/>
+	<data quest_id="629" main_name="Clean up the Swamp of Screams" lvl_min="66" lvl_max="80" reward="7251:0;"/>
+	<data quest_id="631" main_name="Delicious Top Choice Meat" lvl_min="82" lvl_max="99" reward="15629:0;"/>
+	<data quest_id="632" main_name="Necromancer's Request" lvl_min="63" lvl_max="77" reward="57:120000;"/>
+	<data quest_id="633" main_name="In the Forgotten Village" lvl_min="65" lvl_max="73" reward="57:25000;"/>
+	<data quest_id="634" main_name="In Search of Fragments of Dimension" lvl_min="20" lvl_max="99" reward="7079:0;"/>
+	<data quest_id="635" main_name="Into the Dimensional Rift" lvl_min="20" lvl_max="99" reward="15625:0;"/>
+	<data quest_id="636" main_name="Truth Beyond the Gate" lvl_min="73" lvl_max="80" reward="8064:1;"/>
+	<data quest_id="637" main_name="Through the Gate Once More" lvl_min="73" lvl_max="80" reward="8067:1;"/>
+	<data quest_id="638" main_name="Seekers of the Holy Grail" lvl_min="73" lvl_max="80" reward="15629:0;"/>
+	<data quest_id="639" main_name="Guardians of the Holy Grail" lvl_min="73" lvl_max="80" reward="15625:0;"/>
+	<data quest_id="640" main_name="The Zero Hour" lvl_min="66" lvl_max="99" reward="15630:1;"/>
+	<data quest_id="641" main_name="Attack Sailren!" lvl_min="77" lvl_max="99" reward="8784:1;"/>
+	<data quest_id="642" main_name="A Powerful Primeval Creature" lvl_min="75" lvl_max="99" reward="15630:0;"/>
+	<data quest_id="643" main_name="Rise and Fall of the Elroki Tribe" lvl_min="75" lvl_max="99" reward="15630:0;"/>
+	<data quest_id="644" main_name="Grave Robber Annihilation" lvl_min="20" lvl_max="33" reward="15625:0;"/>
+	<data quest_id="645" main_name="Ghosts of Batur" lvl_min="80" lvl_max="99" reward="15625:0;"/>
+	<data quest_id="646" main_name="Signs of Revolt" lvl_min="40" lvl_max="51" reward="15625:0;"/>
+	<data quest_id="647" main_name="Influx of Machines" lvl_min="70" lvl_max="99" reward="15629:0;"/>
+	<data quest_id="648" main_name="An Ice Merchant's Dream" lvl_min="53" lvl_max="63" reward="15630:0;"/>
+	<data quest_id="649" main_name="A Looter and a Railroad Man" lvl_min="30" lvl_max="99" reward="57:21698;"/>
+	<data quest_id="650" main_name="A Broken Dream" lvl_min="39" lvl_max="99" reward="15630:0;"/>
+	<data quest_id="651" main_name="Runaway Youth" lvl_min="26" lvl_max="99" reward="57:2883;"/>
+	<data quest_id="652" main_name="An Aged Ex-Adventurer" lvl_min="46" lvl_max="99" reward="15629:0;"/>
+	<data quest_id="653" main_name="Wild Maiden" lvl_min="36" lvl_max="99" reward="57:2553;"/>
+	<data quest_id="654" main_name="Journey to a Settlement" lvl_min="74" lvl_max="80" reward="8073:1;"/>
+	<data quest_id="655" main_name="A Grand Plan for Taming Wild Beasts" lvl_min="0" lvl_max="99" reward="8293:1;"/>
+	<data quest_id="659" main_name="I'd Rather Be Collecting Fairy Breath" lvl_min="26" lvl_max="99" reward="57:0;"/>
+	<data quest_id="660" main_name="Aiding the Floran Village" lvl_min="30" lvl_max="99" reward="15630:0;"/>
+	<data quest_id="661" main_name="Making the Harvest Grounds Safe" lvl_min="21" lvl_max="99" reward="57:0;"/>
+	<data quest_id="662" main_name="A Game of Cards" lvl_min="61" lvl_max="80" reward="15628:0;"/>
+	<data quest_id="663" main_name="Seductive Whispers" lvl_min="50" lvl_max="99" reward="15628:0;"/>
+	<data quest_id="688" main_name="Defeat the Elrokian Raiders!" lvl_min="75" lvl_max="99" reward="57:0;"/>
+	<data quest_id="690" main_name="Jude's Request" lvl_min="78" lvl_max="99" reward="15625:0;"/>
+	<data quest_id="691" main_name="Matras' Suspicious Request" lvl_min="76" lvl_max="99" reward="15630:0;"/>
+	<data quest_id="692" main_name="How to Oppose Evil" lvl_min="75" lvl_max="99" reward="15630:0;"/>
+	<data quest_id="693" main_name="Defeating Dragonkin Remnants" lvl_min="75" lvl_max="99" reward="15625:0;"/>
+	<data quest_id="694" main_name="Break Through the Hall of Suffering" lvl_min="75" lvl_max="82" reward="15625:0;736:1;13691:1;"/>
+	<data quest_id="695" main_name="Defend the Hall of Suffering" lvl_min="75" lvl_max="82" reward="15625:0;736:1;"/>
+	<data quest_id="696" main_name="Conquer the Hall of Erosion" lvl_min="80" lvl_max="99" reward="13692:1;"/>
+	<data quest_id="697" main_name="Defend the Hall of Erosion" lvl_min="80" lvl_max="99" reward="14052:0;"/>
+	<data quest_id="698" main_name="Block the Lord's Escape" lvl_min="80" lvl_max="99" reward="14052:0;"/>
+	<data quest_id="699" main_name="Guardian of the Skies" lvl_min="75" lvl_max="99" reward="57:0;"/>
+	<data quest_id="700" main_name="Cursed Life" lvl_min="75" lvl_max="99" reward="57:0;"/>
+	<data quest_id="701" main_name="Proof of Existence" lvl_min="78" lvl_max="99" reward="57:0;"/>
+	<data quest_id="702" main_name="A Trap for Revenge" lvl_min="78" lvl_max="99" reward="15625:0;"/>
+	<data quest_id="708" main_name="Path to Becoming a Lord - Gludio" lvl_min="0" lvl_max="99" reward="15625"/>
+	<data quest_id="709" main_name="Path to Becoming a Lord - Dion" lvl_min="0" lvl_max="99" reward="15625"/>
+	<data quest_id="710" main_name="Path to Becoming a Lord - Giran" lvl_min="0" lvl_max="99" reward="15625"/>
+	<data quest_id="711" main_name="Path to Becoming a Lord - Innadril" lvl_min="0" lvl_max="99" reward="15625"/>
+	<data quest_id="712" main_name="Path to Becoming a Lord - Oren" lvl_min="0" lvl_max="99" reward="15625"/>
+	<data quest_id="713" main_name="Path to Becoming a Lord - Aden" lvl_min="0" lvl_max="99" reward="15625"/>
+	<data quest_id="714" main_name="Path to Becoming a Lord - Schuttgart" lvl_min="0" lvl_max="99" reward="15625"/>
+	<data quest_id="715" main_name="Path to Becoming a Lord - Goddard" lvl_min="0" lvl_max="99" reward="15625"/>
+	<data quest_id="716" main_name="Path to Becoming a Lord - Rune" lvl_min="0" lvl_max="99" reward="15625"/>
+	<data quest_id="717" main_name="For the Sake of the Territory - Gludio" lvl_min="40" lvl_max="99" reward="15625"/>
+	<data quest_id="718" main_name="For the Sake of the Territory - Dion" lvl_min="40" lvl_max="99" reward="15625"/>
+	<data quest_id="719" main_name="For the Sake of the Territory - Giran" lvl_min="40" lvl_max="99" reward="15625"/>
+	<data quest_id="720" main_name="For the Sake of the Territory - Oren" lvl_min="40" lvl_max="99" reward="15625"/>
+	<data quest_id="721" main_name="For the Sake of the Territory - Aden" lvl_min="40" lvl_max="99" reward="15625"/>
+	<data quest_id="722" main_name="For the Sake of the Territory - Innadril" lvl_min="40" lvl_max="99" reward="15625"/>
+	<data quest_id="723" main_name="For the Sake of the Territory - Goddard" lvl_min="40" lvl_max="99" reward="15625"/>
+	<data quest_id="724" main_name="For the Sake of the Territory - Rune" lvl_min="40" lvl_max="99" reward="15625"/>
+	<data quest_id="725" main_name="For the Sake of the Territory - Schuttgart" lvl_min="40" lvl_max="99" reward="15625"/>
+	<data quest_id="726" main_name="Light within the Darkness" lvl_min="70" lvl_max="99" reward="9912:152;"/>
+	<data quest_id="727" main_name="Hope within the Darkness" lvl_min="80" lvl_max="99" reward="9912:159;"/>
+	<data quest_id="729" main_name="Protect the Territory Catapult!" lvl_min="40" lvl_max="99" reward="15625"/>
+	<data quest_id="730" main_name="Protect the Supplies Safe." lvl_min="40" lvl_max="99" reward="15625"/>
+	<data quest_id="731" main_name="Protect the Military Association Leader" lvl_min="40" lvl_max="99" reward="15625"/>
+	<data quest_id="732" main_name="Protect the Religious Association Leader." lvl_min="40" lvl_max="99" reward="15625"/>
+	<data quest_id="733" main_name="Protect the Economic Association Leader." lvl_min="40" lvl_max="99" reward="15625"/>
+	<data quest_id="734" main_name="Pierce through a Shield!" lvl_min="40" lvl_max="99" reward="15625"/>
+	<data quest_id="735" main_name="Make Spears Dull!" lvl_min="40" lvl_max="99" reward="15625"/>
+	<data quest_id="736" main_name="Weaken the magic!" lvl_min="40" lvl_max="99" reward="15625"/>
+	<data quest_id="737" main_name="Deny Blessings" lvl_min="40" lvl_max="99" reward="15625"/>
+	<data quest_id="738" main_name="Destroy Key Targets" lvl_min="40" lvl_max="99" reward="15625"/>
+	<data quest_id="901" main_name="How Lavasauruses Are Made" lvl_min="76" lvl_max="99" reward="15625:0;"/>
+	<data quest_id="902" main_name="Reclaim Our Era" lvl_min="80" lvl_max="99" reward="15625:0;"/>
+	<data quest_id="903" main_name="The Call of Antharas" lvl_min="83" lvl_max="99" reward="21897:1;"/>
+	<data quest_id="904" main_name="Dragon Trophy - Antharas" lvl_min="84" lvl_max="99" reward="21874:30;"/>
+	<data quest_id="905" main_name="Refined Dragon Blood" lvl_min="83" lvl_max="99" reward="15629:0;"/>
+	<data quest_id="906" main_name="The Call of Valakas" lvl_min="83" lvl_max="99" reward="21895:1;"/>
+	<data quest_id="907" main_name="Dragon Trophy - Valakas" lvl_min="84" lvl_max="99" reward="21874:30;"/>
+	<data quest_id="10267" main_name="Journey to Gracia" lvl_min="75" lvl_max="99" reward="57:92500;15623:75480;15624:7570;"/>
+	<data quest_id="10268" main_name="To the Seed of Infinity" lvl_min="75" lvl_max="99" reward="57:16671;15623:100640;15624:10098;"/>
+	<data quest_id="10269" main_name="To the Seed of Destruction" lvl_min="75" lvl_max="99" reward="57:29174;15623:176121;15624:7671;"/>
+	<data quest_id="10270" main_name="Birth of the Seed" lvl_min="75" lvl_max="99" reward="57:41677;15623:251602;15624:25244;"/>
+	<data quest_id="10271" main_name="The Enveloping Darkness" lvl_min="75" lvl_max="99" reward="57:62516;15623:377403;15624:37867;"/>
+	<data quest_id="10272" main_name="Light Fragment" lvl_min="75" lvl_max="99" reward="57:556980;15623:1009016;15624:91363;15625:0;"/>
+	<data quest_id="10273" main_name="Good Day to Fly" lvl_min="75" lvl_max="99" reward="15623:25160;15624:2525;15625:0;"/>
+	<data quest_id="10274" main_name="Collecting in the Air" lvl_min="75" lvl_max="99" reward="15623:25160;15624:2525;13728:1;"/>
+	<data quest_id="10275" main_name="Containing the Attribute Power" lvl_min="76" lvl_max="99" reward="15623:202160;15624:20375;15625:0;"/>
+	<data quest_id="10276" main_name="Mutated Kaneus - Gludio" lvl_min="18" lvl_max="99" reward="57:8500;"/>
+	<data quest_id="10277" main_name="Mutated Kaneus - Dion" lvl_min="28" lvl_max="99" reward="57:20000;"/>
+	<data quest_id="10278" main_name="Mutated Kaneus - Heine" lvl_min="38" lvl_max="99" reward="57:50000;"/>
+	<data quest_id="10279" main_name="Mutated Kaneus - Oren" lvl_min="48" lvl_max="99" reward="57:100000;"/>
+	<data quest_id="10280" main_name="Mutated Kaneus - Schuttgart" lvl_min="58" lvl_max="99" reward="57:210000;"/>
+	<data quest_id="10281" main_name="Mutated Kaneus - Rune" lvl_min="68" lvl_max="99" reward="57:360000;"/>
+	<data quest_id="10282" main_name="To the Seed of Annihilation" lvl_min="84" lvl_max="99" reward="57:212182;15623:1148480;15624:99110;"/>
+	<data quest_id="10283" main_name="Request of Ice Merchant" lvl_min="82" lvl_max="99" reward="57:190000;15623:627000;15624:50300;"/>
+	<data quest_id="10284" main_name="Acquisition of Divine Sword" lvl_min="82" lvl_max="99" reward="57:296425;15623:921805;15624:82230;"/>
+	<data quest_id="10285" main_name="Meeting Sirra" lvl_min="82" lvl_max="99" reward="57:283425;15623:939075;15624:83855;"/>
+	<data quest_id="10286" main_name="Reunion with Sirra" lvl_min="82" lvl_max="99" reward="15623:2152200;15624:181070;"/>
+	<data quest_id="10287" main_name="Story of Those Left" lvl_min="82" lvl_max="99" reward="15625:0;"/>
+	<data quest_id="10288" main_name="Secret Mission" lvl_min="82" lvl_max="99" reward="57:106583;15623:417788;15624:46320;15625:0;"/>
+	<data quest_id="10289" main_name="Fade to Black" lvl_min="82" lvl_max="99" reward="15629:0;"/>
+	<data quest_id="10290" main_name="Land Dragon Conqueror" lvl_min="83" lvl_max="99" reward="57:131236;15623:702557;15624:76334;8568:1;"/>
+	<data quest_id="10291" main_name="Fire Dragon Destroyer" lvl_min="83" lvl_max="99" reward="57:126549;15623:717291;15624:77397;8567:1;"/>
+	<data quest_id="10292" main_name="Seven Signs, Girl of Doubt" lvl_min="81" lvl_max="99" reward="15623:10000000;15624:1000000;"/>
+	<data quest_id="10293" main_name="Seven Signs, Forbidden Book of the Elmore-Aden Kingdom" lvl_min="81" lvl_max="99" reward="15623:15000000;15624:1500000;"/>
+	<data quest_id="10294" main_name="Seven Signs, To the Monastery of Silence" lvl_min="81" lvl_max="99" reward="15623:25000000;15624:2500000;"/>
+	<data quest_id="10295" main_name="Seven Signs, Solina's Tomb" lvl_min="81" lvl_max="99" reward="15623:125000000;15624:12500000;"/>
+	<data quest_id="10296" main_name="Seven Signs, One Who Seeks the Power of the Seal" lvl_min="81" lvl_max="99" reward="15623:125000000;15624:12500000;17265:1;"/>
+	<data quest_id="10501" main_name="Zaken Embroidered Soul Cloak" lvl_min="78" lvl_max="99" reward="21719:1;"/>
+	<data quest_id="10502" main_name="Freya Embroidered Soul Cloak" lvl_min="82" lvl_max="99" reward="21720:1;"/>
+	<data quest_id="10503" main_name="Frintezza Embroidered Soul Cloak" lvl_min="80" lvl_max="99" reward="21721:1;"/>
+	<data quest_id="10504" main_name="Jewel of Antharas" lvl_min="84" lvl_max="99" reward="21898:1;"/>
+	<data quest_id="10505" main_name="Jewel of Valakas" lvl_min="84" lvl_max="99" reward="21896:1;"/>
+</list>

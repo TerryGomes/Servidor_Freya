@@ -1,0 +1,109 @@
+<html>
+<head>
+<body scroll="no">
+<title>Buff Store</title>
+<table border=0 cellpadding=0 cellspacing=0 width=292 height=358 background="l2ui_ct1.Windows_DF_TooltipBG">
+	<tr>
+		<td valign="top">
+			<table width=290 height=330>
+					<tr>
+						<td valign="top" align="center">
+							<table width=270 height=50>
+								<tr>
+									<td width=270 height=50 align=center valign=top>
+										<table width=270 align="center">
+											<tr>
+												<td fixwidth=260>
+													<font color=b5b5b5>Here you can set a Private Buff Store.<br></font>
+												</td>
+											</tr>
+											<tr>
+												<td fixwidth=260>
+													<font color=b5b5b5>Other players will be able to purchase your buffs directly from an interface when clicking on you.<br></font>
+												</td>
+											</tr>
+											<tr>
+												<td fixwidth=260>
+													<font color=b5b5b5>Set the title of your store and the price you want to charge for every buff you sell and you are done.</font>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td width=270 height=50 align=center valign=top><br><br>
+							<table width=270 height=35>
+								<tr>
+									<td width=264 height=12 align=center valign=top>
+										<font color=669900>.:Set Title:.</font>
+									</td>
+								</tr>
+								<tr>
+									<td width=264 height=35 align=center valign=top>
+										<table width=264 height=24 background="l2ui_ct1.Windows_DF_TooltipBG">
+											<tr>
+												<td width=264 height=24 align=center valign=top>
+													<edit var="TITLE" type="text" width=260 length=28 height=12>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td width=264 height=12 align=center valign=top>
+										<font color=d3b52b>.:Set Price:.</font>
+									</td>
+								</tr>
+								<tr>
+									<td width=264 height=30 align=center valign=top>
+										<table width=264 height=24 background="l2ui_ct1.Windows_DF_TooltipBG">
+											<tr>
+												<td width=264 height=24 align=center valign=top>
+													<edit var="PRICE" type="number" width=260 length=28 height=12>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table><br>
+						</td>
+					</tr>
+					<tr>
+						<td width=270 height=50 align=center valign=top><br>
+							<table width=270 height=35>
+								<tr>
+									<td width=94 height=30 align=center valign=top>
+										<table width=90 height=28 background="l2ui_ct1.Windows_DF_TooltipBG">
+											<tr>
+												<td width=88 height=26 align=center valign=top>
+													<button value="Create Store" action="bypass -h offbuff setstore $PRICE $TITLE" width=86 height=24 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td width=94 height=30 align=center valign=top>
+										<table width=90 height=28 background="l2ui_ct1.Windows_DF_TooltipBG">
+											<tr>
+												<td width=88 height=26 align=center valign=top>
+													<button value="Back" action="bypass -h user_offbuff" width=86 height=24 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table><br>
+						</td>
+					</tr>
+					<tr>
+						<td height=80>
+						</td>
+					</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

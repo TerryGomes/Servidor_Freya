@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<data id="1">
+		<setting sex="FEMALE" npc_id="13077"/>
+		<setting sex="MALE" npc_id="13077"/>
+	</data>
+	<data id="2">
+		<setting sex="FEMALE" npc_id="13078" item_id="1472"/>
+		<setting sex="MALE" npc_id="13078" item_id="1472"/>
+	</data>
+	<data id="3">
+		<setting sex="FEMALE" npc_id="13106" item_id="8205"/>
+		<setting sex="MALE" npc_id="13107" item_id="8208"/>
+	</data>
+	<data id="4">
+		<setting sex="FEMALE" npc_id="13108"/>
+		<setting sex="MALE" npc_id="13108"/>
+	</data>
+	<data id="5">
+		<setting sex="FEMALE" npc_id="13109"/>
+		<setting sex="MALE" npc_id="13109"/>
+	</data>
+	<data id="6">
+		<setting sex="FEMALE" npc_id="13110"/>
+		<setting sex="MALE" npc_id="13110"/>
+	</data>
+	<data id="7">
+		<setting sex="FEMALE" npc_id="13111" item_id="5129"/>
+		<setting sex="MALE" npc_id="13111" item_id="5129"/>
+	</data>
+	<data id="8">
+		<setting sex="FEMALE" npc_id="13144"/>
+		<setting sex="MALE" npc_id="13144"/>
+	</data>
+	<data id="9">
+		<setting sex="FEMALE" npc_id="13145"/>
+		<setting sex="MALE" npc_id="13145"/>
+	</data>
+	<data id="10">
+		<setting sex="FEMALE" npc_id="13169" item_id="76"/>
+		<setting sex="MALE" npc_id="13169" item_id="76"/>
+	</data>
+	<data id="11">
+		<setting sex="FEMALE" npc_id="13170" item_id="129"/>
+		<setting sex="MALE" npc_id="13170" item_id="129"/>
+	</data>
+	<data id="12">
+		<setting sex="FEMALE" npc_id="13171" item_id="132"/>
+		<setting sex="MALE" npc_id="13171" item_id="132"/>
+	</data>
+	<data id="13">
+		<setting sex="FEMALE" npc_id="13172" item_id="298"/>
+		<setting sex="MALE" npc_id="13172" item_id="298"/>
+	</data>
+	<data id="14">
+		<setting sex="FEMALE" npc_id="13173" item_id="299"/>
+		<setting sex="MALE" npc_id="13173" item_id="299"/>
+	</data>
+	<data id="15">
+		<setting sex="FEMALE" npc_id="13174" item_id="9226"/>
+		<setting sex="MALE" npc_id="13174" item_id="9226"/>
+	</data>
+	<data id="16">
+		<setting sex="FEMALE" npc_id="13175" item_id="2500"/>
+		<setting sex="MALE" npc_id="13175" item_id="2500"/>
+	</data>
+	<data id="17">
+		<setting sex="FEMALE" npc_id="13176" item_id="15302"/>
+		<setting sex="MALE" npc_id="13176" item_id="15302"/>
+	</data>
+	<data id="18">
+		<setting sex="FEMALE" npc_id="13177"/>
+		<setting sex="MALE" npc_id="13177"/>
+	</data>
+	<data id="19">
+		<setting sex="FEMALE" npc_id="13178" item_id="10224"/>
+		<setting sex="MALE" npc_id="13178" item_id="10224"/>
+	</data>
+	<data id="20">
+		<setting sex="FEMALE" npc_id="13179" item_id="10215"/>
+		<setting sex="MALE" npc_id="13179" item_id="10215"/>
+	</data>
+	<data id="21">
+		<setting sex="FEMALE" npc_id="13180"/>
+		<setting sex="MALE" npc_id="13180"/>
+	</data>
+	<data id="22">
+		<setting sex="FEMALE" npc_id="13298"/>
+		<setting sex="MALE" npc_id="13298"/>
+	</data>
+	<data id="101">
+		<setting sex="FEMALE" npc_id="13090"/>
+		<setting sex="MALE" npc_id="13090"/>
+	</data>
+	<data id="102">
+		<setting sex="FEMALE" npc_id="13091"/>
+		<setting sex="MALE" npc_id="13091"/>
+	</data>
+	<data id="103">
+		<setting sex="FEMALE" npc_id="13092"/>
+		<setting sex="MALE" npc_id="13092"/>
+	</data>
+	<data id="104">
+		<setting sex="FEMALE" npc_id="13093"/>
+		<setting sex="MALE" npc_id="13093"/>
+	</data>
+	<data id="105">
+		<setting sex="FEMALE" npc_id="13096"/>
+		<setting sex="MALE" npc_id="13096"/>
+	</data>
+	<data id="106">
+		<setting sex="FEMALE" npc_id="13130"/>
+		<setting sex="MALE" npc_id="13130"/>
+	</data>
+	<data id="107">
+		<setting sex="FEMALE" npc_id="13129" item_id="12814"/>
+		<setting sex="MALE" npc_id="13129" item_id="12814"/>
+	</data>
+	<data id="108">
+		<setting sex="FEMALE" npc_id="13135"/>
+		<setting sex="MALE" npc_id="13135"/>
+	</data>
+	<data id="109">
+		<setting sex="FEMALE" npc_id="13146"/>
+		<setting sex="MALE" npc_id="13146"/>
+	</data>
+	<data id="110">
+		<setting sex="FEMALE" npc_id="13147"/>
+		<setting sex="MALE" npc_id="13147"/>
+	</data>
+	<data id="111">
+		<setting sex="FEMALE" npc_id="13157"/>
+		<setting sex="MALE" npc_id="13157"/>
+	</data>
+	<data id="112">
+		<setting sex="FEMALE" npc_id="13158"/>
+		<setting sex="MALE" npc_id="13200"/>
+	</data>
+	<data id="113">
+		<setting sex="FEMALE" npc_id="13159"/>
+		<setting sex="MALE" npc_id="13201"/>
+	</data>
+	<data id="114">
+		<setting sex="FEMALE" npc_id="13160"/>
+		<setting sex="MALE" npc_id="13160"/>
+	</data>
+	<data id="115">
+		<setting sex="FEMALE" npc_id="13161"/>
+		<setting sex="MALE" npc_id="13161"/>
+	</data>
+	<data id="116">
+		<setting sex="FEMALE" npc_id="13162"/>
+		<setting sex="MALE" npc_id="13162"/>
+	</data>
+	<data id="117">
+		<setting sex="FEMALE" npc_id="13163"/>
+		<setting sex="MALE" npc_id="13163"/>
+	</data>
+	<data id="118">
+		<setting sex="FEMALE" npc_id="13164"/>
+		<setting sex="MALE" npc_id="13164"/>
+	</data>
+	<data id="119">
+		<setting sex="FEMALE" npc_id="13165"/>
+		<setting sex="MALE" npc_id="13165"/>
+	</data>
+	<data id="120">
+		<setting sex="FEMALE" npc_id="13166"/>
+		<setting sex="MALE" npc_id="13166"/>
+	</data>
+	<data id="121">
+		<setting sex="FEMALE" npc_id="13167" item_id="13791"/>
+		<setting sex="MALE" npc_id="13167" item_id="13791"/>
+	</data>
+	<data id="122">
+		<setting sex="FEMALE" npc_id="13168" item_id="13792"/>
+		<setting sex="MALE" npc_id="13168" item_id="13792"/>
+	</data>
+	<data id="123">
+		<setting sex="FEMALE" npc_id="13197"/>
+		<setting sex="MALE" npc_id="13197"/>
+	</data>
+	<data id="124">
+		<setting sex="FEMALE" npc_id="13090"/>
+		<setting sex="MALE" npc_id="13199"/>
+	</data>
+	<data id="125">
+		<setting sex="FEMALE" npc_id="13268"/>
+		<setting sex="MALE" npc_id="13268"/>
+	</data>
+	<data id="126">
+		<setting sex="FEMALE" npc_id="13283"/>
+		<setting sex="MALE" npc_id="13283"/>
+	</data>
+	<data id="127">
+		<setting sex="FEMALE" npc_id="140" item_id="13792"/>
+		<setting sex="MALE" npc_id="140" item_id="13792"/>
+	</data>
+	<data id="201">
+		<setting sex="FEMALE" npc_id="13079" item_id="8221"/>
+		<setting sex="MALE" npc_id="13080" item_id="8221"/>
+	</data>
+	<data id="202">
+		<setting sex="FEMALE" npc_id="13079" item_id="8221"/>
+		<setting sex="MALE" npc_id="13080" item_id="8221"/>
+	</data>
+	<data id="203">
+		<setting sex="FEMALE" npc_id="13079" item_id="8221"/>
+		<setting sex="MALE" npc_id="13080" item_id="8221"/>
+	</data>
+	<data id="204">
+		<setting sex="FEMALE" npc_id="13081"/>
+		<setting sex="MALE" npc_id="13081"/>
+	</data>
+	<data id="205">
+		<setting sex="FEMALE" npc_id="13081"/>
+		<setting sex="MALE" npc_id="13081"/>
+	</data>
+	<data id="206">
+		<setting sex="FEMALE" npc_id="13081"/>
+		<setting sex="MALE" npc_id="13081"/>
+	</data>
+	<data id="207">
+		<setting sex="FEMALE" npc_id="13082" item_id="5800"/>
+		<setting sex="MALE" npc_id="13082" item_id="5800"/>
+	</data>
+	<data id="208">
+		<setting sex="FEMALE" npc_id="13082" item_id="5800"/>
+		<setting sex="MALE" npc_id="13082" item_id="5800"/>
+	</data>
+	<data id="209">
+		<setting sex="FEMALE" npc_id="13082" item_id="5800"/>
+		<setting sex="MALE" npc_id="13082" item_id="5800"/>
+	</data>
+	<data id="210">
+		<setting sex="FEMALE" npc_id="13083"/>
+		<setting sex="MALE" npc_id="13083"/>
+	</data>
+	<data id="211">
+		<setting sex="FEMALE" npc_id="13083"/>
+		<setting sex="MALE" npc_id="13083"/>
+	</data>
+	<data id="212">
+		<setting sex="FEMALE" npc_id="13083"/>
+		<setting sex="MALE" npc_id="13083"/>
+	</data>
+	<data id="213">
+		<setting sex="FEMALE" npc_id="13084"/>
+		<setting sex="MALE" npc_id="13084"/>
+	</data>
+	<data id="214">
+		<setting sex="FEMALE" npc_id="13084"/>
+		<setting sex="MALE" npc_id="13084"/>
+	</data>
+	<data id="215">
+		<setting sex="FEMALE" npc_id="13084"/>
+		<setting sex="MALE" npc_id="13084"/>
+	</data>
+	<data id="216">
+		<setting sex="FEMALE" npc_id="13085"/>
+		<setting sex="MALE" npc_id="13085"/>
+	</data>
+	<data id="217">
+		<setting sex="FEMALE" npc_id="13085"/>
+		<setting sex="MALE" npc_id="13085"/>
+	</data>
+	<data id="218">
+		<setting sex="FEMALE" npc_id="13085"/>
+		<setting sex="MALE" npc_id="13085"/>
+	</data>
+	<data id="219">
+		<setting sex="FEMALE" npc_id="13156"/>
+		<setting sex="MALE" npc_id="13156"/>
+	</data>
+	<data id="220">
+		<setting sex="FEMALE" npc_id="13155"/>
+		<setting sex="MALE" npc_id="13155"/>
+	</data>
+	<data id="221">
+		<setting sex="FEMALE" npc_id="13154"/>
+		<setting sex="MALE" npc_id="13154"/>
+	</data>
+	<data id="251">
+		<setting sex="FEMALE" npc_id="13088"/>
+		<setting sex="MALE" npc_id="13089"/>
+	</data>
+	<data id="252">
+		<setting sex="FEMALE" npc_id="13112"/>
+		<setting sex="MALE" npc_id="13112"/>
+	</data>
+	<data id="253">
+		<setting sex="FEMALE" npc_id="13113"/>
+		<setting sex="MALE" npc_id="13113"/>
+	</data>
+	<data id="254">
+		<setting sex="FEMALE" npc_id="13114"/>
+		<setting sex="MALE" npc_id="13114"/>
+	</data>
+	<data id="255">
+		<setting sex="FEMALE" npc_id="13115"/>
+		<setting sex="MALE" npc_id="13115"/>
+	</data>
+	<data id="256">
+		<setting sex="FEMALE" npc_id="13116"/>
+		<setting sex="MALE" npc_id="13116"/>
+	</data>
+	<data id="257">
+		<setting sex="FEMALE" npc_id="13117"/>
+		<setting sex="MALE" npc_id="13117"/>
+	</data>
+	<data id="258">
+		<setting sex="FEMALE" npc_id="13118"/>
+		<setting sex="MALE" npc_id="13118"/>
+	</data>
+	<data id="259">
+		<setting sex="FEMALE" npc_id="13119"/>
+		<setting sex="MALE" npc_id="13119"/>
+	</data>
+	<data id="260">
+		<setting sex="FEMALE" npc_id="13142"/>
+		<setting sex="MALE" npc_id="13143"/>
+	</data>
+	<data id="301">
+		<setting sex="FEMALE" npc_id="13086" item_id="8190"/>
+		<setting sex="MALE" npc_id="13086" item_id="8190"/>
+	</data>
+	<data id="302">
+		<setting sex="FEMALE" npc_id="13087" item_id="8689"/>
+		<setting sex="MALE" npc_id="13087" item_id="8689"/>
+	</data>
+	<data id="303">
+		<setting sex="FEMALE" npc_id="13094"/>
+		<setting sex="MALE" npc_id="13094"/>
+	</data>
+	<data id="304">
+		<setting sex="FEMALE" npc_id="13095"/>
+		<setting sex="MALE" npc_id="13095"/>
+	</data>
+	<data id="305">
+		<setting sex="FEMALE" npc_id="13099"/>
+		<setting sex="MALE" npc_id="13099"/>
+	</data>
+	<data id="306">
+		<setting sex="FEMALE" npc_id="13100"/>
+		<setting sex="MALE" npc_id="13100"/>
+	</data>
+	<data id="307">
+		<setting sex="FEMALE" npc_id="13101" item_id="8203"/>
+		<setting sex="MALE" npc_id="13101" item_id="8203"/>
+	</data>
+	<data id="308">
+		<setting sex="FEMALE" npc_id="13102"/>
+		<setting sex="MALE" npc_id="13102"/>
+	</data>
+	<data id="309">
+		<setting sex="FEMALE" npc_id="13103"/>
+		<setting sex="MALE" npc_id="13103"/>
+	</data>
+	<data id="310">
+		<setting sex="FEMALE" npc_id="13104"/>
+		<setting sex="MALE" npc_id="13104"/>
+	</data>
+	<data id="311">
+		<setting sex="FEMALE" npc_id="13105"/>
+		<setting sex="MALE" npc_id="13105"/>
+	</data>
+	<data id="312">
+		<setting sex="FEMALE" npc_id="0"/>
+		<setting sex="MALE" npc_id="0"/>
+	</data>
+	<data id="313">
+		<setting sex="FEMALE" npc_id="0"/>
+		<setting sex="MALE" npc_id="0"/>
+	</data>
+	<data id="314">
+		<setting sex="FEMALE" npc_id="0"/>
+		<setting sex="MALE" npc_id="0"/>
+	</data>
+	<data id="315">
+		<setting sex="FEMALE" npc_id="0"/>
+		<setting sex="MALE" npc_id="0"/>
+	</data>
+	<data id="316">
+		<setting sex="FEMALE" npc_id="0"/>
+		<setting sex="MALE" npc_id="0"/>
+	</data>
+	<data id="317">
+		<setting sex="FEMALE" npc_id="0"/>
+		<setting sex="MALE" npc_id="0"/>
+	</data>
+	<data id="318">
+		<setting sex="FEMALE" npc_id="0"/>
+		<setting sex="MALE" npc_id="0"/>
+	</data>
+	<data id="319">
+		<setting sex="FEMALE" npc_id="13129" item_id="12814"/>
+		<setting sex="MALE" npc_id="13129" item_id="12814"/>
+	</data>
+	<data id="320">
+		<setting sex="FEMALE" npc_id="13131"/>
+		<setting sex="MALE" npc_id="13131"/>
+	</data>
+	<data id="321">
+		<setting sex="FEMALE" npc_id="13132"/>
+		<setting sex="MALE" npc_id="13132"/>
+	</data>
+	<data id="322">
+		<setting sex="FEMALE" npc_id="13133"/>
+		<setting sex="MALE" npc_id="13133"/>
+	</data>
+	<data id="323">
+		<setting sex="FEMALE" npc_id="13134"/>
+		<setting sex="MALE" npc_id="13134"/>
+	</data>
+	<data id="20000">
+		<setting sex="FEMALE" npc_id="126"/>
+		<setting sex="MALE" npc_id="126"/>
+	</data>
+	<data id="20001">
+		<setting sex="FEMALE" npc_id="138"/>
+		<setting sex="MALE" npc_id="138"/>
+	</data>
+	<data id="20002">
+		<setting sex="FEMALE" npc_id="132"/>
+		<setting sex="MALE" npc_id="132"/>
+	</data>
+	<data id="20003">
+		<setting sex="FEMALE" npc_id="133"/>
+		<setting sex="MALE" npc_id="133"/>
+	</data>
+	<data id="20004">
+		<setting sex="FEMALE" npc_id="136"/>
+		<setting sex="MALE" npc_id="136"/>
+	</data>
+	<data id="20005">
+		<setting sex="FEMALE" npc_id="134"/>
+		<setting sex="MALE" npc_id="134"/>
+	</data>
+	<data id="20006">
+		<setting sex="FEMALE" npc_id="135"/>
+		<setting sex="MALE" npc_id="135"/>
+	</data>
+	<data id="20007">
+		<setting sex="FEMALE" npc_id="158"/>
+		<setting sex="MALE" npc_id="158"/>
+	</data>
+</list>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<!-- 
+		Примеры:
+		generator_type='WEEKLY' day_of_week='2' hour_of_day='00' minute_of_hour='00' - будет запускаться каждую неделю в понедельник в 00:00 + @validation_period
+		generator_type='INTERVAL' weeks='2' day_of_week='2' hour_of_day='00' minute_of_hour='00' - будет запускаться каждые 2 недели в понедельник в 00:00 + @validation_period
+		generator_type='INTERVAL' days='3' hour_of_day='00' minute_of_hour='00' - будет запускаться каждые 3 дня в 00:00 + @validation_period
+		generator_type='MONTHLY' day_of_month='1' hour_of_day='00' minute_of_hour='00' - будет запускаться каждый месяц 1 числа в 00:00 + @validation_period
+	 -->
+	<olympiad generator_type='MONTHLY' day_of_month='1' hour_of_day='00' minute_of_hour='00'>
+		<set name="start_hour" val="18" /> <!-- начало олимпиады, по умолчанию в 6 часов вечера (18) -->
+		<set name="start_minute" val="00" /> <!-- время начала олимпиады в минутах, обычно 00 так в начале часа -->
+		<set name="comptetition_period" val="21600000" /> <!-- период соревнований олимпиады, обчыно 6 часов (в миллисекундах) -->
+		<set name="weekly_period" val="604800000" /> <!-- неделя олимпиады, по умолчанию 1 неделя (в миллисекундах) -->
+		<set name="validation_period" val="43200000" /> <!-- ратификация олимпиады, по умолчанию 12 часа (в миллисекундах) -->
+		 <!-- время должно быть кратно 10, минимально возможное значение 20 -->
+		<set name="teleport_time" val="120" /> <!-- время ожидания телепортации на арену (в секундах) -->
+	</olympiad>
+</list>
